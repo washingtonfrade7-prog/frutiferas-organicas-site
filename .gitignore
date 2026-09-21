@@ -33,3 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# assets de origem da marca (grandes; versoes otimizadas ficam em public/)
+/logo youtube.png
+/BANNER FINAL.png

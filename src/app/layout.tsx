@@ -45,8 +45,9 @@ export const metadata: Metadata = {
     url: site.url,
     title: `${site.name} - Frutíferas orgânicas em vaso`,
     description: site.description,
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: site.name }],
   },
-  twitter: { card: 'summary_large_image' },
+  twitter: { card: 'summary_large_image', images: ['/og-logo.jpg'] },
 }
 
 export const viewport: Viewport = {

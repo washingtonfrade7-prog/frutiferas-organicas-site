@@ -100,7 +100,7 @@ export default function HomePage() {
           subtitulo="Substratos, adubos e ferramentas selecionados pelos nossos parceiros para você produzir frutas de verdade em casa."
           ctaLabel="Ver ofertas dos parceiros"
           ctaHref="/frutiferas"
-          imagem="/banners/pomar-wide.jpg"
+          imagem="/banners/banner-final.jpg"
         />
       </div>
 

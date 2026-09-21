@@ -9,7 +9,7 @@ export function organizationJsonLd(): string {
     url: site.url,
     description: site.description,
     email: site.email,
-    sameAs: [`https://youtube.com/@${site.youtubeHandle}`, `https://instagram.com/${site.instagram}`],
+    sameAs: [site.youtubeUrl, `https://instagram.com/${site.instagram}`],
   })
 }
 

@@ -1,24 +1,17 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { site, whatsappLink, youtubeChannelUrl } from '@/lib/site'
+import { site, youtubeChannelUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Contato',
   description:
-    'Fale com o Frutíferas Orgânicas por WhatsApp ou e-mail. Tire dúvidas sobre cultivo de frutíferas em vaso e parcerias.',
+    'Fale com o Frutíferas Orgânicas por e-mail ou pelo nosso canal no YouTube. Tire dúvidas sobre cultivo de frutíferas em vaso e parcerias.',
   alternates: { canonical: '/contato' },
   openGraph: { url: '/contato', title: `Contato - ${site.name}` },
 }
 
 export default function ContatoPage() {
   const canais = [
-    {
-      titulo: 'WhatsApp',
-      descricao: 'Atendimento rápido para dúvidas e sugestões.',
-      valor: site.whatsappLabel,
-      href: whatsappLink('Olá! Vim pelo site Frutíferas Orgânicas e tenho uma dúvida.'),
-      externo: true,
-    },
     {
       titulo: 'E-mail',
       descricao: 'Para parcerias, imprensa e assuntos comerciais.',
@@ -29,7 +22,7 @@ export default function ContatoPage() {
     {
       titulo: 'YouTube',
       descricao: 'Acompanhe os vídeos e comente suas dúvidas por lá.',
-      valor: `@${site.youtubeHandle}`,
+      valor: site.youtubeLabel,
       href: youtubeChannelUrl(),
       externo: true,
     },
@@ -48,7 +41,7 @@ export default function ContatoPage() {
         Escolha o canal de sua preferência. Respondemos o mais rápido possível.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         {canais.map((canal) => (
           <a
             key={canal.titulo}
