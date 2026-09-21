@@ -160,7 +160,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-2 font-display">Ficou com alguma dúvida?</h2>
           <p className="text-cream-100 text-sm mb-6">
-            Fale com a gente pelo WhatsApp ou acompanhe o canal para mais dicas de cultivo orgânico.
+            Fale com a gente por e-mail ou acompanhe o canal para mais dicas de cultivo orgânico.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <Link href="/contato" className="bg-white text-forest-700 font-semibold px-6 py-2.5 rounded-full hover:bg-cream-100 transition text-sm">
