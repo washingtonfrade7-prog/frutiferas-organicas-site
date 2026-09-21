@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --horto-green: #2e5b3a;
+  --horto-green-light: #6b9a6b;
+  --horto-green-dark: #1e3a27;
+  --horto-bg: #faf7f0;
+  --horto-gray: #f3ede0;
+  --horto-text: #2b2720;
+  --horto-accent: #c2703d;
+  --horto-accent-dark: #a85a2e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream-50 text-ink-900 font-body antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-display;
+}
