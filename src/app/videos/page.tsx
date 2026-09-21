@@ -64,7 +64,7 @@ export default function VideosPage() {
                 Ver ficha →
               </Link>
             </div>
-            <YouTubeSection videos={fruta.videos} titulo="" />
+            <YouTubeSection videos={fruta.videos.slice(0, 3)} titulo="" />
           </section>
         ))}
       </div>

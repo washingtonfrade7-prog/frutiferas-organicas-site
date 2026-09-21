@@ -1,8 +1,10 @@
 import { ofertasPadrao, type Oferta } from '@/data/ofertas'
+import { frutiferasExtras } from '@/data/frutiferas-extras'
 
 export interface Video {
   id: string
   titulo: string
+  tipo?: string
 }
 
 export interface Frutifera {
@@ -27,6 +29,8 @@ export interface Frutifera {
   videos: Video[]
   ofertas: Oferta[]
   imagem?: string
+  galeria?: string[]
+  keywords?: string[]
   cor: string
   destaque?: boolean
 }
@@ -86,7 +90,7 @@ const videos = (fruta: string): Video[] => {
   return mapa[fruta] || []
 }
 
-export const frutiferas: Frutifera[] = [
+const frutiferasManuais: Frutifera[] = [
   {
     slug: 'jabuticaba',
     imagem: '/frutiferas/jabuticaba.jpg',
@@ -464,6 +468,8 @@ export const frutiferas: Frutifera[] = [
     destaque: true,
   },
 ]
+
+export const frutiferas: Frutifera[] = [...frutiferasManuais, ...frutiferasExtras]
 
 export function getFrutifera(slug: string): Frutifera | undefined {
   return frutiferas.find((f) => f.slug === slug)

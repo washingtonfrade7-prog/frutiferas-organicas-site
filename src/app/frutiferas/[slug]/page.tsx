@@ -69,7 +69,9 @@ export default function FrutiferaPage({ params }: PageProps) {
     { label: 'Dificuldade', valor: fruta.dificuldade },
     { label: 'Tempo até produzir', valor: fruta.tempoProducao },
     { label: 'Frutificação', valor: fruta.frutificacao },
-  ]
+  ].filter((item) => Boolean(item.valor))
+
+  const galeria = [fruta.imagem, ...(fruta.galeria || [])].filter(Boolean) as string[]
 
   const crumbs = [
     { name: 'Início', path: '/' },
@@ -171,6 +173,25 @@ export default function FrutiferaPage({ params }: PageProps) {
         </div>
       </section>
 
+      {galeria.length > 1 && (
+        <section className="mt-12">
+          <h2 className="text-2xl font-bold mb-4 font-display">Galeria</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {galeria.map((src, i) => (
+              <div key={i} className="relative aspect-video rounded-xl overflow-hidden border border-cream-200 bg-cream-100">
+                <Image
+                  src={src}
+                  alt={`${fruta.nome} - imagem ${i + 1}`}
+                  fill
+                  sizes="(max-width: 768px) 50vw, 33vw"
+                  className="object-cover hover:scale-105 transition duration-300"
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-white rounded-xl shadow-sm border border-cream-200 p-6">
           <h2 className="text-xl font-bold mb-4">Ficha de cultivo</h2>
@@ -197,17 +218,19 @@ export default function FrutiferaPage({ params }: PageProps) {
             </ul>
           </div>
 
-          <div className="bg-white rounded-xl shadow-sm border border-cream-200 p-6">
-            <h2 className="text-xl font-bold mb-4">Você sabia?</h2>
-            <ul className="space-y-2.5">
-              {fruta.curiosidades.map((item, i) => (
-                <li key={i} className="flex gap-2 text-sm text-ink-600">
-                  <span className="text-terracotta-500 font-bold">•</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {fruta.curiosidades.length > 0 && (
+            <div className="bg-white rounded-xl shadow-sm border border-cream-200 p-6">
+              <h2 className="text-xl font-bold mb-4">Você sabia?</h2>
+              <ul className="space-y-2.5">
+                {fruta.curiosidades.map((item, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-ink-600">
+                    <span className="text-terracotta-500 font-bold">•</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </section>
 
