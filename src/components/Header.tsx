@@ -10,6 +10,7 @@ const nav = [
   { href: '/', label: 'Início' },
   { href: '/frutiferas', label: 'Frutíferas' },
   { href: '/videos', label: 'Vídeos' },
+  { href: '/guias', label: 'Guias' },
   { href: '/sobre', label: 'Sobre' },
   { href: '/contato', label: 'Contato' },
 ]
@@ -105,6 +106,9 @@ export default function Header() {
 
               <Link href="/videos" className="px-3 py-4 hover:bg-forest-600 transition-colors text-sm font-medium rounded-lg">
                 Vídeos
+              </Link>
+              <Link href="/guias" className="px-3 py-4 hover:bg-forest-600 transition-colors text-sm font-medium rounded-lg">
+                Guias
               </Link>
               <Link href="/sobre" className="px-3 py-4 hover:bg-forest-600 transition-colors text-sm font-medium rounded-lg">
                 Sobre

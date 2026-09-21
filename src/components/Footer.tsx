@@ -49,6 +49,7 @@ export default function Footer() {
             <h3 className="text-cream-100 font-bold mb-4">Conteúdo</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/videos" className="hover:text-terracotta-100 transition">Vídeos de cultivo</Link></li>
+              <li><Link href="/guias" className="hover:text-terracotta-100 transition">Guias de cultivo</Link></li>
               <li><Link href="/sobre" className="hover:text-terracotta-100 transition">Sobre o projeto</Link></li>
               <li><Link href="/contato" className="hover:text-terracotta-100 transition">Contato</Link></li>
               <li><a href={youtubeChannelUrl()} target="_blank" rel="noopener noreferrer" className="hover:text-terracotta-100 transition">Canal no YouTube</a></li>

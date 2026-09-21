@@ -31,6 +31,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title: titulo,
     description: descricao,
+    keywords: fruta.keywords && fruta.keywords.length > 0 ? fruta.keywords : undefined,
     alternates: { canonical: url },
     openGraph: {
       type: 'article',

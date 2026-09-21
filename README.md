@@ -32,14 +32,17 @@ src/
   app/
     page.tsx                     # Home
     frutiferas/page.tsx          # Catálogo
-    frutiferas/[slug]/page.tsx   # Ficha da frutífera (com ofertas e vídeos)
+    frutiferas/[slug]/page.tsx   # Ficha da frutífera (galeria, vídeos, ofertas)
     categorias/[slug]/page.tsx   # Categoria
     videos/page.tsx              # Central de vídeos do YouTube
+    guias/page.tsx               # Guias por tema (poda, adubação, cuidados...)
     sobre, contato, aviso-de-afiliados, politica-de-privacidade
-    sitemap.ts, robots.ts
+    sitemap.ts, robots.ts, icon.png, apple-icon.png
   components/                    # Header, Footer, cards, banners, vídeos, etc.
   data/
-    frutiferas.ts                # Catálogo (edite aqui as frutas)
+    frutiferas.ts                # Fichas manuais (10 frutíferas) + merge
+    frutiferas-extras.ts         # GERADO pela auditoria (demais frutíferas)
+    guias.ts                     # GERADO pela auditoria (vídeos por tema)
     categorias.ts                # Categorias
     ofertas.ts                   # Links de afiliado (EDITE AQUI)
   lib/
@@ -48,7 +51,21 @@ src/
     video.ts                     # Helpers de embed do YouTube
 public/
   banners/                       # Banners da marca
-  frutiferas/                    # Fotos das frutas (opcional)
+  frutiferas/                    # Hero, galeria e frames das frutas
+ferramentas/auditoria/           # Scripts de auditoria do canal (Python)
+auditoria/                       # Resultados da auditoria (frutas, videos, keywords)
+```
+
+## Auditoria do canal
+
+O catálogo é alimentado por uma auditoria do canal `@FrutíferasOrgânicas`
+(YouTube Data API + transcrições locais). Veja `ferramentas/auditoria/README.md`.
+
+```powershell
+& "C:\Users\Micro\Downloads\Projeto automação youtube\.venv\Scripts\python.exe" -X utf8 ferramentas/auditoria/sincronizar.py
+& "C:\Users\Micro\Downloads\Projeto automação youtube\.venv\Scripts\python.exe" -X utf8 ferramentas/auditoria/03_assets.py
+& "C:\Users\Micro\Downloads\Projeto automação youtube\.venv\Scripts\python.exe" -X utf8 ferramentas/auditoria/06_gerar_catalogo.py
+& "C:\Users\Micro\Downloads\Projeto automação youtube\.venv\Scripts\python.exe" -X utf8 ferramentas/auditoria/07_gerar_guias.py
 ```
 
 ## Como editar conteúdo
