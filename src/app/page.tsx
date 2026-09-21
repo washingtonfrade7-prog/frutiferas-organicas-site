@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import FrutiferaCard from '@/components/FrutiferaCard'
 import CategoryIcon from '@/components/CategoryIcon'
 import BannerSlot from '@/components/BannerSlot'
@@ -22,25 +23,39 @@ export default function HomePage() {
   return (
     <>
       <section className="relative bg-gradient-to-br from-forest-700 via-forest-500 to-forest-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 md:py-24">
-          <div className="max-w-2xl">
-            <p className="text-xs uppercase tracking-[0.25em] text-cream-200 mb-3">
-              Cultivo orgânico em vaso
-            </p>
-            <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 font-display">
-              Frutíferas orgânicas<br />na sua varanda ou quintal
-            </h1>
-            <p className="text-base md:text-lg text-cream-100 mb-8">
-              Aprenda a plantar, cuidar e colher {frutiferas.length}+ frutíferas em vaso e descubra
-              onde comprar mudas e insumos com nossos parceiros.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link href="/frutiferas" className="bg-cream-50 text-forest-700 font-semibold px-8 py-3 rounded-full hover:bg-cream-100 transition shadow-lg">
-                Explorar frutíferas
-              </Link>
-              <Link href="/videos" className="border-2 border-cream-100 text-cream-100 font-semibold px-8 py-3 rounded-full hover:bg-cream-100/10 transition">
-                Ver vídeos de cultivo
-              </Link>
+        <div className="max-w-7xl mx-auto px-4 py-14 md:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div className="max-w-2xl">
+              <p className="text-xs uppercase tracking-[0.25em] text-cream-200 mb-3">
+                Cultivo orgânico em vaso
+              </p>
+              <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 font-display">
+                Frutíferas orgânicas<br />na sua varanda ou quintal
+              </h1>
+              <p className="text-base md:text-lg text-cream-100 mb-8">
+                Aprenda a plantar, cuidar e colher {frutiferas.length}+ frutíferas em vaso e descubra
+                onde comprar mudas e insumos com nossos parceiros.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link href="/frutiferas" className="bg-cream-50 text-forest-700 font-semibold px-8 py-3 rounded-full hover:bg-cream-100 transition shadow-lg">
+                  Explorar frutíferas
+                </Link>
+                <Link href="/videos" className="border-2 border-cream-100 text-cream-100 font-semibold px-8 py-3 rounded-full hover:bg-cream-100/10 transition">
+                  Ver vídeos de cultivo
+                </Link>
+              </div>
+            </div>
+            <div className="relative hidden lg:block">
+              <div className="relative aspect-[3/2] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
+                <Image
+                  src="/banners/pomar.jpg"
+                  alt="Pai e filho caminhando em um pomar de frutíferas orgânicas"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 0px, 50vw"
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -79,9 +94,10 @@ export default function HomePage() {
       <div className="max-w-7xl mx-auto px-4 pb-12">
         <BannerSlot
           titulo="Seu kit de cultivo orgânico começa aqui"
-          subtitulo="Substratos, adubos e ferramentas selecionadas pelos nossos parceiros para você produzir frutas de verdade em casa."
+          subtitulo="Substratos, adubos e ferramentas selecionados pelos nossos parceiros para você produzir frutas de verdade em casa."
           ctaLabel="Ver ofertas dos parceiros"
           ctaHref="/frutiferas"
+          imagem="/banners/pomar-wide.jpg"
         />
       </div>
 
