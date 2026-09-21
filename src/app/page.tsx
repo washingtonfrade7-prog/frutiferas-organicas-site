@@ -25,41 +25,71 @@ export default function HomePage() {
 
   return (
     <>
-      <section className="relative bg-gradient-to-br from-forest-700 via-forest-500 to-forest-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 py-14 md:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-            <div className="max-w-2xl">
-              <p className="text-xs uppercase tracking-[0.25em] text-cream-200 mb-3">
+      <section className="relative overflow-hidden bg-gradient-to-br from-forest-700 via-forest-500 to-forest-700 text-white">
+        <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-terracotta-500/20 blur-3xl" />
+        <div className="max-w-7xl mx-auto px-4 py-12 md:py-16 relative">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+            <div className="lg:col-span-7 order-2 lg:order-1">
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-cream-100 ring-1 ring-white/15">
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 21v-8M12 13C9 13 6.5 10.5 6.5 7.5 8.5 8 11 10 12 13zM12 13c3 0 5.5-2.5 5.5-5.5C15.5 8 13 10 12 13z" />
+                </svg>
                 Cultivo orgânico em vaso
-              </p>
-              <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4 font-display">
-                Frutíferas orgânicas<br />na sua varanda ou quintal
+              </span>
+
+              <h1 className="mt-5 text-3xl md:text-5xl font-bold leading-[1.08] font-display text-balance">
+                Frutíferas orgânicas<br className="hidden sm:block" /> na sua varanda ou quintal
               </h1>
-              <p className="text-base md:text-lg text-cream-100 mb-8">
+
+              <p className="mt-5 max-w-xl text-base md:text-lg leading-relaxed text-cream-100/90">
                 Aprenda a plantar, cuidar e colher {frutiferas.length}+ frutíferas em vaso e descubra
                 onde comprar mudas e insumos com nossos parceiros.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <Link href="/frutiferas" className="bg-cream-50 text-forest-700 font-semibold px-8 py-3 rounded-full hover:bg-cream-100 transition shadow-lg">
+
+              <div className="mt-8 flex flex-wrap items-center gap-3">
+                <Link
+                  href="/frutiferas"
+                  className="inline-flex items-center gap-2 bg-cream-50 text-forest-700 font-semibold px-7 py-3 rounded-full hover:bg-cream-100 transition shadow-lg"
+                >
                   Explorar frutíferas
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
                 </Link>
-                <Link href="/videos" className="border-2 border-cream-100 text-cream-100 font-semibold px-8 py-3 rounded-full hover:bg-cream-100/10 transition">
+                <Link
+                  href="/videos"
+                  className="inline-flex items-center gap-2 border-2 border-cream-100/70 text-cream-50 font-semibold px-7 py-3 rounded-full hover:bg-cream-100/10 transition"
+                >
                   Ver vídeos de cultivo
                 </Link>
               </div>
-            </div>
-            <div className="relative hidden lg:flex items-center justify-center">
-              <div className="w-full max-w-sm aspect-square rounded-3xl bg-cream-50 shadow-2xl ring-1 ring-white/20 p-6">
-                <div className="relative w-full h-full">
-                  <Image
-                    src="/logo.png"
-                    alt="Logo Frutíferas Orgânicas"
-                    fill
-                    priority
-                    sizes="(max-width: 1024px) 0px, 30vw"
-                    className="object-contain"
-                  />
+
+              <dl className="mt-9 flex flex-wrap gap-x-8 gap-y-3 border-t border-white/15 pt-6 text-sm text-cream-100/80">
+                <div>
+                  <dt className="sr-only">Frutíferas</dt>
+                  <dd><span className="font-display text-xl font-bold text-white">{frutiferas.length}+</span> frutíferas</dd>
                 </div>
+                <div>
+                  <dt className="sr-only">Vídeos</dt>
+                  <dd><span className="font-display text-xl font-bold text-white">2.500+</span> vídeos</dd>
+                </div>
+                <div>
+                  <dt className="sr-only">Inscritos</dt>
+                  <dd><span className="font-display text-xl font-bold text-white">88 mil</span> inscritos</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div className="lg:col-span-5 order-1 lg:order-2 flex justify-center lg:justify-end">
+              <div className="relative w-52 h-52 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl ring-4 ring-white/20">
+                <Image
+                  src="/logo.png"
+                  alt="Logo Frutíferas Orgânicas"
+                  fill
+                  priority
+                  sizes="(max-width: 1024px) 60vw, 320px"
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
