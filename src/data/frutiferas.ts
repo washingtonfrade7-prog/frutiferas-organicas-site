@@ -26,6 +26,7 @@ export interface Frutifera {
   dicas: string[]
   videos: Video[]
   ofertas: Oferta[]
+  imagem?: string
   cor: string
   destaque?: boolean
 }
@@ -88,6 +89,7 @@ const videos = (fruta: string): Video[] => {
 export const frutiferas: Frutifera[] = [
   {
     slug: 'jabuticaba',
+    imagem: '/frutiferas/jabuticaba.jpg',
     nome: 'Jabuticaba',
     nomeCientifico: 'Plinia cauliflora',
     familia: 'Myrtaceae',
@@ -126,6 +128,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'araca-vermelho',
+    imagem: '/frutiferas/araca-vermelho.jpg',
     nome: 'Araçá Vermelho',
     nomeCientifico: 'Psidium cattleianum',
     familia: 'Myrtaceae',
@@ -163,6 +166,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'pitanga-preta',
+    imagem: '/frutiferas/pitanga-preta.jpg',
     nome: 'Pitanga Preta',
     nomeCientifico: 'Eugenia uniflora',
     familia: 'Myrtaceae',
@@ -200,6 +204,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'araca-boi',
+    imagem: '/frutiferas/araca-boi.jpg',
     nome: 'Araçá Boi (Fruta Iogurte)',
     nomeCientifico: 'Psidium guineense',
     familia: 'Myrtaceae',
@@ -237,6 +242,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'bacupari-mirim',
+    imagem: '/frutiferas/bacupari-mirim.jpg',
     nome: 'Bacupari Mirim',
     nomeCientifico: 'Garcinia gardneriana',
     familia: 'Clusiaceae',
@@ -273,6 +279,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'bacupari-estalo',
+    imagem: '/frutiferas/bacupari-estalo.jpg',
     nome: 'Bacupari Estalo',
     nomeCientifico: 'Garcinia brasiliensis',
     familia: 'Clusiaceae',
@@ -309,6 +316,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'abiu-amarelo',
+    imagem: '/frutiferas/abiu-amarelo.jpg',
     nome: 'Abiu Amarelo',
     nomeCientifico: 'Pouteria caimito',
     familia: 'Sapotaceae',
@@ -345,6 +353,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'gabiroba',
+    imagem: '/frutiferas/gabiroba.jpg',
     nome: 'Gabiroba do Cerrado',
     nomeCientifico: 'Campomanesia pubescens',
     familia: 'Myrtaceae',
@@ -381,6 +390,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'cereja-rio-grande',
+    imagem: '/frutiferas/cereja-rio-grande.jpg',
     nome: 'Cereja do Rio Grande',
     nomeCientifico: 'Eugenia involucrata',
     familia: 'Myrtaceae',
@@ -417,6 +427,7 @@ export const frutiferas: Frutifera[] = [
   },
   {
     slug: 'grumixama-amarela',
+    imagem: '/frutiferas/grumixama-amarela.jpg',
     nome: 'Grumixama Amarela',
     nomeCientifico: 'Eugenia brasiliensis',
     familia: 'Myrtaceae',

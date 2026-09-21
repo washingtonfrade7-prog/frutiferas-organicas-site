@@ -13,7 +13,10 @@ export const metadata: Metadata = {
   title: { absolute: `${site.name} - Frutíferas orgânicas em vaso` },
   description: site.description,
   alternates: { canonical: '/' },
-  openGraph: { url: '/' },
+  openGraph: {
+    url: '/',
+    images: [{ url: '/banners/pomar.jpg', width: 1536, height: 1024, alt: 'Frutíferas Orgânicas' }],
+  },
 }
 
 export default function HomePage() {

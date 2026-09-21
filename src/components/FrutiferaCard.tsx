@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import FruitVisual from '@/components/FruitVisual'
 import type { Frutifera } from '@/data/frutiferas'
 import { getCategoria } from '@/data/categorias'
@@ -16,7 +17,19 @@ export default function FrutiferaCard({ fruta }: FrutiferaCardProps) {
       href={`/frutiferas/${fruta.slug}`}
       className="block relative bg-white rounded-xl shadow-sm hover:shadow-md transition group border border-cream-200 overflow-hidden"
     >
-      <FruitVisual nome={fruta.nome} cor={fruta.cor} className="h-48" />
+      {fruta.imagem ? (
+        <div className="relative h-48 bg-cream-100 overflow-hidden">
+          <Image
+            src={fruta.imagem}
+            alt={`${fruta.nome} (${fruta.nomeCientifico})`}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+            className="object-cover group-hover:scale-105 transition duration-300"
+          />
+        </div>
+      ) : (
+        <FruitVisual nome={fruta.nome} cor={fruta.cor} className="h-48" />
+      )}
 
       <div className="absolute top-2 left-2 flex flex-col gap-1">
         {fruta.destaque && (

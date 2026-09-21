@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import FruitVisual from '@/components/FruitVisual'
 import AffiliateButton from '@/components/AffiliateButton'
@@ -37,8 +38,14 @@ export function generateMetadata({ params }: PageProps): Metadata {
       siteName: site.name,
       title: `${titulo} - ${site.name}`,
       description: descricao,
+      images: fruta.imagem ? [{ url: fruta.imagem, width: 800, height: 450, alt: fruta.nome }] : undefined,
     },
-    twitter: { card: 'summary_large_image', title: titulo, description: descricao },
+    twitter: {
+      card: 'summary_large_image',
+      title: titulo,
+      description: descricao,
+      images: fruta.imagem ? [fruta.imagem] : undefined,
+    },
     robots: { index: true, follow: true },
   }
 }
@@ -103,7 +110,20 @@ export default function FrutiferaPage({ params }: PageProps) {
       </nav>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <FruitVisual nome={fruta.nome} cor={fruta.cor} className="rounded-2xl h-80 md:h-96" size="lg" />
+        {fruta.imagem ? (
+          <div className="relative rounded-2xl h-80 md:h-96 overflow-hidden bg-cream-100">
+            <Image
+              src={fruta.imagem}
+              alt={`${fruta.nome} (${fruta.nomeCientifico})`}
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
+            />
+          </div>
+        ) : (
+          <FruitVisual nome={fruta.nome} cor={fruta.cor} className="rounded-2xl h-80 md:h-96" size="lg" />
+        )}
 
         <div>
           <div className="flex flex-wrap gap-2 mb-3">
@@ -219,7 +239,13 @@ export default function FrutiferaPage({ params }: PageProps) {
               href={`/frutiferas/${outra.slug}`}
               className="flex items-center gap-4 bg-white rounded-xl shadow-sm border border-cream-200 p-4 hover:shadow-md transition group"
             >
-              <FruitVisual nome={outra.nome} cor={outra.cor} className="rounded-lg w-16 h-16 shrink-0" size="sm" />
+              {outra.imagem ? (
+                <span className="relative rounded-lg w-16 h-16 shrink-0 overflow-hidden bg-cream-100">
+                  <Image src={outra.imagem} alt={outra.nome} fill sizes="64px" className="object-cover" />
+                </span>
+              ) : (
+                <FruitVisual nome={outra.nome} cor={outra.cor} className="rounded-lg w-16 h-16 shrink-0" size="sm" />
+              )}
               <span>
                 <span className="block font-semibold text-ink-900 group-hover:text-forest-700 transition">{outra.nome}</span>
                 <span className="block text-xs italic text-ink-500">{outra.nomeCientifico}</span>
