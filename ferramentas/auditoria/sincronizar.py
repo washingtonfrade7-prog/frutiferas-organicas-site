@@ -22,6 +22,9 @@ ETAPAS = [
     "02_ler_transcricoes.py",
     "04_normalizar.py",
     "05_gerar_relatorio.py",
+    "06_gerar_catalogo.py",
+    "07_gerar_guias.py",
+    "09_playlists.py",
 ]
 
 

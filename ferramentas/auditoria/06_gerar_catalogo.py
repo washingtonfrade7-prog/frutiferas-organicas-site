@@ -31,7 +31,7 @@ MANUAIS = {
     "grumixama-amarela",
 }
 
-MIN_VIDEOS = 4
+MIN_VIDEOS = 3
 
 PALETA = [
     "#2E5B3A", "#4B2E5C", "#B23A2E", "#C2703D", "#7A8B3A",

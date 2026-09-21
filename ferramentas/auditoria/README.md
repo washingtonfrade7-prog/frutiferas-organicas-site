@@ -30,6 +30,16 @@ python 01_coletar_canal.py    # canal, playlists e todos os vídeos
 python 02_ler_transcricoes.py # transcrições .vtt locais
 python 04_normalizar.py       # taxonomia + tipos + keywords
 python 05_gerar_relatorio.py  # relatório markdown
+python 06_gerar_catalogo.py   # src/data/frutiferas-extras.ts
+python 07_gerar_guias.py      # src/data/guias.ts
+python 08_revisao.py          # diagnóstico de cobertura/lacunas
+python 09_playlists.py        # src/data/playlists.ts
+```
+
+`03_assets.py` (hero, galeria e frames) roda separado, pois baixa imagens e usa ffmpeg:
+
+```powershell
+python 03_assets.py
 ```
 
 ## Saídas (`/auditoria`)

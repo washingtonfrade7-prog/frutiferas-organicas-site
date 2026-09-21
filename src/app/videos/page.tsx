@@ -4,6 +4,7 @@ import Image from 'next/image'
 import YouTubeSection from '@/components/YouTubeSection'
 import BannerSlot from '@/components/BannerSlot'
 import { frutiferas } from '@/data/frutiferas'
+import { playlists } from '@/data/playlists'
 import { site, youtubeChannelUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
@@ -67,6 +68,34 @@ export default function VideosPage() {
             <YouTubeSection videos={fruta.videos.slice(0, 3)} titulo="" />
           </section>
         ))}
+      </div>
+
+      <div className="mt-16">
+        <h2 className="text-xl font-bold font-display mb-1">Playlists do canal</h2>
+        <p className="text-sm text-ink-500 mb-5">
+          Coleções organizadas por frutífera e por técnica. Abra no YouTube para assistir na sequência.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {playlists.map((pl) => (
+            <a
+              key={pl.id}
+              href={pl.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-white rounded-xl shadow-sm border border-cream-200 p-5 hover:shadow-md hover:border-forest-300 transition"
+            >
+              <div className="flex items-center gap-2 text-xs text-terracotta-600 font-semibold uppercase tracking-wide mb-2">
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M4 6h10v2H4zm0 5h10v2H4zm0 5h10v2H4zm14-5-4 3 4 3z" />
+                </svg>
+                Playlist · {pl.total} vídeos
+              </div>
+              <h3 className="font-semibold text-ink-900 group-hover:text-forest-700 transition leading-snug">
+                {pl.titulo}
+              </h3>
+            </a>
+          ))}
+        </div>
       </div>
 
       <div className="mt-14">

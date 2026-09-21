@@ -3145,6 +3145,203 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "cor": "#7A8B3A",
     "destaque": false
+  },
+  {
+    "slug": "bacuri",
+    "nome": "Bacuri",
+    "nomeCientifico": "Platonia insignis",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "raras"
+    ],
+    "resumo": "Bacuri cultivada em vaso. Reunimos 3 vídeos no canal Frutíferas Orgânicas cobrindo colheita, cultivo desta frutífera.",
+    "descricao": [
+      "Bacuri (Platonia insignis) é uma frutífera cultivada em vaso e amplamente documentada no canal Frutíferas Orgânicas. Ao todo, são 3 vídeos mostrando colheita, cultivo na prática.",
+      "Assista aos vídeos abaixo para ver o passo a passo real de cultivo, e confira as lojas parceiras para adquirir mudas e insumos."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de bacuri em vaso."
+    ],
+    "videos": [
+      {
+        "id": "MvfDp1kJVwo",
+        "titulo": "Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO",
+        "tipo": "colheita"
+      },
+      {
+        "id": "h28LUW3P0Vw",
+        "titulo": "Colheita e degustação bacuri-Pari(Garcinia Benthamiana)",
+        "tipo": "colheita"
+      },
+      {
+        "id": "k2qUYhXhhx4",
+        "titulo": "Bacuri-Pari FRUTIFERA Brasileira Combate o Câncer",
+        "tipo": "outros"
+      }
+    ],
+    "imagem": "/frutiferas/bacuri.jpg",
+    "galeria": [
+      "/frutiferas/bacuri-2.jpg",
+      "/frutiferas/bacuri-3.jpg"
+    ],
+    "keywords": [
+      "pari",
+      "bacuri",
+      "combate",
+      "bacupari",
+      "link",
+      "comprar",
+      "produzindo",
+      "medidor",
+      "pouco",
+      "frutas",
+      "musica",
+      "pra"
+    ],
+    "cor": "#8E2B2B",
+    "destaque": false
+  },
+  {
+    "slug": "mangaba",
+    "nome": "Mangaba",
+    "nomeCientifico": "Hancornia speciosa",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "raras"
+    ],
+    "resumo": "Mangaba cultivada em vaso. Reunimos 3 vídeos no canal Frutíferas Orgânicas cobrindo colheita, gastronomia desta frutífera.",
+    "descricao": [
+      "Mangaba (Hancornia speciosa) é uma frutífera cultivada em vaso e amplamente documentada no canal Frutíferas Orgânicas. Ao todo, são 3 vídeos mostrando colheita, gastronomia na prática.",
+      "Assista aos vídeos abaixo para ver o passo a passo real de cultivo, e confira as lojas parceiras para adquirir mudas e insumos."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de mangaba em vaso."
+    ],
+    "videos": [
+      {
+        "id": "yzcmBg5QGAA",
+        "titulo": "Degustação da Mangaba uma frutífera do cerrado deliciosa! 😋",
+        "tipo": "colheita"
+      },
+      {
+        "id": "GmmtiqE0mAM",
+        "titulo": "Provando sorvete da maravilhosa Mangaba 😋😋😋",
+        "tipo": "gastronomia"
+      },
+      {
+        "id": "GVHtzRv-0g8",
+        "titulo": "Provando caipirinha de Mangaba pela primeira vez",
+        "tipo": "gastronomia"
+      }
+    ],
+    "imagem": "/frutiferas/mangaba.jpg",
+    "galeria": [
+      "/frutiferas/mangaba-2.jpg",
+      "/frutiferas/mangaba-3.jpg"
+    ],
+    "keywords": [
+      "mangaba",
+      "provando",
+      "degustacao",
+      "cerrado",
+      "deliciosa",
+      "sorvete",
+      "maravilhosa",
+      "caipirinha",
+      "pela",
+      "primeira",
+      "vez"
+    ],
+    "cor": "#D9A62E",
+    "destaque": false
+  },
+  {
+    "slug": "roma",
+    "nome": "Romã",
+    "nomeCientifico": "Punica granatum",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Romã cultivada em vaso. Reunimos 3 vídeos no canal Frutíferas Orgânicas cobrindo cultivo, tour desta frutífera.",
+    "descricao": [
+      "Romã (Punica granatum) é uma frutífera cultivada em vaso e amplamente documentada no canal Frutíferas Orgânicas. Ao todo, são 3 vídeos mostrando cultivo, tour na prática.",
+      "Assista aos vídeos abaixo para ver o passo a passo real de cultivo, e confira as lojas parceiras para adquirir mudas e insumos."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de romã em vaso."
+    ],
+    "videos": [
+      {
+        "id": "xE9LweMa0MI",
+        "titulo": "Nova Frutífera do Pomar Romã Orgânica em vaso 4k",
+        "tipo": "tour"
+      },
+      {
+        "id": "hQTt1OGVOdc",
+        "titulo": "Romã e Acerola  Frutas Fáceis e Ornamentais para Vasos! #plantas #caminhoparaumavidamelhor #jardim",
+        "tipo": "outros"
+      },
+      {
+        "id": "2pYXg2Pr21U",
+        "titulo": "Evolução estarquia romã acerola e bacupari complexo B",
+        "tipo": "outros"
+      }
+    ],
+    "imagem": "/frutiferas/roma.jpg",
+    "galeria": [
+      "/frutiferas/roma-2.jpg",
+      "/frutiferas/roma-3.jpg"
+    ],
+    "keywords": [
+      "roma",
+      "acerola",
+      "frutas",
+      "faceis",
+      "ornamentais",
+      "puder",
+      "contribuir",
+      "alguma",
+      "quantia",
+      "projeto",
+      "adubacao",
+      "nova"
+    ],
+    "cor": "#4A1B2E",
+    "destaque": false
   }
 ]
 
