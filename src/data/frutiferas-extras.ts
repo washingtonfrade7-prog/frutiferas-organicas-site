@@ -183,11 +183,11 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "quantia",
       "projeto",
       "abacaxi",
-      "champagne",
       "voces",
+      "champagne",
+      "pessoal",
       "horta",
-      "adubo",
-      "melhor"
+      "olha"
     ],
     "cor": "#4B2E5C",
     "destaque": true
@@ -273,15 +273,15 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "graviola",
       "horta",
       "shorts",
-      "adubacao",
       "voces",
+      "adubacao",
       "dica",
       "rapida",
       "adubo",
       "casa",
-      "anona",
+      "vou",
       "pessoal",
-      "vou"
+      "anona"
     ],
     "cor": "#B23A2E",
     "destaque": true
@@ -467,8 +467,8 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "quantia",
       "projeto",
       "chacara",
-      "voces",
-      "colha"
+      "pessoal",
+      "voces"
     ],
     "cor": "#7A8B3A",
     "destaque": false
@@ -560,9 +560,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "horta",
       "shorts",
       "guia",
+      "adubacao",
       "dica",
-      "rapida",
-      "projeto"
+      "rapida"
     ],
     "cor": "#8E2B2B",
     "destaque": false
@@ -651,12 +651,12 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "shorts",
       "dica",
       "rapida",
-      "adubo",
       "guia",
+      "adubo",
       "amarela",
-      "adubacao",
-      "melhor",
-      "voces"
+      "pessoal",
+      "voces",
+      "entao"
     ],
     "cor": "#D9A62E",
     "destaque": false
@@ -744,12 +744,12 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "puder",
       "contribuir",
       "alguma",
-      "horta",
+      "voces",
       "casa",
       "anao",
       "shorts",
-      "guia",
-      "dica"
+      "quantia",
+      "projeto"
     ],
     "cor": "#4A1B2E",
     "destaque": false
@@ -929,14 +929,14 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "pera",
       "adubacao",
       "araca",
+      "voces",
       "solo",
       "horta",
       "melao",
       "andino",
-      "produzindo",
-      "voces",
-      "arvore",
       "entao",
+      "produzindo",
+      "arvore",
       "agua"
     ],
     "cor": "#8F4C25",
@@ -1018,17 +1018,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "grumixama",
-      "produzindo",
       "horta",
       "direto",
       "ponto",
       "adubo",
       "casa",
+      "produzindo",
       "amarela",
       "shorts",
       "neste",
       "adubacao",
-      "solo"
+      "rapida"
     ],
     "cor": "#5C6B2E",
     "destaque": false
@@ -1109,17 +1109,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "bacupari",
-      "frutas",
       "bico",
       "horta",
       "solo",
       "adubacao",
+      "frutas",
       "adubo",
       "produzindo",
       "shorts",
-      "dica",
       "voces",
-      "mirin"
+      "dica",
+      "fruta"
     ],
     "cor": "#A8452E",
     "destaque": false
@@ -1206,14 +1206,14 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "manga",
       "ana",
       "anao",
-      "guia",
       "shorts",
+      "voces",
+      "guia",
       "dica",
       "rapida",
-      "adubo",
-      "horta",
-      "voces",
-      "melhor"
+      "galera",
+      "pessoal",
+      "certo"
     ],
     "cor": "#2E5B5B",
     "destaque": false
@@ -1298,16 +1298,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "amora",
       "portuguesa",
+      "olha",
       "gigante",
       "adubacao",
+      "pessoal",
       "puder",
       "contribuir",
-      "olha",
-      "produzindo",
-      "neste",
       "alguma",
       "quantia",
-      "projeto"
+      "projeto",
+      "voces"
     ],
     "cor": "#6B4C2E",
     "destaque": false
@@ -1390,15 +1390,15 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "araca",
       "amarelo",
       "horta",
-      "adubo",
       "adubacao",
       "shorts",
+      "adubo",
       "dica",
       "rapida",
       "melhor",
       "guia",
-      "frutas",
-      "solo"
+      "galera",
+      "voces"
     ],
     "cor": "#7A2E4B",
     "destaque": false
@@ -1485,14 +1485,14 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "voces",
       "entao",
       "pessoal",
-      "adubacao",
       "pra",
       "galera",
-      "horta",
+      "adubacao",
+      "gente",
+      "vou",
       "puder",
       "contribuir",
-      "alguma",
-      "quantia"
+      "alguma"
     ],
     "cor": "#2E5B3A",
     "destaque": false
@@ -1579,12 +1579,12 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "neste",
       "solo",
       "adubacao",
-      "medir",
       "melhores",
+      "medir",
       "fruta",
       "produzir",
-      "degustacao",
-      "campari"
+      "campari",
+      "horta"
     ],
     "cor": "#4B2E5C",
     "destaque": false
@@ -1668,11 +1668,11 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "puder",
       "contribuir",
       "alguma",
-      "adubo",
-      "horta",
       "quantia",
       "milagre",
       "voces",
+      "adubo",
+      "horta",
       "melhor",
       "guia"
     ],
@@ -1758,16 +1758,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "atemoia",
       "voces",
-      "pessoal",
       "vou",
-      "adubo",
-      "frutas",
-      "horta",
+      "pessoal",
       "olha",
+      "galera",
+      "gente",
       "entao",
       "shorts",
-      "dica",
-      "rapida"
+      "adubo",
+      "frutas",
+      "horta"
     ],
     "cor": "#C2703D",
     "destaque": false
@@ -1851,17 +1851,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "canistel",
+      "pessoal",
+      "voces",
       "frutas",
       "horta",
-      "adubo",
+      "entao",
+      "galera",
       "shorts",
-      "dica",
-      "rapida",
+      "muda",
+      "adubo",
       "plantio",
-      "fruta",
-      "ovo",
-      "puder",
-      "contribuir"
+      "fruta"
     ],
     "cor": "#7A8B3A",
     "destaque": false
@@ -1944,16 +1944,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "carambola",
       "mel",
+      "voces",
       "adubacao",
       "produzindo",
+      "pessoal",
       "doce",
-      "neste",
-      "voces",
       "solo",
       "flores",
-      "pessoal",
-      "medir",
-      "carabola"
+      "neste",
+      "tem",
+      "vai"
     ],
     "cor": "#8E2B2B",
     "destaque": false
@@ -2036,15 +2036,15 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "araca",
       "pera",
       "horta",
+      "voces",
       "shorts",
+      "adubacao",
       "dica",
       "rapida",
-      "voces",
-      "adubacao",
-      "entao",
-      "solo",
-      "boi",
-      "fruta"
+      "mesmo",
+      "pela",
+      "faco",
+      "podem"
     ],
     "cor": "#D9A62E",
     "destaque": false
@@ -2127,16 +2127,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "seriguela",
       "adubacao",
+      "voces",
       "produzindo",
       "neste",
       "estarquia",
-      "carregada",
       "caja",
       "manga",
       "podar",
-      "voces",
       "mesmo",
-      "solo"
+      "olha",
+      "primeira"
     ],
     "cor": "#4A1B2E",
     "destaque": false
@@ -2221,14 +2221,14 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "jabuticaba",
       "amarela",
       "adubacao",
-      "nativas",
       "casa",
+      "branca",
       "real",
       "shorts",
+      "direto",
+      "numero",
       "araca",
-      "boi",
-      "bacupari",
-      "frutas"
+      "boi"
     ],
     "cor": "#3E6B5A",
     "destaque": false
@@ -2310,17 +2310,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "acerola",
+      "voces",
+      "mas",
+      "entao",
       "roma",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
       "passo",
       "gigante",
-      "neste",
-      "dragon",
-      "estaquia"
+      "mesmo",
+      "gente",
+      "estarquia",
+      "bacupari",
+      "complexo"
     ],
     "cor": "#8F4C25",
     "destaque": false
@@ -2406,15 +2406,15 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "figo",
       "puder",
       "contribuir",
-      "chacara",
       "alguma",
       "quantia",
       "projeto",
+      "chacara",
       "zero",
       "segue",
       "poda",
-      "chave",
-      "amora"
+      "voces",
+      "chave"
     ],
     "cor": "#5C6B2E",
     "destaque": false
@@ -2583,16 +2583,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "maracuja",
       "doce",
+      "voces",
       "produz",
-      "solo",
       "gigante",
-      "produzindo",
+      "tem",
+      "gente",
       "neste",
       "ensino",
-      "adubacao",
-      "lagarta",
-      "ano",
-      "inteiro"
+      "solo",
+      "pouco",
+      "adubacao"
     ],
     "cor": "#2E5B5B",
     "destaque": false
@@ -2663,16 +2663,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "pinha",
       "voces",
+      "vou",
+      "gente",
+      "pessoal",
       "atemoia",
       "adubacao",
       "solo",
       "produzindo",
       "ata",
-      "fruta",
       "horta",
-      "astecas",
-      "plantio",
-      "2022"
+      "tem"
     ],
     "cor": "#6B4C2E",
     "destaque": false
@@ -2743,17 +2743,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "pessego",
-      "casa",
+      "entao",
       "douradao",
       "adubacao",
       "solo",
-      "entao",
       "vou",
       "primeira",
+      "pessoal",
       "floracao",
-      "nova",
-      "produzindo",
-      "medir"
+      "casa",
+      "voces",
+      "nova"
     ],
     "cor": "#7A2E4B",
     "destaque": false
@@ -2825,16 +2825,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "caqui",
       "mini",
-      "produzindo",
+      "gente",
       "atualizacao",
       "adubacao",
       "solo",
+      "produzindo",
       "medir",
       "neste",
       "chocolate",
-      "africano",
-      "primeiras",
-      "flores"
+      "olha",
+      "tem"
     ],
     "cor": "#2E5B3A",
     "destaque": false
@@ -2900,6 +2900,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "pitangatuba",
+      "entao",
       "muda",
       "link",
       "saber",
@@ -2909,8 +2910,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "dores",
       "articulacoes",
       "inflamacoes",
-      "cronicas",
-      "eugenia"
+      "cronicas"
     ],
     "cor": "#4B2E5C",
     "destaque": false
@@ -2978,17 +2978,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "camu",
-      "araca",
-      "dagua",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
-      "chacara",
-      "zero",
-      "segunda",
-      "parte"
+      "galera",
+      "voces",
+      "certo",
+      "bom",
+      "vou",
+      "tem",
+      "obrigado",
+      "muda",
+      "entao",
+      "parte",
+      "araca"
     ],
     "cor": "#B23A2E",
     "destaque": false
@@ -3056,17 +3056,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "longana",
-      "longan",
       "olho",
       "dragao",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
-      "chacara",
-      "parte",
-      "longa"
+      "galera",
+      "vou",
+      "voces",
+      "bom",
+      "est",
+      "vai",
+      "obrigado",
+      "longan",
+      "parte"
     ],
     "cor": "#C2703D",
     "destaque": false
@@ -3132,16 +3132,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "cacau",
       "produzindo",
-      "sombra",
-      "cacauemvaso",
-      "casa",
-      "adubacao",
-      "solo",
-      "horta",
-      "vou",
       "pessoal",
+      "sombra",
+      "vai",
+      "adubacao",
+      "vou",
       "meio",
-      "vai"
+      "menos",
+      "dois",
+      "quero",
+      "metro"
     ],
     "cor": "#7A8B3A",
     "destaque": false
@@ -3196,18 +3196,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "/frutiferas/bacuri-3.jpg"
     ],
     "keywords": [
-      "pari",
-      "bacuri",
-      "combate",
       "bacupari",
+      "bacuri",
+      "vou",
+      "mas",
+      "mesmo",
       "link",
       "comprar",
       "produzindo",
       "medidor",
       "pouco",
       "frutas",
-      "musica",
-      "pra"
+      "musica"
     ],
     "cor": "#8E2B2B",
     "destaque": false
@@ -3263,16 +3263,17 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [
       "mangaba",
-      "provando",
-      "degustacao",
-      "cerrado",
-      "deliciosa",
-      "sorvete",
-      "maravilhosa",
-      "caipirinha",
-      "pela",
-      "primeira",
-      "vez"
+      "pessoal",
+      "mas",
+      "vez",
+      "gente",
+      "tem",
+      "vai",
+      "delicia",
+      "voces",
+      "nada",
+      "entao",
+      "olha"
     ],
     "cor": "#D9A62E",
     "destaque": false
@@ -3329,16 +3330,16 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "keywords": [
       "roma",
       "acerola",
-      "frutas",
-      "faceis",
-      "ornamentais",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
       "adubacao",
-      "nova"
+      "cuidados",
+      "mas",
+      "entao",
+      "mes",
+      "frutas",
+      "voces",
+      "basicos",
+      "nova",
+      "produzindo"
     ],
     "cor": "#4A1B2E",
     "destaque": false

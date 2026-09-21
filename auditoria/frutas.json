@@ -31,7 +31,7 @@
         "likes": 10157,
         "comentarios": 659,
         "thumb": "https://i.ytimg.com/vi/cRV4orB4srg/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "SFJg7AaXeDQ",
@@ -48,7 +48,7 @@
         "likes": 149,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/SFJg7AaXeDQ/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "zfjVmCKMUzc",
@@ -3211,7 +3211,7 @@
       "likes": 10157,
       "comentarios": 659,
       "thumb": "https://i.ytimg.com/vi/cRV4orB4srg/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/cRV4orB4srg/maxresdefault.jpg",
@@ -3305,7 +3305,7 @@
         "likes": 93,
         "comentarios": 49,
         "thumb": "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "2raa1E2ST7Y",
@@ -3649,7 +3649,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "2MCjhIf08uU",
@@ -4671,8 +4671,8 @@
       "solo",
       "branca",
       "cabeludinha",
-      "puder",
-      "contribuir"
+      "jabuticabeira",
+      "pitaya"
     ]
   },
   {
@@ -4742,7 +4742,7 @@
         "likes": 23,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/mbHSz4ugvT8/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "mbHSz4ugvT8",
@@ -4759,7 +4759,7 @@
         "likes": 23,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/mbHSz4ugvT8/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "mbHSz4ugvT8",
@@ -4776,7 +4776,7 @@
         "likes": 23,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/mbHSz4ugvT8/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "GmUN81Q4ulk",
@@ -5992,11 +5992,11 @@
       "quantia",
       "projeto",
       "abacaxi",
-      "champagne",
       "voces",
+      "champagne",
+      "pessoal",
       "horta",
-      "adubo",
-      "melhor"
+      "olha"
     ]
   },
   {
@@ -6029,7 +6029,7 @@
         "likes": 119,
         "comentarios": 40,
         "thumb": "https://i.ytimg.com/vi/SEdlXvo9-5k/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "EnF4oEKwJbg",
@@ -6592,7 +6592,7 @@
         "likes": 51,
         "comentarios": 34,
         "thumb": "https://i.ytimg.com/vi/S8oWJfVm4yE/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "NY4IfYLUy3w",
@@ -7020,7 +7020,7 @@
       "likes": 119,
       "comentarios": 40,
       "thumb": "https://i.ytimg.com/vi/SEdlXvo9-5k/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/SEdlXvo9-5k/maxresdefault.jpg",
@@ -7034,15 +7034,15 @@
       "graviola",
       "horta",
       "shorts",
-      "adubacao",
       "voces",
+      "adubacao",
       "dica",
       "rapida",
       "adubo",
       "casa",
-      "anona",
+      "vou",
       "pessoal",
-      "vou"
+      "anona"
     ]
   },
   {
@@ -7092,7 +7092,7 @@
         "likes": 86,
         "comentarios": 16,
         "thumb": "https://i.ytimg.com/vi/Tk1Qx1tfPwA/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "wZXMXK0k5vs",
@@ -7109,7 +7109,7 @@
         "likes": 20,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/wZXMXK0k5vs/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "FQCzyyOKq44",
@@ -8086,7 +8086,7 @@
         "likes": 235,
         "comentarios": 38,
         "thumb": "https://i.ytimg.com/vi/_vdc0qTuUvs/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "HeYVx_ZhiyY",
@@ -8137,7 +8137,7 @@
         "likes": 67,
         "comentarios": 29,
         "thumb": "https://i.ytimg.com/vi/TIOm6rxMkUs/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "VX7PJCW8DNg",
@@ -8825,7 +8825,7 @@
       "likes": 235,
       "comentarios": 38,
       "thumb": "https://i.ytimg.com/vi/_vdc0qTuUvs/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/_vdc0qTuUvs/maxresdefault.jpg",
@@ -8846,8 +8846,8 @@
       "quantia",
       "projeto",
       "chacara",
-      "voces",
-      "colha"
+      "pessoal",
+      "voces"
     ]
   },
   {
@@ -8901,7 +8901,7 @@
         "likes": 33,
         "comentarios": 8,
         "thumb": "https://i.ytimg.com/vi/LtxsxIBlxmI/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "s89DcLVTico",
@@ -8918,7 +8918,7 @@
         "likes": 10,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/s89DcLVTico/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "RXkby8W0qEQ",
@@ -9636,9 +9636,9 @@
       "horta",
       "shorts",
       "guia",
+      "adubacao",
       "dica",
-      "rapida",
-      "projeto"
+      "rapida"
     ]
   },
   {
@@ -9674,7 +9674,7 @@
         "likes": 27,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/CXZK5vQcDDc/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "XgE4QOrtmMA",
@@ -9691,7 +9691,7 @@
         "likes": 14,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/XgE4QOrtmMA/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "nODTheJWW3M",
@@ -9743,7 +9743,7 @@
         "likes": 71,
         "comentarios": 24,
         "thumb": "https://i.ytimg.com/vi/6X_mvfgxoWk/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "84IlSuClNpI",
@@ -9916,7 +9916,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "3rXXId4xarE",
@@ -10397,7 +10397,7 @@
       "likes": 27,
       "comentarios": 1,
       "thumb": "https://i.ytimg.com/vi/CXZK5vQcDDc/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/CXZK5vQcDDc/maxresdefault.jpg",
@@ -10414,12 +10414,12 @@
       "shorts",
       "dica",
       "rapida",
-      "adubo",
       "guia",
+      "adubo",
       "amarela",
-      "adubacao",
-      "melhor",
-      "voces"
+      "pessoal",
+      "voces",
+      "entao"
     ]
   },
   {
@@ -10453,7 +10453,7 @@
         "likes": 166,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/DxI6WyPKNNI/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "kT7l4rqt8mI",
@@ -10507,7 +10507,7 @@
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/-otVLmVX7OI/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "QDuU1oQQMdo",
@@ -10525,7 +10525,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "QDuU1oQQMdo",
@@ -10543,7 +10543,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "PzlGrSVHmkg",
@@ -11160,7 +11160,7 @@
       "likes": 166,
       "comentarios": 17,
       "thumb": "https://i.ytimg.com/vi/DxI6WyPKNNI/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/DxI6WyPKNNI/sddefault.jpg",
@@ -11177,12 +11177,12 @@
       "puder",
       "contribuir",
       "alguma",
-      "horta",
+      "voces",
       "casa",
       "anao",
       "shorts",
-      "guia",
-      "dica"
+      "quantia",
+      "projeto"
     ]
   },
   {
@@ -11253,7 +11253,7 @@
         "likes": 10,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/vs_hfeyUvZ0/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "V-wH4Bb1kWU",
@@ -11948,7 +11948,7 @@
         "likes": 15,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/o4N5Hy0ExAE/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "E7TUMOL-WRo",
@@ -11965,7 +11965,7 @@
         "likes": 185,
         "comentarios": 24,
         "thumb": "https://i.ytimg.com/vi/E7TUMOL-WRo/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "lKFrsTBLACg",
@@ -12365,7 +12365,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "9sSni_BSBHg",
@@ -12383,7 +12383,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "7ECiOZI34yE",
@@ -12539,14 +12539,14 @@
       "pera",
       "adubacao",
       "araca",
+      "voces",
       "solo",
       "horta",
       "melao",
       "andino",
-      "produzindo",
-      "voces",
-      "arvore",
       "entao",
+      "produzindo",
+      "arvore",
       "agua"
     ]
   },
@@ -12599,7 +12599,7 @@
         "likes": 176,
         "comentarios": 60,
         "thumb": "https://i.ytimg.com/vi/mrkmPfCUaSk/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "ivhkXO_qXtQ",
@@ -12616,7 +12616,7 @@
         "likes": 147,
         "comentarios": 13,
         "thumb": "https://i.ytimg.com/vi/ivhkXO_qXtQ/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "hUCRaENLwig",
@@ -13147,11 +13147,11 @@
       "horta",
       "shorts",
       "colha",
+      "vitamina",
+      "voces",
       "frutas",
       "adubo",
-      "melhor",
-      "parte",
-      "dicas"
+      "melhor"
     ]
   },
   {
@@ -13202,7 +13202,7 @@
         "likes": 94,
         "comentarios": 59,
         "thumb": "https://i.ytimg.com/vi/uHZ3HlnRDrk/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "zMUPia57SVY",
@@ -13220,7 +13220,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "zMUPia57SVY",
@@ -13238,7 +13238,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "QRcLDBTsyZc",
@@ -13629,17 +13629,17 @@
     ],
     "keywords": [
       "grumixama",
-      "produzindo",
       "horta",
       "direto",
       "ponto",
       "adubo",
       "casa",
+      "produzindo",
       "amarela",
       "shorts",
       "neste",
       "adubacao",
-      "solo"
+      "rapida"
     ]
   },
   {
@@ -13692,7 +13692,7 @@
         "likes": 14,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/hBSCmJcSzVA/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "LWo3OLVCrfY",
@@ -13709,7 +13709,7 @@
         "likes": 102,
         "comentarios": 27,
         "thumb": "https://i.ytimg.com/vi/LWo3OLVCrfY/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "aKz-stnReh4",
@@ -14084,17 +14084,17 @@
     ],
     "keywords": [
       "bacupari",
-      "frutas",
       "bico",
       "horta",
       "solo",
       "adubacao",
+      "frutas",
       "adubo",
       "produzindo",
       "shorts",
-      "dica",
       "voces",
-      "mirin"
+      "dica",
+      "fruta"
     ]
   },
   {
@@ -14165,7 +14165,7 @@
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/-otVLmVX7OI/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "QDuU1oQQMdo",
@@ -14183,7 +14183,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "QDuU1oQQMdo",
@@ -14201,7 +14201,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "PzlGrSVHmkg",
@@ -14562,14 +14562,14 @@
       "manga",
       "ana",
       "anao",
-      "guia",
       "shorts",
+      "voces",
+      "guia",
       "dica",
       "rapida",
-      "adubo",
-      "horta",
-      "voces",
-      "melhor"
+      "galera",
+      "pessoal",
+      "certo"
     ]
   },
   {
@@ -14622,7 +14622,7 @@
         "likes": 71,
         "comentarios": 24,
         "thumb": "https://i.ytimg.com/vi/6X_mvfgxoWk/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "OpdYyUXuVI8",
@@ -14673,7 +14673,7 @@
         "likes": 34,
         "comentarios": 19,
         "thumb": "https://i.ytimg.com/vi/lSfj9ej6hCA/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "nrKLjgVIuXE",
@@ -14710,7 +14710,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "Hx56iiAwU7c",
@@ -15017,16 +15017,16 @@
     "keywords": [
       "amora",
       "portuguesa",
+      "olha",
       "gigante",
       "adubacao",
+      "pessoal",
       "puder",
       "contribuir",
-      "olha",
-      "produzindo",
-      "neste",
       "alguma",
       "quantia",
-      "projeto"
+      "projeto",
+      "voces"
     ]
   },
   {
@@ -15059,7 +15059,7 @@
         "likes": 24,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/HC4pUfOj9EY/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "euNHoz6vdkk",
@@ -15076,7 +15076,7 @@
         "likes": 25,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/euNHoz6vdkk/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "VZ2QlmlbaKk",
@@ -15419,7 +15419,7 @@
       "likes": 24,
       "comentarios": 3,
       "thumb": "https://i.ytimg.com/vi/HC4pUfOj9EY/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/HC4pUfOj9EY/maxresdefault.jpg",
@@ -15433,15 +15433,15 @@
       "araca",
       "amarelo",
       "horta",
-      "adubo",
       "adubacao",
       "shorts",
+      "adubo",
       "dica",
       "rapida",
       "melhor",
       "guia",
-      "frutas",
-      "solo"
+      "galera",
+      "voces"
     ]
   },
   {
@@ -15513,7 +15513,7 @@
         "likes": 10,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/vs_hfeyUvZ0/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "V-wH4Bb1kWU",
@@ -15931,7 +15931,7 @@
         "likes": 55,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/AOf-ZTTzyrk/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "6rzGlvon6g0",
@@ -15948,7 +15948,7 @@
         "likes": 22,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/6rzGlvon6g0/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "RaBDJ3gd_q4",
@@ -16236,14 +16236,14 @@
       "voces",
       "entao",
       "pessoal",
-      "adubacao",
       "pra",
       "galera",
-      "horta",
+      "adubacao",
+      "gente",
+      "vou",
       "puder",
       "contribuir",
-      "alguma",
-      "quantia"
+      "alguma"
     ]
   },
   {
@@ -16276,7 +16276,7 @@
         "likes": 83,
         "comentarios": 53,
         "thumb": "https://i.ytimg.com/vi/i41Z0OHIRhI/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "y3T81Cu2w1I",
@@ -16293,7 +16293,7 @@
         "likes": 42,
         "comentarios": 18,
         "thumb": "https://i.ytimg.com/vi/y3T81Cu2w1I/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "0Ne1-BPd3NQ",
@@ -16606,7 +16606,7 @@
       "likes": 83,
       "comentarios": 53,
       "thumb": "https://i.ytimg.com/vi/i41Z0OHIRhI/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/i41Z0OHIRhI/sddefault.jpg",
@@ -16623,12 +16623,12 @@
       "neste",
       "solo",
       "adubacao",
-      "medir",
       "melhores",
+      "medir",
       "fruta",
       "produzir",
-      "degustacao",
-      "campari"
+      "campari",
+      "horta"
     ]
   },
   {
@@ -16660,7 +16660,7 @@
         "likes": 9,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/mNhtEmsnveU/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "sYLl8UOlwnc",
@@ -16694,7 +16694,7 @@
         "likes": 11,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/gdpuUKM81Ow/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "mG-3F-991i8",
@@ -16985,7 +16985,7 @@
       "likes": 9,
       "comentarios": 1,
       "thumb": "https://i.ytimg.com/vi/mNhtEmsnveU/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/mNhtEmsnveU/maxresdefault.jpg",
@@ -17001,11 +17001,11 @@
       "puder",
       "contribuir",
       "alguma",
-      "adubo",
-      "horta",
       "quantia",
       "milagre",
       "voces",
+      "adubo",
+      "horta",
       "melhor",
       "guia"
     ]
@@ -17041,7 +17041,7 @@
         "likes": 204,
         "comentarios": 56,
         "thumb": "https://i.ytimg.com/vi/RgwRjICJk40/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "CSqEbkBbClg",
@@ -17058,7 +17058,7 @@
         "likes": 13,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/CSqEbkBbClg/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "QueoowfUyJA",
@@ -17349,7 +17349,7 @@
       "likes": 204,
       "comentarios": 56,
       "thumb": "https://i.ytimg.com/vi/RgwRjICJk40/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/RgwRjICJk40/maxresdefault.jpg",
@@ -17362,8 +17362,8 @@
     "keywords": [
       "araca",
       "vermelho",
-      "produzindo",
       "adubacao",
+      "produzindo",
       "solo",
       "medir",
       "neste",
@@ -17420,7 +17420,7 @@
         "likes": 55,
         "comentarios": 25,
         "thumb": "https://i.ytimg.com/vi/BTYQ7pnepn4/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "QvE4aa0PtjY",
@@ -17437,7 +17437,7 @@
         "likes": 4,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/QvE4aa0PtjY/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "3iDNLevDZRY",
@@ -17640,16 +17640,16 @@
     "keywords": [
       "atemoia",
       "voces",
-      "pessoal",
       "vou",
-      "adubo",
-      "frutas",
-      "horta",
+      "pessoal",
       "olha",
+      "galera",
+      "gente",
       "entao",
       "shorts",
-      "dica",
-      "rapida"
+      "adubo",
+      "frutas",
+      "horta"
     ]
   },
   {
@@ -17682,7 +17682,7 @@
         "likes": 88,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/PJdY5xbP8as/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "7cv5b7AdzM0",
@@ -17699,7 +17699,7 @@
         "likes": 11,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/7cv5b7AdzM0/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "wBQdUvEPbvU",
@@ -17887,7 +17887,7 @@
       "likes": 88,
       "comentarios": 2,
       "thumb": "https://i.ytimg.com/vi/PJdY5xbP8as/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/PJdY5xbP8as/maxresdefault.jpg",
@@ -17899,17 +17899,17 @@
     ],
     "keywords": [
       "canistel",
+      "pessoal",
+      "voces",
       "frutas",
       "horta",
-      "adubo",
+      "entao",
+      "galera",
       "shorts",
-      "dica",
-      "rapida",
+      "muda",
+      "adubo",
       "plantio",
-      "fruta",
-      "ovo",
-      "puder",
-      "contribuir"
+      "fruta"
     ]
   },
   {
@@ -17961,7 +17961,7 @@
         "likes": 43,
         "comentarios": 8,
         "thumb": "https://i.ytimg.com/vi/lc2S36wK7ps/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "o-oymFhHzkU",
@@ -17995,7 +17995,7 @@
         "likes": 111,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/i2wE88S4mEA/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "UdfvgzQ_wD8",
@@ -18170,16 +18170,16 @@
     "keywords": [
       "carambola",
       "mel",
+      "voces",
       "adubacao",
       "produzindo",
+      "pessoal",
       "doce",
-      "neste",
-      "voces",
       "solo",
       "flores",
-      "pessoal",
-      "medir",
-      "carabola"
+      "neste",
+      "tem",
+      "vai"
     ]
   },
   {
@@ -18287,7 +18287,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "9sSni_BSBHg",
@@ -18305,7 +18305,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "7ECiOZI34yE",
@@ -18428,15 +18428,15 @@
       "araca",
       "pera",
       "horta",
+      "voces",
       "shorts",
+      "adubacao",
       "dica",
       "rapida",
-      "voces",
-      "adubacao",
-      "entao",
-      "solo",
-      "boi",
-      "fruta"
+      "mesmo",
+      "pela",
+      "faco",
+      "podem"
     ]
   },
   {
@@ -18504,7 +18504,7 @@
         "likes": 267,
         "comentarios": 8,
         "thumb": "https://i.ytimg.com/vi/mfChNPe2kkE/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "ZlYVNGwNlJg",
@@ -18521,7 +18521,7 @@
         "likes": 135,
         "comentarios": 75,
         "thumb": "https://i.ytimg.com/vi/ZlYVNGwNlJg/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "9GKlOKculak",
@@ -18675,16 +18675,16 @@
     "keywords": [
       "seriguela",
       "adubacao",
+      "voces",
       "produzindo",
       "neste",
       "estarquia",
-      "carregada",
       "caja",
       "manga",
       "podar",
-      "voces",
       "mesmo",
-      "solo"
+      "olha",
+      "primeira"
     ]
   },
   {
@@ -18717,7 +18717,7 @@
         "likes": 93,
         "comentarios": 49,
         "thumb": "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "EjakVY1vGL4",
@@ -18734,7 +18734,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/EjakVY1vGL4/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "EjakVY1vGL4",
@@ -18751,7 +18751,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/EjakVY1vGL4/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "P3Uo0BRG5hU",
@@ -18895,7 +18895,7 @@
       "likes": 93,
       "comentarios": 49,
       "thumb": "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
@@ -18910,14 +18910,14 @@
       "jabuticaba",
       "amarela",
       "adubacao",
-      "nativas",
       "casa",
+      "branca",
       "real",
       "shorts",
+      "direto",
+      "numero",
       "araca",
-      "boi",
-      "bacupari",
-      "frutas"
+      "boi"
     ]
   },
   {
@@ -18950,7 +18950,7 @@
         "likes": 152,
         "comentarios": 40,
         "thumb": "https://i.ytimg.com/vi/nsPOlDEqJ6g/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "XBc-zWj-WkA",
@@ -18967,7 +18967,7 @@
         "likes": 39,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/XBc-zWj-WkA/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "pVcRDCutCPE",
@@ -19036,7 +19036,7 @@
         "likes": 32,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/hQTt1OGVOdc/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "vOEa6yhwpv8",
@@ -19108,7 +19108,7 @@
       "likes": 152,
       "comentarios": 40,
       "thumb": "https://i.ytimg.com/vi/nsPOlDEqJ6g/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/nsPOlDEqJ6g/maxresdefault.jpg",
@@ -19120,17 +19120,17 @@
     ],
     "keywords": [
       "acerola",
+      "voces",
+      "mas",
+      "entao",
       "roma",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
       "passo",
       "gigante",
-      "neste",
-      "dragon",
-      "estaquia"
+      "mesmo",
+      "gente",
+      "estarquia",
+      "bacupari",
+      "complexo"
     ]
   },
   {
@@ -19163,7 +19163,7 @@
         "likes": 1071,
         "comentarios": 156,
         "thumb": "https://i.ytimg.com/vi/MXSkl_xLymI/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "wNJz1Hg3khA",
@@ -19180,7 +19180,7 @@
         "likes": 209,
         "comentarios": 42,
         "thumb": "https://i.ytimg.com/vi/wNJz1Hg3khA/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "uwvCrkUNjI4",
@@ -19300,7 +19300,7 @@
       "likes": 1071,
       "comentarios": 156,
       "thumb": "https://i.ytimg.com/vi/MXSkl_xLymI/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/MXSkl_xLymI/sddefault.jpg",
@@ -19312,17 +19312,17 @@
     ],
     "keywords": [
       "gabiroba",
-      "cerrado",
       "link",
       "campo",
-      "guavira",
+      "voces",
+      "vou",
+      "cerrado",
+      "pessoal",
+      "vai",
+      "plantando",
       "comprar",
       "frutas",
-      "adubacao",
-      "solo",
-      "medidor",
-      "guabiroba",
-      "2017"
+      "adubacao"
     ]
   },
   {
@@ -19372,7 +19372,7 @@
         "likes": 205,
         "comentarios": 18,
         "thumb": "https://i.ytimg.com/vi/mwZJfqpQsOk/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "_o_LnHmpvnc",
@@ -19392,7 +19392,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "86dPbD9o1NM",
@@ -19509,15 +19509,15 @@
       "figo",
       "puder",
       "contribuir",
-      "chacara",
       "alguma",
       "quantia",
       "projeto",
+      "chacara",
       "zero",
       "segue",
       "poda",
-      "chave",
-      "amora"
+      "voces",
+      "chave"
     ]
   },
   {
@@ -19549,7 +19549,7 @@
         "likes": 64,
         "comentarios": 7,
         "thumb": "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "SiEDozm_vSw",
@@ -19566,7 +19566,7 @@
         "likes": 64,
         "comentarios": 7,
         "thumb": "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "SaEIHC4yWWo",
@@ -19692,7 +19692,7 @@
       "likes": 64,
       "comentarios": 7,
       "thumb": "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
@@ -19748,7 +19748,7 @@
         "likes": 100,
         "comentarios": 53,
         "thumb": "https://i.ytimg.com/vi/B5sAOhcFN0I/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "I0VFg5hXCMA",
@@ -19765,7 +19765,7 @@
         "likes": 75,
         "comentarios": 43,
         "thumb": "https://i.ytimg.com/vi/I0VFg5hXCMA/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "WheHeUC8PDs",
@@ -19868,7 +19868,7 @@
       "likes": 100,
       "comentarios": 53,
       "thumb": "https://i.ytimg.com/vi/B5sAOhcFN0I/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/B5sAOhcFN0I/sddefault.jpg",
@@ -19881,16 +19881,16 @@
     "keywords": [
       "maracuja",
       "doce",
+      "voces",
       "produz",
-      "solo",
       "gigante",
-      "produzindo",
+      "tem",
+      "gente",
       "neste",
       "ensino",
-      "adubacao",
-      "lagarta",
-      "ano",
-      "inteiro"
+      "solo",
+      "pouco",
+      "adubacao"
     ]
   },
   {
@@ -19942,7 +19942,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "zMUPia57SVY",
@@ -19960,7 +19960,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "2PNGZA0kGKU",
@@ -20046,14 +20046,14 @@
     "keywords": [
       "amarela",
       "grumixama",
+      "cabeludinha",
+      "jabuticaba",
       "real",
       "shorts",
-      "jabuticaba",
+      "nativas",
+      "numero",
+      "rico",
       "araca",
-      "boi",
-      "bacupari",
-      "cabeludinha",
-      "frutas",
       "pessoal",
       "olha"
     ]
@@ -20089,7 +20089,7 @@
         "likes": 82,
         "comentarios": 29,
         "thumb": "https://i.ytimg.com/vi/49AIBxWlwm8/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "S8oWJfVm4yE",
@@ -20107,7 +20107,7 @@
         "likes": 51,
         "comentarios": 34,
         "thumb": "https://i.ytimg.com/vi/S8oWJfVm4yE/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "VBPLpq27hB8",
@@ -20194,7 +20194,7 @@
       "likes": 82,
       "comentarios": 29,
       "thumb": "https://i.ytimg.com/vi/49AIBxWlwm8/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/49AIBxWlwm8/maxresdefault.jpg",
@@ -20207,16 +20207,16 @@
     "keywords": [
       "pinha",
       "voces",
+      "vou",
+      "gente",
+      "pessoal",
       "atemoia",
       "adubacao",
       "solo",
       "produzindo",
       "ata",
-      "fruta",
       "horta",
-      "astecas",
-      "plantio",
-      "2022"
+      "tem"
     ]
   },
   {
@@ -20266,7 +20266,7 @@
         "likes": 83,
         "comentarios": 37,
         "thumb": "https://i.ytimg.com/vi/FOj0vy7plng/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "pOwSK0zr_ig",
@@ -20283,7 +20283,7 @@
         "likes": 61,
         "comentarios": 27,
         "thumb": "https://i.ytimg.com/vi/pOwSK0zr_ig/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "7CXhH1Q8_zE",
@@ -20366,17 +20366,17 @@
     ],
     "keywords": [
       "pessego",
-      "casa",
+      "entao",
       "douradao",
       "adubacao",
       "solo",
-      "entao",
       "vou",
       "primeira",
+      "pessoal",
       "floracao",
-      "nova",
-      "produzindo",
-      "medir"
+      "casa",
+      "voces",
+      "nova"
     ]
   },
   {
@@ -20409,7 +20409,7 @@
         "likes": 122,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/dYhSNLmczG4/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "Ogbj7F0d6ZA",
@@ -20426,7 +20426,7 @@
         "likes": 47,
         "comentarios": 19,
         "thumb": "https://i.ytimg.com/vi/Ogbj7F0d6ZA/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "s32d4ZsIKdQ",
@@ -20512,7 +20512,7 @@
       "likes": 122,
       "comentarios": 10,
       "thumb": "https://i.ytimg.com/vi/dYhSNLmczG4/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/dYhSNLmczG4/sddefault.jpg",
@@ -20525,16 +20525,16 @@
     "keywords": [
       "caqui",
       "mini",
-      "produzindo",
+      "gente",
       "atualizacao",
       "adubacao",
       "solo",
+      "produzindo",
       "medir",
       "neste",
       "chocolate",
-      "africano",
-      "primeiras",
-      "flores"
+      "olha",
+      "tem"
     ]
   },
   {
@@ -20566,7 +20566,7 @@
         "likes": 22,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/9kRC68XstVg/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "FIASWLqoaLo",
@@ -20583,7 +20583,7 @@
         "likes": 71,
         "comentarios": 23,
         "thumb": "https://i.ytimg.com/vi/FIASWLqoaLo/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "G8qQ0I6QCtc",
@@ -20652,7 +20652,7 @@
       "likes": 22,
       "comentarios": 0,
       "thumb": "https://i.ytimg.com/vi/9kRC68XstVg/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/9kRC68XstVg/maxresdefault.jpg",
@@ -20663,6 +20663,7 @@
     ],
     "keywords": [
       "pitangatuba",
+      "entao",
       "muda",
       "link",
       "saber",
@@ -20672,8 +20673,7 @@
       "dores",
       "articulacoes",
       "inflamacoes",
-      "cronicas",
-      "eugenia"
+      "cronicas"
     ]
   },
   {
@@ -20707,7 +20707,7 @@
         "likes": 293,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/KNDbNEswTvg/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "-Miw_cyFPEA",
@@ -20724,7 +20724,7 @@
         "likes": 20,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/-Miw_cyFPEA/hqdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "-Miw_cyFPEA",
@@ -20741,7 +20741,7 @@
         "likes": 20,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/-Miw_cyFPEA/hqdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "9oGjROHskcU",
@@ -20793,7 +20793,7 @@
       "likes": 293,
       "comentarios": 17,
       "thumb": "https://i.ytimg.com/vi/KNDbNEswTvg/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/KNDbNEswTvg/sddefault.jpg",
@@ -20806,15 +20806,15 @@
       "cereja",
       "rio",
       "grande",
-      "brasileira",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
-      "chacara",
-      "precisa",
-      "saber"
+      "vou",
+      "entao",
+      "ali",
+      "galera",
+      "voces",
+      "certo",
+      "bom",
+      "vai",
+      "muda"
     ]
   },
   {
@@ -20849,7 +20849,7 @@
         "likes": 409,
         "comentarios": 94,
         "thumb": "https://i.ytimg.com/vi/mEORXd21dUI/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "fW4jPwDdTq4",
@@ -20866,7 +20866,7 @@
         "likes": 28,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/fW4jPwDdTq4/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "fW4jPwDdTq4",
@@ -20883,7 +20883,7 @@
         "likes": 28,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/fW4jPwDdTq4/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "14d9xHERpHg",
@@ -20941,7 +20941,7 @@
       "likes": 409,
       "comentarios": 94,
       "thumb": "https://i.ytimg.com/vi/mEORXd21dUI/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/mEORXd21dUI/sddefault.jpg",
@@ -20952,17 +20952,17 @@
     ],
     "keywords": [
       "camu",
-      "araca",
-      "dagua",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
-      "chacara",
-      "zero",
-      "segunda",
-      "parte"
+      "galera",
+      "voces",
+      "certo",
+      "bom",
+      "vou",
+      "tem",
+      "obrigado",
+      "muda",
+      "entao",
+      "parte",
+      "araca"
     ]
   },
   {
@@ -21013,7 +21013,7 @@
         "likes": 11,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/wpLy8X-f4dk/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "wpLy8X-f4dk",
@@ -21030,7 +21030,7 @@
         "likes": 11,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/wpLy8X-f4dk/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "14d9xHERpHg",
@@ -21099,17 +21099,17 @@
     ],
     "keywords": [
       "longana",
-      "longan",
       "olho",
       "dragao",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
-      "chacara",
-      "parte",
-      "longa"
+      "galera",
+      "vou",
+      "voces",
+      "bom",
+      "est",
+      "vai",
+      "obrigado",
+      "longan",
+      "parte"
     ]
   },
   {
@@ -21158,7 +21158,7 @@
         "likes": 50,
         "comentarios": 12,
         "thumb": "https://i.ytimg.com/vi/E1ktXyXX22A/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "uJthJ4W9Q-A",
@@ -21175,7 +21175,7 @@
         "likes": 121,
         "comentarios": 51,
         "thumb": "https://i.ytimg.com/vi/uJthJ4W9Q-A/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "YldSeeJz1DU",
@@ -21239,16 +21239,16 @@
     "keywords": [
       "cacau",
       "produzindo",
-      "sombra",
-      "cacauemvaso",
-      "casa",
-      "adubacao",
-      "solo",
-      "horta",
-      "vou",
       "pessoal",
+      "sombra",
+      "vai",
+      "adubacao",
+      "vou",
       "meio",
-      "vai"
+      "menos",
+      "dois",
+      "quero",
+      "metro"
     ]
   },
   {
@@ -21316,7 +21316,7 @@
         "likes": 60,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/k2qUYhXhhx4/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       }
     ],
     "hero": {
@@ -21343,18 +21343,18 @@
       "https://i.ytimg.com/vi/k2qUYhXhhx4/sddefault.jpg"
     ],
     "keywords": [
-      "pari",
-      "bacuri",
-      "combate",
       "bacupari",
+      "bacuri",
+      "vou",
+      "mas",
+      "mesmo",
       "link",
       "comprar",
       "produzindo",
       "medidor",
       "pouco",
       "frutas",
-      "musica",
-      "pra"
+      "musica"
     ]
   },
   {
@@ -21386,7 +21386,7 @@
         "likes": 9,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/tt8rUAj5Jls/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "ofHOZnqvxRU",
@@ -21403,7 +21403,7 @@
         "likes": 358,
         "comentarios": 39,
         "thumb": "https://i.ytimg.com/vi/ofHOZnqvxRU/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "ziLUo3G4j8E",
@@ -21438,7 +21438,7 @@
       "likes": 9,
       "comentarios": 5,
       "thumb": "https://i.ytimg.com/vi/tt8rUAj5Jls/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/tt8rUAj5Jls/maxresdefault.jpg",
@@ -21447,17 +21447,17 @@
     ],
     "keywords": [
       "abiu",
+      "pessoal",
+      "voces",
       "gigante",
       "semente",
       "2026",
-      "degustacao",
-      "medicao",
-      "grau",
-      "brix",
-      "ticuna",
-      "amarelo",
-      "muda",
-      "obrigado"
+      "vou",
+      "vai",
+      "ver",
+      "fruta",
+      "entao",
+      "ali"
     ]
   },
   {
@@ -21489,7 +21489,7 @@
         "likes": 51,
         "comentarios": 20,
         "thumb": "https://i.ytimg.com/vi/yzcmBg5QGAA/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "GmmtiqE0mAM",
@@ -21506,7 +21506,7 @@
         "likes": 31,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/GmmtiqE0mAM/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "GVHtzRv-0g8",
@@ -21541,7 +21541,7 @@
       "likes": 51,
       "comentarios": 20,
       "thumb": "https://i.ytimg.com/vi/yzcmBg5QGAA/maxresdefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/yzcmBg5QGAA/maxresdefault.jpg",
@@ -21550,16 +21550,17 @@
     ],
     "keywords": [
       "mangaba",
-      "provando",
-      "degustacao",
-      "cerrado",
-      "deliciosa",
-      "sorvete",
-      "maravilhosa",
-      "caipirinha",
-      "pela",
-      "primeira",
-      "vez"
+      "pessoal",
+      "mas",
+      "vez",
+      "gente",
+      "tem",
+      "vai",
+      "delicia",
+      "voces",
+      "nada",
+      "entao",
+      "olha"
     ]
   },
   {
@@ -21593,7 +21594,7 @@
         "likes": 45,
         "comentarios": 25,
         "thumb": "https://i.ytimg.com/vi/xE9LweMa0MI/sddefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "hQTt1OGVOdc",
@@ -21611,7 +21612,7 @@
         "likes": 32,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/hQTt1OGVOdc/maxresdefault.jpg",
-        "temTranscricao": false
+        "temTranscricao": true
       },
       {
         "id": "2pYXg2Pr21U",
@@ -21648,7 +21649,7 @@
       "likes": 45,
       "comentarios": 25,
       "thumb": "https://i.ytimg.com/vi/xE9LweMa0MI/sddefault.jpg",
-      "temTranscricao": false
+      "temTranscricao": true
     },
     "galeria": [
       "https://i.ytimg.com/vi/xE9LweMa0MI/sddefault.jpg",
@@ -21658,16 +21659,16 @@
     "keywords": [
       "roma",
       "acerola",
-      "frutas",
-      "faceis",
-      "ornamentais",
-      "puder",
-      "contribuir",
-      "alguma",
-      "quantia",
-      "projeto",
       "adubacao",
-      "nova"
+      "cuidados",
+      "mas",
+      "entao",
+      "mes",
+      "frutas",
+      "voces",
+      "basicos",
+      "nova",
+      "produzindo"
     ]
   }
 ]

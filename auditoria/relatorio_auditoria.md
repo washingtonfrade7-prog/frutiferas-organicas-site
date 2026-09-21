@@ -15,7 +15,7 @@
 - Videos analisados: **2569**
 - Horas de conteudo: **250.4 h**
 - Videos curtos (<60s): **692**
-- Videos com transcricao local: **288** de 293 arquivos .vtt
+- Videos com transcricao local: **376** de 371 arquivos .vtt
 
 ### Distribuicao por tipo
 
@@ -139,7 +139,7 @@
 ### Laranja (74 videos)
 
 - Hero sugerido: `4Fu5LZftAHU` - Primeira colheita laranja kinkan orgânica em vaso 4k
-- Keywords: laranja, puder, contribuir, alguma, quantia, projeto, abacaxi, champagne, voces, horta
+- Keywords: laranja, puder, contribuir, alguma, quantia, projeto, abacaxi, voces, champagne, pessoal
 
 - `4Fu5LZftAHU` | colheita | 2:06 | Primeira colheita laranja kinkan orgânica em vaso 4k
 - `HsfD-LPRggI` | colheita | 4:59 | Colheita de laranja abacaxi em vaso! DELICIOSA!!!
@@ -165,7 +165,7 @@
 ### Graviola (58 videos)
 
 - Hero sugerido: `SEdlXvo9-5k` - Colheita de graviola em vaso 570gr e 20 brix
-- Keywords: graviola, horta, shorts, adubacao, voces, dica, rapida, adubo, casa, anona
+- Keywords: graviola, horta, shorts, voces, adubacao, dica, rapida, adubo, casa, vou
 
 - `SEdlXvo9-5k` | colheita | 2:52 | Colheita de graviola em vaso 570gr e 20 brix
 - `EnF4oEKwJbg` | colheita | 1:02 | colhendo graviola em vaso orgânica
@@ -243,7 +243,7 @@
 ### Limão (43 videos)
 
 - Hero sugerido: `dLDvSKQaKb4` - Colheita limão siciliano em vaso
-- Keywords: limao, siciliano, puder, contribuir, alguma, quantia, horta, shorts, guia, dica
+- Keywords: limao, siciliano, puder, contribuir, alguma, quantia, horta, shorts, guia, adubacao
 
 - `dLDvSKQaKb4` | colheita | 2:41 | Colheita limão siciliano em vaso
 - `LtxsxIBlxmI` | colheita | 0:26 | Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim
@@ -269,7 +269,7 @@
 ### Goiaba (42 videos)
 
 - Hero sugerido: `CXZK5vQcDDc` - Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts
-- Keywords: goiaba, tailandesa, horta, shorts, dica, rapida, adubo, guia, amarela, adubacao
+- Keywords: goiaba, tailandesa, horta, shorts, dica, rapida, guia, adubo, amarela, pessoal
 
 - `CXZK5vQcDDc` | colheita | 0:59 | Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts
 - `XgE4QOrtmMA` | colheita | 0:59 | Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts
@@ -295,7 +295,7 @@
 ### Manga (40 videos)
 
 - Hero sugerido: `DxI6WyPKNNI` - Colheita e degustação mangá Ubá em vaso
-- Keywords: manga, caja, ana, puder, contribuir, alguma, horta, casa, anao, shorts
+- Keywords: manga, caja, ana, puder, contribuir, alguma, voces, casa, anao, shorts
 
 - `DxI6WyPKNNI` | colheita | 2:08 | Colheita e degustação mangá Ubá em vaso
 - `kT7l4rqt8mI` | colheita | 1:28 | Colheita de Cajá manga anão em vaso
@@ -347,7 +347,7 @@
 ### Pera (35 videos)
 
 - Hero sugerido: `IYyyQjqDfmA` - Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K
-- Keywords: pera, adubacao, araca, solo, horta, melao, andino, produzindo, voces, arvore
+- Keywords: pera, adubacao, araca, voces, solo, horta, melao, andino, entao, produzindo
 
 - `IYyyQjqDfmA` | colheita | 2:56 | Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K
 - `GOtwvdxrHtI` | colheita | 0:31 | Colheita melão andino/melão de árvore em vaso
@@ -373,7 +373,7 @@
 ### Araçá Boi (Fruta Iogurte) (32 videos)
 
 - Hero sugerido: `Jxf4sGvf5fA` - Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k
-- Keywords: araca, boi, fruta, iogurte, horta, shorts, colha, frutas, adubo, melhor
+- Keywords: araca, boi, fruta, iogurte, horta, shorts, colha, vitamina, voces, frutas
 
 - `Jxf4sGvf5fA` | colheita | 4:56 | Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k
 - `mrkmPfCUaSk` | colheita | 2:40 | Colheita de fruta iogurte/araçá boi GIGANTE!!!
@@ -399,7 +399,7 @@
 ### Grumixama (25 videos)
 
 - Hero sugerido: `j_luLoshWo4` - Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋
-- Keywords: grumixama, produzindo, horta, direto, ponto, adubo, casa, amarela, shorts, neste
+- Keywords: grumixama, horta, direto, ponto, adubo, casa, produzindo, amarela, shorts, neste
 
 - `j_luLoshWo4` | colheita | 4:22 | Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋
 - `uHZ3HlnRDrk` | colheita | 3:04 | Colheita e degustação de Grumixama Preta orgânica em Vaso 4k
@@ -425,7 +425,7 @@
 ### Bacupari (23 videos)
 
 - Hero sugerido: `MvfDp1kJVwo` - Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO
-- Keywords: bacupari, frutas, bico, horta, solo, adubacao, adubo, produzindo, shorts, dica
+- Keywords: bacupari, bico, horta, solo, adubacao, frutas, adubo, produzindo, shorts, voces
 
 - `MvfDp1kJVwo` | colheita | 1:11 | Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO
 - `hBSCmJcSzVA` | colheita | 0:41 | Bacupari colheita real no vaso #shorts
@@ -451,7 +451,7 @@
 ### Cajá Manga Anã (23 videos)
 
 - Hero sugerido: `kT7l4rqt8mI` - Colheita de Cajá manga anão em vaso
-- Keywords: caja, manga, ana, anao, guia, shorts, dica, rapida, adubo, horta
+- Keywords: caja, manga, ana, anao, shorts, voces, guia, dica, rapida, galera
 
 - `kT7l4rqt8mI` | colheita | 1:28 | Colheita de Cajá manga anão em vaso
 - `xbqxv5xNdh0` | colheita | 1:48 | Colheita Cajá Manga anão em Vaso 100% orgânico 4k
@@ -477,7 +477,7 @@
 ### Amora (23 videos)
 
 - Hero sugerido: `p5Pty-8ZXzs` - Colheita de Carambola, araça, seriguela, amora em vasos 4k
-- Keywords: amora, portuguesa, gigante, adubacao, puder, contribuir, olha, produzindo, neste, alguma
+- Keywords: amora, portuguesa, olha, gigante, adubacao, pessoal, puder, contribuir, alguma, quantia
 
 - `p5Pty-8ZXzs` | colheita | 8:46 | Colheita de Carambola, araça, seriguela, amora em vasos 4k
 - `6X_mvfgxoWk` | colheita | 2:03 | Colheita de Amora e Goiaba Paluma orgânica em vaso Ryan Frade e Josi Soares
@@ -503,7 +503,7 @@
 ### Araçá Amarelo (21 videos)
 
 - Hero sugerido: `HC4pUfOj9EY` - Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts
-- Keywords: araca, amarelo, horta, adubo, adubacao, shorts, dica, rapida, melhor, guia
+- Keywords: araca, amarelo, horta, adubacao, shorts, adubo, dica, rapida, melhor, guia
 
 - `HC4pUfOj9EY` | colheita | 0:59 | Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts
 - `euNHoz6vdkk` | colheita | 0:59 | Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts
@@ -555,7 +555,7 @@
 ### Nectarina (19 videos)
 
 - Hero sugerido: `Keo6BMW3XFw` - Colheita e degustação de Nectarina orgânica em vaso 4k
-- Keywords: nectarina, voces, entao, pessoal, adubacao, pra, galera, horta, puder, contribuir
+- Keywords: nectarina, voces, entao, pessoal, pra, galera, adubacao, gente, vou, puder
 
 - `Keo6BMW3XFw` | colheita | 2:19 | Colheita e degustação de Nectarina orgânica em vaso 4k
 - `f5pt0scilpM` | colheita | 1:36 | Colheira e Degustação Nectarina orgânica em Vaso deliciosa!!! 4k
@@ -580,7 +580,7 @@
 ### Dovyalis Doce (19 videos)
 
 - Hero sugerido: `i41Z0OHIRhI` - colheita e degustação dovyalis doce orgânica em vaso 4k
-- Keywords: dovyalis, doce, produzindo, neste, solo, adubacao, medir, melhores, fruta, produzir
+- Keywords: dovyalis, doce, produzindo, neste, solo, adubacao, melhores, medir, fruta, produzir
 
 - `i41Z0OHIRhI` | colheita | 5:57 | colheita e degustação dovyalis doce orgânica em vaso 4k
 - `y3T81Cu2w1I` | colheita | 6:42 | Dovyalis do plantio a degustação em vaso orgânico 4k
@@ -605,7 +605,7 @@
 ### Fruta do Milagre (19 videos)
 
 - Hero sugerido: `mNhtEmsnveU` - Colheita FÁCIL: Fruta dos Milagres orgânica em Vaso #shorts
-- Keywords: fruta, milagres, puder, contribuir, alguma, adubo, horta, quantia, milagre, voces
+- Keywords: fruta, milagres, puder, contribuir, alguma, quantia, milagre, voces, adubo, horta
 
 - `mNhtEmsnveU` | colheita | 0:59 | Colheita FÁCIL: Fruta dos Milagres orgânica em Vaso #shorts
 - `sYLl8UOlwnc` | colheita | 5:11 | Degustando a fruta dos Milagres será que Funciona mesmo??? 4k
@@ -630,7 +630,7 @@
 ### Araçá Vermelho (18 videos)
 
 - Hero sugerido: `RgwRjICJk40` - Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k
-- Keywords: araca, vermelho, produzindo, adubacao, solo, medir, neste, roxo, voces, mostro
+- Keywords: araca, vermelho, adubacao, produzindo, solo, medir, neste, roxo, voces, mostro
 
 - `RgwRjICJk40` | colheita | 6:54 | Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k
 - `CSqEbkBbClg` | colheita | 0:41 | Araca Vermelho colheita real no vaso #shorts
@@ -654,7 +654,7 @@
 ### Atemoia (13 videos)
 
 - Hero sugerido: `th-aPeRik3Y` - Colheita de atemoia GIGANTE 578Gr em casa 100% orgânica
-- Keywords: atemoia, voces, pessoal, vou, adubo, frutas, horta, olha, entao, shorts
+- Keywords: atemoia, voces, vou, pessoal, olha, galera, gente, entao, shorts, adubo
 
 - `th-aPeRik3Y` | colheita | 4:15 | Colheita de atemoia GIGANTE 578Gr em casa 100% orgânica
 - `BTYQ7pnepn4` | colheita | 1:55 | Colheita de atemoia GiGANTE no quintal de casa urbano
@@ -673,7 +673,7 @@
 ### Canistel (Fruta Ovo) (12 videos)
 
 - Hero sugerido: `PJdY5xbP8as` - Como ponto colheita Canistel/fruta ovo
-- Keywords: canistel, frutas, horta, adubo, shorts, dica, rapida, plantio, fruta, ovo
+- Keywords: canistel, pessoal, voces, frutas, horta, entao, galera, shorts, muda, adubo
 
 - `PJdY5xbP8as` | colheita | 0:54 | Como ponto colheita Canistel/fruta ovo
 - `7cv5b7AdzM0` | colheita | 0:59 | Colheita FÁCIL: Canistel Orgânico em Vaso #shorts
@@ -691,7 +691,7 @@
 ### Carambola (12 videos)
 
 - Hero sugerido: `p5Pty-8ZXzs` - Colheita de Carambola, araça, seriguela, amora em vasos 4k
-- Keywords: carambola, mel, adubacao, produzindo, doce, neste, voces, solo, flores, pessoal
+- Keywords: carambola, mel, voces, adubacao, produzindo, pessoal, doce, solo, flores, neste
 
 - `p5Pty-8ZXzs` | colheita | 8:46 | Colheita de Carambola, araça, seriguela, amora em vasos 4k
 - `lc2S36wK7ps` | colheita | 2:34 | Colheita e degustação da carambola mel orgânica em vaso 😋
@@ -709,7 +709,7 @@
 ### Araçá Pera (11 videos)
 
 - Hero sugerido: `nm4QQRLlfAE` - Araça Pêra orgânico em vaso após poda de formação 4k
-- Keywords: araca, pera, horta, shorts, dica, rapida, voces, adubacao, entao, solo
+- Keywords: araca, pera, horta, voces, shorts, adubacao, dica, rapida, mesmo, pela
 
 - `nm4QQRLlfAE` | poda | 1:21 | Araça Pêra orgânico em vaso após poda de formação 4k
 - `tCMsyZm58uo` | outros | 3:22 | Retratação, Araça boi na verdade é Araça Pêra psidium Acutangulum 4k
@@ -726,7 +726,7 @@
 ### Seriguela (11 videos)
 
 - Hero sugerido: `p5Pty-8ZXzs` - Colheita de Carambola, araça, seriguela, amora em vasos 4k
-- Keywords: seriguela, adubacao, produzindo, neste, estarquia, carregada, caja, manga, podar, voces
+- Keywords: seriguela, adubacao, voces, produzindo, neste, estarquia, caja, manga, podar, mesmo
 
 - `p5Pty-8ZXzs` | colheita | 8:46 | Colheita de Carambola, araça, seriguela, amora em vasos 4k
 - `0h_J1XAE37A` | poda | 1:46 | Como podar seriguela
@@ -743,7 +743,7 @@
 ### Cabeludinha (10 videos)
 
 - Hero sugerido: `Kv5XfW0Mkks` - Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍
-- Keywords: cabeludinha, jabuticaba, amarela, adubacao, nativas, casa, real, shorts, araca, boi
+- Keywords: cabeludinha, jabuticaba, amarela, adubacao, casa, branca, real, shorts, direto, numero
 
 - `Kv5XfW0Mkks` | colheita | 1:58 | Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍
 - `EjakVY1vGL4` | colheita | 0:41 | Cabeludinha colheita real no vaso #shorts
@@ -759,7 +759,7 @@
 ### Acerola (9 videos)
 
 - Hero sugerido: `nsPOlDEqJ6g` - colheita acerola Okinawa gigante em vaso
-- Keywords: acerola, roma, puder, contribuir, alguma, quantia, projeto, passo, gigante, neste
+- Keywords: acerola, voces, mas, entao, roma, passo, gigante, mesmo, gente, estarquia
 
 - `nsPOlDEqJ6g` | colheita | 1:04 | colheita acerola Okinawa gigante em vaso
 - `XBc-zWj-WkA` | colheita | 1:29 | Colheita acerola Okinowa em vaso 4k
@@ -774,7 +774,7 @@
 ### Gabiroba (8 videos)
 
 - Hero sugerido: `MXSkl_xLymI` - Como Plantar Gabiroba, guavira ou guabiroba orgânica em vaso? 10/06/2017
-- Keywords: gabiroba, cerrado, link, campo, guavira, comprar, frutas, adubacao, solo, medidor
+- Keywords: gabiroba, link, campo, voces, vou, cerrado, pessoal, vai, plantando, comprar
 
 - `MXSkl_xLymI` | plantio | 7:29 | Como Plantar Gabiroba, guavira ou guabiroba orgânica em vaso? 10/06/2017
 - `wNJz1Hg3khA` | plantio | 3:06 | Como plantar gabiroba do cerrado em vaso plantio dia 15/05/2022
@@ -788,7 +788,7 @@
 ### Figo (8 videos)
 
 - Hero sugerido: `AVm8bpqLLs4` - Mostrando pomar dos meus pais, figo quase pronto colheita jataís enxameando
-- Keywords: figo, puder, contribuir, chacara, alguma, quantia, projeto, zero, segue, poda
+- Keywords: figo, puder, contribuir, alguma, quantia, projeto, chacara, zero, segue, poda
 
 - `AVm8bpqLLs4` | colheita | 2:58 | Mostrando pomar dos meus pais, figo quase pronto colheita jataís enxameando
 - `mwZJfqpQsOk` | plantio | 4:31 | Como plantar figo Orgânico em Vaso
@@ -816,7 +816,7 @@
 ### Maracujá (7 videos)
 
 - Hero sugerido: `B5sAOhcFN0I` - Colheita maracujá Doce  Gigante em vaso de 968 Gramas 😍😍😍 4k
-- Keywords: maracuja, doce, produz, solo, gigante, produzindo, neste, ensino, adubacao, lagarta
+- Keywords: maracuja, doce, voces, produz, gigante, tem, gente, neste, ensino, solo
 
 - `B5sAOhcFN0I` | colheita | 4:12 | Colheita maracujá Doce  Gigante em vaso de 968 Gramas 😍😍😍 4k
 - `I0VFg5hXCMA` | colheita | 3:12 | Colheita de maracujá DOCE em vaso! não dá lagarta! produz o ano INTEIRO!!!
@@ -829,7 +829,7 @@
 ### Grumixama Amarela (6 videos)
 
 - Hero sugerido: `j_luLoshWo4` - Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋
-- Keywords: amarela, grumixama, real, shorts, jabuticaba, araca, boi, bacupari, cabeludinha, frutas
+- Keywords: amarela, grumixama, cabeludinha, jabuticaba, real, shorts, nativas, numero, rico, araca
 
 - `j_luLoshWo4` | colheita | 4:22 | Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋
 - `zMUPia57SVY` | colheita | 0:41 | Grumixama Amarela colheita real no vaso #shorts
@@ -841,7 +841,7 @@
 ### Pinha / Fruta do Conde (6 videos)
 
 - Hero sugerido: `49AIBxWlwm8` - Como plantar pinha dos astecas em vaso plantio 15/05/2022
-- Keywords: pinha, voces, atemoia, adubacao, solo, produzindo, ata, fruta, horta, astecas
+- Keywords: pinha, voces, vou, gente, pessoal, atemoia, adubacao, solo, produzindo, ata
 
 - `49AIBxWlwm8` | plantio | 5:07 | Como plantar pinha dos astecas em vaso plantio 15/05/2022
 - `S8oWJfVm4yE` | floracao | 0:49 | Pinha orgânica produzindo em vaso, polinização cruzada com Graviola 4k
@@ -853,7 +853,7 @@
 ### Pêssego (6 videos)
 
 - Hero sugerido: `YY-lBLg7qVg` - Como podar pêssego
-- Keywords: pessego, casa, douradao, adubacao, solo, entao, vou, primeira, floracao, nova
+- Keywords: pessego, entao, douradao, adubacao, solo, vou, primeira, pessoal, floracao, casa
 
 - `YY-lBLg7qVg` | poda | 1:47 | Como podar pêssego
 - `FOj0vy7plng` | floracao | 1:52 | Primeira floração pêssego Douradão em vaso 😍
@@ -865,7 +865,7 @@
 ### Caqui (6 videos)
 
 - Hero sugerido: `dYhSNLmczG4` - Como plantar caqui chocolate orgânico em vaso
-- Keywords: caqui, mini, produzindo, atualizacao, adubacao, solo, medir, neste, chocolate, africano
+- Keywords: caqui, mini, gente, atualizacao, adubacao, solo, produzindo, medir, neste, chocolate
 
 - `dYhSNLmczG4` | plantio | 3:07 | Como plantar caqui chocolate orgânico em vaso
 - `Ogbj7F0d6ZA` | floracao | 2:02 | Mini Caqui Africano PRODUZINDO em VASO com suas primeiras flores
@@ -877,7 +877,7 @@
 ### Pitangatuba (5 videos)
 
 - Hero sugerido: `9kRC68XstVg` - Como plantar pitangatuba orgânica em vaso
-- Keywords: pitangatuba, muda, link, saber, beneficios, saude, sofrendo, dores, articulacoes, inflamacoes
+- Keywords: pitangatuba, entao, muda, link, saber, beneficios, saude, sofrendo, dores, articulacoes
 
 - `9kRC68XstVg` | plantio | 3:44 | Como plantar pitangatuba orgânica em vaso
 - `FIASWLqoaLo` | floracao | 1:38 | Pitangatuba produzindo em vaso(botão floral e flor)
@@ -888,7 +888,7 @@
 ### Cereja do Rio Grande (5 videos)
 
 - Hero sugerido: `KNDbNEswTvg` - Como plantar cereja do rio grande (cereja brasileira) orgânica em vaso
-- Keywords: cereja, rio, grande, brasileira, puder, contribuir, alguma, quantia, projeto, chacara
+- Keywords: cereja, rio, grande, vou, entao, ali, galera, voces, certo, bom
 
 - `KNDbNEswTvg` | plantio | 3:59 | Como plantar cereja do rio grande (cereja brasileira) orgânica em vaso
 - `-Miw_cyFPEA` | plantio | 3:59 | Como plantar cereja do rio grande cereja brasileira orgânica em vaso
@@ -899,7 +899,7 @@
 ### Camu Camu (5 videos)
 
 - Hero sugerido: `mEORXd21dUI` - Como Plantar Camu Camu /Araça dágua orgânico em vaso
-- Keywords: camu, araca, dagua, puder, contribuir, alguma, quantia, projeto, chacara, zero
+- Keywords: camu, galera, voces, certo, bom, vou, tem, obrigado, muda, entao
 
 - `mEORXd21dUI` | plantio | 3:20 | Como Plantar Camu Camu /Araça dágua orgânico em vaso
 - `fW4jPwDdTq4` | plantio | 3:20 | Como Plantar Camu Camu Araça dágua orgânico em vaso
@@ -910,7 +910,7 @@
 ### Longan (5 videos)
 
 - Hero sugerido: `L4_0nhrIPzc` - Como Plantar longana longan ou olho do dragão orgânico em Vaso
-- Keywords: longana, longan, olho, dragao, puder, contribuir, alguma, quantia, projeto, chacara
+- Keywords: longana, olho, dragao, galera, vou, voces, bom, est, vai, obrigado
 
 - `L4_0nhrIPzc` | plantio | 2:54 | Como Plantar longana longan ou olho do dragão orgânico em Vaso
 - `wpLy8X-f4dk` | plantio | 2:54 | Como Plantar longana longan ou olho do dragão orgânico em Vaso
@@ -921,7 +921,7 @@
 ### Cacau (5 videos)
 
 - Hero sugerido: `0u6sprMSsUw` - Como podar cacau
-- Keywords: cacau, produzindo, sombra, cacauemvaso, casa, adubacao, solo, horta, vou, pessoal
+- Keywords: cacau, produzindo, pessoal, sombra, vai, adubacao, vou, meio, menos, dois
 
 - `0u6sprMSsUw` | poda | 1:19 | Como podar cacau
 - `E1ktXyXX22A` | floracao | 1:42 | Flor e botões florais Cacau em Vaso 4k
@@ -932,7 +932,7 @@
 ### Bacuri (3 videos)
 
 - Hero sugerido: `MvfDp1kJVwo` - Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO
-- Keywords: pari, bacuri, combate, bacupari, link, comprar, produzindo, medidor, pouco, frutas
+- Keywords: bacupari, bacuri, vou, mas, mesmo, link, comprar, produzindo, medidor, pouco
 
 - `MvfDp1kJVwo` | colheita | 1:11 | Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO
 - `h28LUW3P0Vw` | colheita | 2:28 | Colheita e degustação bacuri-Pari(Garcinia Benthamiana)
@@ -941,7 +941,7 @@
 ### Abiu Amarelo (3 videos)
 
 - Hero sugerido: `tt8rUAj5Jls` - Degustação e medição grau brix abiu ticuna 
-- Keywords: abiu, gigante, semente, 2026, degustacao, medicao, grau, brix, ticuna, amarelo
+- Keywords: abiu, pessoal, voces, gigante, semente, 2026, vou, vai, ver, fruta
 
 - `tt8rUAj5Jls` | colheita | 7:20 | Degustação e medição grau brix abiu ticuna 
 - `ofHOZnqvxRU` | plantio | 3:27 | Como plantar abiu amarelo orgânico em vaso
@@ -950,7 +950,7 @@
 ### Mangaba (3 videos)
 
 - Hero sugerido: `yzcmBg5QGAA` - Degustação da Mangaba uma frutífera do cerrado deliciosa! 😋
-- Keywords: mangaba, provando, degustacao, cerrado, deliciosa, sorvete, maravilhosa, caipirinha, pela, primeira
+- Keywords: mangaba, pessoal, mas, vez, gente, tem, vai, delicia, voces, nada
 
 - `yzcmBg5QGAA` | colheita | 4:47 | Degustação da Mangaba uma frutífera do cerrado deliciosa! 😋
 - `GmmtiqE0mAM` | gastronomia | 1:14 | Provando sorvete da maravilhosa Mangaba 😋😋😋
@@ -959,7 +959,7 @@
 ### Romã (3 videos)
 
 - Hero sugerido: `xE9LweMa0MI` - Nova Frutífera do Pomar Romã Orgânica em vaso 4k
-- Keywords: roma, acerola, frutas, faceis, ornamentais, puder, contribuir, alguma, quantia, projeto
+- Keywords: roma, acerola, adubacao, cuidados, mas, entao, mes, frutas, voces, basicos
 
 - `xE9LweMa0MI` | tour | 1:35 | Nova Frutífera do Pomar Romã Orgânica em vaso 4k
 - `hQTt1OGVOdc` | outros | 1:01 | Romã e Acerola  Frutas Fáceis e Ornamentais para Vasos! #plantas #caminhoparaumavidamelhor #jardim
