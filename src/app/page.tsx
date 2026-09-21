@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   openGraph: {
     url: '/',
-    images: [{ url: '/banners/pomar.jpg', width: 1536, height: 1024, alt: 'Frutíferas Orgânicas' }],
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }],
   },
 }
 
@@ -48,16 +48,18 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <div className="relative hidden lg:block">
-              <div className="relative aspect-[3/2] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
-                <Image
-                  src="/banners/pomar.jpg"
-                  alt="Pai e filho caminhando em um pomar de frutíferas orgânicas"
-                  fill
-                  priority
-                  sizes="(max-width: 1024px) 0px, 50vw"
-                  className="object-cover"
-                />
+            <div className="relative hidden lg:flex items-center justify-center">
+              <div className="w-full max-w-sm aspect-square rounded-3xl bg-cream-50 shadow-2xl ring-1 ring-white/20 p-6">
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/logo.png"
+                    alt="Logo Frutíferas Orgânicas"
+                    fill
+                    priority
+                    sizes="(max-width: 1024px) 0px, 30vw"
+                    className="object-contain"
+                  />
+                </div>
               </div>
             </div>
           </div>

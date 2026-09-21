@@ -66,7 +66,6 @@ export default function GuiasPage() {
           subtitulo="Escolha sua frutífera e veja onde comprar mudas e insumos."
           ctaLabel="Ver frutíferas"
           ctaHref="/frutiferas"
-          imagem="/banners/pomar-wide.jpg"
         />
       </div>
     </div>
