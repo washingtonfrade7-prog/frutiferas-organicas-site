@@ -89,6 +89,7 @@
   - `public/_brevo-key.php` (não versionado, no `.gitignore`): guarda a API key e o ID da lista
   - `NewsletterForm` agora envia para `/newsletter.php` (fallback por e-mail se a integração ainda não estiver configurada)
   - Testado no ar: e-mail inválido → 400, GET → 405. Falta apenas colar a API key + ID da lista
+- [x] E29. **E-mail de boas-vindas** (`CURSO-EMAIL-BOAS-VINDAS.md`): sequência de 3 e-mails (boas-vindas, valor, lançamento), assuntos/preheader, versão texto e **versão HTML pronta** para colar no Brevo, além do passo a passo de configuração da automação
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
