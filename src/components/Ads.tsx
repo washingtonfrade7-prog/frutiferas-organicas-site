@@ -3,7 +3,15 @@
 import { useEffect } from 'react'
 import Script from 'next/script'
 
-const ADSENSE = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || ''
+function normalizarClient(valor: string): string {
+  const v = (valor || '').trim()
+  if (!v) return ''
+  if (v.startsWith('ca-')) return v
+  if (v.startsWith('pub-')) return `ca-${v}`
+  return v
+}
+
+const ADSENSE = normalizarClient(process.env.NEXT_PUBLIC_ADSENSE_CLIENT || '')
 const EZOIC = process.env.NEXT_PUBLIC_EZOIC === '1'
 
 declare global {
