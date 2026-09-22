@@ -49,7 +49,9 @@ export const LINKS_MERCADO_LIVRE: Record<string, string> = {
   'vaso-autoirrigavel-medio': linkMLProduto(
     'https://produto.mercadolivre.com.br/MLB-2150099639-vaso-autoirrigavel-medio-n03-preto-linha-gourmet-plantei-_JM'
   ),
-  'vaso-plastico-30l': '',
+  'vaso-plastico-30l': linkMLProduto(
+    'https://www.mercadolivre.com.br/vaso-redondo-cores-rattan-30-litros-para-varias-plantas-cor-preto/p/MLB29382307'
+  ),
   'substrato-frutiferas-25kg': linkMLProduto(
     'https://produto.mercadolivre.com.br/MLB-2034428175-substrato-ha-viva-verde-25kg-plantar-bandeja-mudas-horta-_JM'
   ),
@@ -59,7 +61,9 @@ export const LINKS_MERCADO_LIVRE: Record<string, string> = {
     'https://www.mercadolivre.com.br/fertilizante-dimy-bokashi-1kg-adubo-orgnico-farelado/p/MLB26661878'
   ),
   'bokashi-forth-15kg': '',
-  'humus-minhoca': '',
+  'humus-minhoca': linkMLProduto(
+    'https://www.mercadolivre.com.br/humus-de-minhoca-adubo-organico-100-natural-jardinagem-20kg/up/MLBU3155207335'
+  ),
   'tesoura-poda-bypass': linkMLProduto(
     'https://www.mercadolivre.com.br/tesoura-de-poda-profissional-com-lamina-em-aco-bypass-e-cabo-emborrachado-laranja-tramontina/p/MLB23806114'
   ),
