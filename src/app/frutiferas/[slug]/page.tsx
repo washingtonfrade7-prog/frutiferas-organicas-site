@@ -162,6 +162,15 @@ export default function FrutiferaPage({ params }: PageProps) {
               Links de afiliado. Ao comprar, você apoia o projeto sem pagar nada a mais por isso.
               Consulte o vendedor parceiro para disponibilidade e preços atualizados.
             </p>
+            <Link
+              href={`/mudas/${fruta.slug}`}
+              className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-forest-700 hover:underline"
+            >
+              Onde comprar muda de {fruta.nome} e quanto custa
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
           </div>
         </div>
       </div>

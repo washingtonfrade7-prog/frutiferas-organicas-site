@@ -51,6 +51,7 @@ export default function Footer() {
               <li><Link href="/videos" className="hover:text-terracotta-100 transition">Vídeos de cultivo</Link></li>
               <li><Link href="/guias" className="hover:text-terracotta-100 transition">Guias de cultivo</Link></li>
               <li><Link href="/comprar" className="hover:text-terracotta-100 transition">Onde comprar</Link></li>
+              <li><Link href="/mudas" className="hover:text-terracotta-100 transition">Mudas de frutíferas</Link></li>
               <li><Link href="/melhores" className="hover:text-terracotta-100 transition">Guias de compra</Link></li>
               <li><Link href="/sobre" className="hover:text-terracotta-100 transition">Sobre o projeto</Link></li>
               <li><Link href="/contato" className="hover:text-terracotta-100 transition">Contato</Link></li>

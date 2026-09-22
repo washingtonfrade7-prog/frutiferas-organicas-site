@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/guias`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/comprar`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/melhores`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/mudas`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/sobre`, lastModified: agora, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/contato`, lastModified: agora, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/aviso-de-afiliados`, lastModified: agora, changeFrequency: 'yearly', priority: 0.3 },
@@ -58,5 +59,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...estaticas, ...cats, ...frutas, ...guias, ...compras, ...comerciais]
+  const mudas: MetadataRoute.Sitemap = frutiferas.map((f) => ({
+    url: `${base}/mudas/${f.slug}`,
+    lastModified: agora,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
+  return [...estaticas, ...cats, ...frutas, ...guias, ...compras, ...comerciais, ...mudas]
 }

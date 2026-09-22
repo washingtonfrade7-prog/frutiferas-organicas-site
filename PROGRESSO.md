@@ -67,6 +67,11 @@
   - Componentes: `BotaoAfiliado.tsx` (client, `rel="sponsored"`, evento GA4 `clique_afiliado` com loja/categoria/pagina/posicao) e `TabelaComparativa.tsx`
   - SEO: JSON-LD `ItemList`, `Product`, `FAQPage`, `Article`; sitemap e rodapé atualizados
   - Pendente: links de produto individuais do Mercado Livre (hoje todos usam a lista `mercadolivre.com/sec/2QD39UP`)
+- [x] E23. **Fase 3 — páginas "onde comprar muda de X"** (106 páginas):
+  - Rota `/mudas` (hub, agrupado por categoria) e `/mudas/[slug]` (uma por frutífera)
+  - Conteúdo gerado a partir dos dados da espécie (`src/lib/mudas.ts`): intro, faixa de preço, como escolher a muda, cuidados (luz/rega/solo/vaso) e FAQ (produz em vaso? tempo até produzir? sol? vaso?)
+  - SEO: JSON-LD `FAQPage` + breadcrumb; link "onde comprar muda" na ficha de cada frutífera; sitemap e rodapé atualizados
+  - Auditoria: 250 páginas, 0 erros
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
