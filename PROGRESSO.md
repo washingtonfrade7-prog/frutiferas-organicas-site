@@ -59,12 +59,11 @@
 - [x] E17. **Galeria revisada**: mantém apenas o card informativo (sempre correto) em todas as frutíferas, incluindo as 10 manuais; 94 imagens ruins removidas
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
-### Deploy automático (GitHub Actions)
-Adicionar em **GitHub → Settings → Secrets and variables → Actions**:
-- `FTP_HOST` = `89.117.7.170`
-- `FTP_USER` = `u813221921`
-- `FTP_PASS` = (senha do FTP)
-Depois, qualquer `git push` na `main` publica sozinho no ar.
+### Deploy automático (GitHub Actions) — CONFIGURADO
+- Secrets adicionados no repositório: `FTP_HOST`, `FTP_USER`, `FTP_PASS`
+- A cada `git push` na `main` (ou disparo manual) o workflow publica sozinho no ar
+- Testado com sucesso (workflow run `35744956172`) em **3min17s** (upload com 10 paralelos)
+- Repositório: https://github.com/washingtonfrade7-prog/frutiferas-organicas-site/actions
 
 ### Ezoic
 - Conta Ezoic deve ser criada em ezoic.com e o site adicionado para os anúncios começarem a preencher.
