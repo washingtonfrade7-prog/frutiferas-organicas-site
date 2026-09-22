@@ -80,6 +80,10 @@
   - Pendente: criar o e-book/videoaulas e plugar o endpoint real (Brevo/Mailchimp/Formspree)
 - [x] E25. **Roteiro de produção do produto** (`CURSO-ROTEIRO.md`): estrutura do e-book (8 capítulos + glossário + bônus), roteiro capítulo a capítulo (tópicos, vídeos do canal, exercícios e falas-chave), plano das 8 videoaulas, produção, publicação na Hotmart/Kiwify, cronograma e checklist de lançamento
 - [x] E26. **Manuscrito do e-book** (`CURSO-EBOOK.md`): texto completo dos 8 capítulos, introdução, sobre o autor, glossário e checklist final — pronto para revisão, diagramação em PDF e gravação das videoaulas
+- [x] E27. **Bônus + PDFs do produto** (`ferramentas/curso/gerar.py`):
+  - `CURSO-BONUS.md`: checklist de rega/adubação/inspeção + 12 fichas rápidas de cultivo (geradas dos dados do site)
+  - PDFs gerados com markdown + Microsoft Edge headless: `ferramentas/curso/out/Frutiferas-em-Vaso-ebook.pdf` e `...-bonus.pdf` (capa + CSS de impressão, capítulos com quebra de página)
+  - Regerar a qualquer momento: `python ferramentas/curso/gerar.py`
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
