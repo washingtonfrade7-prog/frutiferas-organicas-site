@@ -286,17 +286,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "ameixa-japao",
     "nome": "Ameixa Japao",
     "nomeCientifico": "Prunus salicina",
-    "familia": "",
+    "familia": "Rosaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Ameixa Japao é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 7 vídeos sobre esta espécie.",
+    "resumo": "Ameixa japonesa, de frutos grandes e sabor doce-equilibrado. Variedade de mesa muito apreciada.",
     "descricao": [
+      "Ameixa japonesa, de frutos grandes e sabor doce-equilibrado. Variedade de mesa muito apreciada.",
       "Ameixa Japao é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 7 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Japão",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -361,17 +362,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "ameixa-vermelha",
     "nome": "Ameixa vermelha",
     "nomeCientifico": "Prunus salicina",
-    "familia": "",
+    "familia": "Rosaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Ameixa vermelha é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 35 vídeos sobre esta espécie.",
+    "resumo": "Ameixa de casca vermelha e polpa amarela, doce e suculenta. Precisa de poda anual para produzir bem em vaso.",
     "descricao": [
+      "Ameixa de casca vermelha e polpa amarela, doce e suculenta. Precisa de poda anual para produzir bem em vaso.",
       "Ameixa vermelha é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "China",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -441,17 +443,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "amora-portuguesa",
     "nome": "Amora Portuguesa",
     "nomeCientifico": "Rubus ulmifolius",
-    "familia": "",
+    "familia": "Rosaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Amora Portuguesa é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 23 vídeos sobre esta espécie.",
+    "resumo": "Amora de ramos com espinhos e frutos menores, porém muito saborosos e aromáticos. Planta rústica e vigorosa.",
     "descricao": [
+      "Amora de ramos com espinhos e frutos menores, porém muito saborosos e aromáticos. Planta rústica e vigorosa.",
       "Amora Portuguesa é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Europa",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -520,18 +523,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "amora-preta-tupy",
     "nome": "Amora Preta Tupy",
-    "nomeCientifico": "Rubus spp.",
-    "familia": "",
+    "nomeCientifico": "Rubus 'Tupy'",
+    "familia": "Rosaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Amora Preta Tupy é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 45 vídeos sobre esta espécie.",
+    "resumo": "Amora-preta sem espinhos, de frutos grandes e doces. Cultivar brasileiro muito produtivo e ideal para vaso.",
     "descricao": [
+      "Amora-preta sem espinhos, de frutos grandes e doces. Cultivar brasileiro muito produtivo e ideal para vaso.",
       "Amora Preta Tupy é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil (cultivar)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -638,18 +642,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "araca-amarelo",
     "nome": "Araca Amarelo",
-    "nomeCientifico": "Psidium cattleianum",
-    "familia": "",
+    "nomeCientifico": "Psidium cattleianum var. lucidum",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso"
     ],
-    "resumo": "Araca Amarelo é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 91 vídeos sobre esta espécie.",
+    "resumo": "Variedade de casca amarela do mesmo araçá: frutos mais doces e menos ácidos que o vermelho, com aroma suave.",
     "descricao": [
+      "Variedade de casca amarela do mesmo araçá: frutos mais doces e menos ácidos que o vermelho, com aroma suave.",
       "Araca Amarelo é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -799,17 +804,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "araca-pera",
     "nome": "Araca Pera",
     "nomeCientifico": "Psidium acutangulum",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso"
     ],
-    "resumo": "Araca Pera é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 106 vídeos sobre esta espécie.",
+    "resumo": "Araçá de frutos em formato de pera, polpa doce e aromática. Espécie amazônica rara, de crescimento moderado.",
     "descricao": [
+      "Araçá de frutos em formato de pera, polpa doce e aromática. Espécie amazônica rara, de crescimento moderado.",
       "Araca Pera é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Amazônia",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -879,17 +885,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "araca-roxo",
     "nome": "Araca Roxo",
     "nomeCientifico": "Psidium cattleianum",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso"
     ],
-    "resumo": "Araca Roxo é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 92 vídeos sobre esta espécie.",
+    "resumo": "Araçá de casca arroxeada/escura, sabor intenso e adocicado. Menos comum que o vermelho e o amarelo, muito procurado por colecionadores.",
     "descricao": [
+      "Araçá de casca arroxeada/escura, sabor intenso e adocicado. Menos comum que o vermelho e o amarelo, muito procurado por colecionadores.",
       "Araca Roxo é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -1286,102 +1293,22 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "destaque": false
   },
   {
-    "slug": "cabeludinha-peludinha",
-    "nome": "Cabeludinha Peludinha",
-    "nomeCientifico": "Myrciaria glazioviana",
-    "familia": "",
-    "categorias": [
-      "nativas",
-      "vaso",
-      "raras"
-    ],
-    "resumo": "Cabeludinha Peludinha é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 10 vídeos sobre esta espécie.",
-    "descricao": [
-      "Cabeludinha Peludinha é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
-      "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
-    ],
-    "origem": "",
-    "porte": "",
-    "luz": "Sol pleno",
-    "rega": "Regular, sem encharcar",
-    "solo": "Fértil, bem drenado e rico em matéria orgânica",
-    "vaso": "A partir de 20 litros",
-    "dificuldade": "Fácil",
-    "tempoProducao": "Consulte os vídeos de cultivo",
-    "frutificacao": "Consulte os vídeos de cultivo",
-    "curiosidades": [],
-    "dicas": [
-      "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍",
-      "Assista no canal: Cabeludinha colheita real no vaso #shorts",
-      "Assista no canal: Cabeludinha colheita real no vaso #shorts"
-    ],
-    "videos": [
-      {
-        "id": "Kv5XfW0Mkks",
-        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍",
-        "tipo": "colheita"
-      },
-      {
-        "id": "EjakVY1vGL4",
-        "titulo": "Cabeludinha colheita real no vaso #shorts",
-        "tipo": "colheita"
-      },
-      {
-        "id": "EjakVY1vGL4",
-        "titulo": "Cabeludinha colheita real no vaso #shorts",
-        "tipo": "colheita"
-      },
-      {
-        "id": "P3Uo0BRG5hU",
-        "titulo": "Como plantar cabeludinha/jabuticaba amarela orgânica em vaso",
-        "tipo": "plantio"
-      },
-      {
-        "id": "u3jObrYUVUk",
-        "titulo": "Como plantar cabeludinha roxa em vaso plantio dia 15/05/2022",
-        "tipo": "plantio"
-      },
-      {
-        "id": "D7xb2WirFoI",
-        "titulo": "Cabeludinha/Jabuticaba Amarela produzindo em Vaso(botões florais)4k",
-        "tipo": "floracao"
-      },
-      {
-        "id": "VN1h6dvyZfM",
-        "titulo": "jabuticaba amarela/Cabeludinha com flores em vaso 4k",
-        "tipo": "floracao"
-      },
-      {
-        "id": "F3e_e6AXw64",
-        "titulo": "Cabeludinha/jabuticaba amarela nova frutífera do pomar em vasos 4k",
-        "tipo": "tour"
-      }
-    ],
-    "imagem": "/frutiferas/cabeludinha-peludinha.jpg",
-    "galeria": [
-      "/frutiferas/cabeludinha-peludinha-2.jpg",
-      "/frutiferas/cabeludinha-peludinha-3.jpg"
-    ],
-    "keywords": [],
-    "cor": "#7A2E4B",
-    "destaque": false
-  },
-  {
     "slug": "cabeludinha-roxa",
     "nome": "Cabeludinha roxa",
     "nomeCientifico": "Myrciaria glazioviana",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Cabeludinha roxa é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie.",
+    "resumo": "Também chamada de peludinha: frutos amarelos de casca aveludada, polpa suculenta e doce com leve acidez. Arbusto compacto, ótimo para vaso.",
     "descricao": [
+      "Também chamada de peludinha: frutos amarelos de casca aveludada, polpa suculenta e doce com leve acidez. Arbusto compacto, ótimo para vaso.",
       "Cabeludinha roxa é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Mata Atlântica (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -1516,18 +1443,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "cagaita",
     "nome": "Cagaita",
     "nomeCientifico": "Eugenia dysenterica",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Cagaita é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "resumo": "Fruto amarelo do Cerrado, suculento e levemente ácido. Muito produtivo e rústico, símbolo da fruticultura do Cerrado.",
     "descricao": [
+      "Fruto amarelo do Cerrado, suculento e levemente ácido. Muito produtivo e rústico, símbolo da fruticultura do Cerrado.",
       "Cagaita é uma das frutíferas selecionadas para cultivo em vaso. Veja as dicas e onde comprar mudas e insumos nos parceiros.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Cerrado (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -1634,18 +1562,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "calabura",
     "nome": "Calabura",
     "nomeCientifico": "Muntingia calabura",
-    "familia": "",
+    "familia": "Muntingiaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Calabura é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "resumo": "Também chamada de cereja-do-campo ou calabura: frutinhas vermelhas muito doces e adocicadas, produtivas quase o ano todo. Ótima para atrair pássaros.",
     "descricao": [
+      "Também chamada de cereja-do-campo ou calabura: frutinhas vermelhas muito doces e adocicadas, produtivas quase o ano todo. Ótima para atrair pássaros.",
       "Calabura é uma das frutíferas selecionadas para cultivo em vaso. Veja as dicas e onde comprar mudas e insumos nos parceiros.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "América Tropical",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -1752,18 +1681,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "cambuci",
     "nome": "Cambuci",
     "nomeCientifico": "Campomanesia phaea",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Cambuci é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "resumo": "Fruto achatado e verde mesmo quando maduro, de sabor ácido e aromático. Símbolo de São Paulo, raro e valorizado na gastronomia.",
     "descricao": [
+      "Fruto achatado e verde mesmo quando maduro, de sabor ácido e aromático. Símbolo de São Paulo, raro e valorizado na gastronomia.",
       "Cambuci é uma das frutíferas selecionadas para cultivo em vaso. Veja as dicas e onde comprar mudas e insumos nos parceiros.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Mata Atlântica (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -1789,19 +1719,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cambui-roxo",
     "nome": "Cambui Roxo",
-    "nomeCientifico": "Myrciaria tenella",
-    "familia": "",
+    "nomeCientifico": "Eugenia candolleana",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Cambui Roxo é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 8 vídeos sobre esta espécie.",
+    "resumo": "Também chamada de ameixa-da-mata: frutos roxo-enegrecidos, doces e saborosos, com aparência de jabuticaba. Nativa rara que produz em vaso.",
     "descricao": [
+      "Também chamada de ameixa-da-mata: frutos roxo-enegrecidos, doces e saborosos, com aparência de jabuticaba. Nativa rara que produz em vaso.",
       "Cambui Roxo é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Mata Atlântica (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -2069,18 +2000,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "cherimoya",
     "nome": "Cherimoya",
     "nomeCientifico": "Annona cherimola",
-    "familia": "",
+    "familia": "Annonaceae",
     "categorias": [
       "exoticas",
       "vaso",
       "raras"
     ],
-    "resumo": "Cherimoya é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 4 vídeos sobre esta espécie.",
+    "resumo": "Também chamada de fruta-do-conde peruana: polpa cremosa e adocicada, considerada uma das frutas mais saborosas do mundo. Exige polinização manual.",
     "descricao": [
+      "Também chamada de fruta-do-conde peruana: polpa cremosa e adocicada, considerada uma das frutas mais saborosas do mundo. Exige polinização manual.",
       "Cherimoya é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 4 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Andes",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -2565,17 +2497,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "goiaba-amarela",
     "nome": "Goiaba Amarela",
     "nomeCientifico": "Psidium guajava",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Goiaba Amarela é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 87 vídeos sobre esta espécie.",
+    "resumo": "Goiaba de polpa amarela, doce e aromática, ótima para consumo fresco. Produz bem em vaso com podas.",
     "descricao": [
+      "Goiaba de polpa amarela, doce e aromática, ótima para consumo fresco. Produz bem em vaso com podas.",
       "Goiaba Amarela é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "América Tropical",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -2644,18 +2577,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "goiaba-paluma",
     "nome": "Goiaba Paluma",
-    "nomeCientifico": "Psidium guajava",
-    "familia": "",
+    "nomeCientifico": "Psidium guajava 'Paluma'",
+    "familia": "Myrtaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Goiaba Paluma é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 40 vídeos sobre esta espécie.",
+    "resumo": "Cultivar de goiaba de polpa vermelha, doce e produtiva, muito usada comercialmente. Frutos grandes e de boa conservação.",
     "descricao": [
+      "Cultivar de goiaba de polpa vermelha, doce e produtiva, muito usada comercialmente. Frutos grandes e de boa conservação.",
       "Goiaba Paluma é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil (cultivar)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -2804,19 +2738,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "groselha",
     "nome": "Groselha",
-    "nomeCientifico": "Ribes spp.",
-    "familia": "",
+    "nomeCientifico": "Phyllanthus acidus",
+    "familia": "Phyllanthaceae",
     "categorias": [
       "exoticas",
       "vaso",
       "raras"
     ],
-    "resumo": "Groselha é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "resumo": "Groselha-tropical: frutos amarelos e translúcidos em cachos, muito ácidos, ideais para sucos e geleias de cor rubi. Não é a groselha europeia.",
     "descricao": [
+      "Groselha-tropical: frutos amarelos e translúcidos em cachos, muito ácidos, ideais para sucos e geleias de cor rubi. Não é a groselha europeia.",
       "Groselha é uma das frutíferas selecionadas para cultivo em vaso. Veja as dicas e onde comprar mudas e insumos nos parceiros.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Madagascar",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -2843,18 +2778,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "grumixama-preta",
     "nome": "Grumixama preta",
     "nomeCientifico": "Eugenia brasiliensis",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Grumixama preta é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 45 vídeos sobre esta espécie.",
+    "resumo": "Grumixama de frutos escuros (roxo/negro), sabor doce e levemente ácido. A variedade mais comum da espécie.",
     "descricao": [
+      "Grumixama de frutos escuros (roxo/negro), sabor doce e levemente ácido. A variedade mais comum da espécie.",
       "Grumixama preta é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Mata Atlântica (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3003,19 +2939,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "jabuticaba-branca",
     "nome": "Jabuticaba Branca",
-    "nomeCientifico": "Plinia cauliflora",
-    "familia": "",
+    "nomeCientifico": "Plinia aureana",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Jabuticaba Branca é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 95 vídeos sobre esta espécie.",
+    "resumo": "Jabuticaba de casca verde-amarelada e polpa branca, mais doce e com menos tanino que a jabuticaba comum. Rara e muito valorizada.",
     "descricao": [
+      "Jabuticaba de casca verde-amarelada e polpa branca, mais doce e com menos tanino que a jabuticaba comum. Rara e muito valorizada.",
       "Jabuticaba Branca é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Mata Atlântica (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3084,19 +3021,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "jabuticaba-sabara",
     "nome": "Jabuticaba Sabara",
-    "nomeCientifico": "Plinia cauliflora",
-    "familia": "",
+    "nomeCientifico": "Plinia cauliflora 'Sabará'",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Jabuticaba Sabara é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 72 vídeos sobre esta espécie.",
+    "resumo": "A jabuticaba mais tradicional e saborosa, de frutos escuros e doces. Cultivar clássico dos quintais brasileiros.",
     "descricao": [
+      "A jabuticaba mais tradicional e saborosa, de frutos escuros e doces. Cultivar clássico dos quintais brasileiros.",
       "Jabuticaba Sabara é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil (cultivar)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3166,17 +3104,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "jabuticaba-hibrida",
     "nome": "Jabuticaba hibrida",
     "nomeCientifico": "Plinia cauliflora",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso"
     ],
-    "resumo": "Jabuticaba hibrida é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 75 vídeos sobre esta espécie.",
+    "resumo": "Jabuticabeira híbrida selecionada para produzir mais cedo e com frutos graúdos. Ótima para vaso.",
     "descricao": [
+      "Jabuticabeira híbrida selecionada para produzir mais cedo e com frutos graúdos. Ótima para vaso.",
       "Jabuticaba hibrida é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Mata Atlântica (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3405,19 +3344,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "laranja-champagne",
     "nome": "Laranja Champagne",
-    "nomeCientifico": "Citrus sinensis",
-    "familia": "",
+    "nomeCientifico": "Citrus sinensis 'Champagne'",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Laranja Champagne é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 73 vídeos sobre esta espécie.",
+    "resumo": "Laranja de mesa de casca amarelo-clara e polpa muito suculenta e doce, com poucas sementes. Produz bem em vaso e é uma das mais doces do pomar.",
     "descricao": [
+      "Laranja de mesa de casca amarelo-clara e polpa muito suculenta e doce, com poucas sementes. Produz bem em vaso e é uma das mais doces do pomar.",
       "Laranja Champagne é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3486,19 +3426,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "laranja-serra-dagua",
     "nome": "Laranja Serra Dagua",
-    "nomeCientifico": "Citrus sinensis",
-    "familia": "",
+    "nomeCientifico": "Citrus sinensis 'Serra d'Água'",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Laranja Serra Dagua é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 79 vídeos sobre esta espécie.",
+    "resumo": "Laranja de casca fina e suco abundante, sabor equilibrado entre doce e ácido. Ótima para suco fresco.",
     "descricao": [
+      "Laranja de casca fina e suco abundante, sabor equilibrado entre doce e ácido. Ótima para suco fresco.",
       "Laranja Serra Dagua é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3567,19 +3508,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "laranja-abacaxi",
     "nome": "Laranja abacaxi",
-    "nomeCientifico": "Citrus sinensis",
-    "familia": "",
+    "nomeCientifico": "Citrus sinensis 'Abacaxi'",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Laranja abacaxi é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 84 vídeos sobre esta espécie.",
+    "resumo": "Variedade de laranja de polpa amarela, sabor adocicado e aroma marcante. Frutos médios e muito perfumados.",
     "descricao": [
+      "Variedade de laranja de polpa amarela, sabor adocicado e aroma marcante. Frutos médios e muito perfumados.",
       "Laranja abacaxi é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3649,18 +3591,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "laranja-kinkan",
     "nome": "Laranja kinkan",
     "nomeCientifico": "Citrus japonica",
-    "familia": "",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Laranja kinkan é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 74 vídeos sobre esta espécie.",
+    "resumo": "Kinkan ou kumquat: fruto pequeno e oval, de casca comestível e adocicada. Come-se inteiro, casca e tudo. Planta muito ornamental e produtiva em vaso.",
     "descricao": [
+      "Kinkan ou kumquat: fruto pequeno e oval, de casca comestível e adocicada. Come-se inteiro, casca e tudo. Planta muito ornamental e produtiva em vaso.",
       "Laranja kinkan é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "China",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3810,19 +3753,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-galeguinho",
     "nome": "Limao Galeguinho",
-    "nomeCientifico": "Citrus sp.",
-    "familia": "",
+    "nomeCientifico": "Citrus × aurantifolia",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Limao Galeguinho é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 43 vídeos sobre esta espécie.",
+    "resumo": "Lima ácida de frutos pequenos, casca fina e muitas sementes. É a mais ácida do grupo e a preferida para caipirinhas. Planta compacta, ótima para vaso.",
     "descricao": [
+      "Lima ácida de frutos pequenos, casca fina e muitas sementes. É a mais ácida do grupo e a preferida para caipirinhas. Planta compacta, ótima para vaso.",
       "Limao Galeguinho é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Sudeste da Ásia",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3891,19 +3835,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-imperial",
     "nome": "Limao Imperial",
-    "nomeCientifico": "Citrus limon",
-    "familia": "",
+    "nomeCientifico": "Citrus × limon 'Imperial'",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Limao Imperial é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 43 vídeos sobre esta espécie.",
+    "resumo": "Variedade de limão verdadeiro muito produtiva e aromática, com casca amarela e frutos alongados. Excelente para temperos e sucos.",
     "descricao": [
+      "Variedade de limão verdadeiro muito produtiva e aromática, com casca amarela e frutos alongados. Excelente para temperos e sucos.",
       "Limao Imperial é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Variedade selecionada",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -3972,19 +3917,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-siciliano",
     "nome": "Limao Siciliano",
-    "nomeCientifico": "Citrus limon",
-    "familia": "",
+    "nomeCientifico": "Citrus × limon",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Limao Siciliano é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 43 vídeos sobre esta espécie.",
+    "resumo": "É o limão verdadeiro: casca amarela e grossa, formato oval e sabor mais suave e perfumado. Menos ácido que as limas, ideal para sucos, doces e culinária mediterrânea.",
     "descricao": [
+      "É o limão verdadeiro: casca amarela e grossa, formato oval e sabor mais suave e perfumado. Menos ácido que as limas, ideal para sucos, doces e culinária mediterrânea.",
       "Limao Siciliano é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Sul da Itália",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -4054,18 +4000,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "limao-caviar",
     "nome": "Limao caviar",
     "nomeCientifico": "Citrus australasica",
-    "familia": "",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Limao caviar é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 43 vídeos sobre esta espécie.",
+    "resumo": "Também chamado de lima-caviar: frutos estreitos e alongados cuja polpa é formada por esferas crocantes que estouram na boca, como caviar. Iguaria da alta gastronomia.",
     "descricao": [
+      "Também chamado de lima-caviar: frutos estreitos e alongados cuja polpa é formada por esferas crocantes que estouram na boca, como caviar. Iguaria da alta gastronomia.",
       "Limao caviar é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Austrália",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -4135,18 +4082,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "limao-doce-tanjo",
     "nome": "Limao doce Tanjo",
     "nomeCientifico": "Citrus limettioides",
-    "familia": "",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Limao doce Tanjo é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 76 vídeos sobre esta espécie.",
+    "resumo": "Lima doce, sem acidez: pode ser consumida como fruta de mesa, com casca fina e suco adocicado. Ótima para quem não tolera a acidez dos limões.",
     "descricao": [
+      "Lima doce, sem acidez: pode ser consumida como fruta de mesa, com casca fina e suco adocicado. Ótima para quem não tolera a acidez dos limões.",
       "Limao doce Tanjo é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Índia",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -4481,18 +4429,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "manga-palmer",
     "nome": "Manga Palmer",
-    "nomeCientifico": "Mangifera indica",
-    "familia": "",
+    "nomeCientifico": "Mangifera indica 'Palmer'",
+    "familia": "Anacardiaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Manga Palmer é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 39 vídeos sobre esta espécie.",
+    "resumo": "Manga de polpa firme, doce e com pouca fibra, frutos grandes e avermelhados. Produz bem em vaso com poda.",
     "descricao": [
+      "Manga de polpa firme, doce e com pouca fibra, frutos grandes e avermelhados. Produz bem em vaso com poda.",
       "Manga Palmer é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Estados Unidos (cultivar)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -4561,18 +4510,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "manga-uba",
     "nome": "Manga uba",
-    "nomeCientifico": "Mangifera indica",
-    "familia": "",
+    "nomeCientifico": "Mangifera indica 'Ubá'",
+    "familia": "Anacardiaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Manga uba é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 39 vídeos sobre esta espécie.",
+    "resumo": "Manga de frutos menores, fibrosos e muito doces, tradicional na produção de sucos. Rústica e produtiva.",
     "descricao": [
+      "Manga de frutos menores, fibrosos e muito doces, tradicional na produção de sucos. Rústica e produtiva.",
       "Manga uba é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil (cultivar)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -4803,17 +4753,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "melao-andino",
     "nome": "Melao Andino",
     "nomeCientifico": "Solanum muricatum",
-    "familia": "",
+    "familia": "Solanaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Melao Andino é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 10 vídeos sobre esta espécie.",
+    "resumo": "Também chamado de pepino-doce: fruto amarelo com listras roxas, polpa suculenta e levemente doce, lembrando melão. Cultivo em vaso com tutor.",
     "descricao": [
+      "Também chamado de pepino-doce: fruto amarelo com listras roxas, polpa suculenta e levemente doce, lembrando melão. Cultivo em vaso com tutor.",
       "Melao Andino é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Andes",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -5275,17 +5226,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "pinha",
     "nome": "Pinha",
     "nomeCientifico": "Annona squamosa",
-    "familia": "",
+    "familia": "Annonaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Pinha é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie.",
+    "resumo": "Fruta-do-conde ou ata: casca escamosa e polpa branca muito doce. Planta compacta que produz bem em vaso.",
     "descricao": [
+      "Fruta-do-conde ou ata: casca escamosa e polpa branca muito doce. Planta compacta que produz bem em vaso.",
       "Pinha é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 6 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "América Tropical",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -5415,17 +5367,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "pitanga-do-cerrado",
     "nome": "Pitanga do cerrado",
     "nomeCientifico": "Eugenia calycina",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso"
     ],
-    "resumo": "Pitanga do cerrado é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 65 vídeos sobre esta espécie.",
+    "resumo": "Pitanga do Cerrado: planta compacta e rústica, com frutos menores e sabor marcante. Produz bem em vaso e tolera seca.",
     "descricao": [
+      "Pitanga do Cerrado: planta compacta e rústica, com frutos menores e sabor marcante. Produz bem em vaso e tolera seca.",
       "Pitanga do cerrado é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Cerrado (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -5495,17 +5448,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "pitangatuba",
     "nome": "Pitangatuba",
     "nomeCientifico": "Eugenia selloi",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso"
     ],
-    "resumo": "Pitangatuba é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 5 vídeos sobre esta espécie.",
+    "resumo": "Fruto amarelo-alaranjado de sabor ácido e aroma intenso, excelente para sucos e sorvetes. Arbusto compacto, ideal para vaso.",
     "descricao": [
+      "Fruto amarelo-alaranjado de sabor ácido e aroma intenso, excelente para sucos e sorvetes. Arbusto compacto, ideal para vaso.",
       "Pitangatuba é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 5 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Mata Atlântica (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -5560,17 +5514,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "pitaya-branca",
     "nome": "Pitaya Branca",
     "nomeCientifico": "Hylocereus undatus",
-    "familia": "",
+    "familia": "Cactaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Pitaya Branca é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 172 vídeos sobre esta espécie.",
+    "resumo": "Pitaya de casca rosa e polpa branca, com sementes crocantes. A mais cultivada e de manejo mais simples, com floração noturna.",
     "descricao": [
+      "Pitaya de casca rosa e polpa branca, com sementes crocantes. A mais cultivada e de manejo mais simples, com floração noturna.",
       "Pitaya Branca é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "América Central",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -5639,18 +5594,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pitaya-amarela",
     "nome": "Pitaya amarela",
-    "nomeCientifico": "Hylocereus megalanthus",
-    "familia": "",
+    "nomeCientifico": "Selenicereus megalanthus",
+    "familia": "Cactaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Pitaya amarela é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 190 vídeos sobre esta espécie.",
+    "resumo": "Pitaya de casca amarela com espinhos e polpa branca muito doce. Considerada a mais saborosa do grupo.",
     "descricao": [
+      "Pitaya de casca amarela com espinhos e polpa branca muito doce. Considerada a mais saborosa do grupo.",
       "Pitaya amarela é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "América do Sul",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -5720,17 +5676,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "pitaya-vermelha",
     "nome": "Pitaya vermelha",
     "nomeCientifico": "Hylocereus polyrhizus",
-    "familia": "",
+    "familia": "Cactaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Pitaya vermelha é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 168 vídeos sobre esta espécie.",
+    "resumo": "Pitaya de polpa vermelha, mais doce e rica em betalaínas (antioxidantes). Exige polinização para boa frutificação.",
     "descricao": [
+      "Pitaya de polpa vermelha, mais doce e rica em betalaínas (antioxidantes). Exige polinização para boa frutificação.",
       "Pitaya vermelha é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "América Central",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -5800,18 +5757,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "slug": "pitomba-da-bahia",
     "nome": "Pitomba da Bahia",
     "nomeCientifico": "Eugenia luschnathiana",
-    "familia": "",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Pitomba da Bahia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 2 vídeos sobre esta espécie.",
+    "resumo": "Pitomba de casca amarelo-alaranjada e polpa sucosa de sabor agridoce, lembrando damasco. Nativa rara do Nordeste.",
     "descricao": [
+      "Pitomba de casca amarelo-alaranjada e polpa sucosa de sabor agridoce, lembrando damasco. Nativa rara do Nordeste.",
       "Pitomba da Bahia é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 2 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Bahia (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -6254,18 +6212,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "uva-brs-vitoria",
     "nome": "Uva BRS Vitoria",
-    "nomeCientifico": "Vitis spp.",
-    "familia": "",
+    "nomeCientifico": "Vitis 'BRS Vitória'",
+    "familia": "Vitaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Uva BRS Vitoria é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 7 vídeos sobre esta espécie.",
+    "resumo": "Uva sem sementes, de casca escura e sabor doce, desenvolvida pela Embrapa. Produtiva e resistente a doenças.",
     "descricao": [
+      "Uva sem sementes, de casca escura e sabor doce, desenvolvida pela Embrapa. Produtiva e resistente a doenças.",
       "Uva BRS Vitoria é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 7 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Embrapa (Brasil)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -6329,18 +6288,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "uva-goethe",
     "nome": "Uva Goethe",
-    "nomeCientifico": "Vitis spp.",
-    "familia": "",
+    "nomeCientifico": "Vitis 'Goethe'",
+    "familia": "Vitaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Uva Goethe é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 8 vídeos sobre esta espécie.",
+    "resumo": "Uva de mesa de bagos grandes e sabor suave, colhida em cachos vistosos. Exige poda de produção e tutor.",
     "descricao": [
+      "Uva de mesa de bagos grandes e sabor suave, colhida em cachos vistosos. Exige poda de produção e tutor.",
       "Uva Goethe é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Híbrido",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -6409,18 +6369,19 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "uva-isabel",
     "nome": "Uva Isabel",
-    "nomeCientifico": "Vitis labrusca",
-    "familia": "",
+    "nomeCientifico": "Vitis labrusca 'Isabel'",
+    "familia": "Vitaceae",
     "categorias": [
       "exoticas",
       "vaso"
     ],
-    "resumo": "Uva Isabel é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 12 vídeos sobre esta espécie.",
+    "resumo": "Uva rústica de casca escura e sabor intenso, muito usada para suco e vinho. Adapta-se bem ao clima brasileiro e a vasos grandes com tutor.",
     "descricao": [
+      "Uva rústica de casca escura e sabor intenso, muito usada para suco e vinho. Adapta-se bem ao clima brasileiro e a vasos grandes com tutor.",
       "Uva Isabel é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Estados Unidos",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",

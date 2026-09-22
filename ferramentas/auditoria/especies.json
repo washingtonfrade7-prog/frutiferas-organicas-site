@@ -1,0 +1,290 @@
+{
+  "limao-cravo": {
+    "nomeCientifico": "Citrus × limonia",
+    "familia": "Rutaceae",
+    "origem": "Sudeste da Ásia (híbrido natural)",
+    "diferencial": "Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias."
+  },
+  "limao-siciliano": {
+    "nomeCientifico": "Citrus × limon",
+    "familia": "Rutaceae",
+    "origem": "Sul da Itália",
+    "diferencial": "É o limão verdadeiro: casca amarela e grossa, formato oval e sabor mais suave e perfumado. Menos ácido que as limas, ideal para sucos, doces e culinária mediterrânea."
+  },
+  "limao-imperial": {
+    "nomeCientifico": "Citrus × limon 'Imperial'",
+    "familia": "Rutaceae",
+    "origem": "Variedade selecionada",
+    "diferencial": "Variedade de limão verdadeiro muito produtiva e aromática, com casca amarela e frutos alongados. Excelente para temperos e sucos."
+  },
+  "limao-galeguinho": {
+    "nomeCientifico": "Citrus × aurantifolia",
+    "familia": "Rutaceae",
+    "origem": "Sudeste da Ásia",
+    "diferencial": "Lima ácida de frutos pequenos, casca fina e muitas sementes. É a mais ácida do grupo e a preferida para caipirinhas. Planta compacta, ótima para vaso."
+  },
+  "limao-caviar": {
+    "nomeCientifico": "Citrus australasica",
+    "familia": "Rutaceae",
+    "origem": "Austrália",
+    "diferencial": "Também chamado de lima-caviar: frutos estreitos e alongados cuja polpa é formada por esferas crocantes que estouram na boca, como caviar. Iguaria da alta gastronomia."
+  },
+  "limao-doce-tanjo": {
+    "nomeCientifico": "Citrus limettioides",
+    "familia": "Rutaceae",
+    "origem": "Índia",
+    "diferencial": "Lima doce, sem acidez: pode ser consumida como fruta de mesa, com casca fina e suco adocicado. Ótima para quem não tolera a acidez dos limões."
+  },
+  "laranja-champagne": {
+    "nomeCientifico": "Citrus sinensis 'Champagne'",
+    "familia": "Rutaceae",
+    "origem": "Brasil",
+    "diferencial": "Laranja de mesa de casca amarelo-clara e polpa muito suculenta e doce, com poucas sementes. Produz bem em vaso e é uma das mais doces do pomar."
+  },
+  "laranja-abacaxi": {
+    "nomeCientifico": "Citrus sinensis 'Abacaxi'",
+    "familia": "Rutaceae",
+    "origem": "Brasil",
+    "diferencial": "Variedade de laranja de polpa amarela, sabor adocicado e aroma marcante. Frutos médios e muito perfumados."
+  },
+  "laranja-serra-dagua": {
+    "nomeCientifico": "Citrus sinensis 'Serra d'Água'",
+    "familia": "Rutaceae",
+    "origem": "Brasil",
+    "diferencial": "Laranja de casca fina e suco abundante, sabor equilibrado entre doce e ácido. Ótima para suco fresco."
+  },
+  "laranja-kinkan": {
+    "nomeCientifico": "Citrus japonica",
+    "familia": "Rutaceae",
+    "origem": "China",
+    "diferencial": "Kinkan ou kumquat: fruto pequeno e oval, de casca comestível e adocicada. Come-se inteiro, casca e tudo. Planta muito ornamental e produtiva em vaso."
+  },
+  "araca-vermelho": {
+    "nomeCientifico": "Psidium cattleianum",
+    "familia": "Myrtaceae",
+    "origem": "Brasil",
+    "diferencial": "Araçá de casca vermelha, polpa branca e sabor agridoce e aromático. Muito rústico, produz cedo e em grande quantidade em vaso."
+  },
+  "araca-amarelo": {
+    "nomeCientifico": "Psidium cattleianum var. lucidum",
+    "familia": "Myrtaceae",
+    "origem": "Brasil",
+    "diferencial": "Variedade de casca amarela do mesmo araçá: frutos mais doces e menos ácidos que o vermelho, com aroma suave."
+  },
+  "araca-roxo": {
+    "nomeCientifico": "Psidium cattleianum",
+    "familia": "Myrtaceae",
+    "origem": "Brasil",
+    "diferencial": "Araçá de casca arroxeada/escura, sabor intenso e adocicado. Menos comum que o vermelho e o amarelo, muito procurado por colecionadores."
+  },
+  "araca-boi": {
+    "nomeCientifico": "Psidium guineense",
+    "familia": "Myrtaceae",
+    "origem": "América Tropical",
+    "diferencial": "Chamado de fruta iogurte pela polpa cremosa de sabor único. Frutos grandes, muito produtivo em vaso."
+  },
+  "araca-pera": {
+    "nomeCientifico": "Psidium acutangulum",
+    "familia": "Myrtaceae",
+    "origem": "Amazônia",
+    "diferencial": "Araçá de frutos em formato de pera, polpa doce e aromática. Espécie amazônica rara, de crescimento moderado."
+  },
+  "pitanga-preta": {
+    "nomeCientifico": "Eugenia uniflora",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Variedade rara de pitanga de frutos escuros, mais doces e menos ácidos que a pitanga comum, chegando a altos teores de açúcar (graus Brix)."
+  },
+  "pitanga-do-cerrado": {
+    "nomeCientifico": "Eugenia calycina",
+    "familia": "Myrtaceae",
+    "origem": "Cerrado (Brasil)",
+    "diferencial": "Pitanga do Cerrado: planta compacta e rústica, com frutos menores e sabor marcante. Produz bem em vaso e tolera seca."
+  },
+  "uva-isabel": {
+    "nomeCientifico": "Vitis labrusca 'Isabel'",
+    "familia": "Vitaceae",
+    "origem": "Estados Unidos",
+    "diferencial": "Uva rústica de casca escura e sabor intenso, muito usada para suco e vinho. Adapta-se bem ao clima brasileiro e a vasos grandes com tutor."
+  },
+  "uva-goethe": {
+    "nomeCientifico": "Vitis 'Goethe'",
+    "familia": "Vitaceae",
+    "origem": "Híbrido",
+    "diferencial": "Uva de mesa de bagos grandes e sabor suave, colhida em cachos vistosos. Exige poda de produção e tutor."
+  },
+  "uva-brs-vitoria": {
+    "nomeCientifico": "Vitis 'BRS Vitória'",
+    "familia": "Vitaceae",
+    "origem": "Embrapa (Brasil)",
+    "diferencial": "Uva sem sementes, de casca escura e sabor doce, desenvolvida pela Embrapa. Produtiva e resistente a doenças."
+  },
+  "amora-preta-tupy": {
+    "nomeCientifico": "Rubus 'Tupy'",
+    "familia": "Rosaceae",
+    "origem": "Brasil (cultivar)",
+    "diferencial": "Amora-preta sem espinhos, de frutos grandes e doces. Cultivar brasileiro muito produtivo e ideal para vaso."
+  },
+  "amora-portuguesa": {
+    "nomeCientifico": "Rubus ulmifolius",
+    "familia": "Rosaceae",
+    "origem": "Europa",
+    "diferencial": "Amora de ramos com espinhos e frutos menores, porém muito saborosos e aromáticos. Planta rústica e vigorosa."
+  },
+  "goiaba-amarela": {
+    "nomeCientifico": "Psidium guajava",
+    "familia": "Myrtaceae",
+    "origem": "América Tropical",
+    "diferencial": "Goiaba de polpa amarela, doce e aromática, ótima para consumo fresco. Produz bem em vaso com podas."
+  },
+  "goiaba-paluma": {
+    "nomeCientifico": "Psidium guajava 'Paluma'",
+    "familia": "Myrtaceae",
+    "origem": "Brasil (cultivar)",
+    "diferencial": "Cultivar de goiaba de polpa vermelha, doce e produtiva, muito usada comercialmente. Frutos grandes e de boa conservação."
+  },
+  "pitaya-branca": {
+    "nomeCientifico": "Hylocereus undatus",
+    "familia": "Cactaceae",
+    "origem": "América Central",
+    "diferencial": "Pitaya de casca rosa e polpa branca, com sementes crocantes. A mais cultivada e de manejo mais simples, com floração noturna."
+  },
+  "pitaya-vermelha": {
+    "nomeCientifico": "Hylocereus polyrhizus",
+    "familia": "Cactaceae",
+    "origem": "América Central",
+    "diferencial": "Pitaya de polpa vermelha, mais doce e rica em betalaínas (antioxidantes). Exige polinização para boa frutificação."
+  },
+  "pitaya-amarela": {
+    "nomeCientifico": "Selenicereus megalanthus",
+    "familia": "Cactaceae",
+    "origem": "América do Sul",
+    "diferencial": "Pitaya de casca amarela com espinhos e polpa branca muito doce. Considerada a mais saborosa do grupo."
+  },
+  "jabuticaba-hibrida": {
+    "nomeCientifico": "Plinia cauliflora",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Jabuticabeira híbrida selecionada para produzir mais cedo e com frutos graúdos. Ótima para vaso."
+  },
+  "jabuticaba-sabara": {
+    "nomeCientifico": "Plinia cauliflora 'Sabará'",
+    "familia": "Myrtaceae",
+    "origem": "Brasil (cultivar)",
+    "diferencial": "A jabuticaba mais tradicional e saborosa, de frutos escuros e doces. Cultivar clássico dos quintais brasileiros."
+  },
+  "jabuticaba-branca": {
+    "nomeCientifico": "Plinia aureana",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Jabuticaba de casca verde-amarelada e polpa branca, mais doce e com menos tanino que a jabuticaba comum. Rara e muito valorizada."
+  },
+  "grumixama-amarela": {
+    "nomeCientifico": "Eugenia brasiliensis",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Variedade de frutos amarelos da grumixama, doces e suculentos. Rara e muito produtiva em vaso."
+  },
+  "grumixama-preta": {
+    "nomeCientifico": "Eugenia brasiliensis",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Grumixama de frutos escuros (roxo/negro), sabor doce e levemente ácido. A variedade mais comum da espécie."
+  },
+  "manga-palmer": {
+    "nomeCientifico": "Mangifera indica 'Palmer'",
+    "familia": "Anacardiaceae",
+    "origem": "Estados Unidos (cultivar)",
+    "diferencial": "Manga de polpa firme, doce e com pouca fibra, frutos grandes e avermelhados. Produz bem em vaso com poda."
+  },
+  "manga-uba": {
+    "nomeCientifico": "Mangifera indica 'Ubá'",
+    "familia": "Anacardiaceae",
+    "origem": "Brasil (cultivar)",
+    "diferencial": "Manga de frutos menores, fibrosos e muito doces, tradicional na produção de sucos. Rústica e produtiva."
+  },
+  "cabeludinha-roxa": {
+    "nomeCientifico": "Myrciaria glazioviana",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Também chamada de peludinha: frutos amarelos de casca aveludada, polpa suculenta e doce com leve acidez. Arbusto compacto, ótimo para vaso."
+  },
+  "ameixa-vermelha": {
+    "nomeCientifico": "Prunus salicina",
+    "familia": "Rosaceae",
+    "origem": "China",
+    "diferencial": "Ameixa de casca vermelha e polpa amarela, doce e suculenta. Precisa de poda anual para produzir bem em vaso."
+  },
+  "ameixa-japao": {
+    "nomeCientifico": "Prunus salicina",
+    "familia": "Rosaceae",
+    "origem": "Japão",
+    "diferencial": "Ameixa japonesa, de frutos grandes e sabor doce-equilibrado. Variedade de mesa muito apreciada."
+  },
+  "cambui-roxo": {
+    "nomeCientifico": "Eugenia candolleana",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Também chamada de ameixa-da-mata: frutos roxo-enegrecidos, doces e saborosos, com aparência de jabuticaba. Nativa rara que produz em vaso."
+  },
+  "cambuci": {
+    "nomeCientifico": "Campomanesia phaea",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Fruto achatado e verde mesmo quando maduro, de sabor ácido e aromático. Símbolo de São Paulo, raro e valorizado na gastronomia."
+  },
+  "groselha": {
+    "nomeCientifico": "Phyllanthus acidus",
+    "familia": "Phyllanthaceae",
+    "origem": "Madagascar",
+    "diferencial": "Groselha-tropical: frutos amarelos e translúcidos em cachos, muito ácidos, ideais para sucos e geleias de cor rubi. Não é a groselha europeia."
+  },
+  "calabura": {
+    "nomeCientifico": "Muntingia calabura",
+    "familia": "Muntingiaceae",
+    "origem": "América Tropical",
+    "diferencial": "Também chamada de cereja-do-campo ou calabura: frutinhas vermelhas muito doces e adocicadas, produtivas quase o ano todo. Ótima para atrair pássaros."
+  },
+  "melao-andino": {
+    "nomeCientifico": "Solanum muricatum",
+    "familia": "Solanaceae",
+    "origem": "Andes",
+    "diferencial": "Também chamado de pepino-doce: fruto amarelo com listras roxas, polpa suculenta e levemente doce, lembrando melão. Cultivo em vaso com tutor."
+  },
+  "cherimoya": {
+    "nomeCientifico": "Annona cherimola",
+    "familia": "Annonaceae",
+    "origem": "Andes",
+    "diferencial": "Também chamada de fruta-do-conde peruana: polpa cremosa e adocicada, considerada uma das frutas mais saborosas do mundo. Exige polinização manual."
+  },
+  "pinha": {
+    "nomeCientifico": "Annona squamosa",
+    "familia": "Annonaceae",
+    "origem": "América Tropical",
+    "diferencial": "Fruta-do-conde ou ata: casca escamosa e polpa branca muito doce. Planta compacta que produz bem em vaso."
+  },
+  "pitomba-da-bahia": {
+    "nomeCientifico": "Eugenia luschnathiana",
+    "familia": "Myrtaceae",
+    "origem": "Bahia (Brasil)",
+    "diferencial": "Pitomba de casca amarelo-alaranjada e polpa sucosa de sabor agridoce, lembrando damasco. Nativa rara do Nordeste."
+  },
+  "cagaita": {
+    "nomeCientifico": "Eugenia dysenterica",
+    "familia": "Myrtaceae",
+    "origem": "Cerrado (Brasil)",
+    "diferencial": "Fruto amarelo do Cerrado, suculento e levemente ácido. Muito produtivo e rústico, símbolo da fruticultura do Cerrado."
+  },
+  "ubajai": {
+    "nomeCientifico": "Eugenia myrcianthes",
+    "familia": "Myrtaceae",
+    "origem": "Brasil",
+    "diferencial": "Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva."
+  },
+  "pitangatuba": {
+    "nomeCientifico": "Eugenia selloi",
+    "familia": "Myrtaceae",
+    "origem": "Mata Atlântica (Brasil)",
+    "diferencial": "Fruto amarelo-alaranjado de sabor ácido e aroma intenso, excelente para sucos e sorvetes. Arbusto compacto, ideal para vaso."
+  }
+}

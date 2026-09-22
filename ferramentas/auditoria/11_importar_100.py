@@ -40,7 +40,18 @@ SKIP_NOMES = {
     "cereja do rio grande", "grumixama amarela", "abil", "guabiroba do cerrado",
     # nao sao frutiferas
     "tomate", "costela de adao",
+    # duplicata: mesma especie da cabeludinha roxa
+    "cabeludinha peludinha",
 }
+
+ESPECIES_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), "especies.json")
+
+
+def carregar_especies():
+    if os.path.exists(ESPECIES_JSON):
+        with open(ESPECIES_JSON, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
 
 PALETA = [
     "#2E5B3A", "#4B2E5C", "#B23A2E", "#C2703D", "#7A8B3A", "#8E2B2B",
@@ -263,6 +274,7 @@ def main():
     titulos = [(v["id"], norm(v.get("title") or ""), v.get("title") or "", v.get("definition"), v.get("viewCount", 0)) for v in videos]
 
     cientificos = nome_cientifico_por_nome()
+    especies = carregar_especies()
     os.makedirs(PUBLIC_FRUTAS, exist_ok=True)
 
     entradas = []
@@ -304,25 +316,30 @@ def main():
         videos_out = [{"id": v["id"], "titulo": v["titulo"], "tipo": v["tipo"]} for v in vids[:8]]
 
         categorias = categorias_para(nome)
-        tipos_presentes = sorted({v["tipo"] for v in videos_out if v["tipo"] != "outros"})
-        resumo = (
+        esp = especies.get(slug, {})
+        diferencial = esp.get("diferencial", "")
+        resumo = diferencial or (
             f"{nome} é uma frutífera que produz em vaso. "
             + (f"No canal Frutíferas Orgânicas há {len(vids)} vídeos sobre esta espécie." if vids else "Confira as dicas de cultivo e onde comprar mudas.")
         )
+        descricao = []
+        if diferencial:
+            descricao.append(diferencial)
+        descricao.append(
+            f"{nome} é uma das frutíferas selecionadas para cultivo em vaso. "
+            + (f"Assista aos {len(videos_out)} vídeos abaixo para ver plantio, poda, adubação e colheita na prática." if videos_out else "Veja as dicas e onde comprar mudas e insumos nos parceiros.")
+        )
+        descricao.append("Confira as lojas parceiras para adquirir mudas e insumos com segurança.")
 
         entradas.append({
             "slug": slug,
             "nome": nome,
-            "nomeCientifico": CIENTIFICOS.get(norm(nome)) or cientificos.get(norm(nome), ""),
-            "familia": "",
+            "nomeCientifico": esp.get("nomeCientifico") or CIENTIFICOS.get(norm(nome)) or cientificos.get(norm(nome), ""),
+            "familia": esp.get("familia", ""),
             "categorias": categorias,
             "resumo": resumo,
-            "descricao": [
-                f"{nome} é uma das frutíferas selecionadas para cultivo em vaso. "
-                + (f"Assista aos {len(videos_out)} vídeos abaixo para ver plantio, poda, adubação e colheita na prática." if videos_out else "Veja as dicas e onde comprar mudas e insumos nos parceiros."),
-                "Confira as lojas parceiras para adquirir mudas e insumos com segurança.",
-            ],
-            "origem": "",
+            "descricao": descricao,
+            "origem": esp.get("origem", ""),
             "porte": "",
             "luz": "Sol pleno",
             "rega": "Regular, sem encharcar",
