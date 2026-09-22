@@ -88,7 +88,7 @@
   },
   "jambo-rosa": {
     "termo": "Syzygium jambos fruit",
-    "fonte": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jambo_Rosa_%28Syzygium_jambolana%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Syzygium_jambos_fruit.jpg/1280px-Syzygium_jambos_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   "laranja-serra-dagua": {
     "nome": "Laranja Serra Dagua",
@@ -111,8 +111,7 @@
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Citrus_%C3%97_aurantiifolia_%28Christm.%29_Swingle_%2851906868474%29.jpg/1280px-Citrus_%C3%97_aurantiifolia_%28Christm.%29_Swingle_%2851906868474%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "limao-imperial": {
-    "nome": "Limao Imperial",
-    "titulo": "Lemon",
+    "termo": "Lemon",
     "fonte": "https://upload.wikimedia.org/wikipedia/commons/e/e4/P1030323.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   "limao-doce-tanjo": {
@@ -170,12 +169,11 @@
   },
   "pinha": {
     "termo": "Annona squamosa fruit",
-    "fonte": "https://upload.wikimedia.org/wikipedia/commons/8/85/Annona_squamosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Annona_squamosa-fruits-leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   },
   "pinha-dos-astecas": {
-    "nome": "Pinha dos astecas",
-    "titulo": "Annona reticulata",
-    "fonte": "https://upload.wikimedia.org/wikipedia/commons/9/99/Annona_reticulata_Blanco1.197-cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+    "termo": "Annona reticulata fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Annona_reticulata_fruits.JPG/1280px-Annona_reticulata_fruits.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   "pitanga-do-cerrado": {
     "nome": "Pitanga do cerrado",
@@ -188,13 +186,12 @@
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pitaya_cross_section_ed2.jpg/1280px-Pitaya_cross_section_ed2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "rambuta": {
-    "nome": "Rambuta",
-    "titulo": "Rambutan",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rambutan_white_background_alt.jpg/1280px-Rambutan_white_background_alt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    "termo": "Nephelium lappaceum fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Fruits_of_Asia_001_Rambutan.jpg/1280px-Fruits_of_Asia_001_Rambutan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   "roma": {
     "termo": "Punica granatum fruit",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Granado_%28Punica_granatum%29%2C_Mahdia%2C_T%C3%BAnez%2C_2016-09-03%2C_DD_02.jpg/1280px-Granado_%28Punica_granatum%29%2C_Mahdia%2C_T%C3%BAnez%2C_2016-09-03%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pomegranate_%28fruit%29.jpg/1280px-Pomegranate_%28fruit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   "saborosa-pytaya-do-serrado": {
     "termo": "Selenicereus megalanthus",
@@ -217,5 +214,9 @@
     "nome": "Uvaia",
     "titulo": "Uvaia",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Uvaia_Fruto1.jpg/1280px-Uvaia_Fruto1.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "longan": {
+    "termo": "Dimocarpus longan fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Dimocarpus_longan_fruits.jpg/1280px-Dimocarpus_longan_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
 }

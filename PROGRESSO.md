@@ -58,6 +58,7 @@
 - [x] E16. **Correção das imagens**: prioriza o frame do vídeo "TOP 100" (correto por espécie); cards para os frames ruins; thumbnails revisadas para extras (lichia/caju/melancia/sapoti/morango)
 - [x] E17. **Galeria revisada**: mantém apenas o card informativo (sempre correto) em todas as frutíferas, incluindo as 10 manuais; 94 imagens ruins removidas
 - [x] E18. **48 capas corrigidas**: lista enviada pelo usuário (flores/ilustrações/assunto errado) substituída por fotos reais do fruto via Wikimedia Commons/Wikipédia (licença livre) — scripts `17_avaliar_capas.py` a `21_refinar_capas.py`; página `/creditos` com atribuição das fontes
+- [x] E19. **15 capas finais com frames dos vídeos do canal**: uvaia, uva-brs-vitória, uva-isabel, saborosa-pitaya, pitanga-do-cerrado, manga-ubá, jambo-rosa, jabuticaba-sabará e limão-cravo (frames limpos extraídos com ffmpeg, `22` a `25_*.py`); romã, rambutã, pinha, pinha-dos-astecas, limão-imperial e longan sem fruto no vídeo → imagem livre do fruto
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
