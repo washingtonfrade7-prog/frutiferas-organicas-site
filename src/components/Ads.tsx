@@ -29,7 +29,7 @@ interface AdSlotProps {
   formato?: 'auto' | 'fluid' | 'rectangle'
   layout?: string
   className?: string
-  rotulo?: string
+  rotulo?: string | boolean
 }
 
 export default function AdSlot({ slot, formato = 'auto', layout, className = '', rotulo }: AdSlotProps) {
@@ -49,7 +49,9 @@ export default function AdSlot({ slot, formato = 'auto', layout, className = '',
   return (
     <div className={className}>
       {rotulo && (
-        <p className="text-[10px] uppercase tracking-widest text-ink-500 mb-1 text-center">Publicidade</p>
+        <p className="text-[10px] uppercase tracking-widest text-ink-500 mb-1 text-center">
+          {typeof rotulo === 'string' ? rotulo : 'Publicidade'}
+        </p>
       )}
       <ins
         className="adsbygoogle block"
