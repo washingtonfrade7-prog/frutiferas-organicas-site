@@ -81,6 +81,31 @@ export function videoJsonLd(videos: { id: string; titulo: string }[]): string {
   })
 }
 
+export function faqJsonLd(faq: { pergunta: string; resposta: string }[]): string {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({
+      '@type': 'Question',
+      name: f.pergunta,
+      acceptedAnswer: { '@type': 'Answer', text: f.resposta },
+    })),
+  })
+}
+
+export function itemListJsonLd(items: { name: string; url: string }[]): string {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      url: item.url,
+    })),
+  })
+}
+
 export function fruitJsonLd(fruit: {
   nome: string
   nomeCientifico?: string
