@@ -87,7 +87,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "abacaxi",
     "nome": "Abacaxi",
-    "nomeCientifico": "",
+    "nomeCientifico": "Ananas comosus",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -167,7 +167,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "acerola-okinawa",
     "nome": "Acerola Okinawa",
-    "nomeCientifico": "",
+    "nomeCientifico": "Malpighia emarginata",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -247,7 +247,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "ajuru-preto-branco",
     "nome": "Ajuru preto branco",
-    "nomeCientifico": "",
+    "nomeCientifico": "Chrysobalanus icaco",
     "familia": "",
     "categorias": [
       "nativas",
@@ -285,7 +285,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "ameixa-japao",
     "nome": "Ameixa Japao",
-    "nomeCientifico": "",
+    "nomeCientifico": "Prunus salicina",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -360,7 +360,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "ameixa-vermelha",
     "nome": "Ameixa vermelha",
-    "nomeCientifico": "",
+    "nomeCientifico": "Prunus salicina",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -440,7 +440,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "amora-portuguesa",
     "nome": "Amora Portuguesa",
-    "nomeCientifico": "",
+    "nomeCientifico": "Rubus ulmifolius",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -520,7 +520,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "amora-preta-tupy",
     "nome": "Amora Preta Tupy",
-    "nomeCientifico": "",
+    "nomeCientifico": "Rubus spp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -600,7 +600,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "ananas-do-mato",
     "nome": "Ananas do mato",
-    "nomeCientifico": "",
+    "nomeCientifico": "Ananas bracteatus",
     "familia": "",
     "categorias": [
       "nativas",
@@ -878,7 +878,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "araca-roxo",
     "nome": "Araca Roxo",
-    "nomeCientifico": "",
+    "nomeCientifico": "Psidium cattleianum",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1038,7 +1038,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "bacupari-de-bico",
     "nome": "Bacupari de bico",
-    "nomeCientifico": "",
+    "nomeCientifico": "Garcinia gardneriana",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1174,7 +1174,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "banana-ouro",
     "nome": "Banana ouro",
-    "nomeCientifico": "",
+    "nomeCientifico": "Musa spp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -1244,7 +1244,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "biriba",
     "nome": "Biriba",
-    "nomeCientifico": "",
+    "nomeCientifico": "Rollinia mucosa",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -1288,7 +1288,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cabeludinha-peludinha",
     "nome": "Cabeludinha Peludinha",
-    "nomeCientifico": "",
+    "nomeCientifico": "Myrciaria glazioviana",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1369,7 +1369,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cabeludinha-roxa",
     "nome": "Cabeludinha roxa",
-    "nomeCientifico": "",
+    "nomeCientifico": "Myrciaria glazioviana",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1515,7 +1515,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cagaita",
     "nome": "Cagaita",
-    "nomeCientifico": "",
+    "nomeCientifico": "Eugenia dysenterica",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1553,7 +1553,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "caja-manga-anao",
     "nome": "Caja manga Anao",
-    "nomeCientifico": "",
+    "nomeCientifico": "Spondias dulcis",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1633,7 +1633,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "calabura",
     "nome": "Calabura",
-    "nomeCientifico": "",
+    "nomeCientifico": "Muntingia calabura",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1751,7 +1751,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cambuci",
     "nome": "Cambuci",
-    "nomeCientifico": "",
+    "nomeCientifico": "Campomanesia phaea",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1789,7 +1789,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cambui-roxo",
     "nome": "Cambui Roxo",
-    "nomeCientifico": "",
+    "nomeCientifico": "Myrciaria tenella",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1870,7 +1870,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "camu-camu",
     "nome": "Camu-Camu",
-    "nomeCientifico": "",
+    "nomeCientifico": "Myrciaria dubia",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1908,7 +1908,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "canistel",
     "nome": "Canistel",
-    "nomeCientifico": "",
+    "nomeCientifico": "Pouteria campechiana",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -1988,7 +1988,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "carambola-mel",
     "nome": "Carambola Mel",
-    "nomeCientifico": "",
+    "nomeCientifico": "Averrhoa carambola",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2068,7 +2068,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cherimoya",
     "nome": "Cherimoya",
-    "nomeCientifico": "",
+    "nomeCientifico": "Annona cherimola",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2129,7 +2129,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cidra",
     "nome": "Cidra",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus medica",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2167,7 +2167,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "cupuacu",
     "nome": "Cupuacu",
-    "nomeCientifico": "",
+    "nomeCientifico": "Theobroma grandiflorum",
     "familia": "",
     "categorias": [
       "nativas",
@@ -2205,7 +2205,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "dovyalis-doce-campari",
     "nome": "Dovyalis doce campari",
-    "nomeCientifico": "",
+    "nomeCientifico": "Dovyalis hebecarpa",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2409,7 +2409,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "framboesa-silvestre",
     "nome": "Framboesa Silvestre",
-    "nomeCientifico": "",
+    "nomeCientifico": "Rubus idaeus",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2564,7 +2564,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "goiaba-amarela",
     "nome": "Goiaba Amarela",
-    "nomeCientifico": "",
+    "nomeCientifico": "Psidium guajava",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2644,7 +2644,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "goiaba-paluma",
     "nome": "Goiaba Paluma",
-    "nomeCientifico": "",
+    "nomeCientifico": "Psidium guajava",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2804,7 +2804,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "groselha",
     "nome": "Groselha",
-    "nomeCientifico": "",
+    "nomeCientifico": "Ribes spp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -2842,7 +2842,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "grumixama-preta",
     "nome": "Grumixama preta",
-    "nomeCientifico": "",
+    "nomeCientifico": "Eugenia brasiliensis",
     "familia": "",
     "categorias": [
       "nativas",
@@ -2923,7 +2923,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "inga-de-flores-roseas",
     "nome": "Inga de flores roseas",
-    "nomeCientifico": "",
+    "nomeCientifico": "Inga edulis",
     "familia": "",
     "categorias": [
       "nativas",
@@ -3003,7 +3003,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "jabuticaba-branca",
     "nome": "Jabuticaba Branca",
-    "nomeCientifico": "",
+    "nomeCientifico": "Plinia cauliflora",
     "familia": "",
     "categorias": [
       "nativas",
@@ -3084,7 +3084,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "jabuticaba-sabara",
     "nome": "Jabuticaba Sabara",
-    "nomeCientifico": "",
+    "nomeCientifico": "Plinia cauliflora",
     "familia": "",
     "categorias": [
       "nativas",
@@ -3165,7 +3165,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "jabuticaba-hibrida",
     "nome": "Jabuticaba hibrida",
-    "nomeCientifico": "",
+    "nomeCientifico": "Plinia cauliflora",
     "familia": "",
     "categorias": [
       "nativas",
@@ -3245,7 +3245,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "jambo-rosa",
     "nome": "Jambo Rosa",
-    "nomeCientifico": "",
+    "nomeCientifico": "Syzygium jambos",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3325,7 +3325,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "jambo-vermelho",
     "nome": "Jambo Vermelho",
-    "nomeCientifico": "",
+    "nomeCientifico": "Syzygium malaccense",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3405,7 +3405,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "laranja-champagne",
     "nome": "Laranja Champagne",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus sinensis",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3486,7 +3486,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "laranja-serra-dagua",
     "nome": "Laranja Serra Dagua",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus sinensis",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3567,7 +3567,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "laranja-abacaxi",
     "nome": "Laranja abacaxi",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus sinensis",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3648,7 +3648,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "laranja-kinkan",
     "nome": "Laranja kinkan",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus japonica",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3810,7 +3810,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-galeguinho",
     "nome": "Limao Galeguinho",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus sp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3891,7 +3891,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-imperial",
     "nome": "Limao Imperial",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus limon",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -3972,7 +3972,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-siciliano",
     "nome": "Limao Siciliano",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus limon",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4053,7 +4053,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-caviar",
     "nome": "Limao caviar",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus australasica",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4134,7 +4134,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-doce-tanjo",
     "nome": "Limao doce Tanjo",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus limettioides",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4356,7 +4356,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "mamao",
     "nome": "Mamao",
-    "nomeCientifico": "",
+    "nomeCientifico": "Carica papaya",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4405,7 +4405,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "mana-cubiu",
     "nome": "Mana Cubiu",
-    "nomeCientifico": "",
+    "nomeCientifico": "Solanum sessiliflorum",
     "familia": "",
     "categorias": [
       "nativas",
@@ -4443,7 +4443,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "mandacaru",
     "nome": "Mandacaru",
-    "nomeCientifico": "",
+    "nomeCientifico": "Cereus jamacaru",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4481,7 +4481,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "manga-palmer",
     "nome": "Manga Palmer",
-    "nomeCientifico": "",
+    "nomeCientifico": "Mangifera indica",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4561,7 +4561,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "manga-uba",
     "nome": "Manga uba",
-    "nomeCientifico": "",
+    "nomeCientifico": "Mangifera indica",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4722,7 +4722,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "maracuja-gigante",
     "nome": "Maracuja Gigante",
-    "nomeCientifico": "",
+    "nomeCientifico": "Passiflora edulis",
     "familia": "",
     "categorias": [
       "nativas",
@@ -4802,7 +4802,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "melao-andino",
     "nome": "Melao Andino",
-    "nomeCientifico": "",
+    "nomeCientifico": "Solanum muricatum",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4882,7 +4882,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "mexerica-ponkan",
     "nome": "Mexerica Ponkan",
-    "nomeCientifico": "",
+    "nomeCientifico": "Citrus reticulata",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -4953,7 +4953,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "mirtilo-blueberry",
     "nome": "Mirtilo Blueberry",
-    "nomeCientifico": "",
+    "nomeCientifico": "Vaccinium myrtillus",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5114,7 +5114,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pera-dagua",
     "nome": "Pera Dagua",
-    "nomeCientifico": "",
+    "nomeCientifico": "Pyrus communis",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5194,7 +5194,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pessego-anao",
     "nome": "Pessego Anao",
-    "nomeCientifico": "",
+    "nomeCientifico": "Prunus persica",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5274,7 +5274,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pinha",
     "nome": "Pinha",
-    "nomeCientifico": "",
+    "nomeCientifico": "Annona squamosa",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5344,7 +5344,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pinha-dos-astecas",
     "nome": "Pinha dos astecas",
-    "nomeCientifico": "",
+    "nomeCientifico": "Annona sp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5414,7 +5414,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pitanga-do-cerrado",
     "nome": "Pitanga do cerrado",
-    "nomeCientifico": "",
+    "nomeCientifico": "Eugenia calycina",
     "familia": "",
     "categorias": [
       "nativas",
@@ -5559,7 +5559,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pitaya-branca",
     "nome": "Pitaya Branca",
-    "nomeCientifico": "",
+    "nomeCientifico": "Hylocereus undatus",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5639,7 +5639,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pitaya-amarela",
     "nome": "Pitaya amarela",
-    "nomeCientifico": "",
+    "nomeCientifico": "Hylocereus megalanthus",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5719,7 +5719,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pitaya-vermelha",
     "nome": "Pitaya vermelha",
-    "nomeCientifico": "",
+    "nomeCientifico": "Hylocereus polyrhizus",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5799,7 +5799,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "pitomba-da-bahia",
     "nome": "Pitomba da Bahia",
-    "nomeCientifico": "",
+    "nomeCientifico": "Eugenia luschnathiana",
     "familia": "",
     "categorias": [
       "nativas",
@@ -5849,7 +5849,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "rambuta",
     "nome": "Rambuta",
-    "nomeCientifico": "",
+    "nomeCientifico": "Nephelium lappaceum",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -5942,7 +5942,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "saborosa-pytaya-do-serrado",
     "nome": "Saborosa Pytaya do serrado",
-    "nomeCientifico": "",
+    "nomeCientifico": "Hylocereus sp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -6254,7 +6254,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "uva-brs-vitoria",
     "nome": "Uva BRS Vitoria",
-    "nomeCientifico": "",
+    "nomeCientifico": "Vitis spp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -6329,7 +6329,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "uva-goethe",
     "nome": "Uva Goethe",
-    "nomeCientifico": "",
+    "nomeCientifico": "Vitis spp.",
     "familia": "",
     "categorias": [
       "exoticas",
@@ -6409,7 +6409,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "uva-isabel",
     "nome": "Uva Isabel",
-    "nomeCientifico": "",
+    "nomeCientifico": "Vitis labrusca",
     "familia": "",
     "categorias": [
       "exoticas",
