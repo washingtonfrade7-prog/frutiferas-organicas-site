@@ -67,7 +67,9 @@ export const LINKS_MERCADO_LIVRE: Record<string, string> = {
   'tesoura-poda-bypass': linkMLProduto(
     'https://www.mercadolivre.com.br/tesoura-de-poda-profissional-com-lamina-em-aco-bypass-e-cabo-emborrachado-laranja-tramontina/p/MLB23806114'
   ),
-  'tesourao-poda-bypass-60cm': '',
+  'tesourao-poda-bypass-60cm': linkMLProduto(
+    'https://www.mercadolivre.com.br/tesoura-de-poda-com-cabo-extensivel-bypass-tramontina/p/MLB31757767'
+  ),
   'kit-jardinagem-10-pecas': '',
   'regador-bico-longo': '',
   'borrifador-pulverizador': '',
