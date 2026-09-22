@@ -5,18 +5,19 @@ DirectoryIndex index.html
 RewriteEngine On
 RewriteBase /
 
-# Remove barra final (exceto em diretórios reais), redirecionando 301
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)/$ /$1 [R=301,L]
+# 1) Remove barra final (301), exceto na raiz
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^(.+?)/+$ /$1 [R=301,L]
 
-# Não reescreve arquivos e diretórios existentes
+# 2) Prioriza o arquivo .html correspondente
+#    (importante: /frutiferas e /guias também são pastas, mas queremos o .html)
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ /$1.html [L]
+
+# 3) Arquivos e diretórios que existem de verdade
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
-
-# /rota  ->  /rota.html
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [L]
 
 # Página 404 personalizada
 ErrorDocument 404 /404.html

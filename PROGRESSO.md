@@ -46,8 +46,16 @@
 - [x] E3. **Conversão para export estático** (`output: 'export'`) — catálogo com filtro no cliente
 - [x] E4. `.htaccess` (URLs limpas, 404, cache, compressão) + pacote `frutiferas-site.zip`
 - [x] E5. Domínio configurado: `https://frutiferasorganicas.com.br`
-- [ ] E6. Upload do pacote para a Hostinger (public_html) + SSL
+- [x] E6. Upload do pacote para a Hostinger (public_html) — 582 arquivos via FTP
 - [ ] E7. Ativar AdSense/Ezoic após aprovação
+- [ ] E8. Confirmar HTTPS (SSL em instalação no hPanel)
+
+### Deploy — feito
+- Host FTP: `89.117.7.170` · usuário `u813221921` · pasta `/domains/frutiferasorganicas.com.br/public_html`
+- 582 arquivos enviados (`scripts/upload-ftp.mjs`, com `-g` para caminhos com `[slug]`)
+- `default.php` removido; `.htaccess` corrigido (prioriza `.html` antes de diretórios → resolve `/frutiferas` e `/guias`)
+- Testes HTTP (Host header): `/`, `/frutiferas`, `/guias`, `/videos`, `/frutiferas/jabuticaba`, `/guias/adubacao`, `/categorias/nativas` → **200**; inexistente → **404**
+- Domínio resolve (A: 89.116.213.4 / 77.37.42.3); **SSL ainda instalando**
 
 ## Deploy Hostinger (plano Unlimited)
 1. hPanel → **Gerenciador de Arquivos** → entrar em `public_html`

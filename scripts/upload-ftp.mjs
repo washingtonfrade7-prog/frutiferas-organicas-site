@@ -48,7 +48,7 @@ async function enviar(item) {
   try {
     execFileSync(
       'curl',
-      ['-sS', '--ftp-create-dirs', '--connect-timeout', '30', '--retry', '2', '--user', `${USER}:${PASS}`, '-T', item.full, destino],
+      ['-sS', '-g', '--ftp-create-dirs', '--connect-timeout', '30', '--retry', '2', '--user', `${USER}:${PASS}`, '-T', item.full, destino],
       { stdio: 'pipe' }
     )
     ok++
