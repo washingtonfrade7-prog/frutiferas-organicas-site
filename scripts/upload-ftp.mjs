@@ -10,9 +10,12 @@
  * Uso:
  *   node scripts/upload-ftp.mjs
  */
-import { execFileSync } from 'node:child_process'
+import { execFile } from 'node:child_process'
 import { readdirSync, statSync } from 'node:fs'
 import path from 'node:path'
+import { promisify } from 'node:util'
+
+const execFileAsync = promisify(execFile)
 
 const HOST = process.env.FTP_HOST
 const USER = process.env.FTP_USER
@@ -41,15 +44,15 @@ console.log(`Enviando ${arquivos.length} arquivos para ftp://${HOST}${DIR} ...`)
 
 let ok = 0
 let falhas = 0
-const CONCORRENCIA = 4
+const CONCORRENCIA = Number(process.env.FTP_CONCURRENCY || 10)
 
 async function enviar(item) {
   const destino = `ftp://${HOST}${DIR}/${item.rel}`
   try {
-    execFileSync(
+    await execFileAsync(
       'curl',
       ['-sS', '-g', '--ftp-create-dirs', '--connect-timeout', '30', '--retry', '2', '--user', `${USER}:${PASS}`, '-T', item.full, destino],
-      { stdio: 'pipe' }
+      { maxBuffer: 4 * 1024 * 1024 }
     )
     ok++
     if (ok % 25 === 0) console.log(`  ${ok}/${arquivos.length}`)
