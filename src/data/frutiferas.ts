@@ -94,6 +94,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'jabuticaba',
     imagem: '/frutiferas/jabuticaba.jpg',
+    galeria: ['/frutiferas/jabuticaba-2.jpg'],
     nome: 'Jabuticaba',
     nomeCientifico: 'Plinia cauliflora',
     familia: 'Myrtaceae',
@@ -133,6 +134,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'araca-vermelho',
     imagem: '/frutiferas/araca-vermelho.jpg',
+    galeria: ['/frutiferas/araca-vermelho-2.jpg'],
     nome: 'Araçá Vermelho',
     nomeCientifico: 'Psidium cattleianum',
     familia: 'Myrtaceae',
@@ -171,6 +173,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'pitanga-preta',
     imagem: '/frutiferas/pitanga-preta.jpg',
+    galeria: ['/frutiferas/pitanga-preta-2.jpg'],
     nome: 'Pitanga Preta',
     nomeCientifico: 'Eugenia uniflora',
     familia: 'Myrtaceae',
@@ -209,6 +212,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'araca-boi',
     imagem: '/frutiferas/araca-boi.jpg',
+    galeria: ['/frutiferas/araca-boi-2.jpg'],
     nome: 'Araçá Boi (Fruta Iogurte)',
     nomeCientifico: 'Psidium guineense',
     familia: 'Myrtaceae',
@@ -247,6 +251,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'bacupari-mirim',
     imagem: '/frutiferas/bacupari-mirim.jpg',
+    galeria: ['/frutiferas/bacupari-mirim-2.jpg'],
     nome: 'Bacupari Mirim',
     nomeCientifico: 'Garcinia gardneriana',
     familia: 'Clusiaceae',
@@ -284,6 +289,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'bacupari-estalo',
     imagem: '/frutiferas/bacupari-estalo.jpg',
+    galeria: ['/frutiferas/bacupari-estalo-2.jpg'],
     nome: 'Bacupari Estalo',
     nomeCientifico: 'Garcinia brasiliensis',
     familia: 'Clusiaceae',
@@ -321,6 +327,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'abiu-amarelo',
     imagem: '/frutiferas/abiu-amarelo.jpg',
+    galeria: ['/frutiferas/abiu-amarelo-2.jpg'],
     nome: 'Abiu Amarelo',
     nomeCientifico: 'Pouteria caimito',
     familia: 'Sapotaceae',
@@ -358,6 +365,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'gabiroba',
     imagem: '/frutiferas/gabiroba.jpg',
+    galeria: ['/frutiferas/gabiroba-2.jpg'],
     nome: 'Gabiroba do Cerrado',
     nomeCientifico: 'Campomanesia pubescens',
     familia: 'Myrtaceae',
@@ -395,6 +403,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'cereja-rio-grande',
     imagem: '/frutiferas/cereja-rio-grande.jpg',
+    galeria: ['/frutiferas/cereja-rio-grande-2.jpg'],
     nome: 'Cereja do Rio Grande',
     nomeCientifico: 'Eugenia involucrata',
     familia: 'Myrtaceae',
@@ -432,6 +441,7 @@ const frutiferasManuais: Frutifera[] = [
   {
     slug: 'grumixama-amarela',
     imagem: '/frutiferas/grumixama-amarela.jpg',
+    galeria: ['/frutiferas/grumixama-amarela-2.jpg'],
     nome: 'Grumixama Amarela',
     nomeCientifico: 'Eugenia brasiliensis',
     familia: 'Myrtaceae',

@@ -77,8 +77,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/abacate.jpg",
     "galeria": [
-      "/frutiferas/abacate-2.jpg",
-      "/frutiferas/abacate-3.jpg"
+      "/frutiferas/abacate-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -157,8 +156,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/abacaxi.jpg",
     "galeria": [
-      "/frutiferas/abacaxi-2.jpg",
-      "/frutiferas/abacaxi-3.jpg"
+      "/frutiferas/abacaxi-2.jpg"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -237,8 +235,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/acerola-okinawa.jpg",
     "galeria": [
-      "/frutiferas/acerola-okinawa-2.jpg",
-      "/frutiferas/acerola-okinawa-3.jpg"
+      "/frutiferas/acerola-okinawa-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -275,8 +272,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/ajuru-preto-branco.jpg",
     "galeria": [
-      "/frutiferas/ajuru-preto-branco-2.jpg",
-      "/frutiferas/ajuru-preto-branco-3.jpg"
+      "/frutiferas/ajuru-preto-branco-2.jpg"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -351,8 +347,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/ameixa-japao.jpg",
     "galeria": [
-      "/frutiferas/ameixa-japao-2.jpg",
-      "/frutiferas/ameixa-japao-3.jpg"
+      "/frutiferas/ameixa-japao-2.jpg"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -432,8 +427,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/ameixa-vermelha.jpg",
     "galeria": [
-      "/frutiferas/ameixa-vermelha-2.jpg",
-      "/frutiferas/ameixa-vermelha-3.jpg"
+      "/frutiferas/ameixa-vermelha-2.jpg"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -513,8 +507,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/amora-portuguesa.jpg",
     "galeria": [
-      "/frutiferas/amora-portuguesa-2.jpg",
-      "/frutiferas/amora-portuguesa-3.jpg"
+      "/frutiferas/amora-portuguesa-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -594,8 +587,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/amora-preta-tupy.jpg",
     "galeria": [
-      "/frutiferas/amora-preta-tupy-2.jpg",
-      "/frutiferas/amora-preta-tupy-3.jpg"
+      "/frutiferas/amora-preta-tupy-2.jpg"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -632,8 +624,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/ananas-do-mato.jpg",
     "galeria": [
-      "/frutiferas/ananas-do-mato-2.jpg",
-      "/frutiferas/ananas-do-mato-3.jpg"
+      "/frutiferas/ananas-do-mato-2.jpg"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -713,8 +704,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/araca-amarelo.jpg",
     "galeria": [
-      "/frutiferas/araca-amarelo-2.jpg",
-      "/frutiferas/araca-amarelo-3.jpg"
+      "/frutiferas/araca-amarelo-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -793,8 +783,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/araca-boi-fruta-iogurte.jpg",
     "galeria": [
-      "/frutiferas/araca-boi-fruta-iogurte-2.jpg",
-      "/frutiferas/araca-boi-fruta-iogurte-3.jpg"
+      "/frutiferas/araca-boi-fruta-iogurte-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -874,8 +863,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/araca-pera.jpg",
     "galeria": [
-      "/frutiferas/araca-pera-2.jpg",
-      "/frutiferas/araca-pera-3.jpg"
+      "/frutiferas/araca-pera-2.jpg"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -955,8 +943,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/araca-roxo.jpg",
     "galeria": [
-      "/frutiferas/araca-roxo-2.jpg",
-      "/frutiferas/araca-roxo-3.jpg"
+      "/frutiferas/araca-roxo-2.jpg"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -1035,8 +1022,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/atemoia.jpg",
     "galeria": [
-      "/frutiferas/atemoia-2.jpg",
-      "/frutiferas/atemoia-3.jpg"
+      "/frutiferas/atemoia-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -1116,8 +1102,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/bacupari-de-bico.jpg",
     "galeria": [
-      "/frutiferas/bacupari-de-bico-2.jpg",
-      "/frutiferas/bacupari-de-bico-3.jpg"
+      "/frutiferas/bacupari-de-bico-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -1171,8 +1156,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/bacuri.jpg",
     "galeria": [
-      "/frutiferas/bacuri-2.jpg",
-      "/frutiferas/bacuri-3.jpg"
+      "/frutiferas/bacuri-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -1241,8 +1225,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/banana-ouro.jpg",
     "galeria": [
-      "/frutiferas/banana-ouro-2.jpg",
-      "/frutiferas/banana-ouro-3.jpg"
+      "/frutiferas/banana-ouro-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -1285,8 +1268,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/biriba.jpg",
     "galeria": [
-      "/frutiferas/biriba-2.jpg",
-      "/frutiferas/biriba-3.jpg"
+      "/frutiferas/biriba-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -1367,8 +1349,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/cabeludinha-roxa.jpg",
     "galeria": [
-      "/frutiferas/cabeludinha-roxa-2.jpg",
-      "/frutiferas/cabeludinha-roxa-3.jpg"
+      "/frutiferas/cabeludinha-roxa-2.jpg"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -1432,8 +1413,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/cacau.jpg",
     "galeria": [
-      "/frutiferas/cacau-2.jpg",
-      "/frutiferas/cacau-3.jpg"
+      "/frutiferas/cacau-2.jpg"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -1471,8 +1451,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/cagaita.jpg",
     "galeria": [
-      "/frutiferas/cagaita-2.jpg",
-      "/frutiferas/cagaita-3.jpg"
+      "/frutiferas/cagaita-2.jpg"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -1551,8 +1530,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/caja-manga-anao.jpg",
     "galeria": [
-      "/frutiferas/caja-manga-anao-2.jpg",
-      "/frutiferas/caja-manga-anao-3.jpg"
+      "/frutiferas/caja-manga-anao-2.jpg"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -1642,8 +1620,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/calabura.jpg",
     "galeria": [
-      "/frutiferas/calabura-2.jpg",
-      "/frutiferas/calabura-3.jpg"
+      "/frutiferas/calabura-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -1722,8 +1699,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/cambuca-jabuticaba-amarela.jpg",
     "galeria": [
-      "/frutiferas/cambuca-jabuticaba-amarela-2.jpg",
-      "/frutiferas/cambuca-jabuticaba-amarela-3.jpg"
+      "/frutiferas/cambuca-jabuticaba-amarela-2.jpg"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -1761,8 +1737,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/cambuci.jpg",
     "galeria": [
-      "/frutiferas/cambuci-2.jpg",
-      "/frutiferas/cambuci-3.jpg"
+      "/frutiferas/cambuci-2.jpg"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -1843,8 +1818,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/cambui-roxo.jpg",
     "galeria": [
-      "/frutiferas/cambui-roxo-2.jpg",
-      "/frutiferas/cambui-roxo-3.jpg"
+      "/frutiferas/cambui-roxo-2.jpg"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -1881,8 +1855,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/camu-camu.jpg",
     "galeria": [
-      "/frutiferas/camu-camu-2.jpg",
-      "/frutiferas/camu-camu-3.jpg"
+      "/frutiferas/camu-camu-2.jpg"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -1961,8 +1934,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/canistel.jpg",
     "galeria": [
-      "/frutiferas/canistel-2.jpg",
-      "/frutiferas/canistel-3.jpg"
+      "/frutiferas/canistel-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -2041,8 +2013,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/carambola-mel.jpg",
     "galeria": [
-      "/frutiferas/carambola-mel-2.jpg",
-      "/frutiferas/carambola-mel-3.jpg"
+      "/frutiferas/carambola-mel-2.jpg"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -2103,8 +2074,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/cherimoya.jpg",
     "galeria": [
-      "/frutiferas/cherimoya-2.jpg",
-      "/frutiferas/cherimoya-3.jpg"
+      "/frutiferas/cherimoya-2.jpg"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -2141,8 +2111,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/cidra.jpg",
     "galeria": [
-      "/frutiferas/cidra-2.jpg",
-      "/frutiferas/cidra-3.jpg"
+      "/frutiferas/cidra-2.jpg"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -2179,8 +2148,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/cupuacu.jpg",
     "galeria": [
-      "/frutiferas/cupuacu-2.jpg",
-      "/frutiferas/cupuacu-3.jpg"
+      "/frutiferas/cupuacu-2.jpg"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -2259,8 +2227,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/dovyalis-doce-campari.jpg",
     "galeria": [
-      "/frutiferas/dovyalis-doce-campari-2.jpg",
-      "/frutiferas/dovyalis-doce-campari-3.jpg"
+      "/frutiferas/dovyalis-doce-campari-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -2303,8 +2270,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/estrela-do-norte.jpg",
     "galeria": [
-      "/frutiferas/estrela-do-norte-2.jpg",
-      "/frutiferas/estrela-do-norte-3.jpg"
+      "/frutiferas/estrela-do-norte-2.jpg"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -2383,8 +2349,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/figo.jpg",
     "galeria": [
-      "/frutiferas/figo-2.jpg",
-      "/frutiferas/figo-3.jpg"
+      "/frutiferas/figo-2.jpg"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -2458,8 +2423,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/framboesa-silvestre.jpg",
     "galeria": [
-      "/frutiferas/framboesa-silvestre-2.jpg",
-      "/frutiferas/framboesa-silvestre-3.jpg"
+      "/frutiferas/framboesa-silvestre-2.jpg"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -2538,8 +2502,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/fruta-do-milagre.jpg",
     "galeria": [
-      "/frutiferas/fruta-do-milagre-2.jpg",
-      "/frutiferas/fruta-do-milagre-3.jpg"
+      "/frutiferas/fruta-do-milagre-2.jpg"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -2619,8 +2582,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/goiaba-amarela.jpg",
     "galeria": [
-      "/frutiferas/goiaba-amarela-2.jpg",
-      "/frutiferas/goiaba-amarela-3.jpg"
+      "/frutiferas/goiaba-amarela-2.jpg"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -2700,8 +2662,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/goiaba-paluma.jpg",
     "galeria": [
-      "/frutiferas/goiaba-paluma-2.jpg",
-      "/frutiferas/goiaba-paluma-3.jpg"
+      "/frutiferas/goiaba-paluma-2.jpg"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -2780,8 +2741,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/graviola.jpg",
     "galeria": [
-      "/frutiferas/graviola-2.jpg",
-      "/frutiferas/graviola-3.jpg"
+      "/frutiferas/graviola-2.jpg"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -2819,8 +2779,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/groselha.jpg",
     "galeria": [
-      "/frutiferas/groselha-2.jpg",
-      "/frutiferas/groselha-3.jpg"
+      "/frutiferas/groselha-2.jpg"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -2901,8 +2860,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/grumixama-preta.jpg",
     "galeria": [
-      "/frutiferas/grumixama-preta-2.jpg",
-      "/frutiferas/grumixama-preta-3.jpg"
+      "/frutiferas/grumixama-preta-2.jpg"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -2981,8 +2939,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/inga-de-flores-roseas.jpg",
     "galeria": [
-      "/frutiferas/inga-de-flores-roseas-2.jpg",
-      "/frutiferas/inga-de-flores-roseas-3.jpg"
+      "/frutiferas/inga-de-flores-roseas-2.jpg"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -3063,8 +3020,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/jabuticaba-branca.jpg",
     "galeria": [
-      "/frutiferas/jabuticaba-branca-2.jpg",
-      "/frutiferas/jabuticaba-branca-3.jpg"
+      "/frutiferas/jabuticaba-branca-2.jpg"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -3145,8 +3101,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/jabuticaba-sabara.jpg",
     "galeria": [
-      "/frutiferas/jabuticaba-sabara-2.jpg",
-      "/frutiferas/jabuticaba-sabara-3.jpg"
+      "/frutiferas/jabuticaba-sabara-2.jpg"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -3226,8 +3181,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/jabuticaba-hibrida.jpg",
     "galeria": [
-      "/frutiferas/jabuticaba-hibrida-2.jpg",
-      "/frutiferas/jabuticaba-hibrida-3.jpg"
+      "/frutiferas/jabuticaba-hibrida-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -3306,8 +3260,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/jambo-rosa.jpg",
     "galeria": [
-      "/frutiferas/jambo-rosa-2.jpg",
-      "/frutiferas/jambo-rosa-3.jpg"
+      "/frutiferas/jambo-rosa-2.jpg"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -3386,8 +3339,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/jambo-vermelho.jpg",
     "galeria": [
-      "/frutiferas/jambo-vermelho-2.jpg",
-      "/frutiferas/jambo-vermelho-3.jpg"
+      "/frutiferas/jambo-vermelho-2.jpg"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -3468,8 +3420,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/laranja-champagne.jpg",
     "galeria": [
-      "/frutiferas/laranja-champagne-2.jpg",
-      "/frutiferas/laranja-champagne-3.jpg"
+      "/frutiferas/laranja-champagne-2.jpg"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -3550,8 +3501,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/laranja-serra-dagua.jpg",
     "galeria": [
-      "/frutiferas/laranja-serra-dagua-2.jpg",
-      "/frutiferas/laranja-serra-dagua-3.jpg"
+      "/frutiferas/laranja-serra-dagua-2.jpg"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -3632,8 +3582,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/laranja-abacaxi.jpg",
     "galeria": [
-      "/frutiferas/laranja-abacaxi-2.jpg",
-      "/frutiferas/laranja-abacaxi-3.jpg"
+      "/frutiferas/laranja-abacaxi-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -3714,8 +3663,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/laranja-kinkan.jpg",
     "galeria": [
-      "/frutiferas/laranja-kinkan-2.jpg",
-      "/frutiferas/laranja-kinkan-3.jpg"
+      "/frutiferas/laranja-kinkan-2.jpg"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -3863,8 +3811,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/limao-cravo-caipira.jpg",
     "galeria": [
-      "/frutiferas/limao-cravo-caipira-2.jpg",
-      "/frutiferas/limao-cravo-caipira-3.jpg"
+      "/frutiferas/limao-cravo-caipira-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -3945,8 +3892,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/limao-galeguinho.jpg",
     "galeria": [
-      "/frutiferas/limao-galeguinho-2.jpg",
-      "/frutiferas/limao-galeguinho-3.jpg"
+      "/frutiferas/limao-galeguinho-2.jpg"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -4027,8 +3973,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/limao-imperial.jpg",
     "galeria": [
-      "/frutiferas/limao-imperial-2.jpg",
-      "/frutiferas/limao-imperial-3.jpg"
+      "/frutiferas/limao-imperial-2.jpg"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -4109,8 +4054,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/limao-siciliano.jpg",
     "galeria": [
-      "/frutiferas/limao-siciliano-2.jpg",
-      "/frutiferas/limao-siciliano-3.jpg"
+      "/frutiferas/limao-siciliano-2.jpg"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -4191,8 +4135,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/limao-caviar.jpg",
     "galeria": [
-      "/frutiferas/limao-caviar-2.jpg",
-      "/frutiferas/limao-caviar-3.jpg"
+      "/frutiferas/limao-caviar-2.jpg"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -4273,8 +4216,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/limao-doce-tanjo.jpg",
     "galeria": [
-      "/frutiferas/limao-doce-tanjo-2.jpg",
-      "/frutiferas/limao-doce-tanjo-3.jpg"
+      "/frutiferas/limao-doce-tanjo-2.jpg"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -4334,8 +4276,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/longan.jpg",
     "galeria": [
-      "/frutiferas/longan-2.jpg",
-      "/frutiferas/longan-3.jpg"
+      "/frutiferas/longan-2.jpg"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -4414,8 +4355,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/maca-eva.jpg",
     "galeria": [
-      "/frutiferas/maca-eva-2.jpg",
-      "/frutiferas/maca-eva-3.jpg"
+      "/frutiferas/maca-eva-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -4463,8 +4403,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/mamao.jpg",
     "galeria": [
-      "/frutiferas/mamao-2.jpg",
-      "/frutiferas/mamao-3.jpg"
+      "/frutiferas/mamao-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -4501,8 +4440,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/mana-cubiu.jpg",
     "galeria": [
-      "/frutiferas/mana-cubiu-2.jpg",
-      "/frutiferas/mana-cubiu-3.jpg"
+      "/frutiferas/mana-cubiu-2.jpg"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -4539,8 +4477,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/mandacaru.jpg",
     "galeria": [
-      "/frutiferas/mandacaru-2.jpg",
-      "/frutiferas/mandacaru-3.jpg"
+      "/frutiferas/mandacaru-2.jpg"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -4620,8 +4557,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/manga-palmer.jpg",
     "galeria": [
-      "/frutiferas/manga-palmer-2.jpg",
-      "/frutiferas/manga-palmer-3.jpg"
+      "/frutiferas/manga-palmer-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -4701,8 +4637,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/manga-uba.jpg",
     "galeria": [
-      "/frutiferas/manga-uba-2.jpg",
-      "/frutiferas/manga-uba-3.jpg"
+      "/frutiferas/manga-uba-2.jpg"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -4782,8 +4717,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/mangostao-fruta-da-rainha.jpg",
     "galeria": [
-      "/frutiferas/mangostao-fruta-da-rainha-2.jpg",
-      "/frutiferas/mangostao-fruta-da-rainha-3.jpg"
+      "/frutiferas/mangostao-fruta-da-rainha-2.jpg"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -4862,8 +4796,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/maracuja-gigante.jpg",
     "galeria": [
-      "/frutiferas/maracuja-gigante-2.jpg",
-      "/frutiferas/maracuja-gigante-3.jpg"
+      "/frutiferas/maracuja-gigante-2.jpg"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -4994,8 +4927,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/melao-andino.jpg",
     "galeria": [
-      "/frutiferas/melao-andino-2.jpg",
-      "/frutiferas/melao-andino-3.jpg"
+      "/frutiferas/melao-andino-2.jpg"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -5065,8 +4997,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/mexerica-ponkan.jpg",
     "galeria": [
-      "/frutiferas/mexerica-ponkan-2.jpg",
-      "/frutiferas/mexerica-ponkan-3.jpg"
+      "/frutiferas/mexerica-ponkan-2.jpg"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -5146,8 +5077,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/mirtilo-blueberry.jpg",
     "galeria": [
-      "/frutiferas/mirtilo-blueberry-2.jpg",
-      "/frutiferas/mirtilo-blueberry-3.jpg"
+      "/frutiferas/mirtilo-blueberry-2.jpg"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -5278,8 +5208,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/nectarina.jpg",
     "galeria": [
-      "/frutiferas/nectarina-2.jpg",
-      "/frutiferas/nectarina-3.jpg"
+      "/frutiferas/nectarina-2.jpg"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -5358,8 +5287,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pera-dagua.jpg",
     "galeria": [
-      "/frutiferas/pera-dagua-2.jpg",
-      "/frutiferas/pera-dagua-3.jpg"
+      "/frutiferas/pera-dagua-2.jpg"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -5438,8 +5366,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pessego-anao.jpg",
     "galeria": [
-      "/frutiferas/pessego-anao-2.jpg",
-      "/frutiferas/pessego-anao-3.jpg"
+      "/frutiferas/pessego-anao-2.jpg"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -5509,8 +5436,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pinha.jpg",
     "galeria": [
-      "/frutiferas/pinha-2.jpg",
-      "/frutiferas/pinha-3.jpg"
+      "/frutiferas/pinha-2.jpg"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -5579,8 +5505,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pinha-dos-astecas.jpg",
     "galeria": [
-      "/frutiferas/pinha-dos-astecas-2.jpg",
-      "/frutiferas/pinha-dos-astecas-3.jpg"
+      "/frutiferas/pinha-dos-astecas-2.jpg"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -5660,8 +5585,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pitanga-do-cerrado.jpg",
     "galeria": [
-      "/frutiferas/pitanga-do-cerrado-2.jpg",
-      "/frutiferas/pitanga-do-cerrado-3.jpg"
+      "/frutiferas/pitanga-do-cerrado-2.jpg"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -5726,8 +5650,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pitangatuba.jpg",
     "galeria": [
-      "/frutiferas/pitangatuba-2.jpg",
-      "/frutiferas/pitangatuba-3.jpg"
+      "/frutiferas/pitangatuba-2.jpg"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -5807,8 +5730,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pitaya-branca.jpg",
     "galeria": [
-      "/frutiferas/pitaya-branca-2.jpg",
-      "/frutiferas/pitaya-branca-3.jpg"
+      "/frutiferas/pitaya-branca-2.jpg"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -5888,8 +5810,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pitaya-amarela.jpg",
     "galeria": [
-      "/frutiferas/pitaya-amarela-2.jpg",
-      "/frutiferas/pitaya-amarela-3.jpg"
+      "/frutiferas/pitaya-amarela-2.jpg"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -5969,8 +5890,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pitaya-vermelha.jpg",
     "galeria": [
-      "/frutiferas/pitaya-vermelha-2.jpg",
-      "/frutiferas/pitaya-vermelha-3.jpg"
+      "/frutiferas/pitaya-vermelha-2.jpg"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -6020,8 +5940,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/pitomba-da-bahia.jpg",
     "galeria": [
-      "/frutiferas/pitomba-da-bahia-2.jpg",
-      "/frutiferas/pitomba-da-bahia-3.jpg"
+      "/frutiferas/pitomba-da-bahia-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -6058,8 +5977,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "videos": [],
     "imagem": "/frutiferas/rambuta.jpg",
     "galeria": [
-      "/frutiferas/rambuta-2.jpg",
-      "/frutiferas/rambuta-3.jpg"
+      "/frutiferas/rambuta-2.jpg"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -6113,8 +6031,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/roma.jpg",
     "galeria": [
-      "/frutiferas/roma-2.jpg",
-      "/frutiferas/roma-3.jpg"
+      "/frutiferas/roma-2.jpg"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -6193,8 +6110,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/saborosa-pytaya-do-serrado.jpg",
     "galeria": [
-      "/frutiferas/saborosa-pytaya-do-serrado-2.jpg",
-      "/frutiferas/saborosa-pytaya-do-serrado-3.jpg"
+      "/frutiferas/saborosa-pytaya-do-serrado-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -6350,8 +6266,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/seriguela.jpg",
     "galeria": [
-      "/frutiferas/seriguela-2.jpg",
-      "/frutiferas/seriguela-3.jpg"
+      "/frutiferas/seriguela-2.jpg"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -6431,8 +6346,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/tamarilho-tomate-de-arvore.jpg",
     "galeria": [
-      "/frutiferas/tamarilho-tomate-de-arvore-2.jpg",
-      "/frutiferas/tamarilho-tomate-de-arvore-3.jpg"
+      "/frutiferas/tamarilho-tomate-de-arvore-2.jpg"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -6503,8 +6417,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/ubajai-pessego-do-mato.jpg",
     "galeria": [
-      "/frutiferas/ubajai-pessego-do-mato-2.jpg",
-      "/frutiferas/ubajai-pessego-do-mato-3.jpg"
+      "/frutiferas/ubajai-pessego-do-mato-2.jpg"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -6579,8 +6492,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/uva-brs-vitoria.jpg",
     "galeria": [
-      "/frutiferas/uva-brs-vitoria-2.jpg",
-      "/frutiferas/uva-brs-vitoria-3.jpg"
+      "/frutiferas/uva-brs-vitoria-2.jpg"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -6660,8 +6572,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/uva-goethe.jpg",
     "galeria": [
-      "/frutiferas/uva-goethe-2.jpg",
-      "/frutiferas/uva-goethe-3.jpg"
+      "/frutiferas/uva-goethe-2.jpg"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -6741,8 +6652,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/uva-isabel.jpg",
     "galeria": [
-      "/frutiferas/uva-isabel-2.jpg",
-      "/frutiferas/uva-isabel-3.jpg"
+      "/frutiferas/uva-isabel-2.jpg"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -6821,8 +6731,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "imagem": "/frutiferas/uvaia.jpg",
     "galeria": [
-      "/frutiferas/uvaia-2.jpg",
-      "/frutiferas/uvaia-3.jpg"
+      "/frutiferas/uvaia-2.jpg"
     ],
     "keywords": [],
     "cor": "#B23A2E",

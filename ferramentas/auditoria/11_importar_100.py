@@ -327,7 +327,8 @@ def main():
         hero_idx = 1 if len(frames) >= 2 else 0
         otimizar(frames[hero_idx], os.path.join(PUBLIC_FRUTAS, f"{slug}.jpg"))
         galeria = []
-        gal_srcs = [f for j, f in enumerate(frames) if j != hero_idx][:2]
+        # galeria = apenas o card informativo (_001), que e sempre correto para a especie
+        gal_srcs = [frames[0]] if len(frames) >= 2 else []
         for j, f in enumerate(gal_srcs, start=2):
             otimizar(f, os.path.join(PUBLIC_FRUTAS, f"{slug}-{j}.jpg"))
             galeria.append(f"/frutiferas/{slug}-{j}.jpg")
