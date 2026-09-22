@@ -36,7 +36,7 @@ TESSDATA = r"C:\Users\Micro\AppData\Local\Temp\opencode\tessdata"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; FrutiferasAuditoria/1.0)"}
 QUALIDADES = ["maxresdefault", "sddefault", "hqdefault"]
 
-MAX_CANDIDATOS = 4
+MAX_CANDIDATOS = 6
 MAX_FLAT = 0.24        # fracao da cor dominante acima disso = provavel painel de texto
 MIN_NITIDEZ = 45.0     # variancia do Laplaciano
 
@@ -155,35 +155,44 @@ def main():
         escolhida = None
         info = ""
 
-        for v in (fruta.get("videos") or [])[:MAX_CANDIDATOS]:
-            raw = os.path.join(TMP, f"{slug}_{v['id']}_raw.jpg")
-            if not baixar(v["id"], raw):
-                continue
-            # normaliza (recorta barras pretas / 16:9) ANTES do OCR
-            norm_path = os.path.join(TMP, f"{slug}_{v['id']}_norm.jpg")
-            try:
-                otimizar(raw, norm_path)
-            except Exception:
-                continue
-            palavras = fracao_cor_dominante(norm_path)
-            nit = nitidez(norm_path)
-            if palavras <= MAX_FLAT and nit >= MIN_NITIDEZ:
-                shutil.copy(norm_path, destino)
-                escolhida = "thumb"
-                info = f"thumb {v['id']} (flat={palavras:.2f}, nitidez={nit:.0f})"
-                break
+        # 1) Prioridade: frame do video "TOP 100" (corresponde EXATAMENTE a especie)
+        slug_frame = frames_por_slug.get(slug)
+        if slug_frame:
+            candidatos = [
+                os.path.join(DATASET, f"{slug_frame}_{idx:03d}.jpg")
+                for idx in (2, 3)
+                if os.path.exists(os.path.join(DATASET, f"{slug_frame}_{idx:03d}.jpg"))
+            ]
+            if candidatos:
+                melhor = max(candidatos, key=nitidez)
+                otimizar(melhor, destino)
+                escolhida = "frame"
+                info = f"frame {os.path.basename(melhor)}"
+            else:
+                p = os.path.join(DATASET, f"{slug_frame}_001.jpg")
+                if os.path.exists(p):
+                    otimizar(p, destino)
+                    escolhida = "frame"
+                    info = "frame card"
 
+        # 2) Sem frame (frutiferas extras): tenta thumbnail limpa do YouTube
         if escolhida is None:
-            # fallback: frame real do dataset
-            slug_frame = frames_por_slug.get(slug)
-            if slug_frame:
-                for idx in (2, 3, 1):
-                    p = os.path.join(DATASET, f"{slug_frame}_{idx:03d}.jpg")
-                    if os.path.exists(p):
-                        otimizar(p, destino)
-                        escolhida = "frame"
-                        info = f"frame {os.path.basename(p)}"
-                        break
+            for v in (fruta.get("videos") or [])[:MAX_CANDIDATOS]:
+                raw = os.path.join(TMP, f"{slug}_{v['id']}_raw.jpg")
+                if not baixar(v["id"], raw):
+                    continue
+                norm_path = os.path.join(TMP, f"{slug}_{v['id']}_norm.jpg")
+                try:
+                    otimizar(raw, norm_path)
+                except Exception:
+                    continue
+                flat = fracao_cor_dominante(norm_path)
+                nit = nitidez(norm_path)
+                if flat <= MAX_FLAT and nit >= MIN_NITIDEZ:
+                    shutil.copy(norm_path, destino)
+                    escolhida = "thumb"
+                    info = f"thumb {v['id']} (flat={flat:.2f}, nitidez={nit:.0f})"
+                    break
 
         if escolhida == "thumb":
             escolhidas_thumb += 1

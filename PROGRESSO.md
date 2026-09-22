@@ -55,6 +55,7 @@
 - [x] E13. **Deploy automático** (`.github/workflows/deploy.yml`) — build + FTP a cada push na `main`
 - [x] E14. Auditoria do canal reexecutada + catálogo atualizado para **106 frutíferas** (novas: Sapoti, Lichia, Caju, Melancia, Morango)
 - [x] E15. Novo pacote publicado (597 arquivos) e auditoria no ar: 127 páginas, 0 erros
+- [x] E16. **Correção das imagens**: prioriza o frame do vídeo "TOP 100" (correto por espécie); cards para os frames ruins; thumbnails revisadas para extras (lichia/caju/melancia/sapoti/morango)
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions)
