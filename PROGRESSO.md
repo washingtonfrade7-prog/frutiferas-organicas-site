@@ -37,12 +37,27 @@
 - [x] D1. Google AdSense (script + slots + env `NEXT_PUBLIC_ADSENSE_CLIENT`/`_SLOT`)
 - [x] D2. `ads.txt` e política de privacidade com seção de publicidade
 - [x] D3. CTA de afiliados e banners
-- [ ] D4. Ativar AdSense após aprovação (inserir o client ID e o slot)
+- [x] D5. **Ezoic pronto** (script unificado + placeholders 101-105; ativar com `NEXT_PUBLIC_EZOIC=1`, tem prioridade sobre o AdSense)
+- [ ] D4. Ativar AdSense/Ezoic após aprovação (inserir o client ID / habilitar Ezoic)
 
 ### FASE E — SEO / Performance / Deploy
 - [x] E1. Sitemap/robots/JSON-LD atualizados (inclui guias)
-- [ ] E2. Lighthouse
+- [x] E2. Auditoria funcional + teste de carga (3 rodadas, 3.100 requisições, 0 erros)
 - [ ] E3. Deploy Vercel (requer login do usuário)
+
+## Auditoria de qualidade (3 rodadas)
+
+Ferramentas: `ferramentas/auditoria/audit_site.mjs` e `load_test.mjs`.
+
+| Rodada | Páginas | Imagens | Erros | Carga | Concorrência | p95 |
+|---|---|---|---|---|---|---|
+| 1 | 122 | 288 | 0 | 600 req | 30 | 66 ms |
+| 2 | 122 | 288 | 0 | 1000 req | 50 | 118 ms |
+| 3 | 122 | 288 | 0 | 1500 req | 80 | 184 ms |
+
+- Títulos únicos, sem `<img>` sem alt, sem `<a>` aninhado, sem IDs duplicados.
+- 404 correto; robots, sitemap, ads.txt, favicons e OG respondendo 200.
+- Total: 3.100 requisições simultâneas simuladas, **0 falhas**.
 
 ## Histórico
 - (ver commits do repositório)
