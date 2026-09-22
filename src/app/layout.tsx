@@ -49,6 +49,9 @@ export const metadata: Metadata = {
     images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: site.name }],
   },
   twitter: { card: 'summary_large_image', images: ['/og-logo.jpg'] },
+  ...(process.env.NEXT_PUBLIC_ADSENSE_CLIENT
+    ? { other: { 'google-adsense-account': process.env.NEXT_PUBLIC_ADSENSE_CLIENT } }
+    : {}),
 }
 
 export const viewport: Viewport = {
