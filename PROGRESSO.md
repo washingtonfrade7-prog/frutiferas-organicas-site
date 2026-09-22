@@ -51,7 +51,22 @@
 - [x] E8. HTTPS confirmado (certificado ativo)
 - [x] E9. Auditoria no domínio ao vivo: 122 páginas, 288 imagens, 0 erros
 - [x] E11. **Google Analytics (GA4)** ativado (`G-8G7HQFV303`) — gtag no ar em todas as páginas
+- [x] E12. **Ezoic ativado em paralelo** (`NEXT_PUBLIC_EZOIC=1`) — script `g.ezoic.net` + placeholders (AdSense segue como primário nos slots)
+- [x] E13. **Deploy automático** (`.github/workflows/deploy.yml`) — build + FTP a cada push na `main`
+- [x] E14. Auditoria do canal reexecutada + catálogo atualizado para **106 frutíferas** (novas: Sapoti, Lichia, Caju, Melancia, Morango)
+- [x] E15. Novo pacote publicado (597 arquivos) e auditoria no ar: 127 páginas, 0 erros
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
+
+### Deploy automático (GitHub Actions)
+Adicionar em **GitHub → Settings → Secrets and variables → Actions**:
+- `FTP_HOST` = `89.117.7.170`
+- `FTP_USER` = `u813221921`
+- `FTP_PASS` = (senha do FTP)
+Depois, qualquer `git push` na `main` publica sozinho no ar.
+
+### Ezoic
+- Conta Ezoic deve ser criada em ezoic.com e o site adicionado para os anúncios começarem a preencher.
+- Código pronto: script + placeholders 101-105.
 
 ### Deploy — feito
 - Host FTP: `89.117.7.170` · usuário `u813221921` · pasta `/domains/frutiferasorganicas.com.br/public_html`

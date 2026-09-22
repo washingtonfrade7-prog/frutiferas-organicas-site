@@ -1,0 +1,45 @@
+name: Deploy para Hostinger
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-hostinger
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Build (export estatico)
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://frutiferasorganicas.com.br
+          NEXT_PUBLIC_YOUTUBE_URL: https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas
+          NEXT_PUBLIC_EMAIL: frutiferasorganicas@gmail.com
+          NEXT_PUBLIC_ADSENSE_CLIENT: ca-pub-8236074301379246
+          NEXT_PUBLIC_ADSENSE_SLOT: '6872562467'
+          NEXT_PUBLIC_GA_ID: G-8G7HQFV303
+          NEXT_PUBLIC_EZOIC: '1'
+
+      - name: Publicar via FTP
+        run: node scripts/upload-ftp.mjs
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+          FTP_DIR: /domains/frutiferasorganicas.com.br/public_html

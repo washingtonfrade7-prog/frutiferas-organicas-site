@@ -17,6 +17,7 @@ import os
 import re
 import sys
 import unicodedata
+import urllib.request
 from collections import Counter, defaultdict
 
 from PIL import Image
@@ -58,6 +59,18 @@ PALETA = [
     "#D9A62E", "#4A1B2E", "#3E6B5A", "#8F4C25", "#5C6B2E", "#A8452E",
     "#2E5B5B", "#6B4C2E", "#7A2E4B", "#3B5C2E",
 ]
+
+# Frutiferas que aparecem no canal mas nao estao na lista mestra (capa via thumbnail do YouTube)
+EXTRAS = [
+    {"nome": "Sapoti", "nomeCientifico": "Manilkara zapota", "categorias": ["exoticas", "vaso"], "aliases": ["sapoti", "sapota"]},
+    {"nome": "Lichia", "nomeCientifico": "Litchi chinensis", "categorias": ["exoticas", "vaso"], "aliases": ["lichia", "lichieira"]},
+    {"nome": "Caju", "nomeCientifico": "Anacardium occidentale", "categorias": ["nativas", "vaso"], "aliases": ["caju", "cajueiro"]},
+    {"nome": "Melancia", "nomeCientifico": "Citrullus lanatus", "categorias": ["exoticas"], "aliases": ["melancia"]},
+    {"nome": "Morango", "nomeCientifico": "Fragaria x ananassa", "categorias": ["exoticas", "vaso"], "aliases": ["morango", "morangueiro"]},
+]
+
+UA = {"User-Agent": "Mozilla/5.0 (compatible; FrutiferasAuditoria/1.0)"}
+QUALIDADES_THUMB = ["maxresdefault", "sddefault", "hqdefault"]
 
 TIPOS = {
     "colheita": ["colheita", "colhendo", "harvest", "degustacao", "tasting", "brix", "colhida"],
@@ -265,6 +278,22 @@ def otimizar(src, dest, w=800, h=450):
     im.save(dest, "JPEG", quality=82, optimize=True, progressive=True)
 
 
+def baixar_thumb(video_id, dest):
+    for q in QUALIDADES_THUMB:
+        try:
+            req = urllib.request.Request(f"https://i.ytimg.com/vi/{video_id}/{q}.jpg", headers=UA)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                data = r.read()
+            if len(data) < 3000:
+                continue
+            with open(dest, "wb") as f:
+                f.write(data)
+            return True
+        except Exception:
+            continue
+    return False
+
+
 def main():
     lista = carregar_lista_100()
     print(f"[11] frutas na lista mestra: {len(lista)}")
@@ -357,6 +386,66 @@ def main():
             "cor": PALETA[i % len(PALETA)],
             "destaque": False,
         })
+
+    # Frutiferas extras (sem frame no dataset): capa via thumbnail do YouTube
+    tmp_dir = os.path.join(config.OUT_DIR, "_extras")
+    os.makedirs(tmp_dir, exist_ok=True)
+    ordem = {"colheita": 0, "plantio": 1, "poda": 2, "adubacao": 3, "cuidados": 4, "floracao": 5, "gastronomia": 6, "tour": 7, "outros": 8}
+    for j, extra in enumerate(EXTRAS):
+        nome = extra["nome"]
+        slug = slugify(nome)
+        if slug in vistos or slug in MANUAIS:
+            continue
+        vistos.add(slug)
+
+        aliases = extra.get("aliases", [norm(nome)])
+        rx = re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(norm(a)) for a in aliases) + r")(?![a-z0-9])")
+        vids = []
+        for vid, tnorm, ttitulo, defi, views in titulos:
+            if rx.search(tnorm):
+                vids.append({"id": vid, "titulo": ttitulo, "tipo": classificar_tipo(tnorm), "def": defi, "views": views})
+        vids.sort(key=lambda v: (ordem.get(v["tipo"], 9), -v["views"]))
+        videos_out = [{"id": v["id"], "titulo": v["titulo"], "tipo": v["tipo"]} for v in vids[:8]]
+        if not videos_out:
+            print(f"[11] extra ignorado (sem videos): {nome}", flush=True)
+            continue
+
+        raw = os.path.join(tmp_dir, f"{slug}.jpg")
+        if not baixar_thumb(videos_out[0]["id"], raw):
+            print(f"[11] extra ignorado (sem capa): {nome}", flush=True)
+            continue
+        otimizar(raw, os.path.join(PUBLIC_FRUTAS, f"{slug}.jpg"))
+
+        entradas.append({
+            "slug": slug,
+            "nome": nome,
+            "nomeCientifico": extra.get("nomeCientifico", ""),
+            "familia": "",
+            "categorias": extra.get("categorias", ["exoticas", "vaso"]),
+            "resumo": f"{nome} é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há {len(vids)} vídeos sobre esta espécie.",
+            "descricao": [
+                f"{nome} é uma das frutíferas selecionadas para cultivo em vaso. Assista aos {len(videos_out)} vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
+                "Confira as lojas parceiras para adquirir mudas e insumos com segurança.",
+            ],
+            "origem": "",
+            "porte": "",
+            "luz": "Sol pleno",
+            "rega": "Regular, sem encharcar",
+            "solo": "Fértil, bem drenado e rico em matéria orgânica",
+            "vaso": "A partir de 20 litros",
+            "dificuldade": "Fácil",
+            "tempoProducao": "Consulte os vídeos de cultivo",
+            "frutificacao": "Consulte os vídeos de cultivo",
+            "curiosidades": [],
+            "dicas": [f"Assista no canal: {v['titulo']}" for v in videos_out[:3]],
+            "videos": videos_out,
+            "imagem": f"/frutiferas/{slug}.jpg",
+            "galeria": [],
+            "keywords": [],
+            "cor": PALETA[(len(entradas) + j) % len(PALETA)],
+            "destaque": False,
+        })
+        print(f"[11] extra adicionado: {nome} ({len(videos_out)} videos)", flush=True)
 
     entradas.sort(key=lambda e: e["nome"])
     for e in entradas[:6]:

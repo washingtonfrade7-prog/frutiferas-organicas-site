@@ -31,7 +31,7 @@
         "likes": 10157,
         "comentarios": 659,
         "thumb": "https://i.ytimg.com/vi/cRV4orB4srg/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "SFJg7AaXeDQ",
@@ -48,7 +48,7 @@
         "likes": 149,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/SFJg7AaXeDQ/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "zfjVmCKMUzc",
@@ -809,7 +809,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2020-10-11T22:27:42Z",
-        "views": 266384,
+        "views": 266385,
         "likes": 16682,
         "comentarios": 796,
         "thumb": "https://i.ytimg.com/vi/Rt98bUg6j40/maxresdefault.jpg",
@@ -877,7 +877,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2020-04-25T12:07:14Z",
-        "views": 1923,
+        "views": 1925,
         "likes": 126,
         "comentarios": 34,
         "thumb": "https://i.ytimg.com/vi/cqc9eHJjcyg/sddefault.jpg",
@@ -1098,7 +1098,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-05-09T22:15:01Z",
-        "views": 26085,
+        "views": 26090,
         "likes": 1008,
         "comentarios": 81,
         "thumb": "https://i.ytimg.com/vi/seVdIdkWzAk/maxresdefault.jpg",
@@ -1149,7 +1149,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-02-14T22:27:03Z",
-        "views": 65658,
+        "views": 65659,
         "likes": 791,
         "comentarios": 111,
         "thumb": "https://i.ytimg.com/vi/2vtA-xiOLew/maxresdefault.jpg",
@@ -1166,7 +1166,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-01-10T22:27:28Z",
-        "views": 31415,
+        "views": 31419,
         "likes": 740,
         "comentarios": 77,
         "thumb": "https://i.ytimg.com/vi/SjG-XZJ3RDs/maxresdefault.jpg",
@@ -1200,7 +1200,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2025-01-11T20:17:00Z",
-        "views": 10745,
+        "views": 10746,
         "likes": 439,
         "comentarios": 18,
         "thumb": "https://i.ytimg.com/vi/TkvMoYlx9DY/maxresdefault.jpg",
@@ -1302,7 +1302,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2019-01-10T08:27:04Z",
-        "views": 3543,
+        "views": 3544,
         "likes": 228,
         "comentarios": 33,
         "thumb": "https://i.ytimg.com/vi/QjOMrvO1dD4/sddefault.jpg",
@@ -1336,7 +1336,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2023-12-14T23:37:00Z",
-        "views": 2056,
+        "views": 2060,
         "likes": 88,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/vfdFWHgoQKg/maxresdefault.jpg",
@@ -1421,7 +1421,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-08-09T22:27:00Z",
-        "views": 1082,
+        "views": 1083,
         "likes": 20,
         "comentarios": 4,
         "thumb": "https://i.ytimg.com/vi/yaHjH-7nXv8/maxresdefault.jpg",
@@ -1574,7 +1574,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-10-12T22:27:01Z",
-        "views": 511,
+        "views": 512,
         "likes": 29,
         "comentarios": 4,
         "thumb": "https://i.ytimg.com/vi/GG-ik8w30m4/maxresdefault.jpg",
@@ -1591,7 +1591,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-10-12T22:27:01Z",
-        "views": 511,
+        "views": 512,
         "likes": 29,
         "comentarios": 4,
         "thumb": "https://i.ytimg.com/vi/GG-ik8w30m4/maxresdefault.jpg",
@@ -1795,7 +1795,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-13T22:27:28Z",
-        "views": 145369,
+        "views": 145370,
         "likes": 2512,
         "comentarios": 79,
         "thumb": "https://i.ytimg.com/vi/TZXvS4kQk4Q/maxresdefault.jpg",
@@ -1829,7 +1829,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2024-01-28T16:45:48Z",
-        "views": 54393,
+        "views": 54401,
         "likes": 1891,
         "comentarios": 64,
         "thumb": "https://i.ytimg.com/vi/S601w29_kKc/maxresdefault.jpg",
@@ -1846,7 +1846,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2020-11-22T22:27:15Z",
-        "views": 44529,
+        "views": 44530,
         "likes": 2105,
         "comentarios": 153,
         "thumb": "https://i.ytimg.com/vi/g9-C-BD-onU/maxresdefault.jpg",
@@ -1863,7 +1863,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2020-11-22T22:27:15Z",
-        "views": 44529,
+        "views": 44530,
         "likes": 2105,
         "comentarios": 153,
         "thumb": "https://i.ytimg.com/vi/g9-C-BD-onU/maxresdefault.jpg",
@@ -1897,7 +1897,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-11-13T22:27:00Z",
-        "views": 19640,
+        "views": 19641,
         "likes": 773,
         "comentarios": 89,
         "thumb": "https://i.ytimg.com/vi/7VrRUDulSMI/maxresdefault.jpg",
@@ -2050,7 +2050,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2025-02-22T23:37:00Z",
-        "views": 2914,
+        "views": 2916,
         "likes": 141,
         "comentarios": 15,
         "thumb": "https://i.ytimg.com/vi/mG1u-_rNbvc/maxresdefault.jpg",
@@ -2067,7 +2067,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2019-02-09T08:21:03Z",
-        "views": 2529,
+        "views": 2531,
         "likes": 182,
         "comentarios": 41,
         "thumb": "https://i.ytimg.com/vi/OfPN53-4PnU/sddefault.jpg",
@@ -2992,6 +2992,57 @@
         "temTranscricao": false
       },
       {
+        "id": "4QxZspifdwY",
+        "titulo": "Pitayas orgânicas amarela, vermelha, cerrado, vermelha branca",
+        "tipo": "outros",
+        "frutas": [
+          "pitaya"
+        ],
+        "duracaoSeg": 488,
+        "curto": false,
+        "definicao": "hd",
+        "publicadoEm": "2026-09-21T21:27:01Z",
+        "views": 134,
+        "likes": 4,
+        "comentarios": 3,
+        "thumb": "https://i.ytimg.com/vi/4QxZspifdwY/maxresdefault.jpg",
+        "temTranscricao": false
+      },
+      {
+        "id": "4QxZspifdwY",
+        "titulo": "Pitayas orgânicas amarela, vermelha, cerrado, vermelha branca",
+        "tipo": "outros",
+        "frutas": [
+          "pitaya"
+        ],
+        "duracaoSeg": 488,
+        "curto": false,
+        "definicao": "hd",
+        "publicadoEm": "2026-09-21T21:27:01Z",
+        "views": 134,
+        "likes": 4,
+        "comentarios": 3,
+        "thumb": "https://i.ytimg.com/vi/4QxZspifdwY/maxresdefault.jpg",
+        "temTranscricao": false
+      },
+      {
+        "id": "4QxZspifdwY",
+        "titulo": "Pitayas orgânicas amarela, vermelha, cerrado, vermelha branca",
+        "tipo": "outros",
+        "frutas": [
+          "pitaya"
+        ],
+        "duracaoSeg": 488,
+        "curto": false,
+        "definicao": "hd",
+        "publicadoEm": "2026-09-21T21:27:01Z",
+        "views": 134,
+        "likes": 4,
+        "comentarios": 3,
+        "thumb": "https://i.ytimg.com/vi/4QxZspifdwY/maxresdefault.jpg",
+        "temTranscricao": false
+      },
+      {
         "id": "lHe7jWg-Slg",
         "titulo": "Pitayas Orgânicas: Amarela, Vermelha, Cerrado, Vermelha Branca FÁCIL #shorts",
         "tipo": "outros",
@@ -3143,57 +3194,6 @@
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/ztUaZIT3Zmc/maxresdefault.jpg",
         "temTranscricao": false
-      },
-      {
-        "id": "4QxZspifdwY",
-        "titulo": "Pitayas orgânicas amarela, vermelha, cerrado, vermelha branca",
-        "tipo": "outros",
-        "frutas": [
-          "pitaya"
-        ],
-        "duracaoSeg": 488,
-        "curto": false,
-        "definicao": "hd",
-        "publicadoEm": "2026-09-21T21:27:01Z",
-        "views": 6,
-        "likes": 3,
-        "comentarios": 2,
-        "thumb": "https://i.ytimg.com/vi/4QxZspifdwY/maxresdefault.jpg",
-        "temTranscricao": false
-      },
-      {
-        "id": "4QxZspifdwY",
-        "titulo": "Pitayas orgânicas amarela, vermelha, cerrado, vermelha branca",
-        "tipo": "outros",
-        "frutas": [
-          "pitaya"
-        ],
-        "duracaoSeg": 488,
-        "curto": false,
-        "definicao": "hd",
-        "publicadoEm": "2026-09-21T21:27:01Z",
-        "views": 6,
-        "likes": 3,
-        "comentarios": 2,
-        "thumb": "https://i.ytimg.com/vi/4QxZspifdwY/maxresdefault.jpg",
-        "temTranscricao": false
-      },
-      {
-        "id": "4QxZspifdwY",
-        "titulo": "Pitayas orgânicas amarela, vermelha, cerrado, vermelha branca",
-        "tipo": "outros",
-        "frutas": [
-          "pitaya"
-        ],
-        "duracaoSeg": 488,
-        "curto": false,
-        "definicao": "hd",
-        "publicadoEm": "2026-09-21T21:27:01Z",
-        "views": 6,
-        "likes": 3,
-        "comentarios": 2,
-        "thumb": "https://i.ytimg.com/vi/4QxZspifdwY/maxresdefault.jpg",
-        "temTranscricao": false
       }
     ],
     "hero": {
@@ -3211,7 +3211,7 @@
       "likes": 10157,
       "comentarios": 659,
       "thumb": "https://i.ytimg.com/vi/cRV4orB4srg/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/cRV4orB4srg/maxresdefault.jpg",
@@ -3305,7 +3305,7 @@
         "likes": 93,
         "comentarios": 49,
         "thumb": "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "2raa1E2ST7Y",
@@ -3591,7 +3591,7 @@
         "curto": false,
         "definicao": "sd",
         "publicadoEm": "2017-07-16T01:09:56Z",
-        "views": 5664,
+        "views": 5665,
         "likes": 159,
         "comentarios": 22,
         "thumb": "https://i.ytimg.com/vi/P3Uo0BRG5hU/sddefault.jpg",
@@ -3649,7 +3649,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "2MCjhIf08uU",
@@ -3781,7 +3781,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-09T22:27:36Z",
-        "views": 17569,
+        "views": 17574,
         "likes": 471,
         "comentarios": 35,
         "thumb": "https://i.ytimg.com/vi/nvnW86Qzt1E/maxresdefault.jpg",
@@ -3798,7 +3798,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2023-03-13T16:57:00Z",
-        "views": 17509,
+        "views": 17522,
         "likes": 308,
         "comentarios": 58,
         "thumb": "https://i.ytimg.com/vi/2k9aYavDfRk/maxresdefault.jpg",
@@ -3866,7 +3866,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2025-08-31T22:27:00Z",
-        "views": 791,
+        "views": 792,
         "likes": 47,
         "comentarios": 4,
         "thumb": "https://i.ytimg.com/vi/GCoiQlk8zoc/maxresdefault.jpg",
@@ -4175,7 +4175,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2019-10-11T10:07:34Z",
-        "views": 27766,
+        "views": 27769,
         "likes": 1142,
         "comentarios": 127,
         "thumb": "https://i.ytimg.com/vi/hdjeh8yVqGY/sddefault.jpg",
@@ -4228,7 +4228,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2023-12-31T11:49:23Z",
-        "views": 2575,
+        "views": 2577,
         "likes": 88,
         "comentarios": 8,
         "thumb": "https://i.ytimg.com/vi/lbQuF5Zf7yo/maxresdefault.jpg",
@@ -4245,8 +4245,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2023-02-05T22:27:00Z",
-        "views": 2048,
-        "likes": 120,
+        "views": 2051,
+        "likes": 122,
         "comentarios": 42,
         "thumb": "https://i.ytimg.com/vi/nrS0CH6B3Do/maxresdefault.jpg",
         "temTranscricao": false
@@ -4313,7 +4313,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-10-03T22:27:00Z",
-        "views": 997,
+        "views": 998,
         "likes": 48,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/GJdd2j_uXhI/maxresdefault.jpg",
@@ -4471,7 +4471,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2023-06-15T22:27:14Z",
-        "views": 654,
+        "views": 655,
         "likes": 17,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/FMt4zZc5v4o/maxresdefault.jpg",
@@ -4671,8 +4671,8 @@
       "solo",
       "branca",
       "cabeludinha",
-      "jabuticabeira",
-      "pitaya"
+      "puder",
+      "contribuir"
     ]
   },
   {
@@ -4721,7 +4721,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2023-07-19T22:27:00Z",
-        "views": 1231,
+        "views": 1232,
         "likes": 55,
         "comentarios": 20,
         "thumb": "https://i.ytimg.com/vi/HsfD-LPRggI/maxresdefault.jpg",
@@ -4742,7 +4742,7 @@
         "likes": 23,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/mbHSz4ugvT8/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "mbHSz4ugvT8",
@@ -4759,7 +4759,7 @@
         "likes": 23,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/mbHSz4ugvT8/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "mbHSz4ugvT8",
@@ -4776,7 +4776,7 @@
         "likes": 23,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/mbHSz4ugvT8/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "GmUN81Q4ulk",
@@ -4993,7 +4993,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-07-23T21:30:31Z",
-        "views": 252,
+        "views": 253,
         "likes": 14,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/ChQW8iCPgpQ/maxresdefault.jpg",
@@ -5282,7 +5282,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2022-09-29T09:48:36Z",
-        "views": 5977,
+        "views": 5982,
         "likes": 228,
         "comentarios": 18,
         "thumb": "https://i.ytimg.com/vi/LLqXfZdXiuU/maxresdefault.jpg",
@@ -5605,8 +5605,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-21T22:28:00Z",
-        "views": 7962,
-        "likes": 228,
+        "views": 7964,
+        "likes": 229,
         "comentarios": 43,
         "thumb": "https://i.ytimg.com/vi/wnEQKVkHNPM/maxresdefault.jpg",
         "temTranscricao": true
@@ -5992,11 +5992,11 @@
       "quantia",
       "projeto",
       "abacaxi",
-      "voces",
       "champagne",
-      "pessoal",
+      "voces",
       "horta",
-      "olha"
+      "adubo",
+      "melhor"
     ]
   },
   {
@@ -6025,11 +6025,11 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2022-06-18T22:27:53Z",
-        "views": 1974,
+        "views": 1975,
         "likes": 119,
         "comentarios": 40,
         "thumb": "https://i.ytimg.com/vi/SEdlXvo9-5k/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "EnF4oEKwJbg",
@@ -6162,7 +6162,7 @@
         "definicao": "hd",
         "publicadoEm": "2026-08-07T21:27:22Z",
         "views": 122,
-        "likes": 8,
+        "likes": 9,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/SIb4edMKSQk/maxresdefault.jpg",
         "temTranscricao": false
@@ -6571,7 +6571,7 @@
         "definicao": "hd",
         "publicadoEm": "2021-05-15T22:27:00Z",
         "views": 7186,
-        "likes": 254,
+        "likes": 256,
         "comentarios": 42,
         "thumb": "https://i.ytimg.com/vi/mEumUswNcBM/maxresdefault.jpg",
         "temTranscricao": true
@@ -6592,7 +6592,7 @@
         "likes": 51,
         "comentarios": 34,
         "thumb": "https://i.ytimg.com/vi/S8oWJfVm4yE/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "NY4IfYLUy3w",
@@ -6656,8 +6656,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-05-23T22:27:01Z",
-        "views": 168877,
-        "likes": 5727,
+        "views": 168976,
+        "likes": 5728,
         "comentarios": 304,
         "thumb": "https://i.ytimg.com/vi/5oud5Rdlvbo/maxresdefault.jpg",
         "temTranscricao": true
@@ -6673,7 +6673,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2019-02-14T20:50:25Z",
-        "views": 55198,
+        "views": 55203,
         "likes": 832,
         "comentarios": 276,
         "thumb": "https://i.ytimg.com/vi/GbRENYYDf_w/sddefault.jpg",
@@ -7001,7 +7001,7 @@
         "views": 0,
         "likes": 0,
         "comentarios": 0,
-        "thumb": "https://i9.ytimg.com/vi/BEwYPihnkww/maxresdefault.jpg?sqp=CMTrxtUG&rs=AOn4CLCk1qvQCL-scB4fqQDSnkWqLAozBw",
+        "thumb": "https://i9.ytimg.com/vi/BEwYPihnkww/maxresdefault.jpg?sqp=CPz5ydUG&rs=AOn4CLAWm0v0SYaprMGjEqMC1u62OVI3PQ",
         "temTranscricao": false
       }
     ],
@@ -7016,11 +7016,11 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2022-06-18T22:27:53Z",
-      "views": 1974,
+      "views": 1975,
       "likes": 119,
       "comentarios": 40,
       "thumb": "https://i.ytimg.com/vi/SEdlXvo9-5k/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/SEdlXvo9-5k/maxresdefault.jpg",
@@ -7034,15 +7034,15 @@
       "graviola",
       "horta",
       "shorts",
-      "voces",
       "adubacao",
+      "voces",
       "dica",
       "rapida",
       "adubo",
       "casa",
-      "vou",
+      "anona",
       "pessoal",
-      "anona"
+      "vou"
     ]
   },
   {
@@ -7092,7 +7092,7 @@
         "likes": 86,
         "comentarios": 16,
         "thumb": "https://i.ytimg.com/vi/Tk1Qx1tfPwA/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "wZXMXK0k5vs",
@@ -7109,7 +7109,7 @@
         "likes": 20,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/wZXMXK0k5vs/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "FQCzyyOKq44",
@@ -7173,7 +7173,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-08-09T21:27:13Z",
-        "views": 306,
+        "views": 309,
         "likes": 3,
         "comentarios": 7,
         "thumb": "https://i.ytimg.com/vi/yr1XLldfO8E/maxresdefault.jpg",
@@ -7224,7 +7224,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-07-17T21:30:14Z",
-        "views": 184,
+        "views": 185,
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/ehECJ9sSrCA/maxresdefault.jpg",
@@ -7344,7 +7344,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-11-25T22:27:00Z",
-        "views": 232,
+        "views": 233,
         "likes": 23,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/oUdo9GqYE5M/maxresdefault.jpg",
@@ -7361,7 +7361,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-11-25T22:27:00Z",
-        "views": 232,
+        "views": 233,
         "likes": 23,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/oUdo9GqYE5M/maxresdefault.jpg",
@@ -7378,7 +7378,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-11-25T22:27:00Z",
-        "views": 232,
+        "views": 233,
         "likes": 23,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/oUdo9GqYE5M/maxresdefault.jpg",
@@ -7514,7 +7514,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-08-15T16:30:35Z",
-        "views": 1051,
+        "views": 1052,
         "likes": 80,
         "comentarios": 79,
         "thumb": "https://i.ytimg.com/vi/7RbSxrxuJwQ/sddefault.jpg",
@@ -7567,7 +7567,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-07-19T12:45:42Z",
-        "views": 9248,
+        "views": 9249,
         "likes": 495,
         "comentarios": 87,
         "thumb": "https://i.ytimg.com/vi/dBFcbpTwk2Y/sddefault.jpg",
@@ -7805,7 +7805,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-12-15T22:27:00Z",
-        "views": 160,
+        "views": 162,
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/5LY9Y_3TFy0/maxresdefault.jpg",
@@ -7822,7 +7822,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-12-15T22:27:00Z",
-        "views": 160,
+        "views": 162,
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/5LY9Y_3TFy0/maxresdefault.jpg",
@@ -7839,7 +7839,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-04-14T20:26:00Z",
-        "views": 136,
+        "views": 137,
         "likes": 5,
         "comentarios": 4,
         "thumb": "https://i.ytimg.com/vi/-WKX0poI0lc/maxresdefault.jpg",
@@ -8012,7 +8012,7 @@
         "views": 0,
         "likes": 0,
         "comentarios": 0,
-        "thumb": "https://i9.ytimg.com/vi/suyiJf8kvQs/maxresdefault.jpg?sqp=CMTrxtUG&rs=AOn4CLBg4acaXmO1tbxCE_PQqH24A1wJrA",
+        "thumb": "https://i9.ytimg.com/vi/suyiJf8kvQs/maxresdefault.jpg?sqp=CPz5ydUG&rs=AOn4CLB8TCgYUBtn8p-GtX2MGPhPNM0Iwg",
         "temTranscricao": false
       }
     ],
@@ -8082,11 +8082,11 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-10-20T22:27:01Z",
-        "views": 2951,
+        "views": 2958,
         "likes": 235,
         "comentarios": 38,
         "thumb": "https://i.ytimg.com/vi/_vdc0qTuUvs/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "HeYVx_ZhiyY",
@@ -8116,7 +8116,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2022-10-14T22:27:00Z",
-        "views": 1458,
+        "views": 1459,
         "likes": 107,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/ed7YcwyraRg/maxresdefault.jpg",
@@ -8137,7 +8137,7 @@
         "likes": 67,
         "comentarios": 29,
         "thumb": "https://i.ytimg.com/vi/TIOm6rxMkUs/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "VX7PJCW8DNg",
@@ -8218,7 +8218,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-07-02T21:30:09Z",
-        "views": 437,
+        "views": 438,
         "likes": 34,
         "comentarios": 11,
         "thumb": "https://i.ytimg.com/vi/qm8jK_rjcE8/maxresdefault.jpg",
@@ -8253,7 +8253,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2017-07-29T17:42:34Z",
-        "views": 7801,
+        "views": 7802,
         "likes": 305,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/3EnxBIF0-aE/sddefault.jpg",
@@ -8321,7 +8321,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2020-12-06T22:27:15Z",
-        "views": 10119,
+        "views": 10121,
         "likes": 424,
         "comentarios": 73,
         "thumb": "https://i.ytimg.com/vi/SIKggrYZR8A/maxresdefault.jpg",
@@ -8338,7 +8338,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2025-11-09T22:27:01Z",
-        "views": 314,
+        "views": 315,
         "likes": 27,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/dKHeoQwqYPM/maxresdefault.jpg",
@@ -8355,7 +8355,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2025-11-09T22:27:01Z",
-        "views": 314,
+        "views": 315,
         "likes": 27,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/dKHeoQwqYPM/maxresdefault.jpg",
@@ -8531,7 +8531,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2022-10-03T20:34:10Z",
-        "views": 4370,
+        "views": 4377,
         "likes": 192,
         "comentarios": 12,
         "thumb": "https://i.ytimg.com/vi/qaDOgbrrh8c/maxresdefault.jpg",
@@ -8548,7 +8548,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2020-09-19T22:27:12Z",
-        "views": 2883,
+        "views": 2884,
         "likes": 66,
         "comentarios": 15,
         "thumb": "https://i.ytimg.com/vi/JEdoeHHOz44/maxresdefault.jpg",
@@ -8769,7 +8769,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-13T23:45:26Z",
-        "views": 31,
+        "views": 33,
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/v0K6z1MQIhY/maxresdefault.jpg",
@@ -8786,7 +8786,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-13T23:45:26Z",
-        "views": 31,
+        "views": 33,
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/v0K6z1MQIhY/maxresdefault.jpg",
@@ -8806,7 +8806,7 @@
         "views": 0,
         "likes": 0,
         "comentarios": 0,
-        "thumb": "https://i9.ytimg.com/vi/LqSDyaFjITM/maxresdefault.jpg?sqp=CMTrxtUG&rs=AOn4CLCw9rAzC3VOyOn3ELw_go-UckOUkw",
+        "thumb": "https://i9.ytimg.com/vi/LqSDyaFjITM/maxresdefault.jpg?sqp=CPz5ydUG&rs=AOn4CLDSI2Tq2WtlCf6LT0qCkul40zj_pQ",
         "temTranscricao": false
       }
     ],
@@ -8821,11 +8821,11 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2021-10-20T22:27:01Z",
-      "views": 2951,
+      "views": 2958,
       "likes": 235,
       "comentarios": 38,
       "thumb": "https://i.ytimg.com/vi/_vdc0qTuUvs/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/_vdc0qTuUvs/maxresdefault.jpg",
@@ -8846,8 +8846,8 @@
       "quantia",
       "projeto",
       "chacara",
-      "pessoal",
-      "voces"
+      "voces",
+      "colha"
     ]
   },
   {
@@ -8901,7 +8901,7 @@
         "likes": 33,
         "comentarios": 8,
         "thumb": "https://i.ytimg.com/vi/LtxsxIBlxmI/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "s89DcLVTico",
@@ -8918,7 +8918,7 @@
         "likes": 10,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/s89DcLVTico/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "RXkby8W0qEQ",
@@ -8948,7 +8948,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-07-20T21:30:15Z",
-        "views": 380,
+        "views": 381,
         "likes": 32,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/cMp2Hwp1RVM/maxresdefault.jpg",
@@ -8965,7 +8965,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-07-20T21:30:15Z",
-        "views": 380,
+        "views": 381,
         "likes": 32,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/cMp2Hwp1RVM/maxresdefault.jpg",
@@ -9050,7 +9050,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2022-05-29T22:27:01Z",
-        "views": 3886,
+        "views": 3890,
         "likes": 126,
         "comentarios": 27,
         "thumb": "https://i.ytimg.com/vi/GtuLYvTwJHE/maxresdefault.jpg",
@@ -9101,27 +9101,10 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-21T18:30:37Z",
-        "views": 5,
+        "views": 10,
         "likes": 0,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/SRO6cXCNOSs/maxresdefault.jpg",
-        "temTranscricao": false
-      },
-      {
-        "id": "orm1w09W6cA",
-        "titulo": "Guia de Cultivo: Limão siciliano orgânico em vaso #shorts",
-        "tipo": "plantio",
-        "frutas": [
-          "limao"
-        ],
-        "duracaoSeg": 59,
-        "curto": true,
-        "definicao": "hd",
-        "publicadoEm": "2026-09-21T17:00:06Z",
-        "views": 5,
-        "likes": 0,
-        "comentarios": 1,
-        "thumb": "https://i.ytimg.com/vi/orm1w09W6cA/maxresdefault.jpg",
         "temTranscricao": false
       },
       {
@@ -9135,7 +9118,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-21T18:30:37Z",
-        "views": 5,
+        "views": 10,
         "likes": 0,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/SRO6cXCNOSs/maxresdefault.jpg",
@@ -9152,8 +9135,25 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-21T17:00:06Z",
-        "views": 5,
-        "likes": 0,
+        "views": 9,
+        "likes": 1,
+        "comentarios": 1,
+        "thumb": "https://i.ytimg.com/vi/orm1w09W6cA/maxresdefault.jpg",
+        "temTranscricao": false
+      },
+      {
+        "id": "orm1w09W6cA",
+        "titulo": "Guia de Cultivo: Limão siciliano orgânico em vaso #shorts",
+        "tipo": "plantio",
+        "frutas": [
+          "limao"
+        ],
+        "duracaoSeg": 59,
+        "curto": true,
+        "definicao": "hd",
+        "publicadoEm": "2026-09-21T17:00:06Z",
+        "views": 9,
+        "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/orm1w09W6cA/maxresdefault.jpg",
         "temTranscricao": false
@@ -9636,9 +9636,9 @@
       "horta",
       "shorts",
       "guia",
-      "adubacao",
       "dica",
-      "rapida"
+      "rapida",
+      "projeto"
     ]
   },
   {
@@ -9674,7 +9674,7 @@
         "likes": 27,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/CXZK5vQcDDc/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "XgE4QOrtmMA",
@@ -9691,7 +9691,7 @@
         "likes": 14,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/XgE4QOrtmMA/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "nODTheJWW3M",
@@ -9743,7 +9743,7 @@
         "likes": 71,
         "comentarios": 24,
         "thumb": "https://i.ytimg.com/vi/6X_mvfgxoWk/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "84IlSuClNpI",
@@ -9807,7 +9807,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-05-06T20:27:00Z",
-        "views": 315,
+        "views": 316,
         "likes": 18,
         "comentarios": 13,
         "thumb": "https://i.ytimg.com/vi/2aXCk7WbVOI/maxresdefault.jpg",
@@ -9916,7 +9916,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "3rXXId4xarE",
@@ -9929,7 +9929,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-19T18:45:04Z",
-        "views": 31,
+        "views": 34,
         "likes": 3,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/3rXXId4xarE/maxresdefault.jpg",
@@ -9946,7 +9946,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-19T18:45:04Z",
-        "views": 31,
+        "views": 34,
         "likes": 3,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/3rXXId4xarE/maxresdefault.jpg",
@@ -9963,7 +9963,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-19T16:45:37Z",
-        "views": 20,
+        "views": 23,
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/1AmQIxbJAro/maxresdefault.jpg",
@@ -9980,7 +9980,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-19T16:45:37Z",
-        "views": 20,
+        "views": 23,
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/1AmQIxbJAro/maxresdefault.jpg",
@@ -10048,7 +10048,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2017-06-10T22:00:32Z",
-        "views": 7645,
+        "views": 7646,
         "likes": 236,
         "comentarios": 14,
         "thumb": "https://i.ytimg.com/vi/LmM4pm2IL3k/sddefault.jpg",
@@ -10150,7 +10150,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-19T22:27:14Z",
-        "views": 12578,
+        "views": 12579,
         "likes": 272,
         "comentarios": 21,
         "thumb": "https://i.ytimg.com/vi/-U9lIDeDWoE/maxresdefault.jpg",
@@ -10185,7 +10185,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2024-02-19T18:22:12Z",
-        "views": 2260,
+        "views": 2261,
         "likes": 121,
         "comentarios": 19,
         "thumb": "https://i.ytimg.com/vi/mLz9dScQHAI/maxresdefault.jpg",
@@ -10397,7 +10397,7 @@
       "likes": 27,
       "comentarios": 1,
       "thumb": "https://i.ytimg.com/vi/CXZK5vQcDDc/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/CXZK5vQcDDc/maxresdefault.jpg",
@@ -10414,12 +10414,12 @@
       "shorts",
       "dica",
       "rapida",
-      "guia",
       "adubo",
+      "guia",
       "amarela",
-      "pessoal",
-      "voces",
-      "entao"
+      "adubacao",
+      "melhor",
+      "voces"
     ]
   },
   {
@@ -10453,7 +10453,7 @@
         "likes": 166,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/DxI6WyPKNNI/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "kT7l4rqt8mI",
@@ -10507,7 +10507,7 @@
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/-otVLmVX7OI/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "QDuU1oQQMdo",
@@ -10525,7 +10525,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "QDuU1oQQMdo",
@@ -10543,7 +10543,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "PzlGrSVHmkg",
@@ -10610,8 +10610,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-20T18:45:23Z",
-        "views": 400,
-        "likes": 1,
+        "views": 463,
+        "likes": 3,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/dHhN5REgM30/maxresdefault.jpg",
         "temTranscricao": false
@@ -10628,8 +10628,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-20T18:45:23Z",
-        "views": 400,
-        "likes": 1,
+        "views": 463,
+        "likes": 3,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/dHhN5REgM30/maxresdefault.jpg",
         "temTranscricao": false
@@ -10646,7 +10646,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-21T01:45:18Z",
-        "views": 4,
+        "views": 9,
         "likes": 0,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/OEJkAurG2E0/maxresdefault.jpg",
@@ -10664,7 +10664,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-21T01:45:18Z",
-        "views": 4,
+        "views": 9,
         "likes": 0,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/OEJkAurG2E0/maxresdefault.jpg",
@@ -10769,7 +10769,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2019-09-29T10:07:19Z",
-        "views": 12039,
+        "views": 12044,
         "likes": 458,
         "comentarios": 54,
         "thumb": "https://i.ytimg.com/vi/A0psMt-a-LI/sddefault.jpg",
@@ -10822,7 +10822,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-24T22:27:54Z",
-        "views": 3161,
+        "views": 3162,
         "likes": 152,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/9GKlOKculak/maxresdefault.jpg",
@@ -11160,7 +11160,7 @@
       "likes": 166,
       "comentarios": 17,
       "thumb": "https://i.ytimg.com/vi/DxI6WyPKNNI/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/DxI6WyPKNNI/sddefault.jpg",
@@ -11177,12 +11177,12 @@
       "puder",
       "contribuir",
       "alguma",
-      "voces",
+      "horta",
       "casa",
       "anao",
       "shorts",
-      "quantia",
-      "projeto"
+      "guia",
+      "dica"
     ]
   },
   {
@@ -11213,7 +11213,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-08-04T22:27:00Z",
-        "views": 6472,
+        "views": 6473,
         "likes": 325,
         "comentarios": 63,
         "thumb": "https://i.ytimg.com/vi/RFcR74X7y6k/maxresdefault.jpg",
@@ -11253,7 +11253,7 @@
         "likes": 10,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/vs_hfeyUvZ0/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "V-wH4Bb1kWU",
@@ -11303,7 +11303,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-06-28T21:30:38Z",
-        "views": 621,
+        "views": 622,
         "likes": 34,
         "comentarios": 11,
         "thumb": "https://i.ytimg.com/vi/c3LEcZrARlI/maxresdefault.jpg",
@@ -11797,7 +11797,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2019-07-17T13:30:10Z",
-        "views": 576,
+        "views": 577,
         "likes": 77,
         "comentarios": 51,
         "thumb": "https://i.ytimg.com/vi/Qcbb6PkCX8Y/sddefault.jpg",
@@ -11851,7 +11851,7 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2021-08-04T22:27:00Z",
-      "views": 6472,
+      "views": 6473,
       "likes": 325,
       "comentarios": 63,
       "thumb": "https://i.ytimg.com/vi/RFcR74X7y6k/maxresdefault.jpg",
@@ -11948,7 +11948,7 @@
         "likes": 15,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/o4N5Hy0ExAE/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "E7TUMOL-WRo",
@@ -11965,7 +11965,7 @@
         "likes": 185,
         "comentarios": 24,
         "thumb": "https://i.ytimg.com/vi/E7TUMOL-WRo/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "lKFrsTBLACg",
@@ -12029,7 +12029,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-08-14T22:27:01Z",
-        "views": 3107,
+        "views": 3109,
         "likes": 58,
         "comentarios": 20,
         "thumb": "https://i.ytimg.com/vi/Qhf8SwVcodE/sddefault.jpg",
@@ -12203,7 +12203,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-07-19T12:45:42Z",
-        "views": 9248,
+        "views": 9249,
         "likes": 495,
         "comentarios": 87,
         "thumb": "https://i.ytimg.com/vi/dBFcbpTwk2Y/sddefault.jpg",
@@ -12239,7 +12239,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-10-25T01:27:50Z",
-        "views": 2188,
+        "views": 2189,
         "likes": 140,
         "comentarios": 56,
         "thumb": "https://i.ytimg.com/vi/mHABiz-Rahk/sddefault.jpg",
@@ -12257,7 +12257,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-06-18T22:51:33Z",
-        "views": 1922,
+        "views": 1923,
         "likes": 125,
         "comentarios": 38,
         "thumb": "https://i.ytimg.com/vi/7W08B-VWggo/maxresdefault.jpg",
@@ -12365,7 +12365,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "9sSni_BSBHg",
@@ -12383,7 +12383,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "7ECiOZI34yE",
@@ -12506,7 +12506,7 @@
         "views": 0,
         "likes": 0,
         "comentarios": 0,
-        "thumb": "https://i9.ytimg.com/vi/af4Gw-FQLYU/maxresdefault.jpg?sqp=CMTrxtUG&rs=AOn4CLAmWHtcnto5h9lHfOZdkwqcvbsfMw",
+        "thumb": "https://i9.ytimg.com/vi/af4Gw-FQLYU/maxresdefault.jpg?sqp=CPz5ydUG&rs=AOn4CLCPPZWzavVNO6NRZgq-JBJ84-00Nw",
         "temTranscricao": false
       }
     ],
@@ -12539,14 +12539,14 @@
       "pera",
       "adubacao",
       "araca",
-      "voces",
       "solo",
       "horta",
       "melao",
       "andino",
-      "entao",
       "produzindo",
+      "voces",
       "arvore",
+      "entao",
       "agua"
     ]
   },
@@ -12599,7 +12599,7 @@
         "likes": 176,
         "comentarios": 60,
         "thumb": "https://i.ytimg.com/vi/mrkmPfCUaSk/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "ivhkXO_qXtQ",
@@ -12616,7 +12616,7 @@
         "likes": 147,
         "comentarios": 13,
         "thumb": "https://i.ytimg.com/vi/ivhkXO_qXtQ/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "hUCRaENLwig",
@@ -12697,7 +12697,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-09-15T21:27:04Z",
-        "views": 654,
+        "views": 657,
         "likes": 10,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/orcHm2wsqAo/maxresdefault.jpg",
@@ -12714,7 +12714,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-09-15T21:27:04Z",
-        "views": 654,
+        "views": 657,
         "likes": 10,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/orcHm2wsqAo/maxresdefault.jpg",
@@ -12731,7 +12731,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-09-15T21:27:04Z",
-        "views": 654,
+        "views": 657,
         "likes": 10,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/orcHm2wsqAo/maxresdefault.jpg",
@@ -12748,7 +12748,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-09-15T21:27:04Z",
-        "views": 654,
+        "views": 657,
         "likes": 10,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/orcHm2wsqAo/maxresdefault.jpg",
@@ -12782,7 +12782,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-08T19:00:03Z",
-        "views": 566,
+        "views": 568,
         "likes": 9,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/0xqoVDq9EWM/maxresdefault.jpg",
@@ -12867,7 +12867,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2024-02-03T16:33:37Z",
-        "views": 3951,
+        "views": 3952,
         "likes": 129,
         "comentarios": 20,
         "thumb": "https://i.ytimg.com/vi/5g6bAXJF1jw/maxresdefault.jpg",
@@ -13147,11 +13147,11 @@
       "horta",
       "shorts",
       "colha",
-      "vitamina",
-      "voces",
       "frutas",
       "adubo",
-      "melhor"
+      "melhor",
+      "parte",
+      "dicas"
     ]
   },
   {
@@ -13181,8 +13181,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2022-11-13T22:27:00Z",
-        "views": 1754,
-        "likes": 118,
+        "views": 1756,
+        "likes": 119,
         "comentarios": 46,
         "thumb": "https://i.ytimg.com/vi/j_luLoshWo4/maxresdefault.jpg",
         "temTranscricao": true
@@ -13202,7 +13202,7 @@
         "likes": 94,
         "comentarios": 59,
         "thumb": "https://i.ytimg.com/vi/uHZ3HlnRDrk/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "zMUPia57SVY",
@@ -13220,7 +13220,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "zMUPia57SVY",
@@ -13238,7 +13238,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "QRcLDBTsyZc",
@@ -13475,7 +13475,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-06-16T14:33:14Z",
-        "views": 763,
+        "views": 764,
         "likes": 57,
         "comentarios": 51,
         "thumb": "https://i.ytimg.com/vi/XIPiJrB4iLs/maxresdefault.jpg",
@@ -13560,7 +13560,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-04-24T15:07:00Z",
-        "views": 194,
+        "views": 197,
         "likes": 14,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/90d_s3kuiMg/maxresdefault.jpg",
@@ -13613,8 +13613,8 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2022-11-13T22:27:00Z",
-      "views": 1754,
-      "likes": 118,
+      "views": 1756,
+      "likes": 119,
       "comentarios": 46,
       "thumb": "https://i.ytimg.com/vi/j_luLoshWo4/maxresdefault.jpg",
       "temTranscricao": true
@@ -13629,17 +13629,17 @@
     ],
     "keywords": [
       "grumixama",
+      "produzindo",
       "horta",
       "direto",
       "ponto",
       "adubo",
       "casa",
-      "produzindo",
       "amarela",
       "shorts",
       "neste",
       "adubacao",
-      "rapida"
+      "solo"
     ]
   },
   {
@@ -13692,7 +13692,7 @@
         "likes": 14,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/hBSCmJcSzVA/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "LWo3OLVCrfY",
@@ -13709,7 +13709,7 @@
         "likes": 102,
         "comentarios": 27,
         "thumb": "https://i.ytimg.com/vi/LWo3OLVCrfY/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "aKz-stnReh4",
@@ -13979,7 +13979,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-04-22T11:55:15Z",
-        "views": 582,
+        "views": 583,
         "likes": 10,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/_2mMmg6tkK0/maxresdefault.jpg",
@@ -14084,17 +14084,17 @@
     ],
     "keywords": [
       "bacupari",
+      "frutas",
       "bico",
       "horta",
       "solo",
       "adubacao",
-      "frutas",
       "adubo",
       "produzindo",
       "shorts",
-      "voces",
       "dica",
-      "fruta"
+      "voces",
+      "mirin"
     ]
   },
   {
@@ -14165,7 +14165,7 @@
         "likes": 1,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/-otVLmVX7OI/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "QDuU1oQQMdo",
@@ -14183,7 +14183,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "QDuU1oQQMdo",
@@ -14201,7 +14201,7 @@
         "likes": 15,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/QDuU1oQQMdo/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "PzlGrSVHmkg",
@@ -14251,8 +14251,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-20T18:45:23Z",
-        "views": 400,
-        "likes": 1,
+        "views": 463,
+        "likes": 3,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/dHhN5REgM30/maxresdefault.jpg",
         "temTranscricao": false
@@ -14269,8 +14269,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-20T18:45:23Z",
-        "views": 400,
-        "likes": 1,
+        "views": 463,
+        "likes": 3,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/dHhN5REgM30/maxresdefault.jpg",
         "temTranscricao": false
@@ -14287,7 +14287,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-21T01:45:18Z",
-        "views": 4,
+        "views": 9,
         "likes": 0,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/OEJkAurG2E0/maxresdefault.jpg",
@@ -14305,7 +14305,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-21T01:45:18Z",
-        "views": 4,
+        "views": 9,
         "likes": 0,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/OEJkAurG2E0/maxresdefault.jpg",
@@ -14378,7 +14378,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-24T22:27:54Z",
-        "views": 3161,
+        "views": 3162,
         "likes": 152,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/9GKlOKculak/maxresdefault.jpg",
@@ -14562,14 +14562,14 @@
       "manga",
       "ana",
       "anao",
-      "shorts",
-      "voces",
       "guia",
+      "shorts",
       "dica",
       "rapida",
-      "galera",
-      "pessoal",
-      "certo"
+      "adubo",
+      "horta",
+      "voces",
+      "melhor"
     ]
   },
   {
@@ -14622,7 +14622,7 @@
         "likes": 71,
         "comentarios": 24,
         "thumb": "https://i.ytimg.com/vi/6X_mvfgxoWk/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "OpdYyUXuVI8",
@@ -14673,7 +14673,7 @@
         "likes": 34,
         "comentarios": 19,
         "thumb": "https://i.ytimg.com/vi/lSfj9ej6hCA/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "nrKLjgVIuXE",
@@ -14710,7 +14710,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "Hx56iiAwU7c",
@@ -15017,16 +15017,16 @@
     "keywords": [
       "amora",
       "portuguesa",
-      "olha",
       "gigante",
       "adubacao",
-      "pessoal",
       "puder",
       "contribuir",
+      "olha",
+      "produzindo",
+      "neste",
       "alguma",
       "quantia",
-      "projeto",
-      "voces"
+      "projeto"
     ]
   },
   {
@@ -15059,7 +15059,7 @@
         "likes": 24,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/HC4pUfOj9EY/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "euNHoz6vdkk",
@@ -15076,7 +15076,7 @@
         "likes": 25,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/euNHoz6vdkk/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "VZ2QlmlbaKk",
@@ -15278,7 +15278,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-02-27T22:27:33Z",
-        "views": 1191,
+        "views": 1192,
         "likes": 70,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/2x-rtiRRqoA/maxresdefault.jpg",
@@ -15295,7 +15295,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-02-27T22:27:33Z",
-        "views": 1191,
+        "views": 1192,
         "likes": 70,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/2x-rtiRRqoA/maxresdefault.jpg",
@@ -15312,8 +15312,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-18T14:15:04Z",
-        "views": 530,
-        "likes": 5,
+        "views": 531,
+        "likes": 6,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/BBqp6K8eJDY/maxresdefault.jpg",
         "temTranscricao": false
@@ -15329,8 +15329,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-18T14:15:04Z",
-        "views": 530,
-        "likes": 5,
+        "views": 531,
+        "likes": 6,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/BBqp6K8eJDY/maxresdefault.jpg",
         "temTranscricao": false
@@ -15346,8 +15346,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-18T16:30:13Z",
-        "views": 504,
-        "likes": 8,
+        "views": 509,
+        "likes": 9,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/W27j5GWwWHg/maxresdefault.jpg",
         "temTranscricao": false
@@ -15363,8 +15363,8 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2026-09-18T16:30:13Z",
-        "views": 504,
-        "likes": 8,
+        "views": 509,
+        "likes": 9,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/W27j5GWwWHg/maxresdefault.jpg",
         "temTranscricao": false
@@ -15419,7 +15419,7 @@
       "likes": 24,
       "comentarios": 3,
       "thumb": "https://i.ytimg.com/vi/HC4pUfOj9EY/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/HC4pUfOj9EY/maxresdefault.jpg",
@@ -15433,15 +15433,15 @@
       "araca",
       "amarelo",
       "horta",
+      "adubo",
       "adubacao",
       "shorts",
-      "adubo",
       "dica",
       "rapida",
       "melhor",
       "guia",
-      "galera",
-      "voces"
+      "frutas",
+      "solo"
     ]
   },
   {
@@ -15473,7 +15473,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-08-04T22:27:00Z",
-        "views": 6472,
+        "views": 6473,
         "likes": 325,
         "comentarios": 63,
         "thumb": "https://i.ytimg.com/vi/RFcR74X7y6k/maxresdefault.jpg",
@@ -15513,7 +15513,7 @@
         "likes": 10,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/vs_hfeyUvZ0/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "V-wH4Bb1kWU",
@@ -15563,7 +15563,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-06-28T21:30:38Z",
-        "views": 621,
+        "views": 622,
         "likes": 34,
         "comentarios": 11,
         "thumb": "https://i.ytimg.com/vi/c3LEcZrARlI/maxresdefault.jpg",
@@ -15839,7 +15839,7 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2021-08-04T22:27:00Z",
-      "views": 6472,
+      "views": 6473,
       "likes": 325,
       "comentarios": 63,
       "thumb": "https://i.ytimg.com/vi/RFcR74X7y6k/maxresdefault.jpg",
@@ -15931,7 +15931,7 @@
         "likes": 55,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/AOf-ZTTzyrk/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "6rzGlvon6g0",
@@ -15948,7 +15948,7 @@
         "likes": 22,
         "comentarios": 6,
         "thumb": "https://i.ytimg.com/vi/6rzGlvon6g0/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "RaBDJ3gd_q4",
@@ -16236,14 +16236,14 @@
       "voces",
       "entao",
       "pessoal",
+      "adubacao",
       "pra",
       "galera",
-      "adubacao",
-      "gente",
-      "vou",
+      "horta",
       "puder",
       "contribuir",
-      "alguma"
+      "alguma",
+      "quantia"
     ]
   },
   {
@@ -16276,7 +16276,7 @@
         "likes": 83,
         "comentarios": 53,
         "thumb": "https://i.ytimg.com/vi/i41Z0OHIRhI/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "y3T81Cu2w1I",
@@ -16293,7 +16293,7 @@
         "likes": 42,
         "comentarios": 18,
         "thumb": "https://i.ytimg.com/vi/y3T81Cu2w1I/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "0Ne1-BPd3NQ",
@@ -16306,7 +16306,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2017-07-29T17:42:34Z",
-        "views": 2058,
+        "views": 2060,
         "likes": 93,
         "comentarios": 16,
         "thumb": "https://i.ytimg.com/vi/0Ne1-BPd3NQ/sddefault.jpg",
@@ -16340,8 +16340,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-06-11T22:27:00Z",
-        "views": 24339,
-        "likes": 713,
+        "views": 24368,
+        "likes": 715,
         "comentarios": 187,
         "thumb": "https://i.ytimg.com/vi/XcqJOIoMls8/maxresdefault.jpg",
         "temTranscricao": false
@@ -16357,7 +16357,7 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2021-08-15T12:07:51Z",
-        "views": 3383,
+        "views": 3385,
         "likes": 120,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/1Bag_A77hD0/sddefault.jpg",
@@ -16374,7 +16374,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-16T22:27:28Z",
-        "views": 2722,
+        "views": 2723,
         "likes": 204,
         "comentarios": 59,
         "thumb": "https://i.ytimg.com/vi/5op78mbpb6A/maxresdefault.jpg",
@@ -16391,7 +16391,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-05-24T18:36:09Z",
-        "views": 1979,
+        "views": 1980,
         "likes": 144,
         "comentarios": 36,
         "thumb": "https://i.ytimg.com/vi/lTKDLM6Jqq4/sddefault.jpg",
@@ -16550,7 +16550,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-08-09T22:51:07Z",
-        "views": 844,
+        "views": 849,
         "likes": 91,
         "comentarios": 71,
         "thumb": "https://i.ytimg.com/vi/R_VtlDFBqvM/sddefault.jpg",
@@ -16567,7 +16567,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2025-03-29T22:37:46Z",
-        "views": 800,
+        "views": 802,
         "likes": 65,
         "comentarios": 14,
         "thumb": "https://i.ytimg.com/vi/FE_Kwfm4Os8/maxresdefault.jpg",
@@ -16606,7 +16606,7 @@
       "likes": 83,
       "comentarios": 53,
       "thumb": "https://i.ytimg.com/vi/i41Z0OHIRhI/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/i41Z0OHIRhI/sddefault.jpg",
@@ -16623,12 +16623,12 @@
       "neste",
       "solo",
       "adubacao",
-      "melhores",
       "medir",
+      "melhores",
       "fruta",
       "produzir",
-      "campari",
-      "horta"
+      "degustacao",
+      "campari"
     ]
   },
   {
@@ -16660,7 +16660,7 @@
         "likes": 9,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/mNhtEmsnveU/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "sYLl8UOlwnc",
@@ -16694,7 +16694,7 @@
         "likes": 11,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/gdpuUKM81Ow/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "mG-3F-991i8",
@@ -16792,8 +16792,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-10-14T22:02:14Z",
-        "views": 36885,
-        "likes": 2075,
+        "views": 36896,
+        "likes": 2082,
         "comentarios": 153,
         "thumb": "https://i.ytimg.com/vi/m-aCg4o5_Bc/sddefault.jpg",
         "temTranscricao": true
@@ -16985,7 +16985,7 @@
       "likes": 9,
       "comentarios": 1,
       "thumb": "https://i.ytimg.com/vi/mNhtEmsnveU/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/mNhtEmsnveU/maxresdefault.jpg",
@@ -17001,11 +17001,11 @@
       "puder",
       "contribuir",
       "alguma",
+      "adubo",
+      "horta",
       "quantia",
       "milagre",
       "voces",
-      "adubo",
-      "horta",
       "melhor",
       "guia"
     ]
@@ -17037,11 +17037,11 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-09-19T03:57:35Z",
-        "views": 5026,
+        "views": 5028,
         "likes": 204,
         "comentarios": 56,
         "thumb": "https://i.ytimg.com/vi/RgwRjICJk40/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "CSqEbkBbClg",
@@ -17058,7 +17058,7 @@
         "likes": 13,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/CSqEbkBbClg/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "QueoowfUyJA",
@@ -17139,7 +17139,7 @@
         "curto": false,
         "definicao": "sd",
         "publicadoEm": "2017-07-16T10:18:45Z",
-        "views": 3783,
+        "views": 3784,
         "likes": 83,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/21nDLWTHoCY/sddefault.jpg",
@@ -17241,7 +17241,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2020-01-17T23:07:25Z",
-        "views": 41428,
+        "views": 41438,
         "likes": 2409,
         "comentarios": 54,
         "thumb": "https://i.ytimg.com/vi/hBePeYq9HQ0/sddefault.jpg",
@@ -17258,7 +17258,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2024-08-29T22:27:02Z",
-        "views": 1324,
+        "views": 1329,
         "likes": 75,
         "comentarios": 16,
         "thumb": "https://i.ytimg.com/vi/a8K_zHUoKOA/maxresdefault.jpg",
@@ -17345,11 +17345,11 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2018-09-19T03:57:35Z",
-      "views": 5026,
+      "views": 5028,
       "likes": 204,
       "comentarios": 56,
       "thumb": "https://i.ytimg.com/vi/RgwRjICJk40/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/RgwRjICJk40/maxresdefault.jpg",
@@ -17362,8 +17362,8 @@
     "keywords": [
       "araca",
       "vermelho",
-      "adubacao",
       "produzindo",
+      "adubacao",
       "solo",
       "medir",
       "neste",
@@ -17420,7 +17420,7 @@
         "likes": 55,
         "comentarios": 25,
         "thumb": "https://i.ytimg.com/vi/BTYQ7pnepn4/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "QvE4aa0PtjY",
@@ -17437,7 +17437,7 @@
         "likes": 4,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/QvE4aa0PtjY/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "3iDNLevDZRY",
@@ -17640,16 +17640,16 @@
     "keywords": [
       "atemoia",
       "voces",
-      "vou",
       "pessoal",
-      "olha",
-      "galera",
-      "gente",
-      "entao",
-      "shorts",
+      "vou",
       "adubo",
       "frutas",
-      "horta"
+      "horta",
+      "olha",
+      "entao",
+      "shorts",
+      "dica",
+      "rapida"
     ]
   },
   {
@@ -17678,11 +17678,11 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2025-02-24T22:27:00Z",
-        "views": 2181,
+        "views": 2183,
         "likes": 88,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/PJdY5xbP8as/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "7cv5b7AdzM0",
@@ -17699,7 +17699,7 @@
         "likes": 11,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/7cv5b7AdzM0/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "wBQdUvEPbvU",
@@ -17883,11 +17883,11 @@
       "curto": true,
       "definicao": "hd",
       "publicadoEm": "2025-02-24T22:27:00Z",
-      "views": 2181,
+      "views": 2183,
       "likes": 88,
       "comentarios": 2,
       "thumb": "https://i.ytimg.com/vi/PJdY5xbP8as/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/PJdY5xbP8as/maxresdefault.jpg",
@@ -17899,17 +17899,17 @@
     ],
     "keywords": [
       "canistel",
-      "pessoal",
-      "voces",
       "frutas",
       "horta",
-      "entao",
-      "galera",
-      "shorts",
-      "muda",
       "adubo",
+      "shorts",
+      "dica",
+      "rapida",
       "plantio",
-      "fruta"
+      "fruta",
+      "ovo",
+      "puder",
+      "contribuir"
     ]
   },
   {
@@ -17961,7 +17961,7 @@
         "likes": 43,
         "comentarios": 8,
         "thumb": "https://i.ytimg.com/vi/lc2S36wK7ps/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "o-oymFhHzkU",
@@ -17995,7 +17995,7 @@
         "likes": 111,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/i2wE88S4mEA/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "UdfvgzQ_wD8",
@@ -18008,7 +18008,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-08-04T15:32:54Z",
-        "views": 855,
+        "views": 856,
         "likes": 48,
         "comentarios": 39,
         "thumb": "https://i.ytimg.com/vi/UdfvgzQ_wD8/sddefault.jpg",
@@ -18170,16 +18170,16 @@
     "keywords": [
       "carambola",
       "mel",
-      "voces",
       "adubacao",
       "produzindo",
-      "pessoal",
       "doce",
+      "neste",
+      "voces",
       "solo",
       "flores",
-      "neste",
-      "tem",
-      "vai"
+      "pessoal",
+      "medir",
+      "carabola"
     ]
   },
   {
@@ -18247,7 +18247,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-06-18T22:51:33Z",
-        "views": 1922,
+        "views": 1923,
         "likes": 125,
         "comentarios": 38,
         "thumb": "https://i.ytimg.com/vi/7W08B-VWggo/maxresdefault.jpg",
@@ -18287,7 +18287,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "9sSni_BSBHg",
@@ -18305,7 +18305,7 @@
         "likes": 17,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/9sSni_BSBHg/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "7ECiOZI34yE",
@@ -18394,7 +18394,7 @@
         "views": 0,
         "likes": 0,
         "comentarios": 0,
-        "thumb": "https://i9.ytimg.com/vi/af4Gw-FQLYU/maxresdefault.jpg?sqp=CMTrxtUG&rs=AOn4CLAmWHtcnto5h9lHfOZdkwqcvbsfMw",
+        "thumb": "https://i9.ytimg.com/vi/af4Gw-FQLYU/maxresdefault.jpg?sqp=CPz5ydUG&rs=AOn4CLCPPZWzavVNO6NRZgq-JBJ84-00Nw",
         "temTranscricao": false
       }
     ],
@@ -18428,15 +18428,15 @@
       "araca",
       "pera",
       "horta",
-      "voces",
       "shorts",
-      "adubacao",
       "dica",
       "rapida",
-      "mesmo",
-      "pela",
-      "faco",
-      "podem"
+      "voces",
+      "adubacao",
+      "entao",
+      "solo",
+      "boi",
+      "fruta"
     ]
   },
   {
@@ -18504,7 +18504,7 @@
         "likes": 267,
         "comentarios": 8,
         "thumb": "https://i.ytimg.com/vi/mfChNPe2kkE/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "ZlYVNGwNlJg",
@@ -18521,7 +18521,7 @@
         "likes": 135,
         "comentarios": 75,
         "thumb": "https://i.ytimg.com/vi/ZlYVNGwNlJg/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "9GKlOKculak",
@@ -18536,7 +18536,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-24T22:27:54Z",
-        "views": 3161,
+        "views": 3162,
         "likes": 152,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/9GKlOKculak/maxresdefault.jpg",
@@ -18553,7 +18553,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2017-12-31T14:03:56Z",
-        "views": 2853,
+        "views": 2854,
         "likes": 237,
         "comentarios": 36,
         "thumb": "https://i.ytimg.com/vi/URHIPAFcXOY/sddefault.jpg",
@@ -18587,7 +18587,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2017-07-01T16:59:32Z",
-        "views": 1261,
+        "views": 1262,
         "likes": 67,
         "comentarios": 22,
         "thumb": "https://i.ytimg.com/vi/IR5A1AuJDZs/sddefault.jpg",
@@ -18675,16 +18675,16 @@
     "keywords": [
       "seriguela",
       "adubacao",
-      "voces",
       "produzindo",
       "neste",
       "estarquia",
+      "carregada",
       "caja",
       "manga",
       "podar",
+      "voces",
       "mesmo",
-      "olha",
-      "primeira"
+      "solo"
     ]
   },
   {
@@ -18717,7 +18717,7 @@
         "likes": 93,
         "comentarios": 49,
         "thumb": "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "EjakVY1vGL4",
@@ -18734,7 +18734,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/EjakVY1vGL4/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "EjakVY1vGL4",
@@ -18751,7 +18751,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/EjakVY1vGL4/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "P3Uo0BRG5hU",
@@ -18765,7 +18765,7 @@
         "curto": false,
         "definicao": "sd",
         "publicadoEm": "2017-07-16T01:09:56Z",
-        "views": 5664,
+        "views": 5665,
         "likes": 159,
         "comentarios": 22,
         "thumb": "https://i.ytimg.com/vi/P3Uo0BRG5hU/sddefault.jpg",
@@ -18895,7 +18895,7 @@
       "likes": 93,
       "comentarios": 49,
       "thumb": "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/Kv5XfW0Mkks/sddefault.jpg",
@@ -18910,14 +18910,14 @@
       "jabuticaba",
       "amarela",
       "adubacao",
+      "nativas",
       "casa",
-      "branca",
       "real",
       "shorts",
-      "direto",
-      "numero",
       "araca",
-      "boi"
+      "boi",
+      "bacupari",
+      "frutas"
     ]
   },
   {
@@ -18950,7 +18950,7 @@
         "likes": 152,
         "comentarios": 40,
         "thumb": "https://i.ytimg.com/vi/nsPOlDEqJ6g/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "XBc-zWj-WkA",
@@ -18967,7 +18967,7 @@
         "likes": 39,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/XBc-zWj-WkA/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "pVcRDCutCPE",
@@ -19014,7 +19014,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-11-17T23:15:17Z",
-        "views": 4897,
+        "views": 4898,
         "likes": 197,
         "comentarios": 72,
         "thumb": "https://i.ytimg.com/vi/xvrgHmYja_8/maxresdefault.jpg",
@@ -19036,7 +19036,7 @@
         "likes": 32,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/hQTt1OGVOdc/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "vOEa6yhwpv8",
@@ -19108,7 +19108,7 @@
       "likes": 152,
       "comentarios": 40,
       "thumb": "https://i.ytimg.com/vi/nsPOlDEqJ6g/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/nsPOlDEqJ6g/maxresdefault.jpg",
@@ -19120,17 +19120,17 @@
     ],
     "keywords": [
       "acerola",
-      "voces",
-      "mas",
-      "entao",
       "roma",
+      "puder",
+      "contribuir",
+      "alguma",
+      "quantia",
+      "projeto",
       "passo",
       "gigante",
-      "mesmo",
-      "gente",
-      "estarquia",
-      "bacupari",
-      "complexo"
+      "neste",
+      "dragon",
+      "estaquia"
     ]
   },
   {
@@ -19159,11 +19159,11 @@
         "curto": false,
         "definicao": "sd",
         "publicadoEm": "2017-06-10T18:30:24Z",
-        "views": 42758,
+        "views": 42759,
         "likes": 1071,
         "comentarios": 156,
         "thumb": "https://i.ytimg.com/vi/MXSkl_xLymI/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "wNJz1Hg3khA",
@@ -19176,11 +19176,11 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2022-06-01T15:27:00Z",
-        "views": 7490,
+        "views": 7491,
         "likes": 209,
         "comentarios": 42,
         "thumb": "https://i.ytimg.com/vi/wNJz1Hg3khA/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "uwvCrkUNjI4",
@@ -19296,11 +19296,11 @@
       "curto": false,
       "definicao": "sd",
       "publicadoEm": "2017-06-10T18:30:24Z",
-      "views": 42758,
+      "views": 42759,
       "likes": 1071,
       "comentarios": 156,
       "thumb": "https://i.ytimg.com/vi/MXSkl_xLymI/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/MXSkl_xLymI/sddefault.jpg",
@@ -19312,17 +19312,17 @@
     ],
     "keywords": [
       "gabiroba",
+      "cerrado",
       "link",
       "campo",
-      "voces",
-      "vou",
-      "cerrado",
-      "pessoal",
-      "vai",
-      "plantando",
+      "guavira",
       "comprar",
       "frutas",
-      "adubacao"
+      "adubacao",
+      "solo",
+      "medidor",
+      "guabiroba",
+      "2017"
     ]
   },
   {
@@ -19372,7 +19372,7 @@
         "likes": 205,
         "comentarios": 18,
         "thumb": "https://i.ytimg.com/vi/mwZJfqpQsOk/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "_o_LnHmpvnc",
@@ -19392,7 +19392,7 @@
         "likes": 58,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/_o_LnHmpvnc/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "86dPbD9o1NM",
@@ -19439,7 +19439,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-07-08T23:17:53Z",
-        "views": 23976,
+        "views": 23977,
         "likes": 1233,
         "comentarios": 117,
         "thumb": "https://i.ytimg.com/vi/bGTLUrDSF8U/sddefault.jpg",
@@ -19509,15 +19509,15 @@
       "figo",
       "puder",
       "contribuir",
+      "chacara",
       "alguma",
       "quantia",
       "projeto",
-      "chacara",
       "zero",
       "segue",
       "poda",
-      "voces",
-      "chave"
+      "chave",
+      "amora"
     ]
   },
   {
@@ -19549,7 +19549,7 @@
         "likes": 64,
         "comentarios": 7,
         "thumb": "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "SiEDozm_vSw",
@@ -19566,7 +19566,7 @@
         "likes": 64,
         "comentarios": 7,
         "thumb": "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "SaEIHC4yWWo",
@@ -19692,7 +19692,7 @@
       "likes": 64,
       "comentarios": 7,
       "thumb": "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/SiEDozm_vSw/sddefault.jpg",
@@ -19748,7 +19748,7 @@
         "likes": 100,
         "comentarios": 53,
         "thumb": "https://i.ytimg.com/vi/B5sAOhcFN0I/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "I0VFg5hXCMA",
@@ -19765,7 +19765,7 @@
         "likes": 75,
         "comentarios": 43,
         "thumb": "https://i.ytimg.com/vi/I0VFg5hXCMA/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "WheHeUC8PDs",
@@ -19778,7 +19778,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2021-04-01T22:27:17Z",
-        "views": 1492,
+        "views": 1493,
         "likes": 83,
         "comentarios": 20,
         "thumb": "https://i.ytimg.com/vi/WheHeUC8PDs/maxresdefault.jpg",
@@ -19868,7 +19868,7 @@
       "likes": 100,
       "comentarios": 53,
       "thumb": "https://i.ytimg.com/vi/B5sAOhcFN0I/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/B5sAOhcFN0I/sddefault.jpg",
@@ -19881,16 +19881,16 @@
     "keywords": [
       "maracuja",
       "doce",
-      "voces",
       "produz",
+      "solo",
       "gigante",
-      "tem",
-      "gente",
+      "produzindo",
       "neste",
       "ensino",
-      "solo",
-      "pouco",
-      "adubacao"
+      "adubacao",
+      "lagarta",
+      "ano",
+      "inteiro"
     ]
   },
   {
@@ -19920,8 +19920,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2022-11-13T22:27:00Z",
-        "views": 1754,
-        "likes": 118,
+        "views": 1756,
+        "likes": 119,
         "comentarios": 46,
         "thumb": "https://i.ytimg.com/vi/j_luLoshWo4/maxresdefault.jpg",
         "temTranscricao": true
@@ -19942,7 +19942,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "zMUPia57SVY",
@@ -19960,7 +19960,7 @@
         "likes": 8,
         "comentarios": 1,
         "thumb": "https://i.ytimg.com/vi/zMUPia57SVY/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "2PNGZA0kGKU",
@@ -20029,8 +20029,8 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2022-11-13T22:27:00Z",
-      "views": 1754,
-      "likes": 118,
+      "views": 1756,
+      "likes": 119,
       "comentarios": 46,
       "thumb": "https://i.ytimg.com/vi/j_luLoshWo4/maxresdefault.jpg",
       "temTranscricao": true
@@ -20046,14 +20046,14 @@
     "keywords": [
       "amarela",
       "grumixama",
-      "cabeludinha",
-      "jabuticaba",
       "real",
       "shorts",
-      "nativas",
-      "numero",
-      "rico",
+      "jabuticaba",
       "araca",
+      "boi",
+      "bacupari",
+      "cabeludinha",
+      "frutas",
       "pessoal",
       "olha"
     ]
@@ -20085,11 +20085,11 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2022-05-21T22:27:00Z",
-        "views": 1091,
+        "views": 1092,
         "likes": 82,
         "comentarios": 29,
         "thumb": "https://i.ytimg.com/vi/49AIBxWlwm8/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "S8oWJfVm4yE",
@@ -20107,7 +20107,7 @@
         "likes": 51,
         "comentarios": 34,
         "thumb": "https://i.ytimg.com/vi/S8oWJfVm4yE/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "VBPLpq27hB8",
@@ -20190,11 +20190,11 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2022-05-21T22:27:00Z",
-      "views": 1091,
+      "views": 1092,
       "likes": 82,
       "comentarios": 29,
       "thumb": "https://i.ytimg.com/vi/49AIBxWlwm8/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/49AIBxWlwm8/maxresdefault.jpg",
@@ -20207,16 +20207,16 @@
     "keywords": [
       "pinha",
       "voces",
-      "vou",
-      "gente",
-      "pessoal",
       "atemoia",
       "adubacao",
       "solo",
       "produzindo",
       "ata",
+      "fruta",
       "horta",
-      "tem"
+      "astecas",
+      "plantio",
+      "2022"
     ]
   },
   {
@@ -20266,7 +20266,7 @@
         "likes": 83,
         "comentarios": 37,
         "thumb": "https://i.ytimg.com/vi/FOj0vy7plng/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "pOwSK0zr_ig",
@@ -20283,7 +20283,7 @@
         "likes": 61,
         "comentarios": 27,
         "thumb": "https://i.ytimg.com/vi/pOwSK0zr_ig/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "7CXhH1Q8_zE",
@@ -20315,7 +20315,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2018-07-19T12:45:42Z",
-        "views": 9248,
+        "views": 9249,
         "likes": 495,
         "comentarios": 87,
         "thumb": "https://i.ytimg.com/vi/dBFcbpTwk2Y/sddefault.jpg",
@@ -20366,17 +20366,17 @@
     ],
     "keywords": [
       "pessego",
-      "entao",
+      "casa",
       "douradao",
       "adubacao",
       "solo",
+      "entao",
       "vou",
       "primeira",
-      "pessoal",
       "floracao",
-      "casa",
-      "voces",
-      "nova"
+      "nova",
+      "produzindo",
+      "medir"
     ]
   },
   {
@@ -20409,7 +20409,7 @@
         "likes": 122,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/dYhSNLmczG4/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "Ogbj7F0d6ZA",
@@ -20426,7 +20426,7 @@
         "likes": 47,
         "comentarios": 19,
         "thumb": "https://i.ytimg.com/vi/Ogbj7F0d6ZA/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "s32d4ZsIKdQ",
@@ -20512,7 +20512,7 @@
       "likes": 122,
       "comentarios": 10,
       "thumb": "https://i.ytimg.com/vi/dYhSNLmczG4/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/dYhSNLmczG4/sddefault.jpg",
@@ -20525,16 +20525,16 @@
     "keywords": [
       "caqui",
       "mini",
-      "gente",
+      "produzindo",
       "atualizacao",
       "adubacao",
       "solo",
-      "produzindo",
       "medir",
       "neste",
       "chocolate",
-      "olha",
-      "tem"
+      "africano",
+      "primeiras",
+      "flores"
     ]
   },
   {
@@ -20566,7 +20566,7 @@
         "likes": 22,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/9kRC68XstVg/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "FIASWLqoaLo",
@@ -20583,7 +20583,7 @@
         "likes": 71,
         "comentarios": 23,
         "thumb": "https://i.ytimg.com/vi/FIASWLqoaLo/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "G8qQ0I6QCtc",
@@ -20652,7 +20652,7 @@
       "likes": 22,
       "comentarios": 0,
       "thumb": "https://i.ytimg.com/vi/9kRC68XstVg/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/9kRC68XstVg/maxresdefault.jpg",
@@ -20663,7 +20663,6 @@
     ],
     "keywords": [
       "pitangatuba",
-      "entao",
       "muda",
       "link",
       "saber",
@@ -20673,7 +20672,8 @@
       "dores",
       "articulacoes",
       "inflamacoes",
-      "cronicas"
+      "cronicas",
+      "eugenia"
     ]
   },
   {
@@ -20707,7 +20707,7 @@
         "likes": 293,
         "comentarios": 17,
         "thumb": "https://i.ytimg.com/vi/KNDbNEswTvg/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "-Miw_cyFPEA",
@@ -20724,7 +20724,7 @@
         "likes": 20,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/-Miw_cyFPEA/hqdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "-Miw_cyFPEA",
@@ -20741,7 +20741,7 @@
         "likes": 20,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/-Miw_cyFPEA/hqdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "9oGjROHskcU",
@@ -20793,7 +20793,7 @@
       "likes": 293,
       "comentarios": 17,
       "thumb": "https://i.ytimg.com/vi/KNDbNEswTvg/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/KNDbNEswTvg/sddefault.jpg",
@@ -20806,15 +20806,15 @@
       "cereja",
       "rio",
       "grande",
-      "vou",
-      "entao",
-      "ali",
-      "galera",
-      "voces",
-      "certo",
-      "bom",
-      "vai",
-      "muda"
+      "brasileira",
+      "puder",
+      "contribuir",
+      "alguma",
+      "quantia",
+      "projeto",
+      "chacara",
+      "precisa",
+      "saber"
     ]
   },
   {
@@ -20849,7 +20849,7 @@
         "likes": 409,
         "comentarios": 94,
         "thumb": "https://i.ytimg.com/vi/mEORXd21dUI/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "fW4jPwDdTq4",
@@ -20866,7 +20866,7 @@
         "likes": 28,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/fW4jPwDdTq4/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "fW4jPwDdTq4",
@@ -20883,7 +20883,7 @@
         "likes": 28,
         "comentarios": 2,
         "thumb": "https://i.ytimg.com/vi/fW4jPwDdTq4/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "14d9xHERpHg",
@@ -20941,7 +20941,7 @@
       "likes": 409,
       "comentarios": 94,
       "thumb": "https://i.ytimg.com/vi/mEORXd21dUI/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/mEORXd21dUI/sddefault.jpg",
@@ -20952,17 +20952,17 @@
     ],
     "keywords": [
       "camu",
-      "galera",
-      "voces",
-      "certo",
-      "bom",
-      "vou",
-      "tem",
-      "obrigado",
-      "muda",
-      "entao",
-      "parte",
-      "araca"
+      "araca",
+      "dagua",
+      "puder",
+      "contribuir",
+      "alguma",
+      "quantia",
+      "projeto",
+      "chacara",
+      "zero",
+      "segunda",
+      "parte"
     ]
   },
   {
@@ -20992,7 +20992,7 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2017-07-29T17:42:34Z",
-        "views": 13254,
+        "views": 13255,
         "likes": 228,
         "comentarios": 30,
         "thumb": "https://i.ytimg.com/vi/L4_0nhrIPzc/sddefault.jpg",
@@ -21013,7 +21013,7 @@
         "likes": 11,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/wpLy8X-f4dk/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "wpLy8X-f4dk",
@@ -21030,7 +21030,7 @@
         "likes": 11,
         "comentarios": 0,
         "thumb": "https://i.ytimg.com/vi/wpLy8X-f4dk/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "14d9xHERpHg",
@@ -21084,7 +21084,7 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2017-07-29T17:42:34Z",
-      "views": 13254,
+      "views": 13255,
       "likes": 228,
       "comentarios": 30,
       "thumb": "https://i.ytimg.com/vi/L4_0nhrIPzc/sddefault.jpg",
@@ -21099,17 +21099,17 @@
     ],
     "keywords": [
       "longana",
+      "longan",
       "olho",
       "dragao",
-      "galera",
-      "vou",
-      "voces",
-      "bom",
-      "est",
-      "vai",
-      "obrigado",
-      "longan",
-      "parte"
+      "puder",
+      "contribuir",
+      "alguma",
+      "quantia",
+      "projeto",
+      "chacara",
+      "parte",
+      "longa"
     ]
   },
   {
@@ -21158,7 +21158,7 @@
         "likes": 50,
         "comentarios": 12,
         "thumb": "https://i.ytimg.com/vi/E1ktXyXX22A/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "uJthJ4W9Q-A",
@@ -21171,11 +21171,11 @@
         "curto": true,
         "definicao": "hd",
         "publicadoEm": "2020-02-26T23:07:59Z",
-        "views": 2098,
+        "views": 2104,
         "likes": 121,
         "comentarios": 51,
         "thumb": "https://i.ytimg.com/vi/uJthJ4W9Q-A/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "YldSeeJz1DU",
@@ -21239,16 +21239,16 @@
     "keywords": [
       "cacau",
       "produzindo",
-      "pessoal",
       "sombra",
-      "vai",
+      "cacauemvaso",
+      "casa",
       "adubacao",
+      "solo",
+      "horta",
       "vou",
+      "pessoal",
       "meio",
-      "menos",
-      "dois",
-      "quero",
-      "metro"
+      "vai"
     ]
   },
   {
@@ -21316,7 +21316,7 @@
         "likes": 60,
         "comentarios": 26,
         "thumb": "https://i.ytimg.com/vi/k2qUYhXhhx4/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       }
     ],
     "hero": {
@@ -21343,18 +21343,18 @@
       "https://i.ytimg.com/vi/k2qUYhXhhx4/sddefault.jpg"
     ],
     "keywords": [
-      "bacupari",
+      "pari",
       "bacuri",
-      "vou",
-      "mas",
-      "mesmo",
+      "combate",
+      "bacupari",
       "link",
       "comprar",
       "produzindo",
       "medidor",
       "pouco",
       "frutas",
-      "musica"
+      "musica",
+      "pra"
     ]
   },
   {
@@ -21382,11 +21382,11 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-09-19T11:10:36Z",
-        "views": 233,
-        "likes": 9,
+        "views": 255,
+        "likes": 10,
         "comentarios": 5,
         "thumb": "https://i.ytimg.com/vi/tt8rUAj5Jls/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "ofHOZnqvxRU",
@@ -21399,11 +21399,11 @@
         "curto": false,
         "definicao": "sd",
         "publicadoEm": "2017-08-13T18:23:58Z",
-        "views": 10418,
+        "views": 10419,
         "likes": 358,
         "comentarios": 39,
         "thumb": "https://i.ytimg.com/vi/ofHOZnqvxRU/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "ziLUo3G4j8E",
@@ -21416,8 +21416,8 @@
         "curto": false,
         "definicao": "hd",
         "publicadoEm": "2026-09-20T18:34:28Z",
-        "views": 246,
-        "likes": 8,
+        "views": 356,
+        "likes": 9,
         "comentarios": 7,
         "thumb": "https://i.ytimg.com/vi/ziLUo3G4j8E/maxresdefault.jpg",
         "temTranscricao": false
@@ -21434,11 +21434,11 @@
       "curto": false,
       "definicao": "hd",
       "publicadoEm": "2026-09-19T11:10:36Z",
-      "views": 233,
-      "likes": 9,
+      "views": 255,
+      "likes": 10,
       "comentarios": 5,
       "thumb": "https://i.ytimg.com/vi/tt8rUAj5Jls/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/tt8rUAj5Jls/maxresdefault.jpg",
@@ -21447,17 +21447,17 @@
     ],
     "keywords": [
       "abiu",
-      "pessoal",
-      "voces",
       "gigante",
       "semente",
       "2026",
-      "vou",
-      "vai",
-      "ver",
-      "fruta",
-      "entao",
-      "ali"
+      "degustacao",
+      "medicao",
+      "grau",
+      "brix",
+      "ticuna",
+      "amarelo",
+      "muda",
+      "obrigado"
     ]
   },
   {
@@ -21489,7 +21489,7 @@
         "likes": 51,
         "comentarios": 20,
         "thumb": "https://i.ytimg.com/vi/yzcmBg5QGAA/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "GmmtiqE0mAM",
@@ -21506,7 +21506,7 @@
         "likes": 31,
         "comentarios": 10,
         "thumb": "https://i.ytimg.com/vi/GmmtiqE0mAM/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "GVHtzRv-0g8",
@@ -21541,7 +21541,7 @@
       "likes": 51,
       "comentarios": 20,
       "thumb": "https://i.ytimg.com/vi/yzcmBg5QGAA/maxresdefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/yzcmBg5QGAA/maxresdefault.jpg",
@@ -21550,17 +21550,16 @@
     ],
     "keywords": [
       "mangaba",
-      "pessoal",
-      "mas",
-      "vez",
-      "gente",
-      "tem",
-      "vai",
-      "delicia",
-      "voces",
-      "nada",
-      "entao",
-      "olha"
+      "provando",
+      "degustacao",
+      "cerrado",
+      "deliciosa",
+      "sorvete",
+      "maravilhosa",
+      "caipirinha",
+      "pela",
+      "primeira",
+      "vez"
     ]
   },
   {
@@ -21594,7 +21593,7 @@
         "likes": 45,
         "comentarios": 25,
         "thumb": "https://i.ytimg.com/vi/xE9LweMa0MI/sddefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "hQTt1OGVOdc",
@@ -21612,7 +21611,7 @@
         "likes": 32,
         "comentarios": 3,
         "thumb": "https://i.ytimg.com/vi/hQTt1OGVOdc/maxresdefault.jpg",
-        "temTranscricao": true
+        "temTranscricao": false
       },
       {
         "id": "2pYXg2Pr21U",
@@ -21649,7 +21648,7 @@
       "likes": 45,
       "comentarios": 25,
       "thumb": "https://i.ytimg.com/vi/xE9LweMa0MI/sddefault.jpg",
-      "temTranscricao": true
+      "temTranscricao": false
     },
     "galeria": [
       "https://i.ytimg.com/vi/xE9LweMa0MI/sddefault.jpg",
@@ -21659,16 +21658,16 @@
     "keywords": [
       "roma",
       "acerola",
-      "adubacao",
-      "cuidados",
-      "mas",
-      "entao",
-      "mes",
       "frutas",
-      "voces",
-      "basicos",
-      "nova",
-      "produzindo"
+      "faceis",
+      "ornamentais",
+      "puder",
+      "contribuir",
+      "alguma",
+      "quantia",
+      "projeto",
+      "adubacao",
+      "nova"
     ]
   }
 ]

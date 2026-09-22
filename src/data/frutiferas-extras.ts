@@ -1559,6 +1559,58 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "destaque": false
   },
   {
+    "slug": "caju",
+    "nome": "Caju",
+    "nomeCientifico": "Anacardium occidentale",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Caju é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "descricao": [
+      "Caju é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 3 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
+      "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Assista no canal: Como plantar cajú anão orgânico em vaso",
+      "Assista no canal: Cajú anão orgânico em vaso florindo  4k",
+      "Assista no canal: Caju anão orgânico em vaso parte 2"
+    ],
+    "videos": [
+      {
+        "id": "UXbHFC_chBM",
+        "titulo": "Como plantar cajú anão orgânico em vaso",
+        "tipo": "plantio"
+      },
+      {
+        "id": "j6GzuWloriA",
+        "titulo": "Cajú anão orgânico em vaso florindo  4k",
+        "tipo": "floracao"
+      },
+      {
+        "id": "5qHtYLdWjMQ",
+        "titulo": "Caju anão orgânico em vaso parte 2",
+        "tipo": "outros"
+      }
+    ],
+    "imagem": "/frutiferas/caju.jpg",
+    "galeria": [],
+    "keywords": [],
+    "cor": "#3B5C2E",
+    "destaque": false
+  },
+  {
     "slug": "calabura",
     "nome": "Calabura",
     "nomeCientifico": "Muntingia calabura",
@@ -3670,6 +3722,73 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "destaque": false
   },
   {
+    "slug": "lichia",
+    "nome": "Lichia",
+    "nomeCientifico": "Litchi chinensis",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Lichia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie.",
+    "descricao": [
+      "Lichia é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 6 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
+      "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Assista no canal: Como Plantar Lichia orgânica em vaso 02/06/2017",
+      "Assista no canal: Como adubar lichia orgânica em vaso",
+      "Assista no canal: Como adubar lichia orgânica em vaso"
+    ],
+    "videos": [
+      {
+        "id": "mIIFs5SmzjY",
+        "titulo": "Como Plantar Lichia orgânica em vaso 02/06/2017",
+        "tipo": "plantio"
+      },
+      {
+        "id": "hiccnGtOiuE",
+        "titulo": "Como adubar lichia orgânica em vaso",
+        "tipo": "adubacao"
+      },
+      {
+        "id": "loTj1_Ua5Fo",
+        "titulo": "Como adubar lichia orgânica em vaso",
+        "tipo": "adubacao"
+      },
+      {
+        "id": "loTj1_Ua5Fo",
+        "titulo": "Como adubar lichia orgânica em vaso",
+        "tipo": "adubacao"
+      },
+      {
+        "id": "-YCHQjDV2ho",
+        "titulo": "Lichia em vaso parte 2",
+        "tipo": "outros"
+      },
+      {
+        "id": "ErQWzzG_WjY",
+        "titulo": "Unboxing Goiaba tailandesa,Jabuticaba Hibrida, Cajá manga anão,  Lichia",
+        "tipo": "outros"
+      }
+    ],
+    "imagem": "/frutiferas/lichia.jpg",
+    "galeria": [],
+    "keywords": [],
+    "cor": "#6B4C2E",
+    "destaque": false
+  },
+  {
     "slug": "limao-cravo-caipira",
     "nome": "Limao Cravo caipira",
     "nomeCientifico": "Citrus × limonia",
@@ -4751,6 +4870,57 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "destaque": false
   },
   {
+    "slug": "melancia",
+    "nome": "Melancia",
+    "nomeCientifico": "Citrullus lanatus",
+    "familia": "",
+    "categorias": [
+      "exoticas"
+    ],
+    "resumo": "Melancia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "descricao": [
+      "Melancia é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 3 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
+      "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Assista no canal: Plantando Melancia Tomate Espinafre e Alface na minha Hortinha",
+      "Assista no canal: muda melancia 60 dias",
+      "Assista no canal: muda melancia 11 dias"
+    ],
+    "videos": [
+      {
+        "id": "xjFqnvKvZ-Q",
+        "titulo": "Plantando Melancia Tomate Espinafre e Alface na minha Hortinha",
+        "tipo": "plantio"
+      },
+      {
+        "id": "7jUiuCPx820",
+        "titulo": "muda melancia 60 dias",
+        "tipo": "outros"
+      },
+      {
+        "id": "OqYMLy8GWk4",
+        "titulo": "muda melancia 11 dias",
+        "tipo": "outros"
+      }
+    ],
+    "imagem": "/frutiferas/melancia.jpg",
+    "galeria": [],
+    "keywords": [],
+    "cor": "#4B2E5C",
+    "destaque": false
+  },
+  {
     "slug": "melao-andino",
     "nome": "Melao Andino",
     "nomeCientifico": "Solanum muricatum",
@@ -4981,6 +5151,58 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [],
     "cor": "#8E2B2B",
+    "destaque": false
+  },
+  {
+    "slug": "morango",
+    "nome": "Morango",
+    "nomeCientifico": "Fragaria x ananassa",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Morango é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "descricao": [
+      "Morango é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 3 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
+      "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Assista no canal: Colheita primeiro morango :)",
+      "Assista no canal: Dica morango orgânico suspenso por palet para pouco espaço 4k",
+      "Assista no canal: Café da manhã do Ryan amora, morango e araça vermelho 100% orgânico 4k"
+    ],
+    "videos": [
+      {
+        "id": "VJToLNwxmLE",
+        "titulo": "Colheita primeiro morango :)",
+        "tipo": "colheita"
+      },
+      {
+        "id": "rD8eQkl_Tuc",
+        "titulo": "Dica morango orgânico suspenso por palet para pouco espaço 4k",
+        "tipo": "outros"
+      },
+      {
+        "id": "Lau_tdqFOGg",
+        "titulo": "Café da manhã do Ryan amora, morango e araça vermelho 100% orgânico 4k",
+        "tipo": "outros"
+      }
+    ],
+    "imagem": "/frutiferas/morango.jpg",
+    "galeria": [],
+    "keywords": [],
+    "cor": "#C2703D",
     "destaque": false
   },
   {
@@ -5976,6 +6198,83 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "keywords": [],
     "cor": "#2E5B3A",
+    "destaque": false
+  },
+  {
+    "slug": "sapoti",
+    "nome": "Sapoti",
+    "nomeCientifico": "Manilkara zapota",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Sapoti é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie.",
+    "descricao": [
+      "Sapoti é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
+      "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
+    ],
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "curiosidades": [],
+    "dicas": [
+      "Assista no canal: Colheita de sapoti em vaso de 35 litros",
+      "Assista no canal: Medindo grau brix do Sapoti a fruta mais doce que conheço! 😋",
+      "Assista no canal: Como plantar Sapoti orgânico em vaso"
+    ],
+    "videos": [
+      {
+        "id": "WNtjOiQGrx0",
+        "titulo": "Colheita de sapoti em vaso de 35 litros",
+        "tipo": "colheita"
+      },
+      {
+        "id": "YXYD2PhnSRQ",
+        "titulo": "Medindo grau brix do Sapoti a fruta mais doce que conheço! 😋",
+        "tipo": "colheita"
+      },
+      {
+        "id": "PxKsiMXr-4I",
+        "titulo": "Como plantar Sapoti orgânico em vaso",
+        "tipo": "plantio"
+      },
+      {
+        "id": "K6SDdYbymwI",
+        "titulo": "Sapoti PRODUZINDO em Vaso floração e botões florais",
+        "tipo": "floracao"
+      },
+      {
+        "id": "btXfOy0bPNA",
+        "titulo": "Primeira Floração Sapoti em vaso 4k",
+        "tipo": "floracao"
+      },
+      {
+        "id": "GWPKKZk44us",
+        "titulo": "Sapoti Produzindo em Vaso(botões florais) 4k",
+        "tipo": "floracao"
+      },
+      {
+        "id": "PZXQkDxyAJU",
+        "titulo": "Sapoti PRODUZINDO em Vaso floração e botões florais",
+        "tipo": "floracao"
+      },
+      {
+        "id": "PZXQkDxyAJU",
+        "titulo": "Sapoti PRODUZINDO em Vaso floração e botões florais",
+        "tipo": "floracao"
+      }
+    ],
+    "imagem": "/frutiferas/sapoti.jpg",
+    "galeria": [],
+    "keywords": [],
+    "cor": "#A8452E",
     "destaque": false
   },
   {
