@@ -90,6 +90,16 @@
   - `NewsletterForm` agora envia para `/newsletter.php` (fallback por e-mail se a integração ainda não estiver configurada)
   - Testado no ar: e-mail inválido → 400, GET → 405. Falta apenas colar a API key + ID da lista
 - [x] E29. **E-mail de boas-vindas** (`CURSO-EMAIL-BOAS-VINDAS.md`): sequência de 3 e-mails (boas-vindas, valor, lançamento), assuntos/preheader, versão texto e **versão HTML pronta** para colar no Brevo, além do passo a passo de configuração da automação
+- [x] E30. **Mega auditoria + correções** (navegador, HTTP e carga):
+  - Ferramentas: `audit_site.mjs` (crawl), `load_test.mjs` (carga) e **novo `browser_audit.mjs`** (puppeteer-core + Edge): erros de console/rede, overflow, filtro de `/frutiferas`, menu mobile, dropdown, vídeo-lite, FAQ e formulário. Scripts `npm run audit|loadtest|browser-audit`
+  - Resultados: **251 páginas, 0 erros/avisos**; carga **600 req / 30 usuários, 0 erros, 45 ms**; interações todas OK
+  - **Bugs corrigidos:**
+    1. **AdSense nunca carregava** — o `<Script>` tinha `crossOrigin="anonymous"` e o AdSense não envia cabeçalhos CORS (script bloqueado). Atributo removido
+    2. **269 iframes do YouTube** na página `/videos` (pesadíssimo) — criado `VideoEmbed.tsx` (miniatura + clique para carregar). Agora: **0 iframes** até o clique
+    3. **Ezoic ligado sem integração** gerava erros de CORS — desativado no `.env.local`
+    4. **Dropdown "Categorias"** do header só abria no hover (inacessível em touch) — agora abre por clique, com `aria-expanded`
+    5. **Vídeos trocados do Abacaxi** (mostrava "laranja abacaxi") — dados corrigidos e importador ajustado para não casar nomes compostos
+  - Novos links no menu (Onde comprar, Curso)
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO

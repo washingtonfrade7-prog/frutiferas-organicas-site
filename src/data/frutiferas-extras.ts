@@ -94,7 +94,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     ],
     "resumo": "Abacaxi é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 37 vídeos sobre esta espécie.",
     "descricao": [
-      "Abacaxi é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
+      "Abacaxi é uma das frutíferas selecionadas para cultivo em vaso. Veja as dicas e onde comprar mudas e insumos nos parceiros.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
     "origem": "",
@@ -108,52 +108,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "frutificacao": "Consulte os vídeos de cultivo",
     "curiosidades": [],
     "dicas": [
-      "Assista no canal: Colheita de laranja abacaxi em vaso! DELICIOSA!!!",
-      "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica",
-      "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      "Veja no canal os vídeos de cultivo de abacaxi."
     ],
-    "videos": [
-      {
-        "id": "HsfD-LPRggI",
-        "titulo": "Colheita de laranja abacaxi em vaso! DELICIOSA!!!",
-        "tipo": "colheita"
-      },
-      {
-        "id": "mbHSz4ugvT8",
-        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica",
-        "tipo": "colheita"
-      },
-      {
-        "id": "mbHSz4ugvT8",
-        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica",
-        "tipo": "colheita"
-      },
-      {
-        "id": "mbHSz4ugvT8",
-        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica",
-        "tipo": "colheita"
-      },
-      {
-        "id": "GmUN81Q4ulk",
-        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts",
-        "tipo": "colheita"
-      },
-      {
-        "id": "s8Qz-zu0itA",
-        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts",
-        "tipo": "colheita"
-      },
-      {
-        "id": "MWI8EQM6Itw",
-        "titulo": "Colheita FÁCIL  Laranja Abacaxi Orgânica",
-        "tipo": "colheita"
-      },
-      {
-        "id": "MWI8EQM6Itw",
-        "titulo": "Colheita FÁCIL  Laranja Abacaxi Orgânica",
-        "tipo": "colheita"
-      }
-    ],
+    "videos": [],
     "imagem": "/frutiferas/abacaxi.jpg",
     "galeria": [
       "/frutiferas/abacaxi-2.jpg"

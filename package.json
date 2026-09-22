@@ -7,6 +7,9 @@
     "build": "next build",
     "package": "node scripts/package.mjs",
     "preview": "node ferramentas/auditoria/serve_static.mjs out 4000",
+    "audit": "node ferramentas/auditoria/audit_site.mjs",
+    "loadtest": "node ferramentas/auditoria/load_test.mjs",
+    "browser-audit": "node ferramentas/auditoria/browser_audit.mjs",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,6 +26,7 @@
     "eslint": "^8.57.1",
     "eslint-config-next": "^14.2.35",
     "postcss": "^8.4.0",
+    "puppeteer-core": "^25.11.0",
     "tailwindcss": "^3.4.0",
     "typescript": "^5.9.3"
   }

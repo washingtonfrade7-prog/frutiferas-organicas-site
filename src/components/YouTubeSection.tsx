@@ -1,4 +1,4 @@
-import { embedVideoUrl } from '@/lib/video'
+import VideoEmbed from '@/components/VideoEmbed'
 import type { Video } from '@/data/frutiferas'
 
 interface YouTubeSectionProps {
@@ -29,25 +29,12 @@ export default function YouTubeSection({
         </div>
       )}
       <div className={`grid ${grid} gap-5`}>
-        {videos.map((video) => {
-          const embed = embedVideoUrl(`https://www.youtube.com/watch?v=${video.id}`)
-          if (!embed) return null
-          return (
-            <figure key={video.id} className="bg-white rounded-xl shadow-sm border border-cream-200 overflow-hidden">
-              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  src={embed}
-                  title={video.titulo}
-                  loading="lazy"
-                  className="absolute inset-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                />
-              </div>
-              <figcaption className="p-4 text-sm font-medium text-ink-700">{video.titulo}</figcaption>
-            </figure>
-          )
-        })}
+        {videos.map((video) => (
+          <figure key={video.id} className="bg-white rounded-xl shadow-sm border border-cream-200 overflow-hidden">
+            <VideoEmbed id={video.id} titulo={video.titulo} />
+            <figcaption className="p-4 text-sm font-medium text-ink-700">{video.titulo}</figcaption>
+          </figure>
+        ))}
       </div>
     </section>
   )

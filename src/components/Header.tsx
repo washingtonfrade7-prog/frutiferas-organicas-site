@@ -11,6 +11,8 @@ const nav = [
   { href: '/frutiferas', label: 'Frutíferas' },
   { href: '/videos', label: 'Vídeos' },
   { href: '/guias', label: 'Guias' },
+  { href: '/comprar', label: 'Onde comprar' },
+  { href: '/curso', label: 'Curso' },
   { href: '/sobre', label: 'Sobre' },
   { href: '/contato', label: 'Contato' },
 ]
@@ -85,17 +87,24 @@ export default function Header() {
                 <button
                   className="px-3 py-4 hover:bg-forest-600 transition-colors text-sm font-medium flex items-center gap-1 rounded-lg"
                   onClick={() => setIsCatOpen((v) => !v)}
+                  aria-haspopup="true"
+                  aria-expanded={isCatOpen}
                 >
                   Categorias
                   <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
-                <div className="absolute top-full left-0 bg-white text-ink-900 shadow-lg rounded-b-lg py-2 min-w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 border border-cream-200">
+                <div
+                  className={`absolute top-full left-0 bg-white text-ink-900 shadow-lg rounded-b-lg py-2 min-w-56 transition-all z-50 border border-cream-200 group-hover:opacity-100 group-hover:visible ${
+                    isCatOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                  }`}
+                >
                   {categorias.map((cat) => (
                     <Link
                       key={cat.slug}
                       href={`/categorias/${cat.slug}`}
+                      onClick={() => setIsCatOpen(false)}
                       className="block px-4 py-2 text-sm hover:bg-cream-50 hover:text-forest-700 transition-colors"
                     >
                       {cat.nome}
@@ -109,6 +118,9 @@ export default function Header() {
               </Link>
               <Link href="/guias" className="px-3 py-4 hover:bg-forest-600 transition-colors text-sm font-medium rounded-lg">
                 Guias
+              </Link>
+              <Link href="/comprar" className="px-3 py-4 hover:bg-forest-600 transition-colors text-sm font-medium rounded-lg">
+                Onde comprar
               </Link>
               <Link href="/sobre" className="px-3 py-4 hover:bg-forest-600 transition-colors text-sm font-medium rounded-lg">
                 Sobre

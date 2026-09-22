@@ -334,12 +334,14 @@ def main():
             galeria.append(f"/frutiferas/{slug}-{j}.jpg")
 
         # videos do canal (match por palavras do nome)
+        # Evita casar com nomes compostos de OUTRAS frutas (ex.: "laranja abacaxi" nao e abacaxi)
+        compostos_excluidos = ("laranja abacaxi", "abacaxi laranja", "uva abacaxi", "limao abacaxi")
         palavras = [p for p in norm(nome).split() if len(p) > 3]
         rx = re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(p) for p in palavras) + r")(?![a-z0-9])") if palavras else None
         vids = []
         if rx:
             for vid, tnorm, ttitulo, defi, views in titulos:
-                if rx.search(tnorm):
+                if rx.search(tnorm) and not any(c in tnorm for c in compostos_excluidos):
                     vids.append({"id": vid, "titulo": ttitulo, "tipo": classificar_tipo(tnorm), "def": defi, "views": views})
         ordem = {"colheita": 0, "plantio": 1, "poda": 2, "adubacao": 3, "cuidados": 4, "floracao": 5, "gastronomia": 6, "tour": 7, "outros": 8}
         vids.sort(key=lambda v: (ordem.get(v["tipo"], 9), -v["views"]))
