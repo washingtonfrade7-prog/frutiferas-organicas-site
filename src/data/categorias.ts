@@ -34,6 +34,13 @@ export const categorias: Categoria[] = [
       'Espécies vindas de outros países e plenamente adaptadas ao cultivo orgânico brasileiro, como o abiu amarelo.',
     cor: '#C2703D',
   },
+  {
+    slug: 'citricas',
+    nome: 'Cítricas',
+    descricao:
+      'Laranjas, limões, mexericas e kinkans: cítricos que produzem muito em vaso com poucos cuidados.',
+    cor: '#D9A62E',
+  },
 ]
 
 export function getCategoria(slug: string): Categoria | undefined {
