@@ -78,6 +78,7 @@
   - Captura inserida na home, `/guias` e `/comprar`; link no rodapé e no sitemap
   - SEO: JSON-LD `Course` + `FAQPage` + breadcrumb
   - Pendente: criar o e-book/videoaulas e plugar o endpoint real (Brevo/Mailchimp/Formspree)
+- [x] E25. **Roteiro de produção do produto** (`CURSO-ROTEIRO.md`): estrutura do e-book (8 capítulos + glossário + bônus), roteiro capítulo a capítulo (tópicos, vídeos do canal, exercícios e falas-chave), plano das 8 videoaulas, produção, publicação na Hotmart/Kiwify, cronograma e checklist de lançamento
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
