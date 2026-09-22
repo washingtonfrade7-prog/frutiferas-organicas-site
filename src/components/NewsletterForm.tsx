@@ -98,7 +98,8 @@ export default function NewsletterForm({
         </p>
       )}
       <p className="mt-2 text-[11px] text-ink-500">
-        Sem spam. Você pode sair da lista quando quiser.
+        Ao se inscrever, você concorda em receber e-mails do Frutíferas Orgânicas. Sem spam; você
+        pode sair da lista quando quiser.
       </p>
     </form>
   )
