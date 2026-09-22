@@ -9,18 +9,9 @@
     "titulo": "Malpighia emarginata",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Malpighia_glabra_blossom_and_unripe_fruits.jpg/1280px-Malpighia_glabra_blossom_and_unripe_fruits.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
-  "amora-portuguesa": {
-    "nome": "Amora Portuguesa",
-    "titulo": "Rubus ulmifolius",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Blackberries_Rubus_ulmifolius2.jpg/1280px-Blackberries_Rubus_ulmifolius2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
   "araca-amarelo": {
     "termo": "yellow strawberry guava fruit",
     "fonte": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Starr-031002-0001-Psidium_cattleianum-habit_yellow_fruit_variety-Piiholo-Maui_%2824646603216%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
-  },
-  "araca-roxo": {
-    "termo": "Psidium cattleyanum fruit",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Goyavier_R%C3%A9union.JPG/1280px-Goyavier_R%C3%A9union.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   "atemoia": {
     "nome": "Atemoia",
@@ -40,10 +31,6 @@
     "nome": "Cacau",
     "titulo": "Cacau",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cacaueiro_-_Par%C3%A1_2015.jpg/1280px-Cacaueiro_-_Par%C3%A1_2015.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  "caja-manga-anao": {
-    "termo": "Spondias dulcis fruit",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/2014-10-11_Goldpflaume_Spondias_dulcis_anagoria.JPG/1280px-2014-10-11_Goldpflaume_Spondias_dulcis_anagoria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   "cambuca-jabuticaba-amarela": {
     "termo": "Plinia edulis",
@@ -71,24 +58,10 @@
     "termo": "Annona cherimola fruit",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Annona_cherimola_1DS-II_3-0535.jpg/1280px-Annona_cherimola_1DS-II_3-0535.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
-  "goiaba-amarela": {
-    "nome": "Goiaba Amarela",
-    "titulo": "Psidium guajava",
-    "fonte": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Psidium_guajava_fruit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
   "graviola": {
     "nome": "Graviola",
     "titulo": "Graviola",
     "fonte": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Soursop_fruit.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
-  "jabuticaba-sabara": {
-    "nome": "Jabuticaba Sabara",
-    "titulo": "Plinia cauliflora",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Jabuticaba_%28do_tupi_%C3%AEabotikaba%2C_%27gordura_de_jabuti%27%29_07.jpg/1280px-Jabuticaba_%28do_tupi_%C3%AEabotikaba%2C_%27gordura_de_jabuti%27%29_07.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  "jambo-rosa": {
-    "termo": "Syzygium jambos fruit",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Syzygium_jambos_fruit.jpg/1280px-Syzygium_jambos_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
   "laranja-serra-dagua": {
     "nome": "Laranja Serra Dagua",
@@ -99,11 +72,6 @@
     "nome": "Lichia",
     "titulo": "Litchi chinensis",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Lychee.jpg/1280px-Lychee.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  "limao-cravo-caipira": {
-    "nome": "Limao Cravo caipira",
-    "titulo": "Rangpur lime",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Citrus_x_limonia_%282%29.jpg/1280px-Citrus_x_limonia_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "limao-galeguinho": {
     "nome": "Limao Galeguinho",
@@ -129,11 +97,6 @@
   },
   "manga-palmer": {
     "nome": "Manga Palmer",
-    "titulo": "Mangifera indica",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mangoes_%28Magnifera_indica%29_from_India.jpg/1280px-Mangoes_%28Magnifera_indica%29_from_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  "manga-uba": {
-    "nome": "Manga uba",
     "titulo": "Mangifera indica",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mangoes_%28Magnifera_indica%29_from_India.jpg/1280px-Mangoes_%28Magnifera_indica%29_from_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
@@ -175,11 +138,6 @@
     "termo": "Annona reticulata fruit",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Annona_reticulata_fruits.JPG/1280px-Annona_reticulata_fruits.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
-  "pitanga-do-cerrado": {
-    "nome": "Pitanga do cerrado",
-    "titulo": "Eugenia calycina",
-    "fonte": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Eugenia_calycina.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-  },
   "pitaya-branca": {
     "nome": "Pitaya Branca",
     "titulo": "Selenicereus undatus",
@@ -193,27 +151,9 @@
     "termo": "Punica granatum fruit",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pomegranate_%28fruit%29.jpg/1280px-Pomegranate_%28fruit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   },
-  "saborosa-pytaya-do-serrado": {
-    "termo": "Selenicereus megalanthus",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/20260317_Selenicereus_megalanthus.jpg/1280px-20260317_Selenicereus_megalanthus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  },
   "seriguela": {
     "termo": "Spondias purpurea fruit",
     "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Ciriguela_%28Spondias_purpurea%29_fruto_cortado_e_inteiro.jpg/1280px-Ciriguela_%28Spondias_purpurea%29_fruto_cortado_e_inteiro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  },
-  "uva-brs-vitoria": {
-    "termo": "Vitis vinifera fruit",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Starr-090804-3788-Vitis_vinifera-fruit-MISC_HQ_Piiholo-Maui_%2824944998376%29.jpg/1280px-Starr-090804-3788-Vitis_vinifera-fruit-MISC_HQ_Piiholo-Maui_%2824944998376%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  },
-  "uva-isabel": {
-    "nome": "Uva Isabel",
-    "titulo": "Vitis labrusca",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vitis_labrusca_154618896.jpg/1280px-Vitis_labrusca_154618896.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
-  },
-  "uvaia": {
-    "nome": "Uvaia",
-    "titulo": "Uvaia",
-    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Uvaia_Fruto1.jpg/1280px-Uvaia_Fruto1.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "longan": {
     "termo": "Dimocarpus longan fruit",

@@ -59,6 +59,7 @@
 - [x] E17. **Galeria revisada**: mantém apenas o card informativo (sempre correto) em todas as frutíferas, incluindo as 10 manuais; 94 imagens ruins removidas
 - [x] E18. **48 capas corrigidas**: lista enviada pelo usuário (flores/ilustrações/assunto errado) substituída por fotos reais do fruto via Wikimedia Commons/Wikipédia (licença livre) — scripts `17_avaliar_capas.py` a `21_refinar_capas.py`; página `/creditos` com atribuição das fontes
 - [x] E19. **15 capas finais com frames dos vídeos do canal**: uvaia, uva-brs-vitória, uva-isabel, saborosa-pitaya, pitanga-do-cerrado, manga-ubá, jambo-rosa, jabuticaba-sabará e limão-cravo (frames limpos extraídos com ffmpeg, `22` a `25_*.py`); romã, rambutã, pinha, pinha-dos-astecas, limão-imperial e longan sem fruto no vídeo → imagem livre do fruto
+- [x] E20. **8 capas re-corrigidas com frames de colheita/degustação** (vídeos certos identificados por título): jambo-rosa (fruto rosado), jabuticaba-sabará (bem iluminada), bacupari-mirim, amora-portuguesa, araçá-roxo, cajá-manga-anão, goiaba-amarela (polpa amarela) e laranja-champagne — scripts `26_frames2.py` e `27_aplicar_frames2.py`; créditos limpos (essas agora são do canal)
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
