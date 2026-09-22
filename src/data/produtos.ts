@@ -1,4 +1,4 @@
-import { LISTA_MERCADO_LIVRE, type LojaId } from '@/data/afiliados'
+import { linkMercadoLivre, type LojaId } from '@/data/afiliados'
 
 export interface CategoriaCompra {
   slug: string
@@ -79,7 +79,7 @@ export const categoriasCompra: CategoriaCompra[] = [
   },
 ]
 
-export const produtos: Produto[] = [
+const baseProdutos: Produto[] = [
   // VASOS
   {
     slug: 'vaso-polietileno-90l',
@@ -92,7 +92,7 @@ export const produtos: Produto[] = [
     contras: ['Pesado depois de cheio', 'Ocupa bastante espaço'],
     faixaPreco: 'R$ 450 a R$ 550 (kit 2 un.)',
     destaque: true,
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'vaso-autoirrigavel-medio',
@@ -104,7 +104,7 @@ export const produtos: Produto[] = [
     pros: ['Reduz a frequência de rega', 'Reservatório fechado evita mosquitos', 'Base transparente para ver o nível de água'],
     contras: ['Volume pequeno para frutíferas maiores', 'Precisa de limpeza periódica do reservatório'],
     faixaPreco: 'R$ 35 a R$ 60',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'vaso-plastico-30l',
@@ -116,7 +116,7 @@ export const produtos: Produto[] = [
     pros: ['Preço acessível', 'Formato adequado para raízes superficiais', 'Leve'],
     contras: ['Pode esquentar ao sol forte', 'Menos durável que polietileno'],
     faixaPreco: 'R$ 40 a R$ 70',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
 
   // SUBSTRATOS
@@ -131,7 +131,7 @@ export const produtos: Produto[] = [
     contras: ['Pode compactar se usada pura', 'Requer mistura para drenagem'],
     faixaPreco: 'R$ 60 a R$ 120',
     destaque: true,
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'substrato-completo-2kg',
@@ -143,7 +143,7 @@ export const produtos: Produto[] = [
     pros: ['Pronto para usar', 'Boa drenagem', 'Não precisa misturar'],
     contras: ['Custo por litro maior', 'Rende pouco em vasos grandes'],
     faixaPreco: 'R$ 20 a R$ 40',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'kit-perlita-vermiculita',
@@ -155,7 +155,7 @@ export const produtos: Produto[] = [
     pros: ['Melhora muito a drenagem', 'Evita compactação', 'Rende bastante'],
     contras: ['Exige misturar com terra e húmus', 'Produto leve, cuidado ao manusear'],
     faixaPreco: 'R$ 30 a R$ 60',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
 
   // ADUBOS
@@ -170,7 +170,7 @@ export const produtos: Produto[] = [
     contras: ['Precisa de reaplicação periódica', 'Odor característico'],
     faixaPreco: 'R$ 20 a R$ 40',
     destaque: true,
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'bokashi-forth-15kg',
@@ -182,7 +182,7 @@ export const produtos: Produto[] = [
     pros: ['Aplicação limpa', 'Liberação rápida', 'Boa relação custo-benefício'],
     contras: ['Rende menos que o farelado', 'Pode atrair animais se ficar exposto'],
     faixaPreco: 'R$ 30 a R$ 60',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'humus-minhoca',
@@ -194,7 +194,7 @@ export const produtos: Produto[] = [
     pros: ['Rico em nutrientes', 'Melhora a estrutura do solo', 'Dificilmente queima as raízes'],
     contras: ['Pode vir com sementes de ervas', 'Peso alto no frete'],
     faixaPreco: 'R$ 15 a R$ 50',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
 
   // FERRAMENTAS
@@ -209,7 +209,7 @@ export const produtos: Produto[] = [
     contras: ['Não serve para galhos secos grossos', 'Precisa de afiação periódica'],
     faixaPreco: 'R$ 60 a R$ 120',
     destaque: true,
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'tesourao-poda-bypass-60cm',
@@ -221,7 +221,7 @@ export const produtos: Produto[] = [
     pros: ['Alcance maior', 'Potencializa a força de corte', 'Lâmina bypass de precisão'],
     contras: ['Menos preciso que a tesoura de mão', 'Ocupa mais espaço'],
     faixaPreco: 'R$ 120 a R$ 160',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'kit-jardinagem-10-pecas',
@@ -233,7 +233,7 @@ export const produtos: Produto[] = [
     pros: ['Custo-benefício alto', 'Maleta organiza tudo', 'Serve para vaso e canteiro'],
     contras: ['Ferramentas de uso leve', 'Qualidade varia entre marcas'],
     faixaPreco: 'R$ 90 a R$ 150',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
 
   // IRRIGACAO
@@ -247,7 +247,7 @@ export const produtos: Produto[] = [
     pros: ['Direciona a água para o substrato', 'Evita molhar folhas', 'Fácil de usar'],
     contras: ['Precisa reabastecer com frequência', 'Plástico pode rachar ao sol'],
     faixaPreco: 'R$ 30 a R$ 80',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
   {
     slug: 'borrifador-pulverizador',
@@ -259,7 +259,7 @@ export const produtos: Produto[] = [
     pros: ['Versátil', 'Barato', 'Bom para mudas'],
     contras: ['Não substitui a rega principal', 'Precisa limpar após usar adubo'],
     faixaPreco: 'R$ 20 a R$ 50',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
 
   // KITS
@@ -274,7 +274,7 @@ export const produtos: Produto[] = [
     contras: ['Frete mais caro por causa do peso', 'Pode sobrar material'],
     faixaPreco: 'R$ 90 a R$ 180',
     destaque: true,
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
 
   // SEMENTES
@@ -288,9 +288,14 @@ export const produtos: Produto[] = [
     pros: ['Baixo custo', 'Boa para aprender', 'Variedade de espécies'],
     contras: ['Demora anos para frutificar', 'Nem sempre repete a qualidade da planta-mãe'],
     faixaPreco: 'R$ 10 a R$ 40',
-    lojas: { mercadoLivre: LISTA_MERCADO_LIVRE },
+    lojas: {},
   },
 ]
+
+export const produtos: Produto[] = baseProdutos.map((produto) => ({
+  ...produto,
+  lojas: { ...produto.lojas, mercadoLivre: linkMercadoLivre(produto.slug) },
+}))
 
 export function getCategoriaCompra(slug: string): CategoriaCompra | undefined {
   return categoriasCompra.find((c) => c.slug === slug)
