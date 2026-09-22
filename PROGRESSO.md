@@ -100,6 +100,7 @@
     4. **Dropdown "Categorias"** do header só abria no hover (inacessível em touch) — agora abre por clique, com `aria-expanded`
     5. **Vídeos trocados do Abacaxi** (mostrava "laranja abacaxi") — dados corrigidos e importador ajustado para não casar nomes compostos
   - Novos links no menu (Onde comprar, Curso)
+- [x] E31. **Captura de newsletter blindada**: o Brevo suspendeu a conta (conformidade), então `newsletter.php` agora **salva TODO contato em `newsletter-lista.csv` no servidor** (fora do `public_html`) além de tentar o Brevo. Testado no ar: `{"ok":true,"local":true}`. Nenhum e-mail se perde enquanto a conta não é liberada; depois basta exportar/importar no Brevo
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
