@@ -43,7 +43,25 @@
 ### FASE E — SEO / Performance / Deploy
 - [x] E1. Sitemap/robots/JSON-LD atualizados (inclui guias)
 - [x] E2. Auditoria funcional + teste de carga (3 rodadas, 3.100 requisições, 0 erros)
-- [ ] E3. Deploy Vercel (requer login do usuário)
+- [x] E3. **Conversão para export estático** (`output: 'export'`) — catálogo com filtro no cliente
+- [x] E4. `.htaccess` (URLs limpas, 404, cache, compressão) + pacote `frutiferas-site.zip`
+- [x] E5. Domínio configurado: `https://frutiferasorganicas.com.br`
+- [ ] E6. Upload do pacote para a Hostinger (public_html) + SSL
+- [ ] E7. Ativar AdSense/Ezoic após aprovação
+
+## Deploy Hostinger (plano Unlimited)
+1. hPanel → **Gerenciador de Arquivos** → entrar em `public_html`
+2. Apagar o arquivo padrão (`default.php` / `index.html` de exemplo)
+3. Enviar **`frutiferas-site.zip`** e **extrair** na `public_html` (o `.htaccess` incluso)
+4. Em **Domínios**, apontar `frutiferasorganicas.com.br` para a hospedagem
+5. Ativar **SSL grátis** (Let's Encrypt) no hPanel
+6. Testar: home, `/frutiferas`, uma fruta, um guia, `/sitemap.xml`
+
+Reconstruir o pacote após mudanças:
+```
+npm run build
+# zipar a pasta out/ (incluindo .htaccess) para public_html
+```
 
 ## Auditoria de qualidade (3 rodadas)
 

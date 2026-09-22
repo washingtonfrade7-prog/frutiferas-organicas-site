@@ -10,6 +10,10 @@
 /.next/
 /out/
 
+# pacote de deploy
+/frutiferas-site.zip
+/static.log
+
 # production
 /build
 
