@@ -50,6 +50,7 @@
 - [x] E7. **AdSense ativado** (client `ca-pub-8236074301379246`, slot `6872562467`) — script + meta + slot no ar
 - [x] E8. HTTPS confirmado (certificado ativo)
 - [x] E9. Auditoria no domínio ao vivo: 122 páginas, 288 imagens, 0 erros
+- [x] E11. **Google Analytics (GA4)** ativado (`G-8G7HQFV303`) — gtag no ar em todas as páginas
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy — feito

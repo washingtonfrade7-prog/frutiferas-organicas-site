@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import JsonLd from '@/components/JsonLd'
 import { AdScripts } from '@/components/Ads'
+import Analytics from '@/components/Analytics'
 import { organizationJsonLd, websiteJsonLd } from '@/lib/seo'
 import { site } from '@/lib/site'
 
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="flex flex-col min-h-screen">
         <AdScripts />
+        <Analytics />
         <JsonLd data={organizationJsonLd()} />
         <JsonLd data={websiteJsonLd()} />
         <Header />
