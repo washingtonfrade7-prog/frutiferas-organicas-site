@@ -39,6 +39,24 @@ export default function PrivacidadePage() {
           navegador.
         </p>
 
+        <h2>Publicidade</h2>
+        <p>
+          Este site pode exibir anúncios de terceiros, incluindo o Google AdSense. Fornecedores,
+          inclusive o Google, usam cookies para veicular anúncios com base em visitas anteriores do
+          usuário a este ou a outros sites. O uso de cookies de publicidade permite ao Google e a
+          seus parceiros exibir anúncios personalizados. O usuário pode desativar a publicidade
+          personalizada nas{' '}
+          <a
+            href="https://www.google.com/settings/ads"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-forest-600 underline"
+          >
+            Configurações de anúncios do Google
+          </a>
+          .
+        </p>
+
         <h2>Links de terceiros</h2>
         <p>
           Nosso conteúdo inclui links para lojas parceiras e para o YouTube. Ao clicar, você passa a

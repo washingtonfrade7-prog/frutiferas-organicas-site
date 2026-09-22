@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import FrutiferaCard from '@/components/FrutiferaCard'
 import BannerSlot from '@/components/BannerSlot'
+import AdSlot from '@/components/Ads'
 import { categorias, getCategoria } from '@/data/categorias'
 import { frutiferas } from '@/data/frutiferas'
 import { site } from '@/lib/site'
@@ -126,6 +127,7 @@ export default function FrutiferasPage({ searchParams }: PageProps) {
           )}
 
           <div className="mt-10">
+            <AdSlot rotulo className="mb-8 min-h-[90px]" />
             <BannerSlot
               variante="compact"
               titulo="Não sabe por onde começar?"

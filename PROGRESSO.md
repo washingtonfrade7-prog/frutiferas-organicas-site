@@ -19,12 +19,13 @@
 - Correções-chave: limão cravo = *Citrus × limonia*; galego = *C. × aurantifolia*; caviar = *C. australasica*; tanjo = *C. limettioides*; kinkan = *C. japonica*; jabuticaba branca = *Plinia aureana*; cambuí roxo = *Eugenia candolleana*; groselha = *Phyllanthus acidus*; cabeludinha roxa/peludinha = mesma espécie (mesclada)
 
 ### FASE B — Páginas de ensino (conteúdo + vídeos)
-- [ ] B1. Adubação
-- [ ] B2. Poda
-- [ ] B3. Como plantar
-- [ ] B4. Colheita
-- [ ] B5. Tour pelo pomar
-- [ ] B6. Texto explicativo das espécies (leitura) + vídeos
+- [x] B1. Adubação
+- [x] B2. Poda
+- [x] B3. Como plantar
+- [x] B4. Colheita
+- [x] B5. Tour pelo pomar
+- [x] B6. Texto explicativo das espécies (leitura) + vídeos
+- 8 guias em `/guias/[slug]`: plantio, adubacao, poda, colheita, tour, cuidados, floracao, gastronomia (texto + passo a passo + dicas + erros + FAQ + vídeos)
 
 ### FASE C — Estilo / UX (referências de grandes sites)
 - [ ] C1. Breadcrumbs + navegação

@@ -5,6 +5,7 @@ import FrutiferaCard from '@/components/FrutiferaCard'
 import CategoryIcon from '@/components/CategoryIcon'
 import BannerSlot from '@/components/BannerSlot'
 import YouTubeSection from '@/components/YouTubeSection'
+import AdSlot from '@/components/Ads'
 import { categorias } from '@/data/categorias'
 import { getDestaques, frutiferas, todosOsVideos } from '@/data/frutiferas'
 import { site, youtubeChannelUrl } from '@/lib/site'
@@ -125,6 +126,10 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      <div className="max-w-7xl mx-auto px-4 pb-4">
+        <AdSlot rotulo className="min-h-[90px]" />
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 pb-12">
         <BannerSlot

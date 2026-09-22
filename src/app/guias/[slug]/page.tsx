@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import YouTubeSection from '@/components/YouTubeSection'
 import BannerSlot from '@/components/BannerSlot'
 import JsonLd from '@/components/JsonLd'
+import AdSlot from '@/components/Ads'
 import { topicos, getTopico } from '@/data/aprender'
 import { guias } from '@/data/guias'
 import { breadcrumbJsonLd } from '@/lib/seo'
@@ -68,6 +69,8 @@ export default function TopicoPage({ params }: PageProps) {
           <p key={i}>{p}</p>
         ))}
       </article>
+
+      <AdSlot rotulo className="my-10 min-h-[90px]" />
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold mb-5 font-display">Passo a passo</h2>

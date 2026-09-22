@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import YouTubeSection from '@/components/YouTubeSection'
 import BannerSlot from '@/components/BannerSlot'
+import AdSlot from '@/components/Ads'
 import { frutiferas } from '@/data/frutiferas'
 import { playlists } from '@/data/playlists'
 import { site, youtubeChannelUrl } from '@/lib/site'
@@ -56,9 +57,10 @@ export default function VideosPage() {
         </div>
       </header>
 
+      <AdSlot rotulo className="mb-10 min-h-[90px]" />
+
       <div className="space-y-14">
-        {porFruta.map((fruta) => (
-          <section key={fruta.slug}>
+        {porFruta.map((fruta) => (          <section key={fruta.slug}>
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-xl font-bold font-display">{fruta.nome}</h2>
               <Link href={`/frutiferas/${fruta.slug}`} className="text-sm text-forest-600 font-medium hover:underline">
