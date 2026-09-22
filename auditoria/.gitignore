@@ -1,3 +1,11 @@
 # Saidas brutas e regeneraveis da auditoria (nao versionadas)
 canal_bruto.json
 transcricoes.json
+
+# Pastas temporarias de trabalho dos scripts
+_capas/
+_extras/
+_tmp/
+_ocr/
+_subs/
+_thumbs/
