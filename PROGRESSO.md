@@ -102,6 +102,7 @@
   - Novos links no menu (Onde comprar, Curso)
 - [x] E31. **Captura de newsletter blindada**: o Brevo suspendeu a conta (conformidade), então `newsletter.php` agora **salva TODO contato em `newsletter-lista.csv` no servidor** (fora do `public_html`) além de tentar o Brevo. Testado no ar: `{"ok":true,"local":true}`. Nenhum e-mail se perde enquanto a conta não é liberada; depois basta exportar/importar no Brevo
 - [x] E32. **E-mail de contato do domínio**: trocado `frutiferasorganicas@gmail.com` por `contato@frutiferasorganicas.com.br` (site.ts, `.env.local`, `.env.example`) — ajuda na conformidade/entregabilidade do Brevo. Adicionado aviso de consentimento no formulário de newsletter
+- [x] E33. **Endpoint com suporte a Brevo E MailerLite**: `newsletter.php` agora lê `public/_newsletter-config.php` (não versionado) com `provider` (`brevo` ou `mailerlite`), `api_key` e `list_id`. Sempre salva no CSV local; tenta o provedor em paralelo. Alternativa ao Brevo (conta suspensa por conformidade)
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO

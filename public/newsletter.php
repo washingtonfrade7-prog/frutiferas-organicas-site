@@ -1,9 +1,13 @@
 <?php
 /**
- * Endpoint de captura de newsletter.
- * - SEMPRE salva o contato em um CSV no servidor (fora do public_html), garantindo que
- *   nenhum e-mail se perca enquanto a conta do Brevo estiver suspensa ou sem configuracao.
- * - Em paralelo, tenta cadastrar no Brevo (se _brevo-key.php estiver configurado).
+ * Endpoint de captura de newsletter (Hostinger).
+ * - SEMPRE salva o contato em um CSV no servidor (fora do public_html).
+ * - Em paralelo, tenta cadastrar no provedor configurado (Brevo ou MailerLite).
+ *
+ * Configuracao: public/_newsletter-config.php (nao versionado), ex.:
+ *   return ['provider' => 'mailerlite', 'api_key' => '...', 'list_id' => '123456'];
+ *   return ['provider' => 'brevo',      'api_key' => 'xkeysib-...', 'list_id' => 2];
+ *
  * Recebe POST JSON { "email": "...", "origem": "..." }.
  */
 header('Content-Type: application/json; charset=utf-8');
@@ -49,36 +53,64 @@ if ($fp = @fopen($arquivo, 'a')) {
     fclose($fp);
 }
 
-// 2) Tenta cadastrar no Brevo (melhor esforco)
-$brevoOk = false;
-$brevoStatus = null;
-$config = @include __DIR__ . '/_brevo-key.php';
-if (is_array($config) && !empty($config['api_key'])) {
-    $payload = [
-        'email' => $email,
-        'listIds' => [(int) ($config['list_id'] ?? 0)],
-        'updateEnabled' => true,
-    ];
-    $ch = curl_init('https://api.brevo.com/v3/contacts');
+// 2) Tenta cadastrar no provedor (melhor esforco)
+$config = @include __DIR__ . '/_newsletter-config.php';
+if (!is_array($config)) {
+    // compatibilidade com o arquivo antigo
+    $antigo = @include __DIR__ . '/_brevo-key.php';
+    if (is_array($antigo)) {
+        $config = ['provider' => 'brevo', 'api_key' => $antigo['api_key'] ?? '', 'list_id' => $antigo['list_id'] ?? 0];
+    }
+}
+
+$provedorOk = false;
+$provedorStatus = null;
+$provider = is_array($config) ? ($config['provider'] ?? 'brevo') : '';
+$apiKey = is_array($config) ? ($config['api_key'] ?? '') : '';
+$listId = is_array($config) ? ($config['list_id'] ?? '') : '';
+
+if ($apiKey) {
+    if ($provider === 'mailerlite') {
+        $url = 'https://connect.mailerlite.com/api/subscribers';
+        $payload = ['email' => $email];
+        if ($listId !== '' && $listId !== null) {
+            $payload['groups'] = [(string) $listId];
+        }
+        $headers = [
+            'accept: application/json',
+            'content-type: application/json',
+            'authorization: Bearer ' . $apiKey,
+        ];
+    } else {
+        $url = 'https://api.brevo.com/v3/contacts';
+        $payload = [
+            'email' => $email,
+            'listIds' => [(int) $listId],
+            'updateEnabled' => true,
+        ];
+        $headers = [
+            'accept: application/json',
+            'content-type: application/json',
+            'api-key: ' . $apiKey,
+        ];
+    }
+
+    $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_POST => true,
         CURLOPT_POSTFIELDS => json_encode($payload),
-        CURLOPT_HTTPHEADER => [
-            'accept: application/json',
-            'content-type: application/json',
-            'api-key: ' . $config['api_key'],
-        ],
+        CURLOPT_HTTPHEADER => $headers,
         CURLOPT_TIMEOUT => 20,
     ]);
     curl_exec($ch);
-    $brevoStatus = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    $provedorStatus = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
-    $brevoOk = ($brevoStatus >= 200 && $brevoStatus < 300);
+    $provedorOk = ($provedorStatus >= 200 && $provedorStatus < 300);
 }
 
-if ($salvoLocal || $brevoOk) {
-    echo json_encode(['ok' => true, 'local' => $salvoLocal, 'brevo' => $brevoOk]);
+if ($salvoLocal || $provedorOk) {
+    echo json_encode(['ok' => true, 'local' => $salvoLocal, 'provedor' => $provedorOk, 'status' => $provedorStatus]);
     exit;
 }
 
