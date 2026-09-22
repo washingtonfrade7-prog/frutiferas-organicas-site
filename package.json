@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "package": "node scripts/package.mjs",
+    "preview": "node ferramentas/auditoria/serve_static.mjs out 4000",
     "lint": "next lint"
   },
   "dependencies": {
