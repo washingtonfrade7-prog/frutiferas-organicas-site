@@ -17,8 +17,10 @@ GUIAS = [
     {"slug": "plantio", "nome": "Como plantar em vaso", "descricao": "Escolha do vaso, substrato e plantio correto das frutíferas orgânicas."},
     {"slug": "poda", "nome": "Poda e formação", "descricao": "Podas de formação, limpeza e produção para a planta render mais."},
     {"slug": "adubacao", "nome": "Adubação orgânica", "descricao": "Como adubar, o que usar e quando nutrir suas frutíferas."},
+    {"slug": "colheita", "nome": "Colheita no ponto", "descricao": "Como saber a hora certa de colher e aproveitar cada fruta."},
     {"slug": "cuidados", "nome": "Cuidados e problemas", "descricao": "Pragas, folhas caindo, rega e recuperação de plantas."},
     {"slug": "floracao", "nome": "Floração e polinização", "descricao": "Como garantir flores e frutos bem formados."},
+    {"slug": "tour", "nome": "Tour pelo pomar", "descricao": "Passeios pelo pomar em vasos e inspiração para o seu espaço."},
     {"slug": "gastronomia", "nome": "Gastronomia", "descricao": "Receitas, sucos e aproveitamento das frutas colhidas."},
 ]
 

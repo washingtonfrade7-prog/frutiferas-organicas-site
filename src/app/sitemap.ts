@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { site } from '@/lib/site'
 import { frutiferas } from '@/data/frutiferas'
 import { categorias } from '@/data/categorias'
+import { topicos } from '@/data/aprender'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = site.url
@@ -32,5 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }))
 
-  return [...estaticas, ...cats, ...frutas]
+  const guias: MetadataRoute.Sitemap = topicos.map((t) => ({
+    url: `${base}/guias/${t.slug}`,
+    lastModified: agora,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
+  return [...estaticas, ...cats, ...frutas, ...guias]
 }

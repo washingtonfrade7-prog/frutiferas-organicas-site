@@ -174,6 +174,61 @@ export const guias: Guia[] = [
     ]
   },
   {
+    "slug": "colheita",
+    "nome": "Colheita no ponto",
+    "descricao": "Como saber a hora certa de colher e aproveitar cada fruta.",
+    "videos": [
+      {
+        "id": "cRV4orB4srg",
+        "titulo": "Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!! 4k"
+      },
+      {
+        "id": "uoEHu_9plGw",
+        "titulo": "Colheita de Repolho orgânico em vaso 4K"
+      },
+      {
+        "id": "dLDvSKQaKb4",
+        "titulo": "Colheita limão siciliano em vaso"
+      },
+      {
+        "id": "cS4gQf8ceJk",
+        "titulo": "Colhendo Cenouras 150 dias na minha Hortinha"
+      },
+      {
+        "id": "Jxf4sGvf5fA",
+        "titulo": "Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k"
+      },
+      {
+        "id": "IYyyQjqDfmA",
+        "titulo": "Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K"
+      },
+      {
+        "id": "RFcR74X7y6k",
+        "titulo": "Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!"
+      },
+      {
+        "id": "RgwRjICJk40",
+        "titulo": "Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
+      },
+      {
+        "id": "J-o2d_7-Tzc",
+        "titulo": "Medindo grau Brix(doçura) Uva Goethe 4k"
+      },
+      {
+        "id": "nsPOlDEqJ6g",
+        "titulo": "colheita acerola Okinawa gigante em vaso"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "oO8zZ23vNrU",
+        "titulo": "Colhendo Alfaces na minha hortinha"
+      }
+    ]
+  },
+  {
     "slug": "cuidados",
     "nome": "Cuidados e problemas",
     "descricao": "Pragas, folhas caindo, rega e recuperação de plantas.",
@@ -280,6 +335,61 @@ export const guias: Guia[] = [
       {
         "id": "K6SDdYbymwI",
         "titulo": "Sapoti PRODUZINDO em Vaso floração e botões florais"
+      }
+    ]
+  },
+  {
+    "slug": "tour",
+    "nome": "Tour pelo pomar",
+    "descricao": "Passeios pelo pomar em vasos e inspiração para o seu espaço.",
+    "videos": [
+      {
+        "id": "6i8G_r3VC6Y",
+        "titulo": "Mostrando todo meu pomar orgânico em vasos 70 frutíferas distintas em pouco espaço 4k"
+      },
+      {
+        "id": "AzWb9b4_9rU",
+        "titulo": "Como Fazer Irrigação automática do seu Pomar, Jardim ou horta! TUTORIAL COMPLETO!!!"
+      },
+      {
+        "id": "W04xM3eE1NE",
+        "titulo": "14 Aula de Alvenaria professor: João Frade Aluno: Washington Frade Terraço"
+      },
+      {
+        "id": "kQEZPoXH34I",
+        "titulo": "Mostrando todo meu pomar em vasos 42 tipos de frutíferas diferentes! 4K"
+      },
+      {
+        "id": "UgRwsUPFoTw",
+        "titulo": "tour pelo pomar orgânico em Vaso 24/04/2022"
+      },
+      {
+        "id": "CDVFsDKCMgs",
+        "titulo": "especial tour pelo pomar orgânico em Vaso 17/10/2021"
+      },
+      {
+        "id": "lefgxBjw0iY",
+        "titulo": "Tour especial pelo pomar orgânico em vaso 01/10/2022"
+      },
+      {
+        "id": "wZRxD_4apMw",
+        "titulo": "Nova Frutífera do pomar: Laranja Abacaxi 4k"
+      },
+      {
+        "id": "VNm95UrJru4",
+        "titulo": "Tour pelo pomar em vaso é possível ter mais de 100 frutíferas em vaso produzindo???"
+      },
+      {
+        "id": "gA7ZOedi7UQ",
+        "titulo": "Especial tour pelo pomar orgânico 26/09/2021"
+      },
+      {
+        "id": "3ag2rSUqLn8",
+        "titulo": "Especial tour pelo pomar orgânico mostrando 70 Frutíferas distintas em vaso 4k"
+      },
+      {
+        "id": "cZlCdD8wgjE",
+        "titulo": "Tour especial pelo pomar orgânico 02/01/2022 Pensando em desistir do canal..."
       }
     ]
   },
