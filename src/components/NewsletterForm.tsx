@@ -15,7 +15,7 @@ declare global {
   }
 }
 
-const ENDPOINT = process.env.NEXT_PUBLIC_NEWSLETTER_ENDPOINT || ''
+const ENDPOINT = process.env.NEXT_PUBLIC_NEWSLETTER_ENDPOINT || '/newsletter.php'
 
 export default function NewsletterForm({
   origem = 'site',
@@ -38,19 +38,19 @@ export default function NewsletterForm({
     setStatus('enviando')
     setMensagem('')
 
+    function abrirEmail() {
+      const assunto = encodeURIComponent('Quero entrar na lista de espera')
+      const corpo = encodeURIComponent(`E-mail: ${valor}\nOrigem: ${origem}\n`)
+      window.location.href = `mailto:${site.email}?subject=${assunto}&body=${corpo}`
+    }
+
     try {
-      if (ENDPOINT) {
-        const resp = await fetch(ENDPOINT, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email: valor, origem }),
-        })
-        if (!resp.ok) throw new Error('falha')
-      } else {
-        const assunto = encodeURIComponent('Quero entrar na lista de espera')
-        const corpo = encodeURIComponent(`E-mail: ${valor}\nOrigem: ${origem}\n`)
-        window.location.href = `mailto:${site.email}?subject=${assunto}&body=${corpo}`
-      }
+      const resp = await fetch(ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: valor, origem }),
+      })
+      if (!resp.ok) throw new Error('falha')
 
       if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
         window.gtag('event', 'newsletter_signup', { origem })
@@ -59,8 +59,10 @@ export default function NewsletterForm({
       setMensagem('Pronto! Você está na lista. Vamos te avisar em primeira mão.')
       setEmail('')
     } catch {
-      setStatus('erro')
-      setMensagem('Não foi possível agora. Tente novamente em instantes.')
+      abrirEmail()
+      setStatus('ok')
+      setMensagem('Abrimos seu e-mail para confirmar a inscrição. Se não abrir, escreva para nós.')
+      setEmail('')
     }
   }
 

@@ -50,3 +50,6 @@ __pycache__/
 
 # temporarios da auditoria (frames, thumbs, downloads)
 /auditoria/_*/
+
+# credenciais locais (nao versionar)
+/public/_brevo-key.php

@@ -84,6 +84,11 @@
   - `CURSO-BONUS.md`: checklist de rega/adubação/inspeção + 12 fichas rápidas de cultivo (geradas dos dados do site)
   - PDFs gerados com markdown + Microsoft Edge headless: `ferramentas/curso/out/Frutiferas-em-Vaso-ebook.pdf` e `...-bonus.pdf` (capa + CSS de impressão, capítulos com quebra de página)
   - Regerar a qualquer momento: `python ferramentas/curso/gerar.py`
+- [x] E28. **Integração de newsletter com o Brevo**:
+  - `public/newsletter.php` (endpoint no próprio domínio): valida e-mail, cadastra o contato no Brevo via API v3 e responde JSON
+  - `public/_brevo-key.php` (não versionado, no `.gitignore`): guarda a API key e o ID da lista
+  - `NewsletterForm` agora envia para `/newsletter.php` (fallback por e-mail se a integração ainda não estiver configurada)
+  - Testado no ar: e-mail inválido → 400, GET → 405. Falta apenas colar a API key + ID da lista
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
