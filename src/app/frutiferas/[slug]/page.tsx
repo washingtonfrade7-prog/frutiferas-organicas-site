@@ -11,7 +11,7 @@ import AdSlot from '@/components/Ads'
 import { frutiferas, getFrutifera } from '@/data/frutiferas'
 import { getCategoria } from '@/data/categorias'
 import { breadcrumbJsonLd, fruitJsonLd, videoJsonLd } from '@/lib/seo'
-import { absoluteUrl, site } from '@/lib/site'
+import { absoluteUrl, imgUrl, site } from '@/lib/site'
 
 interface PageProps {
   params: { slug: string }
@@ -40,13 +40,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
       siteName: site.name,
       title: `${titulo} - ${site.name}`,
       description: descricao,
-      images: fruta.imagem ? [{ url: fruta.imagem, width: 800, height: 450, alt: fruta.nome }] : undefined,
+      images: fruta.imagem ? [{ url: imgUrl(fruta.imagem), width: 800, height: 450, alt: fruta.nome }] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
       title: titulo,
       description: descricao,
-      images: fruta.imagem ? [fruta.imagem] : undefined,
+      images: fruta.imagem ? [imgUrl(fruta.imagem)] : undefined,
     },
     robots: { index: true, follow: true },
   }
@@ -117,7 +117,7 @@ export default function FrutiferaPage({ params }: PageProps) {
         {fruta.imagem ? (
           <div className="relative rounded-2xl h-80 md:h-96 overflow-hidden bg-cream-100">
             <Image
-              src={fruta.imagem}
+              src={imgUrl(fruta.imagem)}
               alt={`${fruta.nome} (${fruta.nomeCientifico})`}
               fill
               priority
@@ -182,7 +182,7 @@ export default function FrutiferaPage({ params }: PageProps) {
             {galeria.map((src, i) => (
               <div key={i} className="relative aspect-video rounded-xl overflow-hidden border border-cream-200 bg-cream-100">
                 <Image
-                  src={src}
+                  src={imgUrl(src)}
                   alt={`${fruta.nome} - imagem ${i + 1}`}
                   fill
                   sizes="(max-width: 768px) 50vw, 33vw"
@@ -289,7 +289,7 @@ export default function FrutiferaPage({ params }: PageProps) {
             >
               {outra.imagem ? (
                 <span className="relative rounded-lg w-16 h-16 shrink-0 overflow-hidden bg-cream-100">
-                  <Image src={outra.imagem} alt={outra.nome} fill sizes="64px" className="object-cover" />
+                  <Image src={imgUrl(outra.imagem)} alt={outra.nome} fill sizes="64px" className="object-cover" />
                 </span>
               ) : (
                 <FruitVisual nome={outra.nome} cor={outra.cor} className="rounded-lg w-16 h-16 shrink-0" size="sm" />

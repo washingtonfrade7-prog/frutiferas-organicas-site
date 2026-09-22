@@ -20,3 +20,14 @@ export function youtubeChannelUrl(): string {
 export function absoluteUrl(path = '/'): string {
   return site.url + (path.startsWith('/') ? path : `/${path}`)
 }
+
+// As imagens de /frutiferas/ sao servidas com cache de 180 dias. Como o nome do
+// arquivo nao muda quando a foto e trocada, usamos um selo de versao na URL para
+// forcar o navegador a baixar a imagem nova.
+export const ASSET_VERSION = '20260922'
+
+export function imgUrl(src?: string | null): string {
+  if (!src) return ''
+  if (!src.startsWith('/frutiferas/')) return src
+  return `${src}${src.includes('?') ? '&' : '?'}v=${ASSET_VERSION}`
+}

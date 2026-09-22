@@ -3,6 +3,7 @@ import Image from 'next/image'
 import FruitVisual from '@/components/FruitVisual'
 import type { Frutifera } from '@/data/frutiferas'
 import { getCategoria } from '@/data/categorias'
+import { imgUrl } from '@/lib/site'
 
 interface FrutiferaCardProps {
   fruta: Frutifera
@@ -20,7 +21,7 @@ export default function FrutiferaCard({ fruta }: FrutiferaCardProps) {
       {fruta.imagem ? (
         <div className="relative h-48 bg-cream-100 overflow-hidden">
           <Image
-            src={fruta.imagem}
+            src={imgUrl(fruta.imagem)}
             alt={`${fruta.nome} (${fruta.nomeCientifico})`}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
