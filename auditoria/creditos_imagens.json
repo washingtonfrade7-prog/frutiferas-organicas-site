@@ -1,0 +1,221 @@
+{
+  "abacaxi": {
+    "nome": "Abacaxi",
+    "titulo": "Ananás",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Ananas%21.jpg/1280px-Ananas%21.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "acerola-okinawa": {
+    "nome": "Acerola Okinawa",
+    "titulo": "Malpighia emarginata",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Malpighia_glabra_blossom_and_unripe_fruits.jpg/1280px-Malpighia_glabra_blossom_and_unripe_fruits.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "amora-portuguesa": {
+    "nome": "Amora Portuguesa",
+    "titulo": "Rubus ulmifolius",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Blackberries_Rubus_ulmifolius2.jpg/1280px-Blackberries_Rubus_ulmifolius2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "araca-amarelo": {
+    "termo": "yellow strawberry guava fruit",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Starr-031002-0001-Psidium_cattleianum-habit_yellow_fruit_variety-Piiholo-Maui_%2824646603216%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "araca-roxo": {
+    "termo": "Psidium cattleyanum fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Goyavier_R%C3%A9union.JPG/1280px-Goyavier_R%C3%A9union.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "atemoia": {
+    "nome": "Atemoia",
+    "titulo": "Atemoia",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Webysther_20150411131320_-_Atemoya.jpg/1280px-Webysther_20150411131320_-_Atemoya.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "bacupari-de-bico": {
+    "nome": "Bacupari de bico",
+    "titulo": "Garcinia gardneriana",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Garcinia_gardneriana_%28Planch._%5E_Triana%29_Zappi_-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%2823%29.jpg/1280px-Garcinia_gardneriana_%28Planch._%5E_Triana%29_Zappi_-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%2823%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "banana-ouro": {
+    "termo": "banana fruit bunch",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Flower_Fruits_Banana_Singnally_Coorg_Jun24_A7CR_01482.jpg/1280px-Flower_Fruits_Banana_Singnally_Coorg_Jun24_A7CR_01482.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "cacau": {
+    "nome": "Cacau",
+    "titulo": "Cacau",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Cacaueiro_-_Par%C3%A1_2015.jpg/1280px-Cacaueiro_-_Par%C3%A1_2015.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "caja-manga-anao": {
+    "termo": "Spondias dulcis fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/2014-10-11_Goldpflaume_Spondias_dulcis_anagoria.JPG/1280px-2014-10-11_Goldpflaume_Spondias_dulcis_anagoria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "cambuca-jabuticaba-amarela": {
+    "termo": "Plinia edulis",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cambuca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "cambuci": {
+    "termo": "cambuci fruto",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Webysther_20190219230655_-_Fruta_do_cambuci_%28Campomanesia_phaea%29-_na_esquerda_%C3%A9_o_fruto_maduro_e_na_direita_%C3%A9_o_fruto_verde.jpg/1280px-Webysther_20190219230655_-_Fruta_do_cambuci_%28Campomanesia_phaea%29-_na_esquerda_%C3%A9_o_fruto_maduro_e_na_direita_%C3%A9_o_fruto_verde.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "cambui-roxo": {
+    "nome": "Cambui Roxo",
+    "titulo": "Eugenia candolleana",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/0/08/Eugenia_candolleana_4.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "camu-camu": {
+    "termo": "Myrciaria dubia fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Fruto_de_Myrciaria_dubia.jpg/1280px-Fruto_de_Myrciaria_dubia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "carambola-mel": {
+    "nome": "Carambola Mel",
+    "titulo": "Averrhoa carambola",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Averrhoa_carambola_ARS_k5735-7.jpg/1280px-Averrhoa_carambola_ARS_k5735-7.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "cherimoya": {
+    "termo": "Annona cherimola fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Annona_cherimola_1DS-II_3-0535.jpg/1280px-Annona_cherimola_1DS-II_3-0535.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "goiaba-amarela": {
+    "nome": "Goiaba Amarela",
+    "titulo": "Psidium guajava",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Psidium_guajava_fruit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "graviola": {
+    "nome": "Graviola",
+    "titulo": "Graviola",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Soursop_fruit.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "jabuticaba-sabara": {
+    "nome": "Jabuticaba Sabara",
+    "titulo": "Plinia cauliflora",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Jabuticaba_%28do_tupi_%C3%AEabotikaba%2C_%27gordura_de_jabuti%27%29_07.jpg/1280px-Jabuticaba_%28do_tupi_%C3%AEabotikaba%2C_%27gordura_de_jabuti%27%29_07.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "jambo-rosa": {
+    "termo": "Syzygium jambos fruit",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jambo_Rosa_%28Syzygium_jambolana%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "laranja-serra-dagua": {
+    "nome": "Laranja Serra Dagua",
+    "titulo": "Citrus × sinensis",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/b/b0/OrangeBloss_wb.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "lichia": {
+    "nome": "Lichia",
+    "titulo": "Litchi chinensis",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Lychee.jpg/1280px-Lychee.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "limao-cravo-caipira": {
+    "nome": "Limao Cravo caipira",
+    "titulo": "Rangpur lime",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Citrus_x_limonia_%282%29.jpg/1280px-Citrus_x_limonia_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "limao-galeguinho": {
+    "nome": "Limao Galeguinho",
+    "titulo": "Key lime",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Citrus_%C3%97_aurantiifolia_%28Christm.%29_Swingle_%2851906868474%29.jpg/1280px-Citrus_%C3%97_aurantiifolia_%28Christm.%29_Swingle_%2851906868474%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "limao-imperial": {
+    "nome": "Limao Imperial",
+    "titulo": "Lemon",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/e/e4/P1030323.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "limao-doce-tanjo": {
+    "termo": "Citrus limettioides",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/%22Sweet_lime_of_Salem%22.jpg/1280px-%22Sweet_lime_of_Salem%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "maca-eva": {
+    "nome": "Maca Eva",
+    "titulo": "Apple",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Pink_lady_and_cross_section.jpg/1280px-Pink_lady_and_cross_section.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "mamao": {
+    "termo": "Carica papaya fruit tree",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Brassicales_-_Carica_papaya_-_13.jpg/1280px-Brassicales_-_Carica_papaya_-_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "manga-palmer": {
+    "nome": "Manga Palmer",
+    "titulo": "Mangifera indica",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mangoes_%28Magnifera_indica%29_from_India.jpg/1280px-Mangoes_%28Magnifera_indica%29_from_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "manga-uba": {
+    "nome": "Manga uba",
+    "titulo": "Mangifera indica",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Mangoes_%28Magnifera_indica%29_from_India.jpg/1280px-Mangoes_%28Magnifera_indica%29_from_India.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "mangostao-fruta-da-rainha": {
+    "termo": "mangosteen fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Bangkok_fruit_stall.jpg/1280px-Bangkok_fruit_stall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "maracuja-gigante": {
+    "termo": "Passiflora ligularis fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Passiflora_Edulis_-_fruit.JPG/1280px-Passiflora_Edulis_-_fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "melancia": {
+    "nome": "Melancia",
+    "titulo": "Melancia",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Summer_99.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "melao-andino": {
+    "termo": "Solanum muricatum fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Solanum_muricatum%2C_Pepino_24.jpg/1280px-Solanum_muricatum%2C_Pepino_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "morango": {
+    "nome": "Morango",
+    "titulo": "Morango",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Strawberries.JPG/1280px-Strawberries.JPG?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "nectarina": {
+    "termo": "nectarine fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/2_x_Stained_fruit_-_Apple_-_Nectarine_-_2017_A.jpg/1280px-2_x_Stained_fruit_-_Apple_-_Nectarine_-_2017_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "pessego-anao": {
+    "termo": "peach fruit tree",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Autumn_Red_peaches.jpg/1280px-Autumn_Red_peaches.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "pinha": {
+    "termo": "Annona squamosa fruit",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/8/85/Annona_squamosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  "pinha-dos-astecas": {
+    "nome": "Pinha dos astecas",
+    "titulo": "Annona reticulata",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/9/99/Annona_reticulata_Blanco1.197-cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "pitanga-do-cerrado": {
+    "nome": "Pitanga do cerrado",
+    "titulo": "Eugenia calycina",
+    "fonte": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Eugenia_calycina.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  "pitaya-branca": {
+    "nome": "Pitaya Branca",
+    "titulo": "Selenicereus undatus",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pitaya_cross_section_ed2.jpg/1280px-Pitaya_cross_section_ed2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "rambuta": {
+    "nome": "Rambuta",
+    "titulo": "Rambutan",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rambutan_white_background_alt.jpg/1280px-Rambutan_white_background_alt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "roma": {
+    "termo": "Punica granatum fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Granado_%28Punica_granatum%29%2C_Mahdia%2C_T%C3%BAnez%2C_2016-09-03%2C_DD_02.jpg/1280px-Granado_%28Punica_granatum%29%2C_Mahdia%2C_T%C3%BAnez%2C_2016-09-03%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "saborosa-pytaya-do-serrado": {
+    "termo": "Selenicereus megalanthus",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/20260317_Selenicereus_megalanthus.jpg/1280px-20260317_Selenicereus_megalanthus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "seriguela": {
+    "termo": "Spondias purpurea fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Ciriguela_%28Spondias_purpurea%29_fruto_cortado_e_inteiro.jpg/1280px-Ciriguela_%28Spondias_purpurea%29_fruto_cortado_e_inteiro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "uva-brs-vitoria": {
+    "termo": "Vitis vinifera fruit",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Starr-090804-3788-Vitis_vinifera-fruit-MISC_HQ_Piiholo-Maui_%2824944998376%29.jpg/1280px-Starr-090804-3788-Vitis_vinifera-fruit-MISC_HQ_Piiholo-Maui_%2824944998376%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  "uva-isabel": {
+    "nome": "Uva Isabel",
+    "titulo": "Vitis labrusca",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vitis_labrusca_154618896.jpg/1280px-Vitis_labrusca_154618896.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  "uvaia": {
+    "nome": "Uvaia",
+    "titulo": "Uvaia",
+    "fonte": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Uvaia_Fruto1.jpg/1280px-Uvaia_Fruto1.jpg?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  }
+}

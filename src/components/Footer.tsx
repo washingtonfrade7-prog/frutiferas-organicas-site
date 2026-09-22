@@ -61,6 +61,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/aviso-de-afiliados" className="hover:text-terracotta-100 transition">Aviso de afiliados</Link></li>
               <li><Link href="/politica-de-privacidade" className="hover:text-terracotta-100 transition">Política de privacidade</Link></li>
+              <li><Link href="/creditos" className="hover:text-terracotta-100 transition">Créditos de imagens</Link></li>
               <li className="flex items-center gap-2 pt-2">
                 <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                 <a href={`mailto:${site.email}`} className="hover:text-terracotta-100 transition break-all">{site.email}</a>
