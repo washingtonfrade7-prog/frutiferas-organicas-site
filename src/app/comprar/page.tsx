@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import BotaoAfiliado from '@/components/BotaoAfiliado'
+import NewsletterCTA from '@/components/NewsletterCTA'
 import JsonLd from '@/components/JsonLd'
 import { LISTA_MERCADO_LIVRE } from '@/data/afiliados'
 import { categoriasCompra } from '@/data/produtos'
@@ -111,6 +112,14 @@ export default function ComprarPage() {
         Links de afiliado. Ao comprar por nossos links, podemos receber uma comissão sem nenhum custo
         adicional para você. Preços e disponibilidade são de responsabilidade do vendedor parceiro.
       </p>
+
+      <div className="mt-10">
+        <NewsletterCTA
+          titulo="Ofertas e dicas de cultivo no seu e-mail"
+          subtitulo="Avisamos quando aparecerem promoções de vasos, substratos e adubos nos parceiros."
+          origem="comprar"
+        />
+      </div>
     </div>
   )
 }

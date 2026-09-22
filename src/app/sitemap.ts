@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/comprar`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/melhores`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/mudas`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/curso`, lastModified: agora, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/sobre`, lastModified: agora, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/contato`, lastModified: agora, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${base}/aviso-de-afiliados`, lastModified: agora, changeFrequency: 'yearly', priority: 0.3 },

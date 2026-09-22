@@ -5,6 +5,7 @@ import FrutiferaCard from '@/components/FrutiferaCard'
 import CategoryIcon from '@/components/CategoryIcon'
 import BannerSlot from '@/components/BannerSlot'
 import YouTubeSection from '@/components/YouTubeSection'
+import NewsletterCTA from '@/components/NewsletterCTA'
 import AdSlot from '@/components/Ads'
 import { categorias } from '@/data/categorias'
 import { getDestaques, frutiferas, todosOsVideos } from '@/data/frutiferas'
@@ -191,6 +192,10 @@ export default function HomePage() {
           ctaLabel="Onde comprar"
           ctaHref="/frutiferas"
         />
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 pb-12">
+        <NewsletterCTA origem="home" />
       </section>
 
       <section className="bg-gradient-to-r from-forest-700 to-forest-900 text-white py-12">

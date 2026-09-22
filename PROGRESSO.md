@@ -72,6 +72,12 @@
   - Conteúdo gerado a partir dos dados da espécie (`src/lib/mudas.ts`): intro, faixa de preço, como escolher a muda, cuidados (luz/rega/solo/vaso) e FAQ (produz em vaso? tempo até produzir? sol? vaso?)
   - SEO: JSON-LD `FAQPage` + breadcrumb; link "onde comprar muda" na ficha de cada frutífera; sitemap e rodapé atualizados
   - Auditoria: 250 páginas, 0 erros
+- [x] E24. **Fase 4 (parte 1) — landing do produto + captura de newsletter**:
+  - Rota `/curso`: landing "Frutíferas em Vaso: do plantio à colheita" com 8 módulos, para quem é, o que inclui, FAQ e CTA de lista de espera
+  - `src/data/produto.ts` (conteúdo do produto), `src/components/NewsletterForm.tsx` (client; POST para `NEXT_PUBLIC_NEWSLETTER_ENDPOINT` ou fallback por e-mail; evento GA4 `newsletter_signup`) e `NewsletterCTA.tsx`
+  - Captura inserida na home, `/guias` e `/comprar`; link no rodapé e no sitemap
+  - SEO: JSON-LD `Course` + `FAQPage` + breadcrumb
+  - Pendente: criar o e-book/videoaulas e plugar o endpoint real (Brevo/Mailchimp/Formspree)
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO

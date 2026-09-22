@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import BannerSlot from '@/components/BannerSlot'
+import NewsletterCTA from '@/components/NewsletterCTA'
 import JsonLd from '@/components/JsonLd'
 import { topicos } from '@/data/aprender'
 import { guias } from '@/data/guias'
@@ -88,6 +89,14 @@ export default function GuiasPage() {
           subtitulo="Escolha sua frutífera e veja onde comprar mudas e insumos."
           ctaLabel="Ver frutíferas"
           ctaHref="/frutiferas"
+        />
+      </div>
+
+      <div className="mt-10">
+        <NewsletterCTA
+          titulo="Receba um guia novo por semana"
+          subtitulo="Plantio, adubação, poda e colheita explicados de forma simples, direto no seu e-mail."
+          origem="guias"
         />
       </div>
     </div>
