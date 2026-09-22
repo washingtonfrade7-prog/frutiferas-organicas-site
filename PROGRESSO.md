@@ -28,20 +28,21 @@
 - 8 guias em `/guias/[slug]`: plantio, adubacao, poda, colheita, tour, cuidados, floracao, gastronomia (texto + passo a passo + dicas + erros + FAQ + vídeos)
 
 ### FASE C — Estilo / UX (referências de grandes sites)
-- [ ] C1. Breadcrumbs + navegação
-- [ ] C2. Cards e detalhes (galeria, badges, CTA afiliado)
-- [ ] C3. Trust signals / prova social / newsletter
-- [ ] C4. Responsividade e acessibilidade
+- [x] C1. Navegação e breadcrumbs
+- [x] C2. Cards e detalhes (galeria, badges, CTA afiliado)
+- [x] C3. Links internos guias <-> frutíferas (SEO/descoberta)
+- [ ] C4. Revisão fina de acessibilidade e Lighthouse
 
 ### FASE D — Monetização
-- [ ] D1. Google AdSense (script + slots + env)
-- [ ] D2. `ads.txt` e páginas de política
-- [ ] D3. Otimização de afiliados (CTA, banners)
+- [x] D1. Google AdSense (script + slots + env `NEXT_PUBLIC_ADSENSE_CLIENT`/`_SLOT`)
+- [x] D2. `ads.txt` e política de privacidade com seção de publicidade
+- [x] D3. CTA de afiliados e banners
+- [ ] D4. Ativar AdSense após aprovação (inserir o client ID e o slot)
 
 ### FASE E — SEO / Performance / Deploy
-- [ ] E1. Sitemap/robots/JSON-LD atualizados
+- [x] E1. Sitemap/robots/JSON-LD atualizados (inclui guias)
 - [ ] E2. Lighthouse
-- [ ] E3. Deploy Vercel
+- [ ] E3. Deploy Vercel (requer login do usuário)
 
 ## Histórico
 - (ver commits do repositório)
