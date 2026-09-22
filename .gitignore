@@ -47,3 +47,6 @@ __pycache__/
 /logo youtube.png
 /BANNER FINAL.png
 /pomar-fonte.png
+
+# temporarios da auditoria (frames, thumbs, downloads)
+/auditoria/_*/
