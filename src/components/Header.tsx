@@ -58,7 +58,7 @@ export default function Header() {
                 width={36}
                 height={36}
                 priority
-                className="rounded-full ring-1 ring-white/30"
+                className="rounded-full"
               />
               <span>Frutíferas Orgânicas</span>
             </Link>
