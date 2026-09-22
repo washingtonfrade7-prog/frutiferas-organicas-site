@@ -127,7 +127,7 @@ export default function FrutiferasPage({ searchParams }: PageProps) {
           )}
 
           <div className="mt-10">
-            <AdSlot rotulo className="mb-8 min-h-[90px]" />
+            <AdSlot rotulo ezoicId={105} className="mb-8 min-h-[90px]" />
             <BannerSlot
               variante="compact"
               titulo="Não sabe por onde começar?"

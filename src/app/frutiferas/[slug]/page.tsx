@@ -194,7 +194,7 @@ export default function FrutiferaPage({ params }: PageProps) {
         </section>
       )}
 
-      <AdSlot rotulo className="mt-10 min-h-[90px]" />
+      <AdSlot rotulo ezoicId={102} className="mt-10 min-h-[90px]" />
 
       <section className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-white rounded-xl shadow-sm border border-cream-200 p-6">

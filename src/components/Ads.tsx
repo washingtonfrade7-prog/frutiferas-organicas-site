@@ -3,48 +3,77 @@
 import { useEffect } from 'react'
 import Script from 'next/script'
 
-const CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || ''
+const ADSENSE = process.env.NEXT_PUBLIC_ADSENSE_CLIENT || ''
+const EZOIC = process.env.NEXT_PUBLIC_EZOIC === '1'
 
 declare global {
   interface Window {
     adsbygoogle?: unknown[]
+    ezstandalone?: { cmd: unknown[]; showAds?: (...ids: number[]) => void }
   }
 }
 
-export function AdSenseScript() {
-  if (!CLIENT) return null
-  return (
-    <Script
-      id="adsbygoogle-init"
-      async
-      strategy="afterInteractive"
-      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${CLIENT}`}
-      crossOrigin="anonymous"
-    />
-  )
+export function AdScripts() {
+  if (EZOIC) {
+    return (
+      <Script
+        id="ezoic-init"
+        src="https://g.ezoic.net/ezoic/ezoic.js"
+        strategy="afterInteractive"
+      />
+    )
+  }
+  if (ADSENSE) {
+    return (
+      <Script
+        id="adsbygoogle-init"
+        async
+        strategy="afterInteractive"
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE}`}
+        crossOrigin="anonymous"
+      />
+    )
+  }
+  return null
 }
 
 interface AdSlotProps {
   slot?: string
+  /** ID numerico do placeholder do Ezoic (ex.: 101). */
+  ezoicId?: number
   formato?: 'auto' | 'fluid' | 'rectangle'
   layout?: string
   className?: string
   rotulo?: string | boolean
 }
 
-export default function AdSlot({ slot, formato = 'auto', layout, className = '', rotulo }: AdSlotProps) {
+export default function AdSlot({
+  slot,
+  ezoicId,
+  formato = 'auto',
+  layout,
+  className = '',
+  rotulo,
+}: AdSlotProps) {
   const slotId = slot || process.env.NEXT_PUBLIC_ADSENSE_SLOT || ''
+  const placeholderId = ezoicId ?? (slotId ? Number(slotId) : undefined)
+  const ativo = EZOIC ? Boolean(placeholderId) : Boolean(ADSENSE && slotId)
 
   useEffect(() => {
-    if (!CLIENT || !slotId) return
+    if (!ativo) return
     try {
-      ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      if (EZOIC && window.ezstandalone && placeholderId) {
+        window.ezstandalone.cmd = window.ezstandalone.cmd || []
+        window.ezstandalone.cmd.push(() => window.ezstandalone?.showAds?.(placeholderId))
+      } else if (!EZOIC && ADSENSE) {
+        ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+      }
     } catch {
       /* silencioso */
     }
-  }, [slotId])
+  }, [ativo, placeholderId])
 
-  if (!CLIENT || !slotId) return null
+  if (!ativo) return null
 
   return (
     <div className={className}>
@@ -53,15 +82,19 @@ export default function AdSlot({ slot, formato = 'auto', layout, className = '',
           {typeof rotulo === 'string' ? rotulo : 'Publicidade'}
         </p>
       )}
-      <ins
-        className="adsbygoogle block"
-        style={{ display: 'block' }}
-        data-ad-client={CLIENT}
-        data-ad-slot={slotId}
-        data-ad-format={formato}
-        data-ad-layout={layout}
-        data-full-width-responsive="true"
-      />
+      {EZOIC ? (
+        <div id={`ezoic-pub-ad-placeholder-${placeholderId}`} />
+      ) : (
+        <ins
+          className="adsbygoogle block"
+          style={{ display: 'block' }}
+          data-ad-client={ADSENSE}
+          data-ad-slot={slotId}
+          data-ad-format={formato}
+          data-ad-layout={layout}
+          data-full-width-responsive="true"
+        />
+      )}
     </div>
   )
 }

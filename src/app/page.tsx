@@ -128,7 +128,7 @@ export default function HomePage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 pb-4">
-        <AdSlot rotulo className="min-h-[90px]" />
+        <AdSlot rotulo ezoicId={101} className="min-h-[90px]" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 pb-12">

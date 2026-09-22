@@ -57,7 +57,7 @@ export default function VideosPage() {
         </div>
       </header>
 
-      <AdSlot rotulo className="mb-10 min-h-[90px]" />
+      <AdSlot rotulo ezoicId={103} className="mb-10 min-h-[90px]" />
 
       <div className="space-y-14">
         {porFruta.map((fruta) => (          <section key={fruta.slug}>

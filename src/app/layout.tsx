@@ -4,7 +4,7 @@ import { Fraunces, Inter } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import JsonLd from '@/components/JsonLd'
-import { AdSenseScript } from '@/components/Ads'
+import { AdScripts } from '@/components/Ads'
 import { organizationJsonLd, websiteJsonLd } from '@/lib/seo'
 import { site } from '@/lib/site'
 
@@ -61,7 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="flex flex-col min-h-screen">
-        <AdSenseScript />
+        <AdScripts />
         <JsonLd data={organizationJsonLd()} />
         <JsonLd data={websiteJsonLd()} />
         <Header />

@@ -70,7 +70,7 @@ export default function TopicoPage({ params }: PageProps) {
         ))}
       </article>
 
-      <AdSlot rotulo className="my-10 min-h-[90px]" />
+      <AdSlot rotulo ezoicId={104} className="my-10 min-h-[90px]" />
 
       <section className="mt-10">
         <h2 className="text-2xl font-bold mb-5 font-display">Passo a passo</h2>
