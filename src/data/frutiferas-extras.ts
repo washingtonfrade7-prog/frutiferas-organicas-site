@@ -3672,19 +3672,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "limao-cravo-caipira",
     "nome": "Limao Cravo caipira",
-    "nomeCientifico": "",
-    "familia": "",
+    "nomeCientifico": "Citrus × limonia",
+    "familia": "Rutaceae",
     "categorias": [
       "exoticas",
       "citricas",
       "vaso"
     ],
-    "resumo": "Limao Cravo caipira é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 47 vídeos sobre esta espécie.",
+    "resumo": "Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias.",
     "descricao": [
+      "Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias.",
       "Limao Cravo caipira é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 8 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Sudeste da Ásia (híbrido natural)",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",
@@ -6141,19 +6142,20 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "ubajai-pessego-do-mato",
     "nome": "Ubajai Pessego do mato",
-    "nomeCientifico": "",
-    "familia": "",
+    "nomeCientifico": "Eugenia myrcianthes",
+    "familia": "Myrtaceae",
     "categorias": [
       "nativas",
       "vaso",
       "raras"
     ],
-    "resumo": "Ubajai Pessego do mato é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie.",
+    "resumo": "Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva.",
     "descricao": [
+      "Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva.",
       "Ubajai Pessego do mato é uma das frutíferas selecionadas para cultivo em vaso. Assista aos 6 vídeos abaixo para ver plantio, poda, adubação e colheita na prática.",
       "Confira as lojas parceiras para adquirir mudas e insumos com segurança."
     ],
-    "origem": "",
+    "origem": "Brasil",
     "porte": "",
     "luz": "Sol pleno",
     "rega": "Regular, sem encharcar",

@@ -1,10 +1,4 @@
 {
-  "limao-cravo": {
-    "nomeCientifico": "Citrus × limonia",
-    "familia": "Rutaceae",
-    "origem": "Sudeste da Ásia (híbrido natural)",
-    "diferencial": "Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias."
-  },
   "limao-siciliano": {
     "nomeCientifico": "Citrus × limon",
     "familia": "Rutaceae",
@@ -59,12 +53,6 @@
     "origem": "China",
     "diferencial": "Kinkan ou kumquat: fruto pequeno e oval, de casca comestível e adocicada. Come-se inteiro, casca e tudo. Planta muito ornamental e produtiva em vaso."
   },
-  "araca-vermelho": {
-    "nomeCientifico": "Psidium cattleianum",
-    "familia": "Myrtaceae",
-    "origem": "Brasil",
-    "diferencial": "Araçá de casca vermelha, polpa branca e sabor agridoce e aromático. Muito rústico, produz cedo e em grande quantidade em vaso."
-  },
   "araca-amarelo": {
     "nomeCientifico": "Psidium cattleianum var. lucidum",
     "familia": "Myrtaceae",
@@ -77,23 +65,11 @@
     "origem": "Brasil",
     "diferencial": "Araçá de casca arroxeada/escura, sabor intenso e adocicado. Menos comum que o vermelho e o amarelo, muito procurado por colecionadores."
   },
-  "araca-boi": {
-    "nomeCientifico": "Psidium guineense",
-    "familia": "Myrtaceae",
-    "origem": "América Tropical",
-    "diferencial": "Chamado de fruta iogurte pela polpa cremosa de sabor único. Frutos grandes, muito produtivo em vaso."
-  },
   "araca-pera": {
     "nomeCientifico": "Psidium acutangulum",
     "familia": "Myrtaceae",
     "origem": "Amazônia",
     "diferencial": "Araçá de frutos em formato de pera, polpa doce e aromática. Espécie amazônica rara, de crescimento moderado."
-  },
-  "pitanga-preta": {
-    "nomeCientifico": "Eugenia uniflora",
-    "familia": "Myrtaceae",
-    "origem": "Mata Atlântica (Brasil)",
-    "diferencial": "Variedade rara de pitanga de frutos escuros, mais doces e menos ácidos que a pitanga comum, chegando a altos teores de açúcar (graus Brix)."
   },
   "pitanga-do-cerrado": {
     "nomeCientifico": "Eugenia calycina",
@@ -178,12 +154,6 @@
     "familia": "Myrtaceae",
     "origem": "Mata Atlântica (Brasil)",
     "diferencial": "Jabuticaba de casca verde-amarelada e polpa branca, mais doce e com menos tanino que a jabuticaba comum. Rara e muito valorizada."
-  },
-  "grumixama-amarela": {
-    "nomeCientifico": "Eugenia brasiliensis",
-    "familia": "Myrtaceae",
-    "origem": "Mata Atlântica (Brasil)",
-    "diferencial": "Variedade de frutos amarelos da grumixama, doces e suculentos. Rara e muito produtiva em vaso."
   },
   "grumixama-preta": {
     "nomeCientifico": "Eugenia brasiliensis",
@@ -275,16 +245,22 @@
     "origem": "Cerrado (Brasil)",
     "diferencial": "Fruto amarelo do Cerrado, suculento e levemente ácido. Muito produtivo e rústico, símbolo da fruticultura do Cerrado."
   },
-  "ubajai": {
-    "nomeCientifico": "Eugenia myrcianthes",
-    "familia": "Myrtaceae",
-    "origem": "Brasil",
-    "diferencial": "Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva."
-  },
   "pitangatuba": {
     "nomeCientifico": "Eugenia selloi",
     "familia": "Myrtaceae",
     "origem": "Mata Atlântica (Brasil)",
     "diferencial": "Fruto amarelo-alaranjado de sabor ácido e aroma intenso, excelente para sucos e sorvetes. Arbusto compacto, ideal para vaso."
+  },
+  "limao-cravo-caipira": {
+    "nomeCientifico": "Citrus × limonia",
+    "familia": "Rutaceae",
+    "origem": "Sudeste da Ásia (híbrido natural)",
+    "diferencial": "Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias."
+  },
+  "ubajai-pessego-do-mato": {
+    "nomeCientifico": "Eugenia myrcianthes",
+    "familia": "Myrtaceae",
+    "origem": "Brasil",
+    "diferencial": "Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva."
   }
 }
