@@ -127,6 +127,9 @@
   - **JSON-LD**: `datePublished`/`dateModified` nos artigos; `Product` dentro do `ItemList` nas categorias de compra; `logo` na Organization
   - **SSG x SSR**: o site usa Static Site Generation (`output: 'export'`), que entrega HTML completo no build — **equivalente/melhor que SSR para SEO** (crawler recebe tudo sem JS, e é mais rápido). Não é necessária migração para SSR
   - Verificado no ar: `/frutiferas` com 106 links, sem "Carregando"
+- [x] E40. **WebP + Search Console**:
+  - **Imagens convertidas para WebP**: 210 arquivos, **13,05 MB → 8,75 MB (−32,9%)**; referências atualizadas (frutiferas, banners, logo) e JPGs antigos removidos do servidor (`scripts/limpar-jpg.mjs`). OG image mantida em JPG
+  - **Google Search Console**: suporte a `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` no `layout.tsx`; meta tag `google-site-verification` publicada e verificada no ar (token do usuário). Sitemap acessível (258 URLs)
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
