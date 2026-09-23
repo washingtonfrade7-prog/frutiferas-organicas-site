@@ -55,3 +55,6 @@ __pycache__/
 /public/_brevo-key.php
 /public/_newsletter-config.php
 /.upload-manifest.json
+
+# painel local
+/painel/ftp.json

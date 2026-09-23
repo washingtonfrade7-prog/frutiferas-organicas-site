@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Painel — Frutíferas Orgânicas</title>
+<style>
+  :root { --verde:#1f3d2b; --verde2:#2e5b3a; --terra:#c2703d; --creme:#f4f2ec; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--creme); color:#222; }
+  header { background:var(--verde); color:#fff; padding:14px 20px; display:flex; align-items:center; justify-content:space-between; }
+  header h1 { font-size:18px; margin:0; }
+  header .status { font-size:12px; opacity:.85; }
+  nav { display:flex; gap:6px; background:#fff; padding:8px 16px; border-bottom:1px solid #e3ded2; flex-wrap:wrap; }
+  nav button { border:1px solid #ddd; background:#fff; padding:8px 16px; border-radius:999px; cursor:pointer; font-size:14px; }
+  nav button.ativo { background:var(--verde); color:#fff; border-color:var(--verde); }
+  main { max-width:1000px; margin:0 auto; padding:20px; }
+  .card { background:#fff; border:1px solid #e3ded2; border-radius:12px; padding:18px; margin-bottom:16px; }
+  label { display:block; font-size:12px; font-weight:bold; color:#555; margin:10px 0 4px; }
+  input, textarea { width:100%; padding:9px 11px; border:1px solid #ddd; border-radius:8px; font-size:14px; font-family:inherit; }
+  textarea { min-height:90px; }
+  textarea.grande { min-height:180px; font-family:Consolas,monospace; font-size:12px; }
+  .linha { display:flex; gap:12px; flex-wrap:wrap; }
+  .linha > div { flex:1; min-width:180px; }
+  button.acao { background:var(--terra); color:#fff; border:none; padding:10px 18px; border-radius:999px; cursor:pointer; font-weight:bold; }
+  button.sec { background:#fff; border:1px solid #ccc; padding:9px 16px; border-radius:999px; cursor:pointer; }
+  button.perigo { background:#b23a2e; color:#fff; border:none; padding:9px 16px; border-radius:999px; cursor:pointer; }
+  .lista { list-style:none; padding:0; margin:0; }
+  .lista li { padding:10px 12px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center; gap:10px; }
+  .lista li:hover { background:#faf8f3; }
+  .lista a { color:var(--verde2); text-decoration:none; font-weight:bold; cursor:pointer; }
+  pre#log { background:#111; color:#8f8; padding:14px; border-radius:10px; font-size:12px; max-height:420px; overflow:auto; white-space:pre-wrap; }
+  .aviso { background:#fff6e5; border:1px solid #f0d9a8; padding:10px 14px; border-radius:8px; font-size:13px; }
+  .ok { color:#2e5b3a; font-weight:bold; }
+  .erro { color:#b23a2e; font-weight:bold; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Painel — Frutíferas Orgânicas</h1>
+  <span class="status" id="status">pronto</span>
+</header>
+
+<nav>
+  <button data-tab="artigos" class="ativo">Artigos</button>
+  <button data-tab="frutiferas">Frutíferas</button>
+  <button data-tab="fotos">Fotos</button>
+  <button data-tab="publicar">Publicar</button>
+</nav>
+
+<main>
+  <!-- ARTIGOS -->
+  <section id="tab-artigos">
+    <div class="card">
+      <h3 style="margin-top:0">Artigos (guias de compra)</h3>
+      <ul class="lista" id="lista-artigos"></ul>
+      <button class="acao" onclick="novoArtigo()">+ Novo artigo</button>
+    </div>
+
+    <div class="card" id="form-artigo" style="display:none">
+      <h3 style="margin-top:0" id="form-titulo">Novo artigo</h3>
+      <div class="linha">
+        <div><label>Slug (url, sem acento/espaço)</label><input id="a-slug" /></div>
+        <div><label>Atualizado (AAAA-MM)</label><input id="a-atualizado" /></div>
+      </div>
+      <label>Título</label><input id="a-titulo" />
+      <label>H1 (título da página)</label><input id="a-h1" />
+      <label>Descrição (meta description)</label><input id="a-descricao" />
+      <label>Resumo (introdução)</label><textarea id="a-resumo"></textarea>
+      <label>Produtos relacionados (slugs separados por vírgula)</label><input id="a-produtos" />
+      <label>Seções (JSON)</label><textarea class="grande" id="a-secoes"></textarea>
+      <label>FAQ (JSON)</label><textarea class="grande" id="a-faq"></textarea>
+      <div style="margin-top:14px; display:flex; gap:10px">
+        <button class="acao" onclick="salvarArtigo()">Salvar artigo</button>
+        <button class="sec" onclick="fecharForm()">Cancelar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRUTIFERAS -->
+  <section id="tab-frutiferas" style="display:none">
+    <div class="card">
+      <h3 style="margin-top:0">Frutíferas — editar textos</h3>
+      <div class="aviso">Edite o resumo/descrição/dicas de cada frutífera. As mudanças entram no site ao publicar.</div>
+      <ul class="lista" id="lista-frutas"></ul>
+    </div>
+    <div class="card" id="form-fruta" style="display:none">
+      <h3 style="margin-top:0" id="fruta-titulo"></h3>
+      <label>Resumo</label><textarea id="f-resumo"></textarea>
+      <label>Descrição (JSON — lista de parágrafos)</label><textarea class="grande" id="f-descricao"></textarea>
+      <label>Dicas (JSON — lista)</label><textarea class="grande" id="f-dicas"></textarea>
+      <div style="margin-top:14px; display:flex; gap:10px">
+        <button class="acao" onclick="salvarFruta()">Salvar</button>
+        <button class="sec" onclick="document.getElementById('form-fruta').style.display='none'">Fechar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOTOS -->
+  <section id="tab-fotos" style="display:none">
+    <div class="card">
+      <h3 style="margin-top:0">Enviar foto</h3>
+      <div class="aviso">A imagem é recortada em 16:9, redimensionada para 800x450 e salva em <b>WebP</b> (otimizada).</div>
+      <label>Arquivo</label><input type="file" id="foto-arquivo" accept="image/*" />
+      <label>Nome (sem extensão)</label><input id="foto-nome" placeholder="ex: minha-fruta" />
+      <label>Pasta</label>
+      <select id="foto-pasta"><option value="frutiferas">frutiferas</option><option value="banners">banners</option></select>
+      <div style="margin-top:14px"><button class="acao" onclick="enviarFoto()">Enviar foto</button></div>
+      <p id="foto-resultado"></p>
+    </div>
+  </section>
+
+  <!-- PUBLICAR -->
+  <section id="tab-publicar" style="display:none">
+    <div class="card">
+      <h3 style="margin-top:0">Publicar no site</h3>
+      <div class="aviso">Isso gera o site (build) e envia para a Hostinger. Leva alguns minutos.</div>
+      <div style="margin-top:14px"><button class="acao" onclick="publicar()">Publicar agora</button></div>
+    </div>
+    <pre id="log">O log da publicação aparece aqui.</pre>
+  </section>
+</main>
+
+<script>
+let artigos = []
+let indiceAtual = -1
+let frutas = []
+let frutaAtual = null
+
+const $ = (id) => document.getElementById(id)
+const status = (t) => ($('status').textContent = t)
+
+document.querySelectorAll('nav button').forEach((b) => {
+  b.onclick = () => {
+    document.querySelectorAll('nav button').forEach((x) => x.classList.remove('ativo'))
+    b.classList.add('ativo')
+    ;['artigos','frutiferas','fotos','publicar'].forEach((t) => {
+      $('tab-' + t).style.display = t === b.dataset.tab ? 'block' : 'none'
+    })
+  }
+})
+
+// ---------------- ARTIGOS ----------------
+async function carregarArtigos() {
+  artigos = await (await fetch('/api/artigos')).json()
+  const ul = $('lista-artigos')
+  ul.innerHTML = ''
+  artigos.forEach((a, i) => {
+    const li = document.createElement('li')
+    li.innerHTML = `<span><a onclick="editarArtigo(${i})">${a.titulo}</a><br><small style="color:#888">/melhores/${a.slug}</small></span>`
+    const b = document.createElement('button')
+    b.className = 'perigo'
+    b.textContent = 'Excluir'
+    b.onclick = () => excluirArtigo(i)
+    li.appendChild(b)
+    ul.appendChild(li)
+  })
+}
+
+function novoArtigo() {
+  indiceAtual = -1
+  $('form-titulo').textContent = 'Novo artigo'
+  $('a-slug').value = ''
+  $('a-titulo').value = ''
+  $('a-h1').value = ''
+  $('a-descricao').value = ''
+  $('a-resumo').value = ''
+  $('a-produtos').value = ''
+  $('a-secoes').value = JSON.stringify([{ titulo: 'Título da seção', paragrafos: ['Primeiro parágrafo.'] }], null, 2)
+  $('a-faq').value = JSON.stringify([{ pergunta: 'Pergunta?', resposta: 'Resposta.' }], null, 2)
+  $('a-atualizado').value = new Date().toISOString().slice(0, 7)
+  $('form-artigo').style.display = 'block'
+}
+
+function editarArtigo(i) {
+  indiceAtual = i
+  const a = artigos[i]
+  $('form-titulo').textContent = 'Editar: ' + a.titulo
+  $('a-slug').value = a.slug
+  $('a-titulo').value = a.titulo
+  $('a-h1').value = a.h1
+  $('a-descricao').value = a.descricao
+  $('a-resumo').value = a.resumo
+  $('a-produtos').value = (a.produtos || []).join(', ')
+  $('a-secoes').value = JSON.stringify(a.secoes, null, 2)
+  $('a-faq').value = JSON.stringify(a.faq, null, 2)
+  $('a-atualizado').value = a.atualizado
+  $('form-artigo').style.display = 'block'
+  window.scrollTo(0, 0)
+}
+
+function fecharForm() { $('form-artigo').style.display = 'none' }
+
+async function salvarArtigo() {
+  try {
+    const artigo = {
+      slug: $('a-slug').value.trim(),
+      titulo: $('a-titulo').value.trim(),
+      h1: $('a-h1').value.trim(),
+      descricao: $('a-descricao').value.trim(),
+      resumo: $('a-resumo').value.trim(),
+      produtos: $('a-produtos').value.split(',').map((s) => s.trim()).filter(Boolean),
+      secoes: JSON.parse($('a-secoes').value),
+      faq: JSON.parse($('a-faq').value),
+      atualizado: $('a-atualizado').value.trim(),
+    }
+    if (!artigo.slug || !artigo.titulo) throw new Error('Slug e título são obrigatórios')
+    if (indiceAtual >= 0) artigos[indiceAtual] = artigo
+    else artigos.push(artigo)
+    await fetch('/api/artigos', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(artigos) })
+    fecharForm()
+    await carregarArtigos()
+    status('artigo salvo — clique em Publicar para ir ao site')
+  } catch (e) {
+    alert('Erro: ' + e.message)
+  }
+}
+
+async function excluirArtigo(i) {
+  if (!confirm('Excluir o artigo "' + artigos[i].titulo + '"?')) return
+  artigos.splice(i, 1)
+  await fetch('/api/artigos', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(artigos) })
+  carregarArtigos()
+}
+
+// ---------------- FRUTIFERAS ----------------
+async function carregarFrutas() {
+  frutas = await (await fetch('/api/frutiferas')).json()
+  const ul = $('lista-frutas')
+  ul.innerHTML = ''
+  frutas.forEach((f) => {
+    const li = document.createElement('li')
+    li.innerHTML = `<span><a onclick="editarFruta('${f.slug}')">${f.nome}</a></span>`
+    ul.appendChild(li)
+  })
+}
+
+function editarFruta(slug) {
+  const f = frutas.find((x) => x.slug === slug)
+  frutaAtual = slug
+  $('fruta-titulo').textContent = 'Editar: ' + f.nome
+  $('f-resumo').value = f.resumo || ''
+  $('f-descricao').value = JSON.stringify(f.descricao || [], null, 2)
+  $('f-dicas').value = JSON.stringify(f.dicas || [], null, 2)
+  $('form-fruta').style.display = 'block'
+  window.scrollTo(0, 0)
+}
+
+async function salvarFruta() {
+  try {
+    const campos = {
+      resumo: $('f-resumo').value.trim(),
+      descricao: JSON.parse($('f-descricao').value),
+      dicas: JSON.parse($('f-dicas').value),
+    }
+    await fetch('/api/frutifera', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug: frutaAtual, campos }) })
+    status('frutífera salva — clique em Publicar')
+    alert('Salvo! Clique em Publicar para ir ao site.')
+  } catch (e) {
+    alert('Erro: ' + e.message)
+  }
+}
+
+// ---------------- FOTOS ----------------
+async function enviarFoto() {
+  const arquivo = $('foto-arquivo').files[0]
+  const nome = $('foto-nome').value.trim() || (arquivo ? arquivo.name.replace(/\.[^.]+$/, '') : '')
+  if (!arquivo || !nome) return alert('Escolha o arquivo e informe o nome')
+  const dados = await new Promise((r) => {
+    const fr = new FileReader()
+    fr.onload = () => r(fr.result.split(',')[1])
+    fr.readAsDataURL(arquivo)
+  })
+  $('foto-resultado').textContent = 'Enviando...'
+  const resp = await (await fetch('/api/upload', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ nome, dados, pasta: $('foto-pasta').value }) })).json()
+  $('foto-resultado').innerHTML = resp.ok ? `<span class="ok">Enviado!</span> Use: <code>${resp.arquivo}</code>` : `<span class="erro">Falha: ${resp.erro}</span>`
+}
+
+// ---------------- PUBLICAR ----------------
+async function publicar() {
+  await fetch('/api/publicar', { method: 'POST' })
+  $('log').textContent = 'Publicando... (aguarde)'
+  const timer = setInterval(async () => {
+    const r = await (await fetch('/api/publicar/log')).json()
+    $('log').textContent = r.log
+    if (!r.publicando) clearInterval(timer)
+  }, 1500)
+}
+
+carregarArtigos()
+carregarFrutas()
+</script>
+</body>
+</html>

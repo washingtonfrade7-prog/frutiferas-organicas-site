@@ -7,6 +7,7 @@
     "build": "next build",
     "package": "node scripts/package.mjs",
     "preview": "node ferramentas/auditoria/serve_static.mjs out 4000",
+    "painel": "node painel/server.mjs",
     "audit": "node ferramentas/auditoria/audit_site.mjs",
     "loadtest": "node ferramentas/auditoria/load_test.mjs",
     "browser-audit": "node ferramentas/auditoria/browser_audit.mjs",
