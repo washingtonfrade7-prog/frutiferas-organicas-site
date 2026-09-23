@@ -103,6 +103,28 @@ recebe água e nutrientes o tempo todo, então praticamente não tem risco de pe
 
 ### Passo a passo
 
+<svg class="diagrama" viewBox="0 0 620 250" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="seta" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d9a62e"/></marker></defs>
+<text class="dt" x="0" y="16">Alporque — o anelamento</text>
+<rect x="55" y="40" width="44" height="180" rx="8" fill="#8a6a45"/>
+<rect x="55" y="100" width="44" height="44" fill="#efe7d6"/>
+<line x1="45" y1="100" x2="109" y2="100" stroke="#1f3d2b" stroke-width="3"/>
+<line x1="45" y1="144" x2="109" y2="144" stroke="#1f3d2b" stroke-width="3"/>
+<line x1="45" y1="100" x2="45" y2="144" stroke="#1f3d2b" stroke-width="1.5"/>
+<line x1="109" y1="100" x2="109" y2="144" stroke="#1f3d2b" stroke-width="1.5"/>
+<text class="lg" x="40" y="128" text-anchor="end">2 cm</text>
+<text class="lb" x="122" y="94">1. Dois cortes paralelos</text>
+<text class="lb" x="122" y="128">2. Casca removida</text>
+<text class="lb" x="122" y="162">3. Lenho exposto</text>
+<path d="M245 130 L295 130" stroke="#d9a62e" stroke-width="3" fill="none" marker-end="url(#seta)"/>
+<rect x="340" y="40" width="40" height="180" rx="8" fill="#8a6a45"/>
+<ellipse cx="360" cy="125" rx="48" ry="44" fill="#7a8b5a"/>
+<ellipse cx="360" cy="125" rx="48" ry="44" fill="none" stroke="#1f3d2b" stroke-width="2" stroke-dasharray="5 4"/>
+<text class="lb" x="425" y="94">4. Envolva com substrato úmido</text>
+<text class="lb" x="425" y="128">5. Cubra com plástico e amarre</text>
+<text class="lb" x="425" y="162">6. Separe só com raiz firme</text>
+</svg>
+
 1. **Escolha um galho** do ano, de 1 a 2 cm de espessura, com boa exposição ao sol.
 2. **Anelar a casca:** com uma faca limpa, faça dois cortes paralelos (1,5 a 2 cm de distância) e
    remova a casca e a camada verde entre eles, deixando o **lenho branco à mostra**. É esse ferimento
@@ -142,6 +164,25 @@ produção mais cedo.
 - Para ter **várias variedades** num mesmo pé (enxertia múltipla).
 
 ### Garfagem (o mais indicado para iniciantes)
+
+<svg class="diagrama" viewBox="0 0 620 265" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="seta2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d9a62e"/></marker></defs>
+<text class="dt" x="0" y="16">Enxertia por garfagem — o encaixe em "V"</text>
+<rect x="80" y="150" width="42" height="88" rx="6" fill="#8a6a45"/>
+<path d="M80 150 L101 184 L122 150 Z" fill="#efe7d6"/>
+<text class="lb" x="42" y="256">Cavalo (raiz)</text>
+<text class="lg" x="130" y="172">entalhe em V</text>
+<rect x="80" y="52" width="42" height="72" rx="6" fill="#a8865a"/>
+<path d="M80 124 L101 158 L122 124 Z" fill="#a8865a"/>
+<text class="lb" x="42" y="44">Garfo (copa)</text>
+<text class="lg" x="130" y="118">base em cunha</text>
+<path d="M255 150 L315 150" stroke="#d9a62e" stroke-width="3" fill="none" marker-end="url(#seta2)"/>
+<rect x="400" y="62" width="42" height="176" rx="6" fill="#8a6a45"/>
+<rect x="400" y="62" width="42" height="78" rx="6" fill="#a8865a"/>
+<rect x="394" y="134" width="54" height="18" rx="4" fill="#2e5b3a"/>
+<text class="lb" x="368" y="256">Amarrado e vedado</text>
+<text class="lg" x="452" y="148">câmbio no câmbio</text>
+</svg>
 
 1. Escolha o **cavalo** (muda de 1 cm de diâmetro) e o **garfo** (ramo da planta produtiva, com 2 a 3
    gemas).

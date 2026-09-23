@@ -260,6 +260,11 @@ th { background: #f3f3ee; }
 .figura { margin: 14px 0; page-break-inside: avoid; text-align: center; }
 .figura img { width: 100%; max-width: 150mm; border-radius: 8px; }
 .figura figcaption { font-size: 9.5pt; color: #6b6559; margin-top: 5px; font-style: italic; }
+.diagrama { display: block; width: 100%; max-width: 150mm; margin: 14px auto; page-break-inside: avoid; }
+.diagrama text { font-family: Georgia, 'Times New Roman', serif; }
+.diagrama .dt { font-size: 15px; font-weight: bold; fill: #1f3d2b; }
+.diagrama .lb { font-size: 12px; fill: #2b2720; }
+.diagrama .lg { font-size: 11px; fill: #6b6559; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }

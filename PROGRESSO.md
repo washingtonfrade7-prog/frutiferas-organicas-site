@@ -281,6 +281,15 @@ Saída completa em `ferramentas/curso/out/`:
 Pendente desta rodada: **diagramas** do alporque (anelamento) e da garfagem (entalhe em V);
 trilha de viola caipira nos vídeos (edição do canal, fora do escopo do site).
 
+## Produto — rodada de melhorias (v5)
+- **Fotos de abertura de capítulo**: trocados os frames de vídeo (que ficaram ruins) pelas
+  **fotos curadas do site** (`public/frutiferas/*.webp`), uma por capítulo, com legenda.
+  Marcador `<!-- IMG:slug | legenda -->`. Redimensionadas para 1000 px/JPEG 78 antes de embutir
+  (o e-book caiu de 8,6 MB para 1,4 MB).
+- **Diagramas em SVG** no módulo de multiplicação: anelamento do alporque (3 passos) e
+  encaixe em "V" da garfagem (cavalo + garfo + resultado amarrado). Inline no markdown, com CSS
+  `.diagrama`.
+
 
 
 
