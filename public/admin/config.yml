@@ -4,7 +4,7 @@ backend:
   branch: main
   # OAuth proprio (roda no seu dominio, em PHP) — veja /admin/oauth/
   base_url: https://frutiferasorganicas.com.br/admin/oauth
-  auth_endpoint: auth
+  auth_endpoint: auth.php
 
 site_url: https://frutiferasorganicas.com.br
 display_url: https://frutiferasorganicas.com.br

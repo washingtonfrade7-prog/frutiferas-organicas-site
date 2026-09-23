@@ -7,6 +7,10 @@ DirectorySlash Off
 RewriteEngine On
 RewriteBase /
 
+# OAuth do CMS: caminhos sem extensao -> arquivos .php
+RewriteRule ^admin/oauth/auth/?$ /admin/oauth/auth.php [L]
+RewriteRule ^admin/oauth/callback/?$ /admin/oauth/callback.php [L]
+
 # 1) Remove barra final (301), exceto na raiz e em /admin (o CMS precisa da barra)
 RewriteCond %{REQUEST_URI} !^$
 RewriteCond %{REQUEST_URI} !^/admin/?$
