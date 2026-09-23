@@ -40,6 +40,9 @@ export const metadata: Metadata = {
   creator: site.name,
   robots: { index: true, follow: true },
   alternates: { canonical: '/' },
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+    : {}),
   openGraph: {
     locale: 'pt_BR',
     type: 'website',
