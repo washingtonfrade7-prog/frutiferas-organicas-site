@@ -6,7 +6,7 @@
 
 ## Sobre este material
 
-<!-- IMG:uva-isabel | Uva Isabel: uma das frutíferas que enraízam com mais facilidade por estaquia -->
+<!-- POMAR:cacho-uva-no-pe | Uva carregada no pé: uma das frutíferas que enraízam com mais facilidade por estaquia -->
 
 Este é o módulo imersivo de multiplicação do guia **Cultivo de Frutíferas Orgânicas em Vasos**. Aqui
 você aprende, passo a passo, a **fazer as suas próprias mudas** — e a nunca mais depender de comprar
