@@ -134,12 +134,13 @@ const server = createServer(async (req, res) => {
 
   // Artigos
   if (rota === '/api/artigos' && req.method === 'GET') {
-    return responder(res, 200, lerJson(ARQ_ARTIGOS, []))
+    const dados = lerJson(ARQ_ARTIGOS, { artigos: [] })
+    return responder(res, 200, dados.artigos || [])
   }
   if (rota === '/api/artigos' && req.method === 'POST') {
     const dados = await corpo(req)
     if (!Array.isArray(dados)) return responder(res, 400, { erro: 'formato invalido' })
-    writeFileSync(ARQ_ARTIGOS, JSON.stringify(dados, null, 2))
+    writeFileSync(ARQ_ARTIGOS, JSON.stringify({ artigos: dados }, null, 2))
     return responder(res, 200, { ok: true, total: dados.length })
   }
 

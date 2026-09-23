@@ -14,7 +14,7 @@ export interface ArtigoComercial {
   atualizado: string
 }
 
-export const artigosComerciais: ArtigoComercial[] = artigos as ArtigoComercial[]
+export const artigosComerciais: ArtigoComercial[] = (artigos as { artigos: ArtigoComercial[] }).artigos
 
 export function getArtigoComercial(slug: string): ArtigoComercial | undefined {
   return artigosComerciais.find((a) => a.slug === slug)

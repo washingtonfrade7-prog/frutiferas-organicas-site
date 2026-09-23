@@ -35,7 +35,7 @@ const dados = frutiferas.map((f) => ({
 }))
 
 mkdirSync(path.join(RAIZ, 'content'), { recursive: true })
-writeFileSync(path.join(RAIZ, 'content', 'frutiferas.json'), JSON.stringify(dados, null, 2))
+writeFileSync(path.join(RAIZ, 'content', 'frutiferas.json'), JSON.stringify({ frutiferas: dados }, null, 2))
 rmSync(TEMP, { recursive: true, force: true })
 
 console.log('frutiferas.json gerado com', dados.length, 'frutiferas')

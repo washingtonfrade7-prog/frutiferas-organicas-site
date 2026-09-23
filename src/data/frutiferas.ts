@@ -483,7 +483,7 @@ const frutiferasManuais: Frutifera[] = [
 type OverrideFruta = { slug: string; imagem?: string; galeria?: string[]; resumo?: string }
 
 const mapaOverrides: Record<string, OverrideFruta> = Object.fromEntries(
-  (overridesFrutiferas as OverrideFruta[]).map((o) => [o.slug, o])
+  (overridesFrutiferas as { frutiferas: OverrideFruta[] }).frutiferas.map((o) => [o.slug, o])
 )
 
 // Aplica as edicoes feitas no CMS (content/frutiferas.json) sobre os dados base.
