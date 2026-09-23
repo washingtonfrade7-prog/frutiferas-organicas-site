@@ -290,6 +290,28 @@ trilha de viola caipira nos vídeos (edição do canal, fora do escopo do site).
   encaixe em "V" da garfagem (cavalo + garfo + resultado amarrado). Inline no markdown, com CSS
   `.diagrama`.
 
+## Produto — rodada de melhorias (v6)
+- **Fotos macro reais** (Wikimedia Commons, licenças livres) no módulo de multiplicação:
+  `alporque-macro.jpg` (CC BY-SA 4.0, Drenisa), `garfagem-v.jpg` (GFDL),
+  `enxerto-citros.jpg` (CC BY-SA 4.0, Dr. Chinchu C.), `garfagem-macro.jpg` (CC0).
+  Marcador `<!-- MACRO:arquivo | legenda -->`, com CSS `.figura.macro` (máx. 95 mm) e seção
+  "Créditos das imagens" no upsell. Upsell: 18 → 22 páginas.
+  *Download pelo PowerShell `Invoke-WebRequest` (o Python do venv falha por SSL expirado).*
+- **Catálogo interativo no site**: `/frutiferas` ganhou filtros por **situação**
+  (`src/data/situacoes.ts`: primeira frutífera, colheita rápida, produz o ano todo, pouco espaço,
+  sol forte, meia-sombra, nativas raras, varandas com vento), **dificuldade** e **luz**, com
+  deep-link (`?sit=`, `?dif=`, `?luz=`). O e-book aponta para ele com botão
+  `<!-- QR:catalogo-interativo -->`.
+- **Calendário `.ics` do plano de 90 dias**: `ferramentas/curso/gerar_calendario.py` gera
+  `out/Calendario-Frutiferas-90-dias.ics` com **43 eventos + 43 alarmes** (teste do dedo, inspeção
+  de pragas, bokashi a cada 30-45 dias, adubo líquido, poda de limpeza, balanço dos 90 dias e
+  renovação do substrato em 2 anos). Seção "Lembretes automáticos no celular" no Workbook.
+- **Guia da trilha de moda de viola**: `TRILHA-MODA-DE-VIOLA.md` (não é possível gerar música).
+  Fontes livres (YouTube Audio Library, Pixabay, FMA, Musopen), termos de busca, teste de 15 s,
+  tabela de volume/ducking, mapa da trilha por cena em 8 min e checklist de publicação.
+- **Workbook**: 9 → 10 páginas. E-book: 67 páginas · 1,46 MB. Bump: 17 páginas · 226 KB.
+  Upsell: 22 páginas · 957 KB.
+
 
 
 

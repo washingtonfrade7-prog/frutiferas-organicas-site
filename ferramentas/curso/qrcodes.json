@@ -54,6 +54,11 @@
     "rotulo": "Guia: gastronomia com frutas",
     "arquivo": "qrcodes/guia-gastronomia.png"
   },
+  "catalogo-interativo": {
+    "url": "https://frutiferasorganicas.com.br/frutiferas",
+    "rotulo": "Catálogo interativo (filtre por situação)",
+    "arquivo": "qrcodes/catalogo-interativo.png"
+  },
   "video-poda-jabuticaba": {
     "url": "https://www.youtube.com/watch?v=cQAsGpzPlk0",
     "rotulo": "Vídeo: como podar jabuticaba",

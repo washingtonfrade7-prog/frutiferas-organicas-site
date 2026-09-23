@@ -30,6 +30,10 @@ ALVOS = {
     "guia-problemas": (f"{SITE}/guias/problemas", "Guia: problemas comuns"),
     "guia-especies": (f"{SITE}/guias/especies", "Guia: escolher a frutífera"),
     "guia-gastronomia": (f"{SITE}/guias/gastronomia", "Guia: gastronomia com frutas"),
+    "catalogo-interativo": (
+        f"{SITE}/frutiferas",
+        "Catálogo interativo (filtre por situação)",
+    ),
     "video-poda-jabuticaba": (
         "https://www.youtube.com/watch?v=cQAsGpzPlk0",
         "Vídeo: como podar jabuticaba",

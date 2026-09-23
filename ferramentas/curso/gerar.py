@@ -260,6 +260,7 @@ th { background: #f3f3ee; }
 .figura { margin: 14px 0; page-break-inside: avoid; text-align: center; }
 .figura img { width: 100%; max-width: 150mm; border-radius: 8px; }
 .figura figcaption { font-size: 9.5pt; color: #6b6559; margin-top: 5px; font-style: italic; }
+.figura.macro img { max-width: 95mm; }
 .diagrama { display: block; width: 100%; max-width: 150mm; margin: 14px auto; page-break-inside: avoid; }
 .diagrama text { font-family: Georgia, 'Times New Roman', serif; }
 .diagrama .dt { font-size: 15px; font-weight: bold; fill: #1f3d2b; }
@@ -445,11 +446,36 @@ def substituir_imagens(texto):
     return IMG_RE.sub(repl, texto)
 
 
+# --- Fotos macro (enxertia/alporque, Wikimedia Commons) ------------------------
+MACRO_RE = re.compile(r"<!--\s*MACRO:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
+
+MACRO_HTML = (
+    "<figure class=\"figura macro\">"
+    "<img src=\"{src}\" alt=\"{legenda}\"/>"
+    "<figcaption>{legenda}</figcaption>"
+    "</figure>"
+)
+
+
+def substituir_macros(texto):
+    def repl(m):
+        nome = m.group(1) + ".jpg"
+        legenda = m.group(2)
+        caminho = os.path.join(CURSO_DIR, "macro", nome)
+        if not os.path.exists(caminho):
+            return ""
+        b64, mime = _imagem_b64(caminho, largura=900, qualidade=80)
+        return MACRO_HTML.format(src=f"data:{mime};base64,{b64}", legenda=legenda)
+
+    return MACRO_RE.sub(repl, texto)
+
+
 def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao"):
     texto = open(md_path, encoding="utf-8").read()
     if extra_md is not None:
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
     texto = substituir_imagens(texto)
+    texto = substituir_macros(texto)
     texto = substituir_ofertas(texto)
     texto = substituir_qr(texto, modo)
     corpo = markdown.markdown(texto, extensions=["extra", "sane_lists", "toc"])
@@ -535,7 +561,15 @@ CATEGORIAS = [
 def gerar_catalogo(frutiferas):
     """Monta o catalogo markdown, cada frutifera em uma unica categoria."""
     usados = set()
-    partes = []
+    partes = [
+        "> **Versão interativa:** no site você filtra o catálogo por situação — "
+        "*primeira frutífera*, *colheita rápida*, *pouco espaço*, *sol forte*, *meia-sombra*, "
+        "*nativas raras* e *varandas com vento* — além de dificuldade e luz. "
+        "Use quando ainda não sabe qual espécie escolher.",
+        "",
+        "<!-- QR:catalogo-interativo -->",
+        "",
+    ]
     for chave, titulo in CATEGORIAS:
         grupo = [f for f in frutiferas if chave in (f.get("categorias") or []) and f["slug"] not in usados]
         if not grupo:
@@ -661,6 +695,19 @@ def gerar_bonus(frutiferas):
         "| Floração | Organomineral com mais fósforo/potássio | A cada 30 dias | |",
         "| Frutificação | Adubo líquido diluído na rega | A cada 15-20 dias | |",
         "| Repouso (frio/pós-colheita) | Suspender ou reduzir | — | |",
+        "",
+        "### Lembretes automáticos no celular",
+        "",
+        "Junto com este workbook vem o arquivo **Calendario-Frutiferas-90-dias.ics**. Importe-o no "
+        "calendário do celular e você passa a receber **aviso automático** de cada tarefa: teste do "
+        "dedo, inspeção de pragas, bokashi a cada 30-45 dias, adubo líquido, poda de limpeza e a "
+        "renovação do substrato (2 anos). São 43 lembretes.",
+        "",
+        "- **Android:** toque no arquivo e escolha o app de calendário.",
+        "- **iPhone:** toque no arquivo e escolha *Adicionar ao Calendário*.",
+        "- **Computador:** abra no Google Agenda e importe em *Configurações > Importar*.",
+        "",
+        "Assim você não depende da memória: o celular avisa na hora certa.",
         "",
         "---",
         "",

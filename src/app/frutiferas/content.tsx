@@ -6,19 +6,26 @@ import FrutiferaCard from '@/components/FrutiferaCard'
 import BannerSlot from '@/components/BannerSlot'
 import AdSlot from '@/components/Ads'
 import { categorias, getCategoria } from '@/data/categorias'
+import { situacoes, getSituacao } from '@/data/situacoes'
 import { frutiferas } from '@/data/frutiferas'
 
 function normalizar(texto: string): string {
   return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
 }
 
+const DIFICULDADES = ['Fácil', 'Média', 'Avançada']
+const LUZES = ['Sol pleno', 'Meia-sombra']
+
 export default function FrutiferasContent() {
   // O estado inicial e vazio para que o HTML estatico (SSG) inclua TODAS as
   // frutiferas (bom para indexacao). Depois de hidratar, lemos os parametros
-  // da URL (?cat= e ?q=) e aplicamos o filtro.
+  // da URL (?cat=, ?q=, ?sit=, ?dif=, ?luz=) e aplicamos o filtro.
   const [cat, setCat] = useState('')
   const [busca, setBusca] = useState('')
   const [termo, setTermo] = useState('')
+  const [sit, setSit] = useState('')
+  const [dif, setDif] = useState('')
+  const [luz, setLuz] = useState('')
 
   useEffect(() => {
     function lerParams() {
@@ -27,6 +34,9 @@ export default function FrutiferasContent() {
       const q = params.get('q') || ''
       setBusca(q)
       setTermo(q)
+      setSit(params.get('sit') || '')
+      setDif(params.get('dif') || '')
+      setLuz(params.get('luz') || '')
     }
     lerParams()
     window.addEventListener('popstate', lerParams)
@@ -42,6 +52,12 @@ export default function FrutiferasContent() {
   const lista = useMemo(() => {
     let itens = frutiferas
     if (cat) itens = itens.filter((f) => f.categorias.includes(cat))
+    if (sit) {
+      const s = getSituacao(sit)
+      if (s) itens = itens.filter((f) => s.slugs.includes(f.slug))
+    }
+    if (dif) itens = itens.filter((f) => normalizar(f.dificuldade).includes(normalizar(dif)))
+    if (luz) itens = itens.filter((f) => normalizar(f.luz).includes(normalizar(luz)))
     if (termo.trim()) {
       const t = normalizar(termo)
       itens = itens.filter(
@@ -52,9 +68,18 @@ export default function FrutiferasContent() {
       )
     }
     return itens
-  }, [cat, termo])
+  }, [cat, termo, sit, dif, luz])
 
   const catSelecionada = cat ? getCategoria(cat) : undefined
+  const sitSelecionada = sit ? getSituacao(sit) : undefined
+
+  function limpar() {
+    setCat('')
+    setBusca('')
+    setSit('')
+    setDif('')
+    setLuz('')
+  }
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
@@ -104,6 +129,32 @@ export default function FrutiferasContent() {
         </aside>
 
         <div className="flex-1 min-w-0">
+          <div className="mb-5">
+            <h2 className="text-sm font-bold text-ink-900 mb-2">O que você procura?</h2>
+            <div className="flex flex-wrap gap-2">
+              {situacoes.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={`/frutiferas?sit=${s.slug}`}
+                  onClick={() => setSit(s.slug)}
+                  title={s.descricao}
+                  className={`px-3 py-1.5 rounded-full text-sm border transition ${sit === s.slug ? 'bg-forest-600 text-white border-forest-600 font-medium' : 'bg-white text-ink-600 border-cream-200 hover:border-forest-300 hover:text-forest-600'}`}
+                >
+                  {s.nome}
+                </Link>
+              ))}
+              {sit && (
+                <button
+                  type="button"
+                  onClick={() => setSit('')}
+                  className="px-3 py-1.5 rounded-full text-sm text-terracotta-700 hover:underline"
+                >
+                  limpar
+                </button>
+              )}
+            </div>
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-3 mb-6">
             <input
               type="search"
@@ -112,23 +163,48 @@ export default function FrutiferasContent() {
               placeholder="Buscar frutífera pelo nome..."
               className="border border-cream-200 rounded-lg px-4 py-2.5 flex-1 text-sm focus:outline-none focus:ring-2 focus:ring-forest-200 focus:border-forest-600"
             />
+            <select
+              value={dif}
+              onChange={(e) => setDif(e.target.value)}
+              aria-label="Filtrar por dificuldade"
+              className="border border-cream-200 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-forest-200"
+            >
+              <option value="">Dificuldade: todas</option>
+              {DIFICULDADES.map((d) => (
+                <option key={d} value={d}>{d}</option>
+              ))}
+            </select>
+            <select
+              value={luz}
+              onChange={(e) => setLuz(e.target.value)}
+              aria-label="Filtrar por luz"
+              className="border border-cream-200 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-forest-200"
+            >
+              <option value="">Luz: todas</option>
+              {LUZES.map((l) => (
+                <option key={l} value={l}>{l}</option>
+              ))}
+            </select>
           </div>
+
+          {sitSelecionada && (
+            <p className="text-sm text-ink-500 mb-3">
+              <strong className="text-ink-900">{sitSelecionada.nome}:</strong> {sitSelecionada.descricao}
+            </p>
+          )}
 
           <p className="text-sm text-ink-500 mb-4">{lista.length} frutífera(s) encontrada(s)</p>
 
           {lista.length === 0 ? (
             <div className="text-center py-16">
               <p className="text-ink-500">Nenhuma frutífera encontrada.</p>
-              <Link
-                href="/frutiferas"
-                onClick={() => {
-                  setCat('')
-                  setBusca('')
-                }}
+              <button
+                type="button"
+                onClick={limpar}
                 className="text-forest-600 text-sm hover:underline mt-2 inline-block"
               >
                 Limpar filtros
-              </Link>
+              </button>
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">

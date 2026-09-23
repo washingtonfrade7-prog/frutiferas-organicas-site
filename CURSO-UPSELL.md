@@ -125,6 +125,8 @@ recebe água e nutrientes o tempo todo, então praticamente não tem risco de pe
 <text class="lb" x="425" y="162">6. Separe só com raiz firme</text>
 </svg>
 
+<!-- MACRO:alporque-macro | Alporque real: o substrato úmido envolve o trecho anelado do galho, protegido por plástico até sair a raiz -->
+
 1. **Escolha um galho** do ano, de 1 a 2 cm de espessura, com boa exposição ao sol.
 2. **Anelar a casca:** com uma faca limpa, faça dois cortes paralelos (1,5 a 2 cm de distância) e
    remova a casca e a camada verde entre eles, deixando o **lenho branco à mostra**. É esse ferimento
@@ -163,6 +165,8 @@ produção mais cedo.
 - Para recuperar uma planta que perdeu a copa.
 - Para ter **várias variedades** num mesmo pé (enxertia múltipla).
 
+<!-- MACRO:enxerto-citros | Enxerto de citros já pegado: a fita protege a união e os brotos novos saem acima dela -->
+
 ### Garfagem (o mais indicado para iniciantes)
 
 <svg class="diagrama" viewBox="0 0 620 265" xmlns="http://www.w3.org/2000/svg">
@@ -183,6 +187,8 @@ produção mais cedo.
 <text class="lb" x="368" y="256">Amarrado e vedado</text>
 <text class="lg" x="452" y="148">câmbio no câmbio</text>
 </svg>
+
+<!-- MACRO:garfagem-v | Macro de um enxerto já pegado: no meio, o calo de cicatrização — é ali que o câmbio (a camada verde) das duas partes se une -->
 
 1. Escolha o **cavalo** (muda de 1 cm de diâmetro) e o **garfo** (ramo da planta produtiva, com 2 a 3
    gemas).
@@ -372,6 +378,17 @@ você vê enxertias, alporques e colheitas acontecendo de verdade.
 <!-- QR:site -->
 
 Dúvida? Deixe um comentário em qualquer vídeo. Eu leio e respondo.
+
+---
+
+## Créditos das imagens
+
+As fotografias de enxertia e alporque usadas neste módulo vêm do Wikimedia Commons e são de uso
+livre, com atribuição:
+
+- **Alporque** — foto de Drenisa, licença CC BY-SA 4.0.
+- **Enxerto já pegado (citros)** — foto de Dr. Chinchu C., licença CC BY-SA 4.0.
+- **Macro do calo de cicatrização** — Wikimedia Commons, licença GFDL.
 
 ---
 

@@ -76,6 +76,16 @@ Imprima esta página, cole as fotos ou escreva ao lado o que mudou. A foto do **
 | Frutificação | Adubo líquido diluído na rega | A cada 15-20 dias | |
 | Repouso (frio/pós-colheita) | Suspender ou reduzir | — | |
 
+### Lembretes automáticos no celular
+
+Junto com este workbook vem o arquivo **Calendario-Frutiferas-90-dias.ics**. Importe-o no calendário do celular e você passa a receber **aviso automático** de cada tarefa: teste do dedo, inspeção de pragas, bokashi a cada 30-45 dias, adubo líquido, poda de limpeza e a renovação do substrato (2 anos). São 43 lembretes.
+
+- **Android:** toque no arquivo e escolha o app de calendário.
+- **iPhone:** toque no arquivo e escolha *Adicionar ao Calendário*.
+- **Computador:** abra no Google Agenda e importe em *Configurações > Importar*.
+
+Assim você não depende da memória: o celular avisa na hora certa.
+
 ---
 
 ## 5. Inspeção semanal de pragas
