@@ -35,7 +35,7 @@ Enquanto isso, dá uma olhada nas fichas de cultivo no site:
 https://frutiferasorganicas.com.br/frutiferas
 
 Um abraço,
-Washington Frade
+Washington Carlos Frade
 Canal Frutíferas Orgânicas
 
 ---
@@ -85,7 +85,7 @@ Washington
 
 ---
 
-## Versão HTML (E-mail 1 — pronta para colar no Brevo)
+## Versão HTML (E-mail 1 — pronta para colar no MailerLite)
 
 ```html
 <!DOCTYPE html>
@@ -121,7 +121,7 @@ Washington
               <a href="https://frutiferasorganicas.com.br/frutiferas" style="display:inline-block;padding:12px 24px;color:#ffffff;font-size:15px;font-weight:bold;text-decoration:none;">Ver fichas de cultivo</a>
             </td>
           </tr></table>
-          <p style="font-size:15px;line-height:1.6;margin:22px 0 0;">Um abraço,<br/>Washington Frade<br/><span style="color:#666;">Canal Frutíferas Orgânicas</span></p>
+          <p style="font-size:15px;line-height:1.6;margin:22px 0 0;">Um abraço,<br/>Washington Carlos Frade<br/><span style="color:#666;">Canal Frutíferas Orgânicas</span></p>
         </td></tr>
         <tr><td style="background:#f4f2ec;padding:16px 28px;font-size:11px;color:#777;line-height:1.5;">
           Você recebe este e-mail porque se inscreveu em frutiferasorganicas.com.br.
@@ -163,7 +163,7 @@ Se o bloco **Custom HTML** der erro ao salvar, monte o e-mail arrastando os bloc
 | 4 | **Lista (List)** | `Dicas práticas de cultivo em vaso (uma por semana)` · `Novidades e colheitas do canal` · `Avisos de promoções de mudas, vasos e insumos` · `Em primeira mão: o guia Frutíferas em Vaso: do plantio à colheita` |
 | 5 | **Texto (Text)** | `Dica rápida: antes de comprar qualquer muda, veja quantas horas de sol direto o seu espaço recebe — frutífera sem sol não frutifica.` |
 | 6 | **Botão (Button)** | Texto: `Ver fichas de cultivo` · Link: `https://frutiferasorganicas.com.br/frutiferas` |
-| 7 | **Texto (Text)** | `Um abraço, Washington Frade — Canal Frutíferas Orgânicas` |
+| 7 | **Texto (Text)** | `Um abraço, Washington Carlos Frade — Canal Frutíferas Orgânicas` |
 
 **Configurações do e-mail:**
 - **Assunto:** `Você está na lista! 🌱`

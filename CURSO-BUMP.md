@@ -1,6 +1,6 @@
 # Adubação Orgânica Descomplicada
 
-**Por Washington Frade — canal Frutíferas Orgânicas**
+**Por Washington Carlos Frade — canal Frutíferas Orgânicas**
 
 ---
 

@@ -16,7 +16,7 @@ e publicar na Hotmart/Kiwify. Baseado no que já existe no canal e no site.
 | Bônus | Fichas de cultivo (usar o conteúdo do site) + Checklist de rega e adubação (PDF) |
 | Preço sugerido | R$ 47 a R$ 97 no lançamento (desconto para a lista de espera) |
 | Onde vender | Hotmart ou Kiwify; página de vendas = rota `/curso` do site |
-| Autor | Washington Frade — canal Frutíferas Orgânicas (88 mil inscritos) |
+| Autor | Washington Carlos Frade — canal Frutíferas Orgânicas (88 mil inscritos) |
 
 **Diferencial:** não é teoria. Todo o material nasce dos vídeos de colheita/plantio do próprio canal,
 com fotos e provas reais.

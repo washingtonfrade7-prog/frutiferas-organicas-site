@@ -1,6 +1,6 @@
 # Multiplicação de Mudas na Prática
 
-**Por Washington Frade — canal Frutíferas Orgânicas**
+**Por Washington Carlos Frade — canal Frutíferas Orgânicas**
 
 ---
 

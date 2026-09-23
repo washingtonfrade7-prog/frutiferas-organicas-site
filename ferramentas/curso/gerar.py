@@ -261,6 +261,10 @@ th { background: #f3f3ee; }
 .figura img { width: 100%; max-width: 150mm; border-radius: 8px; }
 .figura figcaption { font-size: 9.5pt; color: #6b6559; margin-top: 5px; font-style: italic; }
 .figura.macro img { max-width: 95mm; }
+.galeria { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+.galeria .galeria-item { margin: 0; page-break-inside: avoid; }
+.galeria .galeria-item img { width: 100%; height: 56mm; object-fit: cover; border-radius: 8px; }
+.galeria .galeria-item figcaption { font-size: 9pt; line-height: 1.35; }
 .diagrama { display: block; width: 100%; max-width: 150mm; margin: 14px auto; page-break-inside: avoid; }
 .diagrama text { font-family: Georgia, 'Times New Roman', serif; }
 .diagrama .dt { font-size: 15px; font-weight: bold; fill: #1f3d2b; }
@@ -270,7 +274,10 @@ th { background: #f3f3ee; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }
 .cover .sub { font-size: 13pt; color: #555; }
-.cover .by { margin-top: 40px; font-size: 12pt; color: #333; }
+.cover .autor { width: 122mm; max-width: 100%; border-radius: 10px; margin: 26px auto 0; display: block; }
+.cover .by { margin-top: 22px; font-size: 13pt; color: #333; }
+.cover .by strong { font-size: 15pt; color: #1f3d2b; }
+.cover .by .canal { display: block; margin-top: 4px; font-size: 11.5pt; color: #6b6559; }
 """
 
 COVER = """
@@ -278,9 +285,19 @@ COVER = """
   <div class="tag">Frutíferas Orgânicas</div>
   <h1>{titulo}</h1>
   <div class="sub">{subtitulo}</div>
-  <div class="by">por Washington Frade<br/>canal Frutíferas Orgânicas</div>
+  {foto}
+  <div class="by">por <strong>Washington Carlos Frade</strong>
+    <span class="canal">canal Frutíferas Orgânicas</span></div>
 </div>
 """
+
+
+def _foto_autor_html():
+    caminho = os.path.join(CURSO_DIR, "imagens", "autor-capa.jpg")
+    if not os.path.exists(caminho):
+        return ""
+    b64, mime = _imagem_b64(caminho, largura=1600, qualidade=82)
+    return f"<img class=\"autor\" src=\"data:{mime};base64,{b64}\" alt=\"Washington Carlos Frade\"/>"
 
 # --- QR codes (pontes multimidia) ---------------------------------------------
 QRS = {}
@@ -470,19 +487,68 @@ def substituir_macros(texto):
     return MACRO_RE.sub(repl, texto)
 
 
+# --- Fotos do pomar do autor (pasta imagens/pomar) -----------------------------
+POMAR_RE = re.compile(r"<!--\s*POMAR:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
+GALERIA_RE = re.compile(r"<!--\s*GALERIA\s*-->")
+
+
+def _foto_pomar(nome, legenda, largura=1000, qualidade=78, classe="figura"):
+    caminho = os.path.join(CURSO_DIR, "imagens", "pomar", nome + ".jpg")
+    if not os.path.exists(caminho):
+        return ""
+    b64, mime = _imagem_b64(caminho, largura=largura, qualidade=qualidade)
+    return (
+        f"<figure class=\"{classe}\">"
+        f"<img src=\"data:{mime};base64,{b64}\" alt=\"{legenda}\"/>"
+        f"<figcaption>{legenda}</figcaption></figure>"
+    )
+
+
+def substituir_pomar(texto):
+    def repl(m):
+        return _foto_pomar(m.group(1), m.group(2))
+
+    return POMAR_RE.sub(repl, texto)
+
+
+GALERIA_FOTOS = [
+    ("pitaya-bacia", "Pitaya vermelha: uma colheita enche a bacia"),
+    ("pitaya-pai-e-filho", "Pitaya colhida com ajuda do filho — cultivo que vira programa de família"),
+    ("pitayas-pai-e-filho", "Cada vaso bem cuidado devolve em fruta o que recebeu"),
+    ("uva-crianca-bacia", "Uva em vaso: cacho grande e doce no quintal de casa"),
+    ("jabuticaba-colheita", "Jabuticaba no ponto: sai da bacia direto para a mesa"),
+    ("uva-roxa-colheita", "Uva roxa de vaso, colhida no mesmo dia"),
+    ("uva-no-pe-mao", "Cacho maduro no pé, pronto para colher"),
+    ("pitangas-na-mao", "Pitanga: porte pequeno e produção generosa"),
+]
+
+
+def galeria_html():
+    cartoes = [
+        _foto_pomar(nome, legenda, largura=820, qualidade=76, classe="figura galeria-item")
+        for nome, legenda in GALERIA_FOTOS
+    ]
+    cartoes = [c for c in cartoes if c]
+    if not cartoes:
+        return ""
+    return f"<div class=\"galeria\">{''.join(cartoes)}</div>"
+
+
 def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao"):
     texto = open(md_path, encoding="utf-8").read()
     if extra_md is not None:
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
     texto = substituir_imagens(texto)
     texto = substituir_macros(texto)
+    texto = substituir_pomar(texto)
+    texto = GALERIA_RE.sub(lambda m: galeria_html(), texto)
     texto = substituir_ofertas(texto)
     texto = substituir_qr(texto, modo)
     corpo = markdown.markdown(texto, extensions=["extra", "sane_lists", "toc"])
     html = (
         "<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'>"
         f"<title>{titulo}</title><style>{CSS}</style></head><body>"
-        + COVER.format(titulo=titulo, subtitulo=subtitulo)
+        + COVER.format(titulo=titulo, subtitulo=subtitulo, foto=_foto_autor_html())
         + corpo
         + "</body></html>"
     )

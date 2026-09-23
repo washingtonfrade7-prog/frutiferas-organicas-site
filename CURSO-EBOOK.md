@@ -1,6 +1,6 @@
 # Cultivo de Frutíferas Orgânicas em Vasos: Guia Completo
 
-**Por Washington Frade — canal Frutíferas Orgânicas**
+**Por Washington Carlos Frade — canal Frutíferas Orgânicas**
 
 ---
 
@@ -37,7 +37,7 @@ Não tente fazer tudo de uma vez. Uma frutífera bem cuidada vale mais que dez a
 
 ## Introdução — Por que frutíferas em vaso funcionam
 
-<!-- IMG:jabuticaba | Jabuticabeira híbrida em vaso, carregada de frutos na varanda -->
+<!-- POMAR:jabuticabas-na-mao | Jabuticabas colhidas no meu pomar: no ponto, saem da casca com a mão -->
 
 Muita gente acredita que fruta só dá em quintal grande. Não é verdade. A maioria das frutíferas produz
 muito bem em recipiente, desde que você respeite três coisas: **espaço para as raízes**, **luz
@@ -59,7 +59,7 @@ de adubo e de poda. Quase tudo neste livro é sobre moderação e observação.
 
 ## Capítulo 1 — Comece certo: luz, espaço e escolha da frutífera
 
-<!-- IMG:acerola-okinawa | Acerola Okinawa: rústica, produtiva e cheia de frutos em vaso -->
+<!-- POMAR:colheita-uva-placa | Colheita de uva em vaso: o resultado de seguir o método do começo ao fim -->
 
 ### A primeira decisão não é a muda, é o lugar
 
@@ -107,7 +107,7 @@ usar essa anotação no capítulo 2.
 
 ## Capítulo 2 — Vaso e substrato: a base de tudo
 
-<!-- IMG:pitanga-preta | Pitanga preta produzindo em vaso — porte pequeno, fruto doce -->
+<!-- POMAR:vasos-e-pitaya | Vasos no quintal: cada frutífera no espaço e no sol que ela pede -->
 
 ### Escolhendo o vaso
 
@@ -205,7 +205,7 @@ na sua sacada.
 
 ## Capítulo 3 — Plantio que pega
 
-<!-- IMG:abiu-amarelo | Abiu amarelo recém-plantado em vaso, já aclimatado ao sol -->
+<!-- POMAR:familia-com-muda | Plantio que pegou: da muda vingada até a primeira colheita -->
 
 ### 1. Prepare o buraco
 
@@ -253,7 +253,7 @@ crescimento nas próximas semanas.
 
 ## Capítulo 4 — Rega sem erro
 
-<!-- IMG:goiaba-paluma | Goiaba Paluma em vaso: exige rega constante, sem encharcar -->
+<!-- POMAR:tomateiro-saudavel | Planta bem regada: folha firme, sem murcha nem amarelecimento -->
 
 ### Mais frutíferas morrem de água demais do que de água de menos
 
@@ -297,7 +297,7 @@ ritmo real do seu vaso.
 
 ## Capítulo 5 — Adubação orgânica
 
-<!-- IMG:banana-ouro | Banana ouro: responde rápido à adubação orgânica generosa -->
+<!-- POMAR:colheita-nespera | Adubação em dia: nêspera carregada, colheita de encher bacia -->
 
 ### Em vaso, a comida acaba
 
@@ -354,7 +354,7 @@ bokashi).
 
 ## Capítulo 6 — Poda que faz produzir
 
-<!-- IMG:figo | Figueira em vaso: aceita poda forte e produz muito cedo -->
+<!-- POMAR:cacho-uva-no-pe | Poda na hora certa: cacho grande, bem formado e doce -->
 
 ### Poda não é cortar bonito
 
@@ -406,7 +406,7 @@ a que mais melhora a planta.
 
 ## Capítulo 7 — Floração, polinização e frutificação
 
-<!-- IMG:pitaya-vermelha | Pitaya vermelha: floração noturna e fruto de polpa rosada -->
+<!-- POMAR:roma-flor-e-fruto | Romãzeira florida e já com fruto: é a polinização funcionando -->
 
 ### Por que minha frutífera não dá fruto?
 
@@ -451,7 +451,7 @@ polinizadores.
 
 ## Capítulo 8 — Pragas e doenças
 
-<!-- IMG:limao-siciliano | Limão siciliano: fique de olho em cochonilha e pulgão nas brotações -->
+<!-- POMAR:fruto-no-pe | Inspeção semanal: fruto sadio, sem mancha nem ataque nas folhas -->
 
 ### Prevenir é mais fácil que curar
 
@@ -499,7 +499,7 @@ cem em poucas semanas.
 
 ## Capítulo 9 — Colheita, conservação e renovação
 
-<!-- IMG:jabuticaba-sabara | Jabuticaba Sabará: no ponto certo, o fruto solta ao menor toque -->
+<!-- POMAR:colheita-uva-mao | Colheita do dia: uva no ponto, direto do pé para a mesa -->
 
 ### Colha no ponto
 
@@ -546,9 +546,22 @@ Isso rejuvenesce a planta e mantém a produção por décadas.
 
 ---
 
+## Resultados no meu pomar
+
+Tudo o que você leu até aqui foi testado na prática, no meu quintal, com as mesmas frutíferas que
+você vê no canal. Estas são colheitas de verdade — algumas de vaso, outras de canteiro — para você
+ver que o método funciona e que o resultado é possível no seu espaço também.
+
+<!-- GALERIA -->
+
+> **Nenhuma dessas fotos é de banco de imagens.** São colheitas minhas, feitas no dia a dia. O que
+> separa este guia de um manual genérico é isso: cada passo aqui foi conferido na terra.
+
+---
+
 ## Capítulo 10 — Multiplicação: faça suas próprias mudas
 
-<!-- IMG:uva-brs-vitoria | Uva BRS Vitória: uma das que enraízam com mais facilidade por estaquia -->
+<!-- POMAR:muda-na-mao | Muda feita em casa: é assim que uma planta vira várias -->
 
 ### Por que multiplicar
 
@@ -600,7 +613,7 @@ multiplicação de mudas**.
 
 ## Catálogo de Cultivo — mais de 100 frutíferas
 
-<!-- IMG:amora-preta-tupy | Amora preta Tupy: frutifica no primeiro ano e é ótima para vaso -->
+<!-- POMAR:seriguela-no-pe | Fruta amadurecendo no pé: sabor que mercado nenhum entrega -->
 
 Este é o coração do guia: uma ficha rápida de cada espécie, com **luz, rega, solo, tamanho de vaso,
 dificuldade, tempo até produzir e época de frutificação**. Use antes de comprar a muda e sempre que
