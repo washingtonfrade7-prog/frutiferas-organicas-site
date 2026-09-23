@@ -41,6 +41,7 @@ jobs:
           NEXT_PUBLIC_GA_ID: G-8G7HQFV303
           NEXT_PUBLIC_EZOIC: ''
           NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: n7_0H5lQSxq0cPexjy7ES5BH6H_TRlezBkqDqTbIE4g
+          NEXT_PUBLIC_CHECKOUT_URL: ${{ secrets.CHECKOUT_URL }}
 
       - name: Publicar via FTP
         run: node scripts/upload-ftp.mjs

@@ -10,8 +10,13 @@ export const produto = {
   promessa:
     'Aprenda o passo a passo que usamos no canal para plantar, adubar, podar e colher frutíferas orgânicas em vaso, sem depender de sorte nem de produtos caros.',
   formato: 'E-book + videoaulas práticas',
-  preco: 'Em breve',
-  precoObservacao: 'Entre na lista de espera e receba o desconto de lançamento.',
+  // Precos (edite conforme a estrategia de lancamento)
+  precoDe: 'R$ 197',
+  preco: 'R$ 97',
+  precoLancamento: 'R$ 47',
+  // Link de checkout (Hotmart/Kiwify). Enquanto vazio, a pagina mostra a lista de espera.
+  checkoutUrl: process.env.NEXT_PUBLIC_CHECKOUT_URL || '',
+  precoObservacao: 'Pagamento único, acesso imediato e 7 dias de garantia.',
   modulos: [
     {
       titulo: '1. Comece certo',

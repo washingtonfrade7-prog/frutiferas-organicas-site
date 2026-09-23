@@ -63,20 +63,36 @@ export default function CursoPage() {
           </h1>
           <p className="text-lg text-ink-700 mb-4">{produto.subtitulo}</p>
           <p className="text-ink-600 leading-relaxed mb-6">{produto.promessa}</p>
-          <div className="flex flex-wrap items-center gap-4">
-            <span className="text-2xl font-bold text-forest-700">{produto.preco}</span>
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-lg text-ink-400 line-through">{produto.precoDe}</span>
+            <span className="text-3xl font-bold text-forest-700">{produto.preco}</span>
             <span className="text-sm text-ink-500">{produto.precoObservacao}</span>
           </div>
+          {produto.checkoutUrl && (
+            <a
+              href={produto.checkoutUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-terracotta-600 px-8 py-4 text-lg font-bold text-white hover:bg-terracotta-700 transition"
+            >
+              Quero começar agora
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2v-5" />
+              </svg>
+            </a>
+          )}
         </div>
 
         <div className="rounded-2xl border border-cream-200 bg-white shadow-sm p-6">
           <h2 className="font-display font-bold text-lg text-ink-900 mb-2">
-            Entre na lista de espera
+            {produto.checkoutUrl ? 'Acesso e garantia' : 'Entre na lista de espera'}
           </h2>
           <p className="text-sm text-ink-600 mb-5">
-            Seja avisado no lançamento e garanta o desconto de primeira turma.
+            {produto.checkoutUrl
+              ? 'Acesso imediato após a compra. 7 dias de garantia — se não gostar, devolvemos seu dinheiro.'
+              : 'Seja avisado no lançamento e garanta o desconto de primeira turma.'}
           </p>
-          <NewsletterForm origem="curso" />
+          {!produto.checkoutUrl && <NewsletterForm origem="curso" />}
         </div>
       </header>
 
@@ -145,10 +161,26 @@ export default function CursoPage() {
       <section className="rounded-2xl bg-forest-900 text-cream-100 p-8 text-center">
         <h2 className="text-2xl font-bold mb-3 font-display">Comece a produzir frutas em casa</h2>
         <p className="text-cream-200 mb-6 max-w-xl mx-auto">
-          Entre na lista de espera e seja avisado assim que o material for lançado.
+          {produto.checkoutUrl
+            ? 'Acesso imediato, no seu ritmo, com 7 dias de garantia.'
+            : 'Entre na lista de espera e seja avisado assim que o material for lançado.'}
         </p>
         <div className="max-w-xl mx-auto">
-          <NewsletterForm origem="curso-final" escuro />
+          {produto.checkoutUrl ? (
+            <a
+              href={produto.checkoutUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-terracotta-600 px-8 py-4 text-lg font-bold text-white hover:bg-terracotta-700 transition"
+            >
+              Quero começar agora — {produto.preco}
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2v-5" />
+              </svg>
+            </a>
+          ) : (
+            <NewsletterForm origem="curso-final" escuro />
+          )}
         </div>
       </section>
     </div>
