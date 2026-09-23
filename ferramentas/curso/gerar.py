@@ -251,9 +251,14 @@ th { background: #f3f3ee; }
 .oferta { border: 2px solid #2e5b3a; border-radius: 10px; padding: 14px 16px; margin: 16px 0; page-break-inside: avoid; }
 .oferta .otag { font-size: 9pt; text-transform: uppercase; letter-spacing: 2px; color: #8f4c25; font-weight: bold; margin-bottom: 4px; }
 .oferta h3 { margin: 0 0 6px; color: #1f3d2b; font-size: 15pt; page-break-after: avoid; }
-.oferta .opreco { font-size: 13pt; margin: 0 0 8px; }
-.oferta .ode { color: #999; text-decoration: line-through; font-size: 11pt; margin-right: 6px; }
 .oferta ul { margin: 8px 0 10px; padding-left: 20px; font-size: 10.5pt; }
+.oferta .oobs { font-size: 10pt; color: #8f4c25; font-style: italic; margin: 0 0 10px; }
+.botao { display: inline-block; background: #2e5b3a; color: #fff !important; text-decoration: none; font-weight: bold; font-size: 11pt; padding: 9px 18px; border-radius: 22px; margin: 6px 0 12px; }
+.botao .seta { margin-left: 8px; }
+.qrurl { font-size: 10pt; color: #1f3d2b; word-break: break-all; }
+.figura { margin: 14px 0; page-break-inside: avoid; text-align: center; }
+.figura img { width: 100%; max-width: 150mm; border-radius: 8px; }
+.figura figcaption { font-size: 9.5pt; color: #6b6559; margin-top: 5px; font-style: italic; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }
@@ -282,26 +287,34 @@ QR_HTML = (
     "<div class=\"qrbox\">"
     "<img class=\"qr\" src=\"{src}\" alt=\"QR code\"/>"
     "<div class=\"qrtext\"><strong>{rotulo}</strong><br/>"
-    "Escaneie com a câmera do celular ou acesse:<br/>"
-    "<a href=\"{url}\">{curta}</a></div></div>"
+    "Aponte a câmera do celular para o código:<br/>"
+    "<span class=\"qrurl\">{curta}</span></div></div>"
+)
+
+# Botao clicavel: o leitor de PDF abre o link direto, sem QR e sem URL crua.
+BOTAO_HTML = (
+    "<a class=\"botao\" href=\"{url}\">{rotulo}"
+    "<span class=\"seta\">&#8594;</span></a>"
 )
 
 
-def substituir_qr(texto):
+def substituir_qr(texto, modo="botao"):
+    """modo='botao' -> botoes clicaveis (tela). modo='qr' -> QR code (material impresso)."""
     def repl(m):
         info = QRS.get(m.group(1))
         if not info:
             return ""
-        caminho = os.path.join(CURSO_DIR, info["arquivo"])
-        if not os.path.exists(caminho):
-            return ""
-        b64 = base64.b64encode(open(caminho, "rb").read()).decode("ascii")
-        return QR_HTML.format(
-            src=f"data:image/png;base64,{b64}",
-            rotulo=info["rotulo"],
-            url=info["url"],
-            curta=info["url"].replace("https://", ""),
-        )
+        if modo == "qr":
+            caminho = os.path.join(CURSO_DIR, info["arquivo"])
+            if not os.path.exists(caminho):
+                return ""
+            b64 = base64.b64encode(open(caminho, "rb").read()).decode("ascii")
+            return QR_HTML.format(
+                src=f"data:image/png;base64,{b64}",
+                rotulo=info["rotulo"],
+                curta=info["url"].replace("https://", ""),
+            )
+        return BOTAO_HTML.format(url=info["url"], rotulo=info["rotulo"])
 
     return QR_RE.sub(repl, texto)
 
@@ -364,10 +377,9 @@ def oferta_html(o):
         "<div class=\"oferta\">"
         f"<div class=\"otag\">{o['tag']}</div>"
         f"<h3>{o['nome']}</h3>"
-        f"<p class=\"opreco\"><span class=\"ode\">{o['de']}</span> "
-        f"<strong>{o['por']}</strong></p>"
         f"<p>{o['pitch']}</p>"
         f"<ul>{itens}</ul>"
+        f"<p class=\"oobs\">Disponível como oferta especial dentro do seu Hotmart Club.</p>"
         f"<!-- QR:{o['qr']} -->"
         "</div>"
     )
@@ -388,13 +400,37 @@ def link_video(f):
     return f"▶ **[Assistir no canal: {titulo}]({url})**"
 
 
+# --- Figuras (fotogramas dos videos do canal) ---------------------------------
+FIG_RE = re.compile(r"<!--\s*FIG:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
 
-def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None):
+FIG_HTML = (
+    "<figure class=\"figura\">"
+    "<img src=\"{src}\" alt=\"{legenda}\"/>"
+    "<figcaption>{legenda}</figcaption>"
+    "</figure>"
+)
+
+
+def substituir_figuras(texto):
+    def repl(m):
+        arquivo = m.group(1) + ".jpg"
+        legenda = m.group(2)
+        caminho = os.path.join(CURSO_DIR, "imagens", arquivo)
+        if not os.path.exists(caminho):
+            return ""
+        b64 = base64.b64encode(open(caminho, "rb").read()).decode("ascii")
+        return FIG_HTML.format(src=f"data:image/jpeg;base64,{b64}", legenda=legenda)
+
+    return FIG_RE.sub(repl, texto)
+
+
+def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao"):
     texto = open(md_path, encoding="utf-8").read()
     if extra_md is not None:
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
+    texto = substituir_figuras(texto)
     texto = substituir_ofertas(texto)
-    texto = substituir_qr(texto)
+    texto = substituir_qr(texto, modo)
     corpo = markdown.markdown(texto, extensions=["extra", "sane_lists", "toc"])
     html = (
         "<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'>"
@@ -636,31 +672,36 @@ def gerar_bonus(frutiferas):
         "",
         "---",
         "",
-        "## 7. Fichas de bolso — espécies em destaque",
+        "## 7. Minhas anotações",
         "",
-        "Imprima esta seção e deixe perto dos vasos.",
+        "Use este espaço para registrar o que deu certo, o que não deu e o que você quer testar na "
+        "próxima safra. O que você escreve aqui vale mais do que qualquer manual.",
+        "",
+        '<div class="fotos">',
+        '  <div class="foto">O que deu certo</div>',
+        '  <div class="foto">O que vou mudar</div>',
+        "</div>",
+        "",
+        "---",
+        "",
+        "*Dica: consulte o catálogo do guia principal para os dados técnicos de cada espécie.*",
+        "",
+        "---",
+        "",
+        "## Continue com a gente",
+        "",
+        "Dúvida no cultivo? No canal e no site você encontra o passo a passo em vídeo e as fichas "
+        "completas de cada frutífera. Aponte a câmera do celular:",
+        "",
+        "<!-- QR:canal -->",
+        "",
+        "<!-- QR:site -->",
         "",
     ]
-    for f in destaques:
-        linhas += [
-            f"### {f['nome']}" + (f" — *{f['nomeCientifico']}*" if f.get("nomeCientifico") else ""),
-            "",
-            f"- **Luz:** {f.get('luz', '-')}",
-            f"- **Rega:** {f.get('rega', '-')}",
-            f"- **Solo:** {f.get('solo', '-')}",
-            f"- **Vaso:** {f.get('vaso', '-')}",
-            f"- **Dificuldade:** {f.get('dificuldade', '-')}",
-            f"- **Produz em:** {f.get('tempoProducao') or '-'}",
-            f"- **Frutificação:** {f.get('frutificacao') or '-'}",
-            "",
-        ]
-        for d in (f.get("dicas") or [])[:2]:
-            linhas += [f"- {d}"]
-        linhas += [""]
 
     caminho = os.path.join(config.SITE_DIR, "CURSO-BONUS.md")
     open(caminho, "w", encoding="utf-8").write("\n".join(linhas))
-    print(f"workbook gerado: {caminho} ({len(destaques)} fichas de destaque)")
+    print(f"workbook gerado: {caminho} ({len(destaques)} destaques disponiveis)")
 
 
 def main():
@@ -680,6 +721,7 @@ def main():
         "Frutiferas-em-Vaso-bonus.pdf",
         "Workbook do Aluno",
         "diário de cultivo, checklist e fichas de bolso",
+        modo="qr",
     )
     md_para_pdf(
         os.path.join(config.SITE_DIR, "CURSO-BUMP.md"),

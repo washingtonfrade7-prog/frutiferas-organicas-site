@@ -42,9 +42,14 @@ th { background: #f3f3ee; }
 .oferta { border: 2px solid #2e5b3a; border-radius: 10px; padding: 14px 16px; margin: 16px 0; page-break-inside: avoid; }
 .oferta .otag { font-size: 9pt; text-transform: uppercase; letter-spacing: 2px; color: #8f4c25; font-weight: bold; margin-bottom: 4px; }
 .oferta h3 { margin: 0 0 6px; color: #1f3d2b; font-size: 15pt; page-break-after: avoid; }
-.oferta .opreco { font-size: 13pt; margin: 0 0 8px; }
-.oferta .ode { color: #999; text-decoration: line-through; font-size: 11pt; margin-right: 6px; }
 .oferta ul { margin: 8px 0 10px; padding-left: 20px; font-size: 10.5pt; }
+.oferta .oobs { font-size: 10pt; color: #8f4c25; font-style: italic; margin: 0 0 10px; }
+.botao { display: inline-block; background: #2e5b3a; color: #fff !important; text-decoration: none; font-weight: bold; font-size: 11pt; padding: 9px 18px; border-radius: 22px; margin: 6px 0 12px; }
+.botao .seta { margin-left: 8px; }
+.qrurl { font-size: 10pt; color: #1f3d2b; word-break: break-all; }
+.figura { margin: 14px 0; page-break-inside: avoid; text-align: center; }
+.figura img { width: 100%; max-width: 150mm; border-radius: 8px; }
+.figura figcaption { font-size: 9.5pt; color: #6b6559; margin-top: 5px; font-style: italic; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }
@@ -389,8 +394,7 @@ volume de água e apodrece.</p>
 </tr>
 </tbody>
 </table>
-<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABgUlEQVR42u2awYrDMBBDxf7/P2shyWhkZxJK2dsqpaXEPj1kWTM2+MmDzMqsb2fhfHj91kv2CH/wyfMfZqHAnryOfwc0sEfCa+V16qrYnVo73l8j4TXx4qUvyS283vVVzC59Mbxe/YvXWqSQxb9GXrU/3j/ZHwde7lmS2RpIwmtdj53AqBDG9rbwWtcjN6evLyuThdfqX5PTQw4WXpt/dYSo2NVuljwx+D1UM6qOtCIyvFZeaG/v+lGFd/bHSV9KYB4mKl6E157vu772Zo6YhdddXzJ3rdAeD6+7f1lMtX0z+pr6EzIsNQo77ofXwAvKFIRXj8n3D/neQtdef0dft/oRdrxh3WnG7x/zBPxQiGt8Da97P4eK9o0JVVaG1+Zfcn6oZoSWZ3jteXXr4MN6rNHXoC+0xqrdWo2d8Jr8nrQzWmuwXlPCa82rfb4NO6ltnOE18fKrE/QD3PCaePktAAtk4fXgX31jQo0dxL9e9sfKFfBOfuqhp/yVm4OZ9eezfgEVwDr4p1WBFwAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Guia: escolher a frutífera</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/especies">frutiferasorganicas.com.br/guias/especies</a></div></div>
-
+<p><a class="botao" href="https://frutiferasorganicas.com.br/guias/especies">Guia: escolher a frutífera<span class="seta">&#8594;</span></a></p>
 <hr />
 <h2 id="erros-que-fazem-perder-a-muda">Erros que fazem perder a muda</h2>
 <ol>
@@ -456,10 +460,8 @@ Pode, desde que o cavalo tenha espessura suficiente (a partir de 0,8 a 1 cm).</p
 <h2 id="continue-com-a-gente">Continue com a gente</h2>
 <p>Multiplicar é o passo que transforma quem cultiva em quem <strong>produz</strong>. No canal <strong>Frutíferas Orgânicas</strong>
 você vê enxertias, alporques e colheitas acontecendo de verdade.</p>
-<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABfklEQVR42u2aS27EMAxDid7/ziw6tinaUTKDorsyWeTn1YNEUXLATw5kVVb9dhXG8brlzxWvl6wv/MInx39YhQUWHMQGp/FyfQmvndeIrslLkKAv4dXxop5mJobXc3xhJeNKzPB60i+K0FKw6FfLS/XxcqY+NrzMW2DKF7HbkfDa87GepmxZjUx8XeNLF5hZnW+iXxdeMEtBlHOdChZeTX0UqmXBaIY/vDy+psqLUdVKxE/0+SinqpCSb019fKNfVBeJFWLhdfoJFUQS1W6nPrb6BTkHVLB5AIbXqV+kQYN5r8RX71d3q1/Dr/iv1k/MImmznIq88DrnE9zS0Kc5g2V4nfMcq4214RG9v/cTKPflO0PRr4aXNYyrQqrXTn1s9QvWLW4zsfSPjZ+gyZZMrM1Zw+vU+5V59M0iZWp4XeZfpvjA9kdAeF30fu8dN6Mf/XrgRZtB24QivDpe5Sc8xhheN/qloZdtQyJ+9aE++pxC9/ETN/4rfw5m1Z+v+ga48ikKb/G2ggAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Canal no YouTube</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas">www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas</a></div></div>
-
-<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEIAQMAAACZOPi8AAAABlBMVEUfPSv///9523ubAAABFklEQVR42u2ZsQ7EMAhDrfv/f+bUAwztDd37mg6NUCbLMcZR3C29J9gnlOvYuLCqH92tJ51Qg6aYXX5VBeJx/BKYY988qSoXj2hanKpkfshwoPEoapyEBKwftbl82P6ymu8PlkuZeF+yrUSzZJSViYfsy9p6DFBQfqSMpqg2MHltePrRMLitDGOgeJR+hH1qSwm037b3iGXQwP2l+CH/w40X6T+aE7Jfn8bD9OtGwhGIAwCgnsaS1WVAuP4jprX0XfGkS5xf5NBj5YVUPP6seotrMgc7346MdggikfOPNcWYK8HOx7RaLtaPrTz5/PoCf2/QCIkNa6DzdS2DGvh8vQeWqgurpwZAY9fDBgScr7/v+++Jy/oCuE02tusfQ7kAAAAASUVORK5CYII=" alt="QR code"/><div class="qrtext"><strong>Site Frutíferas Orgânicas</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br">frutiferasorganicas.com.br</a></div></div>
-
+<p><a class="botao" href="https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas">Canal no YouTube<span class="seta">&#8594;</span></a></p>
+<p><a class="botao" href="https://frutiferasorganicas.com.br">Site Frutíferas Orgânicas<span class="seta">&#8594;</span></a></p>
 <p>Dúvida? Deixe um comentário em qualquer vídeo. Eu leio e respondo.</p>
 <hr />
 <p><em>Frutíferas Orgânicas — uma planta vira um pomar.</em></p></body></html>

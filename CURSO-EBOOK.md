@@ -234,6 +234,10 @@ pegar. Na primeira semana, regue pouco e observe.
 
 ### Veja na prática
 
+<!-- FIG:plantio-drenagem | O torrão da muda: mantenha-o intacto e no nível certo na hora de plantar -->
+
+<!-- FIG:plantio-muda | Plantio concluído: o colo na mesma altura em que a muda estava no saquinho -->
+
 <!-- QR:guia-plantio -->
 
 <!-- QR:video-plantio-abiu -->
@@ -379,6 +383,8 @@ grande: ele apodrece e vira porta de entrada para doença.
 
 ### Veja na prática
 
+<!-- FIG:poda-tesoura | Poda de limpeza: corte acima da gema, sem deixar toco -->
+
 <!-- QR:guia-poda -->
 
 <!-- QR:video-poda-jabuticaba -->
@@ -517,6 +523,8 @@ Frutífera em vaso não é descartável. A cada 2 anos:
 Isso rejuvenesce a planta e mantém a produção por décadas.
 
 ### Veja na prática
+
+<!-- FIG:colheita-jabuticaba | Colheita da jabuticaba: no ponto certo, o fruto solta ao menor toque -->
 
 <!-- QR:guia-colheita -->
 

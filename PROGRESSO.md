@@ -267,5 +267,20 @@ Saída completa em `ferramentas/curso/out/`:
 | `Adubacao-Organica-Descomplicada.pdf` | 17 | order bump (R$ 9,90) |
 | `Multiplicacao-de-Mudas-na-Pratica.pdf` | 18 | upsell (R$ 67) |
 
+## Produto — rodada de melhorias (v4, pós-auditoria)
+- **Fotogramas reais dos vídeos do canal** extraídos com `yt-dlp` + `ffmpeg`
+  (`--extractor-args "youtube:player_client=mweb"` é obrigatório, sem ele o YouTube dá 403).
+  4 imagens em `ferramentas/curso/imagens/`, inseridas no e-book via `<!-- FIG:arquivo | legenda -->`.
+- **Botões clicáveis no lugar dos QR codes** no e-book, bump e upsell (QR não funciona na tela).
+  QR mantido só no Workbook, que é material impresso. URLs cruas não aparecem mais no texto.
+- **Preços removidos da página de ofertas do e-book** (transação fica no Hotmart Club).
+- **Workbook enxugado**: seção "Fichas de bolso" (que duplicava o catálogo) trocada por
+  "Minhas anotações" + QR do canal/site. Caiu de 12 para 9 páginas.
+- E-book: 67 páginas · 1,3 MB (imagens embutidas em base64).
+
+Pendente desta rodada: **diagramas** do alporque (anelamento) e da garfagem (entalhe em V);
+trilha de viola caipira nos vídeos (edição do canal, fora do escopo do site).
+
+
 
 
