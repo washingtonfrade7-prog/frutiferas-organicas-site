@@ -2,9 +2,11 @@ backend:
   name: github
   repo: washingtonfrade7-prog/frutiferas-organicas-site
   branch: main
-  # OAuth proprio (roda no seu dominio, em PHP) — veja /admin/oauth/
-  base_url: https://frutiferasorganicas.com.br/admin/oauth
-  auth_endpoint: auth.php
+  # OAuth proprio (roda no seu dominio, em PHP).
+  # IMPORTANTE: base_url precisa ser apenas a ORIGEM (sem caminho), pois o Decap
+  # compara a origem da mensagem do popup com base_url. O caminho vai no auth_endpoint.
+  base_url: https://frutiferasorganicas.com.br
+  auth_endpoint: admin/oauth/auth.php
 
 site_url: https://frutiferasorganicas.com.br
 display_url: https://frutiferasorganicas.com.br

@@ -1,7 +1,7 @@
 <?php
 /**
  * Recebe o retorno do GitHub, troca o codigo pelo token e devolve ao painel
- * (protocolo do Decap CMS). Mostra o resultado na tela para facilitar o diagnostico.
+ * (protocolo do Decap CMS). Envia o token imediatamente e mostra o status na tela.
  */
 $config = @include dirname(__DIR__) . '/_oauth-config.php';
 $code = isset($_GET['code']) ? $_GET['code'] : '';
@@ -47,36 +47,42 @@ header('Content-Type: text/html; charset=utf-8');
 <html lang="pt-BR">
 <head><meta charset="utf-8" /><title>Autorizando...</title></head>
 <body style="font-family:Arial;padding:30px">
-<p id="msg">Autorizando…</p>
+<h3 id="titulo">Processando…</h3>
+<p id="msg"></p>
 <script>
 (function () {
   var token = <?php echo json_encode($token); ?>;
   var detalhe = <?php echo json_encode($detalhe); ?>;
   var provider = 'github';
 
-  function responder(e) {
-    if (!window.opener) return;
-    if (token) {
-      window.opener.postMessage(
-        'authorization:' + provider + ':success:' + JSON.stringify({ token: token, provider: provider }),
-        (e && e.origin) ? e.origin : '*'
-      );
-    } else {
-      window.opener.postMessage(
-        'authorization:' + provider + ':error:' + JSON.stringify({ message: detalhe || 'erro desconhecido' }),
-        (e && e.origin) ? e.origin : '*'
-      );
-    }
+  var sucesso = 'authorization:' + provider + ':success:' + JSON.stringify({ token: token, provider: provider });
+  var falha = 'authorization:' + provider + ':error:' + JSON.stringify({ message: detalhe || 'erro desconhecido' });
+  var mensagem = token ? sucesso : falha;
+
+  function enviar() {
+    if (!window.opener) return false;
+    try { window.opener.postMessage(mensagem, '*'); } catch (e) {}
+    return true;
   }
 
-  window.addEventListener('message', responder, false);
+  // 1) envia imediatamente
+  enviar();
+  // 2) e responde ao handshake do painel
+  window.addEventListener('message', function () { enviar(); }, false);
+  // 3) e reenvia algumas vezes por seguranca
+  var tentativas = 0;
+  var timer = setInterval(function () {
+    enviar();
+    if (++tentativas >= 6) clearInterval(timer);
+  }, 700);
 
-  if (window.opener) {
-    window.opener.postMessage('authorizing:' + provider, '*');
-    document.getElementById('msg').textContent = 'Autorizado! Pode fechar esta janela.';
-  } else {
-    document.getElementById('msg').textContent =
-      token ? 'Autorizado! Volte para a aba do painel (/cms).' : ('Erro: ' + detalhe);
+  document.getElementById('titulo').textContent = token ? '✅ Autorizado com sucesso!' : '❌ Não autorizado';
+  document.getElementById('msg').textContent = token
+    ? 'Pode fechar esta janela — o painel já deve estar aberto.'
+    : ('Detalhe: ' + (detalhe || 'erro desconhecido'));
+
+  if (window.opener && token) {
+    setTimeout(function () { window.close(); }, 1500);
   }
 })();
 </script>
