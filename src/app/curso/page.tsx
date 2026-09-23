@@ -13,7 +13,13 @@ export const metadata: Metadata = {
   openGraph: { url: '/curso', title: `${produto.nome} - ${site.name}`, description: produto.promessa },
 }
 
+function precoNumerico(): string {
+  const n = produto.preco.replace(/[^\d,]/g, '').replace(',', '.')
+  return n || '0'
+}
+
 function cursoJsonLd(): string {
+  const aVenda = Boolean(produto.checkoutUrl)
   return JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'Course',
@@ -28,9 +34,10 @@ function cursoJsonLd(): string {
     },
     offers: {
       '@type': 'Offer',
-      category: 'PreOrder',
-      availability: 'https://schema.org/PreOrder',
+      category: aVenda ? 'Paid' : 'PreOrder',
+      availability: aVenda ? 'https://schema.org/InStock' : 'https://schema.org/PreOrder',
       priceCurrency: 'BRL',
+      ...(aVenda ? { price: precoNumerico(), url: produto.checkoutUrl } : {}),
     },
   })
 }
