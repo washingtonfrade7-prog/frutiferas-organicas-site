@@ -300,6 +300,69 @@ export const topicos: Topico[] = [
       { p: 'Como conservar frutas por mais tempo?', r: 'Congelamento por porções e geleias/compotas são as formas mais práticas.' },
     ],
   },
+  {
+    slug: 'problemas',
+    nome: 'Problemas comuns das frutíferas em vaso',
+    resumo: 'Por que a planta não produz, folhas amareladas, frutos que caem e outros problemas — e como resolver.',
+    intro: [
+      'Quase todo problema de frutífera em vaso tem uma causa simples: rega, luz, adubação ou poda. A boa notícia é que, identificando o sintoma certo, a solução costuma ser rápida.',
+      'Neste guia você encontra os problemas mais comuns, o que cada um indica e o que fazer para corrigir.',
+    ],
+    passos: [
+      { titulo: 'A planta cresce mas não dá fruto', texto: 'Normalmente é falta de sol, excesso de adubo nitrogenado (que dá folha, não flor) ou poda na época errada. Garanta 5 a 6 horas de sol, reduza o nitrogênio e aumente fósforo e potássio na fase de florada.' },
+      { titulo: 'Folhas amareladas e moles', texto: 'Sinal clássico de excesso de água. Reduza a rega, verifique se os furos do vaso estão desobstruídos e nunca deixe água parada no pratinho.' },
+      { titulo: 'Folhas secas nas pontas', texto: 'Pode ser falta de água, sol forte demais no meio-dia ou vento. Ajuste a rega e, se necessário, proteja a planta nas horas mais quentes.' },
+      { titulo: 'Frutos que caem antes de amadurecer', texto: 'Um pouco de queda é normal (raleio natural). Queda total indica estresse: revise rega, adubação e luz. Evite mexer muito na planta na fase de frutificação.' },
+      { titulo: 'Manchas, teias ou insetos', texto: 'Pragas como cochonilha, pulgão e mosca-branca. Use óleo de neem, armadilhas amarelas e remova as partes afetadas. Melhore a ventilação.' },
+    ],
+    dicas: [
+      'Anote as datas de floração e colheita: o histórico ajuda a entender o ritmo da sua planta.',
+      'Observe o verso das folhas toda semana — é onde as pragas aparecem primeiro.',
+      'Mude uma coisa por vez e observe o efeito, em vez de mexer em tudo ao mesmo tempo.',
+    ],
+    erros: [
+      'Regar por calendário, sem olhar o substrato.',
+      'Adubar demais achando que vai acelerar a produção.',
+      'Deixar a planta em local sem sol e esperar frutos.',
+      'Ignorar pragas pequenas até virarem infestação.',
+    ],
+    faq: [
+      { p: 'Minha frutífera tem flores mas não vinga fruto. Por quê?', r: 'Pode ser falta de polinização (abelhas), estresse hídrico na floração ou nutrientes desequilibrados. Mantenha rega constante e proteja as abelhas.' },
+      { p: 'Posso usar inseticida comum?', r: 'Em cultivo orgânico, prefira óleo de neem, sabão neutro e calda de fumo. Evite produtos químicos fortes, que também matam polinizadores.' },
+      { p: 'A planta parou de crescer. O que fazer?', r: 'Verifique se as raízes estão apertadas no vaso. Se sim, faça a troca por um vaso maior e renove parte do substrato.' },
+    ],
+  },
+  {
+    slug: 'especies',
+    nome: 'Como escolher a frutífera para o seu espaço',
+    resumo: 'Varanda, apartamento ou quintal: como escolher a espécie certa pelo sol, espaço e tempo disponível.',
+    intro: [
+      'A escolha da espécie é o primeiro passo para dar certo. Antes de comprar a muda, avalie três coisas: quantas horas de sol o local recebe, quanto espaço você tem e quanto tempo pode dedicar aos cuidados.',
+      'Com essas respostas, fica fácil filtrar as frutíferas do catálogo e montar um pomar que produz de verdade.',
+    ],
+    passos: [
+      { titulo: 'Meça a luz do local', texto: 'Sol pleno (6h ou mais): a maioria das frutíferas. Meia-sombra (3 a 5h): pitanga, jabuticaba e algumas nativas toleram. Pouca luz: prefira temperos e folhosas.' },
+      { titulo: 'Defina o espaço', texto: 'Varanda pequena pede espécies compactas e vasos de 20 a 30 litros. Quintal permite vasos de 50 a 90 litros e espécies de maior porte.' },
+      { titulo: 'Pense no tempo', texto: 'Quer colher logo? Escolha mudas enxertadas de acerola, pitanga, citros e jabuticaba híbrida. Se tem paciência, pode ir de espécies de semente.' },
+      { titulo: 'Comece pelas fáceis', texto: 'Acerola, pitanga, amora e citros são ótimas para iniciantes. Depois de ganhar confiança, avance para as raras e exóticas.' },
+      { titulo: 'Cheque a compatibilidade com o clima', texto: 'Espécies de clima frio (como o mirtilo) podem não produzir bem em regiões quentes, e vice-versa. Prefira nativas da sua região.' },
+    ],
+    dicas: [
+      'Uma frutífera por vez no começo: dá tempo de aprender com cada planta.',
+      'Combine espécies com épocas de colheita diferentes para ter fruta o ano todo.',
+      'Vasos autoirrigáveis ajudam muito em varandas de apartamento.',
+    ],
+    erros: [
+      'Comprar por impulso sem checar a luz do local.',
+      'Misturar espécies com necessidades de água muito diferentes no mesmo canto.',
+      'Subestimar o tamanho final da planta.',
+    ],
+    faq: [
+      { p: 'Qual frutífera é mais fácil para iniciante?', r: 'Acerola e pitanga são as mais indicadas: rústicas, produtivas e tolerantes a pequenos erros.' },
+      { p: 'Dá para ter frutífera em apartamento sem varanda?', r: 'Só se houver uma janela muito iluminada por várias horas. Sem sol direto, a frutificação é improvável.' },
+      { p: 'Quantas frutíferas cabem em uma varanda pequena?', r: 'Depende do vaso. Com vasos de 20 a 30 litros, é possível manter de 3 a 6 plantas em uma varanda média.' },
+    ],
+  },
 ]
 
 export function getTopico(slug: string): Topico | undefined {

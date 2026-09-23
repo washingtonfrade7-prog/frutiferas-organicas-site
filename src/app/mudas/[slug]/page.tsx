@@ -180,6 +180,29 @@ export default function MudaPage({ params }: PageProps) {
         </div>
       </section>
 
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold mb-4 font-display">
+          O que você vai precisar para cultivar {fruta.nome}
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {[
+            { slug: 'vasos', nome: 'Vasos' },
+            { slug: 'substratos', nome: 'Substrato' },
+            { slug: 'adubos', nome: 'Adubos' },
+            { slug: 'ferramentas', nome: 'Ferramentas' },
+          ].map((c) => (
+            <Link
+              key={c.slug}
+              href={`/comprar/${c.slug}`}
+              className="bg-white rounded-xl border border-cream-200 shadow-sm p-4 text-center hover:shadow-md hover:border-forest-300 transition group"
+            >
+              <span className="block font-semibold text-sm text-ink-900 group-hover:text-forest-700 transition">{c.nome}</span>
+              <span className="block text-xs text-forest-600 mt-1">Onde comprar →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       <section className="mt-12 max-w-3xl">
         <h2 className="text-2xl font-bold mb-4 font-display">Perguntas frequentes</h2>
         <div className="divide-y divide-cream-200 border-y border-cream-200">
