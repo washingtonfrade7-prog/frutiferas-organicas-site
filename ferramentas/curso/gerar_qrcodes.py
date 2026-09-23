@@ -38,6 +38,8 @@ ALVOS = {
         "https://www.youtube.com/watch?v=doAr8IvIzuk",
         "Vídeo: plantio de abiu amarelo",
     ),
+    "oferta-bump": (f"{SITE}/curso", "Adubação Orgânica Descomplicada"),
+    "oferta-upsell": (f"{SITE}/curso", "Multiplicação de Mudas na Prática"),
 }
 
 COR = "#1f3d2b"

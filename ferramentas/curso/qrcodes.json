@@ -63,5 +63,15 @@
     "url": "https://www.youtube.com/watch?v=doAr8IvIzuk",
     "rotulo": "Vídeo: plantio de abiu amarelo",
     "arquivo": "qrcodes/video-plantio-abiu.png"
+  },
+  "oferta-bump": {
+    "url": "https://frutiferasorganicas.com.br/curso",
+    "rotulo": "Adubação Orgânica Descomplicada",
+    "arquivo": "qrcodes/oferta-bump.png"
+  },
+  "oferta-upsell": {
+    "url": "https://frutiferasorganicas.com.br/curso",
+    "rotulo": "Multiplicação de Mudas na Prática",
+    "arquivo": "qrcodes/oferta-upsell.png"
   }
 }

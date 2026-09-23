@@ -1,0 +1,438 @@
+<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'><title>Adubação Orgânica</title><style>
+@page { size: A4; margin: 20mm 18mm; }
+* { box-sizing: border-box; }
+body { font-family: Georgia, 'Times New Roman', serif; color: #222; line-height: 1.55; font-size: 12pt; }
+h1 { font-size: 26pt; line-height: 1.15; margin: 0 0 10px; color: #1f3d2b; }
+h2 { font-size: 18pt; margin: 28px 0 10px; color: #1f3d2b; page-break-before: always; border-bottom: 2px solid #d9a62e; padding-bottom: 6px; }
+h3 { font-size: 14pt; margin: 22px 0 8px; color: #2e5b3a; page-break-after: avoid; }
+h4 { font-size: 12.5pt; margin: 15px 0 3px; color: #1f3d2b; page-break-after: avoid; }
+p { margin: 0 0 9px; }
+ul, ol { margin: 0 0 11px; padding-left: 22px; }
+li { margin-bottom: 3px; }
+hr { border: none; border-top: 1px solid #ddd; margin: 22px 0; }
+strong { color: #111; }
+em { color: #444; }
+blockquote { border-left: 4px solid #d9a62e; margin: 12px 0; padding: 4px 14px; color: #555; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10.5pt; }
+th, td { border: 1px solid #ddd; padding: 5px 8px; text-align: left; }
+th { background: #f3f3ee; }
+.ficha { page-break-inside: avoid; }
+.ficha h4 { margin-top: 13px; }
+.receita { margin: 14px 0; page-break-inside: avoid; }
+.receita .barra { display: flex; height: 32px; border-radius: 6px; overflow: hidden; }
+.receita .seg { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; font-size: 10pt; }
+.receita .s1 { background: #6b4f2a; }
+.receita .s2 { background: #2e5b3a; }
+.receita .s3 { background: #b98a2f; }
+.receita .legenda { list-style: none; padding: 0; margin: 9px 0 0; font-size: 10.5pt; }
+.receita .legenda li { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.receita .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex: 0 0 auto; }
+.receita .d1 { background: #6b4f2a; }
+.receita .d2 { background: #2e5b3a; }
+.receita .d3 { background: #b98a2f; }
+.destaque { border: 2px solid #d9a62e; background: #fdf8ec; border-radius: 8px; padding: 10px 14px; margin: 14px 0; page-break-inside: avoid; font-size: 11pt; }
+.qrbox { display: flex; align-items: center; gap: 14px; border: 1px solid #e3e3dc; background: #faf9f4; border-radius: 8px; padding: 10px 14px; margin: 12px 0; page-break-inside: avoid; }
+.qrbox .qr { width: 76px; height: 76px; flex: 0 0 auto; }
+.qrbox .qrtext { font-size: 10.5pt; line-height: 1.45; }
+.qrbox .qrtext a { color: #1f3d2b; word-break: break-all; }
+.fotos { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.foto { border: 2px dashed #c9c9bd; border-radius: 8px; width: 48%; height: 58mm; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px; color: #8a8a7d; font-size: 10pt; page-break-inside: avoid; }
+.diario { font-size: 10pt; }
+.diario td { height: 26px; }
+.oferta { border: 2px solid #2e5b3a; border-radius: 10px; padding: 14px 16px; margin: 16px 0; page-break-inside: avoid; }
+.oferta .otag { font-size: 9pt; text-transform: uppercase; letter-spacing: 2px; color: #8f4c25; font-weight: bold; margin-bottom: 4px; }
+.oferta h3 { margin: 0 0 6px; color: #1f3d2b; font-size: 15pt; page-break-after: avoid; }
+.oferta .opreco { font-size: 13pt; margin: 0 0 8px; }
+.oferta .ode { color: #999; text-decoration: line-through; font-size: 11pt; margin-right: 6px; }
+.oferta ul { margin: 8px 0 10px; padding-left: 20px; font-size: 10.5pt; }
+.cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
+.cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
+.cover h1 { font-size: 32pt; margin-bottom: 16px; }
+.cover .sub { font-size: 13pt; color: #555; }
+.cover .by { margin-top: 40px; font-size: 12pt; color: #333; }
+</style></head><body>
+<div class="cover">
+  <div class="tag">Frutíferas Orgânicas</div>
+  <h1>Adubação Orgânica</h1>
+  <div class="sub">Descomplicada — receitas, doses e calendário</div>
+  <div class="by">por Washington Frade<br/>canal Frutíferas Orgânicas</div>
+</div>
+<h1 id="adubacao-organica-descomplicada">Adubação Orgânica Descomplicada</h1>
+<p><strong>Por Washington Frade — canal Frutíferas Orgânicas</strong></p>
+<hr />
+<h2 id="sobre-este-material">Sobre este material</h2>
+<p>Este é o complemento prático do guia <strong>Cultivo de Frutíferas Orgânicas em Vasos</strong>. Aqui a gente
+aprofunda o que, na prática, separa uma planta que só sobrevive de uma planta que <strong>produz</strong>.</p>
+<p>Se você já entendeu que adubar em vaso é reposição — e não luxo — este material vai te dar o
+<strong>como</strong>: as receitas, as doses, a frequência e, principalmente, como não queimar a sua planta.</p>
+<p>Não precisa comprar nada caro. Quase tudo o que você precisa já está na sua cozinha, na composteira
+ou na loja de jardinagem mais próxima.</p>
+<hr />
+<h2 id="por-que-adubar-em-vaso-e-diferente-de-adubar-no-chao">Por que adubar em vaso é diferente de adubar no chão</h2>
+<p>No solo, a planta explora um volume enorme de terra. Em vaso, ela vive num espaço fechado: a cada
+rega, parte dos nutrientes é <strong>lavada para fora</strong> pelos furos de drenagem. O que sobra é consumido
+pela própria planta.</p>
+<p>O resultado é simples: em vaso, <strong>a comida acaba</strong>. E acaba rápido — em poucas semanas sem reposição,
+você começa a ver folha clara, crescimento parado e fruto pequeno.</p>
+<p>Três verdades que mudam tudo:</p>
+<ol>
+<li><strong>Adubar é repor, não engordar.</strong> A planta precisa do que foi perdido, não de "mais".</li>
+<li><strong>Pouco e sempre vence muito e de uma vez.</strong> Excesso queima raiz e mata mais que a falta.</li>
+<li><strong>A fase manda.</strong> Crescer pede nitrogênio; florar e frutificar pedem fósforo e potássio.</li>
+</ol>
+<hr />
+<h2 id="o-que-a-planta-come-n-p-k-e-os-coadjuvantes">O que a planta come: N, P, K e os coadjuvantes</h2>
+<h3 id="os-tres-macro-nutrientes">Os três macro nutrientes</h3>
+<table>
+<thead>
+<tr>
+<th>Nutriente</th>
+<th>Para que serve</th>
+<th>Sinal de falta</th>
+<th>Sinal de excesso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nitrogênio (N)</strong></td>
+<td>Folha, caule e crescimento</td>
+<td>Folhas amarelas por baixo, planta parada</td>
+<td>Muita folha, pouca flor e fruto</td>
+</tr>
+<tr>
+<td><strong>Fósforo (P)</strong></td>
+<td>Raiz, flor e fruto</td>
+<td>Pouca flor, raiz fraca</td>
+<td>Bloqueia absorção de outros nutrientes</td>
+</tr>
+<tr>
+<td><strong>Potássio (K)</strong></td>
+<td>Fruto firme, doce e resistente</td>
+<td>Borda de folha seca, fruto sem sabor</td>
+<td>Desequilíbrio geral</td>
+</tr>
+</tbody>
+</table>
+<h3 id="os-coadjuvantes-que-ninguem-comenta">Os coadjuvantes que ninguém comenta</h3>
+<ul>
+<li><strong>Cálcio</strong> — fortalece a parede da célula; falta causa fruto rachado e ponta de broto queimada.</li>
+<li><strong>Magnésio</strong> — é o coração da clorofila; falta dá folha com nervura verde e miolo amarelo.</li>
+<li><strong>Enxofre</strong> — ajuda no sabor e no aroma do fruto.</li>
+<li><strong>Micronutrientes</strong> (ferro, zinco, boro, manganês) — em quantidades mínimas, mas a falta trava a
+  frutificação. Em vaso, aparecem com o tempo, porque são os primeiros a serem lavados.</li>
+</ul>
+<p><strong>Regra prática:</strong> em vaso, o orgânico cobre bem os macros. A cada 6 meses, uma colher de cinza de
+madeira ou de farinha de osso resolve boa parte dos micronutrientes.</p>
+<hr />
+<h2 id="as-materias-primas-organicas">As matérias-primas orgânicas</h2>
+<h3 id="humus-de-minhoca">Húmus de minhoca</h3>
+<p>O melhor amigo de quem cultiva em vaso. Rico em microrganismos, não queima a raiz e melhora a
+estrutura do substrato. Use <strong>no plantio</strong> (misturado) e em <strong>cobertura</strong> (por cima).</p>
+<h3 id="bokashi">Bokashi</h3>
+<p>Adubo fermentado, rico em microrganismos e de ação mais rápida que o húmus. É a sua base de
+<strong>manutenção</strong>. Aplique na borda do vaso, longe do caule, a cada 30 a 45 dias.</p>
+<h3 id="composto-de-composteira">Composto de composteira</h3>
+<p>Ótimo, desde que <strong>bem curtido</strong>. Composto "verde" (recente) rouba nitrogênio da planta para
+terminar de decompor. Se estiver com cheiro forte, ainda não está pronto.</p>
+<h3 id="estereque-curtido">Estereque curtido</h3>
+<p>Potente e barato, mas use com moderação e <strong>sempre curtido</strong> (mínimo 60 dias). Estereque fresco
+queima raiz e atrai mosca.</p>
+<h3 id="casca-de-ovo">Casca de ovo</h3>
+<p>Fonte de cálcio, mas de liberação <strong>lentíssima</strong>. Só funciona bem se torrada e moída fina. Serve mais
+como complemento do que como adubação principal.</p>
+<h3 id="cinza-de-madeira">Cinza de madeira</h3>
+<p>Fonte de potássio e cálcio, e ajuda a corrigir a acidez. Use <strong>pouco</strong>: uma colher de sopa por vaso
+médio, a cada 2 a 3 meses. Excesso alcaliniza o substrato e trava a absorção de ferro.</p>
+<h3 id="borra-de-cafe">Borra de café</h3>
+<p>Melhora a vida do solo e ajuda na drenagem, mas é <strong>levemente ácida</strong> e pobre em nutrientes. Use no
+máximo uma colher por mês, sempre seca, misturada ao substrato.</p>
+<h3 id="farinha-de-osso">Farinha de osso</h3>
+<p>Fonte de fósforo e cálcio de liberação lenta. Excelente para a <strong>fase de floração</strong>. Uma colher de
+sopa por vaso, a cada 2 meses.</p>
+<hr />
+<h2 id="o-adubo-liquido-caseiro-passo-a-passo">O adubo líquido caseiro (passo a passo)</h2>
+<p>Este é o adubo que você faz em casa, com o que já tem, e que dá resultado visível em poucas semanas.</p>
+<h3 id="receita-base-cha-de-humus">Receita base — "chá de húmus"</h3>
+<ol>
+<li>Coloque <strong>1 xícara de húmus de minhoca</strong> (ou composto bem curtido) em um balde com <strong>5 litros de
+   água limpa</strong>.</li>
+<li>Mexa bem e deixe de molho por <strong>24 a 48 horas</strong>, mexendo de vez em quando.</li>
+<li>Coe com um pano fino ou peneira.</li>
+<li><strong>Dilua o caldo em água limpa:</strong> 1 parte de caldo para 5 a 10 partes de água.</li>
+<li>Regue o substrato já úmido, na base, a cada <strong>15 dias</strong>.</li>
+</ol>
+<h3 id="variacao-chorume-de-composteira">Variação — "chorume de composteira"</h3>
+<p>Se você tem composteira, o líquido que escorre no fundo é ouro. Ele é <strong>muito concentrado</strong>: dilua
+1 parte em 10 a 20 partes de água e use a cada 15 dias. Nunca use puro.</p>
+<h3 id="variacao-adubo-de-casca-de-banana">Variação — "adubo de casca de banana"</h3>
+<p>Rico em potássio, ótimo na frutificação. Pique 3 cascas de banana, deixe de molho em 1 litro de água
+por 48 horas, coe e dilua em 5 litros de água. Use na fase de floração e frutificação.</p>
+<h3 id="regras-de-ouro-do-adubo-liquido">Regras de ouro do adubo líquido</h3>
+<ul>
+<li><strong>Sempre dilua.</strong> Adubo líquido concentrado queima raiz em horas.</li>
+<li><strong>Aplique em substrato úmido.</strong> Nunca em terra seca — a raiz absorve rápido demais e queima.</li>
+<li><strong>Nunca no sol forte.</strong> Regue no fim da tarde ou pela manhã.</li>
+<li><strong>Não guarde por semanas.</strong> Faça, use, descarte o que sobrar.</li>
+<li><strong>Cheiro forte = não use.</strong> Se fermentou demais, pode ter virado patógeno.</li>
+</ul>
+<hr />
+<h2 id="bokashi-como-usar-sem-errar">Bokashi: como usar sem errar</h2>
+<p>O bokashi é o adubo orgânico mais prático para manutenção, mas tem um detalhe que muita gente erra.</p>
+<p><strong>Nunca encoste o bokashi no caule.</strong> Ele é rico e concentrado; em contato direto, atrai fungos e
+pode apodrecer o colo da planta.</p>
+<p><strong>Como aplicar:</strong></p>
+<ol>
+<li>Faça um sulco raso na borda do vaso, a 3 a 5 cm do caule.</li>
+<li>Distribua de <strong>1 a 2 colheres de sopa</strong> (vaso médio) a <strong>4 colheres</strong> (vaso grande de 40 L+).</li>
+<li>Cubra com substrato e regue em seguida.</li>
+<li>Repita a cada <strong>30 a 45 dias</strong>, no período de crescimento.</li>
+</ol>
+<p><strong>Não use</strong> em planta recém-transplantada (espere 3 semanas) nem no período de repouso.</p>
+<hr />
+<h2 id="o-calendario-por-fase">O calendário por fase</h2>
+<p>Esta é a parte que mais gente ignora — e que mais muda o resultado. <strong>A adubação certa na fase errada
+não funciona.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Fase</th>
+<th>O que a planta precisa</th>
+<th>Produto</th>
+<th>Frequência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Plantio</strong></td>
+<td>Enraizar e pegar</td>
+<td>Húmus misturado ao substrato</td>
+<td>1 vez</td>
+</tr>
+<tr>
+<td><strong>Crescimento</strong></td>
+<td>Folha e estrutura</td>
+<td>Bokashi + adubo líquido (N alto)</td>
+<td>Bokashi 30-45 dias · líquido 15 dias</td>
+</tr>
+<tr>
+<td><strong>Floração</strong></td>
+<td>Formar botão e flor</td>
+<td>Farinha de osso + cinza (P e K)</td>
+<td>30 dias antes da florada</td>
+</tr>
+<tr>
+<td><strong>Frutificação</strong></td>
+<td>Engrossar e adoçar</td>
+<td>Adubo de casca de banana + organomineral (K)</td>
+<td>A cada 15-20 dias</td>
+</tr>
+<tr>
+<td><strong>Colheita</strong></td>
+<td>Recuperar a planta</td>
+<td>Bokashi leve</td>
+<td>1 vez após a safra</td>
+</tr>
+<tr>
+<td><strong>Repouso</strong> (frio)</td>
+<td>Descansar</td>
+<td>Suspender ou só húmus</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="a-troca-de-adubo-na-virada-de-fase">A troca de adubo na virada de fase</h3>
+<p>Quando a planta começa a <strong>florar</strong>, reduza o nitrogênio e aumente fósforo e potássio. Continuar com
+adubo nitrogenado nessa hora é o erro que dá "pé de folha bonito e zero fruto".</p>
+<hr />
+<h2 id="como-aplicar-sem-queimar-a-planta">Como aplicar sem queimar a planta</h2>
+<ul>
+<li><strong>Nunca</strong> adube planta seca — regue antes.</li>
+<li><strong>Nunca</strong> adube no sol forte do meio-dia.</li>
+<li><strong>Sempre</strong> respeite a dose. Mais não é melhor.</li>
+<li><strong>Sempre</strong> afaste o adubo do caule.</li>
+<li><strong>Espere</strong> 3 semanas após o transplante.</li>
+<li><strong>Pare</strong> ao primeiro sinal de queima (borda de folha seca).</li>
+</ul>
+<p><strong>Se você exagerou:</strong> regue abundantemente (sem adubo) por 2 a 3 dias, para lavar o excesso pelos
+furos. Não adube de novo por um mês.</p>
+<hr />
+<h2 id="diagnostico-o-que-a-folha-esta-dizendo">Diagnóstico: o que a folha está dizendo</h2>
+<table>
+<thead>
+<tr>
+<th>O que você vê</th>
+<th>Provável causa</th>
+<th>O que fazer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Folhas amarelas por baixo, planta parada</td>
+<td>Falta de nitrogênio</td>
+<td>Adubo líquido ou bokashi</td>
+</tr>
+<tr>
+<td>Folha nova amarela com nervura verde</td>
+<td>Falta de magnésio</td>
+<td>Cinza de madeira ou sulfato de magnésio</td>
+</tr>
+<tr>
+<td>Borda das folhas seca e queimada</td>
+<td>Excesso de adubo ou de sal</td>
+<td>Lavar o substrato, suspender adubo</td>
+</tr>
+<tr>
+<td>Muita folha, nenhuma flor</td>
+<td>Excesso de nitrogênio</td>
+<td>Trocar para adubo com P e K</td>
+</tr>
+<tr>
+<td>Fruto pequeno e sem sabor</td>
+<td>Falta de potássio</td>
+<td>Adubo de casca de banana, cinza</td>
+</tr>
+<tr>
+<td>Fruto rachado</td>
+<td>Rega irregular ou falta de cálcio</td>
+<td>Constância na rega + casca de ovo moída</td>
+</tr>
+<tr>
+<td>Planta murcha com terra úmida</td>
+<td>Excesso de água / raiz doente</td>
+<td>Suspender rega, melhorar drenagem</td>
+</tr>
+<tr>
+<td>Ponta de broto queimada</td>
+<td>Falta de cálcio ou excesso de sal</td>
+<td>Farinha de osso, lavar substrato</td>
+</tr>
+</tbody>
+</table>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABd0lEQVR42u2a2w7CMAxDLf7/n4OgjePexoR4w0Oi2lZejmLHbUHcueBZnvXtLLTrNbab9lN5Ew/cuf5hFhJswxNvWoKsfZvXwCtrinfzG/Pa8Ops3s9SrOZ1xaspUAfzOvtXuytO9q8Dr+yP68f9ccNrDCAEqIHEvCY90sMiIMkr35vX4vfRS60eMmKY18oL4lisssjRvEa/73EeLLIQb7MeJ79ndkAik3oL98djf0SZ/RBdzWvqf1gYsbhg/1rrq7qhRvsKYeY1+X1oV8zFZOYx81r8Szw+ZVkVZ15zf4QIsVt+aGo1r8m/SpKKD3D+2vlXGVfuQxOg/f6w/0XDGrVoPR7yqu5UBM88eoWZ19wfa0kkKYwqNa8xf/VMnzsUoYbv9eNp/VjpIiSxWo+b+mJRlXtVzDevTX+UoyFZCHk9tOMFnteGUBO9mteGF4M+T4YIzLz2vFhk0iXN65N/MV7A549X/bHkyI3V8PnjMX/5n4Oe9fNZT1xwSemO7Ad4AAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Guia: problemas comuns</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/problemas">frutiferasorganicas.com.br/guias/problemas</a></div></div>
+
+<hr />
+<h2 id="adubacao-por-especie">Adubação por espécie</h2>
+<table>
+<thead>
+<tr>
+<th>Frutífera</th>
+<th>Necessidade especial</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Citros</strong> (limão, laranja)</td>
+<td>Nitrogênio na primavera, K na frutificação</td>
+<td>Não passe adubo perto do tronco</td>
+</tr>
+<tr>
+<td><strong>Jabuticaba</strong></td>
+<td>Muita matéria orgânica</td>
+<td>Gosta de solo ácido; evite cinza em excesso</td>
+</tr>
+<tr>
+<td><strong>Acerola</strong></td>
+<td>Adubação constante</td>
+<td>Produz quase o ano todo — repõe rápido</td>
+</tr>
+<tr>
+<td><strong>Pitaya</strong></td>
+<td>Pouco nitrogênio, muito K</td>
+<td>Excesso de N dá haste e nenhuma flor</td>
+</tr>
+<tr>
+<td><strong>Goiaba</strong></td>
+<td>N e K equilibrados</td>
+<td>Responde muito bem a bokashi</td>
+</tr>
+<tr>
+<td><strong>Amora</strong></td>
+<td>N no crescimento, K na frutificação</td>
+<td>Podar e adubar depois da safra</td>
+</tr>
+<tr>
+<td><strong>Manga</strong></td>
+<td>P e K na floração</td>
+<td>Evite N na época de florada</td>
+</tr>
+<tr>
+<td><strong>Pitanga</strong></td>
+<td>Pouco exigente</td>
+<td>Bokashi a cada 45 dias basta</td>
+</tr>
+<tr>
+<td><strong>Morango</strong></td>
+<td>K alto na frutificação</td>
+<td>Adubo líquido diluído, a cada 15 dias</td>
+</tr>
+<tr>
+<td><strong>Mirtilo</strong></td>
+<td>Solo ácido</td>
+<td>Nunca use cinza; prefira húmus e pinus</td>
+</tr>
+</tbody>
+</table>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABgElEQVR42u2awQ7DMAhDrf3/PzOpBQMJ7apptznboVOzyxMYQwJ7sqBd2vXtLpzr+AP4u76xF56sf9iFAAtndTz5z3gjXp0Xw+nAQ2b5RrwGXhFhlZR4fYgvT1BnJl43+mUkVXNS+rXxYkHcPqqPAy9aC1DxU/3PJV6Lfp1CRaVHSU/F15SP4VwbMfijeLV8RHDJ4kh+iq+Jl/dCnpdZF6F8nPQ+OsfoOZHaBen94L8SVvVdYSvE66o+hvzTYTg78Vriq1jU8KlWjIV4rf0QOM9JHwEKmHgt/j7qI9g70kyoPm5+NVgxrFgo3fSLV9f7aBazKbLGTbxWXqFc6b1oy5SPO686o6hDfP+KV9f75rxQKqTLv3i1/tHqaYdl3w31Q5f5WCb4ME51pPez/+LRbZ8WmuJr8l/08qi+CxR98dr6IcNylBbaL786zScYSf1Ohfz9Da+8MlFvUch/3fBqXWMqv3hN+sWZYRl+QefbN/XRKqg6wBevwX/p5qB2/XzXG9yJOvhlK6VtAAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Guia: adubação orgânica</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/adubacao">frutiferasorganicas.com.br/guias/adubacao</a></div></div>
+
+<hr />
+<h2 id="erros-que-matam-por-excesso">Erros que matam por excesso</h2>
+<ol>
+<li><strong>Adubar planta recém-plantada.</strong> Espere 3 semanas.</li>
+<li><strong>Encostar o adubo no caule.</strong> Sempre na borda do vaso.</li>
+<li><strong>Usar adubo líquido puro.</strong> Dilua sempre.</li>
+<li><strong>Adubar todo dia "um pouquinho".</strong> Respeite a frequência.</li>
+<li><strong>Seguir com nitrogênio na floração.</strong> Troque para P e K.</li>
+<li><strong>Usar composto fresco.</strong> Só composto curtido.</li>
+<li><strong>Ignorar o inverno.</strong> No frio, a planta quase não come.</li>
+<li><strong>Adubar planta doente ou seca.</strong> Trate primeiro, adube depois.</li>
+<li><strong>Achar que cinza é adubo completo.</strong> É complemento, não base.</li>
+<li><strong>Nunca repor micronutrientes.</strong> Em vaso, eles somem primeiro.</li>
+</ol>
+<hr />
+<h2 id="perguntas-frequentes">Perguntas frequentes</h2>
+<p><strong>Posso usar só húmus e nada mais?</strong>
+No começo sim. Com o tempo, o húmus sozinho não repõe potássio e micronutrientes. Complemente com
+bokashi, cinza e farinha de osso.</p>
+<p><strong>Adubo orgânico demora para fazer efeito?</strong>
+O bokashi e o líquido agem em dias. O húmus e a farinha de osso, em semanas. Por isso a base orgânica
+é contínua, e não pontual.</p>
+<p><strong>Posso misturar orgânico e mineral?</strong>
+Pode, e funciona muito bem. O orgânico é a base; o mineral é o ajuste fino na frutificação.</p>
+<p><strong>Meu vaso tem formiga. Tem a ver com adubo?</strong>
+Muito. Estereque fresco e composto mal curtido atraem formiga. Use sempre material curtido.</p>
+<p><strong>Quanto de adubo por litro de substrato?</strong>
+Referência prática: 1 a 2 colheres de sopa de bokashi por cada 10 litros de vaso, a cada 30 a 45 dias.</p>
+<p><strong>Adubo vencido faz mal?</strong>
+Orgânico bem armazenado dura meses. Se mofou ou azedou, descarte — pode trazer fungo para o vaso.</p>
+<p><strong>Posso adubar na chuva?</strong>
+Melhor não. A chuva lava o adubo antes de a planta absorver. Adube e regue você mesmo.</p>
+<hr />
+<h2 id="checklist-do-adubador">Checklist do adubador</h2>
+<p><strong>No plantio</strong>
+- [ ] Misturar húmus ao substrato
+- [ ] Não adubar nas 3 primeiras semanas</p>
+<p><strong>Todo mês</strong>
+- [ ] Bokashi na borda do vaso (30-45 dias)
+- [ ] Adubo líquido diluído (15 dias)
+- [ ] Checar se há sinal de queima</p>
+<p><strong>Na floração</strong>
+- [ ] Reduzir nitrogênio
+- [ ] Aplicar farinha de osso e cinza</p>
+<p><strong>Na frutificação</strong>
+- [ ] Adubo de casca de banana ou organomineral com K
+- [ ] Manter a rega constante</p>
+<p><strong>No inverno</strong>
+- [ ] Suspender ou reduzir drasticamente
+- [ ] Só húmus, se a planta estiver ativa</p>
+<hr />
+<h2 id="continue-com-a-gente">Continue com a gente</h2>
+<p>Este material é um complemento do guia principal. No canal <strong>Frutíferas Orgânicas</strong> você vê as
+adubações acontecendo na prática, e no site encontra os guias completos de cada etapa.</p>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABfklEQVR42u2aS27EMAxDid7/ziw6tinaUTKDorsyWeTn1YNEUXLATw5kVVb9dhXG8brlzxWvl6wv/MInx39YhQUWHMQGp/FyfQmvndeIrslLkKAv4dXxop5mJobXc3xhJeNKzPB60i+K0FKw6FfLS/XxcqY+NrzMW2DKF7HbkfDa87GepmxZjUx8XeNLF5hZnW+iXxdeMEtBlHOdChZeTX0UqmXBaIY/vDy+psqLUdVKxE/0+SinqpCSb019fKNfVBeJFWLhdfoJFUQS1W6nPrb6BTkHVLB5AIbXqV+kQYN5r8RX71d3q1/Dr/iv1k/MImmznIq88DrnE9zS0Kc5g2V4nfMcq4214RG9v/cTKPflO0PRr4aXNYyrQqrXTn1s9QvWLW4zsfSPjZ+gyZZMrM1Zw+vU+5V59M0iZWp4XeZfpvjA9kdAeF30fu8dN6Mf/XrgRZtB24QivDpe5Sc8xhheN/qloZdtQyJ+9aE++pxC9/ETN/4rfw5m1Z+v+ga48ikKb/G2ggAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Canal no YouTube</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas">www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas</a></div></div>
+
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEIAQMAAACZOPi8AAAABlBMVEUfPSv///9523ubAAABFklEQVR42u2ZsQ7EMAhDrfv/f+bUAwztDd37mg6NUCbLMcZR3C29J9gnlOvYuLCqH92tJ51Qg6aYXX5VBeJx/BKYY988qSoXj2hanKpkfshwoPEoapyEBKwftbl82P6ymu8PlkuZeF+yrUSzZJSViYfsy9p6DFBQfqSMpqg2MHltePrRMLitDGOgeJR+hH1qSwm037b3iGXQwP2l+CH/w40X6T+aE7Jfn8bD9OtGwhGIAwCgnsaS1WVAuP4jprX0XfGkS5xf5NBj5YVUPP6seotrMgc7346MdggikfOPNcWYK8HOx7RaLtaPrTz5/PoCf2/QCIkNa6DzdS2DGvh8vQeWqgurpwZAY9fDBgScr7/v+++Jy/oCuE02tusfQ7kAAAAASUVORK5CYII=" alt="QR code"/><div class="qrtext"><strong>Site Frutíferas Orgânicas</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br">frutiferasorganicas.com.br</a></div></div>
+
+<p>Dúvida? Deixe um comentário em qualquer vídeo. Eu leio e respondo.</p>
+<hr />
+<p><em>Frutíferas Orgânicas — a planta agradece na colheita.</em></p></body></html>

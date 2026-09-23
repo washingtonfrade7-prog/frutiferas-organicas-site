@@ -1,0 +1,465 @@
+<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'><title>Multiplicação de Mudas</title><style>
+@page { size: A4; margin: 20mm 18mm; }
+* { box-sizing: border-box; }
+body { font-family: Georgia, 'Times New Roman', serif; color: #222; line-height: 1.55; font-size: 12pt; }
+h1 { font-size: 26pt; line-height: 1.15; margin: 0 0 10px; color: #1f3d2b; }
+h2 { font-size: 18pt; margin: 28px 0 10px; color: #1f3d2b; page-break-before: always; border-bottom: 2px solid #d9a62e; padding-bottom: 6px; }
+h3 { font-size: 14pt; margin: 22px 0 8px; color: #2e5b3a; page-break-after: avoid; }
+h4 { font-size: 12.5pt; margin: 15px 0 3px; color: #1f3d2b; page-break-after: avoid; }
+p { margin: 0 0 9px; }
+ul, ol { margin: 0 0 11px; padding-left: 22px; }
+li { margin-bottom: 3px; }
+hr { border: none; border-top: 1px solid #ddd; margin: 22px 0; }
+strong { color: #111; }
+em { color: #444; }
+blockquote { border-left: 4px solid #d9a62e; margin: 12px 0; padding: 4px 14px; color: #555; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10.5pt; }
+th, td { border: 1px solid #ddd; padding: 5px 8px; text-align: left; }
+th { background: #f3f3ee; }
+.ficha { page-break-inside: avoid; }
+.ficha h4 { margin-top: 13px; }
+.receita { margin: 14px 0; page-break-inside: avoid; }
+.receita .barra { display: flex; height: 32px; border-radius: 6px; overflow: hidden; }
+.receita .seg { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; font-size: 10pt; }
+.receita .s1 { background: #6b4f2a; }
+.receita .s2 { background: #2e5b3a; }
+.receita .s3 { background: #b98a2f; }
+.receita .legenda { list-style: none; padding: 0; margin: 9px 0 0; font-size: 10.5pt; }
+.receita .legenda li { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.receita .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex: 0 0 auto; }
+.receita .d1 { background: #6b4f2a; }
+.receita .d2 { background: #2e5b3a; }
+.receita .d3 { background: #b98a2f; }
+.destaque { border: 2px solid #d9a62e; background: #fdf8ec; border-radius: 8px; padding: 10px 14px; margin: 14px 0; page-break-inside: avoid; font-size: 11pt; }
+.qrbox { display: flex; align-items: center; gap: 14px; border: 1px solid #e3e3dc; background: #faf9f4; border-radius: 8px; padding: 10px 14px; margin: 12px 0; page-break-inside: avoid; }
+.qrbox .qr { width: 76px; height: 76px; flex: 0 0 auto; }
+.qrbox .qrtext { font-size: 10.5pt; line-height: 1.45; }
+.qrbox .qrtext a { color: #1f3d2b; word-break: break-all; }
+.fotos { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.foto { border: 2px dashed #c9c9bd; border-radius: 8px; width: 48%; height: 58mm; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px; color: #8a8a7d; font-size: 10pt; page-break-inside: avoid; }
+.diario { font-size: 10pt; }
+.diario td { height: 26px; }
+.oferta { border: 2px solid #2e5b3a; border-radius: 10px; padding: 14px 16px; margin: 16px 0; page-break-inside: avoid; }
+.oferta .otag { font-size: 9pt; text-transform: uppercase; letter-spacing: 2px; color: #8f4c25; font-weight: bold; margin-bottom: 4px; }
+.oferta h3 { margin: 0 0 6px; color: #1f3d2b; font-size: 15pt; page-break-after: avoid; }
+.oferta .opreco { font-size: 13pt; margin: 0 0 8px; }
+.oferta .ode { color: #999; text-decoration: line-through; font-size: 11pt; margin-right: 6px; }
+.oferta ul { margin: 8px 0 10px; padding-left: 20px; font-size: 10.5pt; }
+.cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
+.cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
+.cover h1 { font-size: 32pt; margin-bottom: 16px; }
+.cover .sub { font-size: 13pt; color: #555; }
+.cover .by { margin-top: 40px; font-size: 12pt; color: #333; }
+</style></head><body>
+<div class="cover">
+  <div class="tag">Frutíferas Orgânicas</div>
+  <h1>Multiplicação de Mudas</h1>
+  <div class="sub">na prática — estaquia, alporque e enxertia</div>
+  <div class="by">por Washington Frade<br/>canal Frutíferas Orgânicas</div>
+</div>
+<h1 id="multiplicacao-de-mudas-na-pratica">Multiplicação de Mudas na Prática</h1>
+<p><strong>Por Washington Frade — canal Frutíferas Orgânicas</strong></p>
+<hr />
+<h2 id="sobre-este-material">Sobre este material</h2>
+<p>Este é o módulo imersivo de multiplicação do guia <strong>Cultivo de Frutíferas Orgânicas em Vasos</strong>. Aqui
+você aprende, passo a passo, a <strong>fazer as suas próprias mudas</strong> — e a nunca mais depender de comprar
+planta.</p>
+<p>Quem domina a multiplicação muda de patamar: um único pé vira dez, você escolhe as melhores plantas
+para reproduzir, troca mudas com amigos e ainda pode vender o excedente.</p>
+<p>Vamos ver os quatro caminhos — <strong>estaquia, alporque, enxertia e sementes</strong> — e, o mais importante,
+<strong>qual usar em cada espécie e em cada situação</strong>.</p>
+<hr />
+<h2 id="por-que-multiplicar">Por que multiplicar</h2>
+<ul>
+<li><strong>Economia:</strong> uma muda de frutífera custa de R$ 30 a R$ 200. Você faz de graça.</li>
+<li><strong>Qualidade:</strong> você reproduz exatamente a planta que já sabe que produz bem.</li>
+<li><strong>Autonomia:</strong> não fica preso ao que a loja tem no dia.</li>
+<li><strong>Renda extra:</strong> mudas de qualidade vendem fácil em grupos e feiras locais.</li>
+</ul>
+<p>O princípio que vale para todos os métodos: <strong>reproduzir uma planta que já provou que dá fruto</strong>. Não
+adianta multiplicar a planta bonita que nunca produziu nada.</p>
+<hr />
+<h2 id="as-quatro-formas-de-multiplicar">As quatro formas de multiplicar</h2>
+<table>
+<thead>
+<tr>
+<th>Método</th>
+<th>O que é</th>
+<th>Frutifica em</th>
+<th>Dificuldade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Estaquia</strong></td>
+<td>Enraizar um galho cortado</td>
+<td>1 a 3 anos</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Alporque</strong></td>
+<td>Enraizar um galho ainda na planta-mãe</td>
+<td>1 a 2 anos</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Enxertia</strong></td>
+<td>Unir um ramo produtivo a um cavalo resistente</td>
+<td>1 a 3 anos</td>
+<td>Avançada</td>
+</tr>
+<tr>
+<td><strong>Semente</strong></td>
+<td>Plantar a semente do fruto</td>
+<td>5 a 10 anos</td>
+<td>Fácil (mas lenta)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Regra prática:</strong> para a maioria das frutíferas de vaso, <strong>estaquia</strong> e <strong>alporque</strong> resolvem. A
+enxertia é para quem quer produzir em escala ou salvar uma planta.</p>
+<hr />
+<h2 id="estaquiando-o-metodo-mais-facil">Estaquiando: o método mais fácil</h2>
+<p>A estaquia é enraizar um pedaço de galho. Simples, barato e funciona com muitas espécies.</p>
+<h3 id="o-que-voce-precisa">O que você precisa</h3>
+<ul>
+<li>Tesoura <strong>bypass</strong> afiada e limpa</li>
+<li>Substrato leve: <strong>areia grossa + vermiculita</strong> (ou fibra de coco)</li>
+<li>Recipiente pequeno com furos de drenagem</li>
+<li>Água limpa</li>
+<li>Opcional: hormônio de enraizamento (ou caseiro, veja adiante)</li>
+</ul>
+<h3 id="passo-a-passo">Passo a passo</h3>
+<ol>
+<li><strong>Escolha a época.</strong> Fim do inverno ou início da primavera, quando a planta está começando a
+   crescer. Evite a floração e o frio intenso.</li>
+<li><strong>Corte um galho saudável</strong> de <strong>10 a 20 cm</strong>, com <strong>2 a 3 nós</strong> (os "olhinhos" de onde saem as
+   folhas). Use um galho do ano, nem muito novo (mole) nem muito velho (lenhoso demais).</li>
+<li><strong>Corte a base em ângulo</strong>, logo abaixo de um nó — é de lá que saem as raízes.</li>
+<li><strong>Remova as folhas de baixo</strong>, deixando só 2 ou 3 folhas no topo (ou nenhuma, em espécies de folha
+   grande). Folha demais faz a estaca perder água e murchar.</li>
+<li><strong>Mergulhe a base</strong> em hormônio de enraizamento, se tiver. Se não, passe direto.</li>
+<li><strong>Plante a base no substrato</strong> (2 a 3 cm enterrados). Aperte de leve.</li>
+<li><strong>Regue e cubra</strong> com uma garrafa PET cortada ou saco plástico, criando uma mini-estufa.</li>
+<li><strong>Mantenha na meia-sombra</strong>, com substrato <strong>úmido, mas nunca encharcado</strong>.</li>
+<li><strong>Espere de 3 a 8 semanas.</strong> Puxe de leve: se resistir, enraizou.</li>
+</ol>
+<h3 id="hormonios-de-enraizamento-caseiros">Hormônios de enraizamento caseiros</h3>
+<ul>
+<li><strong>Água de salgueiro:</strong> galhos de salgueiro de molho em água por 48 h. Contém ácido salicílico
+  natural, que estimula raízes.</li>
+<li><strong>Mel:</strong> passe um pouco de mel puro na base cortada antes de plantar. Tem ação antisséptica.</li>
+<li><strong>Canela em pó:</strong> mesma função — protege o corte de fungos e estimula.</li>
+</ul>
+<p>Nenhum deles substitui um bom hormônio comercial, mas ajudam bastante e são de graça.</p>
+<h3 id="especies-que-pegam-facil-por-estaquia">Espécies que pegam fácil por estaquia</h3>
+<p>Acerola, amora, figo, uva, romã, pitanga, seriguela, groselha, hibisco, maracujá (por estaca
+semilenhosa) e a maioria das mirtáceas.</p>
+<h3 id="especies-dificeis-por-estaquia">Espécies difíceis por estaquia</h3>
+<p>Jabuticaba, manga, abacate, lichia e a maioria dos citros — para essas, prefira <strong>alporque</strong> ou
+<strong>enxertia</strong>.</p>
+<hr />
+<h2 id="alporque-enraizar-no-proprio-pe">Alporque: enraizar no próprio pé</h2>
+<p>O alporque (ou alporquia) é enraizar um galho <strong>ainda ligado à planta-mãe</strong>. Vantagem enorme: a muda
+recebe água e nutrientes o tempo todo, então praticamente não tem risco de perder.</p>
+<p>É o método tradicional para <strong>jabuticaba, lichia, citros e manga</strong>.</p>
+<h3 id="passo-a-passo_1">Passo a passo</h3>
+<ol>
+<li><strong>Escolha um galho</strong> do ano, de 1 a 2 cm de espessura, com boa exposição ao sol.</li>
+<li><strong>Anelar a casca:</strong> com uma faca limpa, faça dois cortes paralelos (1,5 a 2 cm de distância) e
+   remova a casca e a camada verde entre eles, deixando o <strong>lenho branco à mostra</strong>. É esse ferimento
+   que estimula a raiz.</li>
+<li><strong>Raspe o lenho de leve</strong> (opcional), para aumentar a área de enraizamento.</li>
+<li><strong>Aplique hormônio</strong> em pó na região anelada, se tiver.</li>
+<li><strong>Envolva com substrato úmido</strong> (esfagno ou fibra de coco + vermiculita) formando um "bolo".</li>
+<li><strong>Cubra com plástico transparente</strong> e amarre bem nas duas pontas, deixando o substrato sempre
+   úmido.</li>
+<li><strong>Proteja do sol forte</strong> com papel alumínio ou saco, se necessário.</li>
+<li><strong>Aguarde de 1 a 4 meses.</strong> Quando você vir raízes pela transparência, está pronto.</li>
+<li><strong>Separe da planta-mãe</strong> com um corte abaixo do bolo e plante a muda já enraizada.</li>
+</ol>
+<h3 id="quando-fazer">Quando fazer</h3>
+<p>Início da primavera é o melhor momento, quando a planta está em pleno crescimento.</p>
+<h3 id="erros-comuns">Erros comuns</h3>
+<ul>
+<li><strong>Anelar de menos:</strong> se sobrar casca, a planta "refaz" o caminho e não enraíza.</li>
+<li><strong>Deixar secar:</strong> substrato seco no bolo = raiz nenhuma. Verifique a umidade semanalmente.</li>
+<li><strong>Separar cedo:</strong> só separe quando houver raiz visível e firme.</li>
+</ul>
+<hr />
+<h2 id="enxertia-produzir-rapido-e-em-qualquer-solo">Enxertia: produzir rápido e em qualquer solo</h2>
+<p>A enxertia une um pedaço de planta produtiva (<strong>copa</strong>) a uma muda resistente (<strong>cavalo</strong> ou
+porta-enxerto). É o método da fruticultura comercial, porque garante fruta igual à da planta-mãe e
+produção mais cedo.</p>
+<h3 id="quando-vale-a-pena">Quando vale a pena</h3>
+<ul>
+<li>Espécies que não pegam por estaquia (manga, abacate, jabuticaba de qualidade).</li>
+<li>Quando você quer uma planta com <strong>raiz forte</strong> e <strong>copa produtiva</strong>.</li>
+<li>Para recuperar uma planta que perdeu a copa.</li>
+<li>Para ter <strong>várias variedades</strong> num mesmo pé (enxertia múltipla).</li>
+</ul>
+<h3 id="garfagem-o-mais-indicado-para-iniciantes">Garfagem (o mais indicado para iniciantes)</h3>
+<ol>
+<li>Escolha o <strong>cavalo</strong> (muda de 1 cm de diâmetro) e o <strong>garfo</strong> (ramo da planta produtiva, com 2 a 3
+   gemas).</li>
+<li>Corte o cavalo na horizontal e faça um <strong>entalhe em "V"</strong> no topo.</li>
+<li>Corte a base do garfo em <strong>cunha</strong>, do mesmo ângulo.</li>
+<li><strong>Encaixe</strong> de forma que as cascas (câmbio) se <strong>toquem</strong> de um lado.</li>
+<li><strong>Amarre</strong> firmemente com fita de enxertia ou plástico.</li>
+<li><strong>Cubra</strong> o garfo com saco plástico para não secar.</li>
+<li><strong>Mantenha na meia-sombra</strong> até brotar (2 a 4 semanas).</li>
+</ol>
+<h3 id="borbulhia">Borbulhia</h3>
+<p>Usada principalmente em <strong>citros</strong>. Consiste em encaixar uma <strong>gema</strong> (borbulha) retirada da planta
+produtiva sob a casca do cavalo. Mais técnica, mas de ótimo resultado.</p>
+<h3 id="encostia">Encostia</h3>
+<p>Une dois ramos que se tocam, ainda ligados às plantas. Simples e eficaz, mas exige duas plantas
+próximas.</p>
+<h3 id="segredo-da-enxertia">Segredo da enxertia</h3>
+<ul>
+<li><strong>Ferramenta limpa</strong> e <strong>corte perfeito</strong> — sem rebarba.</li>
+<li><strong>Câmbio no câmbio:</strong> a camada verde das duas partes precisa se tocar.</li>
+<li><strong>Amarração firme</strong> e <strong>sem entrar água</strong>.</li>
+<li><strong>Rapidez:</strong> o corte oxida; faça tudo em minutos.</li>
+</ul>
+<hr />
+<h2 id="sementes-quando-vale-a-pena">Sementes: quando vale a pena</h2>
+<p>Sementes são divertidas e gratuitas, mas têm limitações:</p>
+<ul>
+<li>Demoram de <strong>5 a 10 anos</strong> para frutificar.</li>
+<li><strong>Não repetem</strong> a qualidade da fruta (a planta-mãe pode ser enxertada; a semente dá outra coisa).</li>
+<li>Algumas nem germinam bem (citros e manga até vão; jabuticaba demora anos).</li>
+</ul>
+<p><strong>Use sementes para:</strong> experimentar, fazer porta-enxerto para enxertia, ou criar variedades novas.</p>
+<p><strong>Dica:</strong> plante sementes de frutas que você provou e gostou — pelo menos a chance de sair algo bom
+existe, e você aprende observando.</p>
+<hr />
+<h2 id="substrato-e-ambiente-para-enraizar">Substrato e ambiente para enraizar</h2>
+<ul>
+<li><strong>Substrato leve:</strong> areia grossa + vermiculita, ou fibra de coco + perlita. Terra pesada compacta e
+  apodrece o corte.</li>
+<li><strong>Umidade constante, sem encharcar.</strong> O maior inimigo é o excesso de água.</li>
+<li><strong>Meia-sombra.</strong> Sol direto desidrata a estaca antes de ela enraizar.</li>
+<li><strong>Temperatura amena.</strong> Frio atrasa; calor extremo desidrata.</li>
+<li><strong>Paciência.</strong> Cada espécie tem seu tempo — não fique mexendo para ver se enraizou.</li>
+</ul>
+<hr />
+<h2 id="depois-de-enraizar-o-transplante">Depois de enraizar: o transplante</h2>
+<p>Quando a muda tem <strong>raízes firmes e novas folhas</strong>, é hora de transferir para o vaso definitivo.</p>
+<ol>
+<li><strong>Escolha um vaso pequeno</strong> para começar (1 a 3 L) — vaso grande demais encharca e apodrece raiz.</li>
+<li>Use substrato <strong>leve e fértil</strong>, com húmus.</li>
+<li><strong>Não adube</strong> nas primeiras 3 semanas.</li>
+<li><strong>Aclimatize</strong> à luz aos poucos, ao longo de 1 a 2 semanas.</li>
+<li><strong>Aumente o vaso</strong> conforme a planta cresce — sem pressa.</li>
+</ol>
+<p><strong>Erro comum:</strong> colocar a muda recém-enraizada direto num vaso de 50 litros. A raiz não dá conta do
+volume de água e apodrece.</p>
+<hr />
+<h2 id="metodo-por-especie">Método por espécie</h2>
+<table>
+<thead>
+<tr>
+<th>Frutífera</th>
+<th>Melhor método</th>
+<th>Época ideal</th>
+<th>Dificuldade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Acerola</strong></td>
+<td>Estaquia</td>
+<td>Primavera</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Amora</strong></td>
+<td>Estaquia (ponta)</td>
+<td>Fim do inverno</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Figo</strong></td>
+<td>Estaquia (lenhosa)</td>
+<td>Inverno</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Uva</strong></td>
+<td>Estaquia (lenhosa)</td>
+<td>Inverno</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Romã</strong></td>
+<td>Estaquia</td>
+<td>Primavera</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Pitanga</strong></td>
+<td>Estaquia / alporque</td>
+<td>Primavera</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Seriguela</strong></td>
+<td>Estaquia</td>
+<td>Primavera</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Groselha</strong></td>
+<td>Estaquia</td>
+<td>Primavera</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Jabuticaba</strong></td>
+<td>Alporque / enxertia</td>
+<td>Primavera</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Lichia</strong></td>
+<td>Alporque</td>
+<td>Primavera</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Citros</strong> (limão, laranja)</td>
+<td>Enxertia (borbulhia)</td>
+<td>Primavera</td>
+<td>Avançada</td>
+</tr>
+<tr>
+<td><strong>Manga</strong></td>
+<td>Enxertia (garfagem)</td>
+<td>Primavera</td>
+<td>Avançada</td>
+</tr>
+<tr>
+<td><strong>Abacate</strong></td>
+<td>Enxertia</td>
+<td>Primavera</td>
+<td>Avançada</td>
+</tr>
+<tr>
+<td><strong>Goiaba</strong></td>
+<td>Estaquia / alporque</td>
+<td>Primavera</td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Pitaya</strong></td>
+<td>Estaquia (cladódio)</td>
+<td>Qualquer época quente</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Maracujá</strong></td>
+<td>Estaquia semilenhosa</td>
+<td>Primavera</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Morango</strong></td>
+<td>Estolão (muda natural)</td>
+<td>Outono</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Banana</strong></td>
+<td>Divisão de rebento</td>
+<td>Primavera</td>
+<td>Fácil</td>
+</tr>
+<tr>
+<td><strong>Mirtilo</strong></td>
+<td>Estaquia semilenhosa</td>
+<td>Verão</td>
+<td>Avançada</td>
+</tr>
+<tr>
+<td><strong>Atemoia / Pinha</strong></td>
+<td>Enxertia</td>
+<td>Primavera</td>
+<td>Avançada</td>
+</tr>
+</tbody>
+</table>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABgUlEQVR42u2awYrDMBBDxf7/P2shyWhkZxJK2dsqpaXEPj1kWTM2+MmDzMqsb2fhfHj91kv2CH/wyfMfZqHAnryOfwc0sEfCa+V16qrYnVo73l8j4TXx4qUvyS283vVVzC59Mbxe/YvXWqSQxb9GXrU/3j/ZHwde7lmS2RpIwmtdj53AqBDG9rbwWtcjN6evLyuThdfqX5PTQw4WXpt/dYSo2NVuljwx+D1UM6qOtCIyvFZeaG/v+lGFd/bHSV9KYB4mKl6E157vu772Zo6YhdddXzJ3rdAeD6+7f1lMtX0z+pr6EzIsNQo77ofXwAvKFIRXj8n3D/neQtdef0dft/oRdrxh3WnG7x/zBPxQiGt8Da97P4eK9o0JVVaG1+Zfcn6oZoSWZ3jteXXr4MN6rNHXoC+0xqrdWo2d8Jr8nrQzWmuwXlPCa82rfb4NO6ltnOE18fKrE/QD3PCaePktAAtk4fXgX31jQo0dxL9e9sfKFfBOfuqhp/yVm4OZ9eezfgEVwDr4p1WBFwAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Guia: escolher a frutífera</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/especies">frutiferasorganicas.com.br/guias/especies</a></div></div>
+
+<hr />
+<h2 id="erros-que-fazem-perder-a-muda">Erros que fazem perder a muda</h2>
+<ol>
+<li><strong>Cortar galho doente ou sem vigor.</strong> Escolha sempre o melhor material.</li>
+<li><strong>Deixar folha demais na estaca.</strong> A estaca perde água e murcha.</li>
+<li><strong>Encharcar o substrato.</strong> Apodrece o corte antes de enraizar.</li>
+<li><strong>Deixar no sol forte.</strong> Desidrata e mata.</li>
+<li><strong>Mandar a estaca de cabeça para baixo.</strong> A base vai no substrato, o topo para cima.</li>
+<li><strong>Anelar de menos no alporque.</strong> A casca precisa sair toda.</li>
+<li><strong>Deixar o bolo de alporque secar.</strong> Verifique a umidade toda semana.</li>
+<li><strong>Separar a muda cedo demais.</strong> Espere raiz firme.</li>
+<li><strong>Enxertar com ferramenta suja.</strong> Contamina e mata o garfo.</li>
+<li><strong>Transplantar para vaso grande demais.</strong> A raiz apodrece.</li>
+<li><strong>Mexer toda hora para ver se enraizou.</strong> Quebra as raízes novas.</li>
+<li><strong>Adubar a muda recém-enraizada.</strong> Queima a raiz nova.</li>
+</ol>
+<hr />
+<h2 id="perguntas-frequentes">Perguntas frequentes</h2>
+<p><strong>Qual a forma mais fácil de começar?</strong>
+Estaquia de acerola, amora, figo ou uva. Pegam fácil, em qualquer varanda.</p>
+<p><strong>Posso fazer estaquia em qualquer época?</strong>
+O ideal é fim do inverno e primavera. Fora disso, o enraizamento é mais lento e incerto.</p>
+<p><strong>Preciso de hormônio para enraizar?</strong>
+Ajuda, mas não é obrigatório. Água de salgueiro, mel e canela funcionam como apoio caseiro.</p>
+<p><strong>Por que minha estaca murchou?</strong>
+Quase sempre excesso de folha, sol direto ou substrato encharcado.</p>
+<p><strong>Jabuticaba dá por estaquia?</strong>
+Muito difícil. Use alporque ou enxertia.</p>
+<p><strong>Quanto tempo até a muda dar fruto?</strong>
+Depende do método: estaquia e alporque, 1 a 3 anos; enxertia, 1 a 3 anos; semente, 5 a 10 anos.</p>
+<p><strong>Posso vender as mudas que fizer?</strong>
+Pode. Só cuide da sanidade das plantas e use substrato limpo.</p>
+<p><strong>Como sei que enraizou?</strong>
+Puxe de leve: se resistir, tem raiz. Ou levante o torrão com cuidado e observe.</p>
+<p><strong>Posso fazer enxertia em planta pequena?</strong>
+Pode, desde que o cavalo tenha espessura suficiente (a partir de 0,8 a 1 cm).</p>
+<hr />
+<h2 id="checklist-do-multiplicador">Checklist do multiplicador</h2>
+<p><strong>Antes de cortar</strong>
+- [ ] Escolher planta-mãe que já produz bem
+- [ ] Escolher a época certa (primavera / fim do inverno)
+- [ ] Separar tesoura limpa, substrato leve e recipiente</p>
+<p><strong>Na estaquia</strong>
+- [ ] Galho de 10-20 cm com 2-3 nós
+- [ ] Base em ângulo, abaixo de um nó
+- [ ] Remover folhas de baixo
+- [ ] Meia-sombra e substrato úmido (não encharcado)</p>
+<p><strong>No alporque</strong>
+- [ ] Anelar até o lenho, sem sobra de casca
+- [ ] Substrato úmido e plástico bem amarrado
+- [ ] Verificar umidade semanalmente
+- [ ] Separar só com raiz firme</p>
+<p><strong>Na enxertia</strong>
+- [ ] Cavalo e garfo de diâmetro parecido
+- [ ] Câmbio no câmbio
+- [ ] Amarração firme e sem água
+- [ ] Meia-sombra até brotar</p>
+<p><strong>Depois de enraizar</strong>
+- [ ] Vaso pequeno primeiro
+- [ ] Sem adubo por 3 semanas
+- [ ] Aclimatação gradual à luz</p>
+<hr />
+<h2 id="continue-com-a-gente">Continue com a gente</h2>
+<p>Multiplicar é o passo que transforma quem cultiva em quem <strong>produz</strong>. No canal <strong>Frutíferas Orgânicas</strong>
+você vê enxertias, alporques e colheitas acontecendo de verdade.</p>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABfklEQVR42u2aS27EMAxDid7/ziw6tinaUTKDorsyWeTn1YNEUXLATw5kVVb9dhXG8brlzxWvl6wv/MInx39YhQUWHMQGp/FyfQmvndeIrslLkKAv4dXxop5mJobXc3xhJeNKzPB60i+K0FKw6FfLS/XxcqY+NrzMW2DKF7HbkfDa87GepmxZjUx8XeNLF5hZnW+iXxdeMEtBlHOdChZeTX0UqmXBaIY/vDy+psqLUdVKxE/0+SinqpCSb019fKNfVBeJFWLhdfoJFUQS1W6nPrb6BTkHVLB5AIbXqV+kQYN5r8RX71d3q1/Dr/iv1k/MImmznIq88DrnE9zS0Kc5g2V4nfMcq4214RG9v/cTKPflO0PRr4aXNYyrQqrXTn1s9QvWLW4zsfSPjZ+gyZZMrM1Zw+vU+5V59M0iZWp4XeZfpvjA9kdAeF30fu8dN6Mf/XrgRZtB24QivDpe5Sc8xhheN/qloZdtQyJ+9aE++pxC9/ETN/4rfw5m1Z+v+ga48ikKb/G2ggAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Canal no YouTube</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas">www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas</a></div></div>
+
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEIAQMAAACZOPi8AAAABlBMVEUfPSv///9523ubAAABFklEQVR42u2ZsQ7EMAhDrfv/f+bUAwztDd37mg6NUCbLMcZR3C29J9gnlOvYuLCqH92tJ51Qg6aYXX5VBeJx/BKYY988qSoXj2hanKpkfshwoPEoapyEBKwftbl82P6ymu8PlkuZeF+yrUSzZJSViYfsy9p6DFBQfqSMpqg2MHltePrRMLitDGOgeJR+hH1qSwm037b3iGXQwP2l+CH/w40X6T+aE7Jfn8bD9OtGwhGIAwCgnsaS1WVAuP4jprX0XfGkS5xf5NBj5YVUPP6seotrMgc7346MdggikfOPNcWYK8HOx7RaLtaPrTz5/PoCf2/QCIkNa6DzdS2DGvh8vQeWqgurpwZAY9fDBgScr7/v+++Jy/oCuE02tusfQ7kAAAAASUVORK5CYII=" alt="QR code"/><div class="qrtext"><strong>Site Frutíferas Orgânicas</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br">frutiferasorganicas.com.br</a></div></div>
+
+<p>Dúvida? Deixe um comentário em qualquer vídeo. Eu leio e respondo.</p>
+<hr />
+<p><em>Frutíferas Orgânicas — uma planta vira um pomar.</em></p></body></html>

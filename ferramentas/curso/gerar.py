@@ -248,6 +248,12 @@ th { background: #f3f3ee; }
 .foto { border: 2px dashed #c9c9bd; border-radius: 8px; width: 48%; height: 58mm; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px; color: #8a8a7d; font-size: 10pt; page-break-inside: avoid; }
 .diario { font-size: 10pt; }
 .diario td { height: 26px; }
+.oferta { border: 2px solid #2e5b3a; border-radius: 10px; padding: 14px 16px; margin: 16px 0; page-break-inside: avoid; }
+.oferta .otag { font-size: 9pt; text-transform: uppercase; letter-spacing: 2px; color: #8f4c25; font-weight: bold; margin-bottom: 4px; }
+.oferta h3 { margin: 0 0 6px; color: #1f3d2b; font-size: 15pt; page-break-after: avoid; }
+.oferta .opreco { font-size: 13pt; margin: 0 0 8px; }
+.oferta .ode { color: #999; text-decoration: line-through; font-size: 11pt; margin-right: 6px; }
+.oferta ul { margin: 8px 0 10px; padding-left: 20px; font-size: 10.5pt; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }
@@ -311,6 +317,67 @@ def icone_luz(luz):
     return "☀"
 
 
+# --- Ofertas complementares (order bump e upsell) -----------------------------
+OFERTAS = [
+    {
+        "qr": "oferta-bump",
+        "tag": "Order bump · oferta do checkout",
+        "nome": "Adubação Orgânica Descomplicada",
+        "de": "R$ 27",
+        "por": "R$ 9,90",
+        "pitch": (
+            "O guia prático de adubação: as receitas caseiras (o chá de húmus de 24 a 48 h), o bokashi "
+            "sem erro, o calendário por fase da planta e o diagnóstico do que a folha está dizendo."
+        ),
+        "itens": [
+            "Adubo líquido caseiro passo a passo",
+            "Calendário de adubação por fase",
+            "Tabela de adubação por espécie",
+            "Diagnóstico de deficiências",
+        ],
+    },
+    {
+        "qr": "oferta-upsell",
+        "tag": "Upsell · oferta pós-compra",
+        "nome": "Multiplicação de Mudas na Prática",
+        "de": "R$ 97",
+        "por": "R$ 67",
+        "pitch": (
+            "O módulo imersivo para você fazer suas próprias mudas: estaquia, alporque e enxertia, com o "
+            "método certo para cada espécie — e nunca mais depender de comprar planta."
+        ),
+        "itens": [
+            "Estaquia passo a passo + hormônios caseiros",
+            "Alporque (o método da jabuticaba e dos citros)",
+            "Enxertia: garfagem, borbulhia e encostia",
+            "Tabela de método por espécie",
+        ],
+    },
+]
+
+OFERTAS_RE = re.compile(r"<!--\s*OFERTAS\s*-->")
+
+
+def oferta_html(o):
+    itens = "".join(f"<li>{i}</li>" for i in o["itens"])
+    return (
+        "<div class=\"oferta\">"
+        f"<div class=\"otag\">{o['tag']}</div>"
+        f"<h3>{o['nome']}</h3>"
+        f"<p class=\"opreco\"><span class=\"ode\">{o['de']}</span> "
+        f"<strong>{o['por']}</strong></p>"
+        f"<p>{o['pitch']}</p>"
+        f"<ul>{itens}</ul>"
+        f"<!-- QR:{o['qr']} -->"
+        "</div>"
+    )
+
+
+def substituir_ofertas(texto):
+    bloco = "\n\n".join(oferta_html(o) for o in OFERTAS)
+    return OFERTAS_RE.sub(bloco, texto)
+
+
 def link_video(f):
     vids = f.get("videos") or []
     if not vids:
@@ -326,6 +393,7 @@ def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None):
     texto = open(md_path, encoding="utf-8").read()
     if extra_md is not None:
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
+    texto = substituir_ofertas(texto)
     texto = substituir_qr(texto)
     corpo = markdown.markdown(texto, extensions=["extra", "sane_lists", "toc"])
     html = (
@@ -612,6 +680,18 @@ def main():
         "Frutiferas-em-Vaso-bonus.pdf",
         "Workbook do Aluno",
         "diário de cultivo, checklist e fichas de bolso",
+    )
+    md_para_pdf(
+        os.path.join(config.SITE_DIR, "CURSO-BUMP.md"),
+        "Adubacao-Organica-Descomplicada.pdf",
+        "Adubação Orgânica",
+        "Descomplicada — receitas, doses e calendário",
+    )
+    md_para_pdf(
+        os.path.join(config.SITE_DIR, "CURSO-UPSELL.md"),
+        "Multiplicacao-de-Mudas-na-Pratica.pdf",
+        "Multiplicação de Mudas",
+        "na prática — estaquia, alporque e enxertia",
     )
 
 

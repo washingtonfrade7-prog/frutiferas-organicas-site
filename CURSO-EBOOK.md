@@ -566,6 +566,16 @@ para experimentar, não para produzir.
 
 ---
 
+## Quer ir mais fundo?
+
+Você chegou ao fim do método completo. Se quiser acelerar ainda mais os resultados, preparei dois
+materiais que aprofundam exatamente os dois pontos que mais mudam o jogo: **a adubação** e **a
+multiplicação de mudas**.
+
+<!-- OFERTAS -->
+
+---
+
 ## Catálogo de Cultivo — mais de 100 frutíferas
 
 Este é o coração do guia: uma ficha rápida de cada espécie, com **luz, rega, solo, tamanho de vaso,

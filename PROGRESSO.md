@@ -237,11 +237,35 @@ de substrato úmido (~0,9–1,2 kg/L; fibra de coco ~0,2 kg/L), boas práticas d
   .venv\Scripts\python.exe -X utf8 ferramentas\curso\gerar.py
   ```
 
-### Esteira comercial sugerida (Hotmart)
-- **Order bump** (checkout, 1 clique): mini-curso "Adubação Orgânica Descomplicada" por **R$ 9,90**
+### Esteira comercial sugerida (Hotmart)- **Order bump** (checkout, 1 clique): mini-curso "Adubação Orgânica Descomplicada" por **R$ 9,90**
   (faixa recomendada: 10–25% do produto principal). Order bumps elevam o faturamento em ~30%.
 - **Upsell** (pós-compra, 1 clique): **Módulo Imersivo de Multiplicação** (estaquia, alporque e enxertia)
   ou **Comunidade VIP** por **R$ 67** (referência: 15–30% acima do produto principal; aceitação saudável 3–8%).
 - Taxa Hotmart atualizada: **9,9% + R$ 2,49** por venda.
+
+## Produto — esteira comercial (v3)
+Dois materiais novos, escritos e gerados em PDF, para a esteira de vendas:
+
+- **Order bump** — `CURSO-BUMP.md` → `Adubacao-Organica-Descomplicada.pdf` (**17 páginas**), R$ 9,90
+  (de R$ 27). Conteúdo: N-P-K, matérias-primas, chá de húmus (24-48 h), bokashi sem erro, calendário
+  por fase, aplicação sem queimar, diagnóstico por folha, adubação por espécie, FAQ e checklist.
+- **Upsell** — `CURSO-UPSELL.md` → `Multiplicacao-de-Mudas-na-Pratica.pdf` (**18 páginas**), R$ 67
+  (de R$ 97). Conteúdo: estaquia + hormônios caseiros, alporque passo a passo, enxertia (garfagem,
+  borbulhia, encostia), sementes, transplante, método por espécie, 12 erros, FAQ e checklist.
+- **Página de oferta no e-book**, logo após o Cap 10 (multiplicação): seção "Quer ir mais fundo?" com
+  os dois blocos (`<!-- OFERTAS -->`), preço ancorado, bullets e QR code de cada oferta.
+  O e-book passou de 65 para **67 páginas**.
+- Novos QR codes: `oferta-bump` e `oferta-upsell` (apontam para `/curso` até os links do Hotmart existirem).
+- Preços e textos das ofertas ficam em `OFERTAS` (em `gerar.py`) — trocar o link do Hotmart é editar
+  `gerar_qrcodes.py` e rodar de novo.
+
+Saída completa em `ferramentas/curso/out/`:
+| Arquivo | Páginas | Papel |
+|---|---|---|
+| `Frutiferas-em-Vaso-ebook.pdf` | 67 | produto principal |
+| `Frutiferas-em-Vaso-bonus.pdf` | 12 | workbook do aluno |
+| `Adubacao-Organica-Descomplicada.pdf` | 17 | order bump (R$ 9,90) |
+| `Multiplicacao-de-Mudas-na-Pratica.pdf` | 18 | upsell (R$ 67) |
+
 
 
