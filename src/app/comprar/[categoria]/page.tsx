@@ -10,7 +10,7 @@ import {
   produtosPorCategoria,
 } from '@/data/produtos'
 import { artigosComerciais } from '@/data/melhores'
-import { breadcrumbJsonLd, itemListJsonLd } from '@/lib/seo'
+import { breadcrumbJsonLd, productListJsonLd } from '@/lib/seo'
 import { absoluteUrl, site } from '@/lib/site'
 
 interface PageProps {
@@ -51,7 +51,7 @@ export default function CategoriaCompraPage({ params }: PageProps) {
         ])}
       />
       <JsonLd
-        data={itemListJsonLd(
+        data={productListJsonLd(
           lista.map((p) => ({ name: p.nome, url: absoluteUrl(`/comprar/${cat.slug}`) }))
         )}
       />

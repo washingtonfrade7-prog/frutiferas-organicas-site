@@ -61,6 +61,7 @@ export default function ArtigoComercialPage({ params }: PageProps) {
           title: artigo.titulo,
           description: artigo.descricao,
           path: `/melhores/${artigo.slug}`,
+          published: `${artigo.atualizado}-01`,
         })}
       />
       <JsonLd data={faqJsonLd(artigo.faq)} />

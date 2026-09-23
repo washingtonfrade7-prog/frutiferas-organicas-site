@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
-import { useSearchParams } from 'next/navigation'
 import FrutiferaCard from '@/components/FrutiferaCard'
 import BannerSlot from '@/components/BannerSlot'
 import AdSlot from '@/components/Ads'
@@ -14,19 +13,25 @@ function normalizar(texto: string): string {
 }
 
 export default function FrutiferasContent() {
-  const searchParams = useSearchParams()
-  const catParam = searchParams.get('cat') || ''
-  const qParam = searchParams.get('q') || ''
+  // O estado inicial e vazio para que o HTML estatico (SSG) inclua TODAS as
+  // frutiferas (bom para indexacao). Depois de hidratar, lemos os parametros
+  // da URL (?cat= e ?q=) e aplicamos o filtro.
+  const [cat, setCat] = useState('')
+  const [busca, setBusca] = useState('')
+  const [termo, setTermo] = useState('')
 
-  const [cat, setCat] = useState(catParam)
-  const [busca, setBusca] = useState(qParam)
-  const [termo, setTermo] = useState(qParam)
-
-  useEffect(() => setCat(catParam), [catParam])
   useEffect(() => {
-    setBusca(qParam)
-    setTermo(qParam)
-  }, [qParam])
+    function lerParams() {
+      const params = new URLSearchParams(window.location.search)
+      setCat(params.get('cat') || '')
+      const q = params.get('q') || ''
+      setBusca(q)
+      setTermo(q)
+    }
+    lerParams()
+    window.addEventListener('popstate', lerParams)
+    return () => window.removeEventListener('popstate', lerParams)
+  }, [])
 
   // debounce simples da busca
   useEffect(() => {

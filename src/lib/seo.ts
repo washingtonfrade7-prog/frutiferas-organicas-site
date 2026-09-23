@@ -57,6 +57,7 @@ export function articleJsonLd(article: {
     mainEntityOfPage: absoluteUrl(article.path),
     image: article.image ? [article.image] : undefined,
     datePublished: article.published,
+    dateModified: article.published,
     author: { '@type': 'Organization', name: site.name },
     publisher: { '@type': 'Organization', name: site.name },
     inLanguage: 'pt-BR',
@@ -103,6 +104,18 @@ export function itemListJsonLd(items: { name: string; url: string }[]): string {
       position: i + 1,
       name: item.name,
       url: item.url,
+    })),
+  })
+}
+
+export function productListJsonLd(items: { name: string; url: string }[]): string {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: { '@type': 'Product', name: item.name, url: item.url },
     })),
   })
 }

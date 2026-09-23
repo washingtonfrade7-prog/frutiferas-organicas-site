@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Suspense } from 'react'
 import FrutiferasContent from './content'
 import { site } from '@/lib/site'
 
@@ -17,9 +16,5 @@ export const metadata: Metadata = {
 }
 
 export default function FrutiferasPage() {
-  return (
-    <Suspense fallback={<div className="max-w-7xl mx-auto px-4 py-8"><p className="text-ink-500">Carregando...</p></div>}>
-      <FrutiferasContent />
-    </Suspense>
-  )
+  return <FrutiferasContent />
 }

@@ -122,6 +122,11 @@
   - **JSON-LD `HowTo` + `FAQPage`** nos guias (rich results) e cross-links `/mudas` → `/comprar`
   - **Upload FTP resiliente**: manifesto local (pula arquivos inalterados) + retry com backoff e circuit breaker
   - Auditoria final no ar: **259 páginas, 0 erros** · carga **600 req/30 usuários em 28 ms** · **a11y 0 violações** · navegador OK
+- [x] E39. **Auditoria de indexação/SEO + correção crítica**:
+  - **BUG CORRIGIDO**: o catálogo `/frutiferas` estava atrás de `useSearchParams` + `Suspense`, então o HTML estático trazia apenas "Carregando..." e **nenhuma frutífera** (0 links). Removido o `useSearchParams`; os filtros agora leem a URL após a hidratação (`useEffect` + `popstate`). O HTML agora traz **as 106 frutíferas** (106 links) — indexável
+  - **JSON-LD**: `datePublished`/`dateModified` nos artigos; `Product` dentro do `ItemList` nas categorias de compra; `logo` na Organization
+  - **SSG x SSR**: o site usa Static Site Generation (`output: 'export'`), que entrega HTML completo no build — **equivalente/melhor que SSR para SEO** (crawler recebe tudo sem JS, e é mais rápido). Não é necessária migração para SSR
+  - Verificado no ar: `/frutiferas` com 106 links, sem "Carregando"
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
