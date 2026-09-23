@@ -1,7 +1,10 @@
 <?php
 /**
- * Recebe o retorno do GitHub, troca o codigo pelo token e devolve ao painel
- * (protocolo do Decap CMS). Envia o token imediatamente e mostra o status na tela.
+ * Recebe o retorno do GitHub, troca o codigo pelo token e autentica o painel.
+ *
+ * Estrategia principal: grava o usuario direto no localStorage do painel
+ * (mesma origem) e recarrega — metodo testado e confiavel.
+ * Fallback: protocolo de postMessage do Decap.
  */
 $config = @include dirname(__DIR__) . '/_oauth-config.php';
 $code = isset($_GET['code']) ? $_GET['code'] : '';
@@ -55,35 +58,40 @@ header('Content-Type: text/html; charset=utf-8');
   var detalhe = <?php echo json_encode($detalhe); ?>;
   var provider = 'github';
 
-  var sucesso = 'authorization:' + provider + ':success:' + JSON.stringify({ token: token, provider: provider });
-  var falha = 'authorization:' + provider + ':error:' + JSON.stringify({ message: detalhe || 'erro desconhecido' });
-  var mensagem = token ? sucesso : falha;
+  function mostrar(titulo, texto) {
+    document.getElementById('titulo').textContent = titulo;
+    document.getElementById('msg').textContent = texto;
+  }
+
+  // 1) METODO PRINCIPAL: grava o login direto no painel (mesma origem) e recarrega
+  if (token && window.opener) {
+    try {
+      var usuario = JSON.stringify({ token: token, backendName: 'github' });
+      window.opener.localStorage.setItem('decap-cms-user', usuario);
+      mostrar('✅ Autorizado com sucesso!', 'Abrindo o painel…');
+      try { window.opener.location.replace('/cms'); } catch (e) { window.opener.location.reload(); }
+      setTimeout(function () { window.close(); }, 800);
+      return;
+    } catch (e) {
+      // segue para o fallback
+    }
+  }
+
+  // 2) FALLBACK: protocolo de postMessage do Decap
+  var mensagem = token
+    ? 'authorization:' + provider + ':success:' + JSON.stringify({ token: token, provider: provider })
+    : 'authorization:' + provider + ':error:' + JSON.stringify({ message: detalhe || 'erro desconhecido' });
 
   function enviar() {
-    if (!window.opener) return false;
+    if (!window.opener) return;
     try { window.opener.postMessage(mensagem, '*'); } catch (e) {}
-    return true;
   }
-
-  // 1) envia imediatamente
   enviar();
-  // 2) e responde ao handshake do painel
   window.addEventListener('message', function () { enviar(); }, false);
-  // 3) e reenvia algumas vezes por seguranca
-  var tentativas = 0;
-  var timer = setInterval(function () {
-    enviar();
-    if (++tentativas >= 6) clearInterval(timer);
-  }, 700);
+  var n = 0;
+  var t = setInterval(function () { enviar(); if (++n >= 6) clearInterval(t); }, 700);
 
-  document.getElementById('titulo').textContent = token ? '✅ Autorizado com sucesso!' : '❌ Não autorizado';
-  document.getElementById('msg').textContent = token
-    ? 'Pode fechar esta janela — o painel já deve estar aberto.'
-    : ('Detalhe: ' + (detalhe || 'erro desconhecido'));
-
-  if (window.opener && token) {
-    setTimeout(function () { window.close(); }, 1500);
-  }
+  mostrar(token ? '✅ Autorizado com sucesso!' : '❌ Não autorizado', token ? 'Pode fechar esta janela.' : ('Detalhe: ' + detalhe));
 })();
 </script>
 </body>
