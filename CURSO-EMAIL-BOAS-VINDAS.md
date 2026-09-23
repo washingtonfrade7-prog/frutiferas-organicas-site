@@ -147,3 +147,31 @@ Washington
 - Sempre inclua o link de descadastro (o Brevo adiciona automaticamente).
 - Evite imagens pesadas e palavras como "grátis", "promoção" no assunto (podem cair em spam).
 - Assine com o nome do canal para reforçar a marca.
+
+---
+
+## Como montar no MailerLite (com blocos) — caminho garantido
+
+Se o bloco **Custom HTML** der erro ao salvar, monte o e-mail arrastando os blocos prontos
+(leva ~5 minutos e funciona em qualquer plano). Ordem dos blocos:
+
+| Ordem | Bloco no MailerLite | O que preencher |
+|---|---|---|
+| 1 | **Título (Heading)** | `Você está na lista! 🌱` |
+| 2 | **Texto (Text)** | `Olá! Que bom ter você aqui. Você entrou na lista do Frutíferas Orgânicas — o canal onde mostro, na prática, como plantar, adubar, podar e colher frutíferas em vaso.` |
+| 3 | **Texto (Text)** | `A partir de agora você vai receber:` |
+| 4 | **Lista (List)** | `Dicas práticas de cultivo em vaso (uma por semana)` · `Novidades e colheitas do canal` · `Avisos de promoções de mudas, vasos e insumos` · `Em primeira mão: o guia Frutíferas em Vaso: do plantio à colheita` |
+| 5 | **Texto (Text)** | `Dica rápida: antes de comprar qualquer muda, veja quantas horas de sol direto o seu espaço recebe — frutífera sem sol não frutifica.` |
+| 6 | **Botão (Button)** | Texto: `Ver fichas de cultivo` · Link: `https://frutiferasorganicas.com.br/frutiferas` |
+| 7 | **Texto (Text)** | `Um abraço, Washington Frade — Canal Frutíferas Orgânicas` |
+
+**Configurações do e-mail:**
+- **Assunto:** `Você está na lista! 🌱`
+- **Preheader:** `Confirme sua inscrição e receba a primeira dica.`
+- **Remetente:** `Frutíferas Orgânicas` · `contato@frutiferasorganicas.com.br`
+
+**Onde montar:** Automations → Create automation → **Welcome email** → trigger
+*Subscriber joins a group* → grupo `Lista de espera - Curso`.
+
+> Enquanto a automação não estiver ativa, os contatos continuam sendo salvos na lista
+> (o site já faz isso). O e-mail só passa a ser enviado depois de **Activate**.
