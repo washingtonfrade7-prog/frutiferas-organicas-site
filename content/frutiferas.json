@@ -1,0 +1,946 @@
+[
+  {
+    "slug": "jabuticaba",
+    "nome": "Jabuticaba",
+    "imagem": "/frutiferas/jabuticaba.webp",
+    "galeria": [
+      "/frutiferas/jabuticaba-2.webp"
+    ],
+    "resumo": "A fruta símbolo do Brasil, que floresce e frutifica direto no tronco. Existem variedades híbridas que produzem em vaso em poucos anos."
+  },
+  {
+    "slug": "araca-vermelho",
+    "nome": "Araçá Vermelho",
+    "imagem": "/frutiferas/araca-vermelho.webp",
+    "galeria": [
+      "/frutiferas/araca-vermelho-2.webp"
+    ],
+    "resumo": "Pequeno, rústico e muito produtivo. O araçá vermelho é ideal para vasos e rende uma colheita abundante de frutos doces e aromáticos."
+  },
+  {
+    "slug": "pitanga-preta",
+    "nome": "Pitanga Preta",
+    "imagem": "/frutiferas/pitanga-preta.webp",
+    "galeria": [
+      "/frutiferas/pitanga-preta-2.webp"
+    ],
+    "resumo": "Variedade raríssima de pitanga, com frutos escuros, doces e de altíssimo teor de açúcar, que produz muito bem em vaso."
+  },
+  {
+    "slug": "araca-boi",
+    "nome": "Araçá Boi (Fruta Iogurte)",
+    "imagem": "/frutiferas/araca-boi.webp",
+    "galeria": [
+      "/frutiferas/araca-boi-2.webp"
+    ],
+    "resumo": "Também conhecida como fruta iogurte, tem polpa cremosa e sabor que lembra iogurte. Uma das nativas mais produtivas em vaso."
+  },
+  {
+    "slug": "bacupari-mirim",
+    "nome": "Bacupari Mirim",
+    "imagem": "/frutiferas/bacupari-mirim.webp",
+    "galeria": [
+      "/frutiferas/bacupari-mirim-2.webp"
+    ],
+    "resumo": "Fruta nativa rara, doce e apreciada por colecionadores. O bacupari mirim é uma joia da fruticultura brasileira."
+  },
+  {
+    "slug": "bacupari-estalo",
+    "nome": "Bacupari Estalo",
+    "imagem": "/frutiferas/bacupari-estalo.webp",
+    "galeria": [
+      "/frutiferas/bacupari-estalo-2.webp"
+    ],
+    "resumo": "Conhecido pelo som característico do fruto ao ser aberto. Uma frutífera rara e saborosa do Cerrado brasileiro."
+  },
+  {
+    "slug": "abiu-amarelo",
+    "nome": "Abiu Amarelo",
+    "imagem": "/frutiferas/abiu-amarelo.webp",
+    "galeria": [
+      "/frutiferas/abiu-amarelo-2.webp"
+    ],
+    "resumo": "Fruta exótica de polpa cremosa e muito doce, com sabor que lembra caramelo. Produz bem em vaso com os cuidados certos."
+  },
+  {
+    "slug": "gabiroba",
+    "nome": "Gabiroba do Cerrado",
+    "imagem": "/frutiferas/gabiroba.webp",
+    "galeria": [
+      "/frutiferas/gabiroba-2.webp"
+    ],
+    "resumo": "Fruta típica do Cerrado, aromática e rica em vitamina C. Rústica e ideal para quem quer começar com nativas."
+  },
+  {
+    "slug": "cereja-rio-grande",
+    "nome": "Cereja do Rio Grande",
+    "imagem": "/frutiferas/cereja-rio-grande.webp",
+    "galeria": [
+      "/frutiferas/cereja-rio-grande-2.webp"
+    ],
+    "resumo": "Conhecida como cereja brasileira, tem frutos vermelhos doces e propriedades medicinais, além de grande valor ornamental."
+  },
+  {
+    "slug": "grumixama-amarela",
+    "nome": "Grumixama Amarela",
+    "imagem": "/frutiferas/grumixama-amarela.webp",
+    "galeria": [
+      "/frutiferas/grumixama-amarela-2.webp"
+    ],
+    "resumo": "Variedade rara da grumixama, com frutos amarelos doces e produção surpreendente mesmo em vasos de 30 litros."
+  },
+  {
+    "slug": "abacate",
+    "nome": "Abacate",
+    "imagem": "/frutiferas/abacate.webp",
+    "galeria": [
+      "/frutiferas/abacate-2.webp"
+    ],
+    "resumo": "Abacate é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 8 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "abacaxi",
+    "nome": "Abacaxi",
+    "imagem": "/frutiferas/abacaxi.webp",
+    "galeria": [
+      "/frutiferas/abacaxi-2.webp"
+    ],
+    "resumo": "Abacaxi é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 37 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "acerola-okinawa",
+    "nome": "Acerola Okinawa",
+    "imagem": "/frutiferas/acerola-okinawa.webp",
+    "galeria": [
+      "/frutiferas/acerola-okinawa-2.webp"
+    ],
+    "resumo": "Acerola Okinawa é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 9 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "ajuru-preto-branco",
+    "nome": "Ajuru preto branco",
+    "imagem": "/frutiferas/ajuru-preto-branco.webp",
+    "galeria": [
+      "/frutiferas/ajuru-preto-branco-2.webp"
+    ],
+    "resumo": "Ajuru preto branco é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "ameixa-japao",
+    "nome": "Ameixa Japao",
+    "imagem": "/frutiferas/ameixa-japao.webp",
+    "galeria": [
+      "/frutiferas/ameixa-japao-2.webp"
+    ],
+    "resumo": "Ameixa japonesa, de frutos grandes e sabor doce-equilibrado. Variedade de mesa muito apreciada."
+  },
+  {
+    "slug": "ameixa-vermelha",
+    "nome": "Ameixa vermelha",
+    "imagem": "/frutiferas/ameixa-vermelha.webp",
+    "galeria": [
+      "/frutiferas/ameixa-vermelha-2.webp"
+    ],
+    "resumo": "Ameixa de casca vermelha e polpa amarela, doce e suculenta. Precisa de poda anual para produzir bem em vaso."
+  },
+  {
+    "slug": "amora-portuguesa",
+    "nome": "Amora Portuguesa",
+    "imagem": "/frutiferas/amora-portuguesa.webp",
+    "galeria": [
+      "/frutiferas/amora-portuguesa-2.webp"
+    ],
+    "resumo": "Amora de ramos com espinhos e frutos menores, porém muito saborosos e aromáticos. Planta rústica e vigorosa."
+  },
+  {
+    "slug": "amora-preta-tupy",
+    "nome": "Amora Preta Tupy",
+    "imagem": "/frutiferas/amora-preta-tupy.webp",
+    "galeria": [
+      "/frutiferas/amora-preta-tupy-2.webp"
+    ],
+    "resumo": "Amora-preta sem espinhos, de frutos grandes e doces. Cultivar brasileiro muito produtivo e ideal para vaso."
+  },
+  {
+    "slug": "ananas-do-mato",
+    "nome": "Ananas do mato",
+    "imagem": "/frutiferas/ananas-do-mato.webp",
+    "galeria": [
+      "/frutiferas/ananas-do-mato-2.webp"
+    ],
+    "resumo": "Ananas do mato é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "araca-amarelo",
+    "nome": "Araca Amarelo",
+    "imagem": "/frutiferas/araca-amarelo.webp",
+    "galeria": [
+      "/frutiferas/araca-amarelo-2.webp"
+    ],
+    "resumo": "Variedade de casca amarela do mesmo araçá: frutos mais doces e menos ácidos que o vermelho, com aroma suave."
+  },
+  {
+    "slug": "araca-boi-fruta-iogurte",
+    "nome": "Araca Boi fruta iogurte",
+    "imagem": "/frutiferas/araca-boi-fruta-iogurte.webp",
+    "galeria": [
+      "/frutiferas/araca-boi-fruta-iogurte-2.webp"
+    ],
+    "resumo": "Araca Boi fruta iogurte é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 161 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "araca-pera",
+    "nome": "Araca Pera",
+    "imagem": "/frutiferas/araca-pera.webp",
+    "galeria": [
+      "/frutiferas/araca-pera-2.webp"
+    ],
+    "resumo": "Araçá de frutos em formato de pera, polpa doce e aromática. Espécie amazônica rara, de crescimento moderado."
+  },
+  {
+    "slug": "araca-roxo",
+    "nome": "Araca Roxo",
+    "imagem": "/frutiferas/araca-roxo.webp",
+    "galeria": [
+      "/frutiferas/araca-roxo-2.webp"
+    ],
+    "resumo": "Araçá de casca arroxeada/escura, sabor intenso e adocicado. Menos comum que o vermelho e o amarelo, muito procurado por colecionadores."
+  },
+  {
+    "slug": "atemoia",
+    "nome": "Atemoia",
+    "imagem": "/frutiferas/atemoia.webp",
+    "galeria": [
+      "/frutiferas/atemoia-2.webp"
+    ],
+    "resumo": "Atemoia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 13 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "bacupari-de-bico",
+    "nome": "Bacupari de bico",
+    "imagem": "/frutiferas/bacupari-de-bico.webp",
+    "galeria": [
+      "/frutiferas/bacupari-de-bico-2.webp"
+    ],
+    "resumo": "Bacupari de bico é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 23 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "bacuri",
+    "nome": "Bacuri",
+    "imagem": "/frutiferas/bacuri.webp",
+    "galeria": [
+      "/frutiferas/bacuri-2.webp"
+    ],
+    "resumo": "Bacuri é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "banana-ouro",
+    "nome": "Banana ouro",
+    "imagem": "/frutiferas/banana-ouro.webp",
+    "galeria": [
+      "/frutiferas/banana-ouro-2.webp"
+    ],
+    "resumo": "Banana ouro é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "biriba",
+    "nome": "Biriba",
+    "imagem": "/frutiferas/biriba.webp",
+    "galeria": [
+      "/frutiferas/biriba-2.webp"
+    ],
+    "resumo": "Biriba é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 1 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "cabeludinha-roxa",
+    "nome": "Cabeludinha roxa",
+    "imagem": "/frutiferas/cabeludinha-roxa.webp",
+    "galeria": [
+      "/frutiferas/cabeludinha-roxa-2.webp"
+    ],
+    "resumo": "Também chamada de peludinha: frutos amarelos de casca aveludada, polpa suculenta e doce com leve acidez. Arbusto compacto, ótimo para vaso."
+  },
+  {
+    "slug": "cacau",
+    "nome": "Cacau",
+    "imagem": "/frutiferas/cacau.webp",
+    "galeria": [
+      "/frutiferas/cacau-2.webp"
+    ],
+    "resumo": "Cacau é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 5 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "cagaita",
+    "nome": "Cagaita",
+    "imagem": "/frutiferas/cagaita.webp",
+    "galeria": [
+      "/frutiferas/cagaita-2.webp"
+    ],
+    "resumo": "Fruto amarelo do Cerrado, suculento e levemente ácido. Muito produtivo e rústico, símbolo da fruticultura do Cerrado."
+  },
+  {
+    "slug": "caja-manga-anao",
+    "nome": "Caja manga Anao",
+    "imagem": "/frutiferas/caja-manga-anao.webp",
+    "galeria": [
+      "/frutiferas/caja-manga-anao-2.webp"
+    ],
+    "resumo": "Caja manga Anao é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 46 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "caju",
+    "nome": "Caju",
+    "imagem": "/frutiferas/caju.webp",
+    "galeria": [],
+    "resumo": "Caju é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "calabura",
+    "nome": "Calabura",
+    "imagem": "/frutiferas/calabura.webp",
+    "galeria": [
+      "/frutiferas/calabura-2.webp"
+    ],
+    "resumo": "Também chamada de cereja-do-campo ou calabura: frutinhas vermelhas muito doces e adocicadas, produtivas quase o ano todo. Ótima para atrair pássaros."
+  },
+  {
+    "slug": "cambuca-jabuticaba-amarela",
+    "nome": "Cambuca Jabuticaba amarela",
+    "imagem": "/frutiferas/cambuca-jabuticaba-amarela.webp",
+    "galeria": [
+      "/frutiferas/cambuca-jabuticaba-amarela-2.webp"
+    ],
+    "resumo": "Cambuca Jabuticaba amarela é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 119 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "cambuci",
+    "nome": "Cambuci",
+    "imagem": "/frutiferas/cambuci.webp",
+    "galeria": [
+      "/frutiferas/cambuci-2.webp"
+    ],
+    "resumo": "Fruto achatado e verde mesmo quando maduro, de sabor ácido e aromático. Símbolo de São Paulo, raro e valorizado na gastronomia."
+  },
+  {
+    "slug": "cambui-roxo",
+    "nome": "Cambui Roxo",
+    "imagem": "/frutiferas/cambui-roxo.webp",
+    "galeria": [
+      "/frutiferas/cambui-roxo-2.webp"
+    ],
+    "resumo": "Também chamada de ameixa-da-mata: frutos roxo-enegrecidos, doces e saborosos, com aparência de jabuticaba. Nativa rara que produz em vaso."
+  },
+  {
+    "slug": "camu-camu",
+    "nome": "Camu-Camu",
+    "imagem": "/frutiferas/camu-camu.webp",
+    "galeria": [
+      "/frutiferas/camu-camu-2.webp"
+    ],
+    "resumo": "Camu-Camu é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "canistel",
+    "nome": "Canistel",
+    "imagem": "/frutiferas/canistel.webp",
+    "galeria": [
+      "/frutiferas/canistel-2.webp"
+    ],
+    "resumo": "Canistel é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 12 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "carambola-mel",
+    "nome": "Carambola Mel",
+    "imagem": "/frutiferas/carambola-mel.webp",
+    "galeria": [
+      "/frutiferas/carambola-mel-2.webp"
+    ],
+    "resumo": "Carambola Mel é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 12 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "cherimoya",
+    "nome": "Cherimoya",
+    "imagem": "/frutiferas/cherimoya.webp",
+    "galeria": [
+      "/frutiferas/cherimoya-2.webp"
+    ],
+    "resumo": "Também chamada de fruta-do-conde peruana: polpa cremosa e adocicada, considerada uma das frutas mais saborosas do mundo. Exige polinização manual."
+  },
+  {
+    "slug": "cidra",
+    "nome": "Cidra",
+    "imagem": "/frutiferas/cidra.webp",
+    "galeria": [
+      "/frutiferas/cidra-2.webp"
+    ],
+    "resumo": "Cidra é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "cupuacu",
+    "nome": "Cupuacu",
+    "imagem": "/frutiferas/cupuacu.webp",
+    "galeria": [
+      "/frutiferas/cupuacu-2.webp"
+    ],
+    "resumo": "Cupuacu é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "dovyalis-doce-campari",
+    "nome": "Dovyalis doce campari",
+    "imagem": "/frutiferas/dovyalis-doce-campari.webp",
+    "galeria": [
+      "/frutiferas/dovyalis-doce-campari-2.webp"
+    ],
+    "resumo": "Dovyalis doce campari é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 39 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "estrela-do-norte",
+    "nome": "Estrela do Norte",
+    "imagem": "/frutiferas/estrela-do-norte.webp",
+    "galeria": [
+      "/frutiferas/estrela-do-norte-2.webp"
+    ],
+    "resumo": "Estrela do Norte é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 1 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "figo",
+    "nome": "Figo",
+    "imagem": "/frutiferas/figo.webp",
+    "galeria": [
+      "/frutiferas/figo-2.webp"
+    ],
+    "resumo": "Figo é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 8 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "framboesa-silvestre",
+    "nome": "Framboesa Silvestre",
+    "imagem": "/frutiferas/framboesa-silvestre.webp",
+    "galeria": [
+      "/frutiferas/framboesa-silvestre-2.webp"
+    ],
+    "resumo": "Framboesa Silvestre é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 7 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "fruta-do-milagre",
+    "nome": "Fruta do Milagre",
+    "imagem": "/frutiferas/fruta-do-milagre.webp",
+    "galeria": [
+      "/frutiferas/fruta-do-milagre-2.webp"
+    ],
+    "resumo": "Fruta do Milagre é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 79 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "goiaba-amarela",
+    "nome": "Goiaba Amarela",
+    "imagem": "/frutiferas/goiaba-amarela.webp",
+    "galeria": [
+      "/frutiferas/goiaba-amarela-2.webp"
+    ],
+    "resumo": "Goiaba de polpa amarela, doce e aromática, ótima para consumo fresco. Produz bem em vaso com podas."
+  },
+  {
+    "slug": "goiaba-paluma",
+    "nome": "Goiaba Paluma",
+    "imagem": "/frutiferas/goiaba-paluma.webp",
+    "galeria": [
+      "/frutiferas/goiaba-paluma-2.webp"
+    ],
+    "resumo": "Cultivar de goiaba de polpa vermelha, doce e produtiva, muito usada comercialmente. Frutos grandes e de boa conservação."
+  },
+  {
+    "slug": "graviola",
+    "nome": "Graviola",
+    "imagem": "/frutiferas/graviola.webp",
+    "galeria": [
+      "/frutiferas/graviola-2.webp"
+    ],
+    "resumo": "Graviola é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 58 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "groselha",
+    "nome": "Groselha",
+    "imagem": "/frutiferas/groselha.webp",
+    "galeria": [
+      "/frutiferas/groselha-2.webp"
+    ],
+    "resumo": "Groselha-tropical: frutos amarelos e translúcidos em cachos, muito ácidos, ideais para sucos e geleias de cor rubi. Não é a groselha europeia."
+  },
+  {
+    "slug": "grumixama-preta",
+    "nome": "Grumixama preta",
+    "imagem": "/frutiferas/grumixama-preta.webp",
+    "galeria": [
+      "/frutiferas/grumixama-preta-2.webp"
+    ],
+    "resumo": "Grumixama de frutos escuros (roxo/negro), sabor doce e levemente ácido. A variedade mais comum da espécie."
+  },
+  {
+    "slug": "inga-de-flores-roseas",
+    "nome": "Inga de flores roseas",
+    "imagem": "/frutiferas/inga-de-flores-roseas.webp",
+    "galeria": [
+      "/frutiferas/inga-de-flores-roseas-2.webp"
+    ],
+    "resumo": "Inga de flores roseas é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 44 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "jabuticaba-branca",
+    "nome": "Jabuticaba Branca",
+    "imagem": "/frutiferas/jabuticaba-branca.webp",
+    "galeria": [
+      "/frutiferas/jabuticaba-branca-2.webp"
+    ],
+    "resumo": "Jabuticaba de casca verde-amarelada e polpa branca, mais doce e com menos tanino que a jabuticaba comum. Rara e muito valorizada."
+  },
+  {
+    "slug": "jabuticaba-sabara",
+    "nome": "Jabuticaba Sabara",
+    "imagem": "/frutiferas/jabuticaba-sabara.webp",
+    "galeria": [
+      "/frutiferas/jabuticaba-sabara-2.webp"
+    ],
+    "resumo": "A jabuticaba mais tradicional e saborosa, de frutos escuros e doces. Cultivar clássico dos quintais brasileiros."
+  },
+  {
+    "slug": "jabuticaba-hibrida",
+    "nome": "Jabuticaba hibrida",
+    "imagem": "/frutiferas/jabuticaba-hibrida.webp",
+    "galeria": [
+      "/frutiferas/jabuticaba-hibrida-2.webp"
+    ],
+    "resumo": "Jabuticabeira híbrida selecionada para produzir mais cedo e com frutos graúdos. Ótima para vaso."
+  },
+  {
+    "slug": "jambo-rosa",
+    "nome": "Jambo Rosa",
+    "imagem": "/frutiferas/jambo-rosa.webp",
+    "galeria": [
+      "/frutiferas/jambo-rosa-2.webp"
+    ],
+    "resumo": "Jambo Rosa é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 28 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "jambo-vermelho",
+    "nome": "Jambo Vermelho",
+    "imagem": "/frutiferas/jambo-vermelho.webp",
+    "galeria": [
+      "/frutiferas/jambo-vermelho-2.webp"
+    ],
+    "resumo": "Jambo Vermelho é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 22 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "laranja-champagne",
+    "nome": "Laranja Champagne",
+    "imagem": "/frutiferas/laranja-champagne.webp",
+    "galeria": [
+      "/frutiferas/laranja-champagne-2.webp"
+    ],
+    "resumo": "Laranja de mesa de casca amarelo-clara e polpa muito suculenta e doce, com poucas sementes. Produz bem em vaso e é uma das mais doces do pomar."
+  },
+  {
+    "slug": "laranja-serra-dagua",
+    "nome": "Laranja Serra Dagua",
+    "imagem": "/frutiferas/laranja-serra-dagua.webp",
+    "galeria": [
+      "/frutiferas/laranja-serra-dagua-2.webp"
+    ],
+    "resumo": "Laranja de casca fina e suco abundante, sabor equilibrado entre doce e ácido. Ótima para suco fresco."
+  },
+  {
+    "slug": "laranja-abacaxi",
+    "nome": "Laranja abacaxi",
+    "imagem": "/frutiferas/laranja-abacaxi.webp",
+    "galeria": [
+      "/frutiferas/laranja-abacaxi-2.webp"
+    ],
+    "resumo": "Variedade de laranja de polpa amarela, sabor adocicado e aroma marcante. Frutos médios e muito perfumados."
+  },
+  {
+    "slug": "laranja-kinkan",
+    "nome": "Laranja kinkan",
+    "imagem": "/frutiferas/laranja-kinkan.webp",
+    "galeria": [
+      "/frutiferas/laranja-kinkan-2.webp"
+    ],
+    "resumo": "Kinkan ou kumquat: fruto pequeno e oval, de casca comestível e adocicada. Come-se inteiro, casca e tudo. Planta muito ornamental e produtiva em vaso."
+  },
+  {
+    "slug": "lichia",
+    "nome": "Lichia",
+    "imagem": "/frutiferas/lichia.webp",
+    "galeria": [],
+    "resumo": "Lichia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "limao-cravo-caipira",
+    "nome": "Limao Cravo caipira",
+    "imagem": "/frutiferas/limao-cravo-caipira.webp",
+    "galeria": [
+      "/frutiferas/limao-cravo-caipira-2.webp"
+    ],
+    "resumo": "Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias."
+  },
+  {
+    "slug": "limao-galeguinho",
+    "nome": "Limao Galeguinho",
+    "imagem": "/frutiferas/limao-galeguinho.webp",
+    "galeria": [
+      "/frutiferas/limao-galeguinho-2.webp"
+    ],
+    "resumo": "Lima ácida de frutos pequenos, casca fina e muitas sementes. É a mais ácida do grupo e a preferida para caipirinhas. Planta compacta, ótima para vaso."
+  },
+  {
+    "slug": "limao-imperial",
+    "nome": "Limao Imperial",
+    "imagem": "/frutiferas/limao-imperial.webp",
+    "galeria": [
+      "/frutiferas/limao-imperial-2.webp"
+    ],
+    "resumo": "Variedade de limão verdadeiro muito produtiva e aromática, com casca amarela e frutos alongados. Excelente para temperos e sucos."
+  },
+  {
+    "slug": "limao-siciliano",
+    "nome": "Limao Siciliano",
+    "imagem": "/frutiferas/limao-siciliano.webp",
+    "galeria": [
+      "/frutiferas/limao-siciliano-2.webp"
+    ],
+    "resumo": "É o limão verdadeiro: casca amarela e grossa, formato oval e sabor mais suave e perfumado. Menos ácido que as limas, ideal para sucos, doces e culinária mediterrânea."
+  },
+  {
+    "slug": "limao-caviar",
+    "nome": "Limao caviar",
+    "imagem": "/frutiferas/limao-caviar.webp",
+    "galeria": [
+      "/frutiferas/limao-caviar-2.webp"
+    ],
+    "resumo": "Também chamado de lima-caviar: frutos estreitos e alongados cuja polpa é formada por esferas crocantes que estouram na boca, como caviar. Iguaria da alta gastronomia."
+  },
+  {
+    "slug": "limao-doce-tanjo",
+    "nome": "Limao doce Tanjo",
+    "imagem": "/frutiferas/limao-doce-tanjo.webp",
+    "galeria": [
+      "/frutiferas/limao-doce-tanjo-2.webp"
+    ],
+    "resumo": "Lima doce, sem acidez: pode ser consumida como fruta de mesa, com casca fina e suco adocicado. Ótima para quem não tolera a acidez dos limões."
+  },
+  {
+    "slug": "longan",
+    "nome": "Longan",
+    "imagem": "/frutiferas/longan.webp",
+    "galeria": [
+      "/frutiferas/longan-2.webp"
+    ],
+    "resumo": "Longan é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 4 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "maca-eva",
+    "nome": "Maca Eva",
+    "imagem": "/frutiferas/maca-eva.webp",
+    "galeria": [
+      "/frutiferas/maca-eva-2.webp"
+    ],
+    "resumo": "Maca Eva é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 56 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "mamao",
+    "nome": "Mamao",
+    "imagem": "/frutiferas/mamao.webp",
+    "galeria": [
+      "/frutiferas/mamao-2.webp"
+    ],
+    "resumo": "Mamao é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 2 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "mana-cubiu",
+    "nome": "Mana Cubiu",
+    "imagem": "/frutiferas/mana-cubiu.webp",
+    "galeria": [
+      "/frutiferas/mana-cubiu-2.webp"
+    ],
+    "resumo": "Mana Cubiu é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "mandacaru",
+    "nome": "Mandacaru",
+    "imagem": "/frutiferas/mandacaru.webp",
+    "galeria": [
+      "/frutiferas/mandacaru-2.webp"
+    ],
+    "resumo": "Mandacaru é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "manga-palmer",
+    "nome": "Manga Palmer",
+    "imagem": "/frutiferas/manga-palmer.webp",
+    "galeria": [
+      "/frutiferas/manga-palmer-2.webp"
+    ],
+    "resumo": "Manga de polpa firme, doce e com pouca fibra, frutos grandes e avermelhados. Produz bem em vaso com poda."
+  },
+  {
+    "slug": "manga-uba",
+    "nome": "Manga uba",
+    "imagem": "/frutiferas/manga-uba.webp",
+    "galeria": [
+      "/frutiferas/manga-uba-2.webp"
+    ],
+    "resumo": "Manga de frutos menores, fibrosos e muito doces, tradicional na produção de sucos. Rústica e produtiva."
+  },
+  {
+    "slug": "mangostao-fruta-da-rainha",
+    "nome": "Mangostao fruta da rainha",
+    "imagem": "/frutiferas/mangostao-fruta-da-rainha.webp",
+    "galeria": [
+      "/frutiferas/mangostao-fruta-da-rainha-2.webp"
+    ],
+    "resumo": "Mangostao fruta da rainha é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 78 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "maracuja-gigante",
+    "nome": "Maracuja Gigante",
+    "imagem": "/frutiferas/maracuja-gigante.webp",
+    "galeria": [
+      "/frutiferas/maracuja-gigante-2.webp"
+    ],
+    "resumo": "Maracuja Gigante é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 41 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "melancia",
+    "nome": "Melancia",
+    "imagem": "/frutiferas/melancia.webp",
+    "galeria": [],
+    "resumo": "Melancia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "melao-andino",
+    "nome": "Melao Andino",
+    "imagem": "/frutiferas/melao-andino.webp",
+    "galeria": [
+      "/frutiferas/melao-andino-2.webp"
+    ],
+    "resumo": "Também chamado de pepino-doce: fruto amarelo com listras roxas, polpa suculenta e levemente doce, lembrando melão. Cultivo em vaso com tutor."
+  },
+  {
+    "slug": "mexerica-ponkan",
+    "nome": "Mexerica Ponkan",
+    "imagem": "/frutiferas/mexerica-ponkan.webp",
+    "galeria": [
+      "/frutiferas/mexerica-ponkan-2.webp"
+    ],
+    "resumo": "Mexerica Ponkan é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "mirtilo-blueberry",
+    "nome": "Mirtilo Blueberry",
+    "imagem": "/frutiferas/mirtilo-blueberry.webp",
+    "galeria": [
+      "/frutiferas/mirtilo-blueberry-2.webp"
+    ],
+    "resumo": "Mirtilo Blueberry é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "morango",
+    "nome": "Morango",
+    "imagem": "/frutiferas/morango.webp",
+    "galeria": [],
+    "resumo": "Morango é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "nectarina",
+    "nome": "Nectarina",
+    "imagem": "/frutiferas/nectarina.webp",
+    "galeria": [
+      "/frutiferas/nectarina-2.webp"
+    ],
+    "resumo": "Nectarina é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 19 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "pera-dagua",
+    "nome": "Pera Dagua",
+    "imagem": "/frutiferas/pera-dagua.webp",
+    "galeria": [
+      "/frutiferas/pera-dagua-2.webp"
+    ],
+    "resumo": "Pera Dagua é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 32 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "pessego-anao",
+    "nome": "Pessego Anao",
+    "imagem": "/frutiferas/pessego-anao.webp",
+    "galeria": [
+      "/frutiferas/pessego-anao-2.webp"
+    ],
+    "resumo": "Pessego Anao é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 18 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "pinha",
+    "nome": "Pinha",
+    "imagem": "/frutiferas/pinha.webp",
+    "galeria": [
+      "/frutiferas/pinha-2.webp"
+    ],
+    "resumo": "Fruta-do-conde ou ata: casca escamosa e polpa branca muito doce. Planta compacta que produz bem em vaso."
+  },
+  {
+    "slug": "pinha-dos-astecas",
+    "nome": "Pinha dos astecas",
+    "imagem": "/frutiferas/pinha-dos-astecas.webp",
+    "galeria": [
+      "/frutiferas/pinha-dos-astecas-2.webp"
+    ],
+    "resumo": "Pinha dos astecas é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "pitanga-do-cerrado",
+    "nome": "Pitanga do cerrado",
+    "imagem": "/frutiferas/pitanga-do-cerrado.webp",
+    "galeria": [
+      "/frutiferas/pitanga-do-cerrado-2.webp"
+    ],
+    "resumo": "Pitanga do Cerrado: planta compacta e rústica, com frutos menores e sabor marcante. Produz bem em vaso e tolera seca."
+  },
+  {
+    "slug": "pitangatuba",
+    "nome": "Pitangatuba",
+    "imagem": "/frutiferas/pitangatuba.webp",
+    "galeria": [
+      "/frutiferas/pitangatuba-2.webp"
+    ],
+    "resumo": "Fruto amarelo-alaranjado de sabor ácido e aroma intenso, excelente para sucos e sorvetes. Arbusto compacto, ideal para vaso."
+  },
+  {
+    "slug": "pitaya-branca",
+    "nome": "Pitaya Branca",
+    "imagem": "/frutiferas/pitaya-branca.webp",
+    "galeria": [
+      "/frutiferas/pitaya-branca-2.webp"
+    ],
+    "resumo": "Pitaya de casca rosa e polpa branca, com sementes crocantes. A mais cultivada e de manejo mais simples, com floração noturna."
+  },
+  {
+    "slug": "pitaya-amarela",
+    "nome": "Pitaya amarela",
+    "imagem": "/frutiferas/pitaya-amarela.webp",
+    "galeria": [
+      "/frutiferas/pitaya-amarela-2.webp"
+    ],
+    "resumo": "Pitaya de casca amarela com espinhos e polpa branca muito doce. Considerada a mais saborosa do grupo."
+  },
+  {
+    "slug": "pitaya-vermelha",
+    "nome": "Pitaya vermelha",
+    "imagem": "/frutiferas/pitaya-vermelha.webp",
+    "galeria": [
+      "/frutiferas/pitaya-vermelha-2.webp"
+    ],
+    "resumo": "Pitaya de polpa vermelha, mais doce e rica em betalaínas (antioxidantes). Exige polinização para boa frutificação."
+  },
+  {
+    "slug": "pitomba-da-bahia",
+    "nome": "Pitomba da Bahia",
+    "imagem": "/frutiferas/pitomba-da-bahia.webp",
+    "galeria": [
+      "/frutiferas/pitomba-da-bahia-2.webp"
+    ],
+    "resumo": "Pitomba de casca amarelo-alaranjada e polpa sucosa de sabor agridoce, lembrando damasco. Nativa rara do Nordeste."
+  },
+  {
+    "slug": "rambuta",
+    "nome": "Rambuta",
+    "imagem": "/frutiferas/rambuta.webp",
+    "galeria": [
+      "/frutiferas/rambuta-2.webp"
+    ],
+    "resumo": "Rambuta é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas."
+  },
+  {
+    "slug": "roma",
+    "nome": "Roma",
+    "imagem": "/frutiferas/roma.webp",
+    "galeria": [
+      "/frutiferas/roma-2.webp"
+    ],
+    "resumo": "Roma é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "saborosa-pytaya-do-serrado",
+    "nome": "Saborosa Pytaya do serrado",
+    "imagem": "/frutiferas/saborosa-pytaya-do-serrado.webp",
+    "galeria": [
+      "/frutiferas/saborosa-pytaya-do-serrado-2.webp"
+    ],
+    "resumo": "Saborosa Pytaya do serrado é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 10 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "sapoti",
+    "nome": "Sapoti",
+    "imagem": "/frutiferas/sapoti.webp",
+    "galeria": [],
+    "resumo": "Sapoti é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "seriguela",
+    "nome": "Seriguela",
+    "imagem": "/frutiferas/seriguela.webp",
+    "galeria": [
+      "/frutiferas/seriguela-2.webp"
+    ],
+    "resumo": "Seriguela é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "tamarilho-tomate-de-arvore",
+    "nome": "Tamarilho Tomate de arvore",
+    "imagem": "/frutiferas/tamarilho-tomate-de-arvore.webp",
+    "galeria": [
+      "/frutiferas/tamarilho-tomate-de-arvore-2.webp"
+    ],
+    "resumo": "Tamarilho Tomate de arvore é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 22 vídeos sobre esta espécie."
+  },
+  {
+    "slug": "ubajai-pessego-do-mato",
+    "nome": "Ubajai Pessego do mato",
+    "imagem": "/frutiferas/ubajai-pessego-do-mato.webp",
+    "galeria": [
+      "/frutiferas/ubajai-pessego-do-mato-2.webp"
+    ],
+    "resumo": "Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva."
+  },
+  {
+    "slug": "uva-brs-vitoria",
+    "nome": "Uva BRS Vitoria",
+    "imagem": "/frutiferas/uva-brs-vitoria.webp",
+    "galeria": [
+      "/frutiferas/uva-brs-vitoria-2.webp"
+    ],
+    "resumo": "Uva sem sementes, de casca escura e sabor doce, desenvolvida pela Embrapa. Produtiva e resistente a doenças."
+  },
+  {
+    "slug": "uva-goethe",
+    "nome": "Uva Goethe",
+    "imagem": "/frutiferas/uva-goethe.webp",
+    "galeria": [
+      "/frutiferas/uva-goethe-2.webp"
+    ],
+    "resumo": "Uva de mesa de bagos grandes e sabor suave, colhida em cachos vistosos. Exige poda de produção e tutor."
+  },
+  {
+    "slug": "uva-isabel",
+    "nome": "Uva Isabel",
+    "imagem": "/frutiferas/uva-isabel.webp",
+    "galeria": [
+      "/frutiferas/uva-isabel-2.webp"
+    ],
+    "resumo": "Uva rústica de casca escura e sabor intenso, muito usada para suco e vinho. Adapta-se bem ao clima brasileiro e a vasos grandes com tutor."
+  },
+  {
+    "slug": "uvaia",
+    "nome": "Uvaia",
+    "imagem": "/frutiferas/uvaia.webp",
+    "galeria": [
+      "/frutiferas/uvaia-2.webp"
+    ],
+    "resumo": "Uvaia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 43 vídeos sobre esta espécie."
+  }
+]

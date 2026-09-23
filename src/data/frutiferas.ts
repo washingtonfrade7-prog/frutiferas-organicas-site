@@ -1,5 +1,6 @@
 import { ofertasPadrao, type Oferta } from '@/data/ofertas'
 import { frutiferasExtras } from '@/data/frutiferas-extras'
+import overridesFrutiferas from '../../content/frutiferas.json'
 
 export interface Video {
   id: string
@@ -479,7 +480,23 @@ const frutiferasManuais: Frutifera[] = [
   },
 ]
 
-export const frutiferas: Frutifera[] = [...frutiferasManuais, ...frutiferasExtras]
+type OverrideFruta = { slug: string; imagem?: string; galeria?: string[]; resumo?: string }
+
+const mapaOverrides: Record<string, OverrideFruta> = Object.fromEntries(
+  (overridesFrutiferas as OverrideFruta[]).map((o) => [o.slug, o])
+)
+
+// Aplica as edicoes feitas no CMS (content/frutiferas.json) sobre os dados base.
+export const frutiferas: Frutifera[] = [...frutiferasManuais, ...frutiferasExtras].map((f) => {
+  const o = mapaOverrides[f.slug]
+  if (!o) return f
+  return {
+    ...f,
+    imagem: o.imagem || f.imagem,
+    galeria: o.galeria && o.galeria.length ? o.galeria : f.galeria,
+    resumo: o.resumo || f.resumo,
+  }
+})
 
 export function getFrutifera(slug: string): Frutifera | undefined {
   return frutiferas.find((f) => f.slug === slug)

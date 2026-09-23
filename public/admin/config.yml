@@ -57,3 +57,22 @@ collections:
                   - { name: pergunta, label: Pergunta, widget: string }
                   - { name: resposta, label: Resposta, widget: text }
               - { name: atualizado, label: 'Atualizado (AAAA-MM)', widget: string }
+      - name: frutiferas
+        label: Frutíferas (fotos e resumos)
+        file: content/frutiferas.json
+        fields:
+          - name: frutiferas
+            label: Frutíferas
+            label_singular: Frutífera
+            widget: list
+            summary: '{{fields.nome}}'
+            fields:
+              - { name: slug, label: Slug (não alterar), widget: string }
+              - { name: nome, label: Nome, widget: string }
+              - { name: imagem, label: Foto principal, widget: image, required: false }
+              - name: galeria
+                label: Galeria
+                widget: list
+                required: false
+                field: { name: foto, label: Foto, widget: image }
+              - { name: resumo, label: Resumo, widget: text, required: false }
