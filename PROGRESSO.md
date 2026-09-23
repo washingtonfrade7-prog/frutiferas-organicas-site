@@ -130,6 +130,12 @@
 - [x] E40. **WebP + Search Console**:
   - **Imagens convertidas para WebP**: 210 arquivos, **13,05 MB → 8,75 MB (−32,9%)**; referências atualizadas (frutiferas, banners, logo) e JPGs antigos removidos do servidor (`scripts/limpar-jpg.mjs`). OG image mantida em JPG
   - **Google Search Console**: suporte a `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` no `layout.tsx`; meta tag `google-site-verification` publicada e verificada no ar (token do usuário). Sitemap acessível (258 URLs)
+- [x] E41. **Painel de administração local** (`npm run painel` → http://localhost:5050):
+  - **Artigos**: criar, editar e excluir os guias de compra (agora em `content/artigos.json`, lido por `melhores.ts`)
+  - **Frutíferas**: editar resumo/descrição/dicas das 96 espécies (grava em `frutiferas-extras.ts`)
+  - **Fotos**: upload de imagem → recorte 16:9 + 800x450 + **WebP** automático (`painel/otimizar.py`, usa o Python do projeto)
+  - **Publicar**: roda build + envio FTP com log ao vivo (credenciais em `painel/ftp.json`, não versionado)
+  - Testado de ponta a ponta: gravação, upload e **publicação OK** ("PUBLICADO COM SUCESSO!")
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
