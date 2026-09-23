@@ -17,6 +17,7 @@ import os
 import re
 import subprocess
 import sys
+from urllib.parse import unquote
 
 import markdown
 
@@ -336,7 +337,7 @@ def substituir_qr(texto, modo="botao"):
             return QR_HTML.format(
                 src=f"data:image/png;base64,{b64}",
                 rotulo=info["rotulo"],
-                curta=info["url"].replace("https://", ""),
+                curta=unquote(info["url"]).replace("https://", ""),
             )
         return BOTAO_HTML.format(url=info["url"], rotulo=info["rotulo"])
 
