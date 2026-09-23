@@ -1,6 +1,6 @@
-# Bônus: Checklist e Fichas de Cultivo
+# Bônus do Aluno
 
-Material de apoio do e-book **Frutíferas em Vaso: do plantio à colheita**.
+Material de apoio do guia **Cultivo de Frutíferas Orgânicas em Vasos**.
 
 ---
 
@@ -33,136 +33,137 @@ Material de apoio do e-book **Frutíferas em Vaso: do plantio à colheita**.
 
 ---
 
-## Fichas rápidas de cultivo
+## Fichas de bolso — espécies em destaque
 
-### Abacaxi
-*Ananas comosus*
+Recorte ou imprima esta seção e deixe perto dos vasos.
 
-- **Luz:** Sol pleno
-- **Rega:** Regular, sem encharcar
-- **Solo:** Fértil, bem drenado e rico em matéria orgânica
-- **Vaso:** A partir de 20 litros
-- **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
-
-### Acerola Okinawa
-*Malpighia emarginata*
+### Abacate — *Persea americana*
 
 - **Luz:** Sol pleno
 - **Rega:** Regular, sem encharcar
 - **Solo:** Fértil, bem drenado e rico em matéria orgânica
 - **Vaso:** A partir de 20 litros
 - **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
+- **Produz em:** 3 a 5 anos (muda enxertada)
+- **Frutificação:** Floresce na primavera; frutifica no verão
 
-### Pitanga do cerrado
-*Eugenia calycina*
 
-- **Luz:** Sol pleno
-- **Rega:** Regular, sem encharcar
-- **Solo:** Fértil, bem drenado e rico em matéria orgânica
-- **Vaso:** A partir de 20 litros
-- **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
-
-### Manga Palmer
-*Mangifera indica 'Palmer'*
+### Abacaxi — *Ananas comosus*
 
 - **Luz:** Sol pleno
 - **Rega:** Regular, sem encharcar
 - **Solo:** Fértil, bem drenado e rico em matéria orgânica
 - **Vaso:** A partir de 20 litros
 - **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
+- **Produz em:** 12 a 18 meses
+- **Frutificação:** Uma safra por ano
 
-### Limao Cravo caipira
-*Citrus × limonia*
 
-- **Luz:** Sol pleno
-- **Rega:** Regular, sem encharcar
-- **Solo:** Fértil, bem drenado e rico em matéria orgânica
-- **Vaso:** A partir de 20 litros
-- **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
-
-### Lichia
-*Litchi chinensis*
+### Acerola Okinawa — *Malpighia emarginata*
 
 - **Luz:** Sol pleno
 - **Rega:** Regular, sem encharcar
 - **Solo:** Fértil, bem drenado e rico em matéria orgânica
 - **Vaso:** A partir de 20 litros
 - **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
+- **Produz em:** 1 a 2 anos
+- **Frutificação:** Produz quase o ano todo
 
-### Atemoia
-*Annona x atemoya*
 
-- **Luz:** Sol pleno
-- **Rega:** Regular, sem encharcar
-- **Solo:** Fértil, bem drenado e rico em matéria orgânica
-- **Vaso:** A partir de 20 litros
-- **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
-
-### Graviola
-*Annona muricata*
+### Ajuru Preto Branco — *Chrysobalanus icaco*
 
 - **Luz:** Sol pleno
 - **Rega:** Regular, sem encharcar
 - **Solo:** Fértil, bem drenado e rico em matéria orgânica
 - **Vaso:** A partir de 20 litros
 - **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
+- **Produz em:** -
+- **Frutificação:** -
 
-### Seriguela
-*Spondias purpurea*
 
-- **Luz:** Sol pleno
-- **Rega:** Regular, sem encharcar
-- **Solo:** Fértil, bem drenado e rico em matéria orgânica
-- **Vaso:** A partir de 20 litros
-- **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
-
-### Melancia
-*Citrullus lanatus*
+### Ameixa Japão — *Prunus salicina*
 
 - **Luz:** Sol pleno
 - **Rega:** Regular, sem encharcar
 - **Solo:** Fértil, bem drenado e rico em matéria orgânica
 - **Vaso:** A partir de 20 litros
 - **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
+- **Produz em:** 3 a 4 anos
+- **Frutificação:** Primavera e verão
 
-### Morango
-*Fragaria x ananassa*
 
-- **Luz:** Sol pleno
-- **Rega:** Regular, sem encharcar
-- **Solo:** Fértil, bem drenado e rico em matéria orgânica
-- **Vaso:** A partir de 20 litros
-- **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
-
-### Carambola Mel
-*Averrhoa carambola*
+### Ameixa Vermelha — *Prunus salicina*
 
 - **Luz:** Sol pleno
 - **Rega:** Regular, sem encharcar
 - **Solo:** Fértil, bem drenado e rico em matéria orgânica
 - **Vaso:** A partir de 20 litros
 - **Dificuldade:** Fácil
-- **Tempo até produzir:** Consulte os vídeos de cultivo
-- **Frutificação:** Consulte os vídeos de cultivo
+- **Produz em:** -
+- **Frutificação:** -
+
+
+### Araçá Boi (Fruta Iogurte) — *Psidium guineense*
+
+- **Luz:** Sol pleno
+- **Rega:** Frequente, sem encharcar
+- **Solo:** Fértil e bem drenado, com boa matéria orgânica
+- **Vaso:** Vasos a partir de 30 litros
+- **Dificuldade:** Fácil
+- **Produz em:** 2 a 3 anos a partir da muda
+- **Frutificação:** Primavera e verão, com florações recorrentes
+
+- Adube regularmente durante a frutificação para não perder produção.
+- Suporta poda de formação para manter porte compacto.
+
+### Araçá Vermelho — *Psidium cattleianum*
+
+- **Luz:** Sol pleno
+- **Rega:** Moderada a frequente
+- **Solo:** Adapta-se a solos pobres, mas prefere bem drenados
+- **Vaso:** Vasos a partir de 20 litros
+- **Dificuldade:** Fácil
+- **Produz em:** 2 a 3 anos a partir da muda
+- **Frutificação:** Primavera e verão
+
+- Pode ser conduzido como pequeno arbusto ou árvore com poda de formação.
+- Suporta bem a poda, que estimula a produção de novos ramos.
+
+### Grumixama Amarela — *Eugenia brasiliensis*
+
+- **Luz:** Sol pleno a meia-sombra
+- **Rega:** Frequente, mantendo o solo úmido
+- **Solo:** Fértil, ácido e rico em matéria orgânica
+- **Vaso:** Vasos a partir de 30 litros
+- **Dificuldade:** Média
+- **Produz em:** 3 a 5 anos a partir da muda
+- **Frutificação:** Primavera e verão
+
+- Use substrato ácido, com boa dose de matéria orgânica.
+- Mantenha a planta sob sol pleno para frutos mais doces.
+
+### Jabuticaba — *Plinia cauliflora*
+
+- **Luz:** Sol pleno a meia-sombra
+- **Rega:** Frequente, mantendo o solo úmido sem encharcar
+- **Solo:** Fértil, rico em matéria orgânica e bem drenado
+- **Vaso:** Vasos a partir de 30 litros para plantas adultas
+- **Dificuldade:** Fácil
+- **Produz em:** 3 a 5 anos (enxertada)
+- **Frutificação:** Floresce na primavera; frutifica no verão
+
+- Plante em substrato com 30% de matéria orgânica bem curtida.
+- Faça podas de limpeza após a colheita para estimular nova floração.
+
+### Pitanga Preta — *Eugenia uniflora*
+
+- **Luz:** Sol pleno
+- **Rega:** Frequente durante a floração e frutificação
+- **Solo:** Fértil, bem drenado e levemente ácido
+- **Vaso:** Vasos a partir de 25 litros
+- **Dificuldade:** Média
+- **Produz em:** 2 a 3 anos
+- **Frutificação:** Quase o ano todo
+
+- Exige sol pleno para expressar o máximo de doçura nos frutos.
+- Faça poda de limpeza após cada colheita.

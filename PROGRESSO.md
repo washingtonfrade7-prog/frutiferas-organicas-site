@@ -195,3 +195,22 @@ Ferramentas: `ferramentas/auditoria/audit_site.mjs` e `load_test.mjs`.
 
 ## Histórico
 - (ver commits do repositório)
+
+## Produto (Hotmart) — 2026-09
+- Produto criado no Hotmart: **Cultivo de Frutíferas Orgânicas em Vasos: Guia Completo**, R$ 47,00.
+- Nome do produto no site alinhado ao do Hotmart (`src/data/produto.ts`).
+- Página `/curso`: preço (de ~~R$ 97~~ por **R$ 47**) + botão "Quero começar agora".
+  O botão só aparece quando `NEXT_PUBLIC_CHECKOUT_URL` estiver definido; sem ele, mostra a lista de espera.
+- JSON-LD do curso passa a `Offer` com `Paid`/`InStock` e preço quando há checkout.
+- E-book expandido de 14 para **53 páginas**:
+  - `CURSO-EBOOK.md`: 10 capítulos + 5 apêndices (calendário anual, diagnóstico rápido, 10 erros, glossário, checklist de 90 dias).
+  - Catálogo de **105 frutíferas** gerado automaticamente (`ferramentas/curso/extrair_frutiferas.mjs` → `frutiferas.json` → `gerar.py`).
+  - Nomes corrigidos (acentos/formatacão), placeholders e textos genéricos removidos, 53 resumos reescritos.
+- Bônus: 7 páginas (checklist de rega/adubação + 11 fichas de bolso).
+- Gerar novamente:
+  ```
+  node ferramentas/curso/extrair_frutiferas.mjs
+  .venv\Scripts\python.exe -X utf8 ferramentas\curso\gerar.py
+  ```
+- Pendente: subir os PDFs no Hotmart e informar o link de checkout para ativar o botão.
+

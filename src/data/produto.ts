@@ -4,7 +4,7 @@ export interface ModuloProduto {
 }
 
 export const produto = {
-  nome: 'Frutíferas em Vaso: do plantio à colheita',
+  nome: 'Cultivo de Frutíferas Orgânicas em Vasos: Guia Completo',
   subtitulo:
     'O guia completo para produzir frutas de verdade em vaso — mesmo em varanda, quintal pequeno ou apartamento.',
   promessa:

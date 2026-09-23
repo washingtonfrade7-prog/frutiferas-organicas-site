@@ -1,0 +1,2914 @@
+[
+  {
+    "slug": "jabuticaba",
+    "nome": "Jabuticaba",
+    "nomeCientifico": "Plinia cauliflora",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "A fruta símbolo do Brasil, que floresce e frutifica direto no tronco. Existem variedades híbridas que produzem em vaso em poucos anos.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "Árvore de 3 a 8 m (pode ser mantida menor em vaso)",
+    "luz": "Sol pleno a meia-sombra",
+    "rega": "Frequente, mantendo o solo úmido sem encharcar",
+    "solo": "Fértil, rico em matéria orgânica e bem drenado",
+    "vaso": "Vasos a partir de 30 litros para plantas adultas",
+    "dificuldade": "Fácil",
+    "tempoProducao": "3 a 5 anos a partir da muda (híbridas podem produzir antes)",
+    "frutificacao": "Floresce na primavera e frutifica no verão",
+    "dicas": [
+      "Plante em substrato com 30% de matéria orgânica bem curtida.",
+      "Faça podas de limpeza após a colheita para estimular nova floração.",
+      "Evite deixar o vaso secar completamente entre as regas no período de floração.",
+      "Use cobertura morta (palha) sobre o substrato para manter a umidade."
+    ],
+    "curiosidades": [
+      "A jabuticaba pode ser colhida até 3 vezes por ano em plantas bem manejadas.",
+      "A casca contém mais antioxidantes que a própria polpa.",
+      "Existem variedades de jabuticaba com frutos que chegam a 4 cm de diâmetro."
+    ],
+    "destaque": true
+  },
+  {
+    "slug": "araca-vermelho",
+    "nome": "Araçá Vermelho",
+    "nomeCientifico": "Psidium cattleianum",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Pequeno, rústico e muito produtivo. O araçá vermelho é ideal para vasos e rende uma colheita abundante de frutos doces e aromáticos.",
+    "origem": "Litoral do Brasil",
+    "porte": "Arbusto de 1 a 3 m",
+    "luz": "Sol pleno",
+    "rega": "Moderada a frequente",
+    "solo": "Adapta-se a solos pobres, mas prefere bem drenados",
+    "vaso": "Vasos a partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "2 a 3 anos a partir da muda",
+    "frutificacao": "Primavera e verão",
+    "dicas": [
+      "Pode ser conduzido como pequeno arbusto ou árvore com poda de formação.",
+      "Suporta bem a poda, que estimula a produção de novos ramos.",
+      "É uma excelente planta para iniciantes pela sua rusticidade."
+    ],
+    "curiosidades": [
+      "O araçá é muito resistente à maresia, sendo comum em jardins litorâneos.",
+      "Existem variedades de casca vermelha e amarela.",
+      "Os frutos atraem pássaros e são ótimos para o paisagismo ecológico."
+    ],
+    "destaque": true
+  },
+  {
+    "slug": "pitanga-preta",
+    "nome": "Pitanga Preta",
+    "nomeCientifico": "Eugenia uniflora",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "raras",
+      "vaso"
+    ],
+    "resumo": "Variedade raríssima de pitanga, com frutos escuros, doces e de altíssimo teor de açúcar, que produz muito bem em vaso.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "Arbusto de 2 a 4 m",
+    "luz": "Sol pleno",
+    "rega": "Frequente durante a floração e frutificação",
+    "solo": "Fértil, bem drenado e levemente ácido",
+    "vaso": "Vasos a partir de 25 litros",
+    "dificuldade": "Média",
+    "tempoProducao": "2 a 3 anos a partir da muda",
+    "frutificacao": "Pode frutificar mais de uma vez ao ano",
+    "dicas": [
+      "Exige sol pleno para expressar o máximo de doçura nos frutos.",
+      "Faça poda de limpeza após cada colheita.",
+      "Fique atento à mosca-das-frutas, principal praga da cultura."
+    ],
+    "curiosidades": [
+      "A pitanga preta é uma variedade difícil de encontrar à venda em mudas.",
+      "Frutos bem manejados podem ultrapassar 20 graus Brix de doçura.",
+      "As folhas da pitangueira são usadas na medicina popular."
+    ],
+    "destaque": true
+  },
+  {
+    "slug": "araca-boi",
+    "nome": "Araçá Boi (Fruta Iogurte)",
+    "nomeCientifico": "Psidium guineense",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "raras",
+      "vaso"
+    ],
+    "resumo": "Também conhecida como fruta iogurte, tem polpa cremosa e sabor que lembra iogurte. Uma das nativas mais produtivas em vaso.",
+    "origem": "Cerrado e América Tropical",
+    "porte": "Arbusto de 2 a 4 m",
+    "luz": "Sol pleno",
+    "rega": "Frequente, sem encharcar",
+    "solo": "Fértil e bem drenado, com boa matéria orgânica",
+    "vaso": "Vasos a partir de 30 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "2 a 3 anos a partir da muda",
+    "frutificacao": "Primavera e verão, com florações recorrentes",
+    "dicas": [
+      "Adube regularmente durante a frutificação para não perder produção.",
+      "Suporta poda de formação para manter porte compacto.",
+      "Colha os frutos quando ficarem levemente macios ao toque."
+    ],
+    "curiosidades": [
+      "O nome \"fruta iogurte\" vem da textura e do sabor da polpa.",
+      "É uma das frutíferas nativas mais produtivas em vaso.",
+      "As flores atraem polinizadores e abelhas nativas."
+    ],
+    "destaque": true
+  },
+  {
+    "slug": "bacupari-mirim",
+    "nome": "Bacupari Mirim",
+    "nomeCientifico": "Garcinia gardneriana",
+    "familia": "Clusiaceae",
+    "categorias": [
+      "nativas",
+      "raras"
+    ],
+    "resumo": "Fruta nativa rara, doce e apreciada por colecionadores. O bacupari mirim é uma joia da fruticultura brasileira.",
+    "origem": "Brasil (Cerrado e Mata Atlântica)",
+    "porte": "Árvore de 4 a 8 m",
+    "luz": "Meia-sombra a sol pleno (jovem)",
+    "rega": "Moderada, mantendo o solo levemente úmido",
+    "solo": "Fértil, ácido e rico em matéria orgânica",
+    "vaso": "Vasos a partir de 40 litros",
+    "dificuldade": "Avançada",
+    "tempoProducao": "4 a 6 anos a partir da muda",
+    "frutificacao": "Verão",
+    "dicas": [
+      "Prefere sombra parcial quando jovem, evoluindo para sol pleno.",
+      "Use substrato ácido e rico em matéria orgânica.",
+      "Tenha paciência: é uma planta de crescimento mais lento."
+    ],
+    "curiosidades": [
+      "Pertence ao mesmo gênero do bacuri e do mangostão.",
+      "É considerada uma fruta rara, difícil de encontrar em feiras.",
+      "As folhas são ornamentais e a planta é muito usada em coleções."
+    ],
+    "destaque": false
+  },
+  {
+    "slug": "bacupari-estalo",
+    "nome": "Bacupari Estalo",
+    "nomeCientifico": "Garcinia brasiliensis",
+    "familia": "Clusiaceae",
+    "categorias": [
+      "nativas",
+      "raras"
+    ],
+    "resumo": "Conhecido pelo som característico do fruto ao ser aberto. Uma frutífera rara e saborosa do Cerrado brasileiro.",
+    "origem": "Cerrado e Mata Atlântica (Brasil)",
+    "porte": "Árvore de 4 a 8 m",
+    "luz": "Meia-sombra a sol pleno",
+    "rega": "Moderada",
+    "solo": "Fértil, ácido e bem drenado",
+    "vaso": "Vasos a partir de 40 litros",
+    "dificuldade": "Avançada",
+    "tempoProducao": "4 a 6 anos a partir da muda",
+    "frutificacao": "Verão",
+    "dicas": [
+      "Ofereça meia-sombra nos primeiros anos de vida.",
+      "Mantenha o substrato rico em matéria orgânica.",
+      "Proteja a planta de geadas e ventos frios."
+    ],
+    "curiosidades": [
+      "O nome \"estalo\" vem do som que o fruto faz ao ser aberto.",
+      "É parente do bacuri, uma das frutas mais valorizadas do Norte.",
+      "A casca do fruto é resistente e protege bem a polpa."
+    ],
+    "destaque": false
+  },
+  {
+    "slug": "abiu-amarelo",
+    "nome": "Abiu Amarelo",
+    "nomeCientifico": "Pouteria caimito",
+    "familia": "Sapotaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Fruta exótica de polpa cremosa e muito doce, com sabor que lembra caramelo. Produz bem em vaso com os cuidados certos.",
+    "origem": "Amazônia",
+    "porte": "Árvore de 5 a 10 m (controlável em vaso)",
+    "luz": "Sol pleno",
+    "rega": "Frequente, sem encharcar",
+    "solo": "Fértil, profundo e bem drenado",
+    "vaso": "Vasos a partir de 50 litros",
+    "dificuldade": "Média",
+    "tempoProducao": "3 a 5 anos a partir da muda",
+    "frutificacao": "Verão",
+    "dicas": [
+      "Colha apenas quando o fruto estiver bem amarelo e levemente macio.",
+      "Faça podas de formação para manter o porte reduzido em vaso.",
+      "Proteja a planta jovem de ventos fortes."
+    ],
+    "curiosidades": [
+      "A polpa do abiu pode ser consumida com colher, como um pudim natural.",
+      "É uma das poucas frutas que não deve ser consumida muito verde, pois a casca solta látex.",
+      "O abiu é muito popular em países amazônicos como Peru e Colômbia."
+    ],
+    "destaque": false
+  },
+  {
+    "slug": "gabiroba",
+    "nome": "Gabiroba do Cerrado",
+    "nomeCientifico": "Campomanesia pubescens",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Fruta típica do Cerrado, aromática e rica em vitamina C. Rústica e ideal para quem quer começar com nativas.",
+    "origem": "Cerrado brasileiro",
+    "porte": "Arbusto de 1 a 3 m",
+    "luz": "Sol pleno",
+    "rega": "Moderada",
+    "solo": "Adapta-se a solos ácidos e pobres, mas responde bem à adubação orgânica",
+    "vaso": "Vasos a partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "2 a 3 anos a partir da muda",
+    "frutificacao": "Primavera e verão",
+    "dicas": [
+      "Excelente escolha para quem está começando com frutíferas nativas.",
+      "Suporta bem períodos de seca, mas produz mais com regas regulares.",
+      "Use substrato levemente ácido e bem drenado."
+    ],
+    "curiosidades": [
+      "A gabiroba é uma das frutas mais típicas do Cerrado.",
+      "É extremamente resistente à seca e ao calor.",
+      "Suas flores brancas são muito ornamentais."
+    ],
+    "destaque": false
+  },
+  {
+    "slug": "cereja-rio-grande",
+    "nome": "Cereja do Rio Grande",
+    "nomeCientifico": "Eugenia involucrata",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "raras",
+      "vaso"
+    ],
+    "resumo": "Conhecida como cereja brasileira, tem frutos vermelhos doces e propriedades medicinais, além de grande valor ornamental.",
+    "origem": "Sul e Sudeste do Brasil",
+    "porte": "Árvore de 3 a 6 m",
+    "luz": "Sol pleno a meia-sombra",
+    "rega": "Moderada a frequente",
+    "solo": "Fértil e bem drenado",
+    "vaso": "Vasos a partir de 30 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "3 a 4 anos a partir da muda",
+    "frutificacao": "Primavera e verão",
+    "dicas": [
+      "Faça poda de limpeza anual para estimular a produção.",
+      "Mantenha o solo úmido durante a frutificação.",
+      "É uma ótima planta para atrair pássaros ao quintal."
+    ],
+    "curiosidades": [
+      "É chamada de cereja brasileira por sua semelhança com a cereja europeia.",
+      "Possui propriedades medicinais reconhecidas na medicina popular.",
+      "Os frutos podem ser consumidos frescos ou em geleias e licores."
+    ],
+    "destaque": false
+  },
+  {
+    "slug": "grumixama-amarela",
+    "nome": "Grumixama Amarela",
+    "nomeCientifico": "Eugenia brasiliensis",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "raras",
+      "vaso"
+    ],
+    "resumo": "Variedade rara da grumixama, com frutos amarelos doces e produção surpreendente mesmo em vasos de 30 litros.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "Árvore de 5 a 15 m (reduzida em vaso)",
+    "luz": "Sol pleno a meia-sombra",
+    "rega": "Frequente, mantendo o solo úmido",
+    "solo": "Fértil, ácido e rico em matéria orgânica",
+    "vaso": "Vasos a partir de 30 litros",
+    "dificuldade": "Média",
+    "tempoProducao": "3 a 5 anos a partir da muda",
+    "frutificacao": "Primavera e verão",
+    "dicas": [
+      "Use substrato ácido, com boa dose de matéria orgânica.",
+      "Mantenha a planta sob sol pleno para frutos mais doces.",
+      "Faça podas leves para manter o porte compacto em vaso."
+    ],
+    "curiosidades": [
+      "A variedade amarela é bem mais rara que a grumixama roxa.",
+      "A grumixama é parente da jabuticaba e da pitanga.",
+      "Produz bem em vaso, sendo uma das nativas mais indicadas para pequenos espaços."
+    ],
+    "destaque": true
+  },
+  {
+    "slug": "abacate",
+    "nome": "Abacate",
+    "nomeCientifico": "Persea americana",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Abacate é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 8 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como Plantar Abacate breda orgânico em Vaso",
+      "Assista no canal: Como Plantar Abacate breda orgânico em Vaso",
+      "Assista no canal: Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": true
+  },
+  {
+    "slug": "abacaxi",
+    "nome": "Abacaxi",
+    "nomeCientifico": "Ananas comosus",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Abacaxi é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 37 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de abacaxi."
+    ],
+    "curiosidades": [],
+    "destaque": true
+  },
+  {
+    "slug": "acerola-okinawa",
+    "nome": "Acerola Okinawa",
+    "nomeCientifico": "Malpighia emarginata",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Acerola Okinawa é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 9 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: colheita acerola Okinawa gigante em vaso",
+      "Assista no canal: Colheita acerola Okinowa em vaso 4k",
+      "Assista no canal: Como podar pé de acerola passo a passo."
+    ],
+    "curiosidades": [],
+    "destaque": true
+  },
+  {
+    "slug": "ajuru-preto-branco",
+    "nome": "Ajuru preto branco",
+    "nomeCientifico": "Chrysobalanus icaco",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Ajuru preto branco é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de ajuru preto branco."
+    ],
+    "curiosidades": [],
+    "destaque": true
+  },
+  {
+    "slug": "ameixa-japao",
+    "nome": "Ameixa Japao",
+    "nomeCientifico": "Prunus salicina",
+    "familia": "Rosaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Ameixa japonesa, de frutos grandes e sabor doce-equilibrado. Variedade de mesa muito apreciada.",
+    "origem": "Japão",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como podar ameixa vermelha",
+      "Assista no canal: Como podar nêspera ameixa amarela",
+      "Assista no canal: Como podar ameixa Japão"
+    ],
+    "curiosidades": [],
+    "destaque": true
+  },
+  {
+    "slug": "ameixa-vermelha",
+    "nome": "Ameixa vermelha",
+    "nomeCientifico": "Prunus salicina",
+    "familia": "Rosaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Ameixa de casca vermelha e polpa amarela, doce e suculenta. Precisa de poda anual para produzir bem em vaso.",
+    "origem": "China",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts",
+      "Assista no canal: Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts",
+      "Assista no canal: Colheita Pitaya vermelha gigante 😋😋😋"
+    ],
+    "curiosidades": [],
+    "destaque": true
+  },
+  {
+    "slug": "amora-portuguesa",
+    "nome": "Amora Portuguesa",
+    "nomeCientifico": "Rubus ulmifolius",
+    "familia": "Rosaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Amora de ramos com espinhos e frutos menores, porém muito saborosos e aromáticos. Planta rústica e vigorosa.",
+    "origem": "Europa",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Carambola, araça, seriguela, amora em vasos 4k",
+      "Assista no canal: Colheita de Amora e Goiaba Paluma orgânica em vaso Ryan Frade e Josi Soares",
+      "Assista no canal: Colheita e degustação de Amora gigante portuguesa orgânica em vaso 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "amora-preta-tupy",
+    "nome": "Amora Preta Tupy",
+    "nomeCientifico": "Rubus 'Tupy'",
+    "familia": "Rosaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Amora-preta sem espinhos, de frutos grandes e doces. Cultivar brasileiro muito produtivo e ideal para vaso.",
+    "origem": "Brasil (cultivar)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!",
+      "Assista no canal: Colheita de pitanga do cerrado e pitanga preta em vaso",
+      "Assista no canal: Pitanga Preta colheita real no vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "ananas-do-mato",
+    "nome": "Ananas do mato",
+    "nomeCientifico": "Ananas bracteatus",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Ananas do mato é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de ananas do mato."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "araca-amarelo",
+    "nome": "Araca Amarelo",
+    "nomeCientifico": "Psidium cattleianum var. lucidum",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Variedade de casca amarela do mesmo araçá: frutos mais doces e menos ácidos que o vermelho, com aroma suave.",
+    "origem": "Brasil",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k",
+      "Assista no canal: Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k",
+      "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "araca-boi-fruta-iogurte",
+    "nome": "Araca Boi fruta iogurte",
+    "nomeCientifico": "",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Araca Boi fruta iogurte é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 161 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k",
+      "Assista no canal: Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k",
+      "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "araca-pera",
+    "nome": "Araca Pera",
+    "nomeCientifico": "Psidium acutangulum",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Araçá de frutos em formato de pera, polpa doce e aromática. Espécie amazônica rara, de crescimento moderado.",
+    "origem": "Amazônia",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k",
+      "Assista no canal: Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K",
+      "Assista no canal: Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "araca-roxo",
+    "nome": "Araca Roxo",
+    "nomeCientifico": "Psidium cattleianum",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Araçá de casca arroxeada/escura, sabor intenso e adocicado. Menos comum que o vermelho e o amarelo, muito procurado por colecionadores.",
+    "origem": "Brasil",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k",
+      "Assista no canal: Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k",
+      "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "atemoia",
+    "nome": "Atemoia",
+    "nomeCientifico": "Annona x atemoya",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Atemoia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 13 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de atemoia GIGANTE 578Gr em casa 100% orgânica",
+      "Assista no canal: Colheita de atemoia GiGANTE no quintal de casa urbano",
+      "Assista no canal: Colheita FÁCIL: Atemoia Orgânica #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "bacupari-de-bico",
+    "nome": "Bacupari de bico",
+    "nomeCientifico": "Garcinia gardneriana",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Bacupari de bico é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 23 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO",
+      "Assista no canal: Bacupari colheita real no vaso #shorts",
+      "Assista no canal: Degustando e medindo Grau Brix Achaichairu Boliviano supera nosso Bacupari???"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "bacuri",
+    "nome": "Bacuri",
+    "nomeCientifico": "Platonia insignis",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Bacuri é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO",
+      "Assista no canal: Colheita e degustação bacuri-Pari(Garcinia Benthamiana)",
+      "Assista no canal: Bacuri-Pari FRUTIFERA Brasileira Combate o Câncer"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "banana-ouro",
+    "nome": "Banana ouro",
+    "nomeCientifico": "Musa spp.",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Banana ouro é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts",
+      "Assista no canal: Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts",
+      "Assista no canal: Quem aí ja viu a \"MÃE DO OURO\" #CHACARADOZERO"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "biriba",
+    "nome": "Biriba",
+    "nomeCientifico": "Rollinia mucosa",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Biriba é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 1 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Biriba/fruta do conde/pinha/condessa/ata como vocês conhecem? 4K"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cabeludinha-roxa",
+    "nome": "Cabeludinha roxa",
+    "nomeCientifico": "Myrciaria glazioviana",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Também chamada de peludinha: frutos amarelos de casca aveludada, polpa suculenta e doce com leve acidez. Arbusto compacto, ótimo para vaso.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍",
+      "Assista no canal: Cabeludinha colheita real no vaso #shorts",
+      "Assista no canal: Cabeludinha colheita real no vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cacau",
+    "nome": "Cacau",
+    "nomeCientifico": "Theobroma cacao",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Cacau é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 5 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como podar cacau",
+      "Assista no canal: Flor e botões florais Cacau em Vaso 4k",
+      "Assista no canal: Cacau produzindo em vaso 😍"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cagaita",
+    "nome": "Cagaita",
+    "nomeCientifico": "Eugenia dysenterica",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Fruto amarelo do Cerrado, suculento e levemente ácido. Muito produtivo e rústico, símbolo da fruticultura do Cerrado.",
+    "origem": "Cerrado (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de cagaita."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "caja-manga-anao",
+    "nome": "Caja manga Anao",
+    "nomeCientifico": "Spondias dulcis",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Caja manga Anao é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 46 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação mangá Ubá em vaso",
+      "Assista no canal: Colheita de Cajá manga anão em vaso",
+      "Assista no canal: Colheita de cajá e mostrando a importância do saquinho 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "caju",
+    "nome": "Caju",
+    "nomeCientifico": "Anacardium occidentale",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Caju é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como plantar cajú anão orgânico em vaso",
+      "Assista no canal: Cajú anão orgânico em vaso florindo  4k",
+      "Assista no canal: Caju anão orgânico em vaso parte 2"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "calabura",
+    "nome": "Calabura",
+    "nomeCientifico": "Muntingia calabura",
+    "familia": "Muntingiaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Também chamada de cereja-do-campo ou calabura: frutinhas vermelhas muito doces e adocicadas, produtivas quase o ano todo. Ótima para atrair pássaros.",
+    "origem": "América Tropical",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de calabura."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cambuca-jabuticaba-amarela",
+    "nome": "Cambuca Jabuticaba amarela",
+    "nomeCientifico": "",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Cambuca Jabuticaba amarela é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 119 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K",
+      "Assista no canal: Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋",
+      "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cambuci",
+    "nome": "Cambuci",
+    "nomeCientifico": "Campomanesia phaea",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Fruto achatado e verde mesmo quando maduro, de sabor ácido e aromático. Símbolo de São Paulo, raro e valorizado na gastronomia.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de cambuci."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cambui-roxo",
+    "nome": "Cambui Roxo",
+    "nomeCientifico": "Eugenia candolleana",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Também chamada de ameixa-da-mata: frutos roxo-enegrecidos, doces e saborosos, com aparência de jabuticaba. Nativa rara que produz em vaso.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas! 4k",
+      "Assista no canal: Primeira Floração Araça roxo em vaso 4k",
+      "Assista no canal: Primeiros botões florais Araça Roxo orgânico em vaso  4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "camu-camu",
+    "nome": "Camu-Camu",
+    "nomeCientifico": "Myrciaria dubia",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Camu-Camu é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de camu-camu."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "canistel",
+    "nome": "Canistel",
+    "nomeCientifico": "Pouteria campechiana",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Canistel é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 12 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como ponto colheita Canistel/fruta ovo",
+      "Assista no canal: Colheita FÁCIL: Canistel Orgânico em Vaso #shorts",
+      "Assista no canal: Colheita FÁCIL: Canistel Orgânico em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "carambola-mel",
+    "nome": "Carambola Mel",
+    "nomeCientifico": "Averrhoa carambola",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Carambola Mel é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 12 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Carambola, araça, seriguela, amora em vasos 4k",
+      "Assista no canal: Colheita e degustação da carambola mel orgânica em vaso 😋",
+      "Assista no canal: Colheita de uva e carambola em casa😋"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cherimoya",
+    "nome": "Cherimoya",
+    "nomeCientifico": "Annona cherimola",
+    "familia": "Annonaceae",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Também chamada de fruta-do-conde peruana: polpa cremosa e adocicada, considerada uma das frutas mais saborosas do mundo. Exige polinização manual.",
+    "origem": "Andes",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Primeira floração da Cherimoya a fruta do senhor madruga🤣",
+      "Assista no canal: Mostrando experiência Enxertia de Atemoia e Cherimoya na Graviola 4k",
+      "Assista no canal: Minha querida Cherimoya morreu...😭😭😭"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cidra",
+    "nome": "Cidra",
+    "nomeCientifico": "Citrus medica",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Cidra é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de cidra."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "cupuacu",
+    "nome": "Cupuacu",
+    "nomeCientifico": "Theobroma grandiflorum",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Cupuacu é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de cupuacu."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "dovyalis-doce-campari",
+    "nome": "Dovyalis doce campari",
+    "nomeCientifico": "Dovyalis hebecarpa",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Dovyalis doce campari é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 39 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita maracujá Doce  Gigante em vaso de 968 Gramas 😍😍😍 4k",
+      "Assista no canal: colheita e degustação dovyalis doce orgânica em vaso 4k",
+      "Assista no canal: Colheita de maracujá DOCE em vaso! não dá lagarta! produz o ano INTEIRO!!!"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "estrela-do-norte",
+    "nome": "Estrela do Norte",
+    "nomeCientifico": "",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Estrela do Norte é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 1 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: CACTO-ESTRELA com sua linda flor 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "figo",
+    "nome": "Figo",
+    "nomeCientifico": "Ficus carica",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Figo é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 8 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Mostrando pomar dos meus pais, figo quase pronto colheita jataís enxameando",
+      "Assista no canal: Como plantar figo Orgânico em Vaso",
+      "Assista no canal: Como Plantar Amora, Goiaba, Figo, Uva e Jabuticaba amarela na sua CASA ou chácara"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "framboesa-silvestre",
+    "nome": "Framboesa Silvestre",
+    "nomeCientifico": "Rubus idaeus",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Framboesa Silvestre é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 7 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação Framboesa, araça roxa e amora orgânicas em vasos",
+      "Assista no canal: Framboesa excelente para vasos",
+      "Assista no canal: Framboesa silvestre em Vaso (Rubus Rosifolius) 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "fruta-do-milagre",
+    "nome": "Fruta do Milagre",
+    "nomeCientifico": "Synsepalum dulcificum",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Fruta do Milagre é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 79 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k",
+      "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!",
+      "Assista no canal: Colheita de fruta iogurte"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "goiaba-amarela",
+    "nome": "Goiaba Amarela",
+    "nomeCientifico": "Psidium guajava",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Goiaba de polpa amarela, doce e aromática, ótima para consumo fresco. Produz bem em vaso com podas.",
+    "origem": "América Tropical",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋",
+      "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍",
+      "Assista no canal: Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "goiaba-paluma",
+    "nome": "Goiaba Paluma",
+    "nomeCientifico": "Psidium guajava 'Paluma'",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Cultivar de goiaba de polpa vermelha, doce e produtiva, muito usada comercialmente. Frutos grandes e de boa conservação.",
+    "origem": "Brasil (cultivar)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts",
+      "Assista no canal: Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts",
+      "Assista no canal: Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "graviola",
+    "nome": "Graviola",
+    "nomeCientifico": "Annona muricata",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Graviola é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 58 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de graviola em vaso 570gr e 20 brix",
+      "Assista no canal: colhendo graviola em vaso orgânica",
+      "Assista no canal: Colheita da primeira graviola após 5 anos!!! 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "groselha",
+    "nome": "Groselha",
+    "nomeCientifico": "Phyllanthus acidus",
+    "familia": "Phyllanthaceae",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Groselha-tropical: frutos amarelos e translúcidos em cachos, muito ácidos, ideais para sucos e geleias de cor rubi. Não é a groselha europeia.",
+    "origem": "Madagascar",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de groselha."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "grumixama-preta",
+    "nome": "Grumixama preta",
+    "nomeCientifico": "Eugenia brasiliensis",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Grumixama de frutos escuros (roxo/negro), sabor doce e levemente ácido. A variedade mais comum da espécie.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!",
+      "Assista no canal: Colheita de pitanga do cerrado e pitanga preta em vaso",
+      "Assista no canal: Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "inga-de-flores-roseas",
+    "nome": "Inga de flores roseas",
+    "nomeCientifico": "Inga edulis",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Inga de flores roseas é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 44 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de ingá na calçada",
+      "Assista no canal: Este ADUBO faz TOMBAR Rosa do deserto de FLORES 🤩",
+      "Assista no canal: Adubação FÁCIL E Rápida para CARREGAR DE FLORES 100% Garantido!!!"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "jabuticaba-branca",
+    "nome": "Jabuticaba Branca",
+    "nomeCientifico": "Plinia aureana",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Jabuticaba de casca verde-amarelada e polpa branca, mais doce e com menos tanino que a jabuticaba comum. Rara e muito valorizada.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K",
+      "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍",
+      "Assista no canal: Jabuticaba colheita real no vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "jabuticaba-sabara",
+    "nome": "Jabuticaba Sabara",
+    "nomeCientifico": "Plinia cauliflora 'Sabará'",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "A jabuticaba mais tradicional e saborosa, de frutos escuros e doces. Cultivar clássico dos quintais brasileiros.",
+    "origem": "Brasil (cultivar)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K",
+      "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍",
+      "Assista no canal: Jabuticaba colheita real no vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "jabuticaba-hibrida",
+    "nome": "Jabuticaba hibrida",
+    "nomeCientifico": "Plinia cauliflora",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Jabuticabeira híbrida selecionada para produzir mais cedo e com frutos graúdos. Ótima para vaso.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K",
+      "Assista no canal: Primeira colheita da minha jabuticabeira Híbrida orgânica 4K",
+      "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "jambo-rosa",
+    "nome": "Jambo Rosa",
+    "nomeCientifico": "Syzygium jambos",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Jambo Rosa é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 28 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e Degustação de Jambo Rosa em vaso",
+      "Assista no canal: Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas! 4k",
+      "Assista no canal: Como Plantar Jambo vermelho em vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "jambo-vermelho",
+    "nome": "Jambo Vermelho",
+    "nomeCientifico": "Syzygium malaccense",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Jambo Vermelho é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 22 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k",
+      "Assista no canal: Colheita e Degustação de Jambo Rosa em vaso",
+      "Assista no canal: Araca Vermelho colheita real no vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "laranja-champagne",
+    "nome": "Laranja Champagne",
+    "nomeCientifico": "Citrus sinensis 'Champagne'",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Laranja de mesa de casca amarelo-clara e polpa muito suculenta e doce, com poucas sementes. Produz bem em vaso e é uma das mais doces do pomar.",
+    "origem": "Brasil",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Primeira colheita laranja kinkan orgânica em vaso 4k",
+      "Assista no canal: Colheita de laranja abacaxi em vaso! DELICIOSA!!!",
+      "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "laranja-serra-dagua",
+    "nome": "Laranja Serra Dagua",
+    "nomeCientifico": "Citrus sinensis 'Serra d'Água'",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Laranja de casca fina e suco abundante, sabor equilibrado entre doce e ácido. Ótima para suco fresco.",
+    "origem": "Brasil",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Primeira colheita laranja kinkan orgânica em vaso 4k",
+      "Assista no canal: Colheita de laranja abacaxi em vaso! DELICIOSA!!!",
+      "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "laranja-abacaxi",
+    "nome": "Laranja abacaxi",
+    "nomeCientifico": "Citrus sinensis 'Abacaxi'",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Variedade de laranja de polpa amarela, sabor adocicado e aroma marcante. Frutos médios e muito perfumados.",
+    "origem": "Brasil",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Primeira colheita laranja kinkan orgânica em vaso 4k",
+      "Assista no canal: Colheita de laranja abacaxi em vaso! DELICIOSA!!!",
+      "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "laranja-kinkan",
+    "nome": "Laranja kinkan",
+    "nomeCientifico": "Citrus japonica",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Kinkan ou kumquat: fruto pequeno e oval, de casca comestível e adocicada. Come-se inteiro, casca e tudo. Planta muito ornamental e produtiva em vaso.",
+    "origem": "China",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Primeira colheita laranja kinkan orgânica em vaso 4k",
+      "Assista no canal: Colheita de laranja abacaxi em vaso! DELICIOSA!!!",
+      "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "lichia",
+    "nome": "Lichia",
+    "nomeCientifico": "Litchi chinensis",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Lichia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como Plantar Lichia orgânica em vaso 02/06/2017",
+      "Assista no canal: Como adubar lichia orgânica em vaso",
+      "Assista no canal: Como adubar lichia orgânica em vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "limao-cravo-caipira",
+    "nome": "Limao Cravo caipira",
+    "nomeCientifico": "Citrus × limonia",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias.",
+    "origem": "Sudeste da Ásia (híbrido natural)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita limão siciliano em vaso",
+      "Assista no canal: Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim",
+      "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "limao-galeguinho",
+    "nome": "Limao Galeguinho",
+    "nomeCientifico": "Citrus × aurantifolia",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Lima ácida de frutos pequenos, casca fina e muitas sementes. É a mais ácida do grupo e a preferida para caipirinhas. Planta compacta, ótima para vaso.",
+    "origem": "Sudeste da Ásia",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita limão siciliano em vaso",
+      "Assista no canal: Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim",
+      "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "limao-imperial",
+    "nome": "Limao Imperial",
+    "nomeCientifico": "Citrus × limon 'Imperial'",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Variedade de limão verdadeiro muito produtiva e aromática, com casca amarela e frutos alongados. Excelente para temperos e sucos.",
+    "origem": "Variedade selecionada",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita limão siciliano em vaso",
+      "Assista no canal: Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim",
+      "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "limao-siciliano",
+    "nome": "Limao Siciliano",
+    "nomeCientifico": "Citrus × limon",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "É o limão verdadeiro: casca amarela e grossa, formato oval e sabor mais suave e perfumado. Menos ácido que as limas, ideal para sucos, doces e culinária mediterrânea.",
+    "origem": "Sul da Itália",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita limão siciliano em vaso",
+      "Assista no canal: Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim",
+      "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "limao-caviar",
+    "nome": "Limao caviar",
+    "nomeCientifico": "Citrus australasica",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Também chamado de lima-caviar: frutos estreitos e alongados cuja polpa é formada por esferas crocantes que estouram na boca, como caviar. Iguaria da alta gastronomia.",
+    "origem": "Austrália",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita limão siciliano em vaso",
+      "Assista no canal: Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim",
+      "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "limao-doce-tanjo",
+    "nome": "Limao doce Tanjo",
+    "nomeCientifico": "Citrus limettioides",
+    "familia": "Rutaceae",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Lima doce, sem acidez: pode ser consumida como fruta de mesa, com casca fina e suco adocicado. Ótima para quem não tolera a acidez dos limões.",
+    "origem": "Índia",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita limão siciliano em vaso",
+      "Assista no canal: Colheita maracujá Doce  Gigante em vaso de 968 Gramas 😍😍😍 4k",
+      "Assista no canal: Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "longan",
+    "nome": "Longan",
+    "nomeCientifico": "Dimocarpus longan",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Longan é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 4 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como Plantar longana longan ou olho do dragão orgânico em Vaso",
+      "Assista no canal: Como Plantar longana longan ou olho do dragão orgânico em Vaso",
+      "Assista no canal: Como Plantar longana longan ou olho do dragão orgânico em Vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "maca-eva",
+    "nome": "Maca Eva",
+    "nomeCientifico": "Malus domestica",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Maca Eva é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 56 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Realizando um sonho de criança: Colhendo maça direto do pé em vaso 4k",
+      "Assista no canal: Colhendo maçã em vaso 100% orgânica 😋",
+      "Assista no canal: Colheita FÁCIL: Maca Eva Orgânica em Vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "mamao",
+    "nome": "Mamao",
+    "nomeCientifico": "Carica papaya",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Mamao é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 2 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Botões florais mamão em vaso de 20L 4K",
+      "Assista no canal: Seu mamão não produz ou se quebrou? faça doce com o tronco 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "mana-cubiu",
+    "nome": "Mana Cubiu",
+    "nomeCientifico": "Solanum sessiliflorum",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Mana Cubiu é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de mana cubiu."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "mandacaru",
+    "nome": "Mandacaru",
+    "nomeCientifico": "Cereus jamacaru",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Mandacaru é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de mandacaru."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "manga-palmer",
+    "nome": "Manga Palmer",
+    "nomeCientifico": "Mangifera indica 'Palmer'",
+    "familia": "Anacardiaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Manga de polpa firme, doce e com pouca fibra, frutos grandes e avermelhados. Produz bem em vaso com poda.",
+    "origem": "Estados Unidos (cultivar)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação mangá Ubá em vaso",
+      "Assista no canal: Colheita de Cajá manga anão em vaso",
+      "Assista no canal: Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "manga-uba",
+    "nome": "Manga uba",
+    "nomeCientifico": "Mangifera indica 'Ubá'",
+    "familia": "Anacardiaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Manga de frutos menores, fibrosos e muito doces, tradicional na produção de sucos. Rústica e produtiva.",
+    "origem": "Brasil (cultivar)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação mangá Ubá em vaso",
+      "Assista no canal: Colheita de Cajá manga anão em vaso",
+      "Assista no canal: Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "mangostao-fruta-da-rainha",
+    "nome": "Mangostao fruta da rainha",
+    "nomeCientifico": "",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Mangostao fruta da rainha é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 78 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k",
+      "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!",
+      "Assista no canal: Colheita de fruta iogurte"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "maracuja-gigante",
+    "nome": "Maracuja Gigante",
+    "nomeCientifico": "Passiflora edulis",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Maracuja Gigante é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 41 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: colheita acerola Okinawa gigante em vaso",
+      "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!",
+      "Assista no canal: Colheita de pitayas orgânica em vaso Gigante 2,5kg de Pitayas😍😍😍 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "melancia",
+    "nome": "Melancia",
+    "nomeCientifico": "Citrullus lanatus",
+    "familia": "",
+    "categorias": [
+      "exoticas"
+    ],
+    "resumo": "Melancia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Plantando Melancia Tomate Espinafre e Alface na minha Hortinha",
+      "Assista no canal: muda melancia 60 dias",
+      "Assista no canal: muda melancia 11 dias"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "melao-andino",
+    "nome": "Melao Andino",
+    "nomeCientifico": "Solanum muricatum",
+    "familia": "Solanaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Também chamado de pepino-doce: fruto amarelo com listras roxas, polpa suculenta e levemente doce, lembrando melão. Cultivo em vaso com tutor.",
+    "origem": "Andes",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K",
+      "Assista no canal: Colheita melão andino/melão de árvore em vaso",
+      "Assista no canal: Colheita melão Andino orgânicoMelão de árvorePera Melão em Vaso 4K"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "mexerica-ponkan",
+    "nome": "Mexerica Ponkan",
+    "nomeCientifico": "Citrus reticulata",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "citricas",
+      "vaso"
+    ],
+    "resumo": "Mexerica Ponkan é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como Plantar Mexerica Ponkan",
+      "Assista no canal: Floração mexerica em vaso 😍",
+      "Assista no canal: Pé de mexerica após 2 meses plantado :)"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "mirtilo-blueberry",
+    "nome": "Mirtilo Blueberry",
+    "nomeCientifico": "Vaccinium myrtillus",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Mirtilo Blueberry é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de mirtilo/bluberry orgânico em vasos após 5 meses 4K 😍",
+      "Assista no canal: Como plantar guabijú mirtilo brasileiro orgânico em vaso",
+      "Assista no canal: Como plantar mirtilo blublarry orgânico em vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "morango",
+    "nome": "Morango",
+    "nomeCientifico": "Fragaria x ananassa",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Morango é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita primeiro morango :)",
+      "Assista no canal: Dica morango orgânico suspenso por palet para pouco espaço 4k",
+      "Assista no canal: Café da manhã do Ryan amora, morango e araça vermelho 100% orgânico 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "nectarina",
+    "nome": "Nectarina",
+    "nomeCientifico": "Prunus persica",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Nectarina é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 19 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação de Nectarina orgânica em vaso 4k",
+      "Assista no canal: Colheira e Degustação Nectarina orgânica em Vaso deliciosa!!! 4k",
+      "Assista no canal: Atualização e colheita Nectarina orgânica em vaso 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pera-dagua",
+    "nome": "Pera Dagua",
+    "nomeCientifico": "Pyrus communis",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Pera Dagua é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 32 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K",
+      "Assista no canal: Como Plantar Camu Camu /Araça dágua orgânico em vaso",
+      "Assista no canal: Como Plantar Camu Camu Araça dágua orgânico em vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pessego-anao",
+    "nome": "Pessego Anao",
+    "nomeCientifico": "Prunus persica",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Pessego Anao é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 18 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Cajá manga anão em vaso",
+      "Assista no canal: Colheita Cajá Manga anão em Vaso 100% orgânico 4k",
+      "Assista no canal: Como plantar cajá manga anão orgânica em vaso 02/06/2017"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pinha",
+    "nome": "Pinha",
+    "nomeCientifico": "Annona squamosa",
+    "familia": "Annonaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Fruta-do-conde ou ata: casca escamosa e polpa branca muito doce. Planta compacta que produz bem em vaso.",
+    "origem": "América Tropical",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como plantar pinha dos astecas em vaso plantio 15/05/2022",
+      "Assista no canal: Pinha orgânica produzindo em vaso, polinização cruzada com Graviola 4k",
+      "Assista no canal: Nova frutífera do pomar,a pinha em vaso 04/03/2018 4K"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pinha-dos-astecas",
+    "nome": "Pinha dos astecas",
+    "nomeCientifico": "Annona sp.",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Pinha dos astecas é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 6 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como plantar pinha dos astecas em vaso plantio 15/05/2022",
+      "Assista no canal: Pinha orgânica produzindo em vaso, polinização cruzada com Graviola 4k",
+      "Assista no canal: Nova frutífera do pomar,a pinha em vaso 04/03/2018 4K"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pitanga-do-cerrado",
+    "nome": "Pitanga do cerrado",
+    "nomeCientifico": "Eugenia calycina",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Pitanga do Cerrado: planta compacta e rústica, com frutos menores e sabor marcante. Produz bem em vaso e tolera seca.",
+    "origem": "Cerrado (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!",
+      "Assista no canal: Colheita de pitanga do cerrado e pitanga preta em vaso",
+      "Assista no canal: Pitanga Preta colheita real no vaso #shorts"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pitangatuba",
+    "nome": "Pitangatuba",
+    "nomeCientifico": "Eugenia selloi",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Fruto amarelo-alaranjado de sabor ácido e aroma intenso, excelente para sucos e sorvetes. Arbusto compacto, ideal para vaso.",
+    "origem": "Mata Atlântica (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como plantar pitangatuba orgânica em vaso",
+      "Assista no canal: Pitangatuba produzindo em vaso(botão floral e flor)",
+      "Assista no canal: Unboxing Pitangatuba, Sapoti, Guabijú(mirtilo Brasileiro) e Mirtilo"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pitaya-branca",
+    "nome": "Pitaya Branca",
+    "nomeCientifico": "Hylocereus undatus",
+    "familia": "Cactaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Pitaya de casca rosa e polpa branca, com sementes crocantes. A mais cultivada e de manejo mais simples, com floração noturna.",
+    "origem": "América Central",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!! 4k",
+      "Assista no canal: Colhendo Saborosa/pitaya do serrado 4k",
+      "Assista no canal: Colheita de Pitaya orgânica em vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pitaya-amarela",
+    "nome": "Pitaya amarela",
+    "nomeCientifico": "Selenicereus megalanthus",
+    "familia": "Cactaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Pitaya de casca amarela com espinhos e polpa branca muito doce. Considerada a mais saborosa do grupo.",
+    "origem": "América do Sul",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!! 4k",
+      "Assista no canal: Colhendo Saborosa/pitaya do serrado 4k",
+      "Assista no canal: Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pitaya-vermelha",
+    "nome": "Pitaya vermelha",
+    "nomeCientifico": "Hylocereus polyrhizus",
+    "familia": "Cactaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Pitaya de polpa vermelha, mais doce e rica em betalaínas (antioxidantes). Exige polinização para boa frutificação.",
+    "origem": "América Central",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!! 4k",
+      "Assista no canal: Colhendo Saborosa/pitaya do serrado 4k",
+      "Assista no canal: Colheita de Pitaya orgânica em vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "pitomba-da-bahia",
+    "nome": "Pitomba da Bahia",
+    "nomeCientifico": "Eugenia luschnathiana",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Pitomba de casca amarelo-alaranjada e polpa sucosa de sabor agridoce, lembrando damasco. Nativa rara do Nordeste.",
+    "origem": "Bahia (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas! 4k",
+      "Assista no canal: Nova frutífera do pomar Pitomba plantada dia 16/10/2018 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "rambuta",
+    "nome": "Rambuta",
+    "nomeCientifico": "Nephelium lappaceum",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Rambuta é uma frutífera que produz em vaso. Confira as dicas de cultivo e onde comprar mudas.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Veja no canal os vídeos de cultivo de rambuta."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "roma",
+    "nome": "Roma",
+    "nomeCientifico": "Punica granatum",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Roma é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 3 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Nova Frutífera do Pomar Romã Orgânica em vaso 4k",
+      "Assista no canal: Romã e Acerola  Frutas Fáceis e Ornamentais para Vasos! #plantas #caminhoparaumavidamelhor #jardim",
+      "Assista no canal: Evolução estarquia romã acerola e bacupari complexo B"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "saborosa-pytaya-do-serrado",
+    "nome": "Saborosa Pytaya do serrado",
+    "nomeCientifico": "Hylocereus sp.",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Saborosa Pytaya do serrado é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 10 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colhendo Saborosa/pitaya do serrado 4k",
+      "Assista no canal: Colheita de pitaya em vaso e medição do grau brix da SABOROSA",
+      "Assista no canal: Floração pitaya do serrado/saborosa Outubro 2019 4k"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "sapoti",
+    "nome": "Sapoti",
+    "nomeCientifico": "Manilkara zapota",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Sapoti é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de sapoti em vaso de 35 litros",
+      "Assista no canal: Medindo grau brix do Sapoti a fruta mais doce que conheço! 😋",
+      "Assista no canal: Como plantar Sapoti orgânico em vaso"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "seriguela",
+    "nome": "Seriguela",
+    "nomeCientifico": "Spondias purpurea",
+    "familia": "",
+    "categorias": [
+      "nativas",
+      "vaso"
+    ],
+    "resumo": "Seriguela é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 11 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Carambola, araça, seriguela, amora em vasos 4k",
+      "Assista no canal: Como podar seriguela",
+      "Assista no canal: Seriguela em vaso carregada..."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "tamarilho-tomate-de-arvore",
+    "nome": "Tamarilho Tomate de arvore",
+    "nomeCientifico": "",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Tamarilho Tomate de arvore é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 22 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K",
+      "Assista no canal: Colheita melão andino/melão de árvore em vaso",
+      "Assista no canal: MEGA colheita de tomate ORGÂNICO EM VASO ! Feliz dia das crianças a todos do Canal!"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "ubajai-pessego-do-mato",
+    "nome": "Ubajai Pessego do mato",
+    "nomeCientifico": "Eugenia myrcianthes",
+    "familia": "Myrtaceae",
+    "categorias": [
+      "nativas",
+      "vaso",
+      "raras"
+    ],
+    "resumo": "Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva.",
+    "origem": "Brasil",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Como podar pêssego",
+      "Assista no canal: Primeira floração pêssego Douradão em vaso 😍",
+      "Assista no canal: Primeira floração pêssego Douradão orgânico em vaso 😍"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "uva-brs-vitoria",
+    "nome": "Uva BRS Vitoria",
+    "nomeCientifico": "Vitis 'BRS Vitória'",
+    "familia": "Vitaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Uva sem sementes, de casca escura e sabor doce, desenvolvida pela Embrapa. Produtiva e resistente a doenças.",
+    "origem": "Embrapa (Brasil)",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita de Uva BRS Vitória, BRS Núvia, BRS Lorena, Poloski e Isabel Fundo de QUINTAL!!!",
+      "Assista no canal: Poda BRS vitória 1 ano",
+      "Assista no canal: Uva vitória no terraço"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "uva-goethe",
+    "nome": "Uva Goethe",
+    "nomeCientifico": "Vitis 'Goethe'",
+    "familia": "Vitaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Uva de mesa de bagos grandes e sabor suave, colhida em cachos vistosos. Exige poda de produção e tutor.",
+    "origem": "Híbrido",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Medindo grau Brix(doçura) Uva Goethe 4k",
+      "Assista no canal: Última colheita da Uva Goethe... infelizmente não está se dando bem aqui...",
+      "Assista no canal: Última colheita da Uva Goethe... infelizmente não está se dando bem aqui..."
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "uva-isabel",
+    "nome": "Uva Isabel",
+    "nomeCientifico": "Vitis labrusca 'Isabel'",
+    "familia": "Vitaceae",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Uva rústica de casca escura e sabor intenso, muito usada para suco e vinho. Adapta-se bem ao clima brasileiro e a vasos grandes com tutor.",
+    "origem": "Estados Unidos",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita uva Isabel orgânica em vaso 4K",
+      "Assista no canal: Colhendo, DEGUSTANDO uvas: Moscato Poslok, BRS Lorena, Moscato Gialo e Isabel no fundo de quintal",
+      "Assista no canal: Colheita de Uva BRS Vitória, BRS Núvia, BRS Lorena, Poloski e Isabel Fundo de QUINTAL!!!"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  },
+  {
+    "slug": "uvaia",
+    "nome": "Uvaia",
+    "nomeCientifico": "Eugenia pyriformis",
+    "familia": "",
+    "categorias": [
+      "exoticas",
+      "vaso"
+    ],
+    "resumo": "Uvaia é uma frutífera que produz em vaso. No canal Frutíferas Orgânicas há 43 vídeos sobre esta espécie.",
+    "origem": "",
+    "porte": "",
+    "luz": "Sol pleno",
+    "rega": "Regular, sem encharcar",
+    "solo": "Fértil, bem drenado e rico em matéria orgânica",
+    "vaso": "A partir de 20 litros",
+    "dificuldade": "Fácil",
+    "tempoProducao": "Consulte os vídeos de cultivo",
+    "frutificacao": "Consulte os vídeos de cultivo",
+    "dicas": [
+      "Assista no canal: Colheita e degustação de Uvaia orgânica em vaso com Ryan Frade 😍",
+      "Assista no canal: Colheita de Uvaia em Vaso 4k",
+      "Assista no canal: Colheita de uvaia em vaso😋😋😋"
+    ],
+    "curiosidades": [],
+    "destaque": false
+  }
+]
