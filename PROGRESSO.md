@@ -143,6 +143,9 @@
   - **Correções de `.htaccess`**: exclusão de `/admin` da remoção de barra final + `DirectorySlash Off` (resolvia um loop de redirecionamento)
   - Pendente: usuário criar o **GitHub OAuth App** e preencher o `_oauth-config.php`
   - ⚠️ A CDN da Hostinger guardou em cache o 301 antigo de `/admin/`; usar `/admin/index.html` ou limpar o cache no hPanel
+- [x] E43. **CMS remoto FUNCIONANDO** ✅ (`https://frutiferasorganicas.com.br/cms`):
+  - Bugs resolvidos: `/admin` em loop (CDN) → caminho `/cms`; `auth_endpoint` sem `.php` → 404; `config.yml` como `text/plain` → `AddType text/yaml`; **`base_url` precisa ser a origem** (o Decap compara `r.origin === base_url`); **script do Decap hospedado localmente** (`/admin/decap-cms.js`) porque o *Tracking Prevention* do navegador bloqueava o storage de script de terceiros; **callback grava o login direto no `localStorage` do painel** (`decap-cms-user` com `backendName: github`) e recarrega
+  - Resultado: login pelo GitHub → painel abre com **Conteúdo → Guias de compra (artigos)** (11 artigos), criar/editar e **Publish**
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
