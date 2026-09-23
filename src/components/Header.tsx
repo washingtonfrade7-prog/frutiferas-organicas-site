@@ -55,7 +55,7 @@ export default function Header() {
           <div className="flex items-center justify-between h-14">
             <Link href="/" className="text-xl font-bold tracking-tight flex items-center gap-2">
               <Image
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Frutíferas Orgânicas"
                 width={36}
                 height={36}

@@ -75,9 +75,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/abacate.jpg",
+    "imagem": "/frutiferas/abacate.webp",
     "galeria": [
-      "/frutiferas/abacate-2.jpg"
+      "/frutiferas/abacate-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -111,9 +111,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de abacaxi."
     ],
     "videos": [],
-    "imagem": "/frutiferas/abacaxi.jpg",
+    "imagem": "/frutiferas/abacaxi.webp",
     "galeria": [
-      "/frutiferas/abacaxi-2.jpg"
+      "/frutiferas/abacaxi-2.webp"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -190,9 +190,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/acerola-okinawa.jpg",
+    "imagem": "/frutiferas/acerola-okinawa.webp",
     "galeria": [
-      "/frutiferas/acerola-okinawa-2.jpg"
+      "/frutiferas/acerola-okinawa-2.webp"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -227,9 +227,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de ajuru preto branco."
     ],
     "videos": [],
-    "imagem": "/frutiferas/ajuru-preto-branco.jpg",
+    "imagem": "/frutiferas/ajuru-preto-branco.webp",
     "galeria": [
-      "/frutiferas/ajuru-preto-branco-2.jpg"
+      "/frutiferas/ajuru-preto-branco-2.webp"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -302,9 +302,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "tour"
       }
     ],
-    "imagem": "/frutiferas/ameixa-japao.jpg",
+    "imagem": "/frutiferas/ameixa-japao.webp",
     "galeria": [
-      "/frutiferas/ameixa-japao-2.jpg"
+      "/frutiferas/ameixa-japao-2.webp"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -382,9 +382,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "poda"
       }
     ],
-    "imagem": "/frutiferas/ameixa-vermelha.jpg",
+    "imagem": "/frutiferas/ameixa-vermelha.webp",
     "galeria": [
-      "/frutiferas/ameixa-vermelha-2.jpg"
+      "/frutiferas/ameixa-vermelha-2.webp"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -462,9 +462,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "plantio"
       }
     ],
-    "imagem": "/frutiferas/amora-portuguesa.jpg",
+    "imagem": "/frutiferas/amora-portuguesa.webp",
     "galeria": [
-      "/frutiferas/amora-portuguesa-2.jpg"
+      "/frutiferas/amora-portuguesa-2.webp"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -542,9 +542,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/amora-preta-tupy.jpg",
+    "imagem": "/frutiferas/amora-preta-tupy.webp",
     "galeria": [
-      "/frutiferas/amora-preta-tupy-2.jpg"
+      "/frutiferas/amora-preta-tupy-2.webp"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -579,9 +579,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de ananas do mato."
     ],
     "videos": [],
-    "imagem": "/frutiferas/ananas-do-mato.jpg",
+    "imagem": "/frutiferas/ananas-do-mato.webp",
     "galeria": [
-      "/frutiferas/ananas-do-mato-2.jpg"
+      "/frutiferas/ananas-do-mato-2.webp"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -659,9 +659,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/araca-amarelo.jpg",
+    "imagem": "/frutiferas/araca-amarelo.webp",
     "galeria": [
-      "/frutiferas/araca-amarelo-2.jpg"
+      "/frutiferas/araca-amarelo-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -738,9 +738,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/araca-boi-fruta-iogurte.jpg",
+    "imagem": "/frutiferas/araca-boi-fruta-iogurte.webp",
     "galeria": [
-      "/frutiferas/araca-boi-fruta-iogurte-2.jpg"
+      "/frutiferas/araca-boi-fruta-iogurte-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -818,9 +818,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/araca-pera.jpg",
+    "imagem": "/frutiferas/araca-pera.webp",
     "galeria": [
-      "/frutiferas/araca-pera-2.jpg"
+      "/frutiferas/araca-pera-2.webp"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -898,9 +898,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/araca-roxo.jpg",
+    "imagem": "/frutiferas/araca-roxo.webp",
     "galeria": [
-      "/frutiferas/araca-roxo-2.jpg"
+      "/frutiferas/araca-roxo-2.webp"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -977,9 +977,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "poda"
       }
     ],
-    "imagem": "/frutiferas/atemoia.jpg",
+    "imagem": "/frutiferas/atemoia.webp",
     "galeria": [
-      "/frutiferas/atemoia-2.jpg"
+      "/frutiferas/atemoia-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -1057,9 +1057,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/bacupari-de-bico.jpg",
+    "imagem": "/frutiferas/bacupari-de-bico.webp",
     "galeria": [
-      "/frutiferas/bacupari-de-bico-2.jpg"
+      "/frutiferas/bacupari-de-bico-2.webp"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -1111,9 +1111,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/bacuri.jpg",
+    "imagem": "/frutiferas/bacuri.webp",
     "galeria": [
-      "/frutiferas/bacuri-2.jpg"
+      "/frutiferas/bacuri-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -1180,9 +1180,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/banana-ouro.jpg",
+    "imagem": "/frutiferas/banana-ouro.webp",
     "galeria": [
-      "/frutiferas/banana-ouro-2.jpg"
+      "/frutiferas/banana-ouro-2.webp"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -1223,9 +1223,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/biriba.jpg",
+    "imagem": "/frutiferas/biriba.webp",
     "galeria": [
-      "/frutiferas/biriba-2.jpg"
+      "/frutiferas/biriba-2.webp"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -1304,9 +1304,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "floracao"
       }
     ],
-    "imagem": "/frutiferas/cabeludinha-roxa.jpg",
+    "imagem": "/frutiferas/cabeludinha-roxa.webp",
     "galeria": [
-      "/frutiferas/cabeludinha-roxa-2.jpg"
+      "/frutiferas/cabeludinha-roxa-2.webp"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -1368,9 +1368,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/cacau.jpg",
+    "imagem": "/frutiferas/cacau.webp",
     "galeria": [
-      "/frutiferas/cacau-2.jpg"
+      "/frutiferas/cacau-2.webp"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -1406,9 +1406,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de cagaita."
     ],
     "videos": [],
-    "imagem": "/frutiferas/cagaita.jpg",
+    "imagem": "/frutiferas/cagaita.webp",
     "galeria": [
-      "/frutiferas/cagaita-2.jpg"
+      "/frutiferas/cagaita-2.webp"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -1485,9 +1485,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/caja-manga-anao.jpg",
+    "imagem": "/frutiferas/caja-manga-anao.webp",
     "galeria": [
-      "/frutiferas/caja-manga-anao-2.jpg"
+      "/frutiferas/caja-manga-anao-2.webp"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -1539,7 +1539,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/caju.jpg",
+    "imagem": "/frutiferas/caju.webp",
     "galeria": [],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -1575,9 +1575,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de calabura."
     ],
     "videos": [],
-    "imagem": "/frutiferas/calabura.jpg",
+    "imagem": "/frutiferas/calabura.webp",
     "galeria": [
-      "/frutiferas/calabura-2.jpg"
+      "/frutiferas/calabura-2.webp"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -1654,9 +1654,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/cambuca-jabuticaba-amarela.jpg",
+    "imagem": "/frutiferas/cambuca-jabuticaba-amarela.webp",
     "galeria": [
-      "/frutiferas/cambuca-jabuticaba-amarela-2.jpg"
+      "/frutiferas/cambuca-jabuticaba-amarela-2.webp"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -1692,9 +1692,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de cambuci."
     ],
     "videos": [],
-    "imagem": "/frutiferas/cambuci.jpg",
+    "imagem": "/frutiferas/cambuci.webp",
     "galeria": [
-      "/frutiferas/cambuci-2.jpg"
+      "/frutiferas/cambuci-2.webp"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -1773,9 +1773,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/cambui-roxo.jpg",
+    "imagem": "/frutiferas/cambui-roxo.webp",
     "galeria": [
-      "/frutiferas/cambui-roxo-2.jpg"
+      "/frutiferas/cambui-roxo-2.webp"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -1810,9 +1810,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de camu-camu."
     ],
     "videos": [],
-    "imagem": "/frutiferas/camu-camu.jpg",
+    "imagem": "/frutiferas/camu-camu.webp",
     "galeria": [
-      "/frutiferas/camu-camu-2.jpg"
+      "/frutiferas/camu-camu-2.webp"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -1889,9 +1889,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "plantio"
       }
     ],
-    "imagem": "/frutiferas/canistel.jpg",
+    "imagem": "/frutiferas/canistel.webp",
     "galeria": [
-      "/frutiferas/canistel-2.jpg"
+      "/frutiferas/canistel-2.webp"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -1968,9 +1968,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "floracao"
       }
     ],
-    "imagem": "/frutiferas/carambola-mel.jpg",
+    "imagem": "/frutiferas/carambola-mel.webp",
     "galeria": [
-      "/frutiferas/carambola-mel-2.jpg"
+      "/frutiferas/carambola-mel-2.webp"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -2029,9 +2029,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/cherimoya.jpg",
+    "imagem": "/frutiferas/cherimoya.webp",
     "galeria": [
-      "/frutiferas/cherimoya-2.jpg"
+      "/frutiferas/cherimoya-2.webp"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -2066,9 +2066,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de cidra."
     ],
     "videos": [],
-    "imagem": "/frutiferas/cidra.jpg",
+    "imagem": "/frutiferas/cidra.webp",
     "galeria": [
-      "/frutiferas/cidra-2.jpg"
+      "/frutiferas/cidra-2.webp"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -2103,9 +2103,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de cupuacu."
     ],
     "videos": [],
-    "imagem": "/frutiferas/cupuacu.jpg",
+    "imagem": "/frutiferas/cupuacu.webp",
     "galeria": [
-      "/frutiferas/cupuacu-2.jpg"
+      "/frutiferas/cupuacu-2.webp"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -2182,9 +2182,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "cuidados"
       }
     ],
-    "imagem": "/frutiferas/dovyalis-doce-campari.jpg",
+    "imagem": "/frutiferas/dovyalis-doce-campari.webp",
     "galeria": [
-      "/frutiferas/dovyalis-doce-campari-2.jpg"
+      "/frutiferas/dovyalis-doce-campari-2.webp"
     ],
     "keywords": [],
     "cor": "#7A2E4B",
@@ -2225,9 +2225,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "floracao"
       }
     ],
-    "imagem": "/frutiferas/estrela-do-norte.jpg",
+    "imagem": "/frutiferas/estrela-do-norte.webp",
     "galeria": [
-      "/frutiferas/estrela-do-norte-2.jpg"
+      "/frutiferas/estrela-do-norte-2.webp"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -2304,9 +2304,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "poda"
       }
     ],
-    "imagem": "/frutiferas/figo.jpg",
+    "imagem": "/frutiferas/figo.webp",
     "galeria": [
-      "/frutiferas/figo-2.jpg"
+      "/frutiferas/figo-2.webp"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -2378,9 +2378,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/framboesa-silvestre.jpg",
+    "imagem": "/frutiferas/framboesa-silvestre.webp",
     "galeria": [
-      "/frutiferas/framboesa-silvestre-2.jpg"
+      "/frutiferas/framboesa-silvestre-2.webp"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -2457,9 +2457,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/fruta-do-milagre.jpg",
+    "imagem": "/frutiferas/fruta-do-milagre.webp",
     "galeria": [
-      "/frutiferas/fruta-do-milagre-2.jpg"
+      "/frutiferas/fruta-do-milagre-2.webp"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -2537,9 +2537,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/goiaba-amarela.jpg",
+    "imagem": "/frutiferas/goiaba-amarela.webp",
     "galeria": [
-      "/frutiferas/goiaba-amarela-2.jpg"
+      "/frutiferas/goiaba-amarela-2.webp"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -2617,9 +2617,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/goiaba-paluma.jpg",
+    "imagem": "/frutiferas/goiaba-paluma.webp",
     "galeria": [
-      "/frutiferas/goiaba-paluma-2.jpg"
+      "/frutiferas/goiaba-paluma-2.webp"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -2696,9 +2696,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/graviola.jpg",
+    "imagem": "/frutiferas/graviola.webp",
     "galeria": [
-      "/frutiferas/graviola-2.jpg"
+      "/frutiferas/graviola-2.webp"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -2734,9 +2734,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de groselha."
     ],
     "videos": [],
-    "imagem": "/frutiferas/groselha.jpg",
+    "imagem": "/frutiferas/groselha.webp",
     "galeria": [
-      "/frutiferas/groselha-2.jpg"
+      "/frutiferas/groselha-2.webp"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -2815,9 +2815,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/grumixama-preta.jpg",
+    "imagem": "/frutiferas/grumixama-preta.webp",
     "galeria": [
-      "/frutiferas/grumixama-preta-2.jpg"
+      "/frutiferas/grumixama-preta-2.webp"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -2894,9 +2894,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "cuidados"
       }
     ],
-    "imagem": "/frutiferas/inga-de-flores-roseas.jpg",
+    "imagem": "/frutiferas/inga-de-flores-roseas.webp",
     "galeria": [
-      "/frutiferas/inga-de-flores-roseas-2.jpg"
+      "/frutiferas/inga-de-flores-roseas-2.webp"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -2975,9 +2975,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/jabuticaba-branca.jpg",
+    "imagem": "/frutiferas/jabuticaba-branca.webp",
     "galeria": [
-      "/frutiferas/jabuticaba-branca-2.jpg"
+      "/frutiferas/jabuticaba-branca-2.webp"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -3056,9 +3056,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/jabuticaba-sabara.jpg",
+    "imagem": "/frutiferas/jabuticaba-sabara.webp",
     "galeria": [
-      "/frutiferas/jabuticaba-sabara-2.jpg"
+      "/frutiferas/jabuticaba-sabara-2.webp"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -3136,9 +3136,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/jabuticaba-hibrida.jpg",
+    "imagem": "/frutiferas/jabuticaba-hibrida.webp",
     "galeria": [
-      "/frutiferas/jabuticaba-hibrida-2.jpg"
+      "/frutiferas/jabuticaba-hibrida-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -3215,9 +3215,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "floracao"
       }
     ],
-    "imagem": "/frutiferas/jambo-rosa.jpg",
+    "imagem": "/frutiferas/jambo-rosa.webp",
     "galeria": [
-      "/frutiferas/jambo-rosa-2.jpg"
+      "/frutiferas/jambo-rosa-2.webp"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -3294,9 +3294,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/jambo-vermelho.jpg",
+    "imagem": "/frutiferas/jambo-vermelho.webp",
     "galeria": [
-      "/frutiferas/jambo-vermelho-2.jpg"
+      "/frutiferas/jambo-vermelho-2.webp"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -3375,9 +3375,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/laranja-champagne.jpg",
+    "imagem": "/frutiferas/laranja-champagne.webp",
     "galeria": [
-      "/frutiferas/laranja-champagne-2.jpg"
+      "/frutiferas/laranja-champagne-2.webp"
     ],
     "keywords": [],
     "cor": "#A8452E",
@@ -3456,9 +3456,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/laranja-serra-dagua.jpg",
+    "imagem": "/frutiferas/laranja-serra-dagua.webp",
     "galeria": [
-      "/frutiferas/laranja-serra-dagua-2.jpg"
+      "/frutiferas/laranja-serra-dagua-2.webp"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -3537,9 +3537,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/laranja-abacaxi.jpg",
+    "imagem": "/frutiferas/laranja-abacaxi.webp",
     "galeria": [
-      "/frutiferas/laranja-abacaxi-2.jpg"
+      "/frutiferas/laranja-abacaxi-2.webp"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -3618,9 +3618,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/laranja-kinkan.jpg",
+    "imagem": "/frutiferas/laranja-kinkan.webp",
     "galeria": [
-      "/frutiferas/laranja-kinkan-2.jpg"
+      "/frutiferas/laranja-kinkan-2.webp"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -3687,7 +3687,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/lichia.jpg",
+    "imagem": "/frutiferas/lichia.webp",
     "galeria": [],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -3766,9 +3766,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/limao-cravo-caipira.jpg",
+    "imagem": "/frutiferas/limao-cravo-caipira.webp",
     "galeria": [
-      "/frutiferas/limao-cravo-caipira-2.jpg"
+      "/frutiferas/limao-cravo-caipira-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -3847,9 +3847,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/limao-galeguinho.jpg",
+    "imagem": "/frutiferas/limao-galeguinho.webp",
     "galeria": [
-      "/frutiferas/limao-galeguinho-2.jpg"
+      "/frutiferas/limao-galeguinho-2.webp"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -3928,9 +3928,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/limao-imperial.jpg",
+    "imagem": "/frutiferas/limao-imperial.webp",
     "galeria": [
-      "/frutiferas/limao-imperial-2.jpg"
+      "/frutiferas/limao-imperial-2.webp"
     ],
     "keywords": [],
     "cor": "#4A1B2E",
@@ -4009,9 +4009,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/limao-siciliano.jpg",
+    "imagem": "/frutiferas/limao-siciliano.webp",
     "galeria": [
-      "/frutiferas/limao-siciliano-2.jpg"
+      "/frutiferas/limao-siciliano-2.webp"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -4090,9 +4090,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/limao-caviar.jpg",
+    "imagem": "/frutiferas/limao-caviar.webp",
     "galeria": [
-      "/frutiferas/limao-caviar-2.jpg"
+      "/frutiferas/limao-caviar-2.webp"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -4171,9 +4171,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/limao-doce-tanjo.jpg",
+    "imagem": "/frutiferas/limao-doce-tanjo.webp",
     "galeria": [
-      "/frutiferas/limao-doce-tanjo-2.jpg"
+      "/frutiferas/limao-doce-tanjo-2.webp"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -4231,9 +4231,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/longan.jpg",
+    "imagem": "/frutiferas/longan.webp",
     "galeria": [
-      "/frutiferas/longan-2.jpg"
+      "/frutiferas/longan-2.webp"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -4310,9 +4310,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/maca-eva.jpg",
+    "imagem": "/frutiferas/maca-eva.webp",
     "galeria": [
-      "/frutiferas/maca-eva-2.jpg"
+      "/frutiferas/maca-eva-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -4358,9 +4358,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/mamao.jpg",
+    "imagem": "/frutiferas/mamao.webp",
     "galeria": [
-      "/frutiferas/mamao-2.jpg"
+      "/frutiferas/mamao-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -4395,9 +4395,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de mana cubiu."
     ],
     "videos": [],
-    "imagem": "/frutiferas/mana-cubiu.jpg",
+    "imagem": "/frutiferas/mana-cubiu.webp",
     "galeria": [
-      "/frutiferas/mana-cubiu-2.jpg"
+      "/frutiferas/mana-cubiu-2.webp"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -4432,9 +4432,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de mandacaru."
     ],
     "videos": [],
-    "imagem": "/frutiferas/mandacaru.jpg",
+    "imagem": "/frutiferas/mandacaru.webp",
     "galeria": [
-      "/frutiferas/mandacaru-2.jpg"
+      "/frutiferas/mandacaru-2.webp"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -4512,9 +4512,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "plantio"
       }
     ],
-    "imagem": "/frutiferas/manga-palmer.jpg",
+    "imagem": "/frutiferas/manga-palmer.webp",
     "galeria": [
-      "/frutiferas/manga-palmer-2.jpg"
+      "/frutiferas/manga-palmer-2.webp"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -4592,9 +4592,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "plantio"
       }
     ],
-    "imagem": "/frutiferas/manga-uba.jpg",
+    "imagem": "/frutiferas/manga-uba.webp",
     "galeria": [
-      "/frutiferas/manga-uba-2.jpg"
+      "/frutiferas/manga-uba-2.webp"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -4672,9 +4672,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/mangostao-fruta-da-rainha.jpg",
+    "imagem": "/frutiferas/mangostao-fruta-da-rainha.webp",
     "galeria": [
-      "/frutiferas/mangostao-fruta-da-rainha-2.jpg"
+      "/frutiferas/mangostao-fruta-da-rainha-2.webp"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -4751,9 +4751,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/maracuja-gigante.jpg",
+    "imagem": "/frutiferas/maracuja-gigante.webp",
     "galeria": [
-      "/frutiferas/maracuja-gigante-2.jpg"
+      "/frutiferas/maracuja-gigante-2.webp"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -4804,7 +4804,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/melancia.jpg",
+    "imagem": "/frutiferas/melancia.webp",
     "galeria": [],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -4882,9 +4882,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/melao-andino.jpg",
+    "imagem": "/frutiferas/melao-andino.webp",
     "galeria": [
-      "/frutiferas/melao-andino-2.jpg"
+      "/frutiferas/melao-andino-2.webp"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -4952,9 +4952,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/mexerica-ponkan.jpg",
+    "imagem": "/frutiferas/mexerica-ponkan.webp",
     "galeria": [
-      "/frutiferas/mexerica-ponkan-2.jpg"
+      "/frutiferas/mexerica-ponkan-2.webp"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -5032,9 +5032,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/mirtilo-blueberry.jpg",
+    "imagem": "/frutiferas/mirtilo-blueberry.webp",
     "galeria": [
-      "/frutiferas/mirtilo-blueberry-2.jpg"
+      "/frutiferas/mirtilo-blueberry-2.webp"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -5086,7 +5086,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/morango.jpg",
+    "imagem": "/frutiferas/morango.webp",
     "galeria": [],
     "keywords": [],
     "cor": "#C2703D",
@@ -5163,9 +5163,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "poda"
       }
     ],
-    "imagem": "/frutiferas/nectarina.jpg",
+    "imagem": "/frutiferas/nectarina.webp",
     "galeria": [
-      "/frutiferas/nectarina-2.jpg"
+      "/frutiferas/nectarina-2.webp"
     ],
     "keywords": [],
     "cor": "#6B4C2E",
@@ -5242,9 +5242,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "cuidados"
       }
     ],
-    "imagem": "/frutiferas/pera-dagua.jpg",
+    "imagem": "/frutiferas/pera-dagua.webp",
     "galeria": [
-      "/frutiferas/pera-dagua-2.jpg"
+      "/frutiferas/pera-dagua-2.webp"
     ],
     "keywords": [],
     "cor": "#8F4C25",
@@ -5321,9 +5321,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "floracao"
       }
     ],
-    "imagem": "/frutiferas/pessego-anao.jpg",
+    "imagem": "/frutiferas/pessego-anao.webp",
     "galeria": [
-      "/frutiferas/pessego-anao-2.jpg"
+      "/frutiferas/pessego-anao-2.webp"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -5391,9 +5391,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/pinha.jpg",
+    "imagem": "/frutiferas/pinha.webp",
     "galeria": [
-      "/frutiferas/pinha-2.jpg"
+      "/frutiferas/pinha-2.webp"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -5460,9 +5460,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/pinha-dos-astecas.jpg",
+    "imagem": "/frutiferas/pinha-dos-astecas.webp",
     "galeria": [
-      "/frutiferas/pinha-dos-astecas-2.jpg"
+      "/frutiferas/pinha-dos-astecas-2.webp"
     ],
     "keywords": [],
     "cor": "#3B5C2E",
@@ -5540,9 +5540,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/pitanga-do-cerrado.jpg",
+    "imagem": "/frutiferas/pitanga-do-cerrado.webp",
     "galeria": [
-      "/frutiferas/pitanga-do-cerrado-2.jpg"
+      "/frutiferas/pitanga-do-cerrado-2.webp"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -5605,9 +5605,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/pitangatuba.jpg",
+    "imagem": "/frutiferas/pitangatuba.webp",
     "galeria": [
-      "/frutiferas/pitangatuba-2.jpg"
+      "/frutiferas/pitangatuba-2.webp"
     ],
     "keywords": [],
     "cor": "#D9A62E",
@@ -5685,9 +5685,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/pitaya-branca.jpg",
+    "imagem": "/frutiferas/pitaya-branca.webp",
     "galeria": [
-      "/frutiferas/pitaya-branca-2.jpg"
+      "/frutiferas/pitaya-branca-2.webp"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -5765,9 +5765,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/pitaya-amarela.jpg",
+    "imagem": "/frutiferas/pitaya-amarela.webp",
     "galeria": [
-      "/frutiferas/pitaya-amarela-2.jpg"
+      "/frutiferas/pitaya-amarela-2.webp"
     ],
     "keywords": [],
     "cor": "#5C6B2E",
@@ -5845,9 +5845,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/pitaya-vermelha.jpg",
+    "imagem": "/frutiferas/pitaya-vermelha.webp",
     "galeria": [
-      "/frutiferas/pitaya-vermelha-2.jpg"
+      "/frutiferas/pitaya-vermelha-2.webp"
     ],
     "keywords": [],
     "cor": "#7A8B3A",
@@ -5895,9 +5895,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "tour"
       }
     ],
-    "imagem": "/frutiferas/pitomba-da-bahia.jpg",
+    "imagem": "/frutiferas/pitomba-da-bahia.webp",
     "galeria": [
-      "/frutiferas/pitomba-da-bahia-2.jpg"
+      "/frutiferas/pitomba-da-bahia-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -5932,9 +5932,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
       "Veja no canal os vídeos de cultivo de rambuta."
     ],
     "videos": [],
-    "imagem": "/frutiferas/rambuta.jpg",
+    "imagem": "/frutiferas/rambuta.webp",
     "galeria": [
-      "/frutiferas/rambuta-2.jpg"
+      "/frutiferas/rambuta-2.webp"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -5986,9 +5986,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/roma.jpg",
+    "imagem": "/frutiferas/roma.webp",
     "galeria": [
-      "/frutiferas/roma-2.jpg"
+      "/frutiferas/roma-2.webp"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -6065,9 +6065,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/saborosa-pytaya-do-serrado.jpg",
+    "imagem": "/frutiferas/saborosa-pytaya-do-serrado.webp",
     "galeria": [
-      "/frutiferas/saborosa-pytaya-do-serrado-2.jpg"
+      "/frutiferas/saborosa-pytaya-do-serrado-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B3A",
@@ -6144,7 +6144,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "floracao"
       }
     ],
-    "imagem": "/frutiferas/sapoti.jpg",
+    "imagem": "/frutiferas/sapoti.webp",
     "galeria": [],
     "keywords": [],
     "cor": "#A8452E",
@@ -6221,9 +6221,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/seriguela.jpg",
+    "imagem": "/frutiferas/seriguela.webp",
     "galeria": [
-      "/frutiferas/seriguela-2.jpg"
+      "/frutiferas/seriguela-2.webp"
     ],
     "keywords": [],
     "cor": "#C2703D",
@@ -6301,9 +6301,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "plantio"
       }
     ],
-    "imagem": "/frutiferas/tamarilho-tomate-de-arvore.jpg",
+    "imagem": "/frutiferas/tamarilho-tomate-de-arvore.webp",
     "galeria": [
-      "/frutiferas/tamarilho-tomate-de-arvore-2.jpg"
+      "/frutiferas/tamarilho-tomate-de-arvore-2.webp"
     ],
     "keywords": [],
     "cor": "#3E6B5A",
@@ -6372,9 +6372,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/ubajai-pessego-do-mato.jpg",
+    "imagem": "/frutiferas/ubajai-pessego-do-mato.webp",
     "galeria": [
-      "/frutiferas/ubajai-pessego-do-mato-2.jpg"
+      "/frutiferas/ubajai-pessego-do-mato-2.webp"
     ],
     "keywords": [],
     "cor": "#B23A2E",
@@ -6447,9 +6447,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "outros"
       }
     ],
-    "imagem": "/frutiferas/uva-brs-vitoria.jpg",
+    "imagem": "/frutiferas/uva-brs-vitoria.webp",
     "galeria": [
-      "/frutiferas/uva-brs-vitoria-2.jpg"
+      "/frutiferas/uva-brs-vitoria-2.webp"
     ],
     "keywords": [],
     "cor": "#8E2B2B",
@@ -6527,9 +6527,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "poda"
       }
     ],
-    "imagem": "/frutiferas/uva-goethe.jpg",
+    "imagem": "/frutiferas/uva-goethe.webp",
     "galeria": [
-      "/frutiferas/uva-goethe-2.jpg"
+      "/frutiferas/uva-goethe-2.webp"
     ],
     "keywords": [],
     "cor": "#4B2E5C",
@@ -6607,9 +6607,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "poda"
       }
     ],
-    "imagem": "/frutiferas/uva-isabel.jpg",
+    "imagem": "/frutiferas/uva-isabel.webp",
     "galeria": [
-      "/frutiferas/uva-isabel-2.jpg"
+      "/frutiferas/uva-isabel-2.webp"
     ],
     "keywords": [],
     "cor": "#2E5B5B",
@@ -6686,9 +6686,9 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       }
     ],
-    "imagem": "/frutiferas/uvaia.jpg",
+    "imagem": "/frutiferas/uvaia.webp",
     "galeria": [
-      "/frutiferas/uvaia-2.jpg"
+      "/frutiferas/uvaia-2.webp"
     ],
     "keywords": [],
     "cor": "#B23A2E",

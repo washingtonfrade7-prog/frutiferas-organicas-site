@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-cream-100 font-bold text-lg mb-4 flex items-center gap-2">
-              <Image src="/logo.png" alt="Frutíferas Orgânicas" width={32} height={32} className="rounded-full" />
+              <Image src="/logo.webp" alt="Frutíferas Orgânicas" width={32} height={32} className="rounded-full" />
               <span>Frutíferas Orgânicas</span>
             </h3>
             <p className="text-sm leading-relaxed">

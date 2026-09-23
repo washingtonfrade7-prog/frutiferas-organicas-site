@@ -85,7 +85,7 @@ export default function HomePage() {
             <div className="lg:col-span-5 order-1 lg:order-2 flex justify-center lg:justify-end">
               <div className="relative w-52 h-52 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl">
                 <Image
-                  src="/logo.png"
+                  src="/logo.webp"
                   alt="Logo Frutíferas Orgânicas"
                   fill
                   priority
@@ -138,7 +138,7 @@ export default function HomePage() {
           subtitulo="Substratos, adubos e ferramentas selecionados pelos nossos parceiros para você produzir frutas de verdade em casa."
           ctaLabel="Ver ofertas dos parceiros"
           ctaHref="/frutiferas"
-          imagem="/banners/banner-final.jpg"
+          imagem="/banners/banner-final.webp"
         />
       </div>
 

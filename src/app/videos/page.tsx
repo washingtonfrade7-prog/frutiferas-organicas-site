@@ -48,7 +48,7 @@ export default function VideosPage() {
         </div>
         <div className="hidden lg:block">
           <Image
-            src="/banners/inscreva-se.png"
+            src="/banners/inscreva-se.webp"
             alt="Inscreva-se no canal Frutíferas Orgânicas"
             width={700}
             height={466}
