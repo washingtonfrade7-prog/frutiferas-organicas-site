@@ -312,6 +312,23 @@ trilha de viola caipira nos vídeos (edição do canal, fora do escopo do site).
 - **Workbook**: 9 → 10 páginas. E-book: 67 páginas · 1,46 MB. Bump: 17 páginas · 226 KB.
   Upsell: 22 páginas · 957 KB.
 
+## Produto — rodada de melhorias (v7): fotos reais do autor
+Origem: `C:\Users\Micro\Downloads\fotos` (39 fotos do pomar do autor, enviadas por ele).
+
+- **Nome corrigido**: "Washington Frade" → **Washington Carlos Frade** no e-book, bump, upsell,
+  roteiro e e-mails de boas-vindas (assinatura formal; mantido o "Washington" nas saudações casuais).
+- **Capa dos 4 PDFs**: foto do autor segurando a placa do canal (`FOTO CAPA EBOOK.jpg`),
+  otimizada para `ferramentas/curso/imagens/autor-capa.jpg` (1600 px, q82), com o nome completo.
+  Constante `COVER` + helper `_foto_autor_html()`.
+- **Abertura dos 12 capítulos do e-book**: trocadas as fotos genéricas do site pelas fotos reais
+  do pomar (uva, jabuticaba, pitaya, nêspera, romã, pitanga, seriguela). Novo marcador
+  `<!-- POMAR:arquivo | legenda -->` (`substituir_pomar`).
+- **Nova seção "Resultados no meu pomar"** (após o Cap. 9): galeria de 8 colheitas reais em grid
+  2 colunas (`<!-- GALERIA -->` → `galeria_html()`, CSS `.galeria` com `object-fit: cover`).
+- Fotos otimizadas em `ferramentas/curso/imagens/pomar/` (capas 1000 px/q78, galeria 820 px/q76;
+  total 1,87 MB). E-book: 67 → **69 páginas · 3,17 MB**.
+- Bump e upsell seguem com 17 e 22 páginas (só a capa mudou).
+
 
 
 
