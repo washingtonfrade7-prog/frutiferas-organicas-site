@@ -37,6 +37,8 @@ Não tente fazer tudo de uma vez. Uma frutífera bem cuidada vale mais que dez a
 
 ## Introdução — Por que frutíferas em vaso funcionam
 
+<!-- IMG:jabuticaba | Jabuticabeira híbrida em vaso, carregada de frutos na varanda -->
+
 Muita gente acredita que fruta só dá em quintal grande. Não é verdade. A maioria das frutíferas produz
 muito bem em recipiente, desde que você respeite três coisas: **espaço para as raízes**, **luz
 suficiente** e **umidade equilibrada**.
@@ -56,6 +58,8 @@ de adubo e de poda. Quase tudo neste livro é sobre moderação e observação.
 ## Parte I — Preparação
 
 ## Capítulo 1 — Comece certo: luz, espaço e escolha da frutífera
+
+<!-- IMG:acerola-okinawa | Acerola Okinawa: rústica, produtiva e cheia de frutos em vaso -->
 
 ### A primeira decisão não é a muda, é o lugar
 
@@ -102,6 +106,8 @@ usar essa anotação no capítulo 2.
 ---
 
 ## Capítulo 2 — Vaso e substrato: a base de tudo
+
+<!-- IMG:pitanga-preta | Pitanga preta produzindo em vaso — porte pequeno, fruto doce -->
 
 ### Escolhendo o vaso
 
@@ -199,6 +205,8 @@ na sua sacada.
 
 ## Capítulo 3 — Plantio que pega
 
+<!-- IMG:abiu-amarelo | Abiu amarelo recém-plantado em vaso, já aclimatado ao sol -->
+
 ### 1. Prepare o buraco
 
 No substrato já montado, abra uma cova do tamanho do torrão da muda. Deixe a muda com a embalagem ao
@@ -234,10 +242,6 @@ pegar. Na primeira semana, regue pouco e observe.
 
 ### Veja na prática
 
-<!-- FIG:plantio-drenagem | O torrão da muda: mantenha-o intacto e no nível certo na hora de plantar -->
-
-<!-- FIG:plantio-muda | Plantio concluído: o colo na mesma altura em que a muda estava no saquinho -->
-
 <!-- QR:guia-plantio -->
 
 <!-- QR:video-plantio-abiu -->
@@ -248,6 +252,8 @@ crescimento nas próximas semanas.
 ---
 
 ## Capítulo 4 — Rega sem erro
+
+<!-- IMG:goiaba-paluma | Goiaba Paluma em vaso: exige rega constante, sem encharcar -->
 
 ### Mais frutíferas morrem de água demais do que de água de menos
 
@@ -290,6 +296,8 @@ ritmo real do seu vaso.
 ---
 
 ## Capítulo 5 — Adubação orgânica
+
+<!-- IMG:banana-ouro | Banana ouro: responde rápido à adubação orgânica generosa -->
 
 ### Em vaso, a comida acaba
 
@@ -346,6 +354,8 @@ bokashi).
 
 ## Capítulo 6 — Poda que faz produzir
 
+<!-- IMG:figo | Figueira em vaso: aceita poda forte e produz muito cedo -->
+
 ### Poda não é cortar bonito
 
 Podar é **direcionar a energia** da planta: tirar o que não serve para ela investir em broto, flor e
@@ -383,8 +393,6 @@ grande: ele apodrece e vira porta de entrada para doença.
 
 ### Veja na prática
 
-<!-- FIG:poda-tesoura | Poda de limpeza: corte acima da gema, sem deixar toco -->
-
 <!-- QR:guia-poda -->
 
 <!-- QR:video-poda-jabuticaba -->
@@ -397,6 +405,8 @@ a que mais melhora a planta.
 ## Parte III — Produção
 
 ## Capítulo 7 — Floração, polinização e frutificação
+
+<!-- IMG:pitaya-vermelha | Pitaya vermelha: floração noturna e fruto de polpa rosada -->
 
 ### Por que minha frutífera não dá fruto?
 
@@ -440,6 +450,8 @@ polinizadores.
 ---
 
 ## Capítulo 8 — Pragas e doenças
+
+<!-- IMG:limao-siciliano | Limão siciliano: fique de olho em cochonilha e pulgão nas brotações -->
 
 ### Prevenir é mais fácil que curar
 
@@ -487,6 +499,8 @@ cem em poucas semanas.
 
 ## Capítulo 9 — Colheita, conservação e renovação
 
+<!-- IMG:jabuticaba-sabara | Jabuticaba Sabará: no ponto certo, o fruto solta ao menor toque -->
+
 ### Colha no ponto
 
 Cada fruta tem seu ponto: cor, firmeza e sabor. Na dúvida, colha uma e prove — o sabor é o melhor
@@ -524,8 +538,6 @@ Isso rejuvenesce a planta e mantém a produção por décadas.
 
 ### Veja na prática
 
-<!-- FIG:colheita-jabuticaba | Colheita da jabuticaba: no ponto certo, o fruto solta ao menor toque -->
-
 <!-- QR:guia-colheita -->
 
 <!-- QR:guia-gastronomia -->
@@ -535,6 +547,8 @@ Isso rejuvenesce a planta e mantém a produção por décadas.
 ---
 
 ## Capítulo 10 — Multiplicação: faça suas próprias mudas
+
+<!-- IMG:uva-brs-vitoria | Uva BRS Vitória: uma das que enraízam com mais facilidade por estaquia -->
 
 ### Por que multiplicar
 
@@ -585,6 +599,8 @@ multiplicação de mudas**.
 ---
 
 ## Catálogo de Cultivo — mais de 100 frutíferas
+
+<!-- IMG:amora-preta-tupy | Amora preta Tupy: frutifica no primeiro ano e é ótima para vaso -->
 
 Este é o coração do guia: uma ficha rápida de cada espécie, com **luz, rega, solo, tamanho de vaso,
 dificuldade, tempo até produzir e época de frutificação**. Use antes de comprar a muda e sempre que

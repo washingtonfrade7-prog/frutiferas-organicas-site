@@ -11,6 +11,7 @@ Antes de rodar, atualize o JSON das frutiferas:
    node ferramentas/curso/extrair_frutiferas.mjs
 """
 import base64
+import io
 import json
 import os
 import re
@@ -400,10 +401,10 @@ def link_video(f):
     return f"▶ **[Assistir no canal: {titulo}]({url})**"
 
 
-# --- Figuras (fotogramas dos videos do canal) ---------------------------------
-FIG_RE = re.compile(r"<!--\s*FIG:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
+# --- Figuras de abertura de capitulo (fotos do site) ---------------------------
+IMG_RE = re.compile(r"<!--\s*IMG:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
 
-FIG_HTML = (
+IMG_HTML = (
     "<figure class=\"figura\">"
     "<img src=\"{src}\" alt=\"{legenda}\"/>"
     "<figcaption>{legenda}</figcaption>"
@@ -411,24 +412,39 @@ FIG_HTML = (
 )
 
 
-def substituir_figuras(texto):
+def _imagem_b64(caminho, largura=1000, qualidade=78):
+    """Redimensiona e recomprime a imagem antes de embutir no PDF."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return base64.b64encode(open(caminho, "rb").read()).decode("ascii"), "image/webp"
+    img = Image.open(caminho).convert("RGB")
+    if img.width > largura:
+        altura = int(img.height * largura / img.width)
+        img = img.resize((largura, altura), Image.LANCZOS)
+    buf = io.BytesIO()
+    img.save(buf, format="JPEG", quality=qualidade, optimize=True)
+    return base64.b64encode(buf.getvalue()).decode("ascii"), "image/jpeg"
+
+
+def substituir_imagens(texto):
     def repl(m):
-        arquivo = m.group(1) + ".jpg"
+        slug = m.group(1)
         legenda = m.group(2)
-        caminho = os.path.join(CURSO_DIR, "imagens", arquivo)
+        caminho = os.path.join(config.SITE_DIR, "public", "frutiferas", slug + ".webp")
         if not os.path.exists(caminho):
             return ""
-        b64 = base64.b64encode(open(caminho, "rb").read()).decode("ascii")
-        return FIG_HTML.format(src=f"data:image/jpeg;base64,{b64}", legenda=legenda)
+        b64, mime = _imagem_b64(caminho)
+        return IMG_HTML.format(src=f"data:{mime};base64,{b64}", legenda=legenda)
 
-    return FIG_RE.sub(repl, texto)
+    return IMG_RE.sub(repl, texto)
 
 
 def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao"):
     texto = open(md_path, encoding="utf-8").read()
     if extra_md is not None:
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
-    texto = substituir_figuras(texto)
+    texto = substituir_imagens(texto)
     texto = substituir_ofertas(texto)
     texto = substituir_qr(texto, modo)
     corpo = markdown.markdown(texto, extensions=["extra", "sane_lists", "toc"])

@@ -6,6 +6,8 @@
 
 ## Sobre este material
 
+<!-- IMG:goiaba-amarela | Goiaba amarela em vaso: adubação em dia é o que garante fruto doce e firme -->
+
 Este é o complemento prático do guia **Cultivo de Frutíferas Orgânicas em Vasos**. Aqui a gente
 aprofunda o que, na prática, separa uma planta que só sobrevive de uma planta que **produz**.
 
