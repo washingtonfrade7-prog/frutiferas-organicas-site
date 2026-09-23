@@ -148,7 +148,7 @@ export default function CursoPage() {
           Entre na lista de espera e seja avisado assim que o material for lançado.
         </p>
         <div className="max-w-xl mx-auto">
-          <NewsletterForm origem="curso-final" />
+          <NewsletterForm origem="curso-final" escuro />
         </div>
       </section>
     </div>

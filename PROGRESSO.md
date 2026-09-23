@@ -106,6 +106,15 @@
 - [x] E34. **MailerLite conectado e testado** ✅: configurado `provider=mailerlite` + grupo `Lista de espera - Curso` (ID `199353375184127184`). Inscrição de teste no site retornou `{"ok":true,"local":true,"provedor":true,"status":201}` e o contato apareceu no grupo com **status `active`**. Teste removido depois. **A captura de newsletter está 100% funcional** (site → CSV no servidor + MailerLite)
 - [x] E35. **Links de produto do Mercado Livre** (5 produtos): montados a partir da identificação de afiliado extraída do link da lista — `matt_word=washingtonfrade` + `matt_tool=42700408`. Centralizados em `LINKS_MERCADO_LIVRE` (`src/data/afiliados.ts`) com o helper `linkMLProduto()`. Produtos: vaso 90L, vaso autoirrigável, substrato 25kg, bokashi 1kg e tesoura de poda. O hub `/comprar` mantém a **lista** (rede de segurança). ⚠️ Verificar no painel do ML se os cliques estão sendo registrados
 - [x] E36. **Rastreamento confirmado** ✅: o painel do Mercado Livre registrou **1 clique** nos últimos 7 dias, comprovando que os links montados (`matt_word`/`matt_tool`) são atribuídos corretamente. Adicionados mais 3 produtos com link direto: **vaso 30L Rattan**, **húmus de minhoca** e **tesourão de poda** (total: 8 produtos com link direto; os demais usam a lista rastreada)
+- [x] E37. **Mega auditoria + melhorias gerais**:
+  - Ferramenta nova: `a11y_audit.mjs` (axe-core/WCAG 2.1 AA) e script `npm run a11y`
+  - **Acessibilidade**: 0 violações em 12 páginas-chave (corrigido contraste do texto de consentimento no fundo escuro do `/curso`; `NewsletterForm` ganhou a prop `escuro`)
+  - **Acessibilidade/UX**: adicionado **skip link** "Pular para o conteúdo" (`<main id="conteudo">`)
+  - **Performance**: `preconnect`/`dns-prefetch` para `i.ytimg.com`, `youtube-nocookie`, AdSense e GA
+  - **Segurança**: headers `Strict-Transport-Security`, `X-Frame-Options`, `Permissions-Policy` + `Cache-Control` de 10 min para HTML
+  - **SEO**: FAQ nas **fichas de frutíferas** (JSON-LD `FAQPage` + seção visível) e cross-links para `/comprar/*`
+  - **UX**: página 404 melhorada com atalhos para os hubs
+  - Resultados finais: 251 páginas/0 erros · carga 600 req/30 usuários em 40 ms/0 erros · a11y 0 violações · navegador sem erros próprios
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO

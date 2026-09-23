@@ -7,6 +7,8 @@ interface NewsletterFormProps {
   origem?: string
   className?: string
   compacto?: boolean
+  /** Use em seções de fundo escuro (ajusta as cores do texto auxiliar). */
+  escuro?: boolean
 }
 
 declare global {
@@ -21,6 +23,7 @@ export default function NewsletterForm({
   origem = 'site',
   className = '',
   compacto = false,
+  escuro = false,
 }: NewsletterFormProps) {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'enviando' | 'ok' | 'erro'>('idle')
@@ -91,13 +94,21 @@ export default function NewsletterForm({
       </div>
       {mensagem && (
         <p
-          className={`mt-2 text-xs ${status === 'ok' ? 'text-forest-700' : 'text-terracotta-700'}`}
+          className={`mt-2 text-xs ${
+            status === 'ok'
+              ? escuro
+                ? 'text-cream-100'
+                : 'text-forest-700'
+              : escuro
+                ? 'text-terracotta-200'
+                : 'text-terracotta-700'
+          }`}
           role="status"
         >
           {mensagem}
         </p>
       )}
-      <p className="mt-2 text-[11px] text-ink-500">
+      <p className={`mt-2 text-[11px] ${escuro ? 'text-cream-200' : 'text-ink-500'}`}>
         Ao se inscrever, você concorda em receber e-mails do Frutíferas Orgânicas. Sem spam; você
         pode sair da lista quando quiser.
       </p>

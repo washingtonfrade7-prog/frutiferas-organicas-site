@@ -10,8 +10,9 @@ import JsonLd from '@/components/JsonLd'
 import AdSlot from '@/components/Ads'
 import { frutiferas, getFrutifera } from '@/data/frutiferas'
 import { getCategoria } from '@/data/categorias'
-import { breadcrumbJsonLd, fruitJsonLd, videoJsonLd } from '@/lib/seo'
+import { breadcrumbJsonLd, faqJsonLd, fruitJsonLd, videoJsonLd } from '@/lib/seo'
 import { absoluteUrl, imgUrl, site } from '@/lib/site'
+import { faqFruta } from '@/lib/mudas'
 
 interface PageProps {
   params: { slug: string }
@@ -95,6 +96,7 @@ export default function FrutiferaPage({ params }: PageProps) {
         })}
       />
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd data={faqJsonLd(faqFruta(fruta))} />
       {fruta.videos.length > 0 && <JsonLd data={videoJsonLd(fruta.videos)} />}
 
       <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-500 mb-6">
@@ -283,6 +285,48 @@ export default function FrutiferaPage({ params }: PageProps) {
               <span className="block font-semibold text-sm text-ink-900 group-hover:text-forest-700 transition">{g.nome}</span>
               <span className="block text-xs text-forest-600 mt-1">Ver guia →</span>
             </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold mb-6 font-display">
+          O que você precisa para cultivar {fruta.nome}
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {[
+            { slug: 'vasos', nome: 'Vasos' },
+            { slug: 'substratos', nome: 'Substrato' },
+            { slug: 'adubos', nome: 'Adubos' },
+            { slug: 'ferramentas', nome: 'Ferramentas' },
+          ].map((c) => (
+            <Link
+              key={c.slug}
+              href={`/comprar/${c.slug}`}
+              className="bg-white rounded-xl border border-cream-200 shadow-sm p-4 text-center hover:shadow-md hover:border-forest-300 transition group"
+            >
+              <span className="block font-semibold text-sm text-ink-900 group-hover:text-forest-700 transition">{c.nome}</span>
+              <span className="block text-xs text-forest-600 mt-1">Onde comprar →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold mb-4 font-display">
+          Perguntas frequentes sobre {fruta.nome}
+        </h2>
+        <div className="divide-y divide-cream-200 border-y border-cream-200 max-w-3xl">
+          {faqFruta(fruta).map((item) => (
+            <details key={item.pergunta} className="py-4 group">
+              <summary className="cursor-pointer font-medium text-ink-900 flex items-center justify-between gap-3">
+                {item.pergunta}
+                <svg className="w-4 h-4 shrink-0 text-forest-600 group-open:rotate-180 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <p className="mt-3 text-sm text-ink-600 leading-relaxed">{item.resposta}</p>
+            </details>
           ))}
         </div>
       </section>

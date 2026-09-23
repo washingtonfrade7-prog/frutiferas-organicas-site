@@ -53,3 +53,26 @@ export function faqMuda(fruta: Frutifera): { pergunta: string; resposta: string 
 export function introMuda(fruta: Frutifera): string {
   return `A ${fruta.nome} (${fruta.nomeCientifico}) é uma frutífera ${fruta.origem.toLowerCase()} de porte ${fruta.porte.toLowerCase()}. ${fruta.resumo} Nesta página você encontra onde comprar a muda, quanto costuma custar e como escolher uma planta saudável para começar a produzir em vaso.`
 }
+
+/** FAQ da ficha de cultivo (perguntas diferentes das da pagina de muda). */
+export function faqFruta(fruta: Frutifera): { pergunta: string; resposta: string }[] {
+  const nome = fruta.nome
+  return [
+    {
+      pergunta: `Como plantar ${nome} em vaso?`,
+      resposta: `${fruta.solo} ${fruta.vaso} Faça uma camada de drenagem no fundo, posicione a muda sem enterrar o colo e regue até a água sair pelos furos.`,
+    },
+    {
+      pergunta: `Com que frequência devo regar a ${nome}?`,
+      resposta: `${fruta.rega} Faça o teste do dedo: só regue quando os primeiros 2 cm do substrato estiverem secos.`,
+    },
+    {
+      pergunta: `Qual o melhor substrato para ${nome}?`,
+      resposta: `Use um substrato ${fruta.solo.toLowerCase()} Uma mistura de terra vegetal, matéria orgânica (húmus ou composto) e material de drenagem funciona bem.`,
+    },
+    {
+      pergunta: `Quando a ${nome} frutifica?`,
+      resposta: `${fruta.frutificacao} O tempo até produzir depende do tipo de muda: as enxertadas ou de alporque frutificam bem antes das plantas de semente.`,
+    },
+  ]
+}
