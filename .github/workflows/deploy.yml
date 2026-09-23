@@ -25,16 +25,22 @@ jobs:
       - name: Instalar dependencias
         run: npm ci
 
+      - name: Otimizar imagens enviadas pelo CMS
+        run: |
+          python3 -m pip install --quiet Pillow
+          python3 scripts/otimizar-uploads.py
+
       - name: Build (export estatico)
         run: npm run build
         env:
           NEXT_PUBLIC_SITE_URL: https://frutiferasorganicas.com.br
           NEXT_PUBLIC_YOUTUBE_URL: https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas
-          NEXT_PUBLIC_EMAIL: frutiferasorganicas@gmail.com
+          NEXT_PUBLIC_EMAIL: contato@frutiferasorganicas.com.br
           NEXT_PUBLIC_ADSENSE_CLIENT: ca-pub-8236074301379246
           NEXT_PUBLIC_ADSENSE_SLOT: '6872562467'
           NEXT_PUBLIC_GA_ID: G-8G7HQFV303
-          NEXT_PUBLIC_EZOIC: '1'
+          NEXT_PUBLIC_EZOIC: ''
+          NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: n7_0H5lQSxq0cPexjy7ES5BH6H_TRlezBkqDqTbIE4g
 
       - name: Publicar via FTP
         run: node scripts/upload-ftp.mjs
