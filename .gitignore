@@ -54,3 +54,4 @@ __pycache__/
 # credenciais locais (nao versionar)
 /public/_brevo-key.php
 /public/_newsletter-config.php
+/.upload-manifest.json
