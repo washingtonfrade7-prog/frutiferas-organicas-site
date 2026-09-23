@@ -29,6 +29,20 @@
       "A casca contém mais antioxidantes que a própria polpa.",
       "Existem variedades de jabuticaba com frutos que chegam a 4 cm de diâmetro."
     ],
+    "videos": [
+      {
+        "id": "gyzTLk5ni4Y",
+        "titulo": "Mega colheita de jabuticaba híbrida"
+      },
+      {
+        "id": "cQAsGpzPlk0",
+        "titulo": "Como podar jabuticaba fácil e rápido passo a passo"
+      },
+      {
+        "id": "GJdd2j_uXhI",
+        "titulo": "Jabuticaba caindo frutos: veja como resolver"
+      }
+    ],
     "destaque": true
   },
   {
@@ -59,6 +73,16 @@
       "O araçá é muito resistente à maresia, sendo comum em jardins litorâneos.",
       "Existem variedades de casca vermelha e amarela.",
       "Os frutos atraem pássaros e são ótimos para o paisagismo ecológico."
+    ],
+    "videos": [
+      {
+        "id": "7BlqNvySrFs",
+        "titulo": "Colheita de araçá vermelho e amarelo"
+      },
+      {
+        "id": "yjdzKwUxTRg",
+        "titulo": "Colheita de araçá vermelho"
+      }
     ],
     "destaque": true
   },
@@ -92,6 +116,20 @@
       "Frutos bem manejados podem ultrapassar 20 graus Brix de doçura.",
       "As folhas da pitangueira são usadas na medicina popular."
     ],
+    "videos": [
+      {
+        "id": "c3LEcZrARlI",
+        "titulo": "Colheita fácil: pitanga preta orgânica em vaso"
+      },
+      {
+        "id": "cYLajSBoOKM",
+        "titulo": "Colheita da raríssima pitanga preta em vaso"
+      },
+      {
+        "id": "RFcR74X7y6k",
+        "titulo": "Pitanga preta top para vaso: 24 graus Brix"
+      }
+    ],
     "destaque": true
   },
   {
@@ -124,6 +162,36 @@
       "É uma das frutíferas nativas mais produtivas em vaso.",
       "As flores atraem polinizadores e abelhas nativas."
     ],
+    "videos": [
+      {
+        "id": "g-iusR1X8og",
+        "titulo": "Colheita e vitamina da fruta iogurte"
+      },
+      {
+        "id": "FVyNmJuF250",
+        "titulo": "Colheita de fruta iogurte"
+      },
+      {
+        "id": "G9p38FLJQnw",
+        "titulo": "Colheita e degustação de araçá boi orgânico em vaso 4k"
+      },
+      {
+        "id": "eZWauYHBk_M",
+        "titulo": "Fruta iogurte produzindo"
+      },
+      {
+        "id": "a-bxUvEddCM",
+        "titulo": "Fruta iogurte quase no ponto da colheita"
+      },
+      {
+        "id": "d1i68duFJJ8",
+        "titulo": "Araçá boi em floração"
+      },
+      {
+        "id": "hhOUShVpSs4",
+        "titulo": "Harvesting and tasting araçá boi organic yogurt in a pot"
+      }
+    ],
     "destaque": true
   },
   {
@@ -154,6 +222,24 @@
       "Pertence ao mesmo gênero do bacuri e do mangostão.",
       "É considerada uma fruta rara, difícil de encontrar em feiras.",
       "As folhas são ornamentais e a planta é muito usada em coleções."
+    ],
+    "videos": [
+      {
+        "id": "MvfDp1kJVwo",
+        "titulo": "Colheita de bacupari de bico orgânico em vaso"
+      },
+      {
+        "id": "6Y7x_KigbZ4",
+        "titulo": "Colheita fácil: bacupari de bico"
+      },
+      {
+        "id": "1xlIJTL-K7Q",
+        "titulo": "Você sabe que frutífera é esta? Bacupari de bico"
+      },
+      {
+        "id": "fJfZrVReY3c",
+        "titulo": "Conhece a frutífera nativa do Brasil bacupari?"
+      }
     ],
     "destaque": false
   },
@@ -186,6 +272,24 @@
       "É parente do bacuri, uma das frutas mais valorizadas do Norte.",
       "A casca do fruto é resistente e protege bem a polpa."
     ],
+    "videos": [
+      {
+        "id": "MvfDp1kJVwo",
+        "titulo": "Colheita de bacupari de bico orgânico em vaso"
+      },
+      {
+        "id": "6Y7x_KigbZ4",
+        "titulo": "Colheita fácil: bacupari de bico"
+      },
+      {
+        "id": "1xlIJTL-K7Q",
+        "titulo": "Você sabe que frutífera é esta? Bacupari de bico"
+      },
+      {
+        "id": "fJfZrVReY3c",
+        "titulo": "Conhece a frutífera nativa do Brasil bacupari?"
+      }
+    ],
     "destaque": false
   },
   {
@@ -217,6 +321,12 @@
       "É uma das poucas frutas que não deve ser consumida muito verde, pois a casca solta látex.",
       "O abiu é muito popular em países amazônicos como Peru e Colômbia."
     ],
+    "videos": [
+      {
+        "id": "doAr8IvIzuk",
+        "titulo": "Como plantar abiu amarelo orgânico em vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -247,6 +357,12 @@
       "A gabiroba é uma das frutas mais típicas do Cerrado.",
       "É extremamente resistente à seca e ao calor.",
       "Suas flores brancas são muito ornamentais."
+    ],
+    "videos": [
+      {
+        "id": "QKCZqcRit7M",
+        "titulo": "Como plantar gabiroba do cerrado em vaso"
+      }
     ],
     "destaque": false
   },
@@ -280,6 +396,16 @@
       "Possui propriedades medicinais reconhecidas na medicina popular.",
       "Os frutos podem ser consumidos frescos ou em geleias e licores."
     ],
+    "videos": [
+      {
+        "id": "gHWp3oKDm1o",
+        "titulo": "As propriedades medicinais da cereja do Rio Grande"
+      },
+      {
+        "id": "-Miw_cyFPEA",
+        "titulo": "Como plantar cereja do Rio Grande orgânica em vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -312,6 +438,16 @@
       "A grumixama é parente da jabuticaba e da pitanga.",
       "Produz bem em vaso, sendo uma das nativas mais indicadas para pequenos espaços."
     ],
+    "videos": [
+      {
+        "id": "QRcLDBTsyZc",
+        "titulo": "Colheita de grumixama em vaso"
+      },
+      {
+        "id": "nKMIWfsMMdk",
+        "titulo": "Rara grumixama amarela produzindo em vaso de 30 litros"
+      }
+    ],
     "destaque": true
   },
   {
@@ -339,6 +475,40 @@
       "Assista no canal: Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "SiEDozm_vSw",
+        "titulo": "Como Plantar Abacate breda orgânico em Vaso"
+      },
+      {
+        "id": "SiEDozm_vSw",
+        "titulo": "Como Plantar Abacate breda orgânico em Vaso"
+      },
+      {
+        "id": "SaEIHC4yWWo",
+        "titulo": "Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts"
+      },
+      {
+        "id": "SaEIHC4yWWo",
+        "titulo": "Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts"
+      },
+      {
+        "id": "YR_9neFZjto",
+        "titulo": "Folhas da jabuticaba, laranja, abacate caindo"
+      },
+      {
+        "id": "JqnK5-uEIEo",
+        "titulo": "Atualização abacate breda em vaso 4k"
+      },
+      {
+        "id": "RqULtvN-K4o",
+        "titulo": "Folhas da jabuticaba, laranja, abacate caindo"
+      },
+      {
+        "id": "RqULtvN-K4o",
+        "titulo": "Folhas da jabuticaba, laranja, abacate caindo"
+      }
+    ],
     "destaque": true
   },
   {
@@ -364,6 +534,7 @@
       "Veja no canal os vídeos de cultivo de abacaxi."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": true
   },
   {
@@ -391,6 +562,40 @@
       "Assista no canal: Como podar pé de acerola passo a passo."
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "nsPOlDEqJ6g",
+        "titulo": "colheita acerola Okinawa gigante em vaso"
+      },
+      {
+        "id": "XBc-zWj-WkA",
+        "titulo": "Colheita acerola Okinowa em vaso 4k"
+      },
+      {
+        "id": "pVcRDCutCPE",
+        "titulo": "Como podar pé de acerola passo a passo."
+      },
+      {
+        "id": "HUFzmEd7upI",
+        "titulo": "Como podar pé de acerola passo a passo"
+      },
+      {
+        "id": "xvrgHmYja_8",
+        "titulo": "Acerola GIGANTE! mas Gigante mesmo 🥰 conhece?"
+      },
+      {
+        "id": "hQTt1OGVOdc",
+        "titulo": "Romã e Acerola  Frutas Fáceis e Ornamentais para Vasos! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "vOEa6yhwpv8",
+        "titulo": "Mostrando experiência estarquia de acerola e bacupari no complexo B 4K"
+      },
+      {
+        "id": "2pYXg2Pr21U",
+        "titulo": "Evolução estarquia romã acerola e bacupari complexo B"
+      }
+    ],
     "destaque": true
   },
   {
@@ -417,6 +622,7 @@
       "Veja no canal os vídeos de cultivo de ajuru preto branco."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": true
   },
   {
@@ -444,6 +650,36 @@
       "Assista no canal: Como podar ameixa Japão"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "BPADta1B_V8",
+        "titulo": "Como podar ameixa vermelha"
+      },
+      {
+        "id": "Qhf8SwVcodE",
+        "titulo": "Como podar nêspera ameixa amarela"
+      },
+      {
+        "id": "R8x6_jkqVvw",
+        "titulo": "Como podar ameixa Japão"
+      },
+      {
+        "id": "NsomxJwhgHg",
+        "titulo": "Ameixa vermelha primeira floração em vaso 😍"
+      },
+      {
+        "id": "AZpCJ6zCbR4",
+        "titulo": "Floração de ameixa vermelha em vaso"
+      },
+      {
+        "id": "_hkR0uCztuQ",
+        "titulo": "Nova frutífera do pomar Ameixa Japão 4k"
+      },
+      {
+        "id": "yilVER8f2CY",
+        "titulo": "Nova Frutífera do pomar Ameixa vermelha 09/10/2019"
+      }
+    ],
     "destaque": true
   },
   {
@@ -471,6 +707,40 @@
       "Assista no canal: Colheita Pitaya vermelha gigante 😋😋😋"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "u2RUjbMxjjo",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "je1ItkUahfw",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "aciTj-ezkXg",
+        "titulo": "Colheita Pitaya vermelha gigante 😋😋😋"
+      },
+      {
+        "id": "VLiAxOx5_yQ",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado #shorts"
+      },
+      {
+        "id": "XB8igoxJvx0",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado #shorts"
+      },
+      {
+        "id": "gPc9A8u_eeA",
+        "titulo": "Como plantar Ubaia vermelha em vaso Plantio 15/05/2022"
+      },
+      {
+        "id": "gPc9A8u_eeA",
+        "titulo": "Como plantar Ubaia vermelha em vaso Plantio 15/05/2022"
+      },
+      {
+        "id": "BPADta1B_V8",
+        "titulo": "Como podar ameixa vermelha"
+      }
+    ],
     "destaque": true
   },
   {
@@ -498,6 +768,40 @@
       "Assista no canal: Colheita e degustação de Amora gigante portuguesa orgânica em vaso 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "p5Pty-8ZXzs",
+        "titulo": "Colheita de Carambola, araça, seriguela, amora em vasos 4k"
+      },
+      {
+        "id": "6X_mvfgxoWk",
+        "titulo": "Colheita de Amora e Goiaba Paluma orgânica em vaso Ryan Frade e Josi Soares"
+      },
+      {
+        "id": "OpdYyUXuVI8",
+        "titulo": "Colheita e degustação de Amora gigante portuguesa orgânica em vaso 4k"
+      },
+      {
+        "id": "aBOA7MY-t8k",
+        "titulo": "Colheita e degustação Framboesa, araça roxa e amora orgânicas em vasos"
+      },
+      {
+        "id": "lSfj9ej6hCA",
+        "titulo": "Colheita amora portuguesa orgânica em Vaso  4k"
+      },
+      {
+        "id": "nrKLjgVIuXE",
+        "titulo": "Como Plantar Amora Portuguesa Gigante orgânica em vasos 4K"
+      },
+      {
+        "id": "_o_LnHmpvnc",
+        "titulo": "Como Plantar Amora, Goiaba, Figo, Uva e Jabuticaba amarela na sua CASA ou chácara"
+      },
+      {
+        "id": "Hx56iiAwU7c",
+        "titulo": "Como Plantar Amora Portuguesa Gigante orgânica em vasos 4K"
+      }
+    ],
     "destaque": false
   },
   {
@@ -525,6 +829,40 @@
       "Assista no canal: Pitanga Preta colheita real no vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "RFcR74X7y6k",
+        "titulo": "Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!"
+      },
+      {
+        "id": "FmRBdQRD4Rc",
+        "titulo": "Colheita de pitanga do cerrado e pitanga preta em vaso"
+      },
+      {
+        "id": "vs_hfeyUvZ0",
+        "titulo": "Pitanga Preta colheita real no vaso #shorts"
+      },
+      {
+        "id": "V-wH4Bb1kWU",
+        "titulo": "Colheita pitanga preta orgânica em vaso 😍"
+      },
+      {
+        "id": "uHZ3HlnRDrk",
+        "titulo": "Colheita e degustação de Grumixama Preta orgânica em Vaso 4k"
+      },
+      {
+        "id": "zdWFbNJwsG0",
+        "titulo": "Colheita FÁCIL: Pitanga Preta Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "p5Pty-8ZXzs",
+        "titulo": "Colheita de Carambola, araça, seriguela, amora em vasos 4k"
+      },
+      {
+        "id": "c3LEcZrARlI",
+        "titulo": "Colheita FÁCIL: Pitanga Preta Orgânica em Vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -551,6 +889,7 @@
       "Veja no canal os vídeos de cultivo de ananas do mato."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -578,6 +917,40 @@
       "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Jxf4sGvf5fA",
+        "titulo": "Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k"
+      },
+      {
+        "id": "RgwRjICJk40",
+        "titulo": "Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "hUCRaENLwig",
+        "titulo": "Colheita Araçá boi/fruta iogurte orgânico em vaso 😍😍😍"
+      },
+      {
+        "id": "CSqEbkBbClg",
+        "titulo": "Araca Vermelho colheita real no vaso #shorts"
+      },
+      {
+        "id": "-Y1wwERwv0k",
+        "titulo": "Colheita FÁCIL: Araca Boi Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "HC4pUfOj9EY",
+        "titulo": "Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "euNHoz6vdkk",
+        "titulo": "Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -605,6 +978,40 @@
       "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Jxf4sGvf5fA",
+        "titulo": "Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k"
+      },
+      {
+        "id": "RgwRjICJk40",
+        "titulo": "Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "ivhkXO_qXtQ",
+        "titulo": "Colheita de fruta iogurte"
+      },
+      {
+        "id": "PJdY5xbP8as",
+        "titulo": "Como ponto colheita Canistel/fruta ovo"
+      },
+      {
+        "id": "hUCRaENLwig",
+        "titulo": "Colheita Araçá boi/fruta iogurte orgânico em vaso 😍😍😍"
+      },
+      {
+        "id": "a-bxUvEddCM",
+        "titulo": "Fruta iogurte quase no ponto da colheita 😋"
+      },
+      {
+        "id": "FVyNmJuF250",
+        "titulo": "Colheita de fruta iogurte 😋😋😋"
+      }
+    ],
     "destaque": false
   },
   {
@@ -632,6 +1039,40 @@
       "Assista no canal: Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Jxf4sGvf5fA",
+        "titulo": "Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k"
+      },
+      {
+        "id": "IYyyQjqDfmA",
+        "titulo": "Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K"
+      },
+      {
+        "id": "RgwRjICJk40",
+        "titulo": "Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "hUCRaENLwig",
+        "titulo": "Colheita Araçá boi/fruta iogurte orgânico em vaso 😍😍😍"
+      },
+      {
+        "id": "CSqEbkBbClg",
+        "titulo": "Araca Vermelho colheita real no vaso #shorts"
+      },
+      {
+        "id": "-Y1wwERwv0k",
+        "titulo": "Colheita FÁCIL: Araca Boi Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "HC4pUfOj9EY",
+        "titulo": "Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -659,6 +1100,40 @@
       "Assista no canal: Colheita de fruta iogurte/araçá boi GIGANTE!!!"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Jxf4sGvf5fA",
+        "titulo": "Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k"
+      },
+      {
+        "id": "RgwRjICJk40",
+        "titulo": "Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "hUCRaENLwig",
+        "titulo": "Colheita Araçá boi/fruta iogurte orgânico em vaso 😍😍😍"
+      },
+      {
+        "id": "CSqEbkBbClg",
+        "titulo": "Araca Vermelho colheita real no vaso #shorts"
+      },
+      {
+        "id": "-Y1wwERwv0k",
+        "titulo": "Colheita FÁCIL: Araca Boi Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "HC4pUfOj9EY",
+        "titulo": "Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "euNHoz6vdkk",
+        "titulo": "Colheita FÁCIL: Araça Amarelo Orgânico em Vaso #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -686,6 +1161,40 @@
       "Assista no canal: Colheita FÁCIL: Atemoia Orgânica #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "th-aPeRik3Y",
+        "titulo": "Colheita de atemoia GIGANTE 578Gr em casa 100% orgânica"
+      },
+      {
+        "id": "BTYQ7pnepn4",
+        "titulo": "Colheita de atemoia GiGANTE no quintal de casa urbano"
+      },
+      {
+        "id": "QvE4aa0PtjY",
+        "titulo": "Colheita FÁCIL: Atemoia Orgânica #shorts"
+      },
+      {
+        "id": "3iDNLevDZRY",
+        "titulo": "Colheita FÁCIL: Atemoia Orgânica"
+      },
+      {
+        "id": "FePjrn-XKU8",
+        "titulo": "Colheita de atemoia no fundo de quintal 100% orgânica"
+      },
+      {
+        "id": "xZXfsTmrkMA",
+        "titulo": "Colheita FÁCIL: Atemoia Orgânica #shorts"
+      },
+      {
+        "id": "zJln7ZoUYq4",
+        "titulo": "Como Plantar Atemoia orgânica em vaso 4K"
+      },
+      {
+        "id": "NTL_wzUWHSY",
+        "titulo": "Como fazer poda de formação atemoia"
+      }
+    ],
     "destaque": false
   },
   {
@@ -714,6 +1223,40 @@
       "Assista no canal: Degustando e medindo Grau Brix Achaichairu Boliviano supera nosso Bacupari???"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "MvfDp1kJVwo",
+        "titulo": "Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO"
+      },
+      {
+        "id": "hBSCmJcSzVA",
+        "titulo": "Bacupari colheita real no vaso #shorts"
+      },
+      {
+        "id": "LWo3OLVCrfY",
+        "titulo": "Degustando e medindo Grau Brix Achaichairu Boliviano supera nosso Bacupari???"
+      },
+      {
+        "id": "aKz-stnReh4",
+        "titulo": "Colheita FÁCIL: Bacupari de Bico #shorts"
+      },
+      {
+        "id": "lL6zKrqyTFQ",
+        "titulo": "Coheita e degustação Bacupari Mirim fruta que cura o câncer Garcinia Brasiliense"
+      },
+      {
+        "id": "eVgsjQfFf9Q",
+        "titulo": "Colheita FÁCIL: Bacupari de Bico #shorts"
+      },
+      {
+        "id": "rgB1ejOIMMo",
+        "titulo": "Colheita de bacupari orgânico em vaso 4k"
+      },
+      {
+        "id": "6Y7x_KigbZ4",
+        "titulo": "Colheita FÁCIL: Bacupari de Bico"
+      }
+    ],
     "destaque": false
   },
   {
@@ -741,6 +1284,20 @@
       "Assista no canal: Bacuri-Pari FRUTIFERA Brasileira Combate o Câncer"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "MvfDp1kJVwo",
+        "titulo": "Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO"
+      },
+      {
+        "id": "h28LUW3P0Vw",
+        "titulo": "Colheita e degustação bacuri-Pari(Garcinia Benthamiana)"
+      },
+      {
+        "id": "k2qUYhXhhx4",
+        "titulo": "Bacuri-Pari FRUTIFERA Brasileira Combate o Câncer"
+      }
+    ],
     "destaque": false
   },
   {
@@ -768,6 +1325,32 @@
       "Assista no canal: Quem aí ja viu a \"MÃE DO OURO\" #CHACARADOZERO"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "SaEIHC4yWWo",
+        "titulo": "Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts"
+      },
+      {
+        "id": "SaEIHC4yWWo",
+        "titulo": "Abacate: Chá Diurético e o Ouro Verde no Vaso! 🥑 #shorts"
+      },
+      {
+        "id": "5AqX76rXDDg",
+        "titulo": "Quem aí ja viu a \"MÃE DO OURO\" #CHACARADOZERO"
+      },
+      {
+        "id": "m40IJsR3fJs",
+        "titulo": "APENAS 3 FOLHAS DESSA PLANTA VALE UMA MINA DE OURO!!!"
+      },
+      {
+        "id": "KfeHPP_TK-Q",
+        "titulo": "Serralha, PLANTA QUE VALE OURO! Certeza que você tem em Casa e NÃO SABIA!"
+      },
+      {
+        "id": "v8ek_E_1bDY",
+        "titulo": "Só 1 folha dessa planta vale uma mina de ouro (Você tem em casa)"
+      }
+    ],
     "destaque": false
   },
   {
@@ -794,6 +1377,12 @@
       "Assista no canal: Biriba/fruta do conde/pinha/condessa/ata como vocês conhecem? 4K"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "tt8kY4QvLjY",
+        "titulo": "Biriba/fruta do conde/pinha/condessa/ata como vocês conhecem? 4K"
+      }
+    ],
     "destaque": false
   },
   {
@@ -822,6 +1411,40 @@
       "Assista no canal: Cabeludinha colheita real no vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Kv5XfW0Mkks",
+        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+      },
+      {
+        "id": "EjakVY1vGL4",
+        "titulo": "Cabeludinha colheita real no vaso #shorts"
+      },
+      {
+        "id": "EjakVY1vGL4",
+        "titulo": "Cabeludinha colheita real no vaso #shorts"
+      },
+      {
+        "id": "aBOA7MY-t8k",
+        "titulo": "Colheita e degustação Framboesa, araça roxa e amora orgânicas em vasos"
+      },
+      {
+        "id": "P3Uo0BRG5hU",
+        "titulo": "Como plantar cabeludinha/jabuticaba amarela orgânica em vaso"
+      },
+      {
+        "id": "u3jObrYUVUk",
+        "titulo": "Como plantar cabeludinha roxa em vaso plantio dia 15/05/2022"
+      },
+      {
+        "id": "D7xb2WirFoI",
+        "titulo": "Cabeludinha/Jabuticaba Amarela produzindo em Vaso(botões florais)4k"
+      },
+      {
+        "id": "VN1h6dvyZfM",
+        "titulo": "jabuticaba amarela/Cabeludinha com flores em vaso 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -849,6 +1472,28 @@
       "Assista no canal: Cacau produzindo em vaso 😍"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "0u6sprMSsUw",
+        "titulo": "Como podar cacau"
+      },
+      {
+        "id": "E1ktXyXX22A",
+        "titulo": "Flor e botões florais Cacau em Vaso 4k"
+      },
+      {
+        "id": "uJthJ4W9Q-A",
+        "titulo": "Cacau produzindo em vaso 😍"
+      },
+      {
+        "id": "YldSeeJz1DU",
+        "titulo": "Cacau produzindo em vaso 😍"
+      },
+      {
+        "id": "nhPI5o1xnVU",
+        "titulo": "Nova Frutífera para sombra Cacau😍"
+      }
+    ],
     "destaque": false
   },
   {
@@ -875,6 +1520,7 @@
       "Veja no canal os vídeos de cultivo de cagaita."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -902,6 +1548,40 @@
       "Assista no canal: Colheita de cajá e mostrando a importância do saquinho 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "DxI6WyPKNNI",
+        "titulo": "Colheita e degustação mangá Ubá em vaso"
+      },
+      {
+        "id": "kT7l4rqt8mI",
+        "titulo": "Colheita de Cajá manga anão em vaso"
+      },
+      {
+        "id": "6V8lXBTUszc",
+        "titulo": "Colheita de cajá e mostrando a importância do saquinho 4k"
+      },
+      {
+        "id": "xbqxv5xNdh0",
+        "titulo": "Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
+      },
+      {
+        "id": "Ao3jovX2XsQ",
+        "titulo": "Colheita em vaso de: Cajá Maga, uvaia e Araça amarelo 4k"
+      },
+      {
+        "id": "-otVLmVX7OI",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "QDuU1oQQMdo",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso"
+      },
+      {
+        "id": "QDuU1oQQMdo",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -929,6 +1609,20 @@
       "Assista no canal: Caju anão orgânico em vaso parte 2"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "UXbHFC_chBM",
+        "titulo": "Como plantar cajú anão orgânico em vaso"
+      },
+      {
+        "id": "j6GzuWloriA",
+        "titulo": "Cajú anão orgânico em vaso florindo  4k"
+      },
+      {
+        "id": "5qHtYLdWjMQ",
+        "titulo": "Caju anão orgânico em vaso parte 2"
+      }
+    ],
     "destaque": false
   },
   {
@@ -955,6 +1649,7 @@
       "Veja no canal os vídeos de cultivo de calabura."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -982,6 +1677,40 @@
       "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "k5TSZVIdeuw",
+        "titulo": "Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K"
+      },
+      {
+        "id": "j_luLoshWo4",
+        "titulo": "Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
+      },
+      {
+        "id": "Kv5XfW0Mkks",
+        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+      },
+      {
+        "id": "2raa1E2ST7Y",
+        "titulo": "Jabuticaba colheita real no vaso #shorts"
+      },
+      {
+        "id": "gg6k7TekAzQ",
+        "titulo": "Colheita e degustação jabuticaba branca em vaso 😍"
+      },
+      {
+        "id": "u2RUjbMxjjo",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "je1ItkUahfw",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "QrB0QZNzR8M",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1008,6 +1737,7 @@
       "Veja no canal os vídeos de cultivo de cambuci."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -1036,6 +1766,40 @@
       "Assista no canal: Primeiros botões florais Araça Roxo orgânico em vaso  4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "t2RjNcj8zCc",
+        "titulo": "Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas! 4k"
+      },
+      {
+        "id": "Z_CZGheqY7g",
+        "titulo": "Primeira Floração Araça roxo em vaso 4k"
+      },
+      {
+        "id": "I6y1OtRYh-Y",
+        "titulo": "Primeiros botões florais Araça Roxo orgânico em vaso  4k"
+      },
+      {
+        "id": "C09ShVtIBAw",
+        "titulo": "Cambuí Roxo nova frutífera do nosso pomar em vasos 4k"
+      },
+      {
+        "id": "n5w1ZT9d0M8",
+        "titulo": "Nova frutífera do pomar,o araça roxo em vaso 04/03/2018 4K"
+      },
+      {
+        "id": "hBePeYq9HQ0",
+        "titulo": "Diferenças entre araçá vermelho, amarelo e o roxo entenda!"
+      },
+      {
+        "id": "a8K_zHUoKOA",
+        "titulo": "Diferenças entre araçá vermelho, amarelo e o roxo entenda!"
+      },
+      {
+        "id": "ltedxdey14Q",
+        "titulo": "primeira frutinha do araça roxo orgânico em vaso 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1062,6 +1826,7 @@
       "Veja no canal os vídeos de cultivo de camu-camu."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -1089,6 +1854,40 @@
       "Assista no canal: Colheita FÁCIL: Canistel Orgânico em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "PJdY5xbP8as",
+        "titulo": "Como ponto colheita Canistel/fruta ovo"
+      },
+      {
+        "id": "7cv5b7AdzM0",
+        "titulo": "Colheita FÁCIL: Canistel Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "wBQdUvEPbvU",
+        "titulo": "Colheita FÁCIL: Canistel Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "4uIW0K5SE24",
+        "titulo": "Como Plantar Canistel orgânico em vaso"
+      },
+      {
+        "id": "akugQ2Wn4K8",
+        "titulo": "Canistel Orgânico em Vaso do Plantio a Produção."
+      },
+      {
+        "id": "Ggm4o1BCzdo",
+        "titulo": "Como Plantar Canistel orgânico em vaso"
+      },
+      {
+        "id": "Ggm4o1BCzdo",
+        "titulo": "Como Plantar Canistel orgânico em vaso"
+      },
+      {
+        "id": "yML9CqA02Bo",
+        "titulo": "Como Plantar Canistel Orgânico em Vaso FÁCIL: O Segredo Revelado!"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1116,6 +1915,40 @@
       "Assista no canal: Colheita de uva e carambola em casa😋"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "p5Pty-8ZXzs",
+        "titulo": "Colheita de Carambola, araça, seriguela, amora em vasos 4k"
+      },
+      {
+        "id": "lc2S36wK7ps",
+        "titulo": "Colheita e degustação da carambola mel orgânica em vaso 😋"
+      },
+      {
+        "id": "o-oymFhHzkU",
+        "titulo": "Colheita de uva e carambola em casa😋"
+      },
+      {
+        "id": "i2wE88S4mEA",
+        "titulo": "Como Plantar Carambola Mel orgânica em vaso"
+      },
+      {
+        "id": "UdfvgzQ_wD8",
+        "titulo": "Carambola Mel orgânica em vaso após poda de formação 4k"
+      },
+      {
+        "id": "hD0WUoiuyKg",
+        "titulo": "Carambola Mel orgânica produzindo em vaso com flores e frutos 4k"
+      },
+      {
+        "id": "WRqZzNx7JJE",
+        "titulo": "Primeiras flores Carambola mel orgânica em vaso 4k"
+      },
+      {
+        "id": "gSTQzdhctPY",
+        "titulo": "Primeiros botões florais Carambola Mel orgânica em Vaso 4K"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1144,6 +1977,24 @@
       "Assista no canal: Minha querida Cherimoya morreu...😭😭😭"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "oXEVPUI6jac",
+        "titulo": "Primeira floração da Cherimoya a fruta do senhor madruga🤣"
+      },
+      {
+        "id": "hIyudWGFk8o",
+        "titulo": "Mostrando experiência Enxertia de Atemoia e Cherimoya na Graviola 4k"
+      },
+      {
+        "id": "T70XYTxkTdQ",
+        "titulo": "Minha querida Cherimoya morreu...😭😭😭"
+      },
+      {
+        "id": "8H-FhXnBLyw",
+        "titulo": "atualização Cherimoya(fruta do senhor Madruga🤣) orgânica em vaso após 1 ano 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1170,6 +2021,7 @@
       "Veja no canal os vídeos de cultivo de cidra."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -1196,6 +2048,7 @@
       "Veja no canal os vídeos de cultivo de cupuacu."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -1223,6 +2076,40 @@
       "Assista no canal: Colheita de maracujá DOCE em vaso! não dá lagarta! produz o ano INTEIRO!!!"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "B5sAOhcFN0I",
+        "titulo": "Colheita maracujá Doce  Gigante em vaso de 968 Gramas 😍😍😍 4k"
+      },
+      {
+        "id": "i41Z0OHIRhI",
+        "titulo": "colheita e degustação dovyalis doce orgânica em vaso 4k"
+      },
+      {
+        "id": "I0VFg5hXCMA",
+        "titulo": "Colheita de maracujá DOCE em vaso! não dá lagarta! produz o ano INTEIRO!!!"
+      },
+      {
+        "id": "YXYD2PhnSRQ",
+        "titulo": "Medindo grau brix do Sapoti a fruta mais doce que conheço! 😋"
+      },
+      {
+        "id": "y3T81Cu2w1I",
+        "titulo": "Dovyalis do plantio a degustação em vaso orgânico 4k"
+      },
+      {
+        "id": "E7TUMOL-WRo",
+        "titulo": "Como Plantar melão Andino orgânico em vaso/pepino doce/melão dos andes/melão de árvore 4K"
+      },
+      {
+        "id": "0Ne1-BPd3NQ",
+        "titulo": "Como Plantar Dovyalis Doce orgânica em vaso"
+      },
+      {
+        "id": "eOWnSBYU-9o",
+        "titulo": "Limão Doce Incrível  Produção e Cuidados Revelados! #plantas #caminhoparaumavidamelhor #jardim"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1249,6 +2136,12 @@
       "Assista no canal: CACTO-ESTRELA com sua linda flor 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "NTjEMFSG3MI",
+        "titulo": "CACTO-ESTRELA com sua linda flor 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1276,6 +2169,40 @@
       "Assista no canal: Como Plantar Amora, Goiaba, Figo, Uva e Jabuticaba amarela na sua CASA ou chácara"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "AVm8bpqLLs4",
+        "titulo": "Mostrando pomar dos meus pais, figo quase pronto colheita jataís enxameando"
+      },
+      {
+        "id": "mwZJfqpQsOk",
+        "titulo": "Como plantar figo Orgânico em Vaso"
+      },
+      {
+        "id": "_o_LnHmpvnc",
+        "titulo": "Como Plantar Amora, Goiaba, Figo, Uva e Jabuticaba amarela na sua CASA ou chácara"
+      },
+      {
+        "id": "86dPbD9o1NM",
+        "titulo": "Como plantar figo Orgânico em Vaso"
+      },
+      {
+        "id": "86dPbD9o1NM",
+        "titulo": "Como plantar figo Orgânico em Vaso"
+      },
+      {
+        "id": "bGTLUrDSF8U",
+        "titulo": "Como fazer poda de figo em vaso 4k"
+      },
+      {
+        "id": "3FziScBUIP4",
+        "titulo": "Como fazer poda de figo em vaso 4k"
+      },
+      {
+        "id": "3FziScBUIP4",
+        "titulo": "Como fazer poda de figo em vaso 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1303,6 +2230,36 @@
       "Assista no canal: Framboesa silvestre em Vaso (Rubus Rosifolius) 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "aBOA7MY-t8k",
+        "titulo": "Colheita e degustação Framboesa, araça roxa e amora orgânicas em vasos"
+      },
+      {
+        "id": "py1AC8CHuhE",
+        "titulo": "Framboesa excelente para vasos"
+      },
+      {
+        "id": "Wf5DulET3dw",
+        "titulo": "Framboesa silvestre em Vaso (Rubus Rosifolius) 4k"
+      },
+      {
+        "id": "sfnlBzWBGqU",
+        "titulo": "Framboesa em vaso produzindo absurdamente 😍"
+      },
+      {
+        "id": "zl9eVg8RgeE",
+        "titulo": "Framboesa  A Frutífera Perfeita Para Poucos Espaços #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "zl9eVg8RgeE",
+        "titulo": "Framboesa  A Frutífera Perfeita Para Poucos Espaços #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "TUxwKmeCJNg",
+        "titulo": "Framboesa Frutífera ótima para sombra"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1330,6 +2287,40 @@
       "Assista no canal: Colheita de fruta iogurte"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Jxf4sGvf5fA",
+        "titulo": "Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "ivhkXO_qXtQ",
+        "titulo": "Colheita de fruta iogurte"
+      },
+      {
+        "id": "PJdY5xbP8as",
+        "titulo": "Como ponto colheita Canistel/fruta ovo"
+      },
+      {
+        "id": "hUCRaENLwig",
+        "titulo": "Colheita Araçá boi/fruta iogurte orgânico em vaso 😍😍😍"
+      },
+      {
+        "id": "a-bxUvEddCM",
+        "titulo": "Fruta iogurte quase no ponto da colheita 😋"
+      },
+      {
+        "id": "FVyNmJuF250",
+        "titulo": "Colheita de fruta iogurte 😋😋😋"
+      },
+      {
+        "id": "F4TOBIA7GKY",
+        "titulo": "COLHEITA RÁPIDA: VINGAR sua Fruta FÁCIL! #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1357,6 +2348,40 @@
       "Assista no canal: Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "j_luLoshWo4",
+        "titulo": "Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
+      },
+      {
+        "id": "Kv5XfW0Mkks",
+        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+      },
+      {
+        "id": "CXZK5vQcDDc",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "u2RUjbMxjjo",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "je1ItkUahfw",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "XgE4QOrtmMA",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "nODTheJWW3M",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "TtMy8eQHdOk",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1384,6 +2409,40 @@
       "Assista no canal: Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "CXZK5vQcDDc",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "XgE4QOrtmMA",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "nODTheJWW3M",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "TtMy8eQHdOk",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "6X_mvfgxoWk",
+        "titulo": "Colheita de Amora e Goiaba Paluma orgânica em vaso Ryan Frade e Josi Soares"
+      },
+      {
+        "id": "84IlSuClNpI",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso"
+      },
+      {
+        "id": "84IlSuClNpI",
+        "titulo": "Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso"
+      },
+      {
+        "id": "6Frz86x_2IU",
+        "titulo": "Colheita goiaba orgânica em vaso 😋😋😋"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1411,6 +2470,40 @@
       "Assista no canal: Colheita da primeira graviola após 5 anos!!! 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "SEdlXvo9-5k",
+        "titulo": "Colheita de graviola em vaso 570gr e 20 brix"
+      },
+      {
+        "id": "EnF4oEKwJbg",
+        "titulo": "colhendo graviola em vaso orgânica"
+      },
+      {
+        "id": "5eLfrXIE0uY",
+        "titulo": "Colheita da primeira graviola após 5 anos!!! 4k"
+      },
+      {
+        "id": "MfYgaYb052w",
+        "titulo": "Colheita de graviola orgânica em casa"
+      },
+      {
+        "id": "4LYFJshPJSU",
+        "titulo": "Colheita de graviola em vaso! 100% orgânica"
+      },
+      {
+        "id": "zWzmMF0FPrc",
+        "titulo": "Colheita FÁCIL: Graviola Orgânica #shorts"
+      },
+      {
+        "id": "cgnvJJFWBN4",
+        "titulo": "Colheita segunda graviola 1,300kg 4k"
+      },
+      {
+        "id": "7AilRTbjwd4",
+        "titulo": "Colheita FÁCIL: Graviola Orgânica #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1437,6 +2530,7 @@
       "Veja no canal os vídeos de cultivo de groselha."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -1465,6 +2559,40 @@
       "Assista no canal: Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "RFcR74X7y6k",
+        "titulo": "Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!"
+      },
+      {
+        "id": "FmRBdQRD4Rc",
+        "titulo": "Colheita de pitanga do cerrado e pitanga preta em vaso"
+      },
+      {
+        "id": "j_luLoshWo4",
+        "titulo": "Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
+      },
+      {
+        "id": "vs_hfeyUvZ0",
+        "titulo": "Pitanga Preta colheita real no vaso #shorts"
+      },
+      {
+        "id": "V-wH4Bb1kWU",
+        "titulo": "Colheita pitanga preta orgânica em vaso 😍"
+      },
+      {
+        "id": "uHZ3HlnRDrk",
+        "titulo": "Colheita e degustação de Grumixama Preta orgânica em Vaso 4k"
+      },
+      {
+        "id": "zdWFbNJwsG0",
+        "titulo": "Colheita FÁCIL: Pitanga Preta Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "c3LEcZrARlI",
+        "titulo": "Colheita FÁCIL: Pitanga Preta Orgânica em Vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1492,6 +2620,40 @@
       "Assista no canal: Adubação FÁCIL E Rápida para CARREGAR DE FLORES 100% Garantido!!!"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "HwQxwCf2xDo",
+        "titulo": "Colheita de ingá na calçada"
+      },
+      {
+        "id": "gQUovQbwp7c",
+        "titulo": "Este ADUBO faz TOMBAR Rosa do deserto de FLORES 🤩"
+      },
+      {
+        "id": "K9CTKOVMUDw",
+        "titulo": "Adubação FÁCIL E Rápida para CARREGAR DE FLORES 100% Garantido!!!"
+      },
+      {
+        "id": "SH4UFKd75cA",
+        "titulo": "Adubação FÁCIL  E Rápida para SEGURAR FLORES E FRUTOS"
+      },
+      {
+        "id": "vdcPAFzgKjM",
+        "titulo": "Adubação FÁCIL  E Rápida para SEGURAR FLORES E FRUTO"
+      },
+      {
+        "id": "PKkVa2IC65E",
+        "titulo": "Adubação FÁCIL  E Rápida para SEGURAR FLORES E FRUTOS"
+      },
+      {
+        "id": "WV6a6Od7agM",
+        "titulo": "Melhor Adubo faz LOTAR de flores seu Lírio 🤩"
+      },
+      {
+        "id": "asqdyaYSJvg",
+        "titulo": "ABELHAS MANDAÇAIA Polinizando flores da JABUTICACA HÍBRIDA"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1520,6 +2682,40 @@
       "Assista no canal: Jabuticaba colheita real no vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "k5TSZVIdeuw",
+        "titulo": "Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K"
+      },
+      {
+        "id": "Kv5XfW0Mkks",
+        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+      },
+      {
+        "id": "2raa1E2ST7Y",
+        "titulo": "Jabuticaba colheita real no vaso #shorts"
+      },
+      {
+        "id": "gg6k7TekAzQ",
+        "titulo": "Colheita e degustação jabuticaba branca em vaso 😍"
+      },
+      {
+        "id": "u2RUjbMxjjo",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "je1ItkUahfw",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "QrB0QZNzR8M",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica #shorts"
+      },
+      {
+        "id": "aZk6XdbXimE",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1548,6 +2744,40 @@
       "Assista no canal: Jabuticaba colheita real no vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "k5TSZVIdeuw",
+        "titulo": "Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K"
+      },
+      {
+        "id": "Kv5XfW0Mkks",
+        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+      },
+      {
+        "id": "2raa1E2ST7Y",
+        "titulo": "Jabuticaba colheita real no vaso #shorts"
+      },
+      {
+        "id": "gg6k7TekAzQ",
+        "titulo": "Colheita e degustação jabuticaba branca em vaso 😍"
+      },
+      {
+        "id": "QrB0QZNzR8M",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica #shorts"
+      },
+      {
+        "id": "aZk6XdbXimE",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica"
+      },
+      {
+        "id": "aZk6XdbXimE",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica"
+      },
+      {
+        "id": "aZk6XdbXimE",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1575,6 +2805,40 @@
       "Assista no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "k5TSZVIdeuw",
+        "titulo": "Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica 4K"
+      },
+      {
+        "id": "SQwzDCypWK4",
+        "titulo": "Primeira colheita da minha jabuticabeira Híbrida orgânica 4K"
+      },
+      {
+        "id": "Kv5XfW0Mkks",
+        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+      },
+      {
+        "id": "2raa1E2ST7Y",
+        "titulo": "Jabuticaba colheita real no vaso #shorts"
+      },
+      {
+        "id": "gg6k7TekAzQ",
+        "titulo": "Colheita e degustação jabuticaba branca em vaso 😍"
+      },
+      {
+        "id": "QrB0QZNzR8M",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica #shorts"
+      },
+      {
+        "id": "aZk6XdbXimE",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica"
+      },
+      {
+        "id": "aZk6XdbXimE",
+        "titulo": "Colheita FÁCIL: Jabuticaba Hibrida Orgânica"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1602,6 +2866,40 @@
       "Assista no canal: Como Plantar Jambo vermelho em vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "aCCjNdeJ7Ns",
+        "titulo": "Colheita e Degustação de Jambo Rosa em vaso"
+      },
+      {
+        "id": "t2RjNcj8zCc",
+        "titulo": "Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas! 4k"
+      },
+      {
+        "id": "8Pt-hv4rnmE",
+        "titulo": "Como Plantar Jambo vermelho em vaso"
+      },
+      {
+        "id": "ddqbyzTmsgE",
+        "titulo": "Como Plantar Jambo Rosa em vaso"
+      },
+      {
+        "id": "Yg2W-Jtk6Cs",
+        "titulo": "Como Plantar Rosa e Amarilis FÁCIL E RÁPIDO PASSO a PASSO"
+      },
+      {
+        "id": "gQUovQbwp7c",
+        "titulo": "Este ADUBO faz TOMBAR Rosa do deserto de FLORES 🤩"
+      },
+      {
+        "id": "FTkrGh07vLg",
+        "titulo": "COMO Fazer sua Rosa do Deserto EXPLODIR DE FLORES! RÁPIDO E FÁCIL!!!"
+      },
+      {
+        "id": "MrGAoA44e4Q",
+        "titulo": "Primeiros botões florais Jambo rosa orgânico em Vaso 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1629,6 +2927,40 @@
       "Assista no canal: Araca Vermelho colheita real no vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "RgwRjICJk40",
+        "titulo": "Plantio a Colheita e degustação Araça vermelho orgânico em vaso 4k"
+      },
+      {
+        "id": "aCCjNdeJ7Ns",
+        "titulo": "Colheita e Degustação de Jambo Rosa em vaso"
+      },
+      {
+        "id": "CSqEbkBbClg",
+        "titulo": "Araca Vermelho colheita real no vaso #shorts"
+      },
+      {
+        "id": "QueoowfUyJA",
+        "titulo": "Colheita e degustação araça vermelho orgânico em Vaso 4k"
+      },
+      {
+        "id": "7BlqNvySrFs",
+        "titulo": "Colheita de araçá vermelho e amarelo"
+      },
+      {
+        "id": "BRvLyhF3PSI",
+        "titulo": "Colheita de \"cacho\" de araça vermelho em vaso 4k"
+      },
+      {
+        "id": "t2RjNcj8zCc",
+        "titulo": "Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas! 4k"
+      },
+      {
+        "id": "Vdn8dQ11YBY",
+        "titulo": "Araça Vermelho orgânico em vaso quase em ponto de colheita 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1657,6 +2989,40 @@
       "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "4Fu5LZftAHU",
+        "titulo": "Primeira colheita laranja kinkan orgânica em vaso 4k"
+      },
+      {
+        "id": "HsfD-LPRggI",
+        "titulo": "Colheita de laranja abacaxi em vaso! DELICIOSA!!!"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "GmUN81Q4ulk",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      },
+      {
+        "id": "AUoRKRtRLRA",
+        "titulo": "Colheita FÁCIL: Laranja Champagne Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "s8Qz-zu0itA",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1685,6 +3051,40 @@
       "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "4Fu5LZftAHU",
+        "titulo": "Primeira colheita laranja kinkan orgânica em vaso 4k"
+      },
+      {
+        "id": "HsfD-LPRggI",
+        "titulo": "Colheita de laranja abacaxi em vaso! DELICIOSA!!!"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "GmUN81Q4ulk",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      },
+      {
+        "id": "AUoRKRtRLRA",
+        "titulo": "Colheita FÁCIL: Laranja Champagne Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "s8Qz-zu0itA",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1713,6 +3113,40 @@
       "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "4Fu5LZftAHU",
+        "titulo": "Primeira colheita laranja kinkan orgânica em vaso 4k"
+      },
+      {
+        "id": "HsfD-LPRggI",
+        "titulo": "Colheita de laranja abacaxi em vaso! DELICIOSA!!!"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "GmUN81Q4ulk",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      },
+      {
+        "id": "AUoRKRtRLRA",
+        "titulo": "Colheita FÁCIL: Laranja Champagne Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "s8Qz-zu0itA",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1741,6 +3175,40 @@
       "Assista no canal: Colheita FÁCIL: Laranja Abacaxi Orgânica"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "4Fu5LZftAHU",
+        "titulo": "Primeira colheita laranja kinkan orgânica em vaso 4k"
+      },
+      {
+        "id": "HsfD-LPRggI",
+        "titulo": "Colheita de laranja abacaxi em vaso! DELICIOSA!!!"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "mbHSz4ugvT8",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica"
+      },
+      {
+        "id": "GmUN81Q4ulk",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      },
+      {
+        "id": "AUoRKRtRLRA",
+        "titulo": "Colheita FÁCIL: Laranja Champagne Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "s8Qz-zu0itA",
+        "titulo": "Colheita FÁCIL: Laranja Abacaxi Orgânica #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1768,6 +3236,32 @@
       "Assista no canal: Como adubar lichia orgânica em vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "mIIFs5SmzjY",
+        "titulo": "Como Plantar Lichia orgânica em vaso 02/06/2017"
+      },
+      {
+        "id": "hiccnGtOiuE",
+        "titulo": "Como adubar lichia orgânica em vaso"
+      },
+      {
+        "id": "loTj1_Ua5Fo",
+        "titulo": "Como adubar lichia orgânica em vaso"
+      },
+      {
+        "id": "loTj1_Ua5Fo",
+        "titulo": "Como adubar lichia orgânica em vaso"
+      },
+      {
+        "id": "-YCHQjDV2ho",
+        "titulo": "Lichia em vaso parte 2"
+      },
+      {
+        "id": "ErQWzzG_WjY",
+        "titulo": "Unboxing Goiaba tailandesa,Jabuticaba Hibrida, Cajá manga anão,  Lichia"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1796,6 +3290,40 @@
       "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "dLDvSKQaKb4",
+        "titulo": "Colheita limão siciliano em vaso"
+      },
+      {
+        "id": "LtxsxIBlxmI",
+        "titulo": "Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "s89DcLVTico",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "RXkby8W0qEQ",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "ePhDCOdT3RQ",
+        "titulo": "Colheita de limão híbrido indefinido 🤔🤔🤔"
+      },
+      {
+        "id": "OdtefkCa0KI",
+        "titulo": "Colheita limão siciliano em vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1824,6 +3352,40 @@
       "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "dLDvSKQaKb4",
+        "titulo": "Colheita limão siciliano em vaso"
+      },
+      {
+        "id": "LtxsxIBlxmI",
+        "titulo": "Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "s89DcLVTico",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "RXkby8W0qEQ",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "ePhDCOdT3RQ",
+        "titulo": "Colheita de limão híbrido indefinido 🤔🤔🤔"
+      },
+      {
+        "id": "OdtefkCa0KI",
+        "titulo": "Colheita limão siciliano em vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1852,6 +3414,40 @@
       "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "dLDvSKQaKb4",
+        "titulo": "Colheita limão siciliano em vaso"
+      },
+      {
+        "id": "LtxsxIBlxmI",
+        "titulo": "Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "s89DcLVTico",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "RXkby8W0qEQ",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "ePhDCOdT3RQ",
+        "titulo": "Colheita de limão híbrido indefinido 🤔🤔🤔"
+      },
+      {
+        "id": "OdtefkCa0KI",
+        "titulo": "Colheita limão siciliano em vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1880,6 +3476,40 @@
       "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "dLDvSKQaKb4",
+        "titulo": "Colheita limão siciliano em vaso"
+      },
+      {
+        "id": "LtxsxIBlxmI",
+        "titulo": "Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "s89DcLVTico",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "RXkby8W0qEQ",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "ePhDCOdT3RQ",
+        "titulo": "Colheita de limão híbrido indefinido 🤔🤔🤔"
+      },
+      {
+        "id": "OdtefkCa0KI",
+        "titulo": "Colheita limão siciliano em vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1908,6 +3538,40 @@
       "Assista no canal: Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "dLDvSKQaKb4",
+        "titulo": "Colheita limão siciliano em vaso"
+      },
+      {
+        "id": "LtxsxIBlxmI",
+        "titulo": "Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "s89DcLVTico",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "RXkby8W0qEQ",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "cMp2Hwp1RVM",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso"
+      },
+      {
+        "id": "ePhDCOdT3RQ",
+        "titulo": "Colheita de limão híbrido indefinido 🤔🤔🤔"
+      },
+      {
+        "id": "OdtefkCa0KI",
+        "titulo": "Colheita limão siciliano em vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1936,6 +3600,40 @@
       "Assista no canal: Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "dLDvSKQaKb4",
+        "titulo": "Colheita limão siciliano em vaso"
+      },
+      {
+        "id": "B5sAOhcFN0I",
+        "titulo": "Colheita maracujá Doce  Gigante em vaso de 968 Gramas 😍😍😍 4k"
+      },
+      {
+        "id": "LtxsxIBlxmI",
+        "titulo": "Limão Produtivo em Vaso  Minha Primeira Colheita! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "i41Z0OHIRhI",
+        "titulo": "colheita e degustação dovyalis doce orgânica em vaso 4k"
+      },
+      {
+        "id": "s89DcLVTico",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "I0VFg5hXCMA",
+        "titulo": "Colheita de maracujá DOCE em vaso! não dá lagarta! produz o ano INTEIRO!!!"
+      },
+      {
+        "id": "RXkby8W0qEQ",
+        "titulo": "Colheita FÁCIL: Limão Siciliano Orgânico em Vaso #shorts"
+      },
+      {
+        "id": "YXYD2PhnSRQ",
+        "titulo": "Medindo grau brix do Sapoti a fruta mais doce que conheço! 😋"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1964,6 +3662,24 @@
       "Assista no canal: Como Plantar longana longan ou olho do dragão orgânico em Vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "L4_0nhrIPzc",
+        "titulo": "Como Plantar longana longan ou olho do dragão orgânico em Vaso"
+      },
+      {
+        "id": "wpLy8X-f4dk",
+        "titulo": "Como Plantar longana longan ou olho do dragão orgânico em Vaso"
+      },
+      {
+        "id": "wpLy8X-f4dk",
+        "titulo": "Como Plantar longana longan ou olho do dragão orgânico em Vaso"
+      },
+      {
+        "id": "0gsK52N31uk",
+        "titulo": "Longan orgânico em Vaso Parte 2"
+      }
+    ],
     "destaque": false
   },
   {
@@ -1991,6 +3707,40 @@
       "Assista no canal: Colheita FÁCIL: Maca Eva Orgânica em Vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "6OSb9qKIApY",
+        "titulo": "Realizando um sonho de criança: Colhendo maça direto do pé em vaso 4k"
+      },
+      {
+        "id": "Tk1Qx1tfPwA",
+        "titulo": "Colhendo maçã em vaso 100% orgânica 😋"
+      },
+      {
+        "id": "wZXMXK0k5vs",
+        "titulo": "Colheita FÁCIL: Maca Eva Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "FQCzyyOKq44",
+        "titulo": "Colheita maçã Eva orgânica em vaso"
+      },
+      {
+        "id": "6KufoDtYr3Q",
+        "titulo": "Colheita FÁCIL: Maca Eva Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "ipp6QGyfLRc",
+        "titulo": "colheita de maçã em vaso😋 05/07/2022"
+      },
+      {
+        "id": "yr1XLldfO8E",
+        "titulo": "Colheita FÁCIL: Maca Eva Orgânica em Vaso"
+      },
+      {
+        "id": "vkhfSwpA-SY",
+        "titulo": "Colheita FÁCIL: Maca Eva Orgânica em Vaso #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2017,6 +3767,16 @@
       "Assista no canal: Seu mamão não produz ou se quebrou? faça doce com o tronco 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "sfhKs0o-4Zk",
+        "titulo": "Botões florais mamão em vaso de 20L 4K"
+      },
+      {
+        "id": "i7m5FxZpCdk",
+        "titulo": "Seu mamão não produz ou se quebrou? faça doce com o tronco 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2043,6 +3803,7 @@
       "Veja no canal os vídeos de cultivo de mana cubiu."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -2069,6 +3830,7 @@
       "Veja no canal os vídeos de cultivo de mandacaru."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -2096,6 +3858,40 @@
       "Assista no canal: Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "DxI6WyPKNNI",
+        "titulo": "Colheita e degustação mangá Ubá em vaso"
+      },
+      {
+        "id": "kT7l4rqt8mI",
+        "titulo": "Colheita de Cajá manga anão em vaso"
+      },
+      {
+        "id": "xbqxv5xNdh0",
+        "titulo": "Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
+      },
+      {
+        "id": "-otVLmVX7OI",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "QDuU1oQQMdo",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso"
+      },
+      {
+        "id": "QDuU1oQQMdo",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso"
+      },
+      {
+        "id": "PzlGrSVHmkg",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "KNgQVOEUZVY",
+        "titulo": "Como plantar cajá manga anão orgânica em vaso 02/06/2017"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2123,6 +3919,40 @@
       "Assista no canal: Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "DxI6WyPKNNI",
+        "titulo": "Colheita e degustação mangá Ubá em vaso"
+      },
+      {
+        "id": "kT7l4rqt8mI",
+        "titulo": "Colheita de Cajá manga anão em vaso"
+      },
+      {
+        "id": "xbqxv5xNdh0",
+        "titulo": "Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
+      },
+      {
+        "id": "-otVLmVX7OI",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "QDuU1oQQMdo",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso"
+      },
+      {
+        "id": "QDuU1oQQMdo",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso"
+      },
+      {
+        "id": "PzlGrSVHmkg",
+        "titulo": "Colheita FÁCIL: Caja Manga Anã Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "KNgQVOEUZVY",
+        "titulo": "Como plantar cajá manga anão orgânica em vaso 02/06/2017"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2151,6 +3981,40 @@
       "Assista no canal: Colheita de fruta iogurte"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Jxf4sGvf5fA",
+        "titulo": "Colheita e degustação araça boi/fruta iogurte orgânico em vaso 😍 4k"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "ivhkXO_qXtQ",
+        "titulo": "Colheita de fruta iogurte"
+      },
+      {
+        "id": "PJdY5xbP8as",
+        "titulo": "Como ponto colheita Canistel/fruta ovo"
+      },
+      {
+        "id": "hUCRaENLwig",
+        "titulo": "Colheita Araçá boi/fruta iogurte orgânico em vaso 😍😍😍"
+      },
+      {
+        "id": "a-bxUvEddCM",
+        "titulo": "Fruta iogurte quase no ponto da colheita 😋"
+      },
+      {
+        "id": "FVyNmJuF250",
+        "titulo": "Colheita de fruta iogurte 😋😋😋"
+      },
+      {
+        "id": "F4TOBIA7GKY",
+        "titulo": "COLHEITA RÁPIDA: VINGAR sua Fruta FÁCIL! #shorts"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2178,6 +4042,40 @@
       "Assista no canal: Colheita de pitayas orgânica em vaso Gigante 2,5kg de Pitayas😍😍😍 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "nsPOlDEqJ6g",
+        "titulo": "colheita acerola Okinawa gigante em vaso"
+      },
+      {
+        "id": "mrkmPfCUaSk",
+        "titulo": "Colheita de fruta iogurte/araçá boi GIGANTE!!!"
+      },
+      {
+        "id": "6FPGErqazpM",
+        "titulo": "Colheita de pitayas orgânica em vaso Gigante 2,5kg de Pitayas😍😍😍 4k"
+      },
+      {
+        "id": "B5sAOhcFN0I",
+        "titulo": "Colheita maracujá Doce  Gigante em vaso de 968 Gramas 😍😍😍 4k"
+      },
+      {
+        "id": "aciTj-ezkXg",
+        "titulo": "Colheita Pitaya vermelha gigante 😋😋😋"
+      },
+      {
+        "id": "th-aPeRik3Y",
+        "titulo": "Colheita de atemoia GIGANTE 578Gr em casa 100% orgânica"
+      },
+      {
+        "id": "I0VFg5hXCMA",
+        "titulo": "Colheita de maracujá DOCE em vaso! não dá lagarta! produz o ano INTEIRO!!!"
+      },
+      {
+        "id": "BTYQ7pnepn4",
+        "titulo": "Colheita de atemoia GiGANTE no quintal de casa urbano"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2204,6 +4102,20 @@
       "Assista no canal: muda melancia 11 dias"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "xjFqnvKvZ-Q",
+        "titulo": "Plantando Melancia Tomate Espinafre e Alface na minha Hortinha"
+      },
+      {
+        "id": "7jUiuCPx820",
+        "titulo": "muda melancia 60 dias"
+      },
+      {
+        "id": "OqYMLy8GWk4",
+        "titulo": "muda melancia 11 dias"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2231,6 +4143,40 @@
       "Assista no canal: Colheita melão Andino orgânicoMelão de árvorePera Melão em Vaso 4K"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "IYyyQjqDfmA",
+        "titulo": "Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K"
+      },
+      {
+        "id": "GOtwvdxrHtI",
+        "titulo": "Colheita melão andino/melão de árvore em vaso"
+      },
+      {
+        "id": "o4N5Hy0ExAE",
+        "titulo": "Colheita melão Andino orgânicoMelão de árvorePera Melão em Vaso 4K"
+      },
+      {
+        "id": "E7TUMOL-WRo",
+        "titulo": "Como Plantar melão Andino orgânico em vaso/pepino doce/melão dos andes/melão de árvore 4K"
+      },
+      {
+        "id": "lKFrsTBLACg",
+        "titulo": "Como Plantar melão Andino orgânico em vasopepino docemelão dos andesmelão de árvore 4K"
+      },
+      {
+        "id": "lKFrsTBLACg",
+        "titulo": "Como Plantar melão Andino orgânico em vasopepino docemelão dos andesmelão de árvore 4K"
+      },
+      {
+        "id": "lKFrsTBLACg",
+        "titulo": "Como Plantar melão Andino orgânico em vasopepino docemelão dos andesmelão de árvore 4K"
+      },
+      {
+        "id": "XQfDgh8h-DM",
+        "titulo": "Unboxing Pera Melão/Melão Andino/Melão dos andes/Pera Doce e Amora Gigante 4K"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2259,6 +4205,32 @@
       "Assista no canal: Pé de mexerica após 2 meses plantado :)"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "q9IpFs92FVw",
+        "titulo": "Como Plantar Mexerica Ponkan"
+      },
+      {
+        "id": "HOLQLkyDVxc",
+        "titulo": "Floração mexerica em vaso 😍"
+      },
+      {
+        "id": "AE09Vj9ClhA",
+        "titulo": "Pé de mexerica após 2 meses plantado :)"
+      },
+      {
+        "id": "tBj7vHt5VRQ",
+        "titulo": "cebolinha uva graviola cenoura couve laranja mexerica"
+      },
+      {
+        "id": "f1ZGsGCbPYk",
+        "titulo": "Nova frutífera orgânica em vaso mexerica ponkan 4k"
+      },
+      {
+        "id": "RcAU3eXoYO0",
+        "titulo": "pé de mexerica pokan 5"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2287,6 +4259,40 @@
       "Assista no canal: Como plantar mirtilo blublarry orgânico em vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "MHgQfs9Qskk",
+        "titulo": "Colheita de mirtilo/bluberry orgânico em vasos após 5 meses 4K 😍"
+      },
+      {
+        "id": "Jqk9tOc9a_g",
+        "titulo": "Como plantar guabijú mirtilo brasileiro orgânico em vaso"
+      },
+      {
+        "id": "m8T7ZT5Z_F0",
+        "titulo": "Como plantar mirtilo blublarry orgânico em vaso"
+      },
+      {
+        "id": "j2cGBW3ctLY",
+        "titulo": "Mirtilo orgânico em vaso produzindo parte 3 cuidados com o solo 4K"
+      },
+      {
+        "id": "m-aCg4o5_Bc",
+        "titulo": "Como deixar a terra ácida de maneira orgânica para Fruta dos milagres e Blueberry 4k"
+      },
+      {
+        "id": "dBFcbpTwk2Y",
+        "titulo": "Quebra de dormência produto orgânico maça/pera/videira/mirtilo/pessego 4k"
+      },
+      {
+        "id": "ewQTwTcrXx0",
+        "titulo": "Mirtilo Brasileiro/Pixirica pérola do cerrado Brasileito com MUITO ORGULHO!!!"
+      },
+      {
+        "id": "zyvtSAkJRlM",
+        "titulo": "Guabiju/mirtilo brasileiro orgânico em vaso parte 2"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2314,6 +4320,20 @@
       "Assista no canal: Café da manhã do Ryan amora, morango e araça vermelho 100% orgânico 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "VJToLNwxmLE",
+        "titulo": "Colheita primeiro morango :)"
+      },
+      {
+        "id": "rD8eQkl_Tuc",
+        "titulo": "Dica morango orgânico suspenso por palet para pouco espaço 4k"
+      },
+      {
+        "id": "Lau_tdqFOGg",
+        "titulo": "Café da manhã do Ryan amora, morango e araça vermelho 100% orgânico 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2341,6 +4361,40 @@
       "Assista no canal: Atualização e colheita Nectarina orgânica em vaso 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "Keo6BMW3XFw",
+        "titulo": "Colheita e degustação de Nectarina orgânica em vaso 4k"
+      },
+      {
+        "id": "f5pt0scilpM",
+        "titulo": "Colheira e Degustação Nectarina orgânica em Vaso deliciosa!!! 4k"
+      },
+      {
+        "id": "AOf-ZTTzyrk",
+        "titulo": "Atualização e colheita Nectarina orgânica em vaso 4k"
+      },
+      {
+        "id": "6rzGlvon6g0",
+        "titulo": "Colheita FÁCIL: Nectarina Orgânica em Vaso"
+      },
+      {
+        "id": "RaBDJ3gd_q4",
+        "titulo": "Como plantar Nectarina orgânica em vaso"
+      },
+      {
+        "id": "sNHBiP0ZhyU",
+        "titulo": "Como podar Nectarina"
+      },
+      {
+        "id": "vZ9SZGvbA5U",
+        "titulo": "Como Podar Nectarina em Vaso 4k"
+      },
+      {
+        "id": "YSCQX36nysY",
+        "titulo": "Como podar Nectarina"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2368,6 +4422,40 @@
       "Assista no canal: Como Plantar Camu Camu Araça dágua orgânico em vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "IYyyQjqDfmA",
+        "titulo": "Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K"
+      },
+      {
+        "id": "mEORXd21dUI",
+        "titulo": "Como Plantar Camu Camu /Araça dágua orgânico em vaso"
+      },
+      {
+        "id": "fW4jPwDdTq4",
+        "titulo": "Como Plantar Camu Camu Araça dágua orgânico em vaso"
+      },
+      {
+        "id": "fW4jPwDdTq4",
+        "titulo": "Como Plantar Camu Camu Araça dágua orgânico em vaso"
+      },
+      {
+        "id": "S9PNbaHKQdU",
+        "titulo": "Como podar pêra"
+      },
+      {
+        "id": "nm4QQRLlfAE",
+        "titulo": "Araça Pêra orgânico em vaso após poda de formação 4k"
+      },
+      {
+        "id": "BwsZzpGHxd4",
+        "titulo": "Como criar peixe em piscina infantil/caixa dágua e produzir um EXCELENTE ADUBO! FÁCIL!!!"
+      },
+      {
+        "id": "KxUTiav4ZIQ",
+        "titulo": "Doença tronco pera D'água 😣😣😣"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2395,6 +4483,40 @@
       "Assista no canal: Como plantar cajá manga anão orgânica em vaso 02/06/2017"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "kT7l4rqt8mI",
+        "titulo": "Colheita de Cajá manga anão em vaso"
+      },
+      {
+        "id": "xbqxv5xNdh0",
+        "titulo": "Colheita Cajá Manga anão em Vaso 100% orgânico 4k"
+      },
+      {
+        "id": "KNgQVOEUZVY",
+        "titulo": "Como plantar cajá manga anão orgânica em vaso 02/06/2017"
+      },
+      {
+        "id": "UXbHFC_chBM",
+        "titulo": "Como plantar cajú anão orgânico em vaso"
+      },
+      {
+        "id": "YY-lBLg7qVg",
+        "titulo": "Como podar pêssego"
+      },
+      {
+        "id": "FOj0vy7plng",
+        "titulo": "Primeira floração pêssego Douradão em vaso 😍"
+      },
+      {
+        "id": "j6GzuWloriA",
+        "titulo": "Cajú anão orgânico em vaso florindo  4k"
+      },
+      {
+        "id": "pOwSK0zr_ig",
+        "titulo": "Primeira floração pêssego Douradão orgânico em vaso 😍"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2422,6 +4544,32 @@
       "Assista no canal: Nova frutífera do pomar,a pinha em vaso 04/03/2018 4K"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "49AIBxWlwm8",
+        "titulo": "Como plantar pinha dos astecas em vaso plantio 15/05/2022"
+      },
+      {
+        "id": "S8oWJfVm4yE",
+        "titulo": "Pinha orgânica produzindo em vaso, polinização cruzada com Graviola 4k"
+      },
+      {
+        "id": "VBPLpq27hB8",
+        "titulo": "Nova frutífera do pomar,a pinha em vaso 04/03/2018 4K"
+      },
+      {
+        "id": "tt8kY4QvLjY",
+        "titulo": "Biriba/fruta do conde/pinha/condessa/ata como vocês conhecem? 4K"
+      },
+      {
+        "id": "_qw-gbXyIRk",
+        "titulo": "Como fazer sua Atemoia/Pinha/Fruta do Conde PRODUZIR EM ATÉ 70% A MAIS!!!"
+      },
+      {
+        "id": "crrsYHo0d3A",
+        "titulo": "Presente de ano novo da minha composteira Pinha grátis😍 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2449,6 +4597,32 @@
       "Assista no canal: Nova frutífera do pomar,a pinha em vaso 04/03/2018 4K"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "49AIBxWlwm8",
+        "titulo": "Como plantar pinha dos astecas em vaso plantio 15/05/2022"
+      },
+      {
+        "id": "S8oWJfVm4yE",
+        "titulo": "Pinha orgânica produzindo em vaso, polinização cruzada com Graviola 4k"
+      },
+      {
+        "id": "VBPLpq27hB8",
+        "titulo": "Nova frutífera do pomar,a pinha em vaso 04/03/2018 4K"
+      },
+      {
+        "id": "tt8kY4QvLjY",
+        "titulo": "Biriba/fruta do conde/pinha/condessa/ata como vocês conhecem? 4K"
+      },
+      {
+        "id": "_qw-gbXyIRk",
+        "titulo": "Como fazer sua Atemoia/Pinha/Fruta do Conde PRODUZIR EM ATÉ 70% A MAIS!!!"
+      },
+      {
+        "id": "crrsYHo0d3A",
+        "titulo": "Presente de ano novo da minha composteira Pinha grátis😍 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2476,6 +4650,40 @@
       "Assista no canal: Pitanga Preta colheita real no vaso #shorts"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "RFcR74X7y6k",
+        "titulo": "Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!"
+      },
+      {
+        "id": "FmRBdQRD4Rc",
+        "titulo": "Colheita de pitanga do cerrado e pitanga preta em vaso"
+      },
+      {
+        "id": "vs_hfeyUvZ0",
+        "titulo": "Pitanga Preta colheita real no vaso #shorts"
+      },
+      {
+        "id": "V-wH4Bb1kWU",
+        "titulo": "Colheita pitanga preta orgânica em vaso 😍"
+      },
+      {
+        "id": "u2RUjbMxjjo",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "je1ItkUahfw",
+        "titulo": "Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts"
+      },
+      {
+        "id": "zdWFbNJwsG0",
+        "titulo": "Colheita FÁCIL: Pitanga Preta Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "c3LEcZrARlI",
+        "titulo": "Colheita FÁCIL: Pitanga Preta Orgânica em Vaso"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2503,6 +4711,28 @@
       "Assista no canal: Unboxing Pitangatuba, Sapoti, Guabijú(mirtilo Brasileiro) e Mirtilo"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "9kRC68XstVg",
+        "titulo": "Como plantar pitangatuba orgânica em vaso"
+      },
+      {
+        "id": "FIASWLqoaLo",
+        "titulo": "Pitangatuba produzindo em vaso(botão floral e flor)"
+      },
+      {
+        "id": "G8qQ0I6QCtc",
+        "titulo": "Unboxing Pitangatuba, Sapoti, Guabijú(mirtilo Brasileiro) e Mirtilo"
+      },
+      {
+        "id": "2bHdEspBV0g",
+        "titulo": "Pitangatuba orgânica em vaso parte 2"
+      },
+      {
+        "id": "wRpuMrkgxNw",
+        "titulo": "Como saber os benefícios do Pitangatuba"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2530,6 +4760,40 @@
       "Assista no canal: Colheita de Pitaya orgânica em vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "cRV4orB4srg",
+        "titulo": "Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!! 4k"
+      },
+      {
+        "id": "zfjVmCKMUzc",
+        "titulo": "Colhendo Saborosa/pitaya do serrado 4k"
+      },
+      {
+        "id": "gmwD-Lxv4y0",
+        "titulo": "Colheita de Pitaya orgânica em vaso"
+      },
+      {
+        "id": "_EkltQgU4pc",
+        "titulo": "Colheita de Pitaya no quintal de casa"
+      },
+      {
+        "id": "pzLTzkwkuVI",
+        "titulo": "Mega colheita de pitaya em 31/01/2020 4k"
+      },
+      {
+        "id": "eI5ejVqvHG8",
+        "titulo": "Pitaya  Colheita Fácil e Deliciosa em Casa! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "eI5ejVqvHG8",
+        "titulo": "Pitaya  Colheita Fácil e Deliciosa em Casa! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "05ivXQwhkjI",
+        "titulo": "Colheita Pitaya com apenas 1 ano de plantada vaso de 18 litros!!! 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2557,6 +4821,40 @@
       "Assista no canal: Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "cRV4orB4srg",
+        "titulo": "Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!! 4k"
+      },
+      {
+        "id": "zfjVmCKMUzc",
+        "titulo": "Colhendo Saborosa/pitaya do serrado 4k"
+      },
+      {
+        "id": "j_luLoshWo4",
+        "titulo": "Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção 😋"
+      },
+      {
+        "id": "gmwD-Lxv4y0",
+        "titulo": "Colheita de Pitaya orgânica em vaso"
+      },
+      {
+        "id": "_EkltQgU4pc",
+        "titulo": "Colheita de Pitaya no quintal de casa"
+      },
+      {
+        "id": "Kv5XfW0Mkks",
+        "titulo": "Colheita e degustação cabeludinha/ jabuticaba amarela em vaso 😍"
+      },
+      {
+        "id": "pzLTzkwkuVI",
+        "titulo": "Mega colheita de pitaya em 31/01/2020 4k"
+      },
+      {
+        "id": "eI5ejVqvHG8",
+        "titulo": "Pitaya  Colheita Fácil e Deliciosa em Casa! #plantas #caminhoparaumavidamelhor #jardim"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2584,6 +4882,40 @@
       "Assista no canal: Colheita de Pitaya orgânica em vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "cRV4orB4srg",
+        "titulo": "Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!! 4k"
+      },
+      {
+        "id": "zfjVmCKMUzc",
+        "titulo": "Colhendo Saborosa/pitaya do serrado 4k"
+      },
+      {
+        "id": "gmwD-Lxv4y0",
+        "titulo": "Colheita de Pitaya orgânica em vaso"
+      },
+      {
+        "id": "_EkltQgU4pc",
+        "titulo": "Colheita de Pitaya no quintal de casa"
+      },
+      {
+        "id": "pzLTzkwkuVI",
+        "titulo": "Mega colheita de pitaya em 31/01/2020 4k"
+      },
+      {
+        "id": "eI5ejVqvHG8",
+        "titulo": "Pitaya  Colheita Fácil e Deliciosa em Casa! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "eI5ejVqvHG8",
+        "titulo": "Pitaya  Colheita Fácil e Deliciosa em Casa! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "05ivXQwhkjI",
+        "titulo": "Colheita Pitaya com apenas 1 ano de plantada vaso de 18 litros!!! 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2611,6 +4943,16 @@
       "Assista no canal: Nova frutífera do pomar Pitomba plantada dia 16/10/2018 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "t2RjNcj8zCc",
+        "titulo": "Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas! 4k"
+      },
+      {
+        "id": "ymh2zSwurOw",
+        "titulo": "Nova frutífera do pomar Pitomba plantada dia 16/10/2018 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2637,6 +4979,7 @@
       "Veja no canal os vídeos de cultivo de rambuta."
     ],
     "curiosidades": [],
+    "videos": [],
     "destaque": false
   },
   {
@@ -2664,6 +5007,20 @@
       "Assista no canal: Evolução estarquia romã acerola e bacupari complexo B"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "xE9LweMa0MI",
+        "titulo": "Nova Frutífera do Pomar Romã Orgânica em vaso 4k"
+      },
+      {
+        "id": "hQTt1OGVOdc",
+        "titulo": "Romã e Acerola  Frutas Fáceis e Ornamentais para Vasos! #plantas #caminhoparaumavidamelhor #jardim"
+      },
+      {
+        "id": "2pYXg2Pr21U",
+        "titulo": "Evolução estarquia romã acerola e bacupari complexo B"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2691,6 +5048,40 @@
       "Assista no canal: Floração pitaya do serrado/saborosa Outubro 2019 4k"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "zfjVmCKMUzc",
+        "titulo": "Colhendo Saborosa/pitaya do serrado 4k"
+      },
+      {
+        "id": "fPR-HixXFVg",
+        "titulo": "Colheita de pitaya em vaso e medição do grau brix da SABOROSA"
+      },
+      {
+        "id": "RH6sVtzQ32o",
+        "titulo": "Floração pitaya do serrado/saborosa Outubro 2019 4k"
+      },
+      {
+        "id": "dNIKtkVhAsI",
+        "titulo": "Unboxing Pitayas amarela vermelha branca saborosa"
+      },
+      {
+        "id": "rAwezgR7ZVg",
+        "titulo": "Novas pitayas do cerrado(saborosa) orgânica enormes de presente :)"
+      },
+      {
+        "id": "ch6Mv9dwz6A",
+        "titulo": "Campomanesia rufa Gabiroba do campo Gabiroba do serrado"
+      },
+      {
+        "id": "qcOUECo8asQ",
+        "titulo": "Saborosa/pitaya do serrado/pitaya baby nativa Maravilha de Deus!!!"
+      },
+      {
+        "id": "jji5RBPv67M",
+        "titulo": "pitaya Saborosa/serrado produzindo em vaso apenas 1 ano 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2718,6 +5109,40 @@
       "Assista no canal: Como plantar Sapoti orgânico em vaso"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "WNtjOiQGrx0",
+        "titulo": "Colheita de sapoti em vaso de 35 litros"
+      },
+      {
+        "id": "YXYD2PhnSRQ",
+        "titulo": "Medindo grau brix do Sapoti a fruta mais doce que conheço! 😋"
+      },
+      {
+        "id": "PxKsiMXr-4I",
+        "titulo": "Como plantar Sapoti orgânico em vaso"
+      },
+      {
+        "id": "K6SDdYbymwI",
+        "titulo": "Sapoti PRODUZINDO em Vaso floração e botões florais"
+      },
+      {
+        "id": "btXfOy0bPNA",
+        "titulo": "Primeira Floração Sapoti em vaso 4k"
+      },
+      {
+        "id": "GWPKKZk44us",
+        "titulo": "Sapoti Produzindo em Vaso(botões florais) 4k"
+      },
+      {
+        "id": "PZXQkDxyAJU",
+        "titulo": "Sapoti PRODUZINDO em Vaso floração e botões florais"
+      },
+      {
+        "id": "PZXQkDxyAJU",
+        "titulo": "Sapoti PRODUZINDO em Vaso floração e botões florais"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2745,6 +5170,40 @@
       "Assista no canal: Seriguela em vaso carregada..."
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "p5Pty-8ZXzs",
+        "titulo": "Colheita de Carambola, araça, seriguela, amora em vasos 4k"
+      },
+      {
+        "id": "0h_J1XAE37A",
+        "titulo": "Como podar seriguela"
+      },
+      {
+        "id": "mfChNPe2kkE",
+        "titulo": "Seriguela em vaso carregada..."
+      },
+      {
+        "id": "ZlYVNGwNlJg",
+        "titulo": "Frutos Seriguela Orgânica em vaso crescendo carregada!!!4k"
+      },
+      {
+        "id": "9GKlOKculak",
+        "titulo": "Porque os galhos da Seriguela e cajá manga secam?"
+      },
+      {
+        "id": "URHIPAFcXOY",
+        "titulo": "Comparando 5 estaquias de seriguela de um mesmo galho 4K"
+      },
+      {
+        "id": "Z6-vUK7-SBk",
+        "titulo": "Seriguela orgânica produzindo em vaso 7 meses 4k"
+      },
+      {
+        "id": "IR5A1AuJDZs",
+        "titulo": "Como fazer Estaquia de Seriguela orgânica em vaso?"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2773,6 +5232,40 @@
       "Assista no canal: MEGA colheita de tomate ORGÂNICO EM VASO ! Feliz dia das crianças a todos do Canal!"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "IYyyQjqDfmA",
+        "titulo": "Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso 4K"
+      },
+      {
+        "id": "GOtwvdxrHtI",
+        "titulo": "Colheita melão andino/melão de árvore em vaso"
+      },
+      {
+        "id": "jpI9vBhINp0",
+        "titulo": "MEGA colheita de tomate ORGÂNICO EM VASO ! Feliz dia das crianças a todos do Canal!"
+      },
+      {
+        "id": "awMO1vBuk90",
+        "titulo": "Colheita e degustação TOMATE Orgânico em Vaso"
+      },
+      {
+        "id": "UXvBDl0Dq6Y",
+        "titulo": "Colheita tomate em vaso orgânico :)"
+      },
+      {
+        "id": "hGTwDFhsLVk",
+        "titulo": "Colheita de tomate cereja em vaso no terraço por Ryanzão🥰"
+      },
+      {
+        "id": "E7TUMOL-WRo",
+        "titulo": "Como Plantar melão Andino orgânico em vaso/pepino doce/melão dos andes/melão de árvore 4K"
+      },
+      {
+        "id": "xjFqnvKvZ-Q",
+        "titulo": "Plantando Melancia Tomate Espinafre e Alface na minha Hortinha"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2801,6 +5294,32 @@
       "Assista no canal: Primeira floração pêssego Douradão orgânico em vaso 😍"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "YY-lBLg7qVg",
+        "titulo": "Como podar pêssego"
+      },
+      {
+        "id": "FOj0vy7plng",
+        "titulo": "Primeira floração pêssego Douradão em vaso 😍"
+      },
+      {
+        "id": "pOwSK0zr_ig",
+        "titulo": "Primeira floração pêssego Douradão orgânico em vaso 😍"
+      },
+      {
+        "id": "7CXhH1Q8_zE",
+        "titulo": "Nova frutífera do pomar Pêssego Douradão 4k"
+      },
+      {
+        "id": "dBFcbpTwk2Y",
+        "titulo": "Quebra de dormência produto orgânico maça/pera/videira/mirtilo/pessego 4k"
+      },
+      {
+        "id": "WGp04nBKxkI",
+        "titulo": "Nova aquisição pêssego anão 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2828,6 +5347,36 @@
       "Assista no canal: Uva vitória no terraço"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "tNpXoFSN-kc",
+        "titulo": "Colheita de Uva BRS Vitória, BRS Núvia, BRS Lorena, Poloski e Isabel Fundo de QUINTAL!!!"
+      },
+      {
+        "id": "vcTuUkt2d5o",
+        "titulo": "Poda BRS vitória 1 ano"
+      },
+      {
+        "id": "I8mGDAFHoZ8",
+        "titulo": "Uva vitória no terraço"
+      },
+      {
+        "id": "Qv-oRWc_E5s",
+        "titulo": "Uva BRS Vitória e BRS Isis muda de raiz nua Plantadas 06/04/2019 4k"
+      },
+      {
+        "id": "9WP71i9EpnY",
+        "titulo": "Uva BRS Núbia, Uva BRS Vitória e BRS Isis projeto Uvas no terrço 12/04/2019 4k"
+      },
+      {
+        "id": "__BaB1Makew",
+        "titulo": "Mais uma BRS Vitória 06/05/2019 aproveitando um espaço perdido😍"
+      },
+      {
+        "id": "T_YalamLCI8",
+        "titulo": "Tentativa enxerto verde no cavalo 571/6 vitória"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2855,6 +5404,40 @@
       "Assista no canal: Última colheita da Uva Goethe... infelizmente não está se dando bem aqui..."
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "J-o2d_7-Tzc",
+        "titulo": "Medindo grau Brix(doçura) Uva Goethe 4k"
+      },
+      {
+        "id": "1u9nCW8YHU4",
+        "titulo": "Última colheita da Uva Goethe... infelizmente não está se dando bem aqui..."
+      },
+      {
+        "id": "1u9nCW8YHU4",
+        "titulo": "Última colheita da Uva Goethe... infelizmente não está se dando bem aqui..."
+      },
+      {
+        "id": "8SMwDbOl_cU",
+        "titulo": "Colheita Final Uva Goethe no pomar em casa 4k"
+      },
+      {
+        "id": "Ue_Sx6I3emE",
+        "titulo": "Medindo grau Brixdoçura Uva Goethe 4k"
+      },
+      {
+        "id": "Ue_Sx6I3emE",
+        "titulo": "Medindo grau Brixdoçura Uva Goethe 4k"
+      },
+      {
+        "id": "6RXw-fekANc",
+        "titulo": "Como fazer a poda da uva Goethe Sudeste MG"
+      },
+      {
+        "id": "PesWXd2KmR4",
+        "titulo": "Como podar uva Goethe Sudeste MG Nova Lima"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2882,6 +5465,40 @@
       "Assista no canal: Colheita de Uva BRS Vitória, BRS Núvia, BRS Lorena, Poloski e Isabel Fundo de QUINTAL!!!"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "LmtqJKnzuNY",
+        "titulo": "Colheita uva Isabel orgânica em vaso 4K"
+      },
+      {
+        "id": "GXIdBtmzaeA",
+        "titulo": "Colhendo, DEGUSTANDO uvas: Moscato Poslok, BRS Lorena, Moscato Gialo e Isabel no fundo de quintal"
+      },
+      {
+        "id": "tNpXoFSN-kc",
+        "titulo": "Colheita de Uva BRS Vitória, BRS Núvia, BRS Lorena, Poloski e Isabel Fundo de QUINTAL!!!"
+      },
+      {
+        "id": "JxLY-utukJ0",
+        "titulo": "COMO PLANTAR UVA Isabel 17/01/2015"
+      },
+      {
+        "id": "5cAXOUwPeFc",
+        "titulo": "Videira Isabel em Vaso parte 4  Dicas de cultivo 4K"
+      },
+      {
+        "id": "YqRIHBbR93o",
+        "titulo": "Videira Isabel orgânica em Vaso parte 5 Dicas de cultivo 4K"
+      },
+      {
+        "id": "a8RQqgPo5B8",
+        "titulo": "Como Plantar uva Isabel orgânica em vaso"
+      },
+      {
+        "id": "x2ahEjnDRxE",
+        "titulo": "Uva Isabel em vaso acordando após poda 2 meses😍 4k"
+      }
+    ],
     "destaque": false
   },
   {
@@ -2909,6 +5526,40 @@
       "Assista no canal: Colheita de uvaia em vaso😋😋😋"
     ],
     "curiosidades": [],
+    "videos": [
+      {
+        "id": "_vdc0qTuUvs",
+        "titulo": "Colheita e degustação de Uvaia orgânica em vaso com Ryan Frade 😍"
+      },
+      {
+        "id": "HeYVx_ZhiyY",
+        "titulo": "Colheita de Uvaia em Vaso 4k"
+      },
+      {
+        "id": "ed7YcwyraRg",
+        "titulo": "Colheita de uvaia em vaso😋😋😋"
+      },
+      {
+        "id": "TIOm6rxMkUs",
+        "titulo": "colheita de Uvaia orgânica em vaso"
+      },
+      {
+        "id": "VX7PJCW8DNg",
+        "titulo": "Colheita de Uvaia em Vaso"
+      },
+      {
+        "id": "b-ygIcmaJ8c",
+        "titulo": "Colheita FÁCIL: Uvaia Orgânica em Vaso #shorts"
+      },
+      {
+        "id": "n9vrpAoxtyM",
+        "titulo": "Colheita e degustação Uvaia orgânica em Vaso 4k"
+      },
+      {
+        "id": "1UKIxmAn02o",
+        "titulo": "Colheita de Uvaia e ensinando como fazer Deliciosa vitamina 😋😋😋"
+      }
+    ],
     "destaque": false
   }
 ]

@@ -125,9 +125,18 @@ interno" que apodrece raízes.
 
 ### A receita de substrato que eu uso
 
-- **50% de terra vegetal adubada**
-- **30% de matéria orgânica** (húmus de minhoca ou composto)
-- **20% de drenagem** (areia grossa, perlita ou vermiculita)
+<div class="receita">
+  <div class="barra">
+    <span class="seg s1" style="width:50%">50%</span>
+    <span class="seg s2" style="width:30%">30%</span>
+    <span class="seg s3" style="width:20%">20%</span>
+  </div>
+  <ul class="legenda">
+    <li><i class="dot d1"></i><strong>Terra vegetal adubada</strong> — base, dá estrutura e nutrientes</li>
+    <li><i class="dot d2"></i><strong>Matéria orgânica</strong> — húmus de minhoca ou composto</li>
+    <li><i class="dot d3"></i><strong>Drenagem</strong> — areia grossa, perlita ou vermiculita</li>
+  </ul>
+</div>
 
 Essa mistura retém umidade, alimenta e deixa o ar circular entre as raízes — os três pilares de uma
 planta saudável. Para espécies de solo mais leve (pitaya, amora), aumente a drenagem para 30%.
@@ -138,6 +147,48 @@ Nunca use terra de quintal pura em vaso: ela compacta, vira barro e sufoca as ra
 
 Depois de plantar, cubra a superfície do substrato com **casca de pinus, folhas secas ou palha** (2 a
 3 cm). A cobertura morta reduz a evaporação, mantém a temperatura e ainda vira adubo com o tempo.
+
+### Alerta para apartamentos e sacadas: o peso do vaso
+
+Antes de escolher um vaso grande para a varanda de um prédio, faça esta conta. É a parte que quase
+ninguém comenta — e que pode virar um problema estrutural.
+
+**Quanto pesa um vaso cheio?** O substrato úmido pesa entre **0,9 e 1,2 kg por litro**. A fibra de coco
+é muito mais leve (cerca de 0,2 kg/L); a terra pesada e a areia, bem mais. Some o peso do vaso e da planta.
+
+| Vaso | Substrato úmido | + vaso e planta | Peso total |
+|---|---|---|---|
+| 20 L | ~20 kg | + 5 kg | **~25 kg** |
+| 40 L | ~40 kg | + 10 kg | **~50 kg** |
+| 90 L | ~95 kg | + 20 kg | **~115 kg** |
+
+**O que diz a norma.** A NBR 6120 define a sobrecarga de uso para **sacadas e varandas residenciais em
+2,5 kN/m²** (aproximadamente **250 kg/m²**). Em áreas de acesso público, 4 kN/m² (400 kg/m²).
+
+**Onde mora o problema:** o peso não se espalha — concentra-se na base do vaso. Um vaso de 90 L com base
+de 50 cm ocupa cerca de 0,20 m². São ~115 kg em 0,20 m², ou seja, **quase 575 kg/m²** — mais que o dobro
+do limite residencial.
+
+| Vaso | Base | Área | Pressão no piso |
+|---|---|---|---|
+| 20 L | 35 cm | 0,10 m² | ~250 kg/m² (no limite) |
+| 40 L | 40 cm | 0,13 m² | ~385 kg/m² (acima) |
+| 90 L | 50 cm | 0,20 m² | ~575 kg/m² (muito acima) |
+
+**Como resolver:**
+
+- **Distribua a carga:** use um prato ou base larga e aproxime o vaso da parede ou de uma viga.
+- **Prefira substrato leve:** troque parte da terra por fibra de coco e perlita (veja o mix abaixo).
+- **Não concentre** vários vasos grandes no mesmo ponto da sacada.
+- **Na dúvida, consulte o síndico ou um engenheiro estrutural.** Cada laje tem um limite — e ele não é óbvio.
+
+<div class="destaque">
+<strong>Mix leve para varandas</strong> (pesa cerca de metade do substrato comum):
+40% fibra de coco · 30% terra vegetal · 20% perlita ou vermiculita · 10% húmus de minhoca.
+</div>
+
+**Ação prática:** pese um saco de substrato de 20 L e multiplique. Agora você sabe o que está colocando
+na sua sacada.
 
 **Ação prática:** monte a drenagem e o substrato em um vaso vazio hoje. Você já vai usá-lo no capítulo
 3.
@@ -181,6 +232,12 @@ estaca agora, para não machucar raízes depois.
 **Erro comum:** plantar e encharcar. Água demais nos primeiros dias apodrece a raiz antes de ela
 pegar. Na primeira semana, regue pouco e observe.
 
+### Veja na prática
+
+<!-- QR:guia-plantio -->
+
+<!-- QR:video-plantio-abiu -->
+
 **Ação prática:** fotografe a muda no dia do plantio. Essa foto vai ser sua referência para medir o
 crescimento nas próximas semanas.
 
@@ -218,6 +275,10 @@ pequenas. Para jabuticaba, citros e mangas, prefira o vaso grande tradicional co
 
 Na dúvida entre os dois, **espere** — planta com sede se recupera em horas; planta encharcada, muitas
 vezes não.
+
+### Veja na prática
+
+<!-- QR:guia-cuidados -->
 
 **Ação prática:** durante uma semana, faça o teste do dedo todos os dias e anote. Você vai descobrir o
 ritmo real do seu vaso.
@@ -270,6 +331,10 @@ Os dois se complementam. O **orgânico** melhora a vida do solo e dificilmente q
 **Erro comum:** adubar planta recém-transplantada. Espere **2 a 3 semanas** para as raízes se
 acomodarem.
 
+### Veja na prática
+
+<!-- QR:guia-adubacao -->
+
 **Ação prática:** monte um calendário no celular com os avisos de adubação (30 a 45 dias para o
 bokashi).
 
@@ -312,6 +377,12 @@ grande: ele apodrece e vira porta de entrada para doença.
 
 **Regra prática:** sempre que podar, faça a planta "pensar" para onde mandar energia.
 
+### Veja na prática
+
+<!-- QR:guia-poda -->
+
+<!-- QR:video-poda-jabuticaba -->
+
 **Ação prática:** faça uma poda de limpeza hoje — só o seco, o doente e o que cruza. É a mais segura e
 a que mais melhora a planta.
 
@@ -352,6 +423,10 @@ adubação e luz.
 
 Sol direto sobre o fruto acelera e adoça. Depois de formado o fruto, mantenha a rega constante: falta
 de água nessa fase racha fruta e reduz o sabor.
+
+### Veja na prática
+
+<!-- QR:guia-floracao -->
 
 **Ação prática:** plante uma flor companheira (manjericão, calêndula) perto do vaso para atrair
 polinizadores.
@@ -395,6 +470,10 @@ remova as partes afetadas. Não molhe as folhas.
 **Inspeção semanal:** olhe o **verso das folhas**, as **pontas novas** e o **caule**. Cinco minutos
 por semana evitam uma infestação de meses.
 
+### Veja na prática
+
+<!-- QR:guia-problemas -->
+
 **Ação prática:** marque um dia fixo da semana para a inspeção. Trate no começo: uma cochonilha vira
 cem em poucas semanas.
 
@@ -437,6 +516,12 @@ Frutífera em vaso não é descartável. A cada 2 anos:
 
 Isso rejuvenesce a planta e mantém a produção por décadas.
 
+### Veja na prática
+
+<!-- QR:guia-colheita -->
+
+<!-- QR:guia-gastronomia -->
+
 **Ação prática:** anote no calendário a data da sua próxima renovação de substrato.
 
 ---
@@ -473,6 +558,10 @@ fruticultura.
 Sementes são divertidas, mas demoram de 5 a 10 anos e não repetem a qualidade da fruta. Use sementes
 para experimentar, não para produzir.
 
+### Veja na prática
+
+<!-- QR:canal -->
+
 **Ação prática:** faça duas estacas hoje — acerola ou amora. Em um mês você tem muda nova de graça.
 
 ---
@@ -482,6 +571,43 @@ para experimentar, não para produzir.
 Este é o coração do guia: uma ficha rápida de cada espécie, com **luz, rega, solo, tamanho de vaso,
 dificuldade, tempo até produzir e época de frutificação**. Use antes de comprar a muda e sempre que
 tiver dúvida no cultivo.
+
+Cada ficha traz os ícones **☀** (sol), **◐** (meia-sombra) e **💧** (rega) para consulta rápida, e as
+espécies com vídeos no canal trazem o link **▶** para assistir ao cultivo na prática.
+
+### Comece por aqui: escolha pela sua situação
+
+Não sabe qual escolher? Vá direto ao grupo que combina com você.
+
+**Primeira frutífera (à prova de erro)**
+Acerola, pitanga, amora, figo, limão e romã. Rústicas, perdoam erros e produzem cedo.
+
+**Quero colher rápido (menos de 1 ano)**
+Morango, maracujá, mamão, abacaxi, amora e uva BRS Vitória.
+
+**Produz quase o ano todo**
+Acerola, limão (cravo, siciliano, galeguinho), pitanga preta, sapoti e carambola.
+
+**Pouco espaço (varanda pequena)**
+Morango, mirtilo, cambuí, pitangatuba, fruta do milagre e jabuticaba híbrida em vaso médio.
+
+**Sol forte e calor**
+Pitaya, mandacaru, caju, acerola, seriguela e cajá-manga.
+
+**Meia-sombra**
+Cacau, fruta do milagre, ingá, tamarilho e bacupari de bico.
+
+**Nativas raras (para quem quer sair do comum)**
+Cambuci, camu-camu, cabeludinha, grumixama, uvaia, bacupari e araçá-boi.
+
+**Varandas com vento**
+Prefira espécies de porte baixo e galhos firmes (pitanga, acerola, romã, figo, mirtilo), faça poda de
+formação baixa, use tutor e evite vasos altos e estreitos, que tombam fácil. Vasos largos e baixos, ou
+jardineiras, sofrem muito menos com a ventania.
+
+<!-- QR:guia-especies -->
+
+### As fichas
 
 As fichas estão agrupadas por categoria. Uma frutífera pode aparecer em mais de uma.
 
@@ -616,6 +742,20 @@ Folhas amarelas e moles, terra com cheiro ruim e caule mole na base. Reduza a re
 
 **Posso trocar a planta de vaso depois?**
 Sim, de preferência no fim do inverno ou início da primavera, e aumentando o tamanho do vaso.
+
+---
+
+## Continue com a gente
+
+Este guia é só o começo. No canal **Frutíferas Orgânicas** você vê cada uma dessas etapas acontecendo
+na prática — plantio, poda, adubação, problemas e colheita — e no site encontra as fichas completas,
+os guias e as melhores mudas e insumos.
+
+<!-- QR:canal -->
+
+<!-- QR:site -->
+
+Dúvida? Deixe um comentário em qualquer vídeo. Eu leio e respondo.
 
 ---
 

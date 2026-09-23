@@ -214,3 +214,34 @@ Ferramentas: `ferramentas/auditoria/audit_site.mjs` e `load_test.mjs`.
   ```
 - Pendente: subir os PDFs no Hotmart e informar o link de checkout para ativar o botão.
 
+## Produto — rodada de melhorias (v2)
+Pesquisa com fontes: NBR 6120 (sobrecarga de sacadas residenciais = 2,5 kN/m² ≈ 250 kg/m²), densidade
+de substrato úmido (~0,9–1,2 kg/L; fibra de coco ~0,2 kg/L), boas práticas de Order Bump/Upsell da Hotmart.
+
+- **E-book: 53 → 65 páginas**
+  - Novo alerta de peso para sacadas/varandas, com contas e NBR 6120 + mix leve de substrato
+  - Receita de substrato apresentada como gráfico (barra 50/30/20 + legenda)
+  - **14 QR codes** (guias `/guias/*` + vídeos) e **96 links clicáveis** para o canal
+  - Catálogo com ícones (☀ sol, ◐ meia-sombra, 💧 rega) e link ▶ de vídeo por espécie
+  - Índice "Comece por aqui" por situação do cliente (primeira frutífera, colheita rápida, sol forte,
+    meia-sombra, pouco espaço, nativas raras, **varandas com vento**)
+- **Bônus → Workbook do Aluno: 7 → 12 páginas** (plano de vaso, diário de 13 semanas, registro
+  fotográfico com molduras, checklists, calendário de adubação, fichas de bolso)
+- **Página `/curso`**: bloco "A regra de ouro" (morre de excesso), FAQ de apartamento com o alerta de
+  peso, lista "o que está incluso" atualizada
+- Novos scripts: `ferramentas/curso/gerar_qrcodes.py` (segno, rodar com `py`), QR em `ferramentas/curso/qrcodes/`
+- Ordem de geração:
+  ```
+  node ferramentas/curso/extrair_frutiferas.mjs
+  py ferramentas/curso/gerar_qrcodes.py
+  .venv\Scripts\python.exe -X utf8 ferramentas\curso\gerar.py
+  ```
+
+### Esteira comercial sugerida (Hotmart)
+- **Order bump** (checkout, 1 clique): mini-curso "Adubação Orgânica Descomplicada" por **R$ 9,90**
+  (faixa recomendada: 10–25% do produto principal). Order bumps elevam o faturamento em ~30%.
+- **Upsell** (pós-compra, 1 clique): **Módulo Imersivo de Multiplicação** (estaquia, alporque e enxertia)
+  ou **Comunidade VIP** por **R$ 67** (referência: 15–30% acima do produto principal; aceitação saudável 3–8%).
+- Taxa Hotmart atualizada: **9,9% + R$ 2,49** por venda.
+
+

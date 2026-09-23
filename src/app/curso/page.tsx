@@ -103,6 +103,17 @@ export default function CursoPage() {
         </div>
       </header>
 
+      <section className="mb-14 rounded-2xl border-l-4 border-terracotta-500 bg-cream-50 p-6">
+        <p className="text-xs font-bold uppercase tracking-widest text-terracotta-700 mb-2">
+          A regra de ouro
+        </p>
+        <p className="text-lg text-ink-900 leading-relaxed">
+          A maioria das frutíferas em vaso não morre por falta de cuidado — morre de{' '}
+          <strong>excesso</strong>: de água, de adubo e de poda. Este guia ensina o que realmente
+          importa e evita os erros que fazem você perder muda.
+        </p>
+      </section>
+
       <section className="mb-14">
         <h2 className="text-2xl font-bold mb-6 font-display">O que você vai aprender</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

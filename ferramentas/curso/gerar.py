@@ -10,6 +10,7 @@ modo headless para imprimir em PDF.
 Antes de rodar, atualize o JSON das frutiferas:
    node ferramentas/curso/extrair_frutiferas.mjs
 """
+import base64
 import json
 import os
 import re
@@ -225,6 +226,28 @@ table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10.5p
 th, td { border: 1px solid #ddd; padding: 5px 8px; text-align: left; }
 th { background: #f3f3ee; }
 .ficha { page-break-inside: avoid; }
+.ficha h4 { margin-top: 13px; }
+.receita { margin: 14px 0; page-break-inside: avoid; }
+.receita .barra { display: flex; height: 32px; border-radius: 6px; overflow: hidden; }
+.receita .seg { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; font-size: 10pt; }
+.receita .s1 { background: #6b4f2a; }
+.receita .s2 { background: #2e5b3a; }
+.receita .s3 { background: #b98a2f; }
+.receita .legenda { list-style: none; padding: 0; margin: 9px 0 0; font-size: 10.5pt; }
+.receita .legenda li { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.receita .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex: 0 0 auto; }
+.receita .d1 { background: #6b4f2a; }
+.receita .d2 { background: #2e5b3a; }
+.receita .d3 { background: #b98a2f; }
+.destaque { border: 2px solid #d9a62e; background: #fdf8ec; border-radius: 8px; padding: 10px 14px; margin: 14px 0; page-break-inside: avoid; font-size: 11pt; }
+.qrbox { display: flex; align-items: center; gap: 14px; border: 1px solid #e3e3dc; background: #faf9f4; border-radius: 8px; padding: 10px 14px; margin: 12px 0; page-break-inside: avoid; }
+.qrbox .qr { width: 76px; height: 76px; flex: 0 0 auto; }
+.qrbox .qrtext { font-size: 10.5pt; line-height: 1.45; }
+.qrbox .qrtext a { color: #1f3d2b; word-break: break-all; }
+.fotos { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.foto { border: 2px dashed #c9c9bd; border-radius: 8px; width: 48%; height: 58mm; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px; color: #8a8a7d; font-size: 10pt; page-break-inside: avoid; }
+.diario { font-size: 10pt; }
+.diario td { height: 26px; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }
@@ -241,11 +264,69 @@ COVER = """
 </div>
 """
 
+# --- QR codes (pontes multimidia) ---------------------------------------------
+QRS = {}
+_caminho_qr = os.path.join(CURSO_DIR, "qrcodes.json")
+if os.path.exists(_caminho_qr):
+    QRS = json.load(open(_caminho_qr, encoding="utf-8"))
+
+QR_RE = re.compile(r"<!--\s*QR:([a-z0-9-]+)\s*-->")
+
+QR_HTML = (
+    "<div class=\"qrbox\">"
+    "<img class=\"qr\" src=\"{src}\" alt=\"QR code\"/>"
+    "<div class=\"qrtext\"><strong>{rotulo}</strong><br/>"
+    "Escaneie com a câmera do celular ou acesse:<br/>"
+    "<a href=\"{url}\">{curta}</a></div></div>"
+)
+
+
+def substituir_qr(texto):
+    def repl(m):
+        info = QRS.get(m.group(1))
+        if not info:
+            return ""
+        caminho = os.path.join(CURSO_DIR, info["arquivo"])
+        if not os.path.exists(caminho):
+            return ""
+        b64 = base64.b64encode(open(caminho, "rb").read()).decode("ascii")
+        return QR_HTML.format(
+            src=f"data:image/png;base64,{b64}",
+            rotulo=info["rotulo"],
+            url=info["url"],
+            curta=info["url"].replace("https://", ""),
+        )
+
+    return QR_RE.sub(repl, texto)
+
+
+def icone_luz(luz):
+    l = (luz or "").lower()
+    if "pleno" in l and "meia" in l:
+        return "☀◐"
+    if "pleno" in l:
+        return "☀"
+    if "meia" in l or "sombra" in l:
+        return "◐"
+    return "☀"
+
+
+def link_video(f):
+    vids = f.get("videos") or []
+    if not vids:
+        return ""
+    v = vids[0]
+    titulo = re.sub(r"[\[\]<>]", "", limpar_dica(v.get("titulo", "")) or v.get("titulo", ""))
+    url = f"https://www.youtube.com/watch?v={v['id']}"
+    return f"▶ **[Assistir no canal: {titulo}]({url})**"
+
+
 
 def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None):
     texto = open(md_path, encoding="utf-8").read()
     if extra_md is not None:
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
+    texto = substituir_qr(texto)
     corpo = markdown.markdown(texto, extensions=["extra", "sane_lists", "toc"])
     html = (
         "<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'>"
@@ -341,8 +422,8 @@ def gerar_catalogo(frutiferas):
             cabeca = f"#### {f['nome']}" + (f" — *{nome_cien}*" if nome_cien else "")
             linha1 = " · ".join(
                 x for x in [
-                    f"**Luz:** {f['luz']}" if f.get("luz") else "",
-                    f"**Rega:** {f['rega']}" if f.get("rega") else "",
+                    f"{icone_luz(f.get('luz'))} **Luz:** {f['luz']}" if f.get("luz") else "",
+                    f"💧 **Rega:** {f['rega']}" if f.get("rega") else "",
                     f"**Vaso:** {f['vaso']}" if f.get("vaso") else "",
                 ] if x
             )
@@ -363,6 +444,9 @@ def gerar_catalogo(frutiferas):
             dicas = f.get("dicas") or []
             if dicas:
                 blocos += [f"**Dica:** {dicas[0]}", ""]
+            vid = link_video(f)
+            if vid:
+                blocos += [vid, ""]
             blocos.append("</div>")
             partes.append("\n".join(blocos))
 
@@ -376,16 +460,64 @@ def gerar_catalogo(frutiferas):
 
 
 def gerar_bonus(frutiferas):
-    """Bonus do aluno: checklist + fichas de destaque (para imprimir)."""
+    """Workbook do aluno: plano, diario de cultivo, registro fotografico e fichas."""
     destaques = sorted((f for f in frutiferas if f.get("destaque")), key=lambda x: x["nome"])[:16]
+
     linhas = [
-        "# Bônus do Aluno",
+        "# Workbook do Aluno",
         "",
-        f"Material de apoio do guia **{NOME_PRODUTO}**.",
+        f"Caderno de acompanhamento do guia **{NOME_PRODUTO}**.",
+        "",
+        "Este material é seu: escreva, cole fotos e marque o que funcionou. É ele que transforma a "
+        "leitura em resultado — porque o que muda a sua planta não é o que você leu, é o que você fez.",
         "",
         "---",
         "",
-        "## Checklist de rega e adubação",
+        "## 1. Meu plano de vaso",
+        "",
+        "| O que definir | Minha anotação |",
+        "|---|---|",
+        "| Local do vaso | |",
+        "| Horas de sol direto por dia | |",
+        "| Frutífera escolhida | |",
+        "| Tamanho do vaso (litros) | |",
+        "| Substrato usado | |",
+        "| Data do plantio | |",
+        "| Previsão da 1ª colheita | |",
+        "| Data da próxima renovação (2 anos) | |",
+        "",
+        "---",
+        "",
+        "## 2. Diário de cultivo — 13 semanas",
+        "",
+        "Anote uma vez por semana, sempre no mesmo dia. Em três meses você vai enxergar o padrão da "
+        "sua planta — e vai saber exatamente o que mudou quando algo der errado.",
+        "",
+        "| Semana | Data | Altura / nº de folhas | Rega | Adubação | O que observei |",
+        "|---|---|---|---|---|---|",
+    ]
+    for i in range(1, 14):
+        linhas.append(f"| {i} | | | | | |")
+
+    linhas += [
+        "",
+        "---",
+        "",
+        "## 3. Registro fotográfico",
+        "",
+        "Imprima esta página, cole as fotos ou escreva ao lado o que mudou. A foto do **dia do plantio** "
+        "é a mais importante: é a sua linha de base.",
+        "",
+        '<div class="fotos">',
+        '  <div class="foto">Dia do plantio</div>',
+        '  <div class="foto">Mês 1</div>',
+        '  <div class="foto">Mês 2</div>',
+        '  <div class="foto">Mês 3</div>',
+        "</div>",
+        "",
+        "---",
+        "",
+        "## 4. Checklist de rega e adubação",
         "",
         "### Rega (teste do dedo)",
         "",
@@ -397,26 +529,48 @@ def gerar_bonus(frutiferas):
         "",
         "### Adubação (por fase)",
         "",
-        "| Fase | Produto | Frequência |",
-        "|---|---|---|",
-        "| Plantio | Húmus de minhoca misturado ao substrato | 1 vez |",
-        "| Crescimento | Bokashi na borda do vaso | A cada 30-45 dias |",
-        "| Floração | Organomineral com mais fósforo/potássio | A cada 30 dias |",
-        "| Frutificação | Adubo líquido diluído na rega | A cada 15-20 dias |",
-        "| Repouso (frio/pós-colheita) | Suspender ou reduzir | - |",
-        "",
-        "### Inspeção semanal de pragas",
-        "",
-        "- [ ] Olhar o verso das folhas",
-        "- [ ] Checar as pontas novas (pulgão)",
-        "- [ ] Verificar o caule (cochonilha)",
-        "- [ ] Observar se há formigas subindo no vaso",
+        "| Fase | Produto | Frequência | Feito? |",
+        "|---|---|---|---|",
+        "| Plantio | Húmus de minhoca misturado ao substrato | 1 vez | |",
+        "| Crescimento | Bokashi na borda do vaso | A cada 30-45 dias | |",
+        "| Floração | Organomineral com mais fósforo/potássio | A cada 30 dias | |",
+        "| Frutificação | Adubo líquido diluído na rega | A cada 15-20 dias | |",
+        "| Repouso (frio/pós-colheita) | Suspender ou reduzir | — | |",
         "",
         "---",
         "",
-        "## Fichas de bolso — espécies em destaque",
+        "## 5. Inspeção semanal de pragas",
         "",
-        "Recorte ou imprima esta seção e deixe perto dos vasos.",
+        "Cinco minutos por semana evitam uma infestação de meses. Olhe o **verso das folhas**, as "
+        "**pontas novas** e o **caule**.",
+        "",
+        "| Semana | Data | O que encontrei | O que fiz |",
+        "|---|---|---|---|",
+    ]
+    for i in range(1, 14):
+        linhas.append(f"| {i} | | | |")
+
+    linhas += [
+        "",
+        "---",
+        "",
+        "## 6. Meu calendário de adubação",
+        "",
+        "Preencha o mês e o produto que você vai usar. Marque quando fizer.",
+        "",
+        "| Mês | Produto / dose | Feito? |",
+        "|---|---|---|",
+    ]
+    for mes in ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]:
+        linhas.append(f"| {mes} | | |")
+
+    linhas += [
+        "",
+        "---",
+        "",
+        "## 7. Fichas de bolso — espécies em destaque",
+        "",
+        "Imprima esta seção e deixe perto dos vasos.",
         "",
     ]
     for f in destaques:
@@ -435,9 +589,10 @@ def gerar_bonus(frutiferas):
         for d in (f.get("dicas") or [])[:2]:
             linhas += [f"- {d}"]
         linhas += [""]
+
     caminho = os.path.join(config.SITE_DIR, "CURSO-BONUS.md")
     open(caminho, "w", encoding="utf-8").write("\n".join(linhas))
-    print(f"bonus gerado: {caminho} ({len(destaques)} fichas de destaque)")
+    print(f"workbook gerado: {caminho} ({len(destaques)} fichas de destaque)")
 
 
 def main():
@@ -455,8 +610,8 @@ def main():
     md_para_pdf(
         os.path.join(config.SITE_DIR, "CURSO-BONUS.md"),
         "Frutiferas-em-Vaso-bonus.pdf",
-        "Bônus do Aluno",
-        "checklist de rega e adubação + fichas de bolso",
+        "Workbook do Aluno",
+        "diário de cultivo, checklist e fichas de bolso",
     )
 
 

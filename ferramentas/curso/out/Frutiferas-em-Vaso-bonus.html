@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'><title>Bônus do Aluno</title><style>
+<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'><title>Workbook do Aluno</title><style>
 @page { size: A4; margin: 20mm 18mm; }
 * { box-sizing: border-box; }
 body { font-family: Georgia, 'Times New Roman', serif; color: #222; line-height: 1.55; font-size: 12pt; }
@@ -17,6 +17,28 @@ table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10.5p
 th, td { border: 1px solid #ddd; padding: 5px 8px; text-align: left; }
 th { background: #f3f3ee; }
 .ficha { page-break-inside: avoid; }
+.ficha h4 { margin-top: 13px; }
+.receita { margin: 14px 0; page-break-inside: avoid; }
+.receita .barra { display: flex; height: 32px; border-radius: 6px; overflow: hidden; }
+.receita .seg { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; font-size: 10pt; }
+.receita .s1 { background: #6b4f2a; }
+.receita .s2 { background: #2e5b3a; }
+.receita .s3 { background: #b98a2f; }
+.receita .legenda { list-style: none; padding: 0; margin: 9px 0 0; font-size: 10.5pt; }
+.receita .legenda li { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.receita .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex: 0 0 auto; }
+.receita .d1 { background: #6b4f2a; }
+.receita .d2 { background: #2e5b3a; }
+.receita .d3 { background: #b98a2f; }
+.destaque { border: 2px solid #d9a62e; background: #fdf8ec; border-radius: 8px; padding: 10px 14px; margin: 14px 0; page-break-inside: avoid; font-size: 11pt; }
+.qrbox { display: flex; align-items: center; gap: 14px; border: 1px solid #e3e3dc; background: #faf9f4; border-radius: 8px; padding: 10px 14px; margin: 12px 0; page-break-inside: avoid; }
+.qrbox .qr { width: 76px; height: 76px; flex: 0 0 auto; }
+.qrbox .qrtext { font-size: 10.5pt; line-height: 1.45; }
+.qrbox .qrtext a { color: #1f3d2b; word-break: break-all; }
+.fotos { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.foto { border: 2px dashed #c9c9bd; border-radius: 8px; width: 48%; height: 58mm; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px; color: #8a8a7d; font-size: 10pt; page-break-inside: avoid; }
+.diario { font-size: 10pt; }
+.diario td { height: 26px; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }
@@ -25,14 +47,190 @@ th { background: #f3f3ee; }
 </style></head><body>
 <div class="cover">
   <div class="tag">Frutíferas Orgânicas</div>
-  <h1>Bônus do Aluno</h1>
-  <div class="sub">checklist de rega e adubação + fichas de bolso</div>
+  <h1>Workbook do Aluno</h1>
+  <div class="sub">diário de cultivo, checklist e fichas de bolso</div>
   <div class="by">por Washington Frade<br/>canal Frutíferas Orgânicas</div>
 </div>
-<h1 id="bonus-do-aluno">Bônus do Aluno</h1>
-<p>Material de apoio do guia <strong>Cultivo de Frutíferas Orgânicas em Vasos</strong>.</p>
+<h1 id="workbook-do-aluno">Workbook do Aluno</h1>
+<p>Caderno de acompanhamento do guia <strong>Cultivo de Frutíferas Orgânicas em Vasos</strong>.</p>
+<p>Este material é seu: escreva, cole fotos e marque o que funcionou. É ele que transforma a leitura em resultado — porque o que muda a sua planta não é o que você leu, é o que você fez.</p>
 <hr />
-<h2 id="checklist-de-rega-e-adubacao">Checklist de rega e adubação</h2>
+<h2 id="1-meu-plano-de-vaso">1. Meu plano de vaso</h2>
+<table>
+<thead>
+<tr>
+<th>O que definir</th>
+<th>Minha anotação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Local do vaso</td>
+<td></td>
+</tr>
+<tr>
+<td>Horas de sol direto por dia</td>
+<td></td>
+</tr>
+<tr>
+<td>Frutífera escolhida</td>
+<td></td>
+</tr>
+<tr>
+<td>Tamanho do vaso (litros)</td>
+<td></td>
+</tr>
+<tr>
+<td>Substrato usado</td>
+<td></td>
+</tr>
+<tr>
+<td>Data do plantio</td>
+<td></td>
+</tr>
+<tr>
+<td>Previsão da 1ª colheita</td>
+<td></td>
+</tr>
+<tr>
+<td>Data da próxima renovação (2 anos)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-diario-de-cultivo-13-semanas">2. Diário de cultivo — 13 semanas</h2>
+<p>Anote uma vez por semana, sempre no mesmo dia. Em três meses você vai enxergar o padrão da sua planta — e vai saber exatamente o que mudou quando algo der errado.</p>
+<table>
+<thead>
+<tr>
+<th>Semana</th>
+<th>Data</th>
+<th>Altura / nº de folhas</th>
+<th>Rega</th>
+<th>Adubação</th>
+<th>O que observei</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-registro-fotografico">3. Registro fotográfico</h2>
+<p>Imprima esta página, cole as fotos ou escreva ao lado o que mudou. A foto do <strong>dia do plantio</strong> é a mais importante: é a sua linha de base.</p>
+<div class="fotos">
+  <div class="foto">Dia do plantio</div>
+  <div class="foto">Mês 1</div>
+  <div class="foto">Mês 2</div>
+  <div class="foto">Mês 3</div>
+</div>
+
+<hr />
+<h2 id="4-checklist-de-rega-e-adubacao">4. Checklist de rega e adubação</h2>
 <h3 id="rega-teste-do-dedo">Rega (teste do dedo)</h3>
 <ul>
 <li>[ ] Enfiar o dedo 2 cm no substrato antes de regar</li>
@@ -48,6 +246,7 @@ th { background: #f3f3ee; }
 <th>Fase</th>
 <th>Produto</th>
 <th>Frequência</th>
+<th>Feito?</th>
 </tr>
 </thead>
 <tbody>
@@ -55,39 +254,204 @@ th { background: #f3f3ee; }
 <td>Plantio</td>
 <td>Húmus de minhoca misturado ao substrato</td>
 <td>1 vez</td>
+<td></td>
 </tr>
 <tr>
 <td>Crescimento</td>
 <td>Bokashi na borda do vaso</td>
 <td>A cada 30-45 dias</td>
+<td></td>
 </tr>
 <tr>
 <td>Floração</td>
 <td>Organomineral com mais fósforo/potássio</td>
 <td>A cada 30 dias</td>
+<td></td>
 </tr>
 <tr>
 <td>Frutificação</td>
 <td>Adubo líquido diluído na rega</td>
 <td>A cada 15-20 dias</td>
+<td></td>
 </tr>
 <tr>
 <td>Repouso (frio/pós-colheita)</td>
 <td>Suspender ou reduzir</td>
-<td>-</td>
+<td>—</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h3 id="inspecao-semanal-de-pragas">Inspeção semanal de pragas</h3>
-<ul>
-<li>[ ] Olhar o verso das folhas</li>
-<li>[ ] Checar as pontas novas (pulgão)</li>
-<li>[ ] Verificar o caule (cochonilha)</li>
-<li>[ ] Observar se há formigas subindo no vaso</li>
-</ul>
 <hr />
-<h2 id="fichas-de-bolso-especies-em-destaque">Fichas de bolso — espécies em destaque</h2>
-<p>Recorte ou imprima esta seção e deixe perto dos vasos.</p>
+<h2 id="5-inspecao-semanal-de-pragas">5. Inspeção semanal de pragas</h2>
+<p>Cinco minutos por semana evitam uma infestação de meses. Olhe o <strong>verso das folhas</strong>, as <strong>pontas novas</strong> e o <strong>caule</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Semana</th>
+<th>Data</th>
+<th>O que encontrei</th>
+<th>O que fiz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="6-meu-calendario-de-adubacao">6. Meu calendário de adubação</h2>
+<p>Preencha o mês e o produto que você vai usar. Marque quando fizer.</p>
+<table>
+<thead>
+<tr>
+<th>Mês</th>
+<th>Produto / dose</th>
+<th>Feito?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Janeiro</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Fevereiro</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Março</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Abril</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Maio</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Junho</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Julho</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Agosto</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Setembro</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Outubro</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Novembro</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dezembro</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-fichas-de-bolso-especies-em-destaque">7. Fichas de bolso — espécies em destaque</h2>
+<p>Imprima esta seção e deixe perto dos vasos.</p>
 <h3 id="abacate-persea-americana">Abacate — <em>Persea americana</em></h3>
 <ul>
 <li><strong>Luz:</strong> Sol pleno</li>

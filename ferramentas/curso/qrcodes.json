@@ -1,0 +1,67 @@
+{
+  "site": {
+    "url": "https://frutiferasorganicas.com.br",
+    "rotulo": "Site Frutíferas Orgânicas",
+    "arquivo": "qrcodes/site.png"
+  },
+  "canal": {
+    "url": "https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas",
+    "rotulo": "Canal no YouTube",
+    "arquivo": "qrcodes/canal.png"
+  },
+  "guia-plantio": {
+    "url": "https://frutiferasorganicas.com.br/guias/plantio",
+    "rotulo": "Guia: como plantar em vaso",
+    "arquivo": "qrcodes/guia-plantio.png"
+  },
+  "guia-adubacao": {
+    "url": "https://frutiferasorganicas.com.br/guias/adubacao",
+    "rotulo": "Guia: adubação orgânica",
+    "arquivo": "qrcodes/guia-adubacao.png"
+  },
+  "guia-poda": {
+    "url": "https://frutiferasorganicas.com.br/guias/poda",
+    "rotulo": "Guia: poda de frutíferas",
+    "arquivo": "qrcodes/guia-poda.png"
+  },
+  "guia-colheita": {
+    "url": "https://frutiferasorganicas.com.br/guias/colheita",
+    "rotulo": "Guia: colheita no ponto",
+    "arquivo": "qrcodes/guia-colheita.png"
+  },
+  "guia-cuidados": {
+    "url": "https://frutiferasorganicas.com.br/guias/cuidados",
+    "rotulo": "Guia: regas e cuidados",
+    "arquivo": "qrcodes/guia-cuidados.png"
+  },
+  "guia-floracao": {
+    "url": "https://frutiferasorganicas.com.br/guias/floracao",
+    "rotulo": "Guia: floração e polinização",
+    "arquivo": "qrcodes/guia-floracao.png"
+  },
+  "guia-problemas": {
+    "url": "https://frutiferasorganicas.com.br/guias/problemas",
+    "rotulo": "Guia: problemas comuns",
+    "arquivo": "qrcodes/guia-problemas.png"
+  },
+  "guia-especies": {
+    "url": "https://frutiferasorganicas.com.br/guias/especies",
+    "rotulo": "Guia: escolher a frutífera",
+    "arquivo": "qrcodes/guia-especies.png"
+  },
+  "guia-gastronomia": {
+    "url": "https://frutiferasorganicas.com.br/guias/gastronomia",
+    "rotulo": "Guia: gastronomia com frutas",
+    "arquivo": "qrcodes/guia-gastronomia.png"
+  },
+  "video-poda-jabuticaba": {
+    "url": "https://www.youtube.com/watch?v=cQAsGpzPlk0",
+    "rotulo": "Vídeo: como podar jabuticaba",
+    "arquivo": "qrcodes/video-poda-jabuticaba.png"
+  },
+  "video-plantio-abiu": {
+    "url": "https://www.youtube.com/watch?v=doAr8IvIzuk",
+    "rotulo": "Vídeo: plantio de abiu amarelo",
+    "arquivo": "qrcodes/video-plantio-abiu.png"
+  }
+}

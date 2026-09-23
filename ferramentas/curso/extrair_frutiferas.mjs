@@ -60,6 +60,7 @@ const enxuto = lista.map((f) => ({
   frutificacao: f.frutificacao,
   dicas: f.dicas || [],
   curiosidades: f.curiosidades || [],
+  videos: (f.videos || []).map((v) => ({ id: v.id, titulo: v.titulo })),
   destaque: Boolean(f.destaque),
 }))
 

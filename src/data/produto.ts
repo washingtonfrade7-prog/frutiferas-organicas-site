@@ -57,10 +57,12 @@ export const produto = {
     'Quem já acompanha o canal e quer um material organizado para consultar',
   ],
   incluso: [
-    'E-book completo em PDF (leitura no celular, tablet ou computador)',
+    'Guia completo em PDF — mais de 60 páginas, em 10 capítulos com ação prática',
+    'Catálogo com mais de 100 frutíferas (luz, rega, solo, vaso, dificuldade e época de produção)',
+    'Workbook do aluno: diário de cultivo de 90 dias, registro fotográfico e checklists',
+    'Alerta de peso para sacadas e varandas de prédio (com a norma NBR 6120)',
+    'QR codes e links para os vídeos e guias de cada etapa',
     'Videoaulas práticas gravadas no pomar, mostrando cada etapa',
-    'Fichas de cultivo das principais frutíferas',
-    'Checklist de rega e adubação para imprimir',
     'Atualizações futuras sem custo adicional',
   ],
   faq: [
@@ -70,9 +72,9 @@ export const produto = {
         'Sim. O material começa do zero: escolha da muda, vaso, substrato e primeira rega. Você aprende o porquê de cada passo, não só a receita.',
     },
     {
-      pergunta: 'Funciona em apartamento?',
+      pergunta: 'Funciona em apartamento e varanda de prédio?',
       resposta:
-        'Sim. Todo o conteúdo é pensado para cultivo em vaso, inclusive em varandas e apartamentos com poucas horas de sol por dia.',
+        'Sim — e o guia trata isso com seriedade. Além do cultivo, você aprende a calcular o peso do vaso cheio e a respeitar o limite da laje (NBR 6120), com um mix de substrato leve para varandas. É o cuidado que quase nenhum material do mercado ensina.',
     },
     {
       pergunta: 'Qual a diferença entre o curso e o conteúdo gratuito do canal?',

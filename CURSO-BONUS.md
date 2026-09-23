@@ -1,10 +1,62 @@
-# Bônus do Aluno
+# Workbook do Aluno
 
-Material de apoio do guia **Cultivo de Frutíferas Orgânicas em Vasos**.
+Caderno de acompanhamento do guia **Cultivo de Frutíferas Orgânicas em Vasos**.
+
+Este material é seu: escreva, cole fotos e marque o que funcionou. É ele que transforma a leitura em resultado — porque o que muda a sua planta não é o que você leu, é o que você fez.
 
 ---
 
-## Checklist de rega e adubação
+## 1. Meu plano de vaso
+
+| O que definir | Minha anotação |
+|---|---|
+| Local do vaso | |
+| Horas de sol direto por dia | |
+| Frutífera escolhida | |
+| Tamanho do vaso (litros) | |
+| Substrato usado | |
+| Data do plantio | |
+| Previsão da 1ª colheita | |
+| Data da próxima renovação (2 anos) | |
+
+---
+
+## 2. Diário de cultivo — 13 semanas
+
+Anote uma vez por semana, sempre no mesmo dia. Em três meses você vai enxergar o padrão da sua planta — e vai saber exatamente o que mudou quando algo der errado.
+
+| Semana | Data | Altura / nº de folhas | Rega | Adubação | O que observei |
+|---|---|---|---|---|---|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
+| 8 | | | | | |
+| 9 | | | | | |
+| 10 | | | | | |
+| 11 | | | | | |
+| 12 | | | | | |
+| 13 | | | | | |
+
+---
+
+## 3. Registro fotográfico
+
+Imprima esta página, cole as fotos ou escreva ao lado o que mudou. A foto do **dia do plantio** é a mais importante: é a sua linha de base.
+
+<div class="fotos">
+  <div class="foto">Dia do plantio</div>
+  <div class="foto">Mês 1</div>
+  <div class="foto">Mês 2</div>
+  <div class="foto">Mês 3</div>
+</div>
+
+---
+
+## 4. Checklist de rega e adubação
 
 ### Rega (teste do dedo)
 
@@ -16,26 +68,62 @@ Material de apoio do guia **Cultivo de Frutíferas Orgânicas em Vasos**.
 
 ### Adubação (por fase)
 
-| Fase | Produto | Frequência |
-|---|---|---|
-| Plantio | Húmus de minhoca misturado ao substrato | 1 vez |
-| Crescimento | Bokashi na borda do vaso | A cada 30-45 dias |
-| Floração | Organomineral com mais fósforo/potássio | A cada 30 dias |
-| Frutificação | Adubo líquido diluído na rega | A cada 15-20 dias |
-| Repouso (frio/pós-colheita) | Suspender ou reduzir | - |
-
-### Inspeção semanal de pragas
-
-- [ ] Olhar o verso das folhas
-- [ ] Checar as pontas novas (pulgão)
-- [ ] Verificar o caule (cochonilha)
-- [ ] Observar se há formigas subindo no vaso
+| Fase | Produto | Frequência | Feito? |
+|---|---|---|---|
+| Plantio | Húmus de minhoca misturado ao substrato | 1 vez | |
+| Crescimento | Bokashi na borda do vaso | A cada 30-45 dias | |
+| Floração | Organomineral com mais fósforo/potássio | A cada 30 dias | |
+| Frutificação | Adubo líquido diluído na rega | A cada 15-20 dias | |
+| Repouso (frio/pós-colheita) | Suspender ou reduzir | — | |
 
 ---
 
-## Fichas de bolso — espécies em destaque
+## 5. Inspeção semanal de pragas
 
-Recorte ou imprima esta seção e deixe perto dos vasos.
+Cinco minutos por semana evitam uma infestação de meses. Olhe o **verso das folhas**, as **pontas novas** e o **caule**.
+
+| Semana | Data | O que encontrei | O que fiz |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+| 5 | | | |
+| 6 | | | |
+| 7 | | | |
+| 8 | | | |
+| 9 | | | |
+| 10 | | | |
+| 11 | | | |
+| 12 | | | |
+| 13 | | | |
+
+---
+
+## 6. Meu calendário de adubação
+
+Preencha o mês e o produto que você vai usar. Marque quando fizer.
+
+| Mês | Produto / dose | Feito? |
+|---|---|---|
+| Janeiro | | |
+| Fevereiro | | |
+| Março | | |
+| Abril | | |
+| Maio | | |
+| Junho | | |
+| Julho | | |
+| Agosto | | |
+| Setembro | | |
+| Outubro | | |
+| Novembro | | |
+| Dezembro | | |
+
+---
+
+## 7. Fichas de bolso — espécies em destaque
+
+Imprima esta seção e deixe perto dos vasos.
 
 ### Abacate — *Persea americana*
 

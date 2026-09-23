@@ -17,6 +17,28 @@ table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 10.5p
 th, td { border: 1px solid #ddd; padding: 5px 8px; text-align: left; }
 th { background: #f3f3ee; }
 .ficha { page-break-inside: avoid; }
+.ficha h4 { margin-top: 13px; }
+.receita { margin: 14px 0; page-break-inside: avoid; }
+.receita .barra { display: flex; height: 32px; border-radius: 6px; overflow: hidden; }
+.receita .seg { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: bold; font-size: 10pt; }
+.receita .s1 { background: #6b4f2a; }
+.receita .s2 { background: #2e5b3a; }
+.receita .s3 { background: #b98a2f; }
+.receita .legenda { list-style: none; padding: 0; margin: 9px 0 0; font-size: 10.5pt; }
+.receita .legenda li { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+.receita .dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; flex: 0 0 auto; }
+.receita .d1 { background: #6b4f2a; }
+.receita .d2 { background: #2e5b3a; }
+.receita .d3 { background: #b98a2f; }
+.destaque { border: 2px solid #d9a62e; background: #fdf8ec; border-radius: 8px; padding: 10px 14px; margin: 14px 0; page-break-inside: avoid; font-size: 11pt; }
+.qrbox { display: flex; align-items: center; gap: 14px; border: 1px solid #e3e3dc; background: #faf9f4; border-radius: 8px; padding: 10px 14px; margin: 12px 0; page-break-inside: avoid; }
+.qrbox .qr { width: 76px; height: 76px; flex: 0 0 auto; }
+.qrbox .qrtext { font-size: 10.5pt; line-height: 1.45; }
+.qrbox .qrtext a { color: #1f3d2b; word-break: break-all; }
+.fotos { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+.foto { border: 2px dashed #c9c9bd; border-radius: 8px; width: 48%; height: 58mm; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px; color: #8a8a7d; font-size: 10pt; page-break-inside: avoid; }
+.diario { font-size: 10pt; }
+.diario td { height: 26px; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
 .cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
 .cover h1 { font-size: 32pt; margin-bottom: 16px; }
@@ -140,17 +162,109 @@ drenagem</strong>. A manta separa a terra da água e impede que os furos entupem
 <p>Não use só pedras: elas não drenam e ainda criam uma camada que retém água, o famoso "pratinho
 interno" que apodrece raízes.</p>
 <h3 id="a-receita-de-substrato-que-eu-uso">A receita de substrato que eu uso</h3>
-<ul>
-<li><strong>50% de terra vegetal adubada</strong></li>
-<li><strong>30% de matéria orgânica</strong> (húmus de minhoca ou composto)</li>
-<li><strong>20% de drenagem</strong> (areia grossa, perlita ou vermiculita)</li>
-</ul>
+<div class="receita">
+  <div class="barra">
+    <span class="seg s1" style="width:50%">50%</span>
+    <span class="seg s2" style="width:30%">30%</span>
+    <span class="seg s3" style="width:20%">20%</span>
+  </div>
+  <ul class="legenda">
+    <li><i class="dot d1"></i><strong>Terra vegetal adubada</strong> — base, dá estrutura e nutrientes</li>
+    <li><i class="dot d2"></i><strong>Matéria orgânica</strong> — húmus de minhoca ou composto</li>
+    <li><i class="dot d3"></i><strong>Drenagem</strong> — areia grossa, perlita ou vermiculita</li>
+  </ul>
+</div>
+
 <p>Essa mistura retém umidade, alimenta e deixa o ar circular entre as raízes — os três pilares de uma
 planta saudável. Para espécies de solo mais leve (pitaya, amora), aumente a drenagem para 30%.</p>
 <p>Nunca use terra de quintal pura em vaso: ela compacta, vira barro e sufoca as raízes.</p>
 <h3 id="cobertura-morta-o-segredo-dos-vasos-que-nao-secam">Cobertura morta: o segredo dos vasos que não secam</h3>
 <p>Depois de plantar, cubra a superfície do substrato com <strong>casca de pinus, folhas secas ou palha</strong> (2 a
 3 cm). A cobertura morta reduz a evaporação, mantém a temperatura e ainda vira adubo com o tempo.</p>
+<h3 id="alerta-para-apartamentos-e-sacadas-o-peso-do-vaso">Alerta para apartamentos e sacadas: o peso do vaso</h3>
+<p>Antes de escolher um vaso grande para a varanda de um prédio, faça esta conta. É a parte que quase
+ninguém comenta — e que pode virar um problema estrutural.</p>
+<p><strong>Quanto pesa um vaso cheio?</strong> O substrato úmido pesa entre <strong>0,9 e 1,2 kg por litro</strong>. A fibra de coco
+é muito mais leve (cerca de 0,2 kg/L); a terra pesada e a areia, bem mais. Some o peso do vaso e da planta.</p>
+<table>
+<thead>
+<tr>
+<th>Vaso</th>
+<th>Substrato úmido</th>
+<th>+ vaso e planta</th>
+<th>Peso total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20 L</td>
+<td>~20 kg</td>
+<td>+ 5 kg</td>
+<td><strong>~25 kg</strong></td>
+</tr>
+<tr>
+<td>40 L</td>
+<td>~40 kg</td>
+<td>+ 10 kg</td>
+<td><strong>~50 kg</strong></td>
+</tr>
+<tr>
+<td>90 L</td>
+<td>~95 kg</td>
+<td>+ 20 kg</td>
+<td><strong>~115 kg</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>O que diz a norma.</strong> A NBR 6120 define a sobrecarga de uso para <strong>sacadas e varandas residenciais em
+2,5 kN/m²</strong> (aproximadamente <strong>250 kg/m²</strong>). Em áreas de acesso público, 4 kN/m² (400 kg/m²).</p>
+<p><strong>Onde mora o problema:</strong> o peso não se espalha — concentra-se na base do vaso. Um vaso de 90 L com base
+de 50 cm ocupa cerca de 0,20 m². São ~115 kg em 0,20 m², ou seja, <strong>quase 575 kg/m²</strong> — mais que o dobro
+do limite residencial.</p>
+<table>
+<thead>
+<tr>
+<th>Vaso</th>
+<th>Base</th>
+<th>Área</th>
+<th>Pressão no piso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20 L</td>
+<td>35 cm</td>
+<td>0,10 m²</td>
+<td>~250 kg/m² (no limite)</td>
+</tr>
+<tr>
+<td>40 L</td>
+<td>40 cm</td>
+<td>0,13 m²</td>
+<td>~385 kg/m² (acima)</td>
+</tr>
+<tr>
+<td>90 L</td>
+<td>50 cm</td>
+<td>0,20 m²</td>
+<td>~575 kg/m² (muito acima)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Como resolver:</strong></p>
+<ul>
+<li><strong>Distribua a carga:</strong> use um prato ou base larga e aproxime o vaso da parede ou de uma viga.</li>
+<li><strong>Prefira substrato leve:</strong> troque parte da terra por fibra de coco e perlita (veja o mix abaixo).</li>
+<li><strong>Não concentre</strong> vários vasos grandes no mesmo ponto da sacada.</li>
+<li><strong>Na dúvida, consulte o síndico ou um engenheiro estrutural.</strong> Cada laje tem um limite — e ele não é óbvio.</li>
+</ul>
+<div class="destaque">
+<strong>Mix leve para varandas</strong> (pesa cerca de metade do substrato comum):
+40% fibra de coco · 30% terra vegetal · 20% perlita ou vermiculita · 10% húmus de minhoca.
+</div>
+
+<p><strong>Ação prática:</strong> pese um saco de substrato de 20 L e multiplique. Agora você sabe o que está colocando
+na sua sacada.</p>
 <p><strong>Ação prática:</strong> monte a drenagem e o substrato em um vaso vazio hoje. Você já vai usá-lo no capítulo
 3.</p>
 <hr />
@@ -177,6 +291,11 @@ do meio-dia sofre queimadura e desidrata.</p>
 estaca agora, para não machucar raízes depois.</p>
 <p><strong>Erro comum:</strong> plantar e encharcar. Água demais nos primeiros dias apodrece a raiz antes de ela
 pegar. Na primeira semana, regue pouco e observe.</p>
+<h3 id="veja-na-pratica">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABhElEQVR42u2aSY7DMAwEifn/n5lBpOaixQiCuU3Jge3YOhWoZpOy+SfDmMWsb2fZGOPm/Wj8K29+7JPxH2aZwJpOv4/GUd7Aq/GywcjESQGmZ/C68JpBZRMZvJ55TcVySRm8nvRrAhoShn7dec2bw0F+PPCqBmQqfom794DXql8j0DIxZnzBa1uPASc1f4aZsx5P8RVoRMp1GQkAXlW/wpyGeIW9x0/c9ctCt6RernwArxZfSoWzhsxiSKURvDa9N62+eieI8FriS5FVWjlFyOC1xFdpSJTCSCsSXhsvb32wdGJOfjz5CWuWPhboBAavpX5M9VKQWTf68Or1tnmz9cX1jwCDV+/nRO3TPEb+4LXUj9nYUYEUeQD92njl5lksyFKHw2vjFaA8NSy7X/Ba9V5JsXYJrfRb4dX1PgMt12LZt4XXql/Rx4lNx2Jl4bX3v9q5fleB/7ryyu2hJWnC6xxfKoXy6xynv3rVr2Zc5cXwX9f8mD2crI3w93f/xZeDzPrzWS/P/ScMLV9ZRQAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Guia: como plantar em vaso</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/plantio">frutiferasorganicas.com.br/guias/plantio</a></div></div>
+
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABfUlEQVR42u2ayw4CIRAEO/7/P4+aeTUwq8Z4s1ezinKqQNEMC/vkgnqp17e94Nfj6/OWDdA/dsMn1z/0QoJ1Wg3Nm4FUvBZeSFROCNR2auI18+L5KF7veNVEDGzi9dJf/eGuN/lr5tXr4/7S+jjw6mgRzfAXXeLFvNJeVooPXOkx8dr9VZo3/yFnY8hMvBZ/Vehas1jaTbyG9dF6Inam8LEnXsN8jJmYCcybKTbxOnzf2yDO9/EWry3fp9yNI0ZLTLxW36eqMlWkzGJ4ide+Ppa21upXLgbiteZ79PzLMVY3+evw/Zq7imBtjsRr8/0ofbTOxGvbb1N64EyWA068Tn91vb7WTO0fL/L9sfFOcJC/xnzfRx2MD/LX9f6RdEUnH6oXjr63jhVmlCyg/faQ7ynUd72QzyTF66h/wehYrWsWmo9jfaLOGlGVfCulidfIiw+JAPnr7fjq4w4Dl6fFa/QXuipddUPVv67Xx0qr9DwTtB+6zF96clC9ft7rDrEeIhFEhObgAAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Vídeo: plantio de abiu amarelo</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://www.youtube.com/watch?v=doAr8IvIzuk">www.youtube.com/watch?v=doAr8IvIzuk</a></div></div>
+
 <p><strong>Ação prática:</strong> fotografe a muda no dia do plantio. Essa foto vai ser sua referência para medir o
 crescimento nas próximas semanas.</p>
 <hr />
@@ -205,6 +324,9 @@ pequenas. Para jabuticaba, citros e mangas, prefira o vaso grande tradicional co
 </ul>
 <p>Na dúvida entre os dois, <strong>espere</strong> — planta com sede se recupera em horas; planta encharcada, muitas
 vezes não.</p>
+<h3 id="veja-na-pratica_1">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABg0lEQVR42u2aQW7DMAwEF/3/n5m0oriUbKVBkVtHQRDH1mlAcpeUFe8ssYtdf92lsZ6/33/H9fokvvTO+g+7NMEOPD9XirxbT+C18FIiKlL7E3jd8NKIKWWABbx+4eU8zDSF16v6pSxgyhijfh14TX28ftDHG162FpmLslbmgteWjyOWMgMrsOoevC71KwypqA25JL62fMwa5oQM5+O4B6+lfmXF6j5frmDk400+phELK2bIzgJeqz5Of9r6x/mlfl39V+uvNf1qlrRBFF6b/ypMrUGyVMJr1Ud3QauPqMCD16qPzeBX79jdBbx2/xWthbQuCv910Ed5wqpu9fFf5/4x+tSwpSa8Nl41jvZFRMcHr60fKmQ1jG4s4XXRR49TbWLxEyd/X+P6NKr29kkOXpu/j3D3aEtBPp7iS2W4onWT6ONxnlNnj00mPaCA1+Yn1N+cmMh8A143vHrlX86K4HXgZVvh4Re8zvXLsOqAjfPHF/pY01bT4vzx6L94c5BdH9/1AIg8P/NK7EwAAAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Guia: regas e cuidados</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/cuidados">frutiferasorganicas.com.br/guias/cuidados</a></div></div>
+
 <p><strong>Ação prática:</strong> durante uma semana, faça o teste do dedo todos os dias e anote. Você vai descobrir o
 ritmo real do seu vaso.</p>
 <hr />
@@ -269,6 +391,9 @@ em solo já úmido.</p>
 </ul>
 <p><strong>Erro comum:</strong> adubar planta recém-transplantada. Espere <strong>2 a 3 semanas</strong> para as raízes se
 acomodarem.</p>
+<h3 id="veja-na-pratica_2">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABgElEQVR42u2awQ7DMAhDrf3/PzOpBQMJ7apptznboVOzyxMYQwJ7sqBd2vXtLpzr+AP4u76xF56sf9iFAAtndTz5z3gjXp0Xw+nAQ2b5RrwGXhFhlZR4fYgvT1BnJl43+mUkVXNS+rXxYkHcPqqPAy9aC1DxU/3PJV6Lfp1CRaVHSU/F15SP4VwbMfijeLV8RHDJ4kh+iq+Jl/dCnpdZF6F8nPQ+OsfoOZHaBen94L8SVvVdYSvE66o+hvzTYTg78Vriq1jU8KlWjIV4rf0QOM9JHwEKmHgt/j7qI9g70kyoPm5+NVgxrFgo3fSLV9f7aBazKbLGTbxWXqFc6b1oy5SPO686o6hDfP+KV9f75rxQKqTLv3i1/tHqaYdl3w31Q5f5WCb4ME51pPez/+LRbZ8WmuJr8l/08qi+CxR98dr6IcNylBbaL786zScYSf1Ohfz9Da+8MlFvUch/3fBqXWMqv3hN+sWZYRl+QefbN/XRKqg6wBevwX/p5qB2/XzXG9yJOvhlK6VtAAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Guia: adubação orgânica</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/adubacao">frutiferasorganicas.com.br/guias/adubacao</a></div></div>
+
 <p><strong>Ação prática:</strong> monte um calendário no celular com os avisos de adubação (30 a 45 dias para o
 bokashi).</p>
 <hr />
@@ -302,6 +427,11 @@ grande: ele apodrece e vira porta de entrada para doença.</p>
 <li><strong>Amora:</strong> corte as hastes velhas após a safra, deixando as novas.</li>
 </ul>
 <p><strong>Regra prática:</strong> sempre que podar, faça a planta "pensar" para onde mandar energia.</p>
+<h3 id="veja-na-pratica_3">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABhklEQVR42u2awW7DMAxDhf3/P7OAI0q04rTFsNuYNoHruJcHiaKVBL45wqu86rer4joQ6y/rDJ7XHfzEN8d/WBUEuwY9F+vLO+a18croSkIXK+iceZ14ZUjlFeb1nhc45Ni83upXZSNz0fp15iX1cXxcHw+8ylrkj8WuquM6zEt5MZQQ7doyuGD9OvBqzUp6qWScN69RHzEGGXbUffPa9R60FRyrI7N+HfMxOgtRANOFmdfNT3AfVGc7fvO6+dXo3RAjrLXM+Xj3E92SGDvKK0nNa+g9tDfRmsZp8xr+PtRU0Hz1JtK8dl4iXVt7goFmXsOvdk9CaiRoW81rj6/QXqrsKOF+zlN/QpqrDLJ2/eY16iPEuMbmKuzvT/6rJF5aYdVgNa+7v6fCp5+H7JOs9yf9opmoS3fzHV+H/bb078tUlIKZ18jHLpDDwYb7qye/WtnHeOv3KtwvfOIlbVYg4Hz8HF+Q7VF3XM3rSb9a7QN+/vihPgqs6MdF9l9P/stvDnrVn696ATMKMQJW3s7gAAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Guia: poda de frutíferas</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/poda">frutiferasorganicas.com.br/guias/poda</a></div></div>
+
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABeElEQVR42u2ayW7DQAxDifz/P7NARgtly2hQ9BY6SLzMnB4kSqIDfnLAu7zrr7twjrwh4iwrL3xyfMMuJNg3pfN9IwN7xbwmLyBpxS3jIlfMa+GFysdzMq/feJ2LYKeRZ16LfvGIPsFOTevXwisulo/r48KrWovsIUK+ZMm8lNcJJEY2ZrFs0TevWz5KiwttvmLJvC7xpSqWcYX4sX7d9KvCrFMT/di87vpFhYfKTPcTT/1ESRemhlm/Fl7smbFGx/IrzGvtv6pnLa8ixiLn4zW+OpBKwzhwmtfkJYgoBNOhMK+H/r4HSUrlNK+1/xomYd5Y7xdeXSXb0GeXSPO6+F8zLynehONr5RU9xM1pTYLmdeE1BiJNStfHfR6qYKppWwwL81r6e32N1m7r6SvM6zZv1wwpugXzWvWLQ+/LKSTtFz71ExSTEGN+dHw986I40V04zWvlRUzXMBXNvB70S1+kcWwxr70+ZhIOc9r6tfdf/uegd/37rh9ZWyMQ9IXajgAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Vídeo: como podar jabuticaba</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://www.youtube.com/watch?v=cQAsGpzPlk0">www.youtube.com/watch?v=cQAsGpzPlk0</a></div></div>
+
 <p><strong>Ação prática:</strong> faça uma poda de limpeza hoje — só o seco, o doente e o que cruza. É a mais segura e
 a que mais melhora a planta.</p>
 <hr />
@@ -330,6 +460,9 @@ adubação e luz.</p>
 <h3 id="maturacao">Maturação</h3>
 <p>Sol direto sobre o fruto acelera e adoça. Depois de formado o fruto, mantenha a rega constante: falta
 de água nessa fase racha fruta e reduz o sabor.</p>
+<h3 id="veja-na-pratica_4">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABeklEQVR42u2awQ7CMAxDI/7/n4NYE8dt02lC3PC4MFYuT4ntdDV/cplWadW3q2xc1x9s3C1P/GVPrn9YZQn2ojVAfdBZIRevlVdUV3DKwqIn4tXwqupCb4rXLS+oWLSpeN3pFyosakz6deAFf9w+8seGV0WLi1pC5EAiXks/Dk7UkPNz8TrVFzTfjSKZeDEvS40vc/QkOX4Tr6m+WLGGAYSYyR9bfwxWs2NmwpA/7voVWp+tmIXmmc7Ea6kv5FXWskgX4rXpl+fo6DQglVWK1+qPjmnIpxEyGlK8uvoKc/RJxdSPbV7lERI7OXkvXks/VpzA12ljWrw2XoawZQgY0DTx2va/WOGpF9WPrd5TVK1wYXBN8drzPQ9FeEmkPNHl+wJUgxHvHIpXu/8VQk9pX/14qK8lfDntT8gfW380moQMwiX96nhNObWQVb+KV8OLTwYYDUnideLldPIELileJ/1iWNgqVD8e/dH4tQdFf/Fq85dODmrVz1e9Af2mO/cSoJNoAAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Guia: floração e polinização</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/floracao">frutiferasorganicas.com.br/guias/floracao</a></div></div>
+
 <p><strong>Ação prática:</strong> plante uma flor companheira (manjericão, calêndula) perto do vaso para atrair
 polinizadores.</p>
 <hr />
@@ -396,6 +529,9 @@ remova as partes afetadas. Não molhe as folhas.</p>
 </ul>
 <p><strong>Inspeção semanal:</strong> olhe o <strong>verso das folhas</strong>, as <strong>pontas novas</strong> e o <strong>caule</strong>. Cinco minutos
 por semana evitam uma infestação de meses.</p>
+<h3 id="veja-na-pratica_5">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABd0lEQVR42u2a2w7CMAxDLf7/n4OgjePexoR4w0Oi2lZejmLHbUHcueBZnvXtLLTrNbab9lN5Ew/cuf5hFhJswxNvWoKsfZvXwCtrinfzG/Pa8Ops3s9SrOZ1xaspUAfzOvtXuytO9q8Dr+yP68f9ccNrDCAEqIHEvCY90sMiIMkr35vX4vfRS60eMmKY18oL4lisssjRvEa/73EeLLIQb7MeJ79ndkAik3oL98djf0SZ/RBdzWvqf1gYsbhg/1rrq7qhRvsKYeY1+X1oV8zFZOYx81r8Szw+ZVkVZ15zf4QIsVt+aGo1r8m/SpKKD3D+2vlXGVfuQxOg/f6w/0XDGrVoPR7yqu5UBM88eoWZ19wfa0kkKYwqNa8xf/VMnzsUoYbv9eNp/VjpIiSxWo+b+mJRlXtVzDevTX+UoyFZCHk9tOMFnteGUBO9mteGF4M+T4YIzLz2vFhk0iXN65N/MV7A549X/bHkyI3V8PnjMX/5n4Oe9fNZT1xwSemO7Ad4AAAAAElFTkSuQmCC" alt="QR code"/><div class="qrtext"><strong>Guia: problemas comuns</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/problemas">frutiferasorganicas.com.br/guias/problemas</a></div></div>
+
 <p><strong>Ação prática:</strong> marque um dia fixo da semana para a inspeção. Trate no começo: uma cochonilha vira
 cem em poucas semanas.</p>
 <hr />
@@ -427,6 +563,11 @@ citros, mais.</p>
 <li>Se possível, aumente o vaso.</li>
 </ol>
 <p>Isso rejuvenesce a planta e mantém a produção por décadas.</p>
+<h3 id="veja-na-pratica_6">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABf0lEQVR42u2aSY7DMAwEG/P/PzMTSNy0GEEwtykHSOxIpwLZbJGWfXKJXez6dpfG9fv7fhz375tcsR99cv2HXXKwyi8561iBV+OlgUgzqszWFXgdeMnGfQYYvB55adIxT1N4PelXjSpTfYZX4+X1cf9QHw+80lqo+Im2BK8lHwcnk0Lm2zq8Nl6WkNyLjT+Jr02/zMFEcaziD69Fv5pijbtpJaiPZ733rJyUSr0cmgavhVdNPjetyRFeB/0yPwi5WR0FU+jXFl+KxkQ2daagCf+1632egkpSRhMMXpf4msVxxlnhBq81vpQ9ibXLCq9LfZR1B5bRB6+dV5jWSMM8UMJr7edEc8Lc75cGD7x2f6/aj7Y8JBl6f+p/qTTv08TiJy7+3r8jE9XJwWuJrzJtVHH75ONF7xXzbZ9sWykA8Gq8yosBOVZTbVDAq/HSPn90/SK+rrzSQ0Q/zIHB68grdT+bX/C66ledCalNIOF1rI/RjU5azB+v/os3B9n157teXLlB8WGsfroAAAAASUVORK5CYII=" alt="QR code"/><div class="qrtext"><strong>Guia: colheita no ponto</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/colheita">frutiferasorganicas.com.br/guias/colheita</a></div></div>
+
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABfElEQVR42u1aQQ7CMAyz+P+fg7Q2jtulE0LccMehsJ4sx3FcEJ8s+JRPfXsKY12b8dP1Vd+88Mn6h1NIYJEQX1AN6PjGeC14DTrlM3gVAb4xXi1e1ycm4/SN8er5ldRKLTNeT/qVJIuqS+tXh9fcNI/7Y4MXrQW5lXTjMl67fkFQym39brw6fi3+dezC9djgpaQCcjJAlaXx2vojUq9QliJthfm18Qu0qeXDgvbL+nXX+ylWaiPoxaxfd70HK1KjClao8Wr4FUI1tsZZncZr8fdUdg5DoJ55Hmr0XkovnT5Yo8brXo/rHCRphf1X7ycgCSsDQyqY8Vr9fRr7zVqwMI3X3h+xXH0U42C9P+UT2hEhA6T1q9N7envOk+nDjNehP2qDrPTL/DrlX7wkqmloNgDjtfh73aw3Q56H+vwrNI5Y0wnXY9cfb/ccoF11PR7wqmoEIFm+8XrAKwCJwsL56lG/5FK7gh77r2N/5HhdrgL292f/5X8O+tTPT70BhakzAEGn0pAAAAAASUVORK5CYII=" alt="QR code"/><div class="qrtext"><strong>Guia: gastronomia com frutas</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/gastronomia">frutiferasorganicas.com.br/guias/gastronomia</a></div></div>
+
 <p><strong>Ação prática:</strong> anote no calendário a data da sua próxima renovação de substrato.</p>
 <hr />
 <h2 id="capitulo-10-multiplicacao-faca-suas-proprias-mudas">Capítulo 10 — Multiplicação: faça suas próprias mudas</h2>
@@ -451,760 +592,880 @@ fruticultura.</p>
 <h3 id="semente-para-curiosos">Semente (para curiosos)</h3>
 <p>Sementes são divertidas, mas demoram de 5 a 10 anos e não repetem a qualidade da fruta. Use sementes
 para experimentar, não para produzir.</p>
+<h3 id="veja-na-pratica_7">Veja na prática</h3>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABfklEQVR42u2aS27EMAxDid7/ziw6tinaUTKDorsyWeTn1YNEUXLATw5kVVb9dhXG8brlzxWvl6wv/MInx39YhQUWHMQGp/FyfQmvndeIrslLkKAv4dXxop5mJobXc3xhJeNKzPB60i+K0FKw6FfLS/XxcqY+NrzMW2DKF7HbkfDa87GepmxZjUx8XeNLF5hZnW+iXxdeMEtBlHOdChZeTX0UqmXBaIY/vDy+psqLUdVKxE/0+SinqpCSb019fKNfVBeJFWLhdfoJFUQS1W6nPrb6BTkHVLB5AIbXqV+kQYN5r8RX71d3q1/Dr/iv1k/MImmznIq88DrnE9zS0Kc5g2V4nfMcq4214RG9v/cTKPflO0PRr4aXNYyrQqrXTn1s9QvWLW4zsfSPjZ+gyZZMrM1Zw+vU+5V59M0iZWp4XeZfpvjA9kdAeF30fu8dN6Mf/XrgRZtB24QivDpe5Sc8xhheN/qloZdtQyJ+9aE++pxC9/ETN/4rfw5m1Z+v+ga48ikKb/G2ggAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Canal no YouTube</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas">www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas</a></div></div>
+
 <p><strong>Ação prática:</strong> faça duas estacas hoje — acerola ou amora. Em um mês você tem muda nova de graça.</p>
 <hr />
 <h2 id="catalogo-de-cultivo-mais-de-100-frutiferas">Catálogo de Cultivo — mais de 100 frutíferas</h2>
 <p>Este é o coração do guia: uma ficha rápida de cada espécie, com <strong>luz, rega, solo, tamanho de vaso,
 dificuldade, tempo até produzir e época de frutificação</strong>. Use antes de comprar a muda e sempre que
 tiver dúvida no cultivo.</p>
+<p>Cada ficha traz os ícones <strong>☀</strong> (sol), <strong>◐</strong> (meia-sombra) e <strong>💧</strong> (rega) para consulta rápida, e as
+espécies com vídeos no canal trazem o link <strong>▶</strong> para assistir ao cultivo na prática.</p>
+<h3 id="comece-por-aqui-escolha-pela-sua-situacao">Comece por aqui: escolha pela sua situação</h3>
+<p>Não sabe qual escolher? Vá direto ao grupo que combina com você.</p>
+<p><strong>Primeira frutífera (à prova de erro)</strong>
+Acerola, pitanga, amora, figo, limão e romã. Rústicas, perdoam erros e produzem cedo.</p>
+<p><strong>Quero colher rápido (menos de 1 ano)</strong>
+Morango, maracujá, mamão, abacaxi, amora e uva BRS Vitória.</p>
+<p><strong>Produz quase o ano todo</strong>
+Acerola, limão (cravo, siciliano, galeguinho), pitanga preta, sapoti e carambola.</p>
+<p><strong>Pouco espaço (varanda pequena)</strong>
+Morango, mirtilo, cambuí, pitangatuba, fruta do milagre e jabuticaba híbrida em vaso médio.</p>
+<p><strong>Sol forte e calor</strong>
+Pitaya, mandacaru, caju, acerola, seriguela e cajá-manga.</p>
+<p><strong>Meia-sombra</strong>
+Cacau, fruta do milagre, ingá, tamarilho e bacupari de bico.</p>
+<p><strong>Nativas raras (para quem quer sair do comum)</strong>
+Cambuci, camu-camu, cabeludinha, grumixama, uvaia, bacupari e araçá-boi.</p>
+<p><strong>Varandas com vento</strong>
+Prefira espécies de porte baixo e galhos firmes (pitanga, acerola, romã, figo, mirtilo), faça poda de
+formação baixa, use tutor e evite vasos altos e estreitos, que tombam fácil. Vasos largos e baixos, ou
+jardineiras, sofrem muito menos com a ventania.</p>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABgUlEQVR42u2awYrDMBBDxf7/P2shyWhkZxJK2dsqpaXEPj1kWTM2+MmDzMqsb2fhfHj91kv2CH/wyfMfZqHAnryOfwc0sEfCa+V16qrYnVo73l8j4TXx4qUvyS283vVVzC59Mbxe/YvXWqSQxb9GXrU/3j/ZHwde7lmS2RpIwmtdj53AqBDG9rbwWtcjN6evLyuThdfqX5PTQw4WXpt/dYSo2NVuljwx+D1UM6qOtCIyvFZeaG/v+lGFd/bHSV9KYB4mKl6E157vu772Zo6YhdddXzJ3rdAeD6+7f1lMtX0z+pr6EzIsNQo77ofXwAvKFIRXj8n3D/neQtdef0dft/oRdrxh3WnG7x/zBPxQiGt8Da97P4eK9o0JVVaG1+Zfcn6oZoSWZ3jteXXr4MN6rNHXoC+0xqrdWo2d8Jr8nrQzWmuwXlPCa82rfb4NO6ltnOE18fKrE/QD3PCaePktAAtk4fXgX31jQo0dxL9e9sfKFfBOfuqhp/yVm4OZ9eezfgEVwDr4p1WBFwAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Guia: escolher a frutífera</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br/guias/especies">frutiferasorganicas.com.br/guias/especies</a></div></div>
+
+<h3 id="as-fichas">As fichas</h3>
 <p>As fichas estão agrupadas por categoria. Uma frutífera pode aparecer em mais de uma.</p>
 <h3 id="frutiferas-nativas-do-brasil-39">Frutíferas nativas do Brasil (39)</h3>
 <div class="ficha">
 <h4 id="ajuru-preto-branco-chrysobalanus-icaco">Ajuru Preto Branco — <em>Chrysobalanus icaco</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Nativa de restinga e manguezal, com frutos doces de casca escura. Rústica e ótima para quem quer uma nativa pouco comum.</p>
 </div>
 <div class="ficha">
 <h4 id="ananas-do-mato-ananas-bracteatus">Ananás do Mato — <em>Ananas bracteatus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Bromélia nativa parecida com o abacaxi, mas de frutos menores e muito perfumados. Ornamental e comestível.</p>
 </div>
 <div class="ficha">
 <h4 id="araca-amarelo-psidium-cattleianum-var-lucidum">Araçá Amarelo — <em>Psidium cattleianum var. lucidum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Variedade de casca amarela do mesmo araçá: frutos mais doces e menos ácidos que o vermelho, com aroma suave.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=Jxf4sGvf5fA">Assistir no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="araca-boi-fruta-iogurte-psidium-guineense">Araçá Boi (Fruta Iogurte) — <em>Psidium guineense</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Frequente, sem encharcar · <strong>Vaso:</strong> Vasos a partir de 30 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Frequente, sem encharcar · <strong>Vaso:</strong> Vasos a partir de 30 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos a partir da muda · <strong>Frutificação:</strong> Primavera e verão, com florações recorrentes</p>
 <p><strong>Solo:</strong> Fértil e bem drenado, com boa matéria orgânica</p>
 <p>Também conhecida como fruta iogurte, tem polpa cremosa e sabor que lembra iogurte. Uma das nativas mais produtivas em vaso.</p>
 <p><strong>Dica:</strong> Adube regularmente durante a frutificação para não perder produção.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=g-iusR1X8og">Assistir no canal: Colheita e vitamina da fruta iogurte</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="araca-pera-psidium-acutangulum">Araçá Pera — <em>Psidium acutangulum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Araçá de frutos em formato de pera, polpa doce e aromática. Espécie amazônica rara, de crescimento moderado.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=Jxf4sGvf5fA">Assistir no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="araca-roxo-psidium-cattleianum">Araçá Roxo — <em>Psidium cattleianum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Araçá de casca arroxeada/escura, sabor intenso e adocicado. Menos comum que o vermelho e o amarelo, muito procurado por colecionadores.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=Jxf4sGvf5fA">Assistir no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="araca-vermelho-psidium-cattleianum">Araçá Vermelho — <em>Psidium cattleianum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Moderada a frequente · <strong>Vaso:</strong> Vasos a partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Moderada a frequente · <strong>Vaso:</strong> Vasos a partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos a partir da muda · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Adapta-se a solos pobres, mas prefere bem drenados</p>
 <p>Pequeno, rústico e muito produtivo. O araçá vermelho é ideal para vasos e rende uma colheita abundante de frutos doces e aromáticos.</p>
 <p><strong>Dica:</strong> Pode ser conduzido como pequeno arbusto ou árvore com poda de formação.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=7BlqNvySrFs">Assistir no canal: Colheita de araçá vermelho e amarelo</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="bacupari-estalo-garcinia-brasiliensis">Bacupari Estalo — <em>Garcinia brasiliensis</em></h4>
-<p><strong>Luz:</strong> Meia-sombra a sol pleno · <strong>Rega:</strong> Moderada · <strong>Vaso:</strong> Vasos a partir de 40 litros</p>
+<p>☀◐ <strong>Luz:</strong> Meia-sombra a sol pleno · 💧 <strong>Rega:</strong> Moderada · <strong>Vaso:</strong> Vasos a partir de 40 litros</p>
 <p><strong>Dificuldade:</strong> Avançada · <strong>Produz em:</strong> 4 a 6 anos a partir da muda · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, ácido e bem drenado</p>
 <p>Conhecido pelo som característico do fruto ao ser aberto. Uma frutífera rara e saborosa do Cerrado brasileiro.</p>
 <p><strong>Dica:</strong> Ofereça meia-sombra nos primeiros anos de vida.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=MvfDp1kJVwo">Assistir no canal: Colheita de bacupari de bico orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="bacupari-mirim-garcinia-gardneriana">Bacupari Mirim — <em>Garcinia gardneriana</em></h4>
-<p><strong>Luz:</strong> Meia-sombra a sol pleno (jovem) · <strong>Rega:</strong> Moderada, mantendo o solo levemente úmido · <strong>Vaso:</strong> Vasos a partir de 40 litros</p>
+<p>☀◐ <strong>Luz:</strong> Meia-sombra a sol pleno (jovem) · 💧 <strong>Rega:</strong> Moderada, mantendo o solo levemente úmido · <strong>Vaso:</strong> Vasos a partir de 40 litros</p>
 <p><strong>Dificuldade:</strong> Avançada · <strong>Produz em:</strong> 4 a 6 anos a partir da muda · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, ácido e rico em matéria orgânica</p>
 <p>Fruta nativa rara, doce e apreciada por colecionadores. O bacupari mirim é uma joia da fruticultura brasileira.</p>
 <p><strong>Dica:</strong> Prefere sombra parcial quando jovem, evoluindo para sol pleno.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=MvfDp1kJVwo">Assistir no canal: Colheita de bacupari de bico orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="bacupari-de-bico-garcinia-gardneriana">Bacupari de Bico — <em>Garcinia gardneriana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Nativa de frutos amarelos e doces, com casca firme. Gosta de meia-sombra e de solo rico em matéria orgânica.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=MvfDp1kJVwo">Assistir no canal: Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="bacuri-platonia-insignis">Bacuri — <em>Platonia insignis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta amazônica de aroma marcante e polpa cremosa, muito usada em doces. Exige calor e umidade.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=MvfDp1kJVwo">Assistir no canal: Colheita de Bacuri pari Bacupari de Bico(GARCINEA BENTHAMIANA) ORGÂNICO EM VASO</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="cabeludinha-roxa-myrciaria-glazioviana">Cabeludinha Roxa — <em>Myrciaria glazioviana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Também chamada de peludinha: frutos amarelos de casca aveludada, polpa suculenta e doce com leve acidez. Arbusto compacto, ótimo para vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=Kv5XfW0Mkks">Assistir no canal: Colheita e degustação cabeludinha/ jabuticaba amarela em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="cagaita-eugenia-dysenterica">Cagaitá — <em>Eugenia dysenterica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruto amarelo do Cerrado, suculento e levemente ácido. Muito produtivo e rústico, símbolo da fruticultura do Cerrado.</p>
 </div>
 <div class="ficha">
 <h4 id="caju-anacardium-occidentale">Caju — <em>Anacardium occidentale</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos · <strong>Frutificação:</strong> Inverno e primavera</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>O cajueiro anão produz bem em vaso grande e gosta de sol pleno e calor. A castanha e o pedúnculo são os frutos.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=UXbHFC_chBM">Assistir no canal: Como plantar cajú anão orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="caja-manga-anao-spondias-dulcis">Cajá-Manga Anão — <em>Spondias dulcis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Parente da seriguela, de frutos ácidos e aromáticos, ótimos para sucos. Porte anão, ideal para vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=DxI6WyPKNNI">Assistir no canal: Colheita e degustação mangá Ubá em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="calabura-muntingia-calabura">Calabura — <em>Muntingia calabura</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Também chamada de cereja-do-campo ou calabura: frutinhas vermelhas muito doces e adocicadas, produtivas quase o ano todo. Ótima para atrair pássaros.</p>
 </div>
 <div class="ficha">
 <h4 id="cambuci-campomanesia-phaea">Cambuci — <em>Campomanesia phaea</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruto achatado e verde mesmo quando maduro, de sabor ácido e aromático. Símbolo de São Paulo, raro e valorizado na gastronomia.</p>
 </div>
 <div class="ficha">
 <h4 id="cambuca-jabuticaba-amarela-plinia-aureana">Cambucá (Jabuticaba Amarela) — <em>Plinia aureana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Myrtaceae nativa de frutos amarelos e doces, parecidos com a jabuticaba. Rústica e ornamental.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=k5TSZVIdeuw">Assistir no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="cambui-roxo-eugenia-candolleana">Cambuí Roxo — <em>Eugenia candolleana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Nativa de porte pequeno, com frutinhas roxas doces e casca fina. Excelente para vaso pela rusticidade.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=t2RjNcj8zCc">Assistir no canal: Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="camu-camu-myrciaria-dubia">Camu-Camu — <em>Myrciaria dubia</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Famosa por ter uma das maiores concentrações de vitamina C do mundo. Frutos ácidos, ideais para sucos.</p>
 </div>
 <div class="ficha">
 <h4 id="cereja-do-rio-grande-eugenia-involucrata">Cereja do Rio Grande — <em>Eugenia involucrata</em></h4>
-<p><strong>Luz:</strong> Sol pleno a meia-sombra · <strong>Rega:</strong> Moderada a frequente · <strong>Vaso:</strong> Vasos a partir de 30 litros</p>
+<p>☀◐ <strong>Luz:</strong> Sol pleno a meia-sombra · 💧 <strong>Rega:</strong> Moderada a frequente · <strong>Vaso:</strong> Vasos a partir de 30 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos a partir da muda · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil e bem drenado</p>
 <p>Conhecida como cereja brasileira, tem frutos vermelhos doces e propriedades medicinais, além de grande valor ornamental.</p>
 <p><strong>Dica:</strong> Faça poda de limpeza anual para estimular a produção.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=gHWp3oKDm1o">Assistir no canal: As propriedades medicinais da cereja do Rio Grande</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="cupuacu-theobroma-grandiflorum">Cupuaçu — <em>Theobroma grandiflorum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 4 a 5 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta amazônica de polpa ácida e muito aromática, símbolo do Norte. Exige calor, umidade e solo fértil.</p>
 </div>
 <div class="ficha">
 <h4 id="gabiroba-do-cerrado-campomanesia-pubescens">Gabiroba do Cerrado — <em>Campomanesia pubescens</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Moderada · <strong>Vaso:</strong> Vasos a partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Moderada · <strong>Vaso:</strong> Vasos a partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos a partir da muda · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Adapta-se a solos ácidos e pobres, mas responde bem à adubação orgânica</p>
 <p>Fruta típica do Cerrado, aromática e rica em vitamina C. Rústica e ideal para quem quer começar com nativas.</p>
 <p><strong>Dica:</strong> Excelente escolha para quem está começando com frutíferas nativas.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=QKCZqcRit7M">Assistir no canal: Como plantar gabiroba do cerrado em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="grumixama-amarela-eugenia-brasiliensis">Grumixama Amarela — <em>Eugenia brasiliensis</em></h4>
-<p><strong>Luz:</strong> Sol pleno a meia-sombra · <strong>Rega:</strong> Frequente, mantendo o solo úmido · <strong>Vaso:</strong> Vasos a partir de 30 litros</p>
+<p>☀◐ <strong>Luz:</strong> Sol pleno a meia-sombra · 💧 <strong>Rega:</strong> Frequente, mantendo o solo úmido · <strong>Vaso:</strong> Vasos a partir de 30 litros</p>
 <p><strong>Dificuldade:</strong> Média · <strong>Produz em:</strong> 3 a 5 anos a partir da muda · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, ácido e rico em matéria orgânica</p>
 <p>Variedade rara da grumixama, com frutos amarelos doces e produção surpreendente mesmo em vasos de 30 litros.</p>
 <p><strong>Dica:</strong> Use substrato ácido, com boa dose de matéria orgânica.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=QRcLDBTsyZc">Assistir no canal: Colheita de grumixama em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="grumixama-preta-eugenia-brasiliensis">Grumixama Preta — <em>Eugenia brasiliensis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Grumixama de frutos escuros (roxo/negro), sabor doce e levemente ácido. A variedade mais comum da espécie.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=RFcR74X7y6k">Assistir no canal: Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="inga-de-flores-rosas-inga-edulis">Ingá de Flores Rosas — <em>Inga edulis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Nativa de vagens doces e flores vistosas, muito ornamental. Gosta de umidade e meia-sombra.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=HwQxwCf2xDo">Assistir no canal: Colheita de ingá na calçada</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="jabuticaba-plinia-cauliflora">Jabuticaba — <em>Plinia cauliflora</em></h4>
-<p><strong>Luz:</strong> Sol pleno a meia-sombra · <strong>Rega:</strong> Frequente, mantendo o solo úmido sem encharcar · <strong>Vaso:</strong> Vasos a partir de 30 litros para plantas adultas</p>
+<p>☀◐ <strong>Luz:</strong> Sol pleno a meia-sombra · 💧 <strong>Rega:</strong> Frequente, mantendo o solo úmido sem encharcar · <strong>Vaso:</strong> Vasos a partir de 30 litros para plantas adultas</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 5 anos (enxertada) · <strong>Frutificação:</strong> Floresce na primavera; frutifica no verão</p>
 <p><strong>Solo:</strong> Fértil, rico em matéria orgânica e bem drenado</p>
 <p>A fruta símbolo do Brasil, que floresce e frutifica direto no tronco. Existem variedades híbridas que produzem em vaso em poucos anos.</p>
 <p><strong>Dica:</strong> Plante em substrato com 30% de matéria orgânica bem curtida.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=gyzTLk5ni4Y">Assistir no canal: Mega colheita de jabuticaba híbrida</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="jabuticaba-branca-plinia-aureana">Jabuticaba Branca — <em>Plinia aureana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 5 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Jabuticaba de casca verde-amarelada e polpa branca, mais doce e com menos tanino que a jabuticaba comum. Rara e muito valorizada.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=k5TSZVIdeuw">Assistir no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="jabuticaba-hibrida-plinia-cauliflora">Jabuticaba Híbrida — <em>Plinia cauliflora</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Jabuticabeira híbrida selecionada para produzir mais cedo e com frutos graúdos. Ótima para vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=k5TSZVIdeuw">Assistir no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="jabuticaba-sabara-plinia-cauliflora-sabara">Jabuticaba Sabará — <em>Plinia cauliflora 'Sabará'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 5 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>A jabuticaba mais tradicional e saborosa, de frutos escuros e doces. Cultivar clássico dos quintais brasileiros.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=k5TSZVIdeuw">Assistir no canal: Segunda Colheita Jabuticaba Híbrida e Adubação Líquida orgânica</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="mana-cubiu-solanum-sessiliflorum">Mana Cubiu — <em>Solanum sessiliflorum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Nativa amazônica de frutos alaranjados e ácidos, usados em sucos e molhos. Rústica e produtiva.</p>
 </div>
 <div class="ficha">
 <h4 id="mangostao-fruta-da-rainha-garcinia-mangostana">Mangostão (Fruta da Rainha) — <em>Garcinia mangostana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Considerada uma das frutas mais finas do mundo. Exige clima quente e úmido e paciência: demora anos.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=Jxf4sGvf5fA">Assistir no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="maracuja-gigante-passiflora-edulis">Maracujá Gigante — <em>Passiflora edulis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 6 a 12 meses · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Trepadeira vigorosa de frutos grandes e polpa aromática. Precisa de tutor, sol e poda frequente.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=nsPOlDEqJ6g">Assistir no canal: colheita acerola Okinawa gigante em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pitanga-preta-eugenia-uniflora">Pitanga Preta — <em>Eugenia uniflora</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Frequente durante a floração e frutificação · <strong>Vaso:</strong> Vasos a partir de 25 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Frequente durante a floração e frutificação · <strong>Vaso:</strong> Vasos a partir de 25 litros</p>
 <p><strong>Dificuldade:</strong> Média · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Quase o ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e levemente ácido</p>
 <p>Variedade raríssima de pitanga, com frutos escuros, doces e de altíssimo teor de açúcar, que produz muito bem em vaso.</p>
 <p><strong>Dica:</strong> Exige sol pleno para expressar o máximo de doçura nos frutos.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=c3LEcZrARlI">Assistir no canal: Colheita fácil: pitanga preta orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pitanga-do-cerrado-eugenia-calycina">Pitanga do Cerrado — <em>Eugenia calycina</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pitanga do Cerrado: planta compacta e rústica, com frutos menores e sabor marcante. Produz bem em vaso e tolera seca.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=RFcR74X7y6k">Assistir no canal: Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pitangatuba-eugenia-selloi">Pitangatuba — <em>Eugenia selloi</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruto amarelo-alaranjado de sabor ácido e aroma intenso, excelente para sucos e sorvetes. Arbusto compacto, ideal para vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=9kRC68XstVg">Assistir no canal: Como plantar pitangatuba orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pitomba-da-bahia-eugenia-luschnathiana">Pitomba da Bahia — <em>Eugenia luschnathiana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pitomba de casca amarelo-alaranjada e polpa sucosa de sabor agridoce, lembrando damasco. Nativa rara do Nordeste.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=t2RjNcj8zCc">Assistir no canal: Degustação de Pitomba e Jambo roxo/Eugênia ótimas frutas!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="seriguela-spondias-purpurea">Seriguela — <em>Spondias purpurea</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta vermelha de sabor agridoce, excelente para sucos e sorvetes. Rústica e produtiva em vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=p5Pty-8ZXzs">Assistir no canal: Colheita de Carambola, araça, seriguela, amora em vasos</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="ubaia-pessego-do-mato-eugenia-myrcianthes">Ubaia (Pêssego do Mato) — <em>Eugenia myrcianthes</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Também chamado de pessegueiro-do-mato: frutos amarelos de polpa doce e aromática, parecidos com pêssego. Nativa rara e produtiva.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=YY-lBLg7qVg">Assistir no canal: Como podar pêssego</a></strong></p>
 </div>
 <h3 id="citricas-12">Cítricas (12)</h3>
 <div class="ficha">
 <h4 id="cidra-citrus-medica">Cidra — <em>Citrus medica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Citros de casca grossa e aromática, usado em doces e licores. Árvore vigorosa que aceita bem o vaso.</p>
 </div>
 <div class="ficha">
 <h4 id="laranja-abacaxi-citrus-sinensis-abacaxi">Laranja Abacaxi — <em>Citrus sinensis 'Abacaxi'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Variedade de laranja de polpa amarela, sabor adocicado e aroma marcante. Frutos médios e muito perfumados.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=4Fu5LZftAHU">Assistir no canal: Primeira colheita laranja kinkan orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="laranja-champagne-citrus-sinensis-champagne">Laranja Champagne — <em>Citrus sinensis 'Champagne'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Laranja de mesa de casca amarelo-clara e polpa muito suculenta e doce, com poucas sementes. Produz bem em vaso e é uma das mais doces do pomar.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=4Fu5LZftAHU">Assistir no canal: Primeira colheita laranja kinkan orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="laranja-kinkan-citrus-japonica">Laranja Kinkan — <em>Citrus japonica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 a 2 anos · <strong>Frutificação:</strong> Outono e inverno</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Kinkan ou kumquat: fruto pequeno e oval, de casca comestível e adocicada. Come-se inteiro, casca e tudo. Planta muito ornamental e produtiva em vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=4Fu5LZftAHU">Assistir no canal: Primeira colheita laranja kinkan orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="laranja-serra-dagua-citrus-sinensis-serra-dagua">Laranja Serra d'Água — <em>Citrus sinensis 'Serra d'Água'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Laranja de casca fina e suco abundante, sabor equilibrado entre doce e ácido. Ótima para suco fresco.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=4Fu5LZftAHU">Assistir no canal: Primeira colheita laranja kinkan orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="limao-caviar-citrus-australasica">Limão Caviar — <em>Citrus australasica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Também chamado de lima-caviar: frutos estreitos e alongados cuja polpa é formada por esferas crocantes que estouram na boca, como caviar. Iguaria da alta gastronomia.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=dLDvSKQaKb4">Assistir no canal: Colheita limão siciliano em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="limao-cravo-caipira-citrus-limonia">Limão Cravo Caipira — <em>Citrus × limonia</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> O ano todo, com pico no inverno</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Não é um limão verdadeiro, e sim um híbrido natural de limão com tangerina. Fruto alaranjado, casca fina, polpa suculenta e muitas sementes — o melhor para temperos, compotas e geleias.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=dLDvSKQaKb4">Assistir no canal: Colheita limão siciliano em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="limao-doce-tanjo-citrus-limettioides">Limão Doce Tanjo — <em>Citrus limettioides</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Lima doce, sem acidez: pode ser consumida como fruta de mesa, com casca fina e suco adocicado. Ótima para quem não tolera a acidez dos limões.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=dLDvSKQaKb4">Assistir no canal: Colheita limão siciliano em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="limao-galeguinho-citrus-aurantifolia">Limão Galeguinho — <em>Citrus × aurantifolia</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Quase o ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Lima ácida de frutos pequenos, casca fina e muitas sementes. É a mais ácida do grupo e a preferida para caipirinhas. Planta compacta, ótima para vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=dLDvSKQaKb4">Assistir no canal: Colheita limão siciliano em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="limao-imperial-citrus-limon-imperial">Limão Imperial — <em>Citrus × limon 'Imperial'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Quase o ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Variedade de limão verdadeiro muito produtiva e aromática, com casca amarela e frutos alongados. Excelente para temperos e sucos.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=dLDvSKQaKb4">Assistir no canal: Colheita limão siciliano em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="limao-siciliano-citrus-limon">Limão Siciliano — <em>Citrus × limon</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Quase o ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>É o limão verdadeiro: casca amarela e grossa, formato oval e sabor mais suave e perfumado. Menos ácido que as limas, ideal para sucos, doces e culinária mediterrânea.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=dLDvSKQaKb4">Assistir no canal: Colheita limão siciliano em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="mexerica-ponkan-citrus-reticulata">Mexerica Ponkan — <em>Citrus reticulata</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Tangerina fácil de descascar e muito doce. Citros que produz bem em vaso com sol pleno.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=q9IpFs92FVw">Assistir no canal: Como Plantar Mexerica Ponkan</a></strong></p>
 </div>
 <h3 id="frutiferas-exoticas-54">Frutíferas exóticas (54)</h3>
 <div class="ficha">
 <h4 id="abacate-persea-americana">Abacate — <em>Persea americana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 5 anos (muda enxertada) · <strong>Frutificação:</strong> Floresce na primavera; frutifica no verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta cremosa e rica em gorduras boas. Há variedades anãs e enxertadas que produzem em vaso grande, com sol e poda de controle.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=SiEDozm_vSw">Assistir no canal: Como Plantar Abacate breda orgânico em Vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="abacaxi-ananas-comosus">Abacaxi — <em>Ananas comosus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 12 a 18 meses · <strong>Frutificação:</strong> Uma safra por ano</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Ciclo curto e cultivo fácil: dá fruto em 12 a 18 meses e ainda rebrota depois da colheita. Ideal para vaso grande e sol pleno.</p>
 </div>
 <div class="ficha">
 <h4 id="abiu-amarelo-pouteria-caimito">Abiu Amarelo — <em>Pouteria caimito</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Frequente, sem encharcar · <strong>Vaso:</strong> Vasos a partir de 50 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Frequente, sem encharcar · <strong>Vaso:</strong> Vasos a partir de 50 litros</p>
 <p><strong>Dificuldade:</strong> Média · <strong>Produz em:</strong> 3 a 5 anos a partir da muda · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, profundo e bem drenado</p>
 <p>Fruta exótica de polpa cremosa e muito doce, com sabor que lembra caramelo. Produz bem em vaso com os cuidados certos.</p>
 <p><strong>Dica:</strong> Colha apenas quando o fruto estiver bem amarelo e levemente macio.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=doAr8IvIzuk">Assistir no canal: Como plantar abiu amarelo orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="acerola-okinawa-malpighia-emarginata">Acerola Okinawa — <em>Malpighia emarginata</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 a 2 anos · <strong>Frutificação:</strong> Produz quase o ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Uma das frutíferas mais generosas para vaso: rústica, produtiva e com altíssimo teor de vitamina C. Produz quase o ano todo.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=nsPOlDEqJ6g">Assistir no canal: colheita acerola Okinawa gigante em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="ameixa-japao-prunus-salicina">Ameixa Japão — <em>Prunus salicina</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Ameixa japonesa, de frutos grandes e sabor doce-equilibrado. Variedade de mesa muito apreciada.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=BPADta1B_V8">Assistir no canal: Como podar ameixa vermelha</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="ameixa-vermelha-prunus-salicina">Ameixa Vermelha — <em>Prunus salicina</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Ameixa de casca vermelha e polpa amarela, doce e suculenta. Precisa de poda anual para produzir bem em vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=u2RUjbMxjjo">Assistir no canal: Colheita FÁCIL: Pitayas Orgânicas Amarela, Vermelha, Cerrado, Vermelha Branca #shorts</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="amora-portuguesa-rubus-ulmifolius">Amora Portuguesa — <em>Rubus ulmifolius</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 ano · <strong>Frutificação:</strong> Primavera</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Amora de ramos com espinhos e frutos menores, porém muito saborosos e aromáticos. Planta rústica e vigorosa.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=p5Pty-8ZXzs">Assistir no canal: Colheita de Carambola, araça, seriguela, amora em vasos</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="amora-preta-tupy-rubus-tupy">Amora Preta Tupy — <em>Rubus 'Tupy'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 ano · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Amora-preta sem espinhos, de frutos grandes e doces. Cultivar brasileiro muito produtivo e ideal para vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=RFcR74X7y6k">Assistir no canal: Pitanga Preta Top para Vaso ABSURDOS 24 graus Brix!!!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="atemoia-annona-x-atemoya">Atemoia — <em>Annona x atemoya</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos · <strong>Frutificação:</strong> Outono e inverno</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Híbrido de pinha com cherimoia, de polpa cremosa e adocicada. Precisa de sol e de polinização manual para produzir bem.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=th-aPeRik3Y">Assistir no canal: Colheita de atemoia GIGANTE 578Gr em casa 100% orgânica</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="banana-ouro-musa-spp">Banana Ouro — <em>Musa spp.</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 a 2 anos · <strong>Frutificação:</strong> O ano todo, conforme o manejo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Banana de porte baixo e sabor intenso, que se adapta bem a vaso grande. Precisa de muita água e adubação constante.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=SaEIHC4yWWo">Assistir no canal: Abacate: Chá Diurético e o Ouro Verde no Vaso! #shorts</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="biriba-rollinia-mucosa">Biribá — <em>Rollinia mucosa</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Parente da pinha, de frutos grandes e polpa agridoce. Precisa de espaço e sol para se desenvolver bem.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=tt8kY4QvLjY">Assistir no canal: Biriba/fruta do conde/pinha/condessa/ata como vocês conhecem?</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="cacau-theobroma-cacao">Cacau — <em>Theobroma cacao</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 5 anos · <strong>Frutificação:</strong> O ano todo, com pico no verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>A planta do chocolate, cultivável em vaso grande em clima quente e úmido. Gosta de meia-sombra.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=0u6sprMSsUw">Assistir no canal: Como podar cacau</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="canistel-pouteria-campechiana">Canistel — <em>Pouteria campechiana</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Conhecida como fruta-ovo pela polpa amarela e cremosa, parecida com gema cozida. Doce e nutritiva.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=PJdY5xbP8as">Assistir no canal: Como ponto colheita Canistel/fruta ovo</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="carambola-mel-averrhoa-carambola">Carambola Mel — <em>Averrhoa carambola</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Quase o ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Variedade de carambola doce, que dispensa o azedume. Árvore pequena e muito produtiva.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=p5Pty-8ZXzs">Assistir no canal: Colheita de Carambola, araça, seriguela, amora em vasos</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="cherimoya-annona-cherimola">Cherimoya — <em>Annona cherimola</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Também chamada de fruta-do-conde peruana: polpa cremosa e adocicada, considerada uma das frutas mais saborosas do mundo. Exige polinização manual.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=oXEVPUI6jac">Assistir no canal: Primeira floração da Cherimoya a fruta do senhor madruga</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="dovyalis-doce-campari-dovyalis-hebecarpa">Dovyalis Doce (Campari) — <em>Dovyalis hebecarpa</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Conhecida como groselha-do-cabo, dá frutos vermelhos e ácidos, ótimos para geleias e sucos.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=B5sAOhcFN0I">Assistir no canal: Colheita maracujá Doce Gigante em vaso de 968 Gramas</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="estrela-do-norte">Estrela do Norte</h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Frutífera de frutos doces e produtivos, com boa adaptação ao cultivo em vaso em regiões quentes.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=NTjEMFSG3MI">Assistir no canal: CACTO-ESTRELA com sua linda flor</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="figo-ficus-carica">Figo — <em>Ficus carica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão e outono</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Uma das frutíferas mais fáceis em vaso: cresce rápido, produz cedo e aceita poda forte. Sol pleno é essencial.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=AVm8bpqLLs4">Assistir no canal: Mostrando pomar dos meus pais, figo quase pronto colheita jataís enxameando</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="framboesa-silvestre-rubus-idaeus">Framboesa Silvestre — <em>Rubus idaeus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 a 2 anos · <strong>Frutificação:</strong> Primavera e outono</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pequeno fruto de sabor intenso, que produz em hastes novas. Prefere clima ameno e solo bem drenado.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=aBOA7MY-t8k">Assistir no canal: Colheita e degustação Framboesa, araça roxa e amora orgânicas em vasos</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="fruta-do-milagre-synsepalum-dulcificum">Fruta do Milagre — <em>Synsepalum dulcificum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Famosa por transformar o azedo em doce na boca. Planta de porte pequeno, ótima para vaso em meia-sombra.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=Jxf4sGvf5fA">Assistir no canal: Colheita e degustação araça boi/fruta iogurte orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="goiaba-amarela-psidium-guajava">Goiaba Amarela — <em>Psidium guajava</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Goiaba de polpa amarela, doce e aromática, ótima para consumo fresco. Produz bem em vaso com podas.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=j_luLoshWo4">Assistir no canal: Colheita e degustação Grumixama amarela em vaso PRIMEIRA produção</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="goiaba-paluma-psidium-guajava-paluma">Goiaba Paluma — <em>Psidium guajava 'Paluma'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Cultivar de goiaba de polpa vermelha, doce e produtiva, muito usada comercialmente. Frutos grandes e de boa conservação.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=CXZK5vQcDDc">Assistir no canal: Colheita FÁCIL: Goiaba Tailandesa Orgânica em Vaso #shorts</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="graviola-annona-muricata">Graviola — <em>Annona muricata</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta grande e cremosa, muito usada em sucos e sorvetes. Precisa de calor, sol e polinização manual.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=SEdlXvo9-5k">Assistir no canal: Colheita de graviola em vaso 570gr e 20 brix</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="groselha-phyllanthus-acidus">Groselha — <em>Phyllanthus acidus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Groselha-tropical: frutos amarelos e translúcidos em cachos, muito ácidos, ideais para sucos e geleias de cor rubi. Não é a groselha europeia.</p>
 </div>
 <div class="ficha">
 <h4 id="jambo-rosa-syzygium-jambos">Jambo Rosa — <em>Syzygium jambos</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta crocante e levemente adocicada, com aroma suave. Árvore de porte médio, boa para vaso grande.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=aCCjNdeJ7Ns">Assistir no canal: Colheita e Degustação de Jambo Rosa em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="jambo-vermelho-syzygium-malaccense">Jambo Vermelho — <em>Syzygium malaccense</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Também chamado de jambo-da-índia, de frutos vermelhos e polpa crocante. Gosta de calor e sol.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=RgwRjICJk40">Assistir no canal: Plantio a Colheita e degustação Araça vermelho orgânico em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="lichia-litchi-chinensis">Lichia — <em>Litchi chinensis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 4 a 5 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta chinesa de casca rosada e polpa doce e suculenta. Precisa de alguns anos e de frio leve para frutificar bem.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=mIIFs5SmzjY">Assistir no canal: Como Plantar Lichia orgânica em vaso 02/06/2017</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="longan-dimocarpus-longan">Longan — <em>Dimocarpus longan</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Parente da lichia, de frutos pequenos, doces e muito aromáticos. Adapta-se bem a vaso grande e sol pleno.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=L4_0nhrIPzc">Assistir no canal: Como Plantar longana longan ou olho do dragão orgânico em Vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="mamao-carica-papaya">Mamão — <em>Carica papaya</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 8 a 12 meses · <strong>Frutificação:</strong> O ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Cresce rápido e produz em menos de um ano, mas exige vaso grande e muita água. Ótimo para quem tem pressa.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=sfhKs0o-4Zk">Assistir no canal: Botões florais mamão em vaso de 20L</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="mandacaru-cereus-jamacaru">Mandacaru — <em>Cereus jamacaru</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Cacto do sertão que dá frutos doces e vistosos. Precisa de sol pleno, pouca água e solo muito drenado.</p>
 </div>
 <div class="ficha">
 <h4 id="manga-palmer-mangifera-indica-palmer">Manga Palmer — <em>Mangifera indica 'Palmer'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 5 anos (enxertada) · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Manga de polpa firme, doce e com pouca fibra, frutos grandes e avermelhados. Produz bem em vaso com poda.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=DxI6WyPKNNI">Assistir no canal: Colheita e degustação mangá Ubá em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="manga-uba-mangifera-indica-uba">Manga Ubá — <em>Mangifera indica 'Ubá'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Manga de frutos menores, fibrosos e muito doces, tradicional na produção de sucos. Rústica e produtiva.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=DxI6WyPKNNI">Assistir no canal: Colheita e degustação mangá Ubá em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="maca-eva-malus-domestica">Maçã Eva — <em>Malus domestica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Maçã de clima quente, que frutifica mesmo sem frio intenso. Precisa de sol e de poda de formação.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=6OSb9qKIApY">Assistir no canal: Realizando um sonho de criança: Colhendo maça direto do pé em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="melancia-citrullus-lanatus">Melancia — <em>Citrullus lanatus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Apesar de rasteira e de ciclo curto, dá para cultivar em vaso grande com tutoramento. Exige muita água e sol.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=xjFqnvKvZ-Q">Assistir no canal: Plantando Melancia Tomate Espinafre e Alface na minha Hortinha</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="melao-andino-solanum-muricatum">Melão Andino — <em>Solanum muricatum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Também chamado de pepino-doce: fruto amarelo com listras roxas, polpa suculenta e levemente doce, lembrando melão. Cultivo em vaso com tutor.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=IYyyQjqDfmA">Assistir no canal: Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="mirtilo-blueberry-vaccinium-myrtillus">Mirtilo (Blueberry) — <em>Vaccinium myrtillus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Frutinha azul rica em antioxidantes. Precisa de solo ácido e clima ameno — o pH é o ponto de atenção.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=MHgQfs9Qskk">Assistir no canal: Colheita de mirtilo/bluberry orgânico em vasos após 5 meses</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="morango-fragaria-x-ananassa">Morango — <em>Fragaria x ananassa</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 meses · <strong>Frutificação:</strong> Inverno e primavera</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Dá frutos em poucos meses e ocupa pouco espaço, ideal para vasos e jardineiras. Gosta de sol e solo leve.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=VJToLNwxmLE">Assistir no canal: Colheita primeiro morango :)</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="nectarina-prunus-persica">Nectarina — <em>Prunus persica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pêssego de casca lisa e sabor marcante. Precisa de frio leve, sol e poda anual para produzir bem.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=Keo6BMW3XFw">Assistir no canal: Colheita e degustação de Nectarina orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pera-dagua-pyrus-communis">Pera d'Água — <em>Pyrus communis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pera de polpa suculenta e refrescante. Precisa de clima ameno e de outra variedade por perto para polinizar.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=IYyyQjqDfmA">Assistir no canal: Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pinha-annona-squamosa">Pinha — <em>Annona squamosa</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 4 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta-do-conde ou ata: casca escamosa e polpa branca muito doce. Planta compacta que produz bem em vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=49AIBxWlwm8">Assistir no canal: Como plantar pinha dos astecas em vaso plantio 15/05/2022</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pinha-dos-astecas-annona-sp">Pinha dos Astecas — <em>Annona sp.</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Annona de polpa doce e cremosa, parente da pinha. Precisa de calor e de polinização manual.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=49AIBxWlwm8">Assistir no canal: Como plantar pinha dos astecas em vaso plantio 15/05/2022</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pitaya-amarela-selenicereus-megalanthus">Pitaya Amarela — <em>Selenicereus megalanthus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão e outono</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pitaya de casca amarela com espinhos e polpa branca muito doce. Considerada a mais saborosa do grupo.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=cRV4orB4srg">Assistir no canal: Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pitaya-branca-hylocereus-undatus">Pitaya Branca — <em>Hylocereus undatus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 a 2 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pitaya de casca rosa e polpa branca, com sementes crocantes. A mais cultivada e de manejo mais simples, com floração noturna.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=cRV4orB4srg">Assistir no canal: Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pitaya-vermelha-hylocereus-polyrhizus">Pitaya Vermelha — <em>Hylocereus polyrhizus</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 a 2 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Pitaya de polpa vermelha, mais doce e rica em betalaínas (antioxidantes). Exige polinização para boa frutificação.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=cRV4orB4srg">Assistir no canal: Colheita de Pitaya em Vasos tudo 100% orgânico 2,374 Kg de pitayas!!!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="pessego-anao-prunus-persica">Pêssego Anão — <em>Prunus persica</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Primavera e verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Variedade de porte pequeno, feita para vaso. Produz em poucos anos e fica linda na primavera florida.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=kT7l4rqt8mI">Assistir no canal: Colheita de Cajá manga anão em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="rambuta-nephelium-lappaceum">Rambutã — <em>Nephelium lappaceum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta asiática de casca peluda e polpa doce e suculenta. Exige clima quente e úmido.</p>
 </div>
 <div class="ficha">
 <h4 id="roma-punica-granatum">Romã — <em>Punica granatum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão e outono</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Árvore pequena e ornamental, com frutos cheios de sementes doces e suculentas. Muito rústica em vaso.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=xE9LweMa0MI">Assistir no canal: Nova Frutífera do Pomar Romã Orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="saborosa-pitaya-do-cerrado-hylocereus-sp">Saborosa (Pitaya do Cerrado) — <em>Hylocereus sp.</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Cacto nativo de frutos doces e coloridos, parente da pitaya. Gosta de sol pleno e solo drenado.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=zfjVmCKMUzc">Assistir no canal: Colhendo Saborosa/pitaya do serrado</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="sapoti-manilkara-zapota">Sapoti — <em>Manilkara zapota</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 3 a 5 anos · <strong>Frutificação:</strong> Quase o ano todo</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta de polpa marrom, doce e muito energética. Precisa de calor e de alguns anos para produzir.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=WNtjOiQGrx0">Assistir no canal: Colheita de sapoti em vaso de 35 litros</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="tamarilho-tomate-de-arvore-solanum-betaceum">Tamarilho (Tomate de Árvore) — <em>Solanum betaceum</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Fruta andina de sabor agridoce, usada em sucos e molhos. Gosta de clima ameno e meia-sombra.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=IYyyQjqDfmA">Assistir no canal: Colheita melão Andino orgânico/Melão de árvore/Pera Melão em Vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="uva-brs-vitoria-vitis-brs-vitoria">Uva BRS Vitória — <em>Vitis 'BRS Vitória'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 1 a 2 anos · <strong>Frutificação:</strong> Verão e outono</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Uva sem sementes, de casca escura e sabor doce, desenvolvida pela Embrapa. Produtiva e resistente a doenças.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=tNpXoFSN-kc">Assistir no canal: Colheita de Uva BRS Vitória, BRS Núvia, BRS Lorena, Poloski e Isabel Fundo de QUINTAL!!!</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="uva-goethe-vitis-goethe">Uva Goethe — <em>Vitis 'Goethe'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Uva de mesa de bagos grandes e sabor suave, colhida em cachos vistosos. Exige poda de produção e tutor.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=J-o2d_7-Tzc">Assistir no canal: Medindo grau Brix(doçura) Uva Goethe</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="uva-isabel-vitis-labrusca-isabel">Uva Isabel — <em>Vitis labrusca 'Isabel'</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil · <strong>Produz em:</strong> 2 a 3 anos · <strong>Frutificação:</strong> Verão</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Uva rústica de casca escura e sabor intenso, muito usada para suco e vinho. Adapta-se bem ao clima brasileiro e a vasos grandes com tutor.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=LmtqJKnzuNY">Assistir no canal: Colheita uva Isabel orgânica em vaso</a></strong></p>
 </div>
 <div class="ficha">
 <h4 id="uvaia-eugenia-pyriformis">Uvaia — <em>Eugenia pyriformis</em></h4>
-<p><strong>Luz:</strong> Sol pleno · <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
+<p>☀ <strong>Luz:</strong> Sol pleno · 💧 <strong>Rega:</strong> Regular, sem encharcar · <strong>Vaso:</strong> A partir de 20 litros</p>
 <p><strong>Dificuldade:</strong> Fácil</p>
 <p><strong>Solo:</strong> Fértil, bem drenado e rico em matéria orgânica</p>
 <p>Nativa de frutos amarelos e ácidos, com aroma intenso. Ótima para sucos, geleias e para atrair pássaros.</p>
+<p>▶ <strong><a href="https://www.youtube.com/watch?v=_vdc0qTuUvs">Assistir no canal: Colheita e degustação de Uvaia orgânica em vaso com Ryan Frade</a></strong></p>
 </div>
 <hr />
 <h2 id="apendice-a-calendario-anual-de-cuidados">Apêndice A — Calendário anual de cuidados</h2>
@@ -1401,5 +1662,15 @@ Pode ser. Formigas costumam "criar" cochonilhas para se alimentar da melada. Ins
 Folhas amarelas e moles, terra com cheiro ruim e caule mole na base. Reduza a rega imediatamente.</p>
 <p><strong>Posso trocar a planta de vaso depois?</strong>
 Sim, de preferência no fim do inverno ou início da primavera, e aumentando o tamanho do vaso.</p>
+<hr />
+<h2 id="continue-com-a-gente">Continue com a gente</h2>
+<p>Este guia é só o começo. No canal <strong>Frutíferas Orgânicas</strong> você vê cada uma dessas etapas acontecendo
+na prática — plantio, poda, adubação, problemas e colheita — e no site encontra as fichas completas,
+os guias e as melhores mudas e insumos.</p>
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASgAAAEoAQMAAADRyf5aAAAABlBMVEUfPSv///9523ubAAABfklEQVR42u2aS27EMAxDid7/ziw6tinaUTKDorsyWeTn1YNEUXLATw5kVVb9dhXG8brlzxWvl6wv/MInx39YhQUWHMQGp/FyfQmvndeIrslLkKAv4dXxop5mJobXc3xhJeNKzPB60i+K0FKw6FfLS/XxcqY+NrzMW2DKF7HbkfDa87GepmxZjUx8XeNLF5hZnW+iXxdeMEtBlHOdChZeTX0UqmXBaIY/vDy+psqLUdVKxE/0+SinqpCSb019fKNfVBeJFWLhdfoJFUQS1W6nPrb6BTkHVLB5AIbXqV+kQYN5r8RX71d3q1/Dr/iv1k/MImmznIq88DrnE9zS0Kc5g2V4nfMcq4214RG9v/cTKPflO0PRr4aXNYyrQqrXTn1s9QvWLW4zsfSPjZ+gyZZMrM1Zw+vU+5V59M0iZWp4XeZfpvjA9kdAeF30fu8dN6Mf/XrgRZtB24QivDpe5Sc8xhheN/qloZdtQyJ+9aE++pxC9/ETN/4rfw5m1Z+v+ga48ikKb/G2ggAAAABJRU5ErkJggg==" alt="QR code"/><div class="qrtext"><strong>Canal no YouTube</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas">www.youtube.com/@Frut%C3%ADferasOrg%C3%A2nicas</a></div></div>
+
+<div class="qrbox"><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEIAQMAAACZOPi8AAAABlBMVEUfPSv///9523ubAAABFklEQVR42u2ZsQ7EMAhDrfv/f+bUAwztDd37mg6NUCbLMcZR3C29J9gnlOvYuLCqH92tJ51Qg6aYXX5VBeJx/BKYY988qSoXj2hanKpkfshwoPEoapyEBKwftbl82P6ymu8PlkuZeF+yrUSzZJSViYfsy9p6DFBQfqSMpqg2MHltePrRMLitDGOgeJR+hH1qSwm037b3iGXQwP2l+CH/w40X6T+aE7Jfn8bD9OtGwhGIAwCgnsaS1WVAuP4jprX0XfGkS5xf5NBj5YVUPP6seotrMgc7346MdggikfOPNcWYK8HOx7RaLtaPrTz5/PoCf2/QCIkNa6DzdS2DGvh8vQeWqgurpwZAY9fDBgScr7/v+++Jy/oCuE02tusfQ7kAAAAASUVORK5CYII=" alt="QR code"/><div class="qrtext"><strong>Site Frutíferas Orgânicas</strong><br/>Escaneie com a câmera do celular ou acesse:<br/><a href="https://frutiferasorganicas.com.br">frutiferasorganicas.com.br</a></div></div>
+
+<p>Dúvida? Deixe um comentário em qualquer vídeo. Eu leio e respondo.</p>
 <hr />
 <p><em>Frutíferas Orgânicas — cultivar é terapia, e a colheita é a recompensa.</em></p></body></html>
