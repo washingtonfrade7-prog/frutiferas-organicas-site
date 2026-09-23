@@ -1,0 +1,57 @@
+backend:
+  name: github
+  repo: washingtonfrade7-prog/frutiferas-organicas-site
+  branch: main
+  # OAuth proprio (roda no seu dominio, em PHP) — veja /admin/oauth/
+  base_url: https://frutiferasorganicas.com.br/admin/oauth
+  auth_endpoint: auth
+
+site_url: https://frutiferasorganicas.com.br
+display_url: https://frutiferasorganicas.com.br
+logo_url: https://frutiferasorganicas.com.br/logo.png
+locale: pt
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: conteudo
+    label: Conteúdo
+    files:
+      - name: artigos
+        label: Guias de compra (artigos)
+        file: content/artigos.json
+        fields:
+          - name: artigos
+            label: Artigos
+            label_singular: Artigo
+            widget: list
+            summary: '{{fields.titulo}}'
+            fields:
+              - { name: slug, label: Slug (url), widget: string }
+              - { name: titulo, label: Título, widget: string }
+              - { name: h1, label: H1 (título da página), widget: string }
+              - { name: descricao, label: Descrição (meta), widget: text }
+              - { name: resumo, label: Resumo (introdução), widget: text }
+              - name: produtos
+                label: Produtos relacionados (slugs)
+                widget: list
+                field: { name: produto, label: Produto, widget: string }
+              - name: secoes
+                label: Seções
+                label_singular: Seção
+                widget: list
+                fields:
+                  - { name: titulo, label: Título da seção, widget: string }
+                  - name: paragrafos
+                    label: Parágrafos
+                    widget: list
+                    field: { name: paragrafo, label: Parágrafo, widget: text }
+              - name: faq
+                label: Perguntas frequentes
+                label_singular: Pergunta
+                widget: list
+                fields:
+                  - { name: pergunta, label: Pergunta, widget: string }
+                  - { name: resposta, label: Resposta, widget: text }
+              - { name: atualizado, label: 'Atualizado (AAAA-MM)', widget: string }

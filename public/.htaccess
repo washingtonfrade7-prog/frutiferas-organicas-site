@@ -1,12 +1,15 @@
 # Configuração para Hostinger (Apache/LiteSpeed) — site estático Next.js
 Options -MultiViews
 DirectoryIndex index.html
+# Evita o redirecionamento automatico de diretorio (que causava loop em /admin)
+DirectorySlash Off
 
 RewriteEngine On
 RewriteBase /
 
-# 1) Remove barra final (301), exceto na raiz
-RewriteCond %{REQUEST_URI} !^/$
+# 1) Remove barra final (301), exceto na raiz e em /admin (o CMS precisa da barra)
+RewriteCond %{REQUEST_URI} !^$
+RewriteCond %{REQUEST_URI} !^/admin/?$
 RewriteRule ^(.+?)/+$ /$1 [R=301,L]
 
 # 2) Prioriza o arquivo .html correspondente

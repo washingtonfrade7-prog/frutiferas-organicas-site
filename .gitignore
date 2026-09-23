@@ -58,3 +58,4 @@ __pycache__/
 
 # painel local
 /painel/ftp.json
+/public/admin/_oauth-config.php

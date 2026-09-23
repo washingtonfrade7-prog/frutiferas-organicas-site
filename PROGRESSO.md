@@ -136,6 +136,13 @@
   - **Fotos**: upload de imagem → recorte 16:9 + 800x450 + **WebP** automático (`painel/otimizar.py`, usa o Python do projeto)
   - **Publicar**: roda build + envio FTP com log ao vivo (credenciais em `painel/ftp.json`, não versionado)
   - Testado de ponta a ponta: gravação, upload e **publicação OK** ("PUBLICADO COM SUCESSO!")
+- [x] E42. **CMS remoto (`/admin`) — editar de qualquer lugar**:
+  - **Decap CMS** instalado em `public/admin/` (index.html + config.yml) → acessível em `https://frutiferasorganicas.com.br/admin/` (celular também)
+  - Coleção de **Artigos** editando `content/artigos.json` (mesmo arquivo do painel local)
+  - **OAuth próprio em PHP** no domínio (`public/admin/oauth/auth.php` + `callback.php`), sem serviço externo; credenciais em `public/admin/_oauth-config.php` (não versionado)
+  - **Correções de `.htaccess`**: exclusão de `/admin` da remoção de barra final + `DirectorySlash Off` (resolvia um loop de redirecionamento)
+  - Pendente: usuário criar o **GitHub OAuth App** e preencher o `_oauth-config.php`
+  - ⚠️ A CDN da Hostinger guardou em cache o 301 antigo de `/admin/`; usar `/admin/index.html` ou limpar o cache no hPanel
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
