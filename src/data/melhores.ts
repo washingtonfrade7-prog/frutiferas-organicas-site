@@ -280,6 +280,304 @@ export const artigosComerciais: ArtigoComercial[] = [
     ],
     atualizado: '2026-09',
   },
+  {
+    slug: 'melhores-vasos-autoirrigaveis',
+    titulo: 'Melhores vasos autoirrigáveis para frutíferas',
+    h1: 'Melhores vasos autoirrigáveis',
+    descricao:
+      'Compare vasos autoirrigáveis para frutíferas: como funcionam, quando valem a pena e quais modelos escolher para varanda e apartamento.',
+    resumo:
+      'O autoirrigável mantém a planta úmida por dias ou semanas, resolvendo o maior problema de quem cultiva em vaso: a rega. Mas ele só compensa em alguns casos — entenda quais.',
+    produtos: ['vaso-autoirrigavel-grande', 'vaso-autoirrigavel-medio'],
+    secoes: [
+      {
+        titulo: 'Como funciona o vaso autoirrigável',
+        paragrafos: [
+          'Ele tem um reservatório de água na base e cordões de capilaridade que levam a umidade até o substrato. A planta puxa água conforme precisa, mantendo o solo sempre no ponto.',
+          'O reservatório é fechado, o que evita mosquitos e reduz a perda por evaporação.',
+        ],
+      },
+      {
+        titulo: 'Quando vale a pena',
+        paragrafos: [
+          'Vale muito para quem viaja, tem rotina corrida ou esquece de regar. Também é ótimo para temperos e frutíferas pequenas em apartamento.',
+          'Para frutíferas de grande porte, prefira os modelos maiores (30 litros ou mais) ou combine com um vaso tradicional grande.',
+        ],
+      },
+      {
+        titulo: 'Autoirrigável x vaso comum',
+        paragrafos: [
+          'O vaso comum exige mais atenção na rega, mas custa menos e permite volumes maiores. O autoirrigável troca esse trabalho por um investimento inicial maior.',
+          'A recomendação prática: use autoirrigável onde a rega é difícil e vaso comum nos projetos maiores.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        pergunta: 'Preciso regar mesmo com autoirrigável?',
+        resposta:
+          'No começo, sim: a planta precisa de regas até as raízes alcançarem os cordões. Depois, basta reabastecer o reservatório.',
+      },
+      {
+        pergunta: 'Serve para jabuticaba?',
+        resposta:
+          'Funciona melhor em modelos grandes (30 L ou mais). Nos pequenos, prefira frutíferas de porte menor.',
+      },
+      {
+        pergunta: 'Dá mosquito?',
+        resposta:
+          'Nos modelos com reservatório fechado, não. Evite os que deixam a água exposta.',
+      },
+    ],
+    atualizado: '2026-09',
+  },
+  {
+    slug: 'melhores-substratos-para-vasos',
+    titulo: 'Melhores substratos para frutíferas em vaso',
+    h1: 'Melhores substratos para vaso',
+    descricao:
+      'Substrato pronto, terra vegetal, perlita e vermiculita: compare as opções e monte o melhor substrato para frutíferas em vaso.',
+    resumo:
+      'O substrato é a base de tudo. Um bom substrato para frutíferas precisa ser fértil, leve e bem drenado ao mesmo tempo. Veja o que usar e como combinar.',
+    produtos: ['substrato-frutiferas-25kg', 'substrato-completo-2kg', 'kit-perlita-vermiculita'],
+    secoes: [
+      {
+        titulo: 'Substrato pronto x mistura caseira',
+        paragrafos: [
+          'O substrato pronto é prático e perfeito para iniciantes, mas sai mais caro por litro. A mistura caseira rende muito mais para vasos grandes.',
+          'Para um mini pomar, o caminho econômico é comprar terra vegetal, húmus e perlita/vermiculita e montar a mistura.',
+        ],
+      },
+      {
+        titulo: 'A mistura recomendada',
+        paragrafos: [
+          '50% terra vegetal adubada, 30% matéria orgânica (húmus ou composto) e 20% drenagem (areia grossa, perlita ou vermiculita).',
+          'Essa proporção equilibra retenção de água, nutrientes e aeração — os três pilares das raízes saudáveis.',
+        ],
+      },
+      {
+        titulo: 'Por que a drenagem importa tanto',
+        paragrafos: [
+          'Em vaso, o excesso de água é o maior inimigo: encharca, apodrece a raiz e mata a planta. Perlita e vermiculita evitam esse problema e mantêm o substrato aerado.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        pergunta: 'Posso usar terra de jardim?',
+        resposta:
+          'Não pura. Ela compacta e racha. Use como parte da mistura, sempre com matéria orgânica e drenagem.',
+      },
+      {
+        pergunta: 'Qual a diferença entre perlita e vermiculita?',
+        resposta:
+          'A perlita drena mais e areja; a vermiculita retém mais água. Usar as duas juntas dá o melhor equilíbrio.',
+      },
+      {
+        pergunta: 'Quando renovar o substrato?',
+        resposta: 'A cada 2 anos, aproveitando para adubar e, se possível, aumentar o vaso.',
+      },
+    ],
+    atualizado: '2026-09',
+  },
+  {
+    slug: 'melhores-adubos-liquidos',
+    titulo: 'Melhores adubos líquidos para frutíferas em vaso',
+    h1: 'Melhores adubos líquidos',
+    descricao:
+      'Adubo líquido orgânico para frutíferas: como usar, quando aplicar e como combinar com o bokashi na adubação de vaso.',
+    resumo:
+      'O adubo líquido age rápido e é fácil de aplicar na rega. Ele é o complemento perfeito do bokashi na rotina de adubação de frutíferas em vaso.',
+    produtos: ['adubo-liquido-organico', 'bokashi-dimy-1kg'],
+    secoes: [
+      {
+        titulo: 'Quando usar adubo líquido',
+        paragrafos: [
+          'Use na fase de crescimento e na frutificação, quando a planta precisa de nutrientes prontos. Também serve para adubação foliar, pulverizada nas folhas.',
+          'A vantagem é a resposta rápida: em poucos dias a planta mostra o efeito.',
+        ],
+      },
+      {
+        titulo: 'Como aplicar sem errar',
+        paragrafos: [
+          'Dilua conforme o fabricante e aplique na rega, sempre no substrato úmido, para não queimar as raízes.',
+          'Evite aplicar no sol forte: prefira o fim da tarde ou a manhã.',
+        ],
+      },
+      {
+        titulo: 'Combinando com o bokashi',
+        paragrafos: [
+          'O bokashi é a base sólida, que alimenta o solo aos poucos. O líquido entra como reforço nas fases que exigem mais. Juntos, dão um resultado muito consistente.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        pergunta: 'Adubo líquido substitui o bokashi?',
+        resposta:
+          'Não. Eles se complementam: o bokashi melhora o solo, o líquido dá resposta rápida.',
+      },
+      {
+        pergunta: 'Posso aplicar todo dia?',
+        resposta: 'Não. Siga a dose e a frequência do fabricante (geralmente a cada 15 a 30 dias).',
+      },
+      {
+        pergunta: 'Serve para adubação foliar?',
+        resposta:
+          'Sim, muitos produtos servem. Dilua bem e aplique ao entardecer para evitar queimar as folhas.',
+      },
+    ],
+    atualizado: '2026-09',
+  },
+  {
+    slug: 'melhores-kits-de-jardinagem',
+    titulo: 'Melhores kits de jardinagem para quem cultiva em vaso',
+    h1: 'Melhores kits de jardinagem',
+    descricao:
+      'Kits de ferramentas de jardinagem para vaso: o que vale a pena, o que é dispensável e como escolher o seu primeiro kit.',
+    resumo:
+      'Um kit básico resolve o plantio e a manutenção do dia a dia. Mas nem tudo que vem no kit é útil — veja o que realmente importa antes de comprar.',
+    produtos: ['kit-jardinagem-10-pecas', 'tesoura-poda-bypass', 'serra-de-poda'],
+    secoes: [
+      {
+        titulo: 'O que não pode faltar',
+        paragrafos: [
+          'Tesoura de poda bypass, uma pazinha e um regador de bico longo resolvem 90% das tarefas em vaso.',
+          'Para galhos mais grossos, uma serra de poda dobrável completa o conjunto.',
+        ],
+      },
+      {
+        titulo: 'Kit pronto vale a pena?',
+        paragrafos: [
+          'Para quem está começando, sim: o kit já vem com maleta organizadora e cobre o básico. Para quem já tem várias ferramentas, comprar peça por peça costuma sair melhor.',
+        ],
+      },
+      {
+        titulo: 'Cuidados que prolongam as ferramentas',
+        paragrafos: [
+          'Limpe e seque as lâminas após o uso e aplique óleo mineral nas articulações. Guarde em local seco.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        pergunta: 'Preciso de muitas ferramentas?',
+        resposta:
+          'Não. Para vaso, tesoura, pazinha e regador bastam. O resto é conveniência.',
+      },
+      {
+        pergunta: 'Tesoura de cozinha serve para podar?',
+        resposta: 'Não é o ideal: esmaga o galho e dificulta a cicatrização.',
+      },
+      {
+        pergunta: 'Como escolher a tesoura?',
+        resposta:
+          'Prefira lâmina bypass (corte cruzado) para galhos verdes, cabo emborrachado e trava de segurança.',
+      },
+    ],
+    atualizado: '2026-09',
+  },
+  {
+    slug: 'melhores-mudas-de-jabuticaba',
+    titulo: 'Melhores mudas de jabuticaba: como escolher e onde comprar',
+    h1: 'Melhores mudas de jabuticaba',
+    descricao:
+      'Como escolher muda de jabuticaba para vaso: híbrida x sabará x semente, tamanho, preço e onde comprar com segurança.',
+    resumo:
+      'A jabuticabeira é a frutífera mais querida do quintal brasileiro. Mas a escolha da muda define quanto tempo você vai esperar pela primeira colheita.',
+    produtos: ['muda-jabuticaba-hibrida'],
+    secoes: [
+      {
+        titulo: 'Híbrida, sabará ou semente?',
+        paragrafos: [
+          'A jabuticaba de semente pode levar de 8 a 15 anos para frutificar. A híbrida, enxertada, começa a produzir em 2 a 3 anos — por isso é a mais indicada para vaso.',
+          'A sabará é tradicional e muito saborosa, mas também mais lenta quando vem de semente.',
+        ],
+      },
+      {
+        titulo: 'O que observar na muda',
+        paragrafos: [
+          'Torrão firme, folhas verdes sem manchas, caule com mais de um dedo de espessura e ausência de pragas.',
+          'Prefira viveiros registrados no MAPA e vendedores com boa reputação.',
+        ],
+      },
+      {
+        titulo: 'Vaso e cuidados iniciais',
+        paragrafos: [
+          'Comece com vaso de 20 a 30 litros e vá aumentando. Sol pleno e rega regular (sem encharcar) são essenciais.',
+          'A jabuticabeira não gosta de vento forte: escolha um local protegido.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        pergunta: 'Quanto tempo leva para dar jabuticaba?',
+        resposta:
+          'A muda híbrida enxertada produz em 2 a 3 anos. A de semente pode levar mais de 8 anos.',
+      },
+      {
+        pergunta: 'Dá para plantar em vaso?',
+        resposta:
+          'Sim, e é uma das melhores frutíferas para isso. Use vaso de 20 litros ou mais e mantenha no sol.',
+      },
+      {
+        pergunta: 'Qual a melhor época para comprar a muda?',
+        resposta:
+          'Qualquer época serve, desde que você faça a aclimatação à sombra nos primeiros dias após o plantio.',
+      },
+    ],
+    atualizado: '2026-09',
+  },
+  {
+    slug: 'como-escolher-muda-de-citros',
+    titulo: 'Como escolher muda de citros para vaso',
+    h1: 'Como escolher muda de citros',
+    descricao:
+      'Limão, laranja e mexerica em vaso: como escolher a muda, o porta-enxerto e evitar os erros mais comuns dos citros.',
+    resumo:
+      'Citros são ótimos para vaso: produzem cedo, perfumam a varanda e dão frutos o ano todo. O segredo está em escolher a muda certa e respeitar o sol e a drenagem.',
+    produtos: ['muda-citros'],
+    secoes: [
+      {
+        titulo: 'Sempre prefira muda enxertada',
+        paragrafos: [
+          'A muda enxertada combina uma copa produtiva com um porta-enxerto rústico. Isso garante produção mais cedo e maior resistência a doenças.',
+          'Mudas de semente demoram anos e podem dar frutos de qualidade inferior.',
+        ],
+      },
+      {
+        titulo: 'Qual espécie escolher',
+        paragrafos: [
+          'Para vaso, os melhores são limão siciliano, laranjinha kinkan, mexerica e lima. São mais compactos e produzem bem em recipiente.',
+          'Evite variedades de porte muito grande se o espaço é pequeno.',
+        ],
+      },
+      {
+        titulo: 'Sol e drenagem: os dois cuidados-chave',
+        paragrafos: [
+          'Citros exigem sol pleno (6 horas ou mais) e detestam encharcamento. Vaso com boa drenagem e substrato leve são obrigatórios.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        pergunta: 'Citros dão certo em apartamento?',
+        resposta:
+          'Sim, desde que a varanda receba bastante sol direto. Sem sol, a produção cai muito.',
+      },
+      {
+        pergunta: 'Por que o citro perde as folhas?',
+        resposta:
+          'Geralmente por excesso de água, falta de sol ou mudança brusca de local. Ajuste a rega e a exposição.',
+      },
+      {
+        pergunta: 'Quanto tempo até produzir?',
+        resposta:
+          'Mudas enxertadas costumam produzir em 1 a 3 anos, dependendo da espécie e dos cuidados.',
+      },
+    ],
+    atualizado: '2026-09',
+  },
 ]
 
 export function getArtigoComercial(slug: string): ArtigoComercial | undefined {

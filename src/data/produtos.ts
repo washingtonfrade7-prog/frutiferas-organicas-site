@@ -290,6 +290,87 @@ const baseProdutos: Produto[] = [
     faixaPreco: 'R$ 10 a R$ 40',
     lojas: {},
   },
+
+  // MUDAS
+  {
+    slug: 'muda-jabuticaba-hibrida',
+    nome: 'Muda de jabuticaba híbrida',
+    categoria: 'mudas',
+    resumo:
+      'Jabuticabeira híbrida, que frutifica em 2 a 3 anos (bem antes da jabuticaba de semente). Uma das melhores para vaso.',
+    paraQuem: 'Quem quer colher jabuticaba em casa sem esperar uma década.',
+    pros: ['Frutifica cedo', 'Ótima para vaso', 'Sabor próximo da sabará'],
+    contras: ['Precisa de sol', 'Muda enxertada custa mais que a de semente'],
+    faixaPreco: 'R$ 40 a R$ 120',
+    destaque: true,
+    lojas: {},
+  },
+  {
+    slug: 'muda-acerola',
+    nome: 'Muda de acerola',
+    categoria: 'mudas',
+    resumo:
+      'Aceroleira produtiva e rústica, que dá frutos quase o ano todo. Uma das frutíferas mais fáceis para começar.',
+    paraQuem: 'Iniciantes que querem resultado rápido.',
+    pros: ['Muito produtiva', 'Rústica', 'Frutifica quase o ano todo'],
+    contras: ['Cresce bastante se não podar', 'Frutos atraem pássaros'],
+    faixaPreco: 'R$ 25 a R$ 60',
+    lojas: {},
+  },
+  {
+    slug: 'muda-citros',
+    nome: 'Muda de citros (limão, laranja ou mexerica)',
+    categoria: 'mudas',
+    resumo:
+      'Mudas cítricas enxertadas, que produzem bem em vaso com sol e adubação em dia.',
+    paraQuem: 'Quem quer limão, laranja ou mexerica na varanda.',
+    pros: ['Enxertada frutifica cedo', 'Adapta-se bem ao vaso', 'Perfuma o ambiente'],
+    contras: ['Exige sol pleno', 'Sensível a excesso de água'],
+    faixaPreco: 'R$ 30 a R$ 90',
+    lojas: {},
+  },
+
+  // VASOS (extra)
+  {
+    slug: 'vaso-autoirrigavel-grande',
+    nome: 'Vaso autoirrigável grande (30L+)',
+    categoria: 'vasos',
+    resumo:
+      'Autoirrigável de maior volume, com reservatório que mantém a planta úmida por semanas. Bom para quem viaja.',
+    paraQuem: 'Quem quer frutíferas médias com pouca manutenção de rega.',
+    pros: ['Reduz muito a frequência de rega', 'Reservatório protegido', 'Volume maior para frutíferas'],
+    contras: ['Custo mais alto', 'Precisa limpar o reservatório'],
+    faixaPreco: 'R$ 120 a R$ 300',
+    lojas: {},
+  },
+
+  // ADUBOS (extra)
+  {
+    slug: 'adubo-liquido-organico',
+    nome: 'Adubo líquido orgânico',
+    categoria: 'adubos',
+    resumo:
+      'Adubo líquido concentrado para diluir na rega. Ótimo para adubação de manutenção e foliar.',
+    paraQuem: 'Quem quer adubar de forma rápida e uniforme.',
+    pros: ['Ação rápida', 'Fácil de dosar na rega', 'Rende muito'],
+    contras: ['Precisa diluir corretamente', 'Reaplicação frequente'],
+    faixaPreco: 'R$ 25 a R$ 70',
+    lojas: {},
+  },
+
+  // FERRAMENTAS (extra)
+  {
+    slug: 'serra-de-poda',
+    nome: 'Serra de poda dobrável',
+    categoria: 'ferramentas',
+    resumo:
+      'Serra para galhos mais grossos, que a tesoura não dá conta. Complementa a tesoura bypass na poda de frutíferas.',
+    paraQuem: 'Quem tem frutíferas maiores e galhos grossos.',
+    pros: ['Corta galhos grossos', 'Dobrável e segura', 'Boa para poda de renovação'],
+    contras: ['Menos precisa que a tesoura', 'Precisa de cuidado com a lâmina'],
+    faixaPreco: 'R$ 40 a R$ 100',
+    lojas: {},
+  },
 ]
 
 export const produtos: Produto[] = baseProdutos.map((produto) => ({
