@@ -115,6 +115,13 @@
   - **SEO**: FAQ nas **fichas de frutíferas** (JSON-LD `FAQPage` + seção visível) e cross-links para `/comprar/*`
   - **UX**: página 404 melhorada com atalhos para os hubs
   - Resultados finais: 251 páginas/0 erros · carga 600 req/30 usuários em 40 ms/0 erros · a11y 0 violações · navegador sem erros próprios
+- [x] E38. **Fase 2 de conteúdo + infraestrutura** (autônomo):
+  - **+6 artigos comerciais**: vasos autoirrigáveis, substratos, adubos líquidos, kits de jardinagem, melhores mudas de jabuticaba, como escolher muda de citros (total: **11 artigos**)
+  - **+6 produtos** no catálogo (mudas de jabuticaba/acerola/citros, vaso autoirrigável grande, adubo líquido, serra de poda)
+  - **+2 guias informacionais**: "Problemas comuns das frutíferas em vaso" e "Como escolher a frutífera para o seu espaço" (total: **10 guias**)
+  - **JSON-LD `HowTo` + `FAQPage`** nos guias (rich results) e cross-links `/mudas` → `/comprar`
+  - **Upload FTP resiliente**: manifesto local (pula arquivos inalterados) + retry com backoff e circuit breaker
+  - Auditoria final no ar: **259 páginas, 0 erros** · carga **600 req/30 usuários em 28 ms** · **a11y 0 violações** · navegador OK
 - [ ] E10. Aguardar aprovação do AdSense (análise do Google)
 
 ### Deploy automático (GitHub Actions) — CONFIGURADO
