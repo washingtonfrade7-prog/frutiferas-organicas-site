@@ -106,6 +106,25 @@ export function itemListJsonLd(items: { name: string; url: string }[]): string {
   })
 }
 
+export function howToJsonLd(howto: {
+  nome: string
+  descricao: string
+  passos: { titulo: string; texto: string }[]
+}): string {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: howto.nome,
+    description: howto.descricao,
+    step: howto.passos.map((p, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: p.titulo,
+      text: p.texto,
+    })),
+  })
+}
+
 export function fruitJsonLd(fruit: {
   nome: string
   nomeCientifico?: string

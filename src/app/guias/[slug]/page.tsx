@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd'
 import AdSlot from '@/components/Ads'
 import { topicos, getTopico } from '@/data/aprender'
 import { guias } from '@/data/guias'
-import { breadcrumbJsonLd } from '@/lib/seo'
+import { breadcrumbJsonLd, faqJsonLd, howToJsonLd } from '@/lib/seo'
 import { site, youtubeChannelUrl } from '@/lib/site'
 
 interface PageProps {
@@ -50,6 +50,18 @@ export default function TopicoPage({ params }: PageProps) {
           { name: topico.nome, path: `/guias/${topico.slug}` },
         ])}
       />
+      {topico.passos.length > 0 && (
+        <JsonLd
+          data={howToJsonLd({
+            nome: topico.nome,
+            descricao: topico.resumo,
+            passos: topico.passos,
+          })}
+        />
+      )}
+      {topico.faq.length > 0 && (
+        <JsonLd data={faqJsonLd(topico.faq.map((f) => ({ pergunta: f.p, resposta: f.r })))} />
+      )}
 
       <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-500 mb-6">
         <Link href="/" className="hover:text-forest-600">Início</Link>
