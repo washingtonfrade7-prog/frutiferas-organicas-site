@@ -253,7 +253,7 @@ crescimento nas próximas semanas.
 
 ## Capítulo 4 — Rega sem erro
 
-<!-- POMAR:tomateiro-saudavel | Planta bem regada: folha firme, sem murcha nem amarelecimento -->
+<!-- POMAR:tomateiro-saudavel | Tomateiro carregado: com rega na medida certa, a planta firma o fruto e não murcha -->
 
 ### Mais frutíferas morrem de água demais do que de água de menos
 
@@ -561,7 +561,7 @@ ver que o método funciona e que o resultado é possível no seu espaço também
 
 ## Capítulo 10 — Multiplicação: faça suas próprias mudas
 
-<!-- POMAR:muda-na-mao | Muda feita em casa: é assim que uma planta vira várias -->
+<!-- POMAR:uva-no-pe-mao | Uva no pé: uma das frutíferas que enraízam com mais facilidade por estaquia -->
 
 ### Por que multiplicar
 

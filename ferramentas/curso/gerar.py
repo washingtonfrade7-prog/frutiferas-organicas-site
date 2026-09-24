@@ -272,20 +272,24 @@ th { background: #f3f3ee; }
 .diagrama .lb { font-size: 12px; fill: #2b2720; }
 .diagrama .lg { font-size: 11px; fill: #6b6559; }
 .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; text-align: center; page-break-after: always; }
-.cover .tag { letter-spacing: 3px; text-transform: uppercase; font-size: 10pt; color: #8f4c25; margin-bottom: 18px; }
-.cover h1 { font-size: 32pt; margin-bottom: 16px; }
-.cover .sub { font-size: 13pt; color: #555; }
-.cover .autor { width: 122mm; max-width: 100%; border-radius: 10px; margin: 26px auto 0; display: block; }
-.cover .by { margin-top: 22px; font-size: 13pt; color: #333; }
-.cover .by strong { font-size: 15pt; color: #1f3d2b; }
-.cover .by .canal { display: block; margin-top: 4px; font-size: 11.5pt; color: #6b6559; }
+.cover .tag { letter-spacing: 4px; text-transform: uppercase; font-size: 9.5pt; color: #8f4c25; margin-bottom: 10px; }
+.cover .kicker { display: inline-block; align-self: center; letter-spacing: 2.5px; text-transform: uppercase; font-size: 9pt; font-weight: bold; color: var(--accent); border: 1.5px solid var(--accent); border-radius: 20px; padding: 3px 14px; margin-bottom: 20px; }
+.cover h1 { font-size: 31pt; margin: 0 0 14px; color: var(--accent); line-height: 1.15; }
+.cover .sub { font-size: 12.5pt; color: #555; }
+.cover .rule { width: 46mm; height: 3px; background: var(--accent); border-radius: 2px; margin: 24px auto 0; }
+.cover .autor { width: 116mm; max-width: 100%; border-radius: 10px; margin: 18px auto 0; display: block; }
+.cover .by { margin-top: 20px; font-size: 12.5pt; color: #333; }
+.cover .by strong { font-size: 15pt; color: var(--accent); }
+.cover .by .canal { display: block; margin-top: 4px; font-size: 11pt; color: #6b6559; }
 """
 
 COVER = """
-<div class="cover">
+<div class="cover" style="--accent:{cor}">
   <div class="tag">Frutíferas Orgânicas</div>
+  <div class="kicker">{chancela}</div>
   <h1>{titulo}</h1>
   <div class="sub">{subtitulo}</div>
+  <div class="rule"></div>
   {foto}
   <div class="by">por <strong>Washington Carlos Frade</strong>
     <span class="canal">canal Frutíferas Orgânicas</span></div>
@@ -293,11 +297,16 @@ COVER = """
 """
 
 
-def _foto_autor_html():
-    caminho = os.path.join(CURSO_DIR, "imagens", "autor-capa.jpg")
+def _foto_capa(nome):
+    """nome: 'autor-capa' (pasta imagens/) ou 'pomar/colheita-nespera'."""
+    if "/" in nome:
+        pasta, arq = nome.split("/", 1)
+        caminho = os.path.join(CURSO_DIR, "imagens", pasta, arq + ".jpg")
+    else:
+        caminho = os.path.join(CURSO_DIR, "imagens", nome + ".jpg")
     if not os.path.exists(caminho):
         return ""
-    b64, mime = _imagem_b64(caminho, largura=1600, qualidade=82)
+    b64, mime = _imagem_b64(caminho, largura=1600, qualidade=86)
     return f"<img class=\"autor\" src=\"data:{mime};base64,{b64}\" alt=\"Washington Carlos Frade\"/>"
 
 # --- QR codes (pontes multimidia) ---------------------------------------------
@@ -493,7 +502,7 @@ POMAR_RE = re.compile(r"<!--\s*POMAR:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
 GALERIA_RE = re.compile(r"<!--\s*GALERIA\s*-->")
 
 
-def _foto_pomar(nome, legenda, largura=1000, qualidade=78, classe="figura"):
+def _foto_pomar(nome, legenda, largura=1200, qualidade=84, classe="figura"):
     caminho = os.path.join(CURSO_DIR, "imagens", "pomar", nome + ".jpg")
     if not os.path.exists(caminho):
         return ""
@@ -519,14 +528,14 @@ GALERIA_FOTOS = [
     ("uva-crianca-bacia", "Uva em vaso: cacho grande e doce no quintal de casa"),
     ("jabuticaba-colheita", "Jabuticaba no ponto: sai da bacia direto para a mesa"),
     ("uva-roxa-colheita", "Uva roxa de vaso, colhida no mesmo dia"),
-    ("uva-no-pe-mao", "Cacho maduro no pé, pronto para colher"),
+    ("limoes-na-mao", "Limões colhidos no dia: cítrica em vaso dá certo"),
     ("pitangas-na-mao", "Pitanga: porte pequeno e produção generosa"),
 ]
 
 
 def galeria_html():
     cartoes = [
-        _foto_pomar(nome, legenda, largura=820, qualidade=76, classe="figura galeria-item")
+        _foto_pomar(nome, legenda, largura=1000, qualidade=82, classe="figura galeria-item")
         for nome, legenda in GALERIA_FOTOS
     ]
     cartoes = [c for c in cartoes if c]
@@ -535,7 +544,8 @@ def galeria_html():
     return f"<div class=\"galeria\">{''.join(cartoes)}</div>"
 
 
-def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao"):
+def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao",
+                capa="autor-capa", cor="#1f3d2b", chancela="Guia completo"):
     texto = open(md_path, encoding="utf-8").read()
     if extra_md is not None:
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
@@ -549,7 +559,8 @@ def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao
     html = (
         "<!DOCTYPE html><html lang='pt-BR'><head><meta charset='utf-8'>"
         f"<title>{titulo}</title><style>{CSS}</style></head><body>"
-        + COVER.format(titulo=titulo, subtitulo=subtitulo, foto=_foto_autor_html())
+        + COVER.format(titulo=titulo, subtitulo=subtitulo, foto=_foto_capa(capa),
+                       cor=cor, chancela=chancela)
         + corpo
         + "</body></html>"
     )
@@ -850,6 +861,9 @@ def main():
         NOME_PRODUTO,
         "Guia completo: do plantio à colheita",
         extra_md=catalogo,
+        capa="autor-capa",
+        cor="#1f3d2b",
+        chancela="Guia completo",
     )
     md_para_pdf(
         os.path.join(config.SITE_DIR, "CURSO-BONUS.md"),
@@ -857,18 +871,27 @@ def main():
         "Workbook do Aluno",
         "diário de cultivo, checklist e fichas de bolso",
         modo="qr",
+        capa="pomar/vasos-e-pitaya",
+        cor="#7a5c2e",
+        chancela="Caderno de acompanhamento",
     )
     md_para_pdf(
         os.path.join(config.SITE_DIR, "CURSO-BUMP.md"),
         "Adubacao-Organica-Descomplicada.pdf",
         "Adubação Orgânica",
         "Descomplicada — receitas, doses e calendário",
+        capa="pomar/colheita-nespera",
+        cor="#8f4c25",
+        chancela="Material complementar",
     )
     md_para_pdf(
         os.path.join(config.SITE_DIR, "CURSO-UPSELL.md"),
         "Multiplicacao-de-Mudas-na-Pratica.pdf",
         "Multiplicação de Mudas",
         "na prática — estaquia, alporque e enxertia",
+        capa="pomar/muda-na-mao",
+        cor="#1f5b5b",
+        chancela="Módulo avançado",
     )
 
 
