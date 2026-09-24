@@ -125,6 +125,8 @@ recebe água e nutrientes o tempo todo, então praticamente não tem risco de pe
 <text class="lb" x="425" y="162">6. Separe só com raiz firme</text>
 </svg>
 
+<!-- VIDEOFRAME:alporque-aereo | Alporque pronto, no meu pomar: o substrato úmido foi envolto no galho anelado e amarrado com plástico. É assim que a muda enraíza ainda ligada à planta-mãe -->
+
 1. **Escolha um galho** do ano, de 1 a 2 cm de espessura, com boa exposição ao sol.
 2. **Anelar a casca:** com uma faca limpa, faça dois cortes paralelos (1,5 a 2 cm de distância) e
    remova a casca e a camada verde entre eles, deixando o **lenho branco à mostra**. É esse ferimento

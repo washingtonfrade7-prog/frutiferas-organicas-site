@@ -262,6 +262,7 @@ th { background: #f3f3ee; }
 .figura img { width: 100%; max-width: 150mm; border-radius: 8px; }
 .figura figcaption { font-size: 9.5pt; color: #6b6559; margin-top: 5px; font-style: italic; }
 .figura.macro img { max-width: 95mm; }
+.figura.frame-video img { max-width: 78mm; }
 .galeria { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
 .galeria .galeria-item { margin: 0; page-break-inside: avoid; }
 .galeria .galeria-item img { width: 100%; height: 56mm; object-fit: cover; border-radius: 8px; }
@@ -497,6 +498,30 @@ def substituir_macros(texto):
     return MACRO_RE.sub(repl, texto)
 
 
+# --- Quadros de video do autor (video em 360p, exibido menor) ------------------
+VIDEOFRAME_RE = re.compile(r"<!--\s*VIDEOFRAME:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
+
+VIDEOFRAME_HTML = (
+    "<figure class=\"figura macro frame-video\">"
+    "<img src=\"{src}\" alt=\"{legenda}\"/>"
+    "<figcaption>{legenda}</figcaption>"
+    "</figure>"
+)
+
+
+def substituir_videoframes(texto):
+    def repl(m):
+        nome = m.group(1) + ".jpg"
+        legenda = m.group(2)
+        caminho = os.path.join(CURSO_DIR, "macro", nome)
+        if not os.path.exists(caminho):
+            return ""
+        b64, mime = _imagem_b64(caminho, largura=640, qualidade=90)
+        return VIDEOFRAME_HTML.format(src=f"data:{mime};base64,{b64}", legenda=legenda)
+
+    return VIDEOFRAME_RE.sub(repl, texto)
+
+
 # --- Fotos do pomar do autor (pasta imagens/pomar) -----------------------------
 POMAR_RE = re.compile(r"<!--\s*POMAR:([a-z0-9-]+)\s*\|\s*(.+?)\s*-->")
 GALERIA_RE = re.compile(r"<!--\s*GALERIA\s*-->")
@@ -551,6 +576,7 @@ def md_para_pdf(md_path, pdf_nome, titulo, subtitulo, extra_md=None, modo="botao
         texto = texto.replace("<!-- CATALOGO -->", extra_md)
     texto = substituir_imagens(texto)
     texto = substituir_macros(texto)
+    texto = substituir_videoframes(texto)
     texto = substituir_pomar(texto)
     texto = GALERIA_RE.sub(lambda m: galeria_html(), texto)
     texto = substituir_ofertas(texto)

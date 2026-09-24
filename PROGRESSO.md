@@ -350,6 +350,21 @@ HTTP 403; upload.wikimedia.org limita com HTTP 429):
 - Limpeza: `garfagem-macro3.jpg` (4,5 MB, não referenciado) removido do repositório.
 - Upsell: 22 → **20 páginas · 1,21 MB**. Demais materiais inalterados.
 
+## Produto — rodada v9: alporque aéreo com imagem do próprio autor
+Fonte: vídeo do autor ensinando alporquia (`youtube.com/watch?v=urvl7-HZA1M`, 18 min).
+
+- **Limitação da fonte:** o YouTube só tem esse vídeo em **360p** (640×360). O quadro foi recortado no
+  assunto (320×250) e é exibido a **78 mm** no PDF, onde a densidade fica aceitável. Ficou macio —
+  é limitação do vídeo, não do tratamento.
+- **Quadro escolhido:** t = 13:50, mostrando os **três bolos de alporque amarrados no galho**.
+  Tratamento leve (contraste +12%, nitidez +25%, brilho +5%) — o vídeo é escuro.
+- **Novo marcador `<!-- VIDEOFRAME:arquivo | legenda -->`** em `gerar.py` (CSS `.figura.frame-video`,
+  máx. 78 mm), para separar quadro de vídeo de foto macro.
+- **Extração:** `yt-dlp --extractor-args "youtube:player_client=mweb"` (sem isso dá HTTP 403) +
+  `ffmpeg -vf fps=1/15` para varrer e `-ss` para os quadros exatos.
+- **Créditos:** imagem do próprio autor — nenhuma atribuição a terceiros.
+- Upsell: 20 páginas · 1,24 MB (5 figuras).
+
 
 
 
