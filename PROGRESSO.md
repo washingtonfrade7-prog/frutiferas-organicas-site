@@ -31,7 +31,7 @@
 - [x] C1. Navegação e breadcrumbs
 - [x] C2. Cards e detalhes (galeria, badges, CTA afiliado)
 - [x] C3. Links internos guias <-> frutíferas (SEO/descoberta)
-- [ ] C4. Revisão fina de acessibilidade e Lighthouse
+- [x] C4. Revisão fina de acessibilidade e Lighthouse — axe-core **0 violações** em 21 páginas (Lighthouse a11y **100**, SEO **100**, boas práticas **96**); adicionados `prefers-reduced-motion` e foco visível (`:focus-visible`). Detalhes na seção "Auditoria de acessibilidade (rodada C4)" ao fim do log
 
 ### FASE D — Monetização
 - [x] D1. Google AdSense (script + slots + env `NEXT_PUBLIC_ADSENSE_CLIENT`/`_SLOT`)
@@ -424,6 +424,25 @@ desatualizada):
 4. **Detecção de objetos nos vídeos** — `workflow-yolo-video.md`: YOLO-World (`yolov8l-world.pt`,
    já na pasta do projeto de automação) com prompts em texto para **gemas, pulgões e corte em "V"**;
    extração de quadros, consolidação por IoU, folha de contato e timeline JSON.
+
+## Auditoria de acessibilidade (rodada C4)
+Ferramentas: `npm run a11y` (axe-core via puppeteer) e `npm run browser-audit` (funcional),
+rodando sobre o `out/` estático.
+
+- **axe-core (WCAG 2.1 A/AA):** 0 violações em **21 páginas** — inclui as novas `/calendario`,
+  `/catalogo-embed`, `/creditos`, `/politica-de-privacidade`, `/aviso-de-afiliados`, `/sobre`,
+  `/categorias/nativas`, `/melhores`, `/mudas` (lista do `a11y_audit.mjs` ampliada nesta rodada).
+- **Auditoria funcional:** 0 problemas. Corrigido o `browser_audit.mjs`, que acusava 23 falsos
+  positivos do AdSense/GA — agora ignora requisições de terceiros (googlesyndication, pagead2,
+  google-analytics, gstatic, ezoic). Menu mobile, dropdown, vídeo lite, FAQ, filtro e newsletter OK.
+- **Lighthouse (local e produção):** acessibilidade **100**, SEO **100**, boas práticas **96**.
+  As únicas falhas de boas práticas são artefatos de terceiros no headless (o `adsbygoogle.js`
+  retorna `image/gif` para o robô). A **performance local/produção é poluída pelo antivírus da
+  máquina**, que injeta `me.kis.v2.scr.kaspersky-labs.com` em toda página (≈2,5 s de bloqueio de
+  render e 9 requisições http) — não é problema do site. O CSS próprio tem só **8,9 KB** e o
+  **CLS 0,014** e **TBT 10 ms** são excelentes.
+- **Melhorias aplicadas:** `prefers-reduced-motion` (desliga transições/rolagem suave) e foco
+  visível consistente (`:focus-visible`). Publicado (577 arquivos) e confirmado no CSS em produção.
 
 
 

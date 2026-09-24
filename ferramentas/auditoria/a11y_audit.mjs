@@ -22,9 +22,18 @@ const PAGINAS = [
   '/guias/plantio',
   '/comprar',
   '/comprar/vasos',
+  '/melhores',
   '/melhores/melhores-vasos-para-frutiferas',
+  '/mudas',
   '/mudas/jabuticaba',
+  '/categorias/nativas',
   '/curso',
+  '/calendario',
+  '/catalogo-embed',
+  '/creditos',
+  '/politica-de-privacidade',
+  '/aviso-de-afiliados',
+  '/sobre',
   '/contato',
 ]
 

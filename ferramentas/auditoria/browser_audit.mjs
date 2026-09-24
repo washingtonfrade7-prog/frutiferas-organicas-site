@@ -40,6 +40,22 @@ const MOBILE = { width: 375, height: 812 }
 const problemas = []
 const info = []
 
+// Terceiros (anuncio/analytics) que nao sao codigo do site e variam no headless.
+const TERCEIROS = [
+  'googletagmanager',
+  'googlesyndication',
+  'pagead2',
+  'doubleclick',
+  'google-analytics',
+  'google.com',
+  'gstatic',
+  'ezoic',
+]
+
+function isTerceiro(url) {
+  return TERCEIROS.some((t) => url.includes(t))
+}
+
 function addProblema(pagina, msg) {
   problemas.push(`${pagina} :: ${msg}`)
 }
@@ -50,17 +66,17 @@ async function abrir(browser, path, viewport) {
   const consoleErros = []
   const redeFalhas = []
   page.on('console', (m) => {
-    if (m.type() === 'error') consoleErros.push(m.text().slice(0, 200))
+    if (m.type() === 'error' && !isTerceiro(m.text())) consoleErros.push(m.text().slice(0, 200))
   })
   page.on('pageerror', (e) => consoleErros.push('pageerror: ' + e.message.slice(0, 200)))
   page.on('requestfailed', (r) => {
     const url = r.url()
-    if (url.includes('googletagmanager') || url.includes('ezoic') || url.includes('doubleclick')) return
+    if (isTerceiro(url)) return
     redeFalhas.push(`${r.failure()?.errorText || 'failed'} ${url.slice(0, 120)}`)
   })
   page.on('response', (r) => {
     const url = r.url()
-    if (r.status() >= 400 && !url.includes('googletagmanager') && !url.includes('ezoic') && !url.includes('doubleclick')) {
+    if (r.status() >= 400 && !isTerceiro(url)) {
       redeFalhas.push(`HTTP ${r.status()} ${url.slice(0, 120)}`)
     }
   })
