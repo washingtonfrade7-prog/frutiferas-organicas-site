@@ -398,6 +398,33 @@ sem `X-Frame-Options` e com CSP do Hotmart.
 **Pendente do usuário:** 3 fotos novas para as capas secundárias e macros dos calos das próprias
 enxertias (roteiro em `ROTEIRO-FOTOS-MACRO.md`).
 
+## Produto — rodada v11: acabamento (contraste, nitidez e som)
+Segunda auditoria externa, 3 itens. Pente fino primeiro (a auditoria vinha parcialmente
+desatualizada):
+
+| Afirmação da auditoria | Estado real |
+|---|---|
+| Texto das capas perde legibilidade sobre fundo natural | Nos PDFs o texto fica sobre **branco, acima da foto** — não se aplica. Vale para as **miniaturas da Hotmart**, que ainda não existiam |
+| Macros com baixa nitidez | Confirmado: fonte limitada (Flickr serve no máximo 1024 px; vídeo do autor só em 360p) |
+| Falta identidade sonora e detecção de objetos nos vídeos | Confirmado — não existia |
+
+**Executado:**
+
+1. **Capas de produto para a Hotmart.** `ferramentas/curso/gerar_capas_hotmart.py` gera 8 JPGs
+   (4 produtos × 1200×1200 e 1920×1080) em `ferramentas/curso/capas/`, com **gradiente escuro**
+   atrás do título (base α 240, topo α 110, curva quadrática) — o texto branco fica legível sobre
+   qualquer fundo. Bug de "degrau" no gradiente corrigido calculando o alfa por linha em toda a
+   altura.
+2. **Nitidez das macros.** `realesrgan`/`basicsr` não estão instalados (nem `cv2.dnn_superres`);
+   `melhorar_macros.py` aplica `cv2.fastNlMeansDenoisingColored` + nitidez (1,35) + contraste (1,04)
+   e salva em q92. `alporque-aereo` teve upscale 2× (640×500). PDFs regenerados:
+   e-book 69 pág · 4,25 MB, workbook 11 pág · 0,51 MB, bump 17 pág · 0,61 MB, upsell 20 pág · 1,12 MB.
+3. **Identidade sonora** — `IDENTIDADE-SONORA.md`: assinatura (sting de viola de 2–3 s), tema por
+   série (plantio, poda, colheita…), mixagem e arquivo/licença. Complementa `TRILHA-MODA-DE-VIOLA.md`.
+4. **Detecção de objetos nos vídeos** — `workflow-yolo-video.md`: YOLO-World (`yolov8l-world.pt`,
+   já na pasta do projeto de automação) com prompts em texto para **gemas, pulgões e corte em "V"**;
+   extração de quadros, consolidação por IoU, folha de contato e timeline JSON.
+
 
 
 
