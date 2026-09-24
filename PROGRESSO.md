@@ -329,6 +329,27 @@ Origem: `C:\Users\Micro\Downloads\fotos` (39 fotos do pomar do autor, enviadas p
   total 1,87 MB). E-book: 67 → **69 páginas · 3,17 MB**.
 - Bump e upsell seguem com 17 e 22 páginas (só a capa mudou).
 
+## Produto — rodada v8: zero imagem de terceiro com crédito obrigatório
+Meta do usuário: nenhuma imagem exigindo atribuição no material vendido.
+
+Levantamento (Wikimedia Commons API, Openverse, categorias completas; Pixabay bloqueia bot com
+HTTP 403; upload.wikimedia.org limita com HTTP 429):
+
+- **Enxertia — resolvido com CC0.** Série "Grafting of *Acacia koa*" (Serviço Florestal dos EUA,
+  domínio público). Substituem as 3 antigas:
+  - `enxerto-citros.jpg` (era CC BY-SA 4.0, Dr. Chinchu C.) → `koa1` (união no caule jovem)
+  - `garfagem-v.jpg` (era GFDL) → `koa6` (união no tronco, macro do calo)
+- **Alporque aéreo — não existe imagem livre.** Nem foto, nem gravura: todas as fotos reais são
+  CC BY-SA (Drenisa, Mihailo Grbic, Fredericknoronha) e todas as gravuras em domínio público
+  (Baltet *L'art de greffer*, placas rawpixel, `Layer (PSF)`) mostram **alporque de solo**, não o
+  aéreo que o texto ensina. Decisão: **retirar a foto** e manter o diagrama SVG de 6 passos, que já
+  ensina o método corretamente e é original.
+- **Conteúdo novo:** seção "Outro jeito: alporque de solo" (jabuticaba, pitanga, goiaba), usando a
+  gravura `baltet14` (domínio público, séc. XIX) — imagem passa a ser **coerente** com o texto.
+- **Seção "Créditos das imagens" removida** do upsell.
+- Limpeza: `garfagem-macro3.jpg` (4,5 MB, não referenciado) removido do repositório.
+- Upsell: 22 → **20 páginas · 1,21 MB**. Demais materiais inalterados.
+
 
 
 

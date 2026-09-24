@@ -125,8 +125,6 @@ recebe água e nutrientes o tempo todo, então praticamente não tem risco de pe
 <text class="lb" x="425" y="162">6. Separe só com raiz firme</text>
 </svg>
 
-<!-- MACRO:alporque-macro | Alporque real: o substrato úmido envolve o trecho anelado do galho, protegido por plástico até sair a raiz -->
-
 1. **Escolha um galho** do ano, de 1 a 2 cm de espessura, com boa exposição ao sol.
 2. **Anelar a casca:** com uma faca limpa, faça dois cortes paralelos (1,5 a 2 cm de distância) e
    remova a casca e a camada verde entre eles, deixando o **lenho branco à mostra**. É esse ferimento
@@ -150,6 +148,18 @@ Início da primavera é o melhor momento, quando a planta está em pleno crescim
 - **Deixar secar:** substrato seco no bolo = raiz nenhuma. Verifique a umidade semanalmente.
 - **Separar cedo:** só separe quando houver raiz visível e firme.
 
+### Outro jeito: alporque de solo
+
+Existe uma variação mais antiga, que não usa plástico: em vez de envolver o galho no alto, você
+**curva um ramo flexível até o chão**, enterra o trecho anelado e prende com um gancho de arame. A
+raiz sai ali mesmo, no solo.
+
+Funciona muito bem em **jabuticaba, pitanga e goiaba** — plantas de ramo fino e flexível. A
+vantagem é não precisar de substrato nem de amarração; a desvantagem é que só dá para fazer com
+ramos que alcançam o chão.
+
+<!-- MACRO:alporque-solo | Alporque de solo, em gravura do século XIX: o ramo é curvado até a terra e enraíza ali mesmo. À esquerda, o método simples; à direita, o serpentino, que produz várias mudas de uma vez -->
+
 ---
 
 ## Enxertia: produzir rápido e em qualquer solo
@@ -165,7 +175,7 @@ produção mais cedo.
 - Para recuperar uma planta que perdeu a copa.
 - Para ter **várias variedades** num mesmo pé (enxertia múltipla).
 
-<!-- MACRO:enxerto-citros | Enxerto de citros já pegado: a fita protege a união e os brotos novos saem acima dela -->
+<!-- MACRO:enxerto-citros | Enxerto já pegado: a união cicatrizada no caule e a planta seguindo o crescimento -->
 
 ### Garfagem (o mais indicado para iniciantes)
 
@@ -188,7 +198,7 @@ produção mais cedo.
 <text class="lg" x="452" y="148">câmbio no câmbio</text>
 </svg>
 
-<!-- MACRO:garfagem-v | Macro de um enxerto já pegado: no meio, o calo de cicatrização — é ali que o câmbio (a camada verde) das duas partes se une -->
+<!-- MACRO:garfagem-v | Macro da união: o anel claro é o calo de cicatrização — é ali que o câmbio das duas partes se soldou -->
 
 1. Escolha o **cavalo** (muda de 1 cm de diâmetro) e o **garfo** (ramo da planta produtiva, com 2 a 3
    gemas).
@@ -378,17 +388,6 @@ você vê enxertias, alporques e colheitas acontecendo de verdade.
 <!-- QR:site -->
 
 Dúvida? Deixe um comentário em qualquer vídeo. Eu leio e respondo.
-
----
-
-## Créditos das imagens
-
-As fotografias de enxertia e alporque usadas neste módulo vêm do Wikimedia Commons e são de uso
-livre, com atribuição:
-
-- **Alporque** — foto de Drenisa, licença CC BY-SA 4.0.
-- **Enxerto já pegado (citros)** — foto de Dr. Chinchu C., licença CC BY-SA 4.0.
-- **Macro do calo de cicatrização** — Wikimedia Commons, licença GFDL.
 
 ---
 

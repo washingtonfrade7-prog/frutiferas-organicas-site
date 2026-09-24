@@ -491,7 +491,7 @@ def substituir_macros(texto):
         caminho = os.path.join(CURSO_DIR, "macro", nome)
         if not os.path.exists(caminho):
             return ""
-        b64, mime = _imagem_b64(caminho, largura=900, qualidade=80)
+        b64, mime = _imagem_b64(caminho, largura=1100, qualidade=86)
         return MACRO_HTML.format(src=f"data:{mime};base64,{b64}", legenda=legenda)
 
     return MACRO_RE.sub(repl, texto)
