@@ -1,0 +1,612 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Frutiferas Organicas//Guia Completo//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Frutíferas em Vaso - 90 dias
+X-WR-CALDESC:Acompanhamento do guia Cultivo de Frutíferas Orgânicas em Vasos
+BEGIN:VEVENT
+UID:frutiferas-20260924-0@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Dia 1 - Escolher o local e o vaso
+DESCRIPTION:Meça quantas horas de sol direto o local recebe (mínimo 4 a 6h).
+ Escolha a frutífera e o vaso (20 L para começar\; 40 a 90 L para
+ jabuticaba\, citros e manga). Compre substrato\, húmus\, argila
+ expandida e manta de drenagem.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Dia 1 - Escolher o local e o vaso
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20260925-1@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Dia 2 - Montar drenagem e substrato
+DESCRIPTION:Argila expandida no fundo + manta de drenagem. Substrato: 50% terra
+ vegetal\, 30% matéria orgânica\, 20% drenagem.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Dia 2 - Montar drenagem e substrato
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20260926-2@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Dia 3 - Plantar
+DESCRIPTION:Plante sem enterrar o colo (deve ficar na altura em que estava no
+ saquinho). Primeira rega até a água sair pelos furos. Aclimatar em
+ meia-sombra por 3 a 5 dias.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Dia 3 - Plantar
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20260928-3@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Dia 5 - Aumentar a exposição ao sol
+DESCRIPTION:Comece a expor a muda ao sol da manhã\, aumentando aos poucos ao
+ longo de 1 a 2 semanas.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Dia 5 - Aumentar a exposição ao sol
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20260930-4@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Semana 1 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 1 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261001-5@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Semana 1 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 1 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261007-6@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Semana 2 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 2 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261008-7@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Semana 2 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 2 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261014-8@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Semana 3 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 3 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261015-9@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Semana 3 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 3 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261021-10@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Semana 4 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 4 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261022-11@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Semana 4 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 4 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261028-12@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Semana 5 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 5 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261029-13@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Semana 5 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 5 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261104-14@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Semana 6 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 6 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261105-15@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Semana 6 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 6 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261111-16@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Semana 7 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 7 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261112-17@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Semana 7 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 7 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261118-18@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Semana 8 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 8 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261119-19@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Semana 8 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 8 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261125-20@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Semana 9 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 9 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261126-21@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Semana 9 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 9 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261202-22@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Semana 10 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 10 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261203-23@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Semana 10 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 10 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261209-24@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Semana 11 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 11 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261210-25@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Semana 11 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 11 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261216-26@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Semana 12 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 12 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261217-27@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Semana 12 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 12 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261223-28@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Semana 13 - Teste do dedo e registro
+DESCRIPTION:Enfie o dedo 2 cm no substrato: só regue se estiver seco. Anote no
+ diário (altura\, folhas\, o que observou).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 13 - Teste do dedo e registro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261224-29@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Semana 13 - Inspeção de pragas (5 min)
+DESCRIPTION:Olhe o verso das folhas\, as pontas novas e o caule. Procure
+ cochonilha\, pulgão e mosca-branca. Trate no começo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Semana 13 - Inspeção de pragas (5 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261014-30@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Adubar com bokashi (1ª vez)
+DESCRIPTION:1 a 2 colheres de sopa na borda do vaso\, longe do caule. Cubra com
+ substrato e regue. Repita a cada 30 a 45 dias.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubar com bokashi (1ª vez)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261123-31@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Adubar com bokashi
+DESCRIPTION:Reposição de bokashi na borda do vaso (a cada 30 a 45 dias).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubar com bokashi
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20270102-32@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Adubar com bokashi
+DESCRIPTION:Reposição de bokashi na borda do vaso (a cada 30 a 45 dias).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubar com bokashi
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261023-33@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Adubo líquido (chá de húmus)
+DESCRIPTION:Regue com o adubo líquido já diluído (1 parte de caldo para 5 a 10
+ de água)\, em substrato úmido.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubo líquido (chá de húmus)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261107-34@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Adubo líquido (chá de húmus)
+DESCRIPTION:Regue com o adubo líquido já diluído (1 parte de caldo para 5 a 10
+ de água)\, em substrato úmido.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubo líquido (chá de húmus)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261122-35@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Adubo líquido (chá de húmus)
+DESCRIPTION:Regue com o adubo líquido já diluído (1 parte de caldo para 5 a 10
+ de água)\, em substrato úmido.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubo líquido (chá de húmus)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261207-36@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Adubo líquido (chá de húmus)
+DESCRIPTION:Regue com o adubo líquido já diluído (1 parte de caldo para 5 a 10
+ de água)\, em substrato úmido.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubo líquido (chá de húmus)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261222-37@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Adubo líquido (chá de húmus)
+DESCRIPTION:Regue com o adubo líquido já diluído (1 parte de caldo para 5 a 10
+ de água)\, em substrato úmido.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Adubo líquido (chá de húmus)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261014-38@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Instalar a cobertura morta
+DESCRIPTION:Casca de pinus\, folhas secas ou palha (2 a 3 cm) sobre o substrato:
+ reduz a evaporação e vira adubo.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Instalar a cobertura morta
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261122-39@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Poda de limpeza
+DESCRIPTION:Remova só o seco\, o doente e o que cruza. Corte acima de uma gema\,
+ sem deixar toco.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Poda de limpeza
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20261222-40@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Balanço dos 90 dias
+DESCRIPTION:Compare com a foto do dia do plantio. Revise o que funcionou e o que
+ vai mudar na próxima safra.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Balanço dos 90 dias
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20270121-41@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Checar sinal de floração
+DESCRIPTION:Na fase de floração\, reduza o nitrogênio e aumente fósforo e
+ potássio (farinha de osso e cinza).
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Checar sinal de floração
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:frutiferas-20280922-42@frutiferasorganicas.com.br
+DTSTAMP:20260923T120000Z
+DTSTART;VALUE=DATE:20280922
+DTEND;VALUE=DATE:20280923
+SUMMARY:Renovar o substrato (2 anos)
+DESCRIPTION:Tire a planta do vaso\, faça poda leve de raízes (até 1/3 das
+ velhas)\, renove parte do substrato\, adube e\, se possível\,
+ aumente o vaso.
+BEGIN:VALARM
+TRIGGER:-PT15H
+ACTION:DISPLAY
+DESCRIPTION:Renovar o substrato (2 anos)
+END:VALARM
+END:VEVENT
+END:VCALENDAR

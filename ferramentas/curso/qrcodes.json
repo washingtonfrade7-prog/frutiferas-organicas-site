@@ -59,6 +59,11 @@
     "rotulo": "Catálogo interativo (filtre por situação)",
     "arquivo": "qrcodes/catalogo-interativo.png"
   },
+  "calendario": {
+    "url": "https://frutiferasorganicas.com.br/calendario",
+    "rotulo": "Calendário de 90 dias (1 toque)",
+    "arquivo": "qrcodes/calendario.png"
+  },
   "video-poda-jabuticaba": {
     "url": "https://www.youtube.com/watch?v=cQAsGpzPlk0",
     "rotulo": "Vídeo: como podar jabuticaba",

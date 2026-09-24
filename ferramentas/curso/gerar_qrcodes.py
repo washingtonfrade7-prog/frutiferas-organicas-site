@@ -34,6 +34,10 @@ ALVOS = {
         f"{SITE}/frutiferas",
         "Catálogo interativo (filtre por situação)",
     ),
+    "calendario": (
+        f"{SITE}/calendario",
+        "Calendário de 90 dias (1 toque)",
+    ),
     "video-poda-jabuticaba": (
         "https://www.youtube.com/watch?v=cQAsGpzPlk0",
         "Vídeo: como podar jabuticaba",

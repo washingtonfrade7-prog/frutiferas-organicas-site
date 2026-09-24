@@ -365,6 +365,39 @@ Fonte: vídeo do autor ensinando alporquia (`youtube.com/watch?v=urvl7-HZA1M`, 1
 - **Créditos:** imagem do próprio autor — nenhuma atribuição a terceiros.
 - Upsell: 20 páginas · 1,24 MB (5 figuras).
 
+## Produto — rodada v10: auditoria externa (pente fino + execução)
+**Pente fino** contra os arquivos reais (a auditoria estava parcialmente desatualizada):
+
+| Afirmação da auditoria | Estado real |
+|---|---|
+| Mesma foto nas 4 capas | **4 fotos distintas** (hashes diferentes) — mas 3 eram "pessoa + fruta + parede laranja": efeito clone **na percepção** |
+| Enxertia virou só diagrama | Upsell tinha **2 fotos reais** de união de enxerto (CC0) + 2 SVG |
+| Imagens de terceiros | **0** menções a Wikimedia/CC BY/GFDL |
+| `.ics` delega trabalho ao usuário | Confirmado |
+| Catálogo expulsa o aluno do ambiente | Confirmado |
+
+**Executado:**
+
+1. **Capas — efeito clone quebrado.** Bump → `limoes-na-mao` (close de limões) e Upsell →
+   `cacho-uva-no-pe` (uva no pé). Agora são 4 cenários distintos: placa/quintal, criança/vasos/céu,
+   mão/limões, uva/natureza.
+2. **Calendário 1 toque.** `.ics` hospedado em `public/` (servido como `text/calendar`, mime
+   adicionado ao `.htaccess`) + página **`/calendario`** com botões Google Agenda, iPhone/iPad
+   (`webcal://`), Outlook e download. Texto do Workbook reescrito: "toque no botão", não "importe
+   o arquivo".
+3. **Catálogo embutível.** Página **`/catalogo-embed`** (sem cabeçalho/rodapé, links abrem em nova
+   aba) para rodar em iframe na Hotmart Club. O `X-Frame-Options: SAMEORIGIN` global bloquearia o
+   iframe — liberado **apenas** nessa página via `.htaccess`
+   (`frame-ancestors 'self' https://*.hotmart.com https://*.hotmart.com.br`).
+   Mecanismo: script inline no `<head>` adiciona `html.embed` antes da pintura + CSS
+   `.site-chrome { display: none }`.
+
+**Verificado em produção:** `/calendario` 200 · `.ics` 200 `text/calendar` · `/catalogo-embed` 200
+sem `X-Frame-Options` e com CSP do Hotmart.
+
+**Pendente do usuário:** 3 fotos novas para as capas secundárias e macros dos calos das próprias
+enxertias (roteiro em `ROTEIRO-FOTOS-MACRO.md`).
+
 
 
 

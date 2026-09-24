@@ -78,13 +78,13 @@ Imprima esta página, cole as fotos ou escreva ao lado o que mudou. A foto do **
 
 ### Lembretes automáticos no celular
 
-Junto com este workbook vem o arquivo **Calendario-Frutiferas-90-dias.ics**. Importe-o no calendário do celular e você passa a receber **aviso automático** de cada tarefa: teste do dedo, inspeção de pragas, bokashi a cada 30-45 dias, adubo líquido, poda de limpeza e a renovação do substrato (2 anos). São 43 lembretes.
+Junto com este workbook vem o calendário **Frutíferas em Vaso — 90 dias**, com **43 lembretes automáticos**: teste do dedo, inspeção de pragas, bokashi a cada 30-45 dias, adubo líquido, poda de limpeza e a renovação do substrato (2 anos).
 
-- **Android:** toque no arquivo e escolha o app de calendário.
-- **iPhone:** toque no arquivo e escolha *Adicionar ao Calendário*.
-- **Computador:** abra no Google Agenda e importe em *Configurações > Importar*.
+Abra o endereço abaixo e toque no botão do seu calendário. Em **um toque** os lembretes entram na sua agenda, com aviso automático — não precisa baixar nem importar arquivo.
 
-Assim você não depende da memória: o celular avisa na hora certa.
+<!-- QR:calendario -->
+
+Se preferir o caminho manual, o mesmo endereço permite baixar o arquivo `.ics`.
 
 ---
 

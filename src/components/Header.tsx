@@ -22,7 +22,7 @@ export default function Header() {
   const [isCatOpen, setIsCatOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50">
+    <header className="site-chrome sticky top-0 z-50">
       <div className="bg-forest-900 text-cream-100 text-sm">
         <div className="max-w-7xl mx-auto px-4 py-1.5 flex justify-between items-center">
           <div className="flex gap-4">

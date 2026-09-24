@@ -32,6 +32,8 @@ ErrorDocument 404 /404.html
 # YAML (config do CMS /admin)
 <IfModule mod_mime.c>
   AddType text/yaml .yml .yaml
+  # Calendario do aluno: o navegador/celular precisa reconhecer como calendario
+  AddType text/calendar .ics
 </IfModule>
 
 # Compressão
@@ -62,5 +64,12 @@ ErrorDocument 404 /404.html
   # HTML: cache curto (10 min) para acelerar sem atrapalhar atualizações
   <FilesMatch "\.html$">
     Header set Cache-Control "public, max-age=600, must-revalidate"
+  </FilesMatch>
+
+  # Catalogo embutivel na area de membros (Hotmart Club).
+  # O X-Frame-Options global bloquearia o iframe; aqui liberamos apenas esta pagina.
+  <FilesMatch "^catalogo-embed\.html$">
+    Header unset X-Frame-Options
+    Header set Content-Security-Policy "frame-ancestors 'self' https://*.hotmart.com https://*.hotmart.com.br"
   </FilesMatch>
 </IfModule>

@@ -7,15 +7,19 @@ import { imgUrl } from '@/lib/site'
 
 interface FrutiferaCardProps {
   fruta: Frutifera
+  /** No modo embed (iframe na area de membros) os links abrem em nova aba,
+      senao o aluno seria jogado para dentro do iframe. */
+  embed?: boolean
 }
 
-export default function FrutiferaCard({ fruta }: FrutiferaCardProps) {
+export default function FrutiferaCard({ fruta, embed = false }: FrutiferaCardProps) {
   const categoriaPrincipal = getCategoria(fruta.categorias[0])
   const temOferta = fruta.ofertas.some((o) => !o.url.startsWith('#'))
 
   return (
     <Link
       href={`/frutiferas/${fruta.slug}`}
+      {...(embed ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
       className="block relative bg-white rounded-xl shadow-sm hover:shadow-md transition group border border-cream-200 overflow-hidden"
     >
       {fruta.imagem ? (

@@ -16,7 +16,7 @@ function normalizar(texto: string): string {
 const DIFICULDADES = ['Fácil', 'Média', 'Avançada']
 const LUZES = ['Sol pleno', 'Meia-sombra']
 
-export default function FrutiferasContent() {
+export default function FrutiferasContent({ embed = false }: { embed?: boolean }) {
   // O estado inicial e vazio para que o HTML estatico (SSG) inclua TODAS as
   // frutiferas (bom para indexacao). Depois de hidratar, lemos os parametros
   // da URL (?cat=, ?q=, ?sit=, ?dif=, ?luz=) e aplicamos o filtro.
@@ -83,7 +83,7 @@ export default function FrutiferasContent() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <nav className="flex items-center gap-2 text-sm text-ink-500 mb-6">
+      <nav className={`items-center gap-2 text-sm text-ink-500 mb-6 ${embed ? 'hidden' : 'flex'}`}>
         <Link href="/" className="hover:text-forest-600">Início</Link>
         <span>/</span>
         <span className="text-ink-900 font-medium">Frutíferas</span>
@@ -209,7 +209,7 @@ export default function FrutiferasContent() {
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {lista.map((fruta) => (
-                <FrutiferaCard key={fruta.slug} fruta={fruta} />
+                <FrutiferaCard key={fruta.slug} fruta={fruta} embed={embed} />
               ))}
             </div>
           )}

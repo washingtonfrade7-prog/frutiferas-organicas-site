@@ -802,16 +802,16 @@ def gerar_bonus(frutiferas):
         "",
         "### Lembretes automáticos no celular",
         "",
-        "Junto com este workbook vem o arquivo **Calendario-Frutiferas-90-dias.ics**. Importe-o no "
-        "calendário do celular e você passa a receber **aviso automático** de cada tarefa: teste do "
-        "dedo, inspeção de pragas, bokashi a cada 30-45 dias, adubo líquido, poda de limpeza e a "
-        "renovação do substrato (2 anos). São 43 lembretes.",
+        "Junto com este workbook vem o calendário **Frutíferas em Vaso — 90 dias**, com **43 lembretes "
+        "automáticos**: teste do dedo, inspeção de pragas, bokashi a cada 30-45 dias, adubo líquido, "
+        "poda de limpeza e a renovação do substrato (2 anos).",
         "",
-        "- **Android:** toque no arquivo e escolha o app de calendário.",
-        "- **iPhone:** toque no arquivo e escolha *Adicionar ao Calendário*.",
-        "- **Computador:** abra no Google Agenda e importe em *Configurações > Importar*.",
+        "Abra o endereço abaixo e toque no botão do seu calendário. Em **um toque** os lembretes entram "
+        "na sua agenda, com aviso automático — não precisa baixar nem importar arquivo.",
         "",
-        "Assim você não depende da memória: o celular avisa na hora certa.",
+        "<!-- QR:calendario -->",
+        "",
+        "Se preferir o caminho manual, o mesmo endereço permite baixar o arquivo `.ics`.",
         "",
         "---",
         "",
@@ -906,7 +906,7 @@ def main():
         "Adubacao-Organica-Descomplicada.pdf",
         "Adubação Orgânica",
         "Descomplicada — receitas, doses e calendário",
-        capa="pomar/colheita-nespera",
+        capa="pomar/limoes-na-mao",
         cor="#8f4c25",
         chancela="Material complementar",
     )
@@ -915,7 +915,7 @@ def main():
         "Multiplicacao-de-Mudas-na-Pratica.pdf",
         "Multiplicação de Mudas",
         "na prática — estaquia, alporque e enxertia",
-        capa="pomar/muda-na-mao",
+        capa="pomar/cacho-uva-no-pe",
         cor="#1f5b5b",
         chancela="Módulo avançado",
     )

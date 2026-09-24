@@ -68,6 +68,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="flex flex-col min-h-screen">
+        {/* Modo embed: esconde cabecalho e rodape para rodar dentro da area de membros.
+            Roda antes da pintura para nao piscar o menu. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var q=location.search,p=location.pathname;if(q.indexOf('embed=1')>-1||p.indexOf('/catalogo-embed')===0){document.documentElement.className+=' embed'}}catch(e){}",
+          }}
+        />
         <link rel="preconnect" href="https://i.ytimg.com" crossOrigin="" />
         <link rel="dns-prefetch" href="https://i.ytimg.com" />
         <link rel="preconnect" href="https://www.youtube-nocookie.com" />

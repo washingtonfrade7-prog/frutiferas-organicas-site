@@ -29,3 +29,17 @@ h5,
 h6 {
   @apply font-display;
 }
+
+/* Modo embed (?embed=1 ou /catalogo-embed): roda dentro da area de membros
+   da Hotmart, sem cabecalho, rodape nem anuncios. */
+html.embed .site-chrome {
+  display: none !important;
+}
+
+html.embed body {
+  @apply bg-white;
+}
+
+html.embed main {
+  padding: 0;
+}
