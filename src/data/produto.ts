@@ -50,6 +50,16 @@ export const produto = {
       itens: ['Ponto certo de colheita por fruta', 'Troca de vaso e renovação do substrato', 'Multiplicação de mudas'],
     },
   ] as ModuloProduto[],
+  videoaulas: [
+    '1. Vaso, substrato e muda',
+    '2. Plantio passo a passo',
+    '3. Rega na prática',
+    '4. Adubação orgânica',
+    '5. Poda ao vivo',
+    '6. Floração e frutificação',
+    '7. Pragas e soluções',
+    '8. Colheita e renovação',
+  ],
   paraQuem: [
     'Quem mora em apartamento ou tem quintal pequeno e quer colher frutas em casa',
     'Quem já tentou plantar e perdeu a muda por erro de rega ou substrato',
@@ -62,7 +72,8 @@ export const produto = {
     'Workbook do aluno: diário de cultivo de 90 dias, registro fotográfico e checklists',
     'Alerta de peso para sacadas e varandas de prédio (com a norma NBR 6120)',
     'QR codes e links para os vídeos e guias de cada etapa',
-    'Videoaulas práticas gravadas no pomar, mostrando cada etapa',
+    '8 videoaulas práticas gravadas no pomar, mostrando cada etapa',
+    'Trilha sonora original de moda de viola nas aulas práticas — a assinatura sonora do canal',
     'Atualizações futuras sem custo adicional',
   ],
   faq: [
@@ -82,9 +93,9 @@ export const produto = {
         'O canal mostra os vídeos soltos. No material, o conteúdo está organizado em ordem, com checklist, fichas e o passo a passo completo — para consultar sempre que precisar.',
     },
     {
-      pergunta: 'Quando será lançado?',
+      pergunta: 'Como recebo o acesso?',
       resposta:
-        'Estamos finalizando as gravações. Quem entrar na lista de espera é avisado primeiro e garante o desconto de lançamento.',
+        'O acesso é imediato após a compra: você entra na área de membros e já baixa o e-book e o Workbook, e assiste às 8 videoaulas. Você tem 7 dias de garantia — se não gostar, devolvemos o valor.',
     },
   ],
 }

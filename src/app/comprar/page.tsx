@@ -14,7 +14,8 @@ export const metadata: Metadata = {
   description:
     'Guia de compras para cultivar frutíferas em vaso: vasos, substratos, adubos orgânicos, ferramentas, irrigação e kits de plantio. Compare e compre com segurança.',
   alternates: { canonical: '/comprar' },
-  openGraph: { url: '/comprar', title: `Onde comprar - ${site.name}` },
+  openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: '/comprar', title: `Onde comprar - ${site.name}` },
 }
 
 export default function ComprarPage() {

@@ -2,10 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import YouTubeSection from '@/components/YouTubeSection'
+import CourseCTA from '@/components/CourseCTA'
 import BannerSlot from '@/components/BannerSlot'
 import JsonLd from '@/components/JsonLd'
 import AdSlot from '@/components/Ads'
 import { topicos, getTopico } from '@/data/aprender'
+import { getGuiaPlaylist } from '@/data/guias-playlists'
 import { guias } from '@/data/guias'
 import { breadcrumbJsonLd, faqJsonLd, howToJsonLd } from '@/lib/seo'
 import { site, youtubeChannelUrl } from '@/lib/site'
@@ -26,6 +28,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     description: topico.resumo,
     alternates: { canonical: `/guias/${topico.slug}` },
     openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }],
       url: `/guias/${topico.slug}`,
       title: `${topico.nome} - ${site.name}`,
       description: topico.resumo,
@@ -39,6 +42,7 @@ export default function TopicoPage({ params }: PageProps) {
 
   const guia = guias.find((g) => g.slug === topico.slug)
   const videos = guia?.videos ?? []
+  const playlist = getGuiaPlaylist(topico.slug)
   const outros = topicos.filter((t) => t.slug !== topico.slug).slice(0, 4)
 
   return (
@@ -148,6 +152,33 @@ export default function TopicoPage({ params }: PageProps) {
           </div>
         </section>
       )}
+
+      {playlist && (
+        <a
+          href={playlist.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 flex items-center gap-4 rounded-2xl border border-cream-200 bg-cream-50 p-5 hover:border-forest-300 transition"
+        >
+          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-forest-700 text-white">
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M4 6h10v2H4zm0 5h10v2H4zm0 5h10v2H4zm14-5-4 3 4 3z" />
+            </svg>
+          </span>
+          <span>
+            <span className="block font-semibold text-ink-900">Playlist completa no canal</span>
+            <span className="block text-sm text-ink-600">
+              {playlist.titulo} — {playlist.total} vídeos
+            </span>
+          </span>
+        </a>
+      )}
+
+      <CourseCTA
+        className="mt-12"
+        titulo="Aprenda o método completo, passo a passo"
+        texto="Este guia é um resumo gratuito. No curso, você tem o e-book completo, 8 videoaulas práticas e o workbook com o Desafio 90 Dias — do plantio à colheita."
+      />
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-5 font-display">Perguntas frequentes</h2>

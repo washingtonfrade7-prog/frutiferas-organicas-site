@@ -13,7 +13,8 @@ export const metadata: Metadata = {
   description:
     'Aprenda a plantar, adubar, podar e colher frutíferas orgânicas em vaso. Guias completos com passo a passo, dicas, erros comuns e vídeos práticos.',
   alternates: { canonical: '/guias' },
-  openGraph: { url: '/guias', title: `Guias de cultivo - ${site.name}` },
+  openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: '/guias', title: `Guias de cultivo - ${site.name}` },
 }
 
 export default function GuiasPage() {

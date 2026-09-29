@@ -6,6 +6,7 @@ import BannerSlot from '@/components/BannerSlot'
 import AdSlot from '@/components/Ads'
 import { frutiferas } from '@/data/frutiferas'
 import { playlists } from '@/data/playlists'
+import { series } from '@/data/series'
 import { site, youtubeChannelUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
   description:
     'Coleção de vídeos sobre plantio, poda, adubação e colheita de frutíferas orgânicas em vaso. Aprenda antes de comprar suas mudas.',
   alternates: { canonical: '/videos' },
-  openGraph: { url: '/videos', title: `Vídeos de cultivo - ${site.name}` },
+  openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: '/videos', title: `Vídeos de cultivo - ${site.name}` },
 }
 
 export default function VideosPage() {
@@ -70,6 +72,34 @@ export default function VideosPage() {
             <YouTubeSection videos={fruta.videos.slice(0, 3)} titulo="" />
           </section>
         ))}
+      </div>
+
+      <div className="mt-16">
+        <h2 className="text-xl font-bold font-display mb-1">Séries &ldquo;desde o plantio&rdquo;</h2>
+        <p className="text-sm text-ink-500 mb-5">
+          Acompanhe cada frutífera desde a muda até a colheita, em séries organizadas por espécie.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {series.map((s) => (
+            <a
+              key={s.id}
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-white rounded-xl shadow-sm border border-cream-200 p-5 hover:shadow-md hover:border-forest-300 transition"
+            >
+              <div className="flex items-center gap-2 text-xs text-terracotta-600 font-semibold uppercase tracking-wide mb-2">
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M4 6h10v2H4zm0 5h10v2H4zm0 5h10v2H4zm14-5-4 3 4 3z" />
+                </svg>
+                Série · {s.total} {s.total === 1 ? 'vídeo' : 'vídeos'}
+              </div>
+              <h3 className="font-semibold text-ink-900 group-hover:text-forest-700 transition leading-snug">
+                {s.titulo}
+              </h3>
+            </a>
+          ))}
+        </div>
       </div>
 
       <div className="mt-16">

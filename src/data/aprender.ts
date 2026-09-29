@@ -363,6 +363,76 @@ export const topicos: Topico[] = [
       { p: 'Quantas frutíferas cabem em uma varanda pequena?', r: 'Depende do vaso. Com vasos de 20 a 30 litros, é possível manter de 3 a 6 plantas em uma varanda média.' },
     ],
   },
+  {
+    slug: 'vaso-e-substrato',
+    nome: 'Como escolher o vaso e o substrato certo',
+    resumo: 'Tamanho, material, drenagem e a receita de substrato orgânico para frutíferas em vaso.',
+    intro: [
+      'O vaso e o substrato são a base de tudo. Em um espaço fechado, é deles que a planta tira água, ar e nutrientes — e é onde a maioria dos erros começa.',
+      'Um vaso pequeno seca rápido e esquenta demais; um substrato pesado encharca e apodrece a raiz. A escolha certa evita 90% dos problemas de quem cultiva em recipiente.',
+      'Neste guia você vê o volume mínimo por tipo de planta, o material do vaso, a drenagem e a receita de substrato que usamos no pomar.',
+    ],
+    passos: [
+      { titulo: 'Defina o volume', texto: 'Para começar: 20 a 30 litros (acerola, pitanga, pitaya). Espécies maiores, como jabuticaba, manga e citros, pedem 40 a 90 litros.' },
+      { titulo: 'Escolha o material', texto: 'Polietileno e fibra duram mais e esquentam menos. Barro é bonito, mas quebra e seca mais rápido. O importante é ter furos de drenagem.' },
+      { titulo: 'Monte a drenagem', texto: 'Camada de argila expandida no fundo, coberta por uma manta (bidim) para o substrato não entupir os furos.' },
+      { titulo: 'Faça o substrato', texto: 'Terra vegetal + composto orgânico curtido + areia grossa na proporção 2:2:1. Acrescente húmus de minhoca e, se quiser, pó de rocha.' },
+      { titulo: 'Teste a drenagem', texto: 'Antes de plantar, regue o vaso vazio: a água deve sair pelos furos em segundos. Se demorar, revise a mistura.' },
+    ],
+    dicas: [
+      'Vasos claros esquentam menos as raízes no verão forte.',
+      'Nunca use apenas terra de jardim: ela compacta e sufoca a raiz.',
+      'Pratinho com água parada é armadilha: esvazie sempre.',
+      'Quanto maior o vaso, mais estável é a umidade — e mais fácil o cultivo.',
+    ],
+    erros: [
+      'Vaso sem furos de drenagem (mata mais que falta de água).',
+      'Substrato só de terra argilosa, que vira barro.',
+      'Vaso pequeno para espécie grande: a planta não desenvolve.',
+      'Encher o pratinho e deixar a água acumulada.',
+    ],
+    faq: [
+      { p: 'Posso usar vaso de barro?', r: 'Pode, mas ele seca mais rápido e quebra com facilidade. Se usar, redobre a atenção na rega.' },
+      { p: 'Qual o substrato pronto ideal?', r: 'Procure misturas para frutíferas, com boa drenagem e matéria orgânica. Ou monte a sua na proporção 2:2:1.' },
+      { p: 'Preciso trocar o substrato?', r: 'A cada 1 a 2 anos, renove parte do substrato ou faça a troca de vaso para repor nutrientes e espaço.' },
+      { p: 'Vaso autoirrigável serve para frutíferas?', r: 'Serve para algumas espécies, mas exige cuidado: em excesso, mantém a raiz encharcada. Não é para todas.' },
+    ],
+  },
+  {
+    slug: 'frutiferas-para-apartamento',
+    nome: 'Frutíferas para apartamento e varanda',
+    resumo: 'Quais frutíferas produzem em apartamento, como lidar com sol limitado e o alerta de peso da sacada.',
+    intro: [
+      'Dá para colher fruta em apartamento? Dá — desde que você escolha as espécies certas e respeite dois limites: a luz e o peso da sacada.',
+      'Varandas e sacadas costumam ter sol em parte do dia. Muitas frutíferas se dão bem com 5 a 6 horas de sol direto; outras aceitam meia-sombra.',
+      'Neste guia você vê as melhores espécies para apartamento, como posicionar os vasos e o alerta de peso com a norma NBR 6120.',
+    ],
+    passos: [
+      { titulo: 'Meça o sol da varanda', texto: 'Observe onde bate sol pela manhã e à tarde. Anote quantas horas diretas cada canto recebe ao longo de um dia.' },
+      { titulo: 'Escolha as espécies', texto: 'Sol pleno: acerola, pitanga, amora, citros, pitaya. Meia-sombra: jabuticaba jovem, araçá, grumixama.' },
+      { titulo: 'Calcule o peso', texto: 'Vaso cheio pesa muito: substrato úmido fica em torno de 1 kg por litro. Some vaso + planta + água e confira o limite da laje (NBR 6120: 2,5 kN/m² ≈ 250 kg/m²).' },
+      { titulo: 'Use substrato leve', texto: 'Fibra de coco, casca de arroz e vermiculita reduzem o peso. Um mix leve protege a estrutura da sacada.' },
+      { titulo: 'Posicione e proteja', texto: 'Evite vasos na beirada com vento forte. Use pratos e trave os vasos maiores. Deixe espaço para circular e regar.' },
+    ],
+    dicas: [
+      'Espelhos e paredes claras ajudam a refletir mais luz para as plantas.',
+      'Gire os vasos de tempos em tempos para a planta crescer reta.',
+      'Prefira vasos com rodinhas para conseguir mover e limpar.',
+      'Comece com 2 ou 3 plantas e vá aprendendo o ritmo da sua varanda.',
+    ],
+    erros: [
+      'Ignorar o peso e sobrecarregar a sacada.',
+      'Colocar espécies de sol pleno em varanda escura.',
+      'Deixar vasos soltos na beirada com vento.',
+      'Regar em excesso em varandas fechadas, sem circulação de ar.',
+    ],
+    faq: [
+      { p: 'Qual frutífera produz mais rápido em apartamento?', r: 'Pitaya, acerola, amora e maracujá costumam produzir em 1 a 2 anos, com sol suficiente.' },
+      { p: 'Varanda com sol só de manhã serve?', r: 'Serve para espécies de meia-sombra. Para as de sol pleno, o ideal é complementar a luz.' },
+      { p: 'Quanto peso uma sacada aguenta?', r: 'A NBR 6120 indica 2,5 kN/m² (cerca de 250 kg/m²) para sobrecarga residencial. Some tudo e distribua os vasos.' },
+      { p: 'Preciso de autorização do condomínio?', r: 'Depende do regulamento. Evite vasos na beirada externa e cuide para não pingar nos vizinhos.' },
+    ],
+  },
 ]
 
 export function getTopico(slug: string): Topico | undefined {

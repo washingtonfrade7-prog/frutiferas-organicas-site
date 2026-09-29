@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   description:
     'Comparativos e guias de compra para quem cultiva frutíferas em vaso: vasos, substratos, adubos, kits de plantio e ferramentas de poda.',
   alternates: { canonical: '/melhores' },
-  openGraph: { url: '/melhores', title: `Guias de compra - ${site.name}` },
+  openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: '/melhores', title: `Guias de compra - ${site.name}` },
 }
 
 export default function MelhoresPage() {

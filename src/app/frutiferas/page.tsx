@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     'Catálogo completo de frutíferas orgânicas para cultivo em vaso: fichas de cultivo, vídeos, dicas e onde comprar mudas e insumos nos parceiros.',
   alternates: { canonical: '/frutiferas' },
   openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }],
     url: '/frutiferas',
     title: `Catálogo de frutíferas - ${site.name}`,
     description:

@@ -13,7 +13,8 @@ export const metadata: Metadata = {
   description:
     'Guia de mudas de frutíferas: onde comprar muda de jabuticaba, acerola, citros, pitanga e mais de 100 espécies, com faixa de preço e dicas para escolher.',
   alternates: { canonical: '/mudas' },
-  openGraph: { url: '/mudas', title: `Mudas de frutíferas - ${site.name}` },
+  openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: '/mudas', title: `Mudas de frutíferas - ${site.name}` },
 }
 
 export default function MudasPage() {

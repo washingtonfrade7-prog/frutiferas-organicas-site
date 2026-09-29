@@ -42,7 +42,7 @@ export default function NewsletterForm({
     setMensagem('')
 
     function abrirEmail() {
-      const assunto = encodeURIComponent('Quero entrar na lista de espera')
+      const assunto = encodeURIComponent('Quero receber novidades')
       const corpo = encodeURIComponent(`E-mail: ${valor}\nOrigem: ${origem}\n`)
       window.location.href = `mailto:${site.email}?subject=${assunto}&body=${corpo}`
     }

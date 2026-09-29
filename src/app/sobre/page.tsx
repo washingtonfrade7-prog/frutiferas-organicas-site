@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   description:
     'Conheça o Frutíferas Orgânicas, portal de conteúdo e vitrine de marketing de afiliados dedicado ao cultivo de frutíferas orgânicas em vaso.',
   alternates: { canonical: '/sobre' },
-  openGraph: { url: '/sobre', title: `Sobre - ${site.name}` },
+  openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: '/sobre', title: `Sobre - ${site.name}` },
 }
 
 export default function SobrePage() {

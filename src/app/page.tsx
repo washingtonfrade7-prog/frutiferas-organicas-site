@@ -4,11 +4,14 @@ import Image from 'next/image'
 import FrutiferaCard from '@/components/FrutiferaCard'
 import CategoryIcon from '@/components/CategoryIcon'
 import BannerSlot from '@/components/BannerSlot'
+import CourseCTA from '@/components/CourseCTA'
 import YouTubeSection from '@/components/YouTubeSection'
 import NewsletterCTA from '@/components/NewsletterCTA'
 import AdSlot from '@/components/Ads'
 import { categorias } from '@/data/categorias'
 import { getDestaques, frutiferas, todosOsVideos } from '@/data/frutiferas'
+import { videosDestaques } from '@/data/destaques'
+import { produto } from '@/data/produto'
 import { site, youtubeChannelUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
@@ -99,7 +102,55 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-cream-50 to-transparent" />
       </section>
 
-      <section id="categorias" className="max-w-7xl mx-auto px-4 -mt-8 relative z-10">
+      <section className="max-w-7xl mx-auto px-4 -mt-8 relative z-10">
+        <div className="overflow-hidden rounded-3xl border border-cream-200 bg-white shadow-xl">
+          <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">
+            <div className="lg:col-span-7 p-6 md:p-10">
+              <span className="inline-flex items-center gap-2 rounded-full bg-terracotta-50 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.2em] text-terracotta-700">
+                Curso + e-book oficial
+              </span>
+              <h2 className="mt-4 text-2xl md:text-3xl font-bold font-display text-ink-900 leading-tight">
+                {produto.nome}
+              </h2>
+              <p className="mt-3 text-ink-600 leading-relaxed">{produto.promessa}</p>
+              <ul className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm text-ink-700">
+                {[
+                  'E-book com mais de 60 páginas',
+                  '8 videoaulas gravadas no pomar',
+                  'Workbook do Desafio 90 Dias',
+                  'Catálogo com 100+ frutíferas',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2">
+                    <span className="text-forest-600 shrink-0">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="lg:col-span-5 bg-forest-900 text-cream-100 p-6 md:p-10 flex flex-col justify-center">
+              <p className="text-sm text-cream-200">{produto.formato}</p>
+              <p className="mt-1 flex items-baseline gap-3">
+                <span className="text-cream-200 text-lg line-through">{produto.precoDe}</span>
+                <span className="text-4xl font-bold font-display text-white">{produto.preco}</span>
+              </p>
+              <p className="mt-2 text-sm text-cream-200">
+                Pagamento único · Acesso imediato · 7 dias de garantia
+              </p>
+              <Link
+                href="/curso"
+                className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-terracotta-600 px-7 py-4 text-base font-bold text-white hover:bg-terracotta-700 transition"
+              >
+                Conhecer o curso
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="categorias" className="max-w-7xl mx-auto px-4 mt-8 relative z-10">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {categorias.map((cat) => (
             <Link
@@ -184,6 +235,14 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="max-w-7xl mx-auto px-4 py-12 border-t border-cream-200">
+        <YouTubeSection
+          videos={videosDestaques}
+          titulo="Os vídeos mais assistidos do canal"
+          descricao="Seleções e guias que mais bombaram no Frutíferas Orgânicas — comece por aqui."
+        />
+      </section>
+
       <section className="max-w-7xl mx-auto px-4 pb-12">
         <BannerSlot
           variante="compact"
@@ -192,6 +251,10 @@ export default function HomePage() {
           ctaLabel="Onde comprar"
           ctaHref="/frutiferas"
         />
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 pb-12">
+        <CourseCTA />
       </section>
 
       <section className="max-w-7xl mx-auto px-4 pb-12">

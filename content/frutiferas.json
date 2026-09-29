@@ -46,15 +46,6 @@
       "resumo": "Fruta nativa rara, doce e apreciada por colecionadores. O bacupari mirim é uma joia da fruticultura brasileira."
     },
     {
-      "slug": "bacupari-estalo",
-      "nome": "Bacupari Estalo",
-      "imagem": "/frutiferas/bacupari-estalo.webp",
-      "galeria": [
-        "/frutiferas/bacupari-estalo-2.webp"
-      ],
-      "resumo": "Conhecido pelo som característico do fruto ao ser aberto. Uma frutífera rara e saborosa do Cerrado brasileiro."
-    },
-    {
       "slug": "abiu-amarelo",
       "nome": "Abiu Amarelo",
       "imagem": "/frutiferas/abiu-amarelo.webp",

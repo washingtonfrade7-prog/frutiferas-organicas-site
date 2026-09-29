@@ -28,7 +28,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: `${cat.nome} para frutíferas em vaso: onde comprar`,
     description: cat.descricao,
     alternates: { canonical: `/comprar/${cat.slug}` },
-    openGraph: { url: `/comprar/${cat.slug}`, title: `${cat.nome} - ${site.name}` },
+    openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: `/comprar/${cat.slug}`, title: `${cat.nome} - ${site.name}` },
   }
 }
 

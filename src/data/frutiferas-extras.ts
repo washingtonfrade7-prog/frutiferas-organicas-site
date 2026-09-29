@@ -988,7 +988,7 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
   {
     "slug": "bacupari-de-bico",
     "nome": "Bacupari de bico",
-    "nomeCientifico": "Garcinia gardneriana",
+    "nomeCientifico": "Garcinia benthamiana",
     "familia": "",
     "categorias": [
       "nativas",
@@ -1037,18 +1037,8 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
         "tipo": "colheita"
       },
       {
-        "id": "lL6zKrqyTFQ",
-        "titulo": "Coheita e degustação Bacupari Mirim fruta que cura o câncer Garcinia Brasiliense",
-        "tipo": "colheita"
-      },
-      {
         "id": "eVgsjQfFf9Q",
         "titulo": "Colheita FÁCIL: Bacupari de Bico #shorts",
-        "tipo": "colheita"
-      },
-      {
-        "id": "rgB1ejOIMMo",
-        "titulo": "Colheita de bacupari orgânico em vaso 4k",
         "tipo": "colheita"
       },
       {
@@ -1809,7 +1799,18 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "dicas": [
       "Veja no canal os vídeos de cultivo de camu-camu."
     ],
-    "videos": [],
+    "videos": [
+      {
+        "id": "fW4jPwDdTq4",
+        "titulo": "Como plantar Camu Camu (aracá-d'água) orgânico em vaso",
+        "tipo": "plantio"
+      },
+      {
+        "id": "GuMiuvNkEFI",
+        "titulo": "Camu Camu orgânico em vaso — Parte 2",
+        "tipo": "cultivo"
+      }
+    ],
     "imagem": "/frutiferas/camu-camu.webp",
     "galeria": [
       "/frutiferas/camu-camu-2.webp"
@@ -5931,7 +5932,13 @@ const base: Omit<Frutifera, 'ofertas'>[] = [
     "dicas": [
       "Veja no canal os vídeos de cultivo de rambuta."
     ],
-    "videos": [],
+    "videos": [
+      {
+        "id": "fstGO7-RxEk",
+        "titulo": "Como plantar Rambutã orgânico em vaso",
+        "tipo": "plantio"
+      }
+    ],
     "imagem": "/frutiferas/rambuta.webp",
     "galeria": [
       "/frutiferas/rambuta-2.webp"

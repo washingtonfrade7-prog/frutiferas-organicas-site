@@ -9,6 +9,7 @@ import { getCategoria } from '@/data/categorias'
 import { LISTA_MERCADO_LIVRE } from '@/data/afiliados'
 import { breadcrumbJsonLd, faqJsonLd } from '@/lib/seo'
 import { imgUrl, site } from '@/lib/site'
+import CourseCTA from '@/components/CourseCTA'
 import {
   comoEscolherMuda,
   dicasDepoisDeComprar,
@@ -239,6 +240,12 @@ export default function MudaPage({ params }: PageProps) {
           </ul>
         </section>
       )}
+
+      <CourseCTA
+        className="mt-12"
+        titulo="Vai comprar a muda? Aprenda a cultivar do jeito certo"
+        texto="Não basta comprar a muda certa: o segredo está no plantio, na rega e na adubação. No curso, você tem o passo a passo completo em e-book e vídeo."
+      />
 
       <p className="mt-10 text-[11px] text-ink-500 leading-relaxed">
         Links de afiliado. Ao comprar por nossos links, podemos receber uma comissão sem custo

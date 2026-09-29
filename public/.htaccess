@@ -7,6 +7,10 @@ DirectorySlash Off
 RewriteEngine On
 RewriteBase /
 
+# Unificacao de conteudo: bacupari-estalo -> bacupari-mirim (301 permanente)
+RewriteRule ^frutiferas/bacupari-estalo/?$ /frutiferas/bacupari-mirim [R=301,L]
+RewriteRule ^mudas/bacupari-estalo/?$ /mudas/bacupari-mirim [R=301,L]
+
 # OAuth do CMS: caminhos sem extensao -> arquivos .php
 RewriteRule ^admin/oauth/auth/?$ /admin/oauth/auth.php [L]
 RewriteRule ^admin/oauth/callback/?$ /admin/oauth/callback.php [L]

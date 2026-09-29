@@ -27,6 +27,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     description: artigo.descricao,
     alternates: { canonical: `/melhores/${artigo.slug}` },
     openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }],
       url: `/melhores/${artigo.slug}`,
       title: `${artigo.titulo} - ${site.name}`,
       description: artigo.descricao,

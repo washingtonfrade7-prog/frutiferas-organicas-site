@@ -7,7 +7,8 @@ export const metadata: Metadata = {
   description:
     'Fale com o Frutíferas Orgânicas por e-mail ou pelo nosso canal no YouTube. Tire dúvidas sobre cultivo de frutíferas em vaso e parcerias.',
   alternates: { canonical: '/contato' },
-  openGraph: { url: '/contato', title: `Contato - ${site.name}` },
+  openGraph: {
+    images: [{ url: '/og-logo.jpg', width: 1200, height: 630, alt: 'Frutíferas Orgânicas' }], url: '/contato', title: `Contato - ${site.name}` },
 }
 
 export default function ContatoPage() {

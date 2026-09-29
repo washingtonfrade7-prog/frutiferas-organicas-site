@@ -5,10 +5,12 @@ import { notFound } from 'next/navigation'
 import FruitVisual from '@/components/FruitVisual'
 import AffiliateButton from '@/components/AffiliateButton'
 import YouTubeSection from '@/components/YouTubeSection'
+import CourseCTA from '@/components/CourseCTA'
 import BannerSlot from '@/components/BannerSlot'
 import JsonLd from '@/components/JsonLd'
 import AdSlot from '@/components/Ads'
 import { frutiferas, getFrutifera } from '@/data/frutiferas'
+import { getSerie } from '@/data/series'
 import { getCategoria } from '@/data/categorias'
 import { breadcrumbJsonLd, faqJsonLd, fruitJsonLd, videoJsonLd } from '@/lib/seo'
 import { absoluteUrl, imgUrl, site } from '@/lib/site'
@@ -82,6 +84,8 @@ export default function FrutiferaPage({ params }: PageProps) {
     ...(categoriaPrincipal ? [{ name: categoriaPrincipal.nome, path: `/categorias/${categoriaPrincipal.slug}` }] : []),
     { name: fruta.nome, path: `/frutiferas/${fruta.slug}` },
   ]
+
+  const serie = getSerie(fruta.slug)
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
@@ -259,6 +263,27 @@ export default function FrutiferaPage({ params }: PageProps) {
         </div>
       )}
 
+      {serie && (
+        <a
+          href={serie.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 flex items-center gap-4 rounded-2xl border border-cream-200 bg-cream-50 p-5 hover:border-forest-300 transition"
+        >
+          <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-forest-700 text-white">
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </span>
+          <span>
+            <span className="block font-semibold text-ink-900">Acompanhe desde o plantio</span>
+            <span className="block text-sm text-ink-600">
+              {serie.titulo} — {serie.total} {serie.total === 1 ? 'vídeo' : 'vídeos'} no canal
+            </span>
+          </span>
+        </a>
+      )}
+
       <div className="mt-12">
         <BannerSlot
           titulo={`Comece a cultivar ${fruta.nome} hoje mesmo`}
@@ -267,6 +292,12 @@ export default function FrutiferaPage({ params }: PageProps) {
           ctaHref="/frutiferas"
         />
       </div>
+
+      <CourseCTA
+        className="mt-12"
+        titulo={`Aprenda a cultivar ${fruta.nome} (e outras 100) do jeito certo`}
+        texto="O guia completo do plantio à colheita, com e-book, 8 videoaulas práticas e workbook com o Desafio 90 Dias — mesmo em vaso, varanda ou apartamento."
+      />
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-6 font-display">Aprenda a cultivar {fruta.nome}</h2>
