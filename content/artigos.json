@@ -717,6 +717,84 @@
         }
       ],
       "atualizado": "2026-09"
+    },
+    {
+      "slug": "frutiferas-que-produzem-em-vaso",
+      "titulo": "41 frutíferas que produzem muito em vaso",
+      "h1": "41 frutíferas que produzem muito em vaso",
+      "descricao": "Lista com as melhores frutíferas para cultivar em vaso: espécies fáceis, produtivas e de rápido início de produção para varanda, quintal e apartamento.",
+      "resumo": "Cultivar fruta em vaso é possível — desde que você escolha as espécies certas. Reunimos 41 frutíferas que produzem bem em recipiente, organizadas por perfil: as que frutificam rápido, as nativas brasileiras, as raras e os citros para varanda.",
+      "produtos": [
+        "muda-jabuticaba-hibrida",
+        "muda-acerola",
+        "muda-citros",
+        "vaso-polietileno-90l",
+        "substrato-frutiferas-25kg",
+        "bokashi-dimy-1kg"
+      ],
+      "secoes": [
+        {
+          "titulo": "O que faz uma frutífera dar certo em vaso",
+          "paragrafos": [
+            "Não é qualquer espécie que produz bem em recipiente. As melhores frutíferas para vaso reúnem três características: porte compacto, boa tolerância à poda e floração em ramos jovens.",
+            "Além da espécie, três fatores decidem o sucesso: sol (5 a 6 horas por dia), vaso grande (a partir de 20 litros) e substrato fértil e bem drenado. Sem isso, nem a melhor muda produz."
+          ]
+        },
+        {
+          "titulo": "As que produzem no primeiro ou segundo ano",
+          "paragrafos": [
+            "Se você quer resultado rápido, comece por estas: 1) acerola Okinawa; 2) pitanga preta; 3) amora-preta Tupy; 4) amora portuguesa; 5) framboesa silvestre; 6) morango; 7) maracujá gigante; 8) pitaya branca; 9) pitaya vermelha; 10) pitaya amarela.",
+            "Essas espécies florescem em plantas jovens e, com sol e adubação em dia, começam a dar fruto já na primeira ou segunda safra. A pitaya, em especial, pode florar em menos de um ano quando bem conduzida em um poste."
+          ]
+        },
+        {
+          "titulo": "Nativas brasileiras para vaso",
+          "paragrafos": [
+            "As frutíferas nativas são rústicas, adaptadas ao nosso clima e cheias de sabor: 11) jabuticaba híbrida; 12) jabuticaba sabará; 13) jabuticaba branca; 14) pitanga do cerrado; 15) araçá vermelho; 16) araçá amarelo; 17) araçá roxo; 18) araçá boi (fruta iogurte); 19) araçá pera; 20) grumixama preta; 21) grumixama amarela; 22) gabiroba; 23) uvaia; 24) cambuci; 25) cabeludinha roxa; 26) cereja do rio grande.",
+            "A jabuticaba híbrida é a estrela do cultivo em vaso: frutifica em 2 a 3 anos, muito antes da jabuticaba de semente. As mirtáceas (pitanga, araçá, grumixama) formam plantas compactas e muito produtivas."
+          ]
+        },
+        {
+          "titulo": "Raras, exóticas e de alto valor",
+          "paragrafos": [
+            "Para quem quer sair do comum: 27) pitangatuba; 28) bacupari mirim; 29) bacupari de bico; 30) dovyalis doce (campari); 31) fruta do milagre; 32) camu-camu; 33) canistel; 34) atemoia; 35) biriba; 36) mangostão.",
+            "Muitas dessas espécies têm frutos que quase não se encontram no mercado — o que torna o cultivo em casa ainda mais recompensador. Algumas, como a atemoia e a biriba, produzem melhor com polinização manual."
+          ]
+        },
+        {
+          "titulo": "Citros e outras para varanda",
+          "paragrafos": [
+            "Os citros se adaptam muito bem a vasos grandes e perfumam o ambiente: 37) laranja kinkan; 38) limão siciliano; 39) limão cravo caipira; 40) mexerica ponkan; 41) laranja champagne.",
+            "Além deles, romã, figo e goiaba amarela também vão muito bem em vaso e completam qualquer coleção. Todos pedem sol pleno e adubação constante."
+          ]
+        },
+        {
+          "titulo": "Como começar sem errar",
+          "paragrafos": [
+            "Comece com 2 ou 3 espécies fáceis — acerola, pitanga e pitaya são ótimas escolhas. Use vasos grandes, substrato drenado e mudas enxertadas, que frutificam mais cedo.",
+            "Depois que você pegar o ritmo da rega e da adubação, vá ampliando a coleção. É mais fácil cuidar bem de poucas plantas do que de muitas ao mesmo tempo."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "pergunta": "Qual frutífera produz mais rápido em vaso?",
+          "resposta": "Acerola, pitanga, amora, maracujá e pitaya costumam produzir em 1 a 2 anos, com sol suficiente e adubação em dia."
+        },
+        {
+          "pergunta": "Dá para ter todas essas frutíferas em apartamento?",
+          "resposta": "Dá para ter várias, desde que a varanda receba sol direto por 5 a 6 horas. Sem sol suficiente, a frutificação fica difícil — prefira as espécies de meia-sombra, como araçá e grumixama."
+        },
+        {
+          "pergunta": "Qual o tamanho de vaso ideal?",
+          "resposta": "No mínimo 20 litros para espécies compactas; 40 a 90 litros para jabuticaba, citros e outras de maior porte. Quanto maior o vaso, mais estável o cultivo."
+        },
+        {
+          "pergunta": "Preciso de muda enxertada?",
+          "resposta": "Não é obrigatório, mas mudas enxertadas ou de alporque frutificam em 1 a 3 anos, contra 5 a 10 anos das plantas de semente."
+        }
+      ],
+      "atualizado": "2026-09"
     }
   ]
 }

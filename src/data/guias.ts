@@ -447,5 +447,96 @@ export const guias: Guia[] = [
         "titulo": "Quanto PAGAMOS  em nossa CHÁCARA  de 4000  metros Nova Lima MG #chacaradozero"
       }
     ]
+  },
+  {
+    "slug": "poda-de-pitaya",
+    "nome": "Como podar pitaya",
+    "descricao": "Poda de condução, limpeza e indução de floração da pitaya em vaso.",
+    "videos": [
+      {
+        "id": "Rt98bUg6j40",
+        "titulo": "Como Fazer Poda de PRODUÇÃO da Pitaya FÁCIL E RÁPIDO!!!"
+      },
+      {
+        "id": "6-SVaIzddxc",
+        "titulo": "Poda Indução de floração Pitaya orgânica 4K"
+      },
+      {
+        "id": "D3AUMSISCgo",
+        "titulo": "Como fazer poda de indução de floração de pitayas passo a passo 4k"
+      },
+      {
+        "id": "seVdIdkWzAk",
+        "titulo": "Como cuidar da pitaya com doença da podridão do cladodio/ramo"
+      }
+    ]
+  },
+  {
+    "slug": "pitaya-madura",
+    "nome": "Como saber se a pitaya está madura",
+    "descricao": "Ponto de colheita, cor, brácteas e conservação da pitaya.",
+    "videos": [
+      {
+        "id": "TZXvS4kQk4Q",
+        "titulo": "Como saber se a PITAYA ESTÁ MADURA"
+      },
+      {
+        "id": "qGFQLQv3mJo",
+        "titulo": "Como saber a hora de colher a Pitaya? 4k"
+      },
+      {
+        "id": "S601w29_kKc",
+        "titulo": "Como saber se a pitaya está madura"
+      },
+      {
+        "id": "xayODYHI8uQ",
+        "titulo": "Como se come a Pitaya? Aprenda as formas neste vídeo!  4k"
+      }
+    ]
+  },
+  {
+    "slug": "plantar-pitaya",
+    "nome": "Como plantar pitaya em vaso",
+    "descricao": "Poste, substrato, drenagem e plantio da pitaya em vaso.",
+    "videos": [
+      {
+        "id": "gQWQQ0M6h24",
+        "titulo": "Como plantar Pitaya orgânica em vasos com poste de concreto ou madeira 16/05/2017"
+      },
+      {
+        "id": "g9-C-BD-onU",
+        "titulo": "COMO fazer Enxerto Pitaya FÁCIL MELHORES TÉCNICAS Passo a PASSO"
+      },
+      {
+        "id": "fC9IXKJ1leU",
+        "titulo": "Como polinizar as flores da Pitaya(dragon fruit) 4k"
+      }
+    ]
+  },
+  {
+    "slug": "curtir-esterco",
+    "nome": "Como curtir esterco",
+    "descricao": "Como curtir esterco de aves, gado e cavalo sem queimar as plantas.",
+    "videos": [
+      {
+        "id": "Kctwyw0hljM",
+        "titulo": "Como curtir esterco de codorna, galinha, cavalo, porco, gado, bode, coelho"
+      },
+      {
+        "id": "9AS3Qt-jCA4",
+        "titulo": "Como curtir esterco direto ao ponto! em pouco espaço!!!"
+      }
+    ]
+  },
+  {
+    "slug": "compostagem",
+    "nome": "Compostagem de folhas secas",
+    "descricao": "Como transformar folhas secas em composto orgânico para as frutíferas.",
+    "videos": [
+      {
+        "id": "qlep2kMbwuI",
+        "titulo": "Como fazer COMPOSTAGEM de Folhas Secas, TRUQUE QUE AGILIZA EM 5X A DECOMPOSIÇÃO"
+      }
+    ]
   }
 ]
