@@ -7,6 +7,10 @@ DirectorySlash Off
 RewriteEngine On
 RewriteBase /
 
+# Canonical: www -> sem www (301 permanente), evita conteudo duplicado
+RewriteCond %{HTTP_HOST} ^www\.frutiferasorganicas\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://frutiferasorganicas.com.br/$1 [R=301,L]
+
 # Unificacao de conteudo: bacupari-estalo -> bacupari-mirim (301 permanente)
 RewriteRule ^frutiferas/bacupari-estalo/?$ /frutiferas/bacupari-mirim [R=301,L]
 RewriteRule ^mudas/bacupari-estalo/?$ /mudas/bacupari-mirim [R=301,L]

@@ -3,10 +3,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import YouTubeSection from '@/components/YouTubeSection'
 import BannerSlot from '@/components/BannerSlot'
+import JsonLd from '@/components/JsonLd'
 import AdSlot from '@/components/Ads'
 import { frutiferas } from '@/data/frutiferas'
 import { playlists } from '@/data/playlists'
 import { series } from '@/data/series'
+import { videoJsonLd } from '@/lib/seo'
 import { site, youtubeChannelUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
@@ -20,9 +22,11 @@ export const metadata: Metadata = {
 
 export default function VideosPage() {
   const porFruta = frutiferas.filter((f) => f.videos.length > 0)
+  const videosSeo = porFruta.flatMap((f) => f.videos.slice(0, 1)).slice(0, 24)
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
+      <JsonLd data={videoJsonLd(videosSeo)} />
       <nav className="flex items-center gap-2 text-sm text-ink-500 mb-6">
         <Link href="/" className="hover:text-forest-600">Início</Link>
         <span>/</span>

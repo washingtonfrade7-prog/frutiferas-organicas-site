@@ -7,11 +7,13 @@ import BannerSlot from '@/components/BannerSlot'
 import CourseCTA from '@/components/CourseCTA'
 import YouTubeSection from '@/components/YouTubeSection'
 import NewsletterCTA from '@/components/NewsletterCTA'
+import JsonLd from '@/components/JsonLd'
 import AdSlot from '@/components/Ads'
 import { categorias } from '@/data/categorias'
 import { getDestaques, frutiferas, todosOsVideos } from '@/data/frutiferas'
 import { videosDestaques } from '@/data/destaques'
 import { produto } from '@/data/produto'
+import { videoJsonLd } from '@/lib/seo'
 import { site, youtubeChannelUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
@@ -27,9 +29,13 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const destaques = getDestaques()
   const videosDestaque = todosOsVideos().slice(0, 2)
+  const videosSeo = [...videosDestaque, ...videosDestaques].filter(
+    (video, i, arr) => arr.findIndex((v) => v.id === video.id) === i
+  )
 
   return (
     <>
+      <JsonLd data={videoJsonLd(videosSeo)} />
       <section className="relative overflow-hidden bg-gradient-to-br from-forest-700 via-forest-500 to-forest-700 text-white">
         <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-terracotta-500/20 blur-3xl" />
         <div className="max-w-7xl mx-auto px-4 py-12 md:py-16 relative">

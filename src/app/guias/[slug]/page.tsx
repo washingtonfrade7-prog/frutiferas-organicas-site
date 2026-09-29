@@ -9,7 +9,7 @@ import AdSlot from '@/components/Ads'
 import { topicos, getTopico } from '@/data/aprender'
 import { getGuiaPlaylist } from '@/data/guias-playlists'
 import { guias } from '@/data/guias'
-import { breadcrumbJsonLd, faqJsonLd, howToJsonLd } from '@/lib/seo'
+import { breadcrumbJsonLd, faqJsonLd, howToJsonLd, videoJsonLd } from '@/lib/seo'
 import { site, youtubeChannelUrl } from '@/lib/site'
 
 interface PageProps {
@@ -66,6 +66,7 @@ export default function TopicoPage({ params }: PageProps) {
       {topico.faq.length > 0 && (
         <JsonLd data={faqJsonLd(topico.faq.map((f) => ({ pergunta: f.p, resposta: f.r })))} />
       )}
+      {videos.length > 0 && <JsonLd data={videoJsonLd(videos.slice(0, 6))} />}
 
       <nav className="flex flex-wrap items-center gap-2 text-sm text-ink-500 mb-6">
         <Link href="/" className="hover:text-forest-600">Início</Link>

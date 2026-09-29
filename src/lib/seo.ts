@@ -1,5 +1,5 @@
 import { absoluteUrl, site } from '@/lib/site'
-import { youtubeThumbnail } from '@/lib/video'
+import videoDatasJson from '@/data/video-datas.json'
 
 export function organizationJsonLd(): string {
   return JSON.stringify({
@@ -64,23 +64,37 @@ export function articleJsonLd(article: {
   })
 }
 
+// Datas reais de publicacao dos videos do canal (geradas a partir da API do
+// YouTube). O Google exige uploadDate no VideoObject para exibir o video nos
+// resultados de busca; sem esse campo o rich result nao aparece.
+const videoDatas = videoDatasJson as Record<string, string>
+const DATA_FALLBACK = '2024-01-01T12:00:00+00:00'
+
+function uploadDateDoVideo(id: string): string {
+  return videoDatas[id] || DATA_FALLBACK
+}
+
 export function videoJsonLd(videos: { id: string; titulo: string }[]): string {
-  return JSON.stringify({
+  const itens = videos.map((video) => ({
     '@context': 'https://schema.org',
-    '@type': 'ItemList',
-    itemListElement: videos.map((video, i) => ({
-      '@type': 'ListItem',
-      position: i + 1,
-      item: {
-        '@type': 'VideoObject',
-        name: video.titulo,
-        embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
-        thumbnailUrl: youtubeThumbnail(`https://www.youtube.com/watch?v=${video.id}`),
-        uploadDate: undefined,
-        description: video.titulo,
-      },
-    })),
-  })
+    '@type': 'VideoObject',
+    name: video.titulo,
+    description: video.titulo,
+    thumbnailUrl: [`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`],
+    uploadDate: uploadDateDoVideo(video.id),
+    embedUrl: `https://www.youtube-nocookie.com/embed/${video.id}`,
+    contentUrl: `https://www.youtube.com/watch?v=${video.id}`,
+    url: `https://www.youtube.com/watch?v=${video.id}`,
+    inLanguage: 'pt-BR',
+    isFamilyFriendly: true,
+    publisher: {
+      '@type': 'Organization',
+      name: site.name,
+      url: site.url,
+      logo: { '@type': 'ImageObject', url: `${site.url}/logo.png` },
+    },
+  }))
+  return JSON.stringify(itens.length === 1 ? itens[0] : itens)
 }
 
 export function faqJsonLd(faq: { pergunta: string; resposta: string }[]): string {
