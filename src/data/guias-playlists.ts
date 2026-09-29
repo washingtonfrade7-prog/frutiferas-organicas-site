@@ -26,6 +26,11 @@ export const guiaPlaylists: Record<string, GuiaPlaylist> = {
   'plantar-pitaya': pl('PL25OT3jzD2Q1GdLyaycdKlH9JTZgR-LLB', 'Pitayas orgânicas desde o plantio', 83),
   'curtir-esterco': pl('PL25OT3jzD2Q1B9FmqECDC2Viv2VWwR5Ug', 'Como adubar frutíferas em vasos', 25),
   compostagem: pl('PL25OT3jzD2Q3vXt_nV4lMHn4cF8YmUXdz', 'Cuidados básicos com pomar em vasos', 75),
+  'calda-bordalesa': pl('PL25OT3jzD2Q3vXt_nV4lMHn4cF8YmUXdz', 'Cuidados básicos com pomar em vasos', 75),
+  'irrigacao-automatica': pl('PL25OT3jzD2Q3vXt_nV4lMHn4cF8YmUXdz', 'Cuidados básicos com pomar em vasos', 75),
+  'poda-de-goiaba': pl('PL25OT3jzD2Q04n7zMkIrKPiu_GmJUtQNh', 'Como podar frutíferas', 55),
+  'poda-de-acerola': pl('PL25OT3jzD2Q04n7zMkIrKPiu_GmJUtQNh', 'Como podar frutíferas', 55),
+  'graviola-frutificar': pl('PL25OT3jzD2Q2fgwpxYtpE6PNWiFng5uBd', 'Frutas o ano inteiro', 36),
 }
 
 export function getGuiaPlaylist(slug: string): GuiaPlaylist | undefined {

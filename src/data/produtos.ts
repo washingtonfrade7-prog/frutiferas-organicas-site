@@ -77,6 +77,20 @@ export const categoriasCompra: CategoriaCompra[] = [
     resumo:
       'Mudas enxertadas ou de alporque começam a produzir em 1 a 3 anos, contra 5 a 10 anos das plantas de semente.',
   },
+  {
+    slug: 'suportes',
+    nome: 'Postes e suportes',
+    descricao: 'Postes, estacas e treliças para pitaya, videira e outras trepadeiras.',
+    resumo:
+      'Frutíferas trepadeiras, como a pitaya, precisam de um poste ou suporte firme para subir e formar os ramos produtivos. Um bom suporte dura anos e não machuca a planta.',
+  },
+  {
+    slug: 'compostagem',
+    nome: 'Composteiras e minhocários',
+    descricao: 'Composteiras, minhocários e itens para produzir adubo orgânico em casa.',
+    resumo:
+      'Produzir o próprio adubo reduz custos e melhora o substrato. Composteiras e minhocários transformam restos de folhas e comida em composto e húmus de alta qualidade.',
+  },
 ]
 
 const baseProdutos: Produto[] = [
@@ -369,6 +383,101 @@ const baseProdutos: Produto[] = [
     pros: ['Corta galhos grossos', 'Dobrável e segura', 'Boa para poda de renovação'],
     contras: ['Menos precisa que a tesoura', 'Precisa de cuidado com a lâmina'],
     faixaPreco: 'R$ 40 a R$ 100',
+    lojas: {},
+  },
+
+  // MUDAS (pitaya)
+  {
+    slug: 'muda-pitaya',
+    nome: 'Muda de pitaya (dragon fruit)',
+    categoria: 'mudas',
+    resumo:
+      'Cladódio de pitaya pronto para plantar, de variedade produtiva. É a forma mais rápida de começar a produzir em vaso.',
+    paraQuem: 'Quem quer pitaya frutificando em 1 a 2 anos.',
+    pros: ['Frutifica mais rápido que a de semente', 'Rústica e produtiva', 'Ótima para vaso com poste'],
+    contras: ['Precisa de sol pleno', 'Exige suporte (poste)'],
+    faixaPreco: 'R$ 30 a R$ 90',
+    destaque: true,
+    lojas: {},
+  },
+
+  // SUPORTES
+  {
+    slug: 'poste-para-pitaya',
+    nome: 'Poste de concreto para pitaya',
+    categoria: 'suportes',
+    resumo:
+      'Poste de concreto (ou madeira tratada) de cerca de 1,5 m, usado como apoio para a pitaya subir e formar os ramos produtivos.',
+    paraQuem: 'Quem vai plantar pitaya em vaso ou canteiro.',
+    pros: ['Muito durável', 'Sustenta a planta carregada', 'Não apodrece como a madeira'],
+    contras: ['Pesado', 'Precisa ser fixado no vaso'],
+    faixaPreco: 'R$ 40 a R$ 120',
+    lojas: {},
+  },
+  {
+    slug: 'suporte-trepadeira',
+    nome: 'Treliça / suporte para trepadeiras',
+    categoria: 'suportes',
+    resumo:
+      'Estrutura de apoio para maracujá, videira e outras trepadeiras em vaso.',
+    paraQuem: 'Quem cultiva trepadeiras em varanda.',
+    pros: ['Fácil de instalar', 'Ajuda a conduzir a planta', 'Versátil'],
+    contras: ['Menos robusta que o poste de concreto', 'Pode precisar de reforço'],
+    faixaPreco: 'R$ 30 a R$ 100',
+    lojas: {},
+  },
+
+  // COMPOSTAGEM
+  {
+    slug: 'composteira-domestica',
+    nome: 'Composteira doméstica',
+    categoria: 'compostagem',
+    resumo:
+      'Composteira para transformar restos de folhas e comida em composto orgânico, sem mau cheiro.',
+    paraQuem: 'Quem quer produzir o próprio adubo em casa.',
+    pros: ['Reduz o lixo', 'Produz adubo de qualidade', 'Modelos compactos para varanda'],
+    contras: ['Precisa de manejo periódico', 'Pode atrair insetos se mal usada'],
+    faixaPreco: 'R$ 60 a R$ 250',
+    destaque: true,
+    lojas: {},
+  },
+  {
+    slug: 'minhocario-domestico',
+    nome: 'Minhocário doméstico',
+    categoria: 'compostagem',
+    resumo:
+      'Caixa para criação de minhocas, que produz húmus líquido e sólido — o melhor adubo orgânico para frutíferas.',
+    paraQuem: 'Quem quer húmus de minhoca caseiro o ano todo.',
+    pros: ['Húmus de altíssima qualidade', 'Produz adubo líquido', 'Compacto'],
+    contras: ['Precisa manter umidade e alimentação', 'Sensível a temperatura extrema'],
+    faixaPreco: 'R$ 80 a R$ 300',
+    lojas: {},
+  },
+
+  // IRRIGACAO (extra)
+  {
+    slug: 'kit-irrigacao-automatica',
+    nome: 'Kit de irrigação automática por gotejamento',
+    categoria: 'irrigacao',
+    resumo:
+      'Sistema de gotejamento com timer para regar as frutíferas em vaso automaticamente, ideal para quem viaja.',
+    paraQuem: 'Quem tem várias plantas e quer automatizar a rega.',
+    pros: ['Rega programada', 'Economiza água', 'Reduz perdas por esquecimento'],
+    contras: ['Precisa de montagem', 'Requer limpeza dos gotejadores'],
+    faixaPreco: 'R$ 90 a R$ 250',
+    destaque: true,
+    lojas: {},
+  },
+  {
+    slug: 'timer-irrigacao',
+    nome: 'Timer / programador de rega',
+    categoria: 'irrigacao',
+    resumo:
+      'Programador que liga e desliga a rega em horários definidos, para acoplar em mangueiras e sistemas de gotejamento.',
+    paraQuem: 'Quem já tem sistema de rega e quer automatizar.',
+    pros: ['Fácil de programar', 'Funciona com pilha', 'Compatível com gotejamento'],
+    contras: ['Não bombeia água por si', 'Precisa de pressão na torneira'],
+    faixaPreco: 'R$ 50 a R$ 150',
     lojas: {},
   },
 ]

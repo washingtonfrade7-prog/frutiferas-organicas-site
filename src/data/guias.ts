@@ -538,5 +538,90 @@ export const guias: Guia[] = [
         "titulo": "Como fazer COMPOSTAGEM de Folhas Secas, TRUQUE QUE AGILIZA EM 5X A DECOMPOSIÇÃO"
       }
     ]
+  },
+  {
+    "slug": "calda-bordalesa",
+    "nome": "Calda bordalesa",
+    "descricao": "Como preparar e aplicar a calda bordalesa contra fungos.",
+    "videos": [
+      {
+        "id": "yXPEve-AUxU",
+        "titulo": "Como fazer calda bordalesa pequena quantidade 5 Litros 4k"
+      },
+      {
+        "id": "9yjEKkCt0Ww",
+        "titulo": "Como Fazer 1 LITRO DE CALDA BORDALESA Fácil e rápido"
+      }
+    ]
+  },
+  {
+    "slug": "vasos-de-cimento",
+    "nome": "Vasos de cimento caseiros",
+    "descricao": "Como fazer vasos de cimento de 20 a 100 litros para frutíferas.",
+    "videos": [
+      {
+        "id": "X72PCoH0Kaw",
+        "titulo": "Como fazer Vasos de cimento de 20L, 40L, 60L, 50L, 80L, 100L"
+      }
+    ]
+  },
+  {
+    "slug": "poda-de-goiaba",
+    "nome": "Como podar goiaba",
+    "descricao": "Quando e como podar a goiabeira em vaso.",
+    "videos": [
+      {
+        "id": "dSHkNBgUMnw",
+        "titulo": "Quando podar pé de goiaba, como podar pé de goiaba 4k"
+      }
+    ]
+  },
+  {
+    "slug": "graviola-frutificar",
+    "nome": "Como fazer a graviola vingar",
+    "descricao": "Por que a graviola perde frutos e como garantir a produção.",
+    "videos": [
+      {
+        "id": "5oud5Rdlvbo",
+        "titulo": "Como fazer fruta da graviola vingar, NUNCA mais perca 1 fruta com está técnica"
+      }
+    ]
+  },
+  {
+    "slug": "irrigacao-automatica",
+    "nome": "Irrigação automática",
+    "descricao": "Como montar um sistema de rega automática para o pomar em vaso.",
+    "videos": [
+      {
+        "id": "AzWb9b4_9rU",
+        "titulo": "Como Fazer Irrigação automática do seu Pomar, Jardim ou horta! TUTORIAL COMPLETO!!!"
+      },
+      {
+        "id": "_-nmrn1nXJg",
+        "titulo": "Como irrigar frutíferas em vasos corretamente 4k"
+      }
+    ]
+  },
+  {
+    "slug": "poda-de-acerola",
+    "nome": "Como podar acerola",
+    "descricao": "Como e quando podar a aceroleira em vaso.",
+    "videos": [
+      {
+        "id": "pVcRDCutCPE",
+        "titulo": "Como podar pé de acerola passo a passo."
+      }
+    ]
+  },
+  {
+    "slug": "araca-diferencas",
+    "nome": "Araçá vermelho, amarelo e roxo",
+    "descricao": "As diferenças entre as variedades de araçá.",
+    "videos": [
+      {
+        "id": "hBePeYq9HQ0",
+        "titulo": "Diferenças entre araçá vermelho, amarelo e o roxo entenda!"
+      }
+    ]
   }
 ]
